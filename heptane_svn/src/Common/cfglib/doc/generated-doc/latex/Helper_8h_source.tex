@@ -1,0 +1,178 @@
+\hypertarget{Helper_8h_source}{}\doxysection{Helper.\+h}
+\label{Helper_8h_source}\index{include/Helper.h@{include/Helper.h}}
+\mbox{\hyperlink{Helper_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{/* -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{2 \textcolor{comment}{}}
+\DoxyCodeLine{3 \textcolor{comment}{Copyright IRISA, 2003-\/2017}}
+\DoxyCodeLine{4 \textcolor{comment}{}}
+\DoxyCodeLine{5 \textcolor{comment}{This file is part of Heptane, a tool for Worst-\/Case Execution Time (WCET)}}
+\DoxyCodeLine{6 \textcolor{comment}{estimation.}}
+\DoxyCodeLine{7 \textcolor{comment}{APP deposit IDDN.FR.001.510039.000.S.P.2003.000.10600}}
+\DoxyCodeLine{8 \textcolor{comment}{}}
+\DoxyCodeLine{9 \textcolor{comment}{Heptane is free software: you can redistribute it and/or modify}}
+\DoxyCodeLine{10 \textcolor{comment}{it under the terms of the GNU General Public License as published by}}
+\DoxyCodeLine{11 \textcolor{comment}{the Free Software Foundation, either version 3 of the License, or}}
+\DoxyCodeLine{12 \textcolor{comment}{(at your option) any later version.}}
+\DoxyCodeLine{13 \textcolor{comment}{}}
+\DoxyCodeLine{14 \textcolor{comment}{Heptane is distributed in the hope that it will be useful,}}
+\DoxyCodeLine{15 \textcolor{comment}{but WITHOUT ANY WARRANTY; without even the implied warranty of}}
+\DoxyCodeLine{16 \textcolor{comment}{MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the}}
+\DoxyCodeLine{17 \textcolor{comment}{GNU General Public License for more details (COPYING.txt).}}
+\DoxyCodeLine{18 \textcolor{comment}{}}
+\DoxyCodeLine{19 \textcolor{comment}{See CREDITS.txt for credits of authorship}}
+\DoxyCodeLine{20 \textcolor{comment}{}}
+\DoxyCodeLine{21 \textcolor{comment}{-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/ */}}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#ifndef \_IRISA\_CFGLIB\_HELPER\_H}}
+\DoxyCodeLine{24 \textcolor{preprocessor}{\#define \_IRISA\_CFGLIB\_HELPER\_H}}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#include <sstream>}}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{33 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespacecfglib}{cfglib}} }
+\DoxyCodeLine{34 \{}
+\DoxyCodeLine{37     \textcolor{keyword}{namespace }helper \{}
+\DoxyCodeLine{38         \textcolor{keyword}{template}<\textcolor{keyword}{class} K, \textcolor{keyword}{class} T>}
+\DoxyCodeLine{39             \textcolor{keyword}{inline} std::vector<T> \mbox{\hyperlink{namespacecfglib_1_1helper_a19a9a96e2983d6757fce8c6843f37b89}{get\_values\_of\_map}}(std::map<K, T> mymap)}
+\DoxyCodeLine{40             \{}
+\DoxyCodeLine{41                 std::vector<T> values ;}
+\DoxyCodeLine{42                 \textcolor{keywordflow}{for} (\textcolor{keyword}{typename} std::map<K,T>::const\_iterator it =}
+\DoxyCodeLine{43                         mymap.begin() ;}
+\DoxyCodeLine{44                         it != mymap.end() ;}
+\DoxyCodeLine{45                         it++)}
+\DoxyCodeLine{46                 \{ values.push\_back(it-\/>second) ; \}}
+\DoxyCodeLine{47                 \textcolor{keywordflow}{return} values ;}
+\DoxyCodeLine{48             \}}
+\DoxyCodeLine{49 }
+\DoxyCodeLine{50         \textcolor{keyword}{template}<\textcolor{keyword}{typename} K, \textcolor{keyword}{typename} T>}
+\DoxyCodeLine{51             \textcolor{keyword}{inline} std::vector<K> \mbox{\hyperlink{namespacecfglib_1_1helper_aa5d61c32fe5ae5e7595953d8a9f6084b}{get\_keys\_of\_map}}(std::map<K, T> mymap)}
+\DoxyCodeLine{52             \{}
+\DoxyCodeLine{53                 std::vector<K> keys ;}
+\DoxyCodeLine{54                 \textcolor{keywordflow}{for} (\textcolor{keyword}{typename} std::map<K,T>::const\_iterator it =}
+\DoxyCodeLine{55                         mymap.begin() ;}
+\DoxyCodeLine{56                         it != mymap.end() ;}
+\DoxyCodeLine{57                         it++)}
+\DoxyCodeLine{58                 \{ keys.push\_back(it-\/>first) ; \}}
+\DoxyCodeLine{59                 \textcolor{keywordflow}{return} keys ;}
+\DoxyCodeLine{60             \}}
+\DoxyCodeLine{61 }
+\DoxyCodeLine{62         \textcolor{keyword}{inline} std::string \mbox{\hyperlink{namespacecfglib_1_1helper_ae880d04f2f8ac3fecbda16531db992b5}{int\_to\_string}}(\textcolor{keywordtype}{int} \textcolor{keyword}{const}\& i)}
+\DoxyCodeLine{63         \{}
+\DoxyCodeLine{64             std::ostringstream str ;}
+\DoxyCodeLine{65             str << i ;}
+\DoxyCodeLine{66             \textcolor{keywordflow}{return} str.str() ;}
+\DoxyCodeLine{67         \}}
+\DoxyCodeLine{68 }
+\DoxyCodeLine{69         \textcolor{keyword}{inline} \textcolor{keywordtype}{void} \mbox{\hyperlink{namespacecfglib_1_1helper_a881befb2313de589fc1f352316fa139f}{substitute\_all\_substrings}}(}
+\DoxyCodeLine{70                            std::string\& cp,}
+\DoxyCodeLine{71                            std::string \textcolor{keyword}{const}\& for\_this,}
+\DoxyCodeLine{72                            std::string \textcolor{keyword}{const}\& sub\_this)}
+\DoxyCodeLine{73         \{}
+\DoxyCodeLine{74             \textcolor{keywordflow}{if} (cp.empty())}
+\DoxyCodeLine{75             \{}
+\DoxyCodeLine{76                 \textcolor{comment}{//cp = sub\_this;}}
+\DoxyCodeLine{77                 \textcolor{keywordflow}{return};}
+\DoxyCodeLine{78             \}}
+\DoxyCodeLine{79             \textcolor{keywordtype}{size\_t} prec\_loc\_end=0 ;}
+\DoxyCodeLine{80             \textcolor{keywordflow}{while} (\textcolor{keyword}{true})}
+\DoxyCodeLine{81             \{}
+\DoxyCodeLine{82                 \textcolor{keywordtype}{size\_t} loc = cp.find(for\_this,prec\_loc\_end);}
+\DoxyCodeLine{83                 \textcolor{keywordflow}{if} (loc != std::string::npos)}
+\DoxyCodeLine{84                 \{   cp.replace(loc,for\_this.length(),sub\_this);}
+\DoxyCodeLine{85                     prec\_loc\_end = loc + sub\_this.length() ;}
+\DoxyCodeLine{86                 \}}
+\DoxyCodeLine{87                 \textcolor{keywordflow}{else} }
+\DoxyCodeLine{88                 \{   \textcolor{keywordflow}{return}; \}}
+\DoxyCodeLine{89             \}}
+\DoxyCodeLine{90         \}}
+\DoxyCodeLine{91 }
+\DoxyCodeLine{92         \textcolor{keyword}{inline} std::string \mbox{\hyperlink{namespacecfglib_1_1helper_aba2387b203342db23a47897b59779631}{escape\_xml}}(std::string \textcolor{keyword}{const}\& str)}
+\DoxyCodeLine{93         \{}
+\DoxyCodeLine{94             std::string escaped(str) ;}
+\DoxyCodeLine{95             \mbox{\hyperlink{namespacecfglib_1_1helper_a881befb2313de589fc1f352316fa139f}{substitute\_all\_substrings}}(escaped, \textcolor{stringliteral}{"{}\&"{}}, \textcolor{stringliteral}{"{}\&amp;"{}}) ;}
+\DoxyCodeLine{96             \mbox{\hyperlink{namespacecfglib_1_1helper_a881befb2313de589fc1f352316fa139f}{substitute\_all\_substrings}}(escaped, \textcolor{stringliteral}{"{}\(\backslash\)"{}"{}}, \textcolor{stringliteral}{"{}\&quot;"{}}) ;}
+\DoxyCodeLine{97             \mbox{\hyperlink{namespacecfglib_1_1helper_a881befb2313de589fc1f352316fa139f}{substitute\_all\_substrings}}(escaped, \textcolor{stringliteral}{"{}>"{}}, \textcolor{stringliteral}{"{}\&gt;"{}}) ;}
+\DoxyCodeLine{98             \mbox{\hyperlink{namespacecfglib_1_1helper_a881befb2313de589fc1f352316fa139f}{substitute\_all\_substrings}}(escaped, \textcolor{stringliteral}{"{}<"{}}, \textcolor{stringliteral}{"{}\&lt;"{}}) ;}
+\DoxyCodeLine{99             \mbox{\hyperlink{namespacecfglib_1_1helper_a881befb2313de589fc1f352316fa139f}{substitute\_all\_substrings}}(escaped, \textcolor{stringliteral}{"{}'"{}}, \textcolor{stringliteral}{"{}\&apos;"{}}) ;}
+\DoxyCodeLine{100             \textcolor{keywordflow}{return} escaped ;}
+\DoxyCodeLine{101         \}}
+\DoxyCodeLine{102 }
+\DoxyCodeLine{103         \textcolor{keyword}{inline} std::string \mbox{\hyperlink{namespacecfglib_1_1helper_a4bde730048efc8d68682f368b010f18d}{unescape\_xml}}(std::string \textcolor{keyword}{const}\& str)}
+\DoxyCodeLine{104         \{}
+\DoxyCodeLine{105             std::string escaped(str) ;}
+\DoxyCodeLine{106             \mbox{\hyperlink{namespacecfglib_1_1helper_a881befb2313de589fc1f352316fa139f}{substitute\_all\_substrings}}(escaped, \textcolor{stringliteral}{"{}\&quot;"{}}, \textcolor{stringliteral}{"{}\(\backslash\)"{}"{}}) ;}
+\DoxyCodeLine{107             \mbox{\hyperlink{namespacecfglib_1_1helper_a881befb2313de589fc1f352316fa139f}{substitute\_all\_substrings}}(escaped, \textcolor{stringliteral}{"{}\&gt;"{}},   \textcolor{stringliteral}{"{}>"{}} ) ;}
+\DoxyCodeLine{108             \mbox{\hyperlink{namespacecfglib_1_1helper_a881befb2313de589fc1f352316fa139f}{substitute\_all\_substrings}}(escaped, \textcolor{stringliteral}{"{}\&lt;"{}},   \textcolor{stringliteral}{"{}<"{}} ) ;}
+\DoxyCodeLine{109             \mbox{\hyperlink{namespacecfglib_1_1helper_a881befb2313de589fc1f352316fa139f}{substitute\_all\_substrings}}(escaped, \textcolor{stringliteral}{"{}\&apos;"{}}, \textcolor{stringliteral}{"{}'"{}} ) ;}
+\DoxyCodeLine{110             \mbox{\hyperlink{namespacecfglib_1_1helper_a881befb2313de589fc1f352316fa139f}{substitute\_all\_substrings}}(escaped, \textcolor{stringliteral}{"{}\&amp;"{}},  \textcolor{stringliteral}{"{}\&"{}} ) ;}
+\DoxyCodeLine{111             \textcolor{keywordflow}{return} escaped ;}
+\DoxyCodeLine{112         \}}
+\DoxyCodeLine{113 }
+\DoxyCodeLine{114       \textcolor{keyword}{inline} std::vector<std::string> \mbox{\hyperlink{namespacecfglib_1_1helper_aa9f3622699838e68e86d7539f6d23fb4}{split\_string}}(}
+\DoxyCodeLine{115                                std::string \textcolor{keyword}{const}\& input, }
+\DoxyCodeLine{116                                std::string \textcolor{keyword}{const}\& delimiter,}
+\DoxyCodeLine{117                                \textcolor{keywordtype}{bool} empty\_fields=\textcolor{keyword}{false}) }
+\DoxyCodeLine{118       \{}
+\DoxyCodeLine{119         \textcolor{keyword}{using} std::vector ;}
+\DoxyCodeLine{120         \textcolor{keyword}{using} std::string ;}
+\DoxyCodeLine{121         }
+\DoxyCodeLine{122         vector<string> result ; }
+\DoxyCodeLine{123         }
+\DoxyCodeLine{124         \textcolor{keywordflow}{if} ((input.size() == 0 ) || (delimiter.size() == 0))}
+\DoxyCodeLine{125           \{ \textcolor{keywordflow}{return} result; \}}
+\DoxyCodeLine{126         }
+\DoxyCodeLine{127         string::size\_type size\_delim = delimiter.size() ;}
+\DoxyCodeLine{128         string::size\_type prec\_pos = 0;}
+\DoxyCodeLine{129         string::size\_type cur\_pos = input.find(delimiter, 0);}
+\DoxyCodeLine{130         \textcolor{keywordflow}{while} (cur\_pos != string::npos)}
+\DoxyCodeLine{131           \{}
+\DoxyCodeLine{132         \textcolor{keywordtype}{string} cur(input.substr(prec\_pos, cur\_pos -\/ prec\_pos)) ;}
+\DoxyCodeLine{133         \textcolor{keywordflow}{if} ((0 != cur.size()) || empty\_fields)  }
+\DoxyCodeLine{134           \{ result.push\_back(cur) ; \}}
+\DoxyCodeLine{135         prec\_pos = cur\_pos + size\_delim ;}
+\DoxyCodeLine{136         cur\_pos = input.find(delimiter, cur\_pos + size\_delim) ;}
+\DoxyCodeLine{137           \}}
+\DoxyCodeLine{138         \textcolor{keywordflow}{return} result ;}
+\DoxyCodeLine{139       \}}
+\DoxyCodeLine{144       \textcolor{keyword}{inline} std::string \mbox{\hyperlink{namespacecfglib_1_1helper_a7cf8c4c7057fb03857f0f9844ffcca62}{getBaseName}}(std::string file)}
+\DoxyCodeLine{145       \{}
+\DoxyCodeLine{146         \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} position=0;}
+\DoxyCodeLine{147         \textcolor{keywordtype}{bool} hasdir = \textcolor{keyword}{false};}
+\DoxyCodeLine{148         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} i=0;i<file.size();i++) }
+\DoxyCodeLine{149           \textcolor{keywordflow}{if} (file[i]==\textcolor{charliteral}{'/'}) \{position=i; hasdir=\textcolor{keyword}{true};\}}
+\DoxyCodeLine{150         std::string p;}
+\DoxyCodeLine{151         \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} start;}
+\DoxyCodeLine{152         \textcolor{keywordflow}{if} (hasdir) start=position+1; \textcolor{keywordflow}{else} start=position;}
+\DoxyCodeLine{153         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} i=start;i<file.size();i++) }
+\DoxyCodeLine{154           p+=file[i];}
+\DoxyCodeLine{155         \textcolor{keywordflow}{return} p;}
+\DoxyCodeLine{156       \}}
+\DoxyCodeLine{161       \textcolor{keyword}{inline} std::string \mbox{\hyperlink{namespacecfglib_1_1helper_ab650f4d56d31c95fb20f656b620fecae}{getDirName}}(std::string file)}
+\DoxyCodeLine{162       \{}
+\DoxyCodeLine{163         \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} position=0;}
+\DoxyCodeLine{164         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} i=0;i<file.size();i++) }
+\DoxyCodeLine{165           \textcolor{keywordflow}{if} (file[i]==\textcolor{charliteral}{'/'}) position=i;}
+\DoxyCodeLine{166         std::string p;}
+\DoxyCodeLine{167         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} i=0;i<position+1;i++) p+=file[i];}
+\DoxyCodeLine{168         \textcolor{keywordflow}{return} p;}
+\DoxyCodeLine{169       \}}
+\DoxyCodeLine{174       \textcolor{keyword}{inline} std::string \mbox{\hyperlink{namespacecfglib_1_1helper_a6fa2db3729eb85015591dea07b7f0b69}{extractBase}}(std::string file)}
+\DoxyCodeLine{175       \{}
+\DoxyCodeLine{176         \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} position=0;}
+\DoxyCodeLine{177         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} i=0;i<file.size();i++) }
+\DoxyCodeLine{178           \textcolor{keywordflow}{if} (file[i]==\textcolor{charliteral}{'.'}) position=i;}
+\DoxyCodeLine{179         std::string p;}
+\DoxyCodeLine{180         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} i=0;i<position;i++) p+=file[i];}
+\DoxyCodeLine{181         \textcolor{keywordflow}{return} p;}
+\DoxyCodeLine{182       \}}
+\DoxyCodeLine{183 }
+\DoxyCodeLine{184     \}}
+\DoxyCodeLine{185 }
+\DoxyCodeLine{186 }
+\DoxyCodeLine{187 \} \textcolor{comment}{// cfglib::}}
+\DoxyCodeLine{188 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_IRISA\_CFGLIB\_HELPER\_H}}
+
+\end{DoxyCode}

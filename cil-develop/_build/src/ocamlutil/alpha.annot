@@ -1,0 +1,3275 @@
+"src/ocamlutil/alpha.ml" 5 52 56 "src/ocamlutil/alpha.ml" 5 52 66
+type(
+  string -> bool
+)
+ident(
+  def debugAlpha "src/ocamlutil/alpha.ml" 7 119 119 "src/ocamlutil/alpha.ml" 1 0 -1
+)
+"src/ocamlutil/alpha.ml" 5 52 68 "src/ocamlutil/alpha.ml" 5 52 74
+type(
+  string
+)
+ident(
+  def prefix "src/ocamlutil/alpha.ml" 5 52 86 "src/ocamlutil/alpha.ml" 5 52 91
+)
+"src/ocamlutil/alpha.ml" 5 52 86 "src/ocamlutil/alpha.ml" 5 52 91
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 7 119 123 "src/ocamlutil/alpha.ml" 7 119 137
+type(
+  string
+)
+ident(
+  def alphaSeparator "src/ocamlutil/alpha.ml" 8 146 146 "src/ocamlutil/alpha.ml" 1 0 -1
+)
+"src/ocamlutil/alpha.ml" 7 119 140 "src/ocamlutil/alpha.ml" 7 119 145
+type(
+  string
+)
+"src/ocamlutil/alpha.ml" 8 146 150 "src/ocamlutil/alpha.ml" 8 146 167
+type(
+  int
+)
+ident(
+  def alphaSeparatorLen "src/ocamlutil/alpha.ml" 13 377 377 "src/ocamlutil/alpha.ml" 1 0 -1
+)
+"src/ocamlutil/alpha.ml" 8 146 170 "src/ocamlutil/alpha.ml" 8 146 183
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/ocamlutil/alpha.ml" 8 146 184 "src/ocamlutil/alpha.ml" 8 146 198
+type(
+  string
+)
+ident(
+  int_ref alphaSeparator "src/ocamlutil/alpha.ml" 7 119 123 "src/ocamlutil/alpha.ml" 7 119 137
+)
+"src/ocamlutil/alpha.ml" 8 146 170 "src/ocamlutil/alpha.ml" 8 146 198
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 23 875 879 "src/ocamlutil/alpha.ml" 23 875 894
+type(
+  int
+)
+ident(
+  def maxSuffixLength "src/ocamlutil/alpha.ml" 24 899 899 "src/ocamlutil/alpha.ml" 1 0 -1
+)
+"src/ocamlutil/alpha.ml" 23 875 897 "src/ocamlutil/alpha.ml" 23 875 898
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 24 899 903 "src/ocamlutil/alpha.ml" 24 899 912
+type(
+  int
+)
+ident(
+  def maxSuffix "src/ocamlutil/alpha.ml" 39 1715 1715 "src/ocamlutil/alpha.ml" 1 0 -1
+)
+"src/ocamlutil/alpha.ml" 26 939 947 "src/ocamlutil/alpha.ml" 26 939 959
+type(
+  string
+)
+ident(
+  def maxSuffixStr "src/ocamlutil/alpha.ml" 27 997 1001 "src/ocamlutil/alpha.ml" 27 997 1027
+)
+"src/ocamlutil/alpha.ml" 26 939 962 "src/ocamlutil/alpha.ml" 26 939 973
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/ocamlutil/alpha.ml" 26 939 974 "src/ocamlutil/alpha.ml" 26 939 989
+type(
+  int
+)
+ident(
+  int_ref maxSuffixLength "src/ocamlutil/alpha.ml" 23 875 879 "src/ocamlutil/alpha.ml" 23 875 894
+)
+"src/ocamlutil/alpha.ml" 26 939 990 "src/ocamlutil/alpha.ml" 26 939 993
+type(
+  char
+)
+"src/ocamlutil/alpha.ml" 26 939 962 "src/ocamlutil/alpha.ml" 26 939 993
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/alpha.ml" 27 997 1001 "src/ocamlutil/alpha.ml" 27 997 1014
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/ocamlutil/alpha.ml" 27 997 1015 "src/ocamlutil/alpha.ml" 27 997 1027
+type(
+  string
+)
+ident(
+  int_ref maxSuffixStr "src/ocamlutil/alpha.ml" 26 939 947 "src/ocamlutil/alpha.ml" 26 939 959
+)
+"src/ocamlutil/alpha.ml" 27 997 1001 "src/ocamlutil/alpha.ml" 27 997 1027
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 26 939 943 "src/ocamlutil/alpha.ml" 27 997 1027
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 28 1028 1043 "src/ocamlutil/alpha.ml" 28 1028 1044
+type(
+  string
+)
+"src/ocamlutil/alpha.ml" 28 1028 1035 "src/ocamlutil/alpha.ml" 28 1028 1044
+type(
+  exn
+)
+"src/ocamlutil/alpha.ml" 29 1048 1052 "src/ocamlutil/alpha.ml" 29 1048 1055
+type(
+  unit -> int
+)
+ident(
+  ext_ref E.s
+)
+"src/ocamlutil/alpha.ml" 29 1048 1057 "src/ocamlutil/alpha.ml" 29 1048 1062
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.bug
+)
+"src/ocamlutil/alpha.ml" 29 1048 1063 "src/ocamlutil/alpha.ml" 29 1048 1232
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/ocamlutil/alpha.ml" 29 1048 1056 "src/ocamlutil/alpha.ml" 29 1048 1233
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 29 1048 1052 "src/ocamlutil/alpha.ml" 29 1048 1233
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 25 933 935 "src/ocamlutil/alpha.ml" 29 1048 1233
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 39 1715 1723 "src/ocamlutil/alpha.ml" 39 1715 1735
+type(
+  alphaTable:(string, 'a alphaTableData ref) H.t ->
+  undolist:'a undoAlphaElement list ref option ->
+  lookupname:string -> data:'a -> string * 'a
+)
+ident(
+  def newAlphaName "src/ocamlutil/alpha.ml" 39 1715 1715 "src/ocamlutil/alpha.ml" 1 0 -1
+)
+"src/ocamlutil/alpha.ml" 39 1715 1738 "src/ocamlutil/alpha.ml" 39 1715 1748
+type(
+  (string, 'a alphaTableData ref) H.t
+)
+ident(
+  def alphaTable "src/ocamlutil/alpha.ml" 40 1787 1808 "src/ocamlutil/alpha.ml" 44 2008 2060
+)
+"src/ocamlutil/alpha.ml" 40 1787 1810 "src/ocamlutil/alpha.ml" 40 1787 1818
+type(
+  'a undoAlphaElement list ref option
+)
+ident(
+  def undolist "src/ocamlutil/alpha.ml" 41 1857 1878 "src/ocamlutil/alpha.ml" 44 2008 2060
+)
+"src/ocamlutil/alpha.ml" 41 1857 1880 "src/ocamlutil/alpha.ml" 41 1857 1890
+type(
+  string
+)
+ident(
+  def lookupname "src/ocamlutil/alpha.ml" 42 1901 1922 "src/ocamlutil/alpha.ml" 44 2008 2060
+)
+"src/ocamlutil/alpha.ml" 42 1901 1924 "src/ocamlutil/alpha.ml" 42 1901 1928
+type(
+  'a
+)
+ident(
+  def data "src/ocamlutil/alpha.ml" 42 1901 1934 "src/ocamlutil/alpha.ml" 44 2008 2060
+)
+"src/ocamlutil/alpha.ml" 43 1951 1953 "src/ocamlutil/alpha.ml" 43 1951 1964
+type(
+  alphaTable:(string, 'a alphaTableData ref) H.t ->
+  undolist:'a undoAlphaElement list ref option ->
+  lookupname:string -> data:'a -> bool -> string * 'a
+)
+ident(
+  int_ref alphaWorker "src/ocamlutil/alpha.ml" 56 2496 2500 "src/ocamlutil/alpha.ml" 56 2496 2511
+)
+"src/ocamlutil/alpha.ml" 43 1951 1977 "src/ocamlutil/alpha.ml" 43 1951 1987
+type(
+  (string, 'a alphaTableData ref) H.t
+)
+ident(
+  int_ref alphaTable "src/ocamlutil/alpha.ml" 39 1715 1738 "src/ocamlutil/alpha.ml" 39 1715 1748
+)
+"src/ocamlutil/alpha.ml" 43 1951 1998 "src/ocamlutil/alpha.ml" 43 1951 2006
+type(
+  'a undoAlphaElement list ref option
+)
+ident(
+  int_ref undolist "src/ocamlutil/alpha.ml" 40 1787 1810 "src/ocamlutil/alpha.ml" 40 1787 1818
+)
+"src/ocamlutil/alpha.ml" 44 2008 2034 "src/ocamlutil/alpha.ml" 44 2008 2044
+type(
+  string
+)
+ident(
+  int_ref lookupname "src/ocamlutil/alpha.ml" 41 1857 1880 "src/ocamlutil/alpha.ml" 41 1857 1890
+)
+"src/ocamlutil/alpha.ml" 44 2008 2051 "src/ocamlutil/alpha.ml" 44 2008 2055
+type(
+  'a
+)
+ident(
+  int_ref data "src/ocamlutil/alpha.ml" 42 1901 1924 "src/ocamlutil/alpha.ml" 42 1901 1928
+)
+"src/ocamlutil/alpha.ml" 44 2008 2056 "src/ocamlutil/alpha.ml" 44 2008 2060
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 43 1951 1953 "src/ocamlutil/alpha.ml" 44 2008 2060
+call(
+  tail
+)
+type(
+  string * 'a
+)
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 48 2133 2137 "src/ocamlutil/alpha.ml" 48 2133 2154
+type(
+  alphaTable:(string, 'a alphaTableData ref) H.t ->
+  undolist:'a undoAlphaElement list ref option ->
+  lookupname:string -> data:'a -> unit
+)
+ident(
+  def registerAlphaName "src/ocamlutil/alpha.ml" 39 1715 1715 "src/ocamlutil/alpha.ml" 1 0 -1
+)
+"src/ocamlutil/alpha.ml" 48 2133 2157 "src/ocamlutil/alpha.ml" 48 2133 2167
+type(
+  (string, 'a alphaTableData ref) H.t
+)
+ident(
+  def alphaTable "src/ocamlutil/alpha.ml" 49 2206 2228 "src/ocamlutil/alpha.ml" 53 2431 2493
+)
+"src/ocamlutil/alpha.ml" 49 2206 2230 "src/ocamlutil/alpha.ml" 49 2206 2238
+type(
+  'a undoAlphaElement list ref option
+)
+ident(
+  def undolist "src/ocamlutil/alpha.ml" 50 2277 2299 "src/ocamlutil/alpha.ml" 53 2431 2493
+)
+"src/ocamlutil/alpha.ml" 50 2277 2301 "src/ocamlutil/alpha.ml" 50 2277 2311
+type(
+  string
+)
+ident(
+  def lookupname "src/ocamlutil/alpha.ml" 51 2322 2344 "src/ocamlutil/alpha.ml" 53 2431 2493
+)
+"src/ocamlutil/alpha.ml" 51 2322 2346 "src/ocamlutil/alpha.ml" 51 2322 2350
+type(
+  'a
+)
+ident(
+  def data "src/ocamlutil/alpha.ml" 51 2322 2356 "src/ocamlutil/alpha.ml" 53 2431 2493
+)
+"src/ocamlutil/alpha.ml" 52 2366 2368 "src/ocamlutil/alpha.ml" 52 2366 2374
+type(
+  string * 'a -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ocamlutil/alpha.ml" 52 2366 2376 "src/ocamlutil/alpha.ml" 52 2366 2387
+type(
+  alphaTable:(string, 'a alphaTableData ref) H.t ->
+  undolist:'a undoAlphaElement list ref option ->
+  lookupname:string -> data:'a -> bool -> string * 'a
+)
+ident(
+  int_ref alphaWorker "src/ocamlutil/alpha.ml" 56 2496 2500 "src/ocamlutil/alpha.ml" 56 2496 2511
+)
+"src/ocamlutil/alpha.ml" 52 2366 2400 "src/ocamlutil/alpha.ml" 52 2366 2410
+type(
+  (string, 'a alphaTableData ref) H.t
+)
+ident(
+  int_ref alphaTable "src/ocamlutil/alpha.ml" 48 2133 2157 "src/ocamlutil/alpha.ml" 48 2133 2167
+)
+"src/ocamlutil/alpha.ml" 52 2366 2421 "src/ocamlutil/alpha.ml" 52 2366 2429
+type(
+  'a undoAlphaElement list ref option
+)
+ident(
+  int_ref undolist "src/ocamlutil/alpha.ml" 49 2206 2230 "src/ocamlutil/alpha.ml" 49 2206 2238
+)
+"src/ocamlutil/alpha.ml" 53 2431 2465 "src/ocamlutil/alpha.ml" 53 2431 2475
+type(
+  string
+)
+ident(
+  int_ref lookupname "src/ocamlutil/alpha.ml" 50 2277 2301 "src/ocamlutil/alpha.ml" 50 2277 2311
+)
+"src/ocamlutil/alpha.ml" 53 2431 2482 "src/ocamlutil/alpha.ml" 53 2431 2486
+type(
+  'a
+)
+ident(
+  int_ref data "src/ocamlutil/alpha.ml" 51 2322 2346 "src/ocamlutil/alpha.ml" 51 2322 2350
+)
+"src/ocamlutil/alpha.ml" 53 2431 2487 "src/ocamlutil/alpha.ml" 53 2431 2492
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 52 2366 2375 "src/ocamlutil/alpha.ml" 53 2431 2493
+call(
+  stack
+)
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 52 2366 2368 "src/ocamlutil/alpha.ml" 53 2431 2493
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 56 2496 2500 "src/ocamlutil/alpha.ml" 56 2496 2511
+type(
+  alphaTable:(string, 'a alphaTableData ref) H.t ->
+  undolist:'a undoAlphaElement list ref option ->
+  lookupname:string -> data:'a -> bool -> string * 'a
+)
+ident(
+  def alphaWorker "src/ocamlutil/alpha.ml" 39 1715 1715 "src/ocamlutil/alpha.ml" 1 0 -1
+)
+"src/ocamlutil/alpha.ml" 56 2496 2519 "src/ocamlutil/alpha.ml" 56 2496 2529
+type(
+  (string, 'a alphaTableData ref) H.t
+)
+ident(
+  def alphaTable "src/ocamlutil/alpha.ml" 57 2568 2589 "src/ocamlutil/alpha.ml" 114 5039 5057
+)
+"src/ocamlutil/alpha.ml" 57 2568 2591 "src/ocamlutil/alpha.ml" 57 2568 2599
+type(
+  'a undoAlphaElement list ref option
+)
+ident(
+  def undolist "src/ocamlutil/alpha.ml" 58 2638 2659 "src/ocamlutil/alpha.ml" 114 5039 5057
+)
+"src/ocamlutil/alpha.ml" 58 2638 2661 "src/ocamlutil/alpha.ml" 58 2638 2671
+type(
+  string
+)
+ident(
+  def lookupname "src/ocamlutil/alpha.ml" 58 2638 2681 "src/ocamlutil/alpha.ml" 114 5039 5057
+)
+"src/ocamlutil/alpha.ml" 58 2638 2683 "src/ocamlutil/alpha.ml" 58 2638 2687
+type(
+  'a
+)
+ident(
+  def data "src/ocamlutil/alpha.ml" 59 2692 2713 "src/ocamlutil/alpha.ml" 114 5039 5057
+)
+"src/ocamlutil/alpha.ml" 59 2692 2714 "src/ocamlutil/alpha.ml" 59 2692 2722
+type(
+  bool
+)
+ident(
+  def make_new "src/ocamlutil/alpha.ml" 59 2692 2730 "src/ocamlutil/alpha.ml" 114 5039 5057
+)
+"src/ocamlutil/alpha.ml" 60 2747 2753 "src/ocamlutil/alpha.ml" 60 2747 2759
+type(
+  string
+)
+ident(
+  def prefix "src/ocamlutil/alpha.ml" 61 2821 2823 "src/ocamlutil/alpha.ml" 114 5039 5057
+)
+"src/ocamlutil/alpha.ml" 60 2747 2761 "src/ocamlutil/alpha.ml" 60 2747 2767
+type(
+  string
+)
+ident(
+  def suffix "src/ocamlutil/alpha.ml" 61 2821 2823 "src/ocamlutil/alpha.ml" 114 5039 5057
+)
+"src/ocamlutil/alpha.ml" 60 2747 2770 "src/ocamlutil/alpha.ml" 60 2747 2779
+type(
+  int
+)
+ident(
+  def numsuffix "src/ocamlutil/alpha.ml" 61 2821 2823 "src/ocamlutil/alpha.ml" 114 5039 5057
+)
+"src/ocamlutil/alpha.ml" 60 2747 2753 "src/ocamlutil/alpha.ml" 60 2747 2785
+type(
+  string * string * int
+)
+"src/ocamlutil/alpha.ml" 60 2747 2788 "src/ocamlutil/alpha.ml" 60 2747 2805
+type(
+  lookupname:string -> string * string * int
+)
+ident(
+  int_ref splitNameForAlpha "src/ocamlutil/alpha.ml" 119 5248 5252 "src/ocamlutil/alpha.ml" 119 5248 5269
+)
+"src/ocamlutil/alpha.ml" 60 2747 2807 "src/ocamlutil/alpha.ml" 60 2747 2817
+type(
+  string
+)
+ident(
+  int_ref lookupname "src/ocamlutil/alpha.ml" 58 2638 2661 "src/ocamlutil/alpha.ml" 58 2638 2671
+)
+"src/ocamlutil/alpha.ml" 60 2747 2788 "src/ocamlutil/alpha.ml" 60 2747 2817
+call(
+  stack
+)
+type(
+  string * string * int
+)
+"src/ocamlutil/alpha.ml" 61 2821 2826 "src/ocamlutil/alpha.ml" 61 2821 2836
+type(
+  string -> bool
+)
+ident(
+  int_ref debugAlpha "src/ocamlutil/alpha.ml" 5 52 56 "src/ocamlutil/alpha.ml" 5 52 66
+)
+"src/ocamlutil/alpha.ml" 61 2821 2837 "src/ocamlutil/alpha.ml" 61 2821 2843
+type(
+  string
+)
+ident(
+  int_ref prefix "src/ocamlutil/alpha.ml" 60 2747 2753 "src/ocamlutil/alpha.ml" 60 2747 2759
+)
+"src/ocamlutil/alpha.ml" 61 2821 2826 "src/ocamlutil/alpha.ml" 61 2821 2843
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 62 2849 2853 "src/ocamlutil/alpha.ml" 62 2849 2859
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ocamlutil/alpha.ml" 62 2849 2861 "src/ocamlutil/alpha.ml" 62 2849 2866
+type(
+  (string -> string -> int -> bool -> unit, unit, Pretty.doc, unit) format4 ->
+  string -> string -> int -> bool -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ocamlutil/alpha.ml" 62 2849 2867 "src/ocamlutil/alpha.ml" 62 2849 2919
+type(
+  (string -> string -> int -> bool -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ocamlutil/alpha.ml" 63 2921 2935 "src/ocamlutil/alpha.ml" 63 2921 2941
+type(
+  string
+)
+ident(
+  int_ref prefix "src/ocamlutil/alpha.ml" 60 2747 2753 "src/ocamlutil/alpha.ml" 60 2747 2759
+)
+"src/ocamlutil/alpha.ml" 63 2921 2942 "src/ocamlutil/alpha.ml" 63 2921 2948
+type(
+  string
+)
+ident(
+  int_ref suffix "src/ocamlutil/alpha.ml" 60 2747 2761 "src/ocamlutil/alpha.ml" 60 2747 2767
+)
+"src/ocamlutil/alpha.ml" 63 2921 2949 "src/ocamlutil/alpha.ml" 63 2921 2958
+type(
+  int
+)
+ident(
+  int_ref numsuffix "src/ocamlutil/alpha.ml" 60 2747 2770 "src/ocamlutil/alpha.ml" 60 2747 2779
+)
+"src/ocamlutil/alpha.ml" 63 2921 2959 "src/ocamlutil/alpha.ml" 63 2921 2967
+type(
+  bool
+)
+ident(
+  int_ref make_new "src/ocamlutil/alpha.ml" 59 2692 2714 "src/ocamlutil/alpha.ml" 59 2692 2722
+)
+"src/ocamlutil/alpha.ml" 62 2849 2860 "src/ocamlutil/alpha.ml" 63 2921 2968
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 62 2849 2853 "src/ocamlutil/alpha.ml" 63 2921 2968
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 61 2821 2823 "src/ocamlutil/alpha.ml" 63 2921 2968
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 64 2970 2976 "src/ocamlutil/alpha.ml" 64 2970 2983
+type(
+  string
+)
+ident(
+  def newname "src/ocamlutil/alpha.ml" 112 4949 4951 "src/ocamlutil/alpha.ml" 114 5039 5057
+)
+"src/ocamlutil/alpha.ml" 64 2970 2986 "src/ocamlutil/alpha.ml" 64 2970 2993
+type(
+  'a
+)
+ident(
+  def olddata "src/ocamlutil/alpha.ml" 112 4949 4951 "src/ocamlutil/alpha.ml" 114 5039 5057
+)
+"src/ocamlutil/alpha.ml" 64 2970 2976 "src/ocamlutil/alpha.ml" 64 2970 2998
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 66 3010 3020 "src/ocamlutil/alpha.ml" 66 3010 3022
+type(
+  'a alphaTableData ref
+)
+ident(
+  def rc "src/ocamlutil/alpha.ml" 67 3053 3059 "src/ocamlutil/alpha.ml" 102 4549 4582
+)
+"src/ocamlutil/alpha.ml" 66 3010 3025 "src/ocamlutil/alpha.ml" 66 3010 3031
+type(
+  (string, 'a alphaTableData ref) H.t -> string -> 'a alphaTableData ref
+)
+ident(
+  ext_ref H.find
+)
+"src/ocamlutil/alpha.ml" 66 3010 3032 "src/ocamlutil/alpha.ml" 66 3010 3042
+type(
+  (string, 'a alphaTableData ref) H.t
+)
+ident(
+  int_ref alphaTable "src/ocamlutil/alpha.ml" 56 2496 2519 "src/ocamlutil/alpha.ml" 56 2496 2529
+)
+"src/ocamlutil/alpha.ml" 66 3010 3043 "src/ocamlutil/alpha.ml" 66 3010 3049
+type(
+  string
+)
+ident(
+  int_ref prefix "src/ocamlutil/alpha.ml" 60 2747 2753 "src/ocamlutil/alpha.ml" 60 2747 2759
+)
+"src/ocamlutil/alpha.ml" 66 3010 3025 "src/ocamlutil/alpha.ml" 66 3010 3049
+call(
+  stack
+)
+type(
+  'a alphaTableData ref
+)
+"src/ocamlutil/alpha.ml" 67 3053 3063 "src/ocamlutil/alpha.ml" 67 3053 3066
+type(
+  int
+)
+ident(
+  def max "src/ocamlutil/alpha.ml" 69 3124 3130 "src/ocamlutil/alpha.ml" 102 4549 4582
+)
+"src/ocamlutil/alpha.ml" 67 3053 3068 "src/ocamlutil/alpha.ml" 67 3053 3076
+type(
+  (string * 'a) list
+)
+ident(
+  def suffixes "src/ocamlutil/alpha.ml" 69 3124 3130 "src/ocamlutil/alpha.ml" 102 4549 4582
+)
+"src/ocamlutil/alpha.ml" 67 3053 3063 "src/ocamlutil/alpha.ml" 67 3053 3076
+type(
+  'a alphaTableData
+)
+"src/ocamlutil/alpha.ml" 67 3053 3079 "src/ocamlutil/alpha.ml" 67 3053 3080
+type(
+  'a alphaTableData ref -> 'a alphaTableData
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/alpha.ml" 67 3053 3080 "src/ocamlutil/alpha.ml" 67 3053 3082
+type(
+  'a alphaTableData ref
+)
+ident(
+  int_ref rc "src/ocamlutil/alpha.ml" 66 3010 3020 "src/ocamlutil/alpha.ml" 66 3010 3022
+)
+"src/ocamlutil/alpha.ml" 67 3053 3079 "src/ocamlutil/alpha.ml" 67 3053 3082
+type(
+  'a alphaTableData
+)
+"src/ocamlutil/alpha.ml" 69 3124 3133 "src/ocamlutil/alpha.ml" 69 3124 3143
+type(
+  string -> bool
+)
+ident(
+  int_ref debugAlpha "src/ocamlutil/alpha.ml" 5 52 56 "src/ocamlutil/alpha.ml" 5 52 66
+)
+"src/ocamlutil/alpha.ml" 69 3124 3144 "src/ocamlutil/alpha.ml" 69 3124 3150
+type(
+  string
+)
+ident(
+  int_ref prefix "src/ocamlutil/alpha.ml" 60 2747 2753 "src/ocamlutil/alpha.ml" 60 2747 2759
+)
+"src/ocamlutil/alpha.ml" 69 3124 3133 "src/ocamlutil/alpha.ml" 69 3124 3150
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 70 3156 3164 "src/ocamlutil/alpha.ml" 70 3156 3170
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ocamlutil/alpha.ml" 70 3156 3172 "src/ocamlutil/alpha.ml" 70 3156 3177
+type(
+  (int ->
+   (unit -> (string * 'a) list -> Pretty.doc) -> (string * 'a) list -> unit,
+   unit, Pretty.doc, unit)
+  format4 ->
+  int ->
+  (unit -> (string * 'a) list -> Pretty.doc) -> (string * 'a) list -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ocamlutil/alpha.ml" 70 3156 3178 "src/ocamlutil/alpha.ml" 70 3156 3213
+type(
+  (int ->
+   (unit -> (string * 'a) list -> Pretty.doc) -> (string * 'a) list -> unit,
+   unit, Pretty.doc, unit)
+  format4
+)
+"src/ocamlutil/alpha.ml" 70 3156 3214 "src/ocamlutil/alpha.ml" 70 3156 3217
+type(
+  int
+)
+ident(
+  int_ref max "src/ocamlutil/alpha.ml" 67 3053 3063 "src/ocamlutil/alpha.ml" 67 3053 3066
+)
+"src/ocamlutil/alpha.ml" 71 3218 3237 "src/ocamlutil/alpha.ml" 71 3218 3244
+type(
+  ?sep:Pretty.doc ->
+  (string * 'a -> Pretty.doc) -> unit -> (string * 'a) list -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.docList
+)
+"src/ocamlutil/alpha.ml" 72 3246 3273 "src/ocamlutil/alpha.ml" 72 3246 3274
+type(
+  string
+)
+ident(
+  def s "src/ocamlutil/alpha.ml" 72 3246 3282 "src/ocamlutil/alpha.ml" 72 3246 3310
+)
+"src/ocamlutil/alpha.ml" 72 3246 3276 "src/ocamlutil/alpha.ml" 72 3246 3277
+type(
+  'a
+)
+ident(
+  def l "src/ocamlutil/alpha.ml" 72 3246 3282 "src/ocamlutil/alpha.ml" 72 3246 3310
+)
+"src/ocamlutil/alpha.ml" 72 3246 3272 "src/ocamlutil/alpha.ml" 72 3246 3278
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 72 3246 3282 "src/ocamlutil/alpha.ml" 72 3246 3289
+type(
+  (string -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4 ->
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.dprintf
+)
+"src/ocamlutil/alpha.ml" 72 3246 3290 "src/ocamlutil/alpha.ml" 72 3246 3294
+type(
+  (string -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4
+)
+"src/ocamlutil/alpha.ml" 72 3246 3309 "src/ocamlutil/alpha.ml" 72 3246 3310
+type(
+  string
+)
+ident(
+  int_ref s "src/ocamlutil/alpha.ml" 72 3246 3273 "src/ocamlutil/alpha.ml" 72 3246 3274
+)
+"src/ocamlutil/alpha.ml" 72 3246 3282 "src/ocamlutil/alpha.ml" 72 3246 3310
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ocamlutil/alpha.ml" 72 3246 3267 "src/ocamlutil/alpha.ml" 72 3246 3311
+type(
+  string * 'a -> Pretty.doc
+)
+"src/ocamlutil/alpha.ml" 71 3218 3236 "src/ocamlutil/alpha.ml" 72 3246 3312
+call(
+  stack
+)
+type(
+  unit -> (string * 'a) list -> Pretty.doc
+)
+"src/ocamlutil/alpha.ml" 72 3246 3313 "src/ocamlutil/alpha.ml" 72 3246 3321
+type(
+  (string * 'a) list
+)
+ident(
+  int_ref suffixes "src/ocamlutil/alpha.ml" 67 3053 3068 "src/ocamlutil/alpha.ml" 67 3053 3076
+)
+"src/ocamlutil/alpha.ml" 70 3156 3171 "src/ocamlutil/alpha.ml" 72 3246 3322
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 70 3156 3164 "src/ocamlutil/alpha.ml" 72 3246 3322
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 69 3124 3130 "src/ocamlutil/alpha.ml" 72 3246 3322
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 74 3355 3368 "src/ocamlutil/alpha.ml" 74 3355 3376
+type(
+  'a undoAlphaElement list ref option
+)
+ident(
+  int_ref undolist "src/ocamlutil/alpha.ml" 57 2568 2591 "src/ocamlutil/alpha.ml" 57 2568 2599
+)
+"src/ocamlutil/alpha.ml" 75 3383 3396 "src/ocamlutil/alpha.ml" 75 3383 3397
+type(
+  'a undoAlphaElement list ref
+)
+ident(
+  def l "src/ocamlutil/alpha.ml" 75 3383 3401 "src/ocamlutil/alpha.ml" 75 3383 3440
+)
+"src/ocamlutil/alpha.ml" 75 3383 3391 "src/ocamlutil/alpha.ml" 75 3383 3397
+type(
+  'a undoAlphaElement list ref option
+)
+"src/ocamlutil/alpha.ml" 75 3383 3401 "src/ocamlutil/alpha.ml" 75 3383 3402
+type(
+  'a undoAlphaElement list ref
+)
+ident(
+  int_ref l "src/ocamlutil/alpha.ml" 75 3383 3396 "src/ocamlutil/alpha.ml" 75 3383 3397
+)
+"src/ocamlutil/alpha.ml" 75 3383 3403 "src/ocamlutil/alpha.ml" 75 3383 3405
+type(
+  'a undoAlphaElement list ref -> 'a undoAlphaElement list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/alpha.ml" 75 3383 3426 "src/ocamlutil/alpha.ml" 75 3383 3428
+type(
+  'a alphaTableData ref
+)
+ident(
+  int_ref rc "src/ocamlutil/alpha.ml" 66 3010 3020 "src/ocamlutil/alpha.ml" 66 3010 3022
+)
+"src/ocamlutil/alpha.ml" 75 3383 3430 "src/ocamlutil/alpha.ml" 75 3383 3431
+type(
+  'a alphaTableData ref -> 'a alphaTableData
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/alpha.ml" 75 3383 3431 "src/ocamlutil/alpha.ml" 75 3383 3433
+type(
+  'a alphaTableData ref
+)
+ident(
+  int_ref rc "src/ocamlutil/alpha.ml" 66 3010 3020 "src/ocamlutil/alpha.ml" 66 3010 3022
+)
+"src/ocamlutil/alpha.ml" 75 3383 3430 "src/ocamlutil/alpha.ml" 75 3383 3433
+type(
+  'a alphaTableData
+)
+"src/ocamlutil/alpha.ml" 75 3383 3406 "src/ocamlutil/alpha.ml" 75 3383 3434
+type(
+  'a undoAlphaElement
+)
+"src/ocamlutil/alpha.ml" 75 3383 3438 "src/ocamlutil/alpha.ml" 75 3383 3439
+type(
+  'a undoAlphaElement list ref -> 'a undoAlphaElement list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/alpha.ml" 75 3383 3439 "src/ocamlutil/alpha.ml" 75 3383 3440
+type(
+  'a undoAlphaElement list ref
+)
+ident(
+  int_ref l "src/ocamlutil/alpha.ml" 75 3383 3396 "src/ocamlutil/alpha.ml" 75 3383 3397
+)
+"src/ocamlutil/alpha.ml" 75 3383 3438 "src/ocamlutil/alpha.ml" 75 3383 3440
+type(
+  'a undoAlphaElement list
+)
+"src/ocamlutil/alpha.ml" 75 3383 3406 "src/ocamlutil/alpha.ml" 75 3383 3440
+type(
+  'a undoAlphaElement list
+)
+"src/ocamlutil/alpha.ml" 75 3383 3401 "src/ocamlutil/alpha.ml" 75 3383 3440
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 76 3441 3449 "src/ocamlutil/alpha.ml" 76 3441 3450
+type(
+  'a undoAlphaElement list ref option
+)
+"src/ocamlutil/alpha.ml" 76 3441 3454 "src/ocamlutil/alpha.ml" 76 3441 3456
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 74 3355 3361 "src/ocamlutil/alpha.ml" 76 3441 3457
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 78 3460 3470 "src/ocamlutil/alpha.ml" 78 3460 3476
+type(
+  int
+)
+ident(
+  def newmax "src/ocamlutil/alpha.ml" 101 4514 4520 "src/ocamlutil/alpha.ml" 102 4549 4582
+)
+"src/ocamlutil/alpha.ml" 78 3460 3478 "src/ocamlutil/alpha.ml" 78 3460 3487
+type(
+  string
+)
+ident(
+  def newsuffix "src/ocamlutil/alpha.ml" 101 4514 4520 "src/ocamlutil/alpha.ml" 102 4549 4582
+)
+"src/ocamlutil/alpha.ml" 78 3460 3490 "src/ocamlutil/alpha.ml" 78 3460 3497
+type(
+  'a
+)
+ident(
+  def olddata "src/ocamlutil/alpha.ml" 101 4514 4520 "src/ocamlutil/alpha.ml" 102 4549 4582
+)
+"src/ocamlutil/alpha.ml" 78 3460 3504 "src/ocamlutil/alpha.ml" 78 3460 3515
+type(
+  (string * 'a) list
+)
+ident(
+  def newsuffixes "src/ocamlutil/alpha.ml" 101 4514 4520 "src/ocamlutil/alpha.ml" 102 4549 4582
+)
+"src/ocamlutil/alpha.ml" 78 3460 3470 "src/ocamlutil/alpha.ml" 78 3460 3515
+type(
+  int * string * 'a * (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 79 3519 3530 "src/ocamlutil/alpha.ml" 79 3519 3539
+type(
+  int
+)
+ident(
+  int_ref numsuffix "src/ocamlutil/alpha.ml" 60 2747 2770 "src/ocamlutil/alpha.ml" 60 2747 2779
+)
+"src/ocamlutil/alpha.ml" 79 3519 3540 "src/ocamlutil/alpha.ml" 79 3519 3541
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/alpha.ml" 79 3519 3542 "src/ocamlutil/alpha.ml" 79 3519 3545
+type(
+  int
+)
+ident(
+  int_ref max "src/ocamlutil/alpha.ml" 67 3053 3063 "src/ocamlutil/alpha.ml" 67 3053 3066
+)
+"src/ocamlutil/alpha.ml" 79 3519 3530 "src/ocamlutil/alpha.ml" 79 3519 3545
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 81 3602 3612 "src/ocamlutil/alpha.ml" 81 3602 3621
+type(
+  int
+)
+ident(
+  int_ref numsuffix "src/ocamlutil/alpha.ml" 60 2747 2770 "src/ocamlutil/alpha.ml" 60 2747 2779
+)
+"src/ocamlutil/alpha.ml" 81 3602 3623 "src/ocamlutil/alpha.ml" 81 3602 3629
+type(
+  string
+)
+ident(
+  int_ref suffix "src/ocamlutil/alpha.ml" 60 2747 2761 "src/ocamlutil/alpha.ml" 60 2747 2767
+)
+"src/ocamlutil/alpha.ml" 81 3602 3631 "src/ocamlutil/alpha.ml" 81 3602 3635
+type(
+  'a
+)
+ident(
+  int_ref data "src/ocamlutil/alpha.ml" 58 2638 2683 "src/ocamlutil/alpha.ml" 58 2638 2687
+)
+"src/ocamlutil/alpha.ml" 82 3637 3648 "src/ocamlutil/alpha.ml" 82 3637 3654
+type(
+  string
+)
+ident(
+  int_ref suffix "src/ocamlutil/alpha.ml" 60 2747 2761 "src/ocamlutil/alpha.ml" 60 2747 2767
+)
+"src/ocamlutil/alpha.ml" 82 3637 3656 "src/ocamlutil/alpha.ml" 82 3637 3660
+type(
+  'a
+)
+ident(
+  int_ref data "src/ocamlutil/alpha.ml" 58 2638 2683 "src/ocamlutil/alpha.ml" 58 2638 2687
+)
+"src/ocamlutil/alpha.ml" 82 3637 3647 "src/ocamlutil/alpha.ml" 82 3637 3661
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 82 3637 3665 "src/ocamlutil/alpha.ml" 82 3637 3673
+type(
+  (string * 'a) list
+)
+ident(
+  int_ref suffixes "src/ocamlutil/alpha.ml" 67 3053 3068 "src/ocamlutil/alpha.ml" 67 3053 3076
+)
+"src/ocamlutil/alpha.ml" 82 3637 3647 "src/ocamlutil/alpha.ml" 82 3637 3673
+type(
+  (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 79 3519 3551 "src/ocamlutil/alpha.ml" 83 3675 3686
+type(
+  int * string * 'a * (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 84 3699 3715 "src/ocamlutil/alpha.ml" 84 3699 3726
+type(
+  (string * 'a -> bool) -> (string * 'a) list -> (string * 'a) list
+)
+ident(
+  ext_ref List.filter
+)
+"src/ocamlutil/alpha.ml" 84 3699 3733 "src/ocamlutil/alpha.ml" 84 3699 3734
+type(
+  string
+)
+ident(
+  def n "src/ocamlutil/alpha.ml" 84 3699 3742 "src/ocamlutil/alpha.ml" 84 3699 3752
+)
+"src/ocamlutil/alpha.ml" 84 3699 3736 "src/ocamlutil/alpha.ml" 84 3699 3737
+type(
+  'a
+)
+"src/ocamlutil/alpha.ml" 84 3699 3732 "src/ocamlutil/alpha.ml" 84 3699 3738
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 84 3699 3742 "src/ocamlutil/alpha.ml" 84 3699 3743
+type(
+  string
+)
+ident(
+  int_ref n "src/ocamlutil/alpha.ml" 84 3699 3733 "src/ocamlutil/alpha.ml" 84 3699 3734
+)
+"src/ocamlutil/alpha.ml" 84 3699 3744 "src/ocamlutil/alpha.ml" 84 3699 3745
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/alpha.ml" 84 3699 3746 "src/ocamlutil/alpha.ml" 84 3699 3752
+type(
+  string
+)
+ident(
+  int_ref suffix "src/ocamlutil/alpha.ml" 60 2747 2761 "src/ocamlutil/alpha.ml" 60 2747 2767
+)
+"src/ocamlutil/alpha.ml" 84 3699 3742 "src/ocamlutil/alpha.ml" 84 3699 3752
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 84 3699 3727 "src/ocamlutil/alpha.ml" 84 3699 3753
+type(
+  string * 'a -> bool
+)
+"src/ocamlutil/alpha.ml" 84 3699 3754 "src/ocamlutil/alpha.ml" 84 3699 3762
+type(
+  (string * 'a) list
+)
+ident(
+  int_ref suffixes "src/ocamlutil/alpha.ml" 67 3053 3068 "src/ocamlutil/alpha.ml" 67 3053 3076
+)
+"src/ocamlutil/alpha.ml" 84 3699 3715 "src/ocamlutil/alpha.ml" 84 3699 3762
+call(
+  stack
+)
+type(
+  (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 85 3769 3781 "src/ocamlutil/alpha.ml" 85 3769 3783
+type(
+  (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 86 3803 3817 "src/ocamlutil/alpha.ml" 86 3803 3820
+type(
+  int
+)
+ident(
+  int_ref max "src/ocamlutil/alpha.ml" 67 3053 3063 "src/ocamlutil/alpha.ml" 67 3053 3066
+)
+"src/ocamlutil/alpha.ml" 86 3803 3822 "src/ocamlutil/alpha.ml" 86 3803 3828
+type(
+  string
+)
+ident(
+  int_ref suffix "src/ocamlutil/alpha.ml" 60 2747 2761 "src/ocamlutil/alpha.ml" 60 2747 2767
+)
+"src/ocamlutil/alpha.ml" 86 3803 3830 "src/ocamlutil/alpha.ml" 86 3803 3834
+type(
+  'a
+)
+ident(
+  int_ref data "src/ocamlutil/alpha.ml" 58 2638 2683 "src/ocamlutil/alpha.ml" 58 2638 2687
+)
+"src/ocamlutil/alpha.ml" 86 3803 3837 "src/ocamlutil/alpha.ml" 86 3803 3843
+type(
+  string
+)
+ident(
+  int_ref suffix "src/ocamlutil/alpha.ml" 60 2747 2761 "src/ocamlutil/alpha.ml" 60 2747 2767
+)
+"src/ocamlutil/alpha.ml" 86 3803 3845 "src/ocamlutil/alpha.ml" 86 3803 3849
+type(
+  'a
+)
+ident(
+  int_ref data "src/ocamlutil/alpha.ml" 58 2638 2683 "src/ocamlutil/alpha.ml" 58 2638 2687
+)
+"src/ocamlutil/alpha.ml" 86 3803 3836 "src/ocamlutil/alpha.ml" 86 3803 3850
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 86 3803 3854 "src/ocamlutil/alpha.ml" 86 3803 3862
+type(
+  (string * 'a) list
+)
+ident(
+  int_ref suffixes "src/ocamlutil/alpha.ml" 67 3053 3068 "src/ocamlutil/alpha.ml" 67 3053 3076
+)
+"src/ocamlutil/alpha.ml" 86 3803 3836 "src/ocamlutil/alpha.ml" 86 3803 3862
+type(
+  (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 86 3803 3817 "src/ocamlutil/alpha.ml" 86 3803 3862
+type(
+  int * string * 'a * (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 87 3863 3877 "src/ocamlutil/alpha.ml" 87 3863 3878
+type(
+  string
+)
+"src/ocamlutil/alpha.ml" 87 3863 3880 "src/ocamlutil/alpha.ml" 87 3863 3881
+type(
+  'a
+)
+ident(
+  def l "src/ocamlutil/alpha.ml" 89 3947 3961 "src/ocamlutil/alpha.ml" 97 4399 4442
+)
+"src/ocamlutil/alpha.ml" 87 3863 3876 "src/ocamlutil/alpha.ml" 87 3863 3882
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 87 3863 3875 "src/ocamlutil/alpha.ml" 87 3863 3884
+type(
+  (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 89 3947 3964 "src/ocamlutil/alpha.ml" 89 3947 3972
+type(
+  bool
+)
+ident(
+  int_ref make_new "src/ocamlutil/alpha.ml" 59 2692 2714 "src/ocamlutil/alpha.ml" 59 2692 2722
+)
+"src/ocamlutil/alpha.ml" 90 3984 4003 "src/ocamlutil/alpha.ml" 90 3984 4006
+type(
+  int
+)
+ident(
+  int_ref max "src/ocamlutil/alpha.ml" 67 3053 3063 "src/ocamlutil/alpha.ml" 67 3053 3066
+)
+"src/ocamlutil/alpha.ml" 90 3984 4007 "src/ocamlutil/alpha.ml" 90 3984 4009
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ocamlutil/alpha.ml" 90 3984 4010 "src/ocamlutil/alpha.ml" 90 3984 4019
+type(
+  int
+)
+ident(
+  int_ref maxSuffix "src/ocamlutil/alpha.ml" 24 899 903 "src/ocamlutil/alpha.ml" 24 899 912
+)
+"src/ocamlutil/alpha.ml" 90 3984 4003 "src/ocamlutil/alpha.ml" 90 3984 4019
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 91 4025 4043 "src/ocamlutil/alpha.ml" 91 4025 4046
+type(
+  unit -> unit
+)
+ident(
+  ext_ref E.s
+)
+"src/ocamlutil/alpha.ml" 91 4025 4048 "src/ocamlutil/alpha.ml" 91 4025 4055
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.unimp
+)
+"src/ocamlutil/alpha.ml" 91 4025 4057 "src/ocamlutil/alpha.ml" 91 4025 4102
+type(
+  (unit, unit, Pretty.doc, Pretty.doc, Pretty.doc, unit) format6
+)
+"src/ocamlutil/alpha.ml" 92 4103 4123 "src/ocamlutil/alpha.ml" 92 4103 4125
+type(
+  (unit, unit, Pretty.doc, Pretty.doc, Pretty.doc, unit) format6 ->
+  (unit, unit, Pretty.doc, Pretty.doc, Pretty.doc, unit) format6 ->
+  (unit, unit, Pretty.doc, Pretty.doc, Pretty.doc, unit) format6
+)
+ident(
+  ext_ref Pervasives.( ^^ )
+)
+"src/ocamlutil/alpha.ml" 92 4103 4125 "src/ocamlutil/alpha.ml" 92 4103 4171
+type(
+  (unit, unit, Pretty.doc, Pretty.doc, Pretty.doc, unit) format6
+)
+"src/ocamlutil/alpha.ml" 93 4172 4192 "src/ocamlutil/alpha.ml" 93 4172 4194
+type(
+  (unit, unit, Pretty.doc, Pretty.doc, Pretty.doc, unit) format6 ->
+  (unit, unit, Pretty.doc, Pretty.doc, Pretty.doc, unit) format6 ->
+  (unit, unit, Pretty.doc, Pretty.doc, Pretty.doc, unit) format6
+)
+ident(
+  ext_ref Pervasives.( ^^ )
+)
+"src/ocamlutil/alpha.ml" 93 4172 4194 "src/ocamlutil/alpha.ml" 93 4172 4225
+type(
+  (unit, unit, Pretty.doc, Pretty.doc, Pretty.doc, unit) format6
+)
+"src/ocamlutil/alpha.ml" 92 4103 4125 "src/ocamlutil/alpha.ml" 93 4172 4225
+call(
+  stack
+)
+type(
+  (unit, unit, Pretty.doc, Pretty.doc, Pretty.doc, unit) format6
+)
+"src/ocamlutil/alpha.ml" 91 4025 4056 "src/ocamlutil/alpha.ml" 93 4172 4226
+call(
+  stack
+)
+type(
+  (unit, unit, Pretty.doc, Pretty.doc, Pretty.doc, unit) format6
+)
+"src/ocamlutil/alpha.ml" 91 4025 4047 "src/ocamlutil/alpha.ml" 93 4172 4227
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 91 4025 4043 "src/ocamlutil/alpha.ml" 93 4172 4227
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 90 3984 4000 "src/ocamlutil/alpha.ml" 93 4172 4227
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 94 4229 4249 "src/ocamlutil/alpha.ml" 94 4229 4258
+type(
+  string
+)
+ident(
+  def newsuffix "src/ocamlutil/alpha.ml" 95 4307 4323 "src/ocamlutil/alpha.ml" 95 4307 4375
+)
+"src/ocamlutil/alpha.ml" 94 4229 4261 "src/ocamlutil/alpha.ml" 94 4229 4275
+type(
+  string
+)
+ident(
+  int_ref alphaSeparator "src/ocamlutil/alpha.ml" 7 119 123 "src/ocamlutil/alpha.ml" 7 119 137
+)
+"src/ocamlutil/alpha.ml" 94 4229 4276 "src/ocamlutil/alpha.ml" 94 4229 4277
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ocamlutil/alpha.ml" 94 4229 4279 "src/ocamlutil/alpha.ml" 94 4229 4292
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/ocamlutil/alpha.ml" 94 4229 4294 "src/ocamlutil/alpha.ml" 94 4229 4297
+type(
+  int
+)
+ident(
+  int_ref max "src/ocamlutil/alpha.ml" 67 3053 3063 "src/ocamlutil/alpha.ml" 67 3053 3066
+)
+"src/ocamlutil/alpha.ml" 94 4229 4298 "src/ocamlutil/alpha.ml" 94 4229 4299
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/alpha.ml" 94 4229 4300 "src/ocamlutil/alpha.ml" 94 4229 4301
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 94 4229 4293 "src/ocamlutil/alpha.ml" 94 4229 4302
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 94 4229 4278 "src/ocamlutil/alpha.ml" 94 4229 4303
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/alpha.ml" 94 4229 4261 "src/ocamlutil/alpha.ml" 94 4229 4303
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/alpha.ml" 95 4307 4323 "src/ocamlutil/alpha.ml" 95 4307 4326
+type(
+  int
+)
+ident(
+  int_ref max "src/ocamlutil/alpha.ml" 67 3053 3063 "src/ocamlutil/alpha.ml" 67 3053 3066
+)
+"src/ocamlutil/alpha.ml" 95 4307 4327 "src/ocamlutil/alpha.ml" 95 4307 4328
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/alpha.ml" 95 4307 4329 "src/ocamlutil/alpha.ml" 95 4307 4330
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 95 4307 4323 "src/ocamlutil/alpha.ml" 95 4307 4330
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 95 4307 4332 "src/ocamlutil/alpha.ml" 95 4307 4341
+type(
+  string
+)
+ident(
+  int_ref newsuffix "src/ocamlutil/alpha.ml" 94 4229 4249 "src/ocamlutil/alpha.ml" 94 4229 4258
+)
+"src/ocamlutil/alpha.ml" 95 4307 4343 "src/ocamlutil/alpha.ml" 95 4307 4344
+type(
+  'a
+)
+ident(
+  int_ref l "src/ocamlutil/alpha.ml" 87 3863 3880 "src/ocamlutil/alpha.ml" 87 3863 3881
+)
+"src/ocamlutil/alpha.ml" 95 4307 4347 "src/ocamlutil/alpha.ml" 95 4307 4356
+type(
+  string
+)
+ident(
+  int_ref newsuffix "src/ocamlutil/alpha.ml" 94 4229 4249 "src/ocamlutil/alpha.ml" 94 4229 4258
+)
+"src/ocamlutil/alpha.ml" 95 4307 4358 "src/ocamlutil/alpha.ml" 95 4307 4362
+type(
+  'a
+)
+ident(
+  int_ref data "src/ocamlutil/alpha.ml" 58 2638 2683 "src/ocamlutil/alpha.ml" 58 2638 2687
+)
+"src/ocamlutil/alpha.ml" 95 4307 4346 "src/ocamlutil/alpha.ml" 95 4307 4363
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 95 4307 4367 "src/ocamlutil/alpha.ml" 95 4307 4375
+type(
+  (string * 'a) list
+)
+ident(
+  int_ref suffixes "src/ocamlutil/alpha.ml" 67 3053 3068 "src/ocamlutil/alpha.ml" 67 3053 3076
+)
+"src/ocamlutil/alpha.ml" 95 4307 4346 "src/ocamlutil/alpha.ml" 95 4307 4375
+type(
+  (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 95 4307 4323 "src/ocamlutil/alpha.ml" 95 4307 4375
+type(
+  int * string * 'a * (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 94 4229 4245 "src/ocamlutil/alpha.ml" 95 4307 4375
+type(
+  int * string * 'a * (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 89 3947 3978 "src/ocamlutil/alpha.ml" 96 4376 4393
+type(
+  int * string * 'a * (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 97 4399 4415 "src/ocamlutil/alpha.ml" 97 4399 4418
+type(
+  int
+)
+ident(
+  int_ref max "src/ocamlutil/alpha.ml" 67 3053 3063 "src/ocamlutil/alpha.ml" 67 3053 3066
+)
+"src/ocamlutil/alpha.ml" 97 4399 4420 "src/ocamlutil/alpha.ml" 97 4399 4426
+type(
+  string
+)
+ident(
+  int_ref suffix "src/ocamlutil/alpha.ml" 60 2747 2761 "src/ocamlutil/alpha.ml" 60 2747 2767
+)
+"src/ocamlutil/alpha.ml" 97 4399 4428 "src/ocamlutil/alpha.ml" 97 4399 4432
+type(
+  'a
+)
+ident(
+  int_ref data "src/ocamlutil/alpha.ml" 58 2638 2683 "src/ocamlutil/alpha.ml" 58 2638 2687
+)
+"src/ocamlutil/alpha.ml" 97 4399 4434 "src/ocamlutil/alpha.ml" 97 4399 4442
+type(
+  (string * 'a) list
+)
+ident(
+  int_ref suffixes "src/ocamlutil/alpha.ml" 67 3053 3068 "src/ocamlutil/alpha.ml" 67 3053 3076
+)
+"src/ocamlutil/alpha.ml" 97 4399 4415 "src/ocamlutil/alpha.ml" 97 4399 4442
+type(
+  int * string * 'a * (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 89 3947 3961 "src/ocamlutil/alpha.ml" 97 4399 4442
+type(
+  int * string * 'a * (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 98 4443 4456 "src/ocamlutil/alpha.ml" 98 4443 4457
+type(
+  (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 98 4443 4461 "src/ocamlutil/alpha.ml" 98 4443 4464
+type(
+  unit -> int * string * 'a * (string * 'a) list
+)
+ident(
+  ext_ref E.s
+)
+"src/ocamlutil/alpha.ml" 98 4443 4466 "src/ocamlutil/alpha.ml" 98 4443 4471
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.bug
+)
+"src/ocamlutil/alpha.ml" 98 4443 4472 "src/ocamlutil/alpha.ml" 98 4443 4491
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/ocamlutil/alpha.ml" 98 4443 4465 "src/ocamlutil/alpha.ml" 98 4443 4492
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 98 4443 4461 "src/ocamlutil/alpha.ml" 98 4443 4492
+call(
+  stack
+)
+type(
+  int * string * 'a * (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 83 3675 3692 "src/ocamlutil/alpha.ml" 99 4493 4504
+type(
+  int * string * 'a * (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 79 3519 3527 "src/ocamlutil/alpha.ml" 99 4493 4504
+type(
+  int * string * 'a * (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 101 4514 4520 "src/ocamlutil/alpha.ml" 101 4514 4522
+type(
+  'a alphaTableData ref
+)
+ident(
+  int_ref rc "src/ocamlutil/alpha.ml" 66 3010 3020 "src/ocamlutil/alpha.ml" 66 3010 3022
+)
+"src/ocamlutil/alpha.ml" 101 4514 4523 "src/ocamlutil/alpha.ml" 101 4514 4525
+type(
+  'a alphaTableData ref -> 'a alphaTableData -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/alpha.ml" 101 4514 4527 "src/ocamlutil/alpha.ml" 101 4514 4533
+type(
+  int
+)
+ident(
+  int_ref newmax "src/ocamlutil/alpha.ml" 78 3460 3470 "src/ocamlutil/alpha.ml" 78 3460 3476
+)
+"src/ocamlutil/alpha.ml" 101 4514 4535 "src/ocamlutil/alpha.ml" 101 4514 4546
+type(
+  (string * 'a) list
+)
+ident(
+  int_ref newsuffixes "src/ocamlutil/alpha.ml" 78 3460 3504 "src/ocamlutil/alpha.ml" 78 3460 3515
+)
+"src/ocamlutil/alpha.ml" 101 4514 4526 "src/ocamlutil/alpha.ml" 101 4514 4547
+type(
+  'a alphaTableData
+)
+"src/ocamlutil/alpha.ml" 101 4514 4520 "src/ocamlutil/alpha.ml" 101 4514 4547
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 102 4549 4555 "src/ocamlutil/alpha.ml" 102 4549 4561
+type(
+  string
+)
+ident(
+  int_ref prefix "src/ocamlutil/alpha.ml" 60 2747 2753 "src/ocamlutil/alpha.ml" 60 2747 2759
+)
+"src/ocamlutil/alpha.ml" 102 4549 4562 "src/ocamlutil/alpha.ml" 102 4549 4563
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/ocamlutil/alpha.ml" 102 4549 4564 "src/ocamlutil/alpha.ml" 102 4549 4573
+type(
+  string
+)
+ident(
+  int_ref newsuffix "src/ocamlutil/alpha.ml" 78 3460 3478 "src/ocamlutil/alpha.ml" 78 3460 3487
+)
+"src/ocamlutil/alpha.ml" 102 4549 4555 "src/ocamlutil/alpha.ml" 102 4549 4573
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/alpha.ml" 102 4549 4575 "src/ocamlutil/alpha.ml" 102 4549 4582
+type(
+  'a
+)
+ident(
+  int_ref olddata "src/ocamlutil/alpha.ml" 78 3460 3490 "src/ocamlutil/alpha.ml" 78 3460 3497
+)
+"src/ocamlutil/alpha.ml" 102 4549 4555 "src/ocamlutil/alpha.ml" 102 4549 4582
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 101 4514 4520 "src/ocamlutil/alpha.ml" 102 4549 4582
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 78 3460 3466 "src/ocamlutil/alpha.ml" 102 4549 4582
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 74 3355 3361 "src/ocamlutil/alpha.ml" 102 4549 4582
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 69 3124 3130 "src/ocamlutil/alpha.ml" 102 4549 4582
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 67 3053 3059 "src/ocamlutil/alpha.ml" 102 4549 4582
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 66 3010 3016 "src/ocamlutil/alpha.ml" 102 4549 4582
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 103 4583 4592 "src/ocamlutil/alpha.ml" 103 4583 4601
+type(
+  exn
+)
+"src/ocamlutil/alpha.ml" 104 4649 4662 "src/ocamlutil/alpha.ml" 104 4649 4670
+type(
+  'a undoAlphaElement list ref option
+)
+ident(
+  int_ref undolist "src/ocamlutil/alpha.ml" 57 2568 2591 "src/ocamlutil/alpha.ml" 57 2568 2599
+)
+"src/ocamlutil/alpha.ml" 105 4677 4690 "src/ocamlutil/alpha.ml" 105 4677 4691
+type(
+  'a undoAlphaElement list ref
+)
+ident(
+  def l "src/ocamlutil/alpha.ml" 105 4677 4695 "src/ocamlutil/alpha.ml" 105 4677 4729
+)
+"src/ocamlutil/alpha.ml" 105 4677 4685 "src/ocamlutil/alpha.ml" 105 4677 4691
+type(
+  'a undoAlphaElement list ref option
+)
+"src/ocamlutil/alpha.ml" 105 4677 4695 "src/ocamlutil/alpha.ml" 105 4677 4696
+type(
+  'a undoAlphaElement list ref
+)
+ident(
+  int_ref l "src/ocamlutil/alpha.ml" 105 4677 4690 "src/ocamlutil/alpha.ml" 105 4677 4691
+)
+"src/ocamlutil/alpha.ml" 105 4677 4697 "src/ocamlutil/alpha.ml" 105 4677 4699
+type(
+  'a undoAlphaElement list ref -> 'a undoAlphaElement list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/alpha.ml" 105 4677 4717 "src/ocamlutil/alpha.ml" 105 4677 4723
+type(
+  string
+)
+ident(
+  int_ref prefix "src/ocamlutil/alpha.ml" 60 2747 2753 "src/ocamlutil/alpha.ml" 60 2747 2759
+)
+"src/ocamlutil/alpha.ml" 105 4677 4700 "src/ocamlutil/alpha.ml" 105 4677 4723
+type(
+  'a undoAlphaElement
+)
+"src/ocamlutil/alpha.ml" 105 4677 4727 "src/ocamlutil/alpha.ml" 105 4677 4728
+type(
+  'a undoAlphaElement list ref -> 'a undoAlphaElement list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/alpha.ml" 105 4677 4728 "src/ocamlutil/alpha.ml" 105 4677 4729
+type(
+  'a undoAlphaElement list ref
+)
+ident(
+  int_ref l "src/ocamlutil/alpha.ml" 105 4677 4690 "src/ocamlutil/alpha.ml" 105 4677 4691
+)
+"src/ocamlutil/alpha.ml" 105 4677 4727 "src/ocamlutil/alpha.ml" 105 4677 4729
+type(
+  'a undoAlphaElement list
+)
+"src/ocamlutil/alpha.ml" 105 4677 4700 "src/ocamlutil/alpha.ml" 105 4677 4729
+type(
+  'a undoAlphaElement list
+)
+"src/ocamlutil/alpha.ml" 105 4677 4695 "src/ocamlutil/alpha.ml" 105 4677 4729
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 106 4730 4738 "src/ocamlutil/alpha.ml" 106 4730 4739
+type(
+  'a undoAlphaElement list ref option
+)
+"src/ocamlutil/alpha.ml" 106 4730 4743 "src/ocamlutil/alpha.ml" 106 4730 4745
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 104 4649 4655 "src/ocamlutil/alpha.ml" 106 4730 4746
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 107 4748 4754 "src/ocamlutil/alpha.ml" 107 4748 4759
+type(
+  (string, 'a alphaTableData ref) H.t ->
+  string -> 'a alphaTableData ref -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/ocamlutil/alpha.ml" 107 4748 4760 "src/ocamlutil/alpha.ml" 107 4748 4770
+type(
+  (string, 'a alphaTableData ref) H.t
+)
+ident(
+  int_ref alphaTable "src/ocamlutil/alpha.ml" 56 2496 2519 "src/ocamlutil/alpha.ml" 56 2496 2529
+)
+"src/ocamlutil/alpha.ml" 107 4748 4771 "src/ocamlutil/alpha.ml" 107 4748 4777
+type(
+  string
+)
+ident(
+  int_ref prefix "src/ocamlutil/alpha.ml" 60 2747 2753 "src/ocamlutil/alpha.ml" 60 2747 2759
+)
+"src/ocamlutil/alpha.ml" 107 4748 4779 "src/ocamlutil/alpha.ml" 107 4748 4782
+type(
+  'a alphaTableData -> 'a alphaTableData ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ocamlutil/alpha.ml" 107 4748 4784 "src/ocamlutil/alpha.ml" 107 4748 4793
+type(
+  int
+)
+ident(
+  int_ref numsuffix "src/ocamlutil/alpha.ml" 60 2747 2770 "src/ocamlutil/alpha.ml" 60 2747 2779
+)
+"src/ocamlutil/alpha.ml" 107 4748 4798 "src/ocamlutil/alpha.ml" 107 4748 4804
+type(
+  string
+)
+ident(
+  int_ref suffix "src/ocamlutil/alpha.ml" 60 2747 2761 "src/ocamlutil/alpha.ml" 60 2747 2767
+)
+"src/ocamlutil/alpha.ml" 107 4748 4806 "src/ocamlutil/alpha.ml" 107 4748 4810
+type(
+  'a
+)
+ident(
+  int_ref data "src/ocamlutil/alpha.ml" 58 2638 2683 "src/ocamlutil/alpha.ml" 58 2638 2687
+)
+"src/ocamlutil/alpha.ml" 107 4748 4797 "src/ocamlutil/alpha.ml" 107 4748 4811
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 107 4748 4795 "src/ocamlutil/alpha.ml" 107 4748 4813
+type(
+  (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 107 4748 4783 "src/ocamlutil/alpha.ml" 107 4748 4814
+type(
+  'a alphaTableData
+)
+"src/ocamlutil/alpha.ml" 107 4748 4778 "src/ocamlutil/alpha.ml" 107 4748 4815
+type(
+  'a alphaTableData ref
+)
+"src/ocamlutil/alpha.ml" 107 4748 4754 "src/ocamlutil/alpha.ml" 107 4748 4815
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 108 4817 4826 "src/ocamlutil/alpha.ml" 108 4817 4836
+type(
+  string -> bool
+)
+ident(
+  int_ref debugAlpha "src/ocamlutil/alpha.ml" 5 52 56 "src/ocamlutil/alpha.ml" 5 52 66
+)
+"src/ocamlutil/alpha.ml" 108 4817 4837 "src/ocamlutil/alpha.ml" 108 4817 4843
+type(
+  string
+)
+ident(
+  int_ref prefix "src/ocamlutil/alpha.ml" 60 2747 2753 "src/ocamlutil/alpha.ml" 60 2747 2759
+)
+"src/ocamlutil/alpha.ml" 108 4817 4826 "src/ocamlutil/alpha.ml" 108 4817 4843
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 108 4817 4849 "src/ocamlutil/alpha.ml" 108 4817 4855
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ocamlutil/alpha.ml" 108 4817 4857 "src/ocamlutil/alpha.ml" 108 4817 4862
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ocamlutil/alpha.ml" 108 4817 4863 "src/ocamlutil/alpha.ml" 108 4817 4878
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/ocamlutil/alpha.ml" 108 4817 4856 "src/ocamlutil/alpha.ml" 108 4817 4879
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 108 4817 4849 "src/ocamlutil/alpha.ml" 108 4817 4879
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 108 4817 4823 "src/ocamlutil/alpha.ml" 108 4817 4879
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 109 4881 4887 "src/ocamlutil/alpha.ml" 109 4881 4897
+type(
+  string
+)
+ident(
+  int_ref lookupname "src/ocamlutil/alpha.ml" 58 2638 2661 "src/ocamlutil/alpha.ml" 58 2638 2671
+)
+"src/ocamlutil/alpha.ml" 109 4881 4899 "src/ocamlutil/alpha.ml" 109 4881 4903
+type(
+  'a
+)
+ident(
+  int_ref data "src/ocamlutil/alpha.ml" 58 2638 2683 "src/ocamlutil/alpha.ml" 58 2638 2687
+)
+"src/ocamlutil/alpha.ml" 109 4881 4887 "src/ocamlutil/alpha.ml" 109 4881 4903
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 108 4817 4823 "src/ocamlutil/alpha.ml" 109 4881 4903
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 107 4748 4754 "src/ocamlutil/alpha.ml" 109 4881 4903
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 103 4583 4605 "src/ocamlutil/alpha.ml" 110 4936 4943
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 65 3002 3006 "src/ocamlutil/alpha.ml" 110 4936 4943
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 112 4949 4954 "src/ocamlutil/alpha.ml" 112 4949 4964
+type(
+  string -> bool
+)
+ident(
+  int_ref debugAlpha "src/ocamlutil/alpha.ml" 5 52 56 "src/ocamlutil/alpha.ml" 5 52 66
+)
+"src/ocamlutil/alpha.ml" 112 4949 4965 "src/ocamlutil/alpha.ml" 112 4949 4971
+type(
+  string
+)
+ident(
+  int_ref prefix "src/ocamlutil/alpha.ml" 60 2747 2753 "src/ocamlutil/alpha.ml" 60 2747 2759
+)
+"src/ocamlutil/alpha.ml" 112 4949 4954 "src/ocamlutil/alpha.ml" 112 4949 4971
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 113 4977 4981 "src/ocamlutil/alpha.ml" 113 4977 4987
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ocamlutil/alpha.ml" 113 4977 4989 "src/ocamlutil/alpha.ml" 113 4977 4994
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ocamlutil/alpha.ml" 113 4977 4995 "src/ocamlutil/alpha.ml" 113 4977 5009
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ocamlutil/alpha.ml" 113 4977 5010 "src/ocamlutil/alpha.ml" 113 4977 5017
+type(
+  string
+)
+ident(
+  int_ref newname "src/ocamlutil/alpha.ml" 64 2970 2976 "src/ocamlutil/alpha.ml" 64 2970 2983
+)
+"src/ocamlutil/alpha.ml" 113 4977 4988 "src/ocamlutil/alpha.ml" 113 4977 5037
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 113 4977 4981 "src/ocamlutil/alpha.ml" 113 4977 5037
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 112 4949 4951 "src/ocamlutil/alpha.ml" 113 4977 5037
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 114 5039 5041 "src/ocamlutil/alpha.ml" 114 5039 5048
+type(
+  string
+)
+ident(
+  int_ref newname "src/ocamlutil/alpha.ml" 64 2970 2976 "src/ocamlutil/alpha.ml" 64 2970 2983
+)
+"src/ocamlutil/alpha.ml" 114 5039 5050 "src/ocamlutil/alpha.ml" 114 5039 5057
+type(
+  'a
+)
+ident(
+  int_ref olddata "src/ocamlutil/alpha.ml" 64 2970 2986 "src/ocamlutil/alpha.ml" 64 2970 2993
+)
+"src/ocamlutil/alpha.ml" 114 5039 5041 "src/ocamlutil/alpha.ml" 114 5039 5057
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 112 4949 4951 "src/ocamlutil/alpha.ml" 114 5039 5057
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 64 2970 2972 "src/ocamlutil/alpha.ml" 114 5039 5057
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 61 2821 2823 "src/ocamlutil/alpha.ml" 114 5039 5057
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 60 2747 2749 "src/ocamlutil/alpha.ml" 114 5039 5057
+type(
+  string * 'a
+)
+type(
+  string * 'a
+)
+"src/ocamlutil/alpha.ml" 119 5248 5252 "src/ocamlutil/alpha.ml" 119 5248 5269
+type(
+  lookupname:string -> string * string * int
+)
+ident(
+  def splitNameForAlpha "src/ocamlutil/alpha.ml" 39 1715 1715 "src/ocamlutil/alpha.ml" 1 0 -1
+)
+"src/ocamlutil/alpha.ml" 119 5248 5272 "src/ocamlutil/alpha.ml" 119 5248 5282
+type(
+  string
+)
+ident(
+  def lookupname "src/ocamlutil/alpha.ml" 119 5248 5292 "src/ocamlutil/alpha.ml" 150 6763 6838
+)
+"src/ocamlutil/alpha.ml" 120 5321 5327 "src/ocamlutil/alpha.ml" 120 5321 5330
+type(
+  int
+)
+ident(
+  def len "src/ocamlutil/alpha.ml" 123 5486 5488 "src/ocamlutil/alpha.ml" 150 6763 6838
+)
+"src/ocamlutil/alpha.ml" 120 5321 5333 "src/ocamlutil/alpha.ml" 120 5321 5346
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/ocamlutil/alpha.ml" 120 5321 5347 "src/ocamlutil/alpha.ml" 120 5321 5357
+type(
+  string
+)
+ident(
+  int_ref lookupname "src/ocamlutil/alpha.ml" 119 5248 5272 "src/ocamlutil/alpha.ml" 119 5248 5282
+)
+"src/ocamlutil/alpha.ml" 120 5321 5333 "src/ocamlutil/alpha.ml" 120 5321 5357
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 123 5486 5496 "src/ocamlutil/alpha.ml" 123 5486 5506
+type(
+  int -> int
+)
+ident(
+  def skipSuffix "src/ocamlutil/alpha.ml" 123 5486 5488 "src/ocamlutil/alpha.ml" 150 6763 6838
+)
+"src/ocamlutil/alpha.ml" 123 5486 5508 "src/ocamlutil/alpha.ml" 123 5486 5509
+type(
+  int
+)
+ident(
+  def i "src/ocamlutil/alpha.ml" 124 5519 5523 "src/ocamlutil/alpha.ml" 128 5669 5685
+)
+"src/ocamlutil/alpha.ml" 124 5519 5526 "src/ocamlutil/alpha.ml" 124 5519 5527
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/alpha.ml" 123 5486 5508 "src/ocamlutil/alpha.ml" 123 5486 5509
+)
+"src/ocamlutil/alpha.ml" 124 5519 5528 "src/ocamlutil/alpha.ml" 124 5519 5529
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/alpha.ml" 124 5519 5530 "src/ocamlutil/alpha.ml" 124 5519 5532
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 124 5519 5526 "src/ocamlutil/alpha.ml" 124 5519 5532
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 124 5519 5538 "src/ocamlutil/alpha.ml" 124 5519 5540
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 125 5547 5555 "src/ocamlutil/alpha.ml" 125 5547 5556
+type(
+  int
+)
+ident(
+  def c "src/ocamlutil/alpha.ml" 126 5614 5618 "src/ocamlutil/alpha.ml" 128 5669 5685
+)
+"src/ocamlutil/alpha.ml" 125 5547 5559 "src/ocamlutil/alpha.ml" 125 5547 5568
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"src/ocamlutil/alpha.ml" 125 5547 5570 "src/ocamlutil/alpha.ml" 125 5547 5580
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"src/ocamlutil/alpha.ml" 125 5547 5581 "src/ocamlutil/alpha.ml" 125 5547 5591
+type(
+  string
+)
+ident(
+  int_ref lookupname "src/ocamlutil/alpha.ml" 119 5248 5272 "src/ocamlutil/alpha.ml" 119 5248 5282
+)
+"src/ocamlutil/alpha.ml" 125 5547 5592 "src/ocamlutil/alpha.ml" 125 5547 5593
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/alpha.ml" 123 5486 5508 "src/ocamlutil/alpha.ml" 123 5486 5509
+)
+"src/ocamlutil/alpha.ml" 125 5547 5569 "src/ocamlutil/alpha.ml" 125 5547 5594
+type(
+  char
+)
+"src/ocamlutil/alpha.ml" 125 5547 5559 "src/ocamlutil/alpha.ml" 125 5547 5594
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 125 5547 5595 "src/ocamlutil/alpha.ml" 125 5547 5596
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/alpha.ml" 125 5547 5597 "src/ocamlutil/alpha.ml" 125 5547 5606
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"src/ocamlutil/alpha.ml" 125 5547 5607 "src/ocamlutil/alpha.ml" 125 5547 5610
+type(
+  char
+)
+"src/ocamlutil/alpha.ml" 125 5547 5597 "src/ocamlutil/alpha.ml" 125 5547 5610
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 125 5547 5559 "src/ocamlutil/alpha.ml" 125 5547 5610
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 126 5614 5621 "src/ocamlutil/alpha.ml" 126 5614 5622
+type(
+  int
+)
+ident(
+  int_ref c "src/ocamlutil/alpha.ml" 125 5547 5555 "src/ocamlutil/alpha.ml" 125 5547 5556
+)
+"src/ocamlutil/alpha.ml" 126 5614 5623 "src/ocamlutil/alpha.ml" 126 5614 5625
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ocamlutil/alpha.ml" 126 5614 5626 "src/ocamlutil/alpha.ml" 126 5614 5627
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 126 5614 5621 "src/ocamlutil/alpha.ml" 126 5614 5627
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 126 5614 5628 "src/ocamlutil/alpha.ml" 126 5614 5630
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ocamlutil/alpha.ml" 126 5614 5631 "src/ocamlutil/alpha.ml" 126 5614 5632
+type(
+  int
+)
+ident(
+  int_ref c "src/ocamlutil/alpha.ml" 125 5547 5555 "src/ocamlutil/alpha.ml" 125 5547 5556
+)
+"src/ocamlutil/alpha.ml" 126 5614 5633 "src/ocamlutil/alpha.ml" 126 5614 5635
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/ocamlutil/alpha.ml" 126 5614 5636 "src/ocamlutil/alpha.ml" 126 5614 5637
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 126 5614 5631 "src/ocamlutil/alpha.ml" 126 5614 5637
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 126 5614 5621 "src/ocamlutil/alpha.ml" 126 5614 5637
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 127 5644 5650 "src/ocamlutil/alpha.ml" 127 5644 5660
+type(
+  int -> int
+)
+ident(
+  int_ref skipSuffix "src/ocamlutil/alpha.ml" 123 5486 5496 "src/ocamlutil/alpha.ml" 123 5486 5506
+)
+"src/ocamlutil/alpha.ml" 127 5644 5662 "src/ocamlutil/alpha.ml" 127 5644 5663
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/alpha.ml" 123 5486 5508 "src/ocamlutil/alpha.ml" 123 5486 5509
+)
+"src/ocamlutil/alpha.ml" 127 5644 5664 "src/ocamlutil/alpha.ml" 127 5644 5665
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/alpha.ml" 127 5644 5666 "src/ocamlutil/alpha.ml" 127 5644 5667
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 127 5644 5661 "src/ocamlutil/alpha.ml" 127 5644 5668
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 127 5644 5650 "src/ocamlutil/alpha.ml" 127 5644 5668
+call(
+  tail
+)
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 128 5669 5679 "src/ocamlutil/alpha.ml" 128 5669 5680
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/alpha.ml" 123 5486 5508 "src/ocamlutil/alpha.ml" 123 5486 5509
+)
+"src/ocamlutil/alpha.ml" 128 5669 5681 "src/ocamlutil/alpha.ml" 128 5669 5682
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/alpha.ml" 128 5669 5683 "src/ocamlutil/alpha.ml" 128 5669 5684
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 128 5669 5678 "src/ocamlutil/alpha.ml" 128 5669 5685
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 126 5614 5618 "src/ocamlutil/alpha.ml" 128 5669 5685
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 125 5547 5551 "src/ocamlutil/alpha.ml" 128 5669 5685
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 124 5519 5523 "src/ocamlutil/alpha.ml" 128 5669 5685
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 130 5691 5697 "src/ocamlutil/alpha.ml" 130 5691 5708
+type(
+  int
+)
+ident(
+  def startSuffix "src/ocamlutil/alpha.ml" 132 5736 5738 "src/ocamlutil/alpha.ml" 150 6763 6838
+)
+"src/ocamlutil/alpha.ml" 130 5691 5711 "src/ocamlutil/alpha.ml" 130 5691 5721
+type(
+  int -> int
+)
+ident(
+  int_ref skipSuffix "src/ocamlutil/alpha.ml" 123 5486 5496 "src/ocamlutil/alpha.ml" 123 5486 5506
+)
+"src/ocamlutil/alpha.ml" 130 5691 5723 "src/ocamlutil/alpha.ml" 130 5691 5726
+type(
+  int
+)
+ident(
+  int_ref len "src/ocamlutil/alpha.ml" 120 5321 5327 "src/ocamlutil/alpha.ml" 120 5321 5330
+)
+"src/ocamlutil/alpha.ml" 130 5691 5727 "src/ocamlutil/alpha.ml" 130 5691 5728
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/alpha.ml" 130 5691 5729 "src/ocamlutil/alpha.ml" 130 5691 5730
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 130 5691 5722 "src/ocamlutil/alpha.ml" 130 5691 5731
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 130 5691 5711 "src/ocamlutil/alpha.ml" 130 5691 5731
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 132 5736 5741 "src/ocamlutil/alpha.ml" 132 5736 5752
+type(
+  int
+)
+ident(
+  int_ref startSuffix "src/ocamlutil/alpha.ml" 130 5691 5697 "src/ocamlutil/alpha.ml" 130 5691 5708
+)
+"src/ocamlutil/alpha.ml" 132 5736 5753 "src/ocamlutil/alpha.ml" 132 5736 5755
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ocamlutil/alpha.ml" 132 5736 5756 "src/ocamlutil/alpha.ml" 132 5736 5759
+type(
+  int
+)
+ident(
+  int_ref len "src/ocamlutil/alpha.ml" 120 5321 5327 "src/ocamlutil/alpha.ml" 120 5321 5330
+)
+"src/ocamlutil/alpha.ml" 132 5736 5741 "src/ocamlutil/alpha.ml" 132 5736 5759
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 132 5736 5794 "src/ocamlutil/alpha.ml" 132 5736 5796
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ocamlutil/alpha.ml" 136 5977 5983 "src/ocamlutil/alpha.ml" 136 5977 5986
+type(
+  int
+)
+ident(
+  int_ref len "src/ocamlutil/alpha.ml" 120 5321 5327 "src/ocamlutil/alpha.ml" 120 5321 5330
+)
+"src/ocamlutil/alpha.ml" 136 5977 5987 "src/ocamlutil/alpha.ml" 136 5977 5988
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/alpha.ml" 136 5977 5989 "src/ocamlutil/alpha.ml" 136 5977 6000
+type(
+  int
+)
+ident(
+  int_ref startSuffix "src/ocamlutil/alpha.ml" 130 5691 5697 "src/ocamlutil/alpha.ml" 130 5691 5708
+)
+"src/ocamlutil/alpha.ml" 136 5977 5983 "src/ocamlutil/alpha.ml" 136 5977 6000
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 136 5977 6001 "src/ocamlutil/alpha.ml" 136 5977 6002
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/alpha.ml" 136 5977 6003 "src/ocamlutil/alpha.ml" 136 5977 6018
+type(
+  int
+)
+ident(
+  int_ref maxSuffixLength "src/ocamlutil/alpha.ml" 23 875 879 "src/ocamlutil/alpha.ml" 23 875 894
+)
+"src/ocamlutil/alpha.ml" 136 5977 5982 "src/ocamlutil/alpha.ml" 136 5977 6019
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 136 5977 6020 "src/ocamlutil/alpha.ml" 136 5977 6022
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ocamlutil/alpha.ml" 137 6023 6028 "src/ocamlutil/alpha.ml" 137 6023 6039
+type(
+  int
+)
+ident(
+  int_ref startSuffix "src/ocamlutil/alpha.ml" 130 5691 5697 "src/ocamlutil/alpha.ml" 130 5691 5708
+)
+"src/ocamlutil/alpha.ml" 137 6023 6040 "src/ocamlutil/alpha.ml" 137 6023 6042
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/ocamlutil/alpha.ml" 137 6023 6043 "src/ocamlutil/alpha.ml" 137 6023 6060
+type(
+  int
+)
+ident(
+  int_ref alphaSeparatorLen "src/ocamlutil/alpha.ml" 8 146 150 "src/ocamlutil/alpha.ml" 8 146 167
+)
+"src/ocamlutil/alpha.ml" 137 6023 6028 "src/ocamlutil/alpha.ml" 137 6023 6060
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 138 6102 6178 "src/ocamlutil/alpha.ml" 138 6102 6180
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ocamlutil/alpha.ml" 140 6251 6257 "src/ocamlutil/alpha.ml" 140 6251 6268
+type(
+  int
+)
+ident(
+  int_ref startSuffix "src/ocamlutil/alpha.ml" 130 5691 5697 "src/ocamlutil/alpha.ml" 130 5691 5708
+)
+"src/ocamlutil/alpha.ml" 140 6251 6269 "src/ocamlutil/alpha.ml" 140 6251 6270
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ocamlutil/alpha.ml" 140 6251 6271 "src/ocamlutil/alpha.ml" 140 6251 6274
+type(
+  int
+)
+ident(
+  int_ref len "src/ocamlutil/alpha.ml" 120 5321 5327 "src/ocamlutil/alpha.ml" 120 5321 5330
+)
+"src/ocamlutil/alpha.ml" 140 6251 6275 "src/ocamlutil/alpha.ml" 140 6251 6276
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/alpha.ml" 140 6251 6277 "src/ocamlutil/alpha.ml" 140 6251 6278
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 140 6251 6271 "src/ocamlutil/alpha.ml" 140 6251 6278
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 140 6251 6257 "src/ocamlutil/alpha.ml" 140 6251 6278
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 140 6251 6279 "src/ocamlutil/alpha.ml" 140 6251 6281
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ocamlutil/alpha.ml" 140 6251 6282 "src/ocamlutil/alpha.ml" 140 6251 6292
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"src/ocamlutil/alpha.ml" 140 6251 6293 "src/ocamlutil/alpha.ml" 140 6251 6303
+type(
+  string
+)
+ident(
+  int_ref lookupname "src/ocamlutil/alpha.ml" 119 5248 5272 "src/ocamlutil/alpha.ml" 119 5248 5282
+)
+"src/ocamlutil/alpha.ml" 140 6251 6304 "src/ocamlutil/alpha.ml" 140 6251 6315
+type(
+  int
+)
+ident(
+  int_ref startSuffix "src/ocamlutil/alpha.ml" 130 5691 5697 "src/ocamlutil/alpha.ml" 130 5691 5708
+)
+"src/ocamlutil/alpha.ml" 140 6251 6282 "src/ocamlutil/alpha.ml" 140 6251 6315
+type(
+  char
+)
+"src/ocamlutil/alpha.ml" 140 6251 6316 "src/ocamlutil/alpha.ml" 140 6251 6317
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/alpha.ml" 140 6251 6318 "src/ocamlutil/alpha.ml" 140 6251 6321
+type(
+  char
+)
+"src/ocamlutil/alpha.ml" 140 6251 6282 "src/ocamlutil/alpha.ml" 140 6251 6321
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 140 6251 6256 "src/ocamlutil/alpha.ml" 140 6251 6322
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 140 6251 6324 "src/ocamlutil/alpha.ml" 140 6251 6326
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ocamlutil/alpha.ml" 141 6327 6332 "src/ocamlutil/alpha.ml" 141 6327 6346
+type(
+  string
+)
+ident(
+  int_ref alphaSeparator "src/ocamlutil/alpha.ml" 7 119 123 "src/ocamlutil/alpha.ml" 7 119 137
+)
+"src/ocamlutil/alpha.ml" 141 6327 6347 "src/ocamlutil/alpha.ml" 141 6327 6349
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ocamlutil/alpha.ml" 141 6327 6350 "src/ocamlutil/alpha.ml" 141 6327 6360
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/ocamlutil/alpha.ml" 141 6327 6361 "src/ocamlutil/alpha.ml" 141 6327 6371
+type(
+  string
+)
+ident(
+  int_ref lookupname "src/ocamlutil/alpha.ml" 119 5248 5272 "src/ocamlutil/alpha.ml" 119 5248 5282
+)
+"src/ocamlutil/alpha.ml" 142 6373 6407 "src/ocamlutil/alpha.ml" 142 6373 6418
+type(
+  int
+)
+ident(
+  int_ref startSuffix "src/ocamlutil/alpha.ml" 130 5691 5697 "src/ocamlutil/alpha.ml" 130 5691 5708
+)
+"src/ocamlutil/alpha.ml" 142 6373 6419 "src/ocamlutil/alpha.ml" 142 6373 6420
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/alpha.ml" 142 6373 6421 "src/ocamlutil/alpha.ml" 142 6373 6438
+type(
+  int
+)
+ident(
+  int_ref alphaSeparatorLen "src/ocamlutil/alpha.ml" 8 146 150 "src/ocamlutil/alpha.ml" 8 146 167
+)
+"src/ocamlutil/alpha.ml" 142 6373 6406 "src/ocamlutil/alpha.ml" 142 6373 6439
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 143 6442 6475 "src/ocamlutil/alpha.ml" 143 6442 6492
+type(
+  int
+)
+ident(
+  int_ref alphaSeparatorLen "src/ocamlutil/alpha.ml" 8 146 150 "src/ocamlutil/alpha.ml" 8 146 167
+)
+"src/ocamlutil/alpha.ml" 141 6327 6350 "src/ocamlutil/alpha.ml" 143 6442 6492
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/alpha.ml" 141 6327 6332 "src/ocamlutil/alpha.ml" 143 6442 6492
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 140 6251 6256 "src/ocamlutil/alpha.ml" 143 6442 6492
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 137 6023 6028 "src/ocamlutil/alpha.ml" 143 6442 6492
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 136 5977 5982 "src/ocamlutil/alpha.ml" 143 6442 6492
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 132 5736 5741 "src/ocamlutil/alpha.ml" 143 6442 6492
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 145 6501 6506 "src/ocamlutil/alpha.ml" 145 6501 6516
+type(
+  string
+)
+ident(
+  int_ref lookupname "src/ocamlutil/alpha.ml" 119 5248 5272 "src/ocamlutil/alpha.ml" 119 5248 5282
+)
+"src/ocamlutil/alpha.ml" 145 6501 6518 "src/ocamlutil/alpha.ml" 145 6501 6520
+type(
+  string
+)
+"src/ocamlutil/alpha.ml" 145 6501 6522 "src/ocamlutil/alpha.ml" 145 6501 6524
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 145 6501 6505 "src/ocamlutil/alpha.ml" 145 6501 6525
+type(
+  string * string * int
+)
+"src/ocamlutil/alpha.ml" 147 6568 6573 "src/ocamlutil/alpha.ml" 147 6568 6583
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/ocamlutil/alpha.ml" 147 6568 6584 "src/ocamlutil/alpha.ml" 147 6568 6594
+type(
+  string
+)
+ident(
+  int_ref lookupname "src/ocamlutil/alpha.ml" 119 5248 5272 "src/ocamlutil/alpha.ml" 119 5248 5282
+)
+"src/ocamlutil/alpha.ml" 147 6568 6595 "src/ocamlutil/alpha.ml" 147 6568 6596
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 147 6568 6598 "src/ocamlutil/alpha.ml" 147 6568 6609
+type(
+  int
+)
+ident(
+  int_ref startSuffix "src/ocamlutil/alpha.ml" 130 5691 5697 "src/ocamlutil/alpha.ml" 130 5691 5708
+)
+"src/ocamlutil/alpha.ml" 147 6568 6610 "src/ocamlutil/alpha.ml" 147 6568 6611
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/alpha.ml" 147 6568 6612 "src/ocamlutil/alpha.ml" 147 6568 6629
+type(
+  int
+)
+ident(
+  int_ref alphaSeparatorLen "src/ocamlutil/alpha.ml" 8 146 150 "src/ocamlutil/alpha.ml" 8 146 167
+)
+"src/ocamlutil/alpha.ml" 147 6568 6597 "src/ocamlutil/alpha.ml" 147 6568 6630
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 147 6568 6573 "src/ocamlutil/alpha.ml" 147 6568 6630
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/alpha.ml" 148 6633 6638 "src/ocamlutil/alpha.ml" 148 6633 6648
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/ocamlutil/alpha.ml" 148 6633 6649 "src/ocamlutil/alpha.ml" 148 6633 6659
+type(
+  string
+)
+ident(
+  int_ref lookupname "src/ocamlutil/alpha.ml" 119 5248 5272 "src/ocamlutil/alpha.ml" 119 5248 5282
+)
+"src/ocamlutil/alpha.ml" 148 6633 6661 "src/ocamlutil/alpha.ml" 148 6633 6672
+type(
+  int
+)
+ident(
+  int_ref startSuffix "src/ocamlutil/alpha.ml" 130 5691 5697 "src/ocamlutil/alpha.ml" 130 5691 5708
+)
+"src/ocamlutil/alpha.ml" 148 6633 6673 "src/ocamlutil/alpha.ml" 148 6633 6674
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/alpha.ml" 148 6633 6675 "src/ocamlutil/alpha.ml" 148 6633 6692
+type(
+  int
+)
+ident(
+  int_ref alphaSeparatorLen "src/ocamlutil/alpha.ml" 8 146 150 "src/ocamlutil/alpha.ml" 8 146 167
+)
+"src/ocamlutil/alpha.ml" 148 6633 6660 "src/ocamlutil/alpha.ml" 148 6633 6693
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 149 6695 6723 "src/ocamlutil/alpha.ml" 149 6695 6726
+type(
+  int
+)
+ident(
+  int_ref len "src/ocamlutil/alpha.ml" 120 5321 5327 "src/ocamlutil/alpha.ml" 120 5321 5330
+)
+"src/ocamlutil/alpha.ml" 149 6695 6727 "src/ocamlutil/alpha.ml" 149 6695 6728
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/alpha.ml" 149 6695 6729 "src/ocamlutil/alpha.ml" 149 6695 6740
+type(
+  int
+)
+ident(
+  int_ref startSuffix "src/ocamlutil/alpha.ml" 130 5691 5697 "src/ocamlutil/alpha.ml" 130 5691 5708
+)
+"src/ocamlutil/alpha.ml" 149 6695 6723 "src/ocamlutil/alpha.ml" 149 6695 6740
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 149 6695 6741 "src/ocamlutil/alpha.ml" 149 6695 6742
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/alpha.ml" 149 6695 6743 "src/ocamlutil/alpha.ml" 149 6695 6760
+type(
+  int
+)
+ident(
+  int_ref alphaSeparatorLen "src/ocamlutil/alpha.ml" 8 146 150 "src/ocamlutil/alpha.ml" 8 146 167
+)
+"src/ocamlutil/alpha.ml" 149 6695 6722 "src/ocamlutil/alpha.ml" 149 6695 6761
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 148 6633 6638 "src/ocamlutil/alpha.ml" 149 6695 6761
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/alpha.ml" 150 6763 6768 "src/ocamlutil/alpha.ml" 150 6763 6781
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/ocamlutil/alpha.ml" 150 6763 6783 "src/ocamlutil/alpha.ml" 150 6763 6793
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/ocamlutil/alpha.ml" 150 6763 6794 "src/ocamlutil/alpha.ml" 150 6763 6804
+type(
+  string
+)
+ident(
+  int_ref lookupname "src/ocamlutil/alpha.ml" 119 5248 5272 "src/ocamlutil/alpha.ml" 119 5248 5282
+)
+"src/ocamlutil/alpha.ml" 150 6763 6805 "src/ocamlutil/alpha.ml" 150 6763 6816
+type(
+  int
+)
+ident(
+  int_ref startSuffix "src/ocamlutil/alpha.ml" 130 5691 5697 "src/ocamlutil/alpha.ml" 130 5691 5708
+)
+"src/ocamlutil/alpha.ml" 150 6763 6818 "src/ocamlutil/alpha.ml" 150 6763 6821
+type(
+  int
+)
+ident(
+  int_ref len "src/ocamlutil/alpha.ml" 120 5321 5327 "src/ocamlutil/alpha.ml" 120 5321 5330
+)
+"src/ocamlutil/alpha.ml" 150 6763 6822 "src/ocamlutil/alpha.ml" 150 6763 6823
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/alpha.ml" 150 6763 6824 "src/ocamlutil/alpha.ml" 150 6763 6835
+type(
+  int
+)
+ident(
+  int_ref startSuffix "src/ocamlutil/alpha.ml" 130 5691 5697 "src/ocamlutil/alpha.ml" 130 5691 5708
+)
+"src/ocamlutil/alpha.ml" 150 6763 6817 "src/ocamlutil/alpha.ml" 150 6763 6836
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 150 6763 6782 "src/ocamlutil/alpha.ml" 150 6763 6837
+call(
+  stack
+)
+type(
+  string
+)
+"src/ocamlutil/alpha.ml" 150 6763 6768 "src/ocamlutil/alpha.ml" 150 6763 6837
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 147 6568 6572 "src/ocamlutil/alpha.ml" 150 6763 6838
+type(
+  string * string * int
+)
+"src/ocamlutil/alpha.ml" 132 5736 5738 "src/ocamlutil/alpha.ml" 150 6763 6838
+type(
+  string * string * int
+)
+"src/ocamlutil/alpha.ml" 130 5691 5693 "src/ocamlutil/alpha.ml" 150 6763 6838
+type(
+  string * string * int
+)
+"src/ocamlutil/alpha.ml" 123 5486 5488 "src/ocamlutil/alpha.ml" 150 6763 6838
+type(
+  string * string * int
+)
+"src/ocamlutil/alpha.ml" 120 5321 5323 "src/ocamlutil/alpha.ml" 150 6763 6838
+type(
+  string * string * int
+)
+type(
+  string * string * int
+)
+"src/ocamlutil/alpha.ml" 153 6845 6849 "src/ocamlutil/alpha.ml" 153 6845 6863
+type(
+  lookupname:string -> string
+)
+ident(
+  def getAlphaPrefix "src/ocamlutil/alpha.ml" 158 7022 7022 "src/ocamlutil/alpha.ml" 1 0 -1
+)
+"src/ocamlutil/alpha.ml" 153 6845 6866 "src/ocamlutil/alpha.ml" 153 6845 6876
+type(
+  string
+)
+ident(
+  def lookupname "src/ocamlutil/alpha.ml" 153 6845 6885 "src/ocamlutil/alpha.ml" 155 6957 6960
+)
+"src/ocamlutil/alpha.ml" 154 6897 6903 "src/ocamlutil/alpha.ml" 154 6897 6904
+type(
+  string
+)
+ident(
+  def p "src/ocamlutil/alpha.ml" 155 6957 6959 "src/ocamlutil/alpha.ml" 155 6957 6960
+)
+"src/ocamlutil/alpha.ml" 154 6897 6906 "src/ocamlutil/alpha.ml" 154 6897 6907
+type(
+  string
+)
+"src/ocamlutil/alpha.ml" 154 6897 6909 "src/ocamlutil/alpha.ml" 154 6897 6910
+type(
+  int
+)
+"src/ocamlutil/alpha.ml" 154 6897 6903 "src/ocamlutil/alpha.ml" 154 6897 6910
+type(
+  string * string * int
+)
+"src/ocamlutil/alpha.ml" 154 6897 6913 "src/ocamlutil/alpha.ml" 154 6897 6930
+type(
+  lookupname:string -> string * string * int
+)
+ident(
+  int_ref splitNameForAlpha "src/ocamlutil/alpha.ml" 119 5248 5252 "src/ocamlutil/alpha.ml" 119 5248 5269
+)
+"src/ocamlutil/alpha.ml" 154 6897 6943 "src/ocamlutil/alpha.ml" 154 6897 6953
+type(
+  string
+)
+ident(
+  int_ref lookupname "src/ocamlutil/alpha.ml" 153 6845 6866 "src/ocamlutil/alpha.ml" 153 6845 6876
+)
+"src/ocamlutil/alpha.ml" 154 6897 6913 "src/ocamlutil/alpha.ml" 154 6897 6953
+call(
+  stack
+)
+type(
+  string * string * int
+)
+"src/ocamlutil/alpha.ml" 155 6957 6959 "src/ocamlutil/alpha.ml" 155 6957 6960
+type(
+  string
+)
+ident(
+  int_ref p "src/ocamlutil/alpha.ml" 154 6897 6903 "src/ocamlutil/alpha.ml" 154 6897 6904
+)
+"src/ocamlutil/alpha.ml" 154 6897 6899 "src/ocamlutil/alpha.ml" 155 6957 6960
+type(
+  string
+)
+type(
+  string
+)
+"src/ocamlutil/alpha.ml" 158 7022 7026 "src/ocamlutil/alpha.ml" 158 7022 7042
+type(
+  alphaTable:(string, 'a alphaTableData ref) H.t ->
+  undolist:'a undoAlphaElement list -> unit
+)
+ident(
+  def undoAlphaChanges "src/ocamlutil/alpha.ml" 170 7436 7436 "src/ocamlutil/alpha.ml" 1 0 -1
+)
+"src/ocamlutil/alpha.ml" 158 7022 7045 "src/ocamlutil/alpha.ml" 158 7022 7055
+type(
+  (string, 'a alphaTableData ref) H.t
+)
+ident(
+  def alphaTable "src/ocamlutil/alpha.ml" 159 7095 7116 "src/ocamlutil/alpha.ml" 168 7422 7434
+)
+"src/ocamlutil/alpha.ml" 159 7095 7118 "src/ocamlutil/alpha.ml" 159 7095 7126
+type(
+  'a undoAlphaElement list
+)
+ident(
+  def undolist "src/ocamlutil/alpha.ml" 160 7157 7159 "src/ocamlutil/alpha.ml" 168 7422 7434
+)
+"src/ocamlutil/alpha.ml" 160 7157 7159 "src/ocamlutil/alpha.ml" 160 7157 7168
+type(
+  ('a undoAlphaElement -> unit) -> 'a undoAlphaElement list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/ocamlutil/alpha.ml" 162 7184 7212 "src/ocamlutil/alpha.ml" 162 7184 7217
+type(
+  'a alphaTableData ref
+)
+ident(
+  def where "src/ocamlutil/alpha.ml" 163 7228 7238 "src/ocamlutil/alpha.ml" 163 7228 7250
+)
+"src/ocamlutil/alpha.ml" 162 7184 7219 "src/ocamlutil/alpha.ml" 162 7184 7222
+type(
+  'a alphaTableData
+)
+ident(
+  def old "src/ocamlutil/alpha.ml" 163 7228 7238 "src/ocamlutil/alpha.ml" 163 7228 7250
+)
+"src/ocamlutil/alpha.ml" 162 7184 7192 "src/ocamlutil/alpha.ml" 162 7184 7223
+type(
+  'a undoAlphaElement
+)
+"src/ocamlutil/alpha.ml" 163 7228 7238 "src/ocamlutil/alpha.ml" 163 7228 7243
+type(
+  'a alphaTableData ref
+)
+ident(
+  int_ref where "src/ocamlutil/alpha.ml" 162 7184 7212 "src/ocamlutil/alpha.ml" 162 7184 7217
+)
+"src/ocamlutil/alpha.ml" 163 7228 7244 "src/ocamlutil/alpha.ml" 163 7228 7246
+type(
+  'a alphaTableData ref -> 'a alphaTableData -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/alpha.ml" 163 7228 7247 "src/ocamlutil/alpha.ml" 163 7228 7250
+type(
+  'a alphaTableData
+)
+ident(
+  int_ref old "src/ocamlutil/alpha.ml" 162 7184 7219 "src/ocamlutil/alpha.ml" 162 7184 7222
+)
+"src/ocamlutil/alpha.ml" 163 7228 7238 "src/ocamlutil/alpha.ml" 163 7228 7250
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 164 7251 7276 "src/ocamlutil/alpha.ml" 164 7251 7280
+type(
+  string
+)
+ident(
+  def name "src/ocamlutil/alpha.ml" 165 7285 7295 "src/ocamlutil/alpha.ml" 167 7386 7420
+)
+"src/ocamlutil/alpha.ml" 164 7251 7259 "src/ocamlutil/alpha.ml" 164 7251 7280
+type(
+  'a undoAlphaElement
+)
+"src/ocamlutil/alpha.ml" 165 7285 7298 "src/ocamlutil/alpha.ml" 165 7285 7308
+type(
+  string -> bool
+)
+ident(
+  int_ref debugAlpha "src/ocamlutil/alpha.ml" 5 52 56 "src/ocamlutil/alpha.ml" 5 52 66
+)
+"src/ocamlutil/alpha.ml" 165 7285 7309 "src/ocamlutil/alpha.ml" 165 7285 7313
+type(
+  string
+)
+ident(
+  int_ref name "src/ocamlutil/alpha.ml" 164 7251 7276 "src/ocamlutil/alpha.ml" 164 7251 7280
+)
+"src/ocamlutil/alpha.ml" 165 7285 7298 "src/ocamlutil/alpha.ml" 165 7285 7313
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ocamlutil/alpha.ml" 166 7320 7332 "src/ocamlutil/alpha.ml" 166 7320 7338
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ocamlutil/alpha.ml" 166 7320 7340 "src/ocamlutil/alpha.ml" 166 7320 7345
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ocamlutil/alpha.ml" 166 7320 7346 "src/ocamlutil/alpha.ml" 166 7320 7378
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ocamlutil/alpha.ml" 166 7320 7379 "src/ocamlutil/alpha.ml" 166 7320 7383
+type(
+  string
+)
+ident(
+  int_ref name "src/ocamlutil/alpha.ml" 164 7251 7276 "src/ocamlutil/alpha.ml" 164 7251 7280
+)
+"src/ocamlutil/alpha.ml" 166 7320 7339 "src/ocamlutil/alpha.ml" 166 7320 7384
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 166 7320 7332 "src/ocamlutil/alpha.ml" 166 7320 7384
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 165 7285 7295 "src/ocamlutil/alpha.ml" 166 7320 7384
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 167 7386 7396 "src/ocamlutil/alpha.ml" 167 7386 7404
+type(
+  (string, 'a alphaTableData ref) H.t -> string -> unit
+)
+ident(
+  ext_ref H.remove
+)
+"src/ocamlutil/alpha.ml" 167 7386 7405 "src/ocamlutil/alpha.ml" 167 7386 7415
+type(
+  (string, 'a alphaTableData ref) H.t
+)
+ident(
+  int_ref alphaTable "src/ocamlutil/alpha.ml" 158 7022 7045 "src/ocamlutil/alpha.ml" 158 7022 7055
+)
+"src/ocamlutil/alpha.ml" 167 7386 7416 "src/ocamlutil/alpha.ml" 167 7386 7420
+type(
+  string
+)
+ident(
+  int_ref name "src/ocamlutil/alpha.ml" 164 7251 7276 "src/ocamlutil/alpha.ml" 164 7251 7280
+)
+"src/ocamlutil/alpha.ml" 167 7386 7396 "src/ocamlutil/alpha.ml" 167 7386 7420
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 165 7285 7295 "src/ocamlutil/alpha.ml" 167 7386 7420
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 161 7169 7173 "src/ocamlutil/alpha.ml" 167 7386 7421
+type(
+  'a undoAlphaElement -> unit
+)
+"src/ocamlutil/alpha.ml" 168 7422 7426 "src/ocamlutil/alpha.ml" 168 7422 7434
+type(
+  'a undoAlphaElement list
+)
+ident(
+  int_ref undolist "src/ocamlutil/alpha.ml" 159 7095 7118 "src/ocamlutil/alpha.ml" 159 7095 7126
+)
+"src/ocamlutil/alpha.ml" 160 7157 7159 "src/ocamlutil/alpha.ml" 168 7422 7434
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 170 7436 7440 "src/ocamlutil/alpha.ml" 170 7436 7453
+type(
+  unit -> (string, 'a alphaTableData ref) H.t -> Pretty.doc
+)
+ident(
+  def docAlphaTable "src/ocamlutil/alpha.ml" 173 7638 7711 "src/ocamlutil/alpha.ml" 1 0 -1
+)
+"src/ocamlutil/alpha.ml" 170 7436 7454 "src/ocamlutil/alpha.ml" 170 7436 7456
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 170 7436 7458 "src/ocamlutil/alpha.ml" 170 7436 7468
+type(
+  (string, 'a alphaTableData ref) H.t
+)
+ident(
+  def alphaTable "src/ocamlutil/alpha.ml" 171 7510 7512 "src/ocamlutil/alpha.ml" 173 7638 7711
+)
+"src/ocamlutil/alpha.ml" 171 7510 7516 "src/ocamlutil/alpha.ml" 171 7510 7519
+type(
+  (string * (int * (string * 'a) list)) list ref
+)
+ident(
+  def acc "src/ocamlutil/alpha.ml" 172 7581 7583 "src/ocamlutil/alpha.ml" 173 7638 7711
+)
+"src/ocamlutil/alpha.ml" 171 7510 7571 "src/ocamlutil/alpha.ml" 171 7510 7574
+type(
+  (string * (int * (string * 'a) list)) list ->
+  (string * (int * (string * 'a) list)) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ocamlutil/alpha.ml" 171 7510 7575 "src/ocamlutil/alpha.ml" 171 7510 7577
+type(
+  (string * (int * (string * 'a) list)) list
+)
+"src/ocamlutil/alpha.ml" 171 7510 7571 "src/ocamlutil/alpha.ml" 171 7510 7577
+type(
+  (string * (int * (string * 'a) list)) list ref
+)
+type(
+  (string * (int * (string * 'a) list)) list ref
+)
+"src/ocamlutil/alpha.ml" 172 7581 7583 "src/ocamlutil/alpha.ml" 172 7581 7589
+type(
+  (string -> 'a alphaTableData ref -> unit) ->
+  (string, 'a alphaTableData ref) H.t -> unit
+)
+ident(
+  ext_ref H.iter
+)
+"src/ocamlutil/alpha.ml" 172 7581 7595 "src/ocamlutil/alpha.ml" 172 7581 7596
+type(
+  string
+)
+ident(
+  def k "src/ocamlutil/alpha.ml" 172 7581 7597 "src/ocamlutil/alpha.ml" 172 7581 7624
+)
+"src/ocamlutil/alpha.ml" 172 7581 7597 "src/ocamlutil/alpha.ml" 172 7581 7598
+type(
+  'a alphaTableData ref
+)
+ident(
+  def d "src/ocamlutil/alpha.ml" 172 7581 7602 "src/ocamlutil/alpha.ml" 172 7581 7624
+)
+"src/ocamlutil/alpha.ml" 172 7581 7602 "src/ocamlutil/alpha.ml" 172 7581 7605
+type(
+  (string * 'a alphaTableData) list ref
+)
+ident(
+  int_ref acc "src/ocamlutil/alpha.ml" 171 7510 7516 "src/ocamlutil/alpha.ml" 171 7510 7519
+)
+"src/ocamlutil/alpha.ml" 172 7581 7606 "src/ocamlutil/alpha.ml" 172 7581 7608
+type(
+  (string * 'a alphaTableData) list ref ->
+  (string * 'a alphaTableData) list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/alpha.ml" 172 7581 7610 "src/ocamlutil/alpha.ml" 172 7581 7611
+type(
+  string
+)
+ident(
+  int_ref k "src/ocamlutil/alpha.ml" 172 7581 7595 "src/ocamlutil/alpha.ml" 172 7581 7596
+)
+"src/ocamlutil/alpha.ml" 172 7581 7613 "src/ocamlutil/alpha.ml" 172 7581 7614
+type(
+  'a alphaTableData ref -> 'a alphaTableData
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/alpha.ml" 172 7581 7614 "src/ocamlutil/alpha.ml" 172 7581 7615
+type(
+  'a alphaTableData ref
+)
+ident(
+  int_ref d "src/ocamlutil/alpha.ml" 172 7581 7597 "src/ocamlutil/alpha.ml" 172 7581 7598
+)
+"src/ocamlutil/alpha.ml" 172 7581 7613 "src/ocamlutil/alpha.ml" 172 7581 7615
+type(
+  'a alphaTableData
+)
+"src/ocamlutil/alpha.ml" 172 7581 7609 "src/ocamlutil/alpha.ml" 172 7581 7616
+type(
+  string * 'a alphaTableData
+)
+"src/ocamlutil/alpha.ml" 172 7581 7620 "src/ocamlutil/alpha.ml" 172 7581 7621
+type(
+  (string * 'a alphaTableData) list ref -> (string * 'a alphaTableData) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/alpha.ml" 172 7581 7621 "src/ocamlutil/alpha.ml" 172 7581 7624
+type(
+  (string * 'a alphaTableData) list ref
+)
+ident(
+  int_ref acc "src/ocamlutil/alpha.ml" 171 7510 7516 "src/ocamlutil/alpha.ml" 171 7510 7519
+)
+"src/ocamlutil/alpha.ml" 172 7581 7620 "src/ocamlutil/alpha.ml" 172 7581 7624
+type(
+  (string * 'a alphaTableData) list
+)
+"src/ocamlutil/alpha.ml" 172 7581 7609 "src/ocamlutil/alpha.ml" 172 7581 7624
+type(
+  (string * 'a alphaTableData) list
+)
+"src/ocamlutil/alpha.ml" 172 7581 7602 "src/ocamlutil/alpha.ml" 172 7581 7624
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 172 7581 7590 "src/ocamlutil/alpha.ml" 172 7581 7625
+type(
+  string -> 'a alphaTableData ref -> unit
+)
+"src/ocamlutil/alpha.ml" 172 7581 7626 "src/ocamlutil/alpha.ml" 172 7581 7636
+type(
+  (string, 'a alphaTableData ref) H.t
+)
+ident(
+  int_ref alphaTable "src/ocamlutil/alpha.ml" 170 7436 7458 "src/ocamlutil/alpha.ml" 170 7436 7468
+)
+"src/ocamlutil/alpha.ml" 172 7581 7583 "src/ocamlutil/alpha.ml" 172 7581 7636
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 173 7638 7640 "src/ocamlutil/alpha.ml" 173 7638 7647
+type(
+  ?sep:Pretty.doc ->
+  (string * (int * (string * 'a) list) -> Pretty.doc) ->
+  unit -> (string * (int * (string * 'a) list)) list -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.docList
+)
+"src/ocamlutil/alpha.ml" 173 7638 7653 "src/ocamlutil/alpha.ml" 173 7638 7657
+type(
+  Pretty.doc
+)
+ident(
+  ext_ref Pretty.line
+)
+"src/ocamlutil/alpha.ml" 173 7638 7664 "src/ocamlutil/alpha.ml" 173 7638 7665
+type(
+  string
+)
+ident(
+  def k "src/ocamlutil/alpha.ml" 173 7638 7678 "src/ocamlutil/alpha.ml" 173 7638 7702
+)
+"src/ocamlutil/alpha.ml" 173 7638 7668 "src/ocamlutil/alpha.ml" 173 7638 7669
+type(
+  int
+)
+ident(
+  def d "src/ocamlutil/alpha.ml" 173 7638 7678 "src/ocamlutil/alpha.ml" 173 7638 7702
+)
+"src/ocamlutil/alpha.ml" 173 7638 7671 "src/ocamlutil/alpha.ml" 173 7638 7672
+type(
+  (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 173 7638 7667 "src/ocamlutil/alpha.ml" 173 7638 7673
+type(
+  int * (string * 'a) list
+)
+"src/ocamlutil/alpha.ml" 173 7638 7663 "src/ocamlutil/alpha.ml" 173 7638 7674
+type(
+  string * (int * (string * 'a) list)
+)
+"src/ocamlutil/alpha.ml" 173 7638 7678 "src/ocamlutil/alpha.ml" 173 7638 7685
+type(
+  (string -> int -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4 ->
+  string -> int -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.dprintf
+)
+"src/ocamlutil/alpha.ml" 173 7638 7686 "src/ocamlutil/alpha.ml" 173 7638 7698
+type(
+  (string -> int -> Pretty.doc, unit, Pretty.doc, Pretty.doc) format4
+)
+"src/ocamlutil/alpha.ml" 173 7638 7699 "src/ocamlutil/alpha.ml" 173 7638 7700
+type(
+  string
+)
+ident(
+  int_ref k "src/ocamlutil/alpha.ml" 173 7638 7664 "src/ocamlutil/alpha.ml" 173 7638 7665
+)
+"src/ocamlutil/alpha.ml" 173 7638 7701 "src/ocamlutil/alpha.ml" 173 7638 7702
+type(
+  int
+)
+ident(
+  int_ref d "src/ocamlutil/alpha.ml" 173 7638 7668 "src/ocamlutil/alpha.ml" 173 7638 7669
+)
+"src/ocamlutil/alpha.ml" 173 7638 7678 "src/ocamlutil/alpha.ml" 173 7638 7702
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ocamlutil/alpha.ml" 173 7638 7658 "src/ocamlutil/alpha.ml" 173 7638 7703
+type(
+  string * (int * (string * 'a) list) -> Pretty.doc
+)
+"src/ocamlutil/alpha.ml" 173 7638 7704 "src/ocamlutil/alpha.ml" 173 7638 7706
+type(
+  unit
+)
+"src/ocamlutil/alpha.ml" 173 7638 7707 "src/ocamlutil/alpha.ml" 173 7638 7708
+type(
+  (string * (int * (string * 'a) list)) list ref ->
+  (string * (int * (string * 'a) list)) list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/alpha.ml" 173 7638 7708 "src/ocamlutil/alpha.ml" 173 7638 7711
+type(
+  (string * (int * (string * 'a) list)) list ref
+)
+ident(
+  int_ref acc "src/ocamlutil/alpha.ml" 171 7510 7516 "src/ocamlutil/alpha.ml" 171 7510 7519
+)
+"src/ocamlutil/alpha.ml" 173 7638 7707 "src/ocamlutil/alpha.ml" 173 7638 7711
+type(
+  (string * (int * (string * 'a) list)) list
+)
+"src/ocamlutil/alpha.ml" 173 7638 7640 "src/ocamlutil/alpha.ml" 173 7638 7711
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ocamlutil/alpha.ml" 172 7581 7583 "src/ocamlutil/alpha.ml" 173 7638 7711
+type(
+  Pretty.doc
+)
+"src/ocamlutil/alpha.ml" 171 7510 7512 "src/ocamlutil/alpha.ml" 173 7638 7711
+type(
+  Pretty.doc
+)

@@ -1,0 +1,211 @@
+"src/ext/analysis/fNames.ml" 11 92 96 "src/ext/analysis/fNames.ml" 11 92 109
+type(
+  (Cil.fundec -> Cil.location -> unit) -> Cil.global -> unit
+)
+ident(
+  def onlyFunctions "src/ext/analysis/fNames.ml" 16 224 224 "src/ext/analysis/fNames.ml" 1 0 -1
+)
+"src/ext/analysis/fNames.ml" 11 92 111 "src/ext/analysis/fNames.ml" 11 92 113
+type(
+  Cil.fundec -> Cil.location -> unit
+)
+ident(
+  def fn "src/ext/analysis/fNames.ml" 11 92 144 "src/ext/analysis/fNames.ml" 14 211 222
+)
+"src/ext/analysis/fNames.ml" 11 92 145 "src/ext/analysis/fNames.ml" 11 92 146
+type(
+  Cil.global
+)
+ident(
+  def g "src/ext/analysis/fNames.ml" 11 92 157 "src/ext/analysis/fNames.ml" 14 211 222
+)
+"src/ext/analysis/fNames.ml" 12 167 175 "src/ext/analysis/fNames.ml" 12 167 176
+type(
+  Cil.global
+)
+ident(
+  int_ref g "src/ext/analysis/fNames.ml" 11 92 145 "src/ext/analysis/fNames.ml" 11 92 146
+)
+"src/ext/analysis/fNames.ml" 13 182 191 "src/ext/analysis/fNames.ml" 13 182 192
+type(
+  Cil.fundec
+)
+ident(
+  def f "src/ext/analysis/fNames.ml" 13 182 202 "src/ext/analysis/fNames.ml" 13 182 210
+)
+"src/ext/analysis/fNames.ml" 13 182 194 "src/ext/analysis/fNames.ml" 13 182 197
+type(
+  Cil.location
+)
+ident(
+  def loc "src/ext/analysis/fNames.ml" 13 182 202 "src/ext/analysis/fNames.ml" 13 182 210
+)
+"src/ext/analysis/fNames.ml" 13 182 186 "src/ext/analysis/fNames.ml" 13 182 198
+type(
+  Cil.global
+)
+"src/ext/analysis/fNames.ml" 13 182 202 "src/ext/analysis/fNames.ml" 13 182 204
+type(
+  Cil.fundec -> Cil.location -> unit
+)
+ident(
+  int_ref fn "src/ext/analysis/fNames.ml" 11 92 111 "src/ext/analysis/fNames.ml" 11 92 113
+)
+"src/ext/analysis/fNames.ml" 13 182 205 "src/ext/analysis/fNames.ml" 13 182 206
+type(
+  Cil.fundec
+)
+ident(
+  int_ref f "src/ext/analysis/fNames.ml" 13 182 191 "src/ext/analysis/fNames.ml" 13 182 192
+)
+"src/ext/analysis/fNames.ml" 13 182 207 "src/ext/analysis/fNames.ml" 13 182 210
+type(
+  Cil.location
+)
+ident(
+  int_ref loc "src/ext/analysis/fNames.ml" 13 182 194 "src/ext/analysis/fNames.ml" 13 182 197
+)
+"src/ext/analysis/fNames.ml" 13 182 202 "src/ext/analysis/fNames.ml" 13 182 210
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/analysis/fNames.ml" 14 211 215 "src/ext/analysis/fNames.ml" 14 211 216
+type(
+  Cil.global
+)
+"src/ext/analysis/fNames.ml" 14 211 220 "src/ext/analysis/fNames.ml" 14 211 222
+type(
+  unit
+)
+"src/ext/analysis/fNames.ml" 12 167 169 "src/ext/analysis/fNames.ml" 14 211 222
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/analysis/fNames.ml" 16 224 228 "src/ext/analysis/fNames.ml" 16 224 234
+type(
+  Cil.fundec -> Cil.location -> unit
+)
+ident(
+  def fnName "src/ext/analysis/fNames.ml" 19 326 326 "src/ext/analysis/fNames.ml" 1 0 -1
+)
+"src/ext/analysis/fNames.ml" 16 224 236 "src/ext/analysis/fNames.ml" 16 224 238
+type(
+  Cil.fundec
+)
+ident(
+  def fd "src/ext/analysis/fNames.ml" 16 224 249 "src/ext/analysis/fNames.ml" 17 275 324
+)
+"src/ext/analysis/fNames.ml" 16 224 250 "src/ext/analysis/fNames.ml" 16 224 253
+type(
+  Cil.location
+)
+ident(
+  def loc "src/ext/analysis/fNames.ml" 16 224 266 "src/ext/analysis/fNames.ml" 17 275 324
+)
+"src/ext/analysis/fNames.ml" 17 275 276 "src/ext/analysis/fNames.ml" 17 275 282
+type(
+  Pretty.doc -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/analysis/fNames.ml" 17 275 283 "src/ext/analysis/fNames.ml" 17 275 289
+type(
+  (string -> int -> Pretty.doc, unit, Pretty.doc) format ->
+  string -> int -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.printf
+)
+"src/ext/analysis/fNames.ml" 17 275 290 "src/ext/analysis/fNames.ml" 17 275 300
+type(
+  (string -> int -> Pretty.doc, unit, Pretty.doc) format
+)
+"src/ext/analysis/fNames.ml" 17 275 301 "src/ext/analysis/fNames.ml" 17 275 303
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fd "src/ext/analysis/fNames.ml" 16 224 236 "src/ext/analysis/fNames.ml" 16 224 238
+)
+"src/ext/analysis/fNames.ml" 17 275 301 "src/ext/analysis/fNames.ml" 17 275 308
+type(
+  Cil.varinfo
+)
+"src/ext/analysis/fNames.ml" 17 275 301 "src/ext/analysis/fNames.ml" 17 275 314
+type(
+  string
+)
+"src/ext/analysis/fNames.ml" 17 275 315 "src/ext/analysis/fNames.ml" 17 275 318
+type(
+  Cil.location
+)
+ident(
+  int_ref loc "src/ext/analysis/fNames.ml" 16 224 250 "src/ext/analysis/fNames.ml" 16 224 253
+)
+"src/ext/analysis/fNames.ml" 17 275 315 "src/ext/analysis/fNames.ml" 17 275 323
+type(
+  int
+)
+"src/ext/analysis/fNames.ml" 17 275 282 "src/ext/analysis/fNames.ml" 17 275 324
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/analysis/fNames.ml" 17 275 276 "src/ext/analysis/fNames.ml" 17 275 324
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/analysis/fNames.ml" 19 326 330 "src/ext/analysis/fNames.ml" 19 326 334
+type(
+  Cil.file -> newT list
+)
+ident(
+  def doit "src/ext/analysis/fNames.ml" 24 482 524 "src/ext/analysis/fNames.ml" 1 0 -1
+)
+"src/ext/analysis/fNames.ml" 19 326 336 "src/ext/analysis/fNames.ml" 19 326 338
+type(
+  Cil.file
+)
+ident(
+  def fl "src/ext/analysis/fNames.ml" 24 482 484 "src/ext/analysis/fNames.ml" 24 482 524
+)
+"src/ext/analysis/fNames.ml" 24 482 493 "src/ext/analysis/fNames.ml" 24 482 496
+type(
+  string
+)
+"src/ext/analysis/fNames.ml" 24 482 485 "src/ext/analysis/fNames.ml" 24 482 497
+type(
+  newT
+)
+"src/ext/analysis/fNames.ml" 24 482 506 "src/ext/analysis/fNames.ml" 24 482 509
+type(
+  string
+)
+"src/ext/analysis/fNames.ml" 24 482 498 "src/ext/analysis/fNames.ml" 24 482 510
+type(
+  newT
+)
+"src/ext/analysis/fNames.ml" 24 482 519 "src/ext/analysis/fNames.ml" 24 482 522
+type(
+  string
+)
+"src/ext/analysis/fNames.ml" 24 482 511 "src/ext/analysis/fNames.ml" 24 482 523
+type(
+  newT
+)
+"src/ext/analysis/fNames.ml" 24 482 484 "src/ext/analysis/fNames.ml" 24 482 524
+type(
+  newT list
+)

@@ -1,0 +1,4400 @@
+"src/formatlex.mll" 47 158 162 "src/formatlex.mll" 47 158 170
+type(
+  (string, Formatparse.token) H.t
+)
+ident(
+  def keywords "src/formatlex.mll" 52 214 214 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.mll" 47 158 173 "src/formatlex.mll" 47 158 181
+type(
+  ?random:bool -> int -> (string, Formatparse.token) H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/formatlex.mll" 47 158 182 "src/formatlex.mll" 47 158 185
+type(
+  int
+)
+"src/formatlex.mll" 47 158 173 "src/formatlex.mll" 47 158 185
+call(
+  stack
+)
+type(
+  (string, Formatparse.token) H.t
+)
+"src/formatlex.mll" 52 214 218 "src/formatlex.mll" 52 214 228
+type(
+  string -> Formatparse.token
+)
+ident(
+  def scan_ident "src/formatlex.mll" 61 351 351 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.mll" 52 214 229 "src/formatlex.mll" 52 214 231
+type(
+  string
+)
+ident(
+  def id "src/formatlex.mll" 53 235 237 "src/formatlex.mll" 54 260 288
+)
+"src/formatlex.mll" 53 235 241 "src/formatlex.mll" 53 235 247
+type(
+  (string, Formatparse.token) H.t -> string -> Formatparse.token
+)
+ident(
+  ext_ref H.find
+)
+"src/formatlex.mll" 53 235 248 "src/formatlex.mll" 53 235 256
+type(
+  (string, Formatparse.token) H.t
+)
+ident(
+  int_ref keywords "src/formatlex.mll" 47 158 162 "src/formatlex.mll" 47 158 170
+)
+"src/formatlex.mll" 53 235 257 "src/formatlex.mll" 53 235 259
+type(
+  string
+)
+ident(
+  int_ref id "src/formatlex.mll" 52 214 229 "src/formatlex.mll" 52 214 231
+)
+"src/formatlex.mll" 53 235 241 "src/formatlex.mll" 53 235 259
+call(
+  stack
+)
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 54 260 267 "src/formatlex.mll" 54 260 276
+type(
+  exn
+)
+"src/formatlex.mll" 54 260 286 "src/formatlex.mll" 54 260 288
+type(
+  string
+)
+ident(
+  int_ref id "src/formatlex.mll" 52 214 229 "src/formatlex.mll" 52 214 231
+)
+"src/formatlex.mll" 54 260 280 "src/formatlex.mll" 54 260 288
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 53 235 237 "src/formatlex.mll" 54 260 288
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 61 351 355 "src/formatlex.mll" 61 351 359
+type(
+  prog:string -> Lexing.lexbuf
+)
+ident(
+  def init "src/formatlex.mll" 101 1438 1438 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.mll" 61 351 362 "src/formatlex.mll" 61 351 366
+type(
+  string
+)
+ident(
+  def prog "src/formatlex.mll" 61 351 376 "src/formatlex.mll" 99 1405 1436
+)
+"src/formatlex.mll" 62 394 396 "src/formatlex.mll" 62 394 403
+type(
+  (string, Formatparse.token) H.t -> unit
+)
+ident(
+  ext_ref H.clear
+)
+"src/formatlex.mll" 62 394 404 "src/formatlex.mll" 62 394 412
+type(
+  (string, Formatparse.token) H.t
+)
+ident(
+  int_ref keywords "src/formatlex.mll" 47 158 162 "src/formatlex.mll" 47 158 170
+)
+"src/formatlex.mll" 62 394 396 "src/formatlex.mll" 62 394 412
+call(
+  stack
+)
+type(
+  unit
+)
+"src/formatlex.mll" 63 414 416 "src/formatlex.mll" 63 414 440
+type(
+  string ref
+)
+ident(
+  ext_ref Lexerhack.currentPattern
+)
+"src/formatlex.mll" 63 414 441 "src/formatlex.mll" 63 414 443
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/formatlex.mll" 63 414 444 "src/formatlex.mll" 63 414 448
+type(
+  string
+)
+ident(
+  int_ref prog "src/formatlex.mll" 61 351 362 "src/formatlex.mll" 61 351 366
+)
+"src/formatlex.mll" 63 414 416 "src/formatlex.mll" 63 414 448
+type(
+  unit
+)
+"src/formatlex.mll" 64 450 452 "src/formatlex.mll" 64 450 461
+type(
+  (string * Formatparse.token -> unit) ->
+  (string * Formatparse.token) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/formatlex.mll" 65 463 473 "src/formatlex.mll" 65 463 476
+type(
+  string
+)
+ident(
+  def key "src/formatlex.mll" 65 463 488 "src/formatlex.mll" 65 463 512
+)
+"src/formatlex.mll" 65 463 478 "src/formatlex.mll" 65 463 483
+type(
+  Formatparse.token
+)
+ident(
+  def token "src/formatlex.mll" 65 463 488 "src/formatlex.mll" 65 463 512
+)
+"src/formatlex.mll" 65 463 472 "src/formatlex.mll" 65 463 484
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 65 463 488 "src/formatlex.mll" 65 463 493
+type(
+  (string, Formatparse.token) H.t -> string -> Formatparse.token -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/formatlex.mll" 65 463 494 "src/formatlex.mll" 65 463 502
+type(
+  (string, Formatparse.token) H.t
+)
+ident(
+  int_ref keywords "src/formatlex.mll" 47 158 162 "src/formatlex.mll" 47 158 170
+)
+"src/formatlex.mll" 65 463 503 "src/formatlex.mll" 65 463 506
+type(
+  string
+)
+ident(
+  int_ref key "src/formatlex.mll" 65 463 473 "src/formatlex.mll" 65 463 476
+)
+"src/formatlex.mll" 65 463 507 "src/formatlex.mll" 65 463 512
+type(
+  Formatparse.token
+)
+ident(
+  int_ref token "src/formatlex.mll" 65 463 478 "src/formatlex.mll" 65 463 483
+)
+"src/formatlex.mll" 65 463 488 "src/formatlex.mll" 65 463 512
+call(
+  tail
+)
+type(
+  unit
+)
+"src/formatlex.mll" 65 463 467 "src/formatlex.mll" 65 463 513
+type(
+  string * Formatparse.token -> unit
+)
+"src/formatlex.mll" 66 514 521 "src/formatlex.mll" 66 514 528
+type(
+  string
+)
+"src/formatlex.mll" 66 514 530 "src/formatlex.mll" 66 514 535
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 66 514 520 "src/formatlex.mll" 66 514 536
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 66 514 539 "src/formatlex.mll" 66 514 548
+type(
+  string
+)
+"src/formatlex.mll" 66 514 550 "src/formatlex.mll" 66 514 555
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 66 514 538 "src/formatlex.mll" 66 514 556
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 66 514 559 "src/formatlex.mll" 66 514 570
+type(
+  string
+)
+"src/formatlex.mll" 66 514 572 "src/formatlex.mll" 66 514 577
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 66 514 558 "src/formatlex.mll" 66 514 578
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 67 580 587 "src/formatlex.mll" 67 580 595
+type(
+  string
+)
+"src/formatlex.mll" 67 580 597 "src/formatlex.mll" 67 580 603
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 67 580 586 "src/formatlex.mll" 67 580 604
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 68 606 613 "src/formatlex.mll" 68 606 621
+type(
+  string
+)
+"src/formatlex.mll" 68 606 623 "src/formatlex.mll" 68 606 629
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 68 606 612 "src/formatlex.mll" 68 606 630
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 69 632 639 "src/formatlex.mll" 69 632 645
+type(
+  string
+)
+"src/formatlex.mll" 69 632 647 "src/formatlex.mll" 69 632 651
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 69 632 638 "src/formatlex.mll" 69 632 652
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 70 654 661 "src/formatlex.mll" 70 654 668
+type(
+  string
+)
+"src/formatlex.mll" 70 654 670 "src/formatlex.mll" 70 654 675
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 70 654 660 "src/formatlex.mll" 70 654 676
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 71 678 685 "src/formatlex.mll" 71 678 693
+type(
+  string
+)
+"src/formatlex.mll" 71 678 695 "src/formatlex.mll" 71 678 701
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 71 678 684 "src/formatlex.mll" 71 678 702
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 72 704 711 "src/formatlex.mll" 72 704 721
+type(
+  string
+)
+"src/formatlex.mll" 72 704 723 "src/formatlex.mll" 72 704 731
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 72 704 710 "src/formatlex.mll" 72 704 732
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 73 734 741 "src/formatlex.mll" 73 734 751
+type(
+  string
+)
+"src/formatlex.mll" 73 734 753 "src/formatlex.mll" 73 734 761
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 73 734 740 "src/formatlex.mll" 73 734 762
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 74 764 771 "src/formatlex.mll" 74 764 777
+type(
+  string
+)
+"src/formatlex.mll" 74 764 779 "src/formatlex.mll" 74 764 783
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 74 764 770 "src/formatlex.mll" 74 764 784
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 75 786 793 "src/formatlex.mll" 75 786 798
+type(
+  string
+)
+"src/formatlex.mll" 75 786 800 "src/formatlex.mll" 75 786 803
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 75 786 792 "src/formatlex.mll" 75 786 804
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 76 806 813 "src/formatlex.mll" 76 806 820
+type(
+  string
+)
+"src/formatlex.mll" 76 806 822 "src/formatlex.mll" 76 806 827
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 76 806 812 "src/formatlex.mll" 76 806 828
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 77 830 837 "src/formatlex.mll" 77 830 845
+type(
+  string
+)
+"src/formatlex.mll" 77 830 847 "src/formatlex.mll" 77 830 853
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 77 830 836 "src/formatlex.mll" 77 830 854
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 78 856 863 "src/formatlex.mll" 78 856 869
+type(
+  string
+)
+"src/formatlex.mll" 78 856 871 "src/formatlex.mll" 78 856 875
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 78 856 862 "src/formatlex.mll" 78 856 876
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 79 878 885 "src/formatlex.mll" 79 878 891
+type(
+  string
+)
+"src/formatlex.mll" 79 878 893 "src/formatlex.mll" 79 878 897
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 79 878 884 "src/formatlex.mll" 79 878 898
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 80 900 907 "src/formatlex.mll" 80 900 915
+type(
+  string
+)
+"src/formatlex.mll" 80 900 917 "src/formatlex.mll" 80 900 923
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 80 900 906 "src/formatlex.mll" 80 900 924
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 81 926 933 "src/formatlex.mll" 81 926 942
+type(
+  string
+)
+"src/formatlex.mll" 81 926 944 "src/formatlex.mll" 81 926 951
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 81 926 932 "src/formatlex.mll" 81 926 952
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 82 954 961 "src/formatlex.mll" 82 954 968
+type(
+  string
+)
+"src/formatlex.mll" 82 954 970 "src/formatlex.mll" 82 954 975
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 82 954 960 "src/formatlex.mll" 82 954 976
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 83 978 985 "src/formatlex.mll" 83 978 992
+type(
+  string
+)
+"src/formatlex.mll" 83 978 994 "src/formatlex.mll" 83 978 999
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 83 978 984 "src/formatlex.mll" 83 978 1000
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 84 1002 1009 "src/formatlex.mll" 84 1002 1019
+type(
+  string
+)
+"src/formatlex.mll" 84 1002 1021 "src/formatlex.mll" 84 1002 1029
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 84 1002 1008 "src/formatlex.mll" 84 1002 1030
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 85 1032 1039 "src/formatlex.mll" 85 1032 1045
+type(
+  string
+)
+"src/formatlex.mll" 85 1032 1047 "src/formatlex.mll" 85 1032 1051
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 85 1032 1038 "src/formatlex.mll" 85 1032 1052
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 86 1055 1062 "src/formatlex.mll" 86 1055 1070
+type(
+  string
+)
+"src/formatlex.mll" 86 1055 1072 "src/formatlex.mll" 86 1055 1078
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 86 1055 1061 "src/formatlex.mll" 86 1055 1079
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 87 1081 1088 "src/formatlex.mll" 87 1081 1096
+type(
+  string
+)
+"src/formatlex.mll" 87 1081 1098 "src/formatlex.mll" 87 1081 1104
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 87 1081 1087 "src/formatlex.mll" 87 1081 1105
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 88 1107 1114 "src/formatlex.mll" 88 1107 1120
+type(
+  string
+)
+"src/formatlex.mll" 88 1107 1122 "src/formatlex.mll" 88 1107 1126
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 88 1107 1113 "src/formatlex.mll" 88 1107 1127
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 89 1130 1137 "src/formatlex.mll" 89 1130 1146
+type(
+  string
+)
+"src/formatlex.mll" 89 1130 1148 "src/formatlex.mll" 89 1130 1155
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 89 1130 1136 "src/formatlex.mll" 89 1130 1156
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 90 1158 1165 "src/formatlex.mll" 90 1158 1172
+type(
+  string
+)
+"src/formatlex.mll" 90 1158 1174 "src/formatlex.mll" 90 1158 1179
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 90 1158 1164 "src/formatlex.mll" 90 1158 1180
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 91 1184 1191 "src/formatlex.mll" 91 1184 1195
+type(
+  string
+)
+"src/formatlex.mll" 91 1184 1197 "src/formatlex.mll" 91 1184 1199
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 91 1184 1190 "src/formatlex.mll" 91 1184 1200
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 92 1204 1211 "src/formatlex.mll" 92 1204 1216
+type(
+  string
+)
+"src/formatlex.mll" 92 1204 1218 "src/formatlex.mll" 92 1204 1221
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 92 1204 1210 "src/formatlex.mll" 92 1204 1222
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 93 1224 1231 "src/formatlex.mll" 93 1224 1235
+type(
+  string
+)
+"src/formatlex.mll" 93 1224 1237 "src/formatlex.mll" 93 1224 1239
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 93 1224 1230 "src/formatlex.mll" 93 1224 1240
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 94 1242 1249 "src/formatlex.mll" 94 1242 1255
+type(
+  string
+)
+"src/formatlex.mll" 94 1242 1257 "src/formatlex.mll" 94 1242 1261
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 94 1242 1248 "src/formatlex.mll" 94 1242 1262
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 95 1264 1271 "src/formatlex.mll" 95 1264 1286
+type(
+  string
+)
+"src/formatlex.mll" 95 1264 1288 "src/formatlex.mll" 95 1264 1297
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 95 1264 1270 "src/formatlex.mll" 95 1264 1298
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 95 1264 1301 "src/formatlex.mll" 95 1264 1314
+type(
+  string
+)
+"src/formatlex.mll" 95 1264 1316 "src/formatlex.mll" 95 1264 1325
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 95 1264 1300 "src/formatlex.mll" 95 1264 1326
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 96 1328 1335 "src/formatlex.mll" 96 1328 1344
+type(
+  string
+)
+"src/formatlex.mll" 96 1328 1346 "src/formatlex.mll" 96 1328 1351
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 96 1328 1334 "src/formatlex.mll" 96 1328 1352
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 97 1354 1361 "src/formatlex.mll" 97 1354 1379
+type(
+  string
+)
+"src/formatlex.mll" 97 1354 1381 "src/formatlex.mll" 97 1354 1395
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 97 1354 1360 "src/formatlex.mll" 97 1354 1396
+type(
+  string * Formatparse.token
+)
+"src/formatlex.mll" 66 514 518 "src/formatlex.mll" 98 1398 1403
+type(
+  (string * Formatparse.token) list
+)
+"src/formatlex.mll" 64 450 452 "src/formatlex.mll" 98 1398 1403
+call(
+  stack
+)
+type(
+  unit
+)
+"src/formatlex.mll" 99 1405 1407 "src/formatlex.mll" 99 1405 1431
+type(
+  ?file:string -> ?line:int -> string -> Lexing.lexbuf
+)
+ident(
+  ext_ref E.startParsingFromString
+)
+"src/formatlex.mll" 99 1405 1432 "src/formatlex.mll" 99 1405 1436
+type(
+  string
+)
+ident(
+  int_ref prog "src/formatlex.mll" 61 351 362 "src/formatlex.mll" 61 351 366
+)
+"src/formatlex.mll" 99 1405 1407 "src/formatlex.mll" 99 1405 1436
+call(
+  tail
+)
+type(
+  Lexing.lexbuf
+)
+"src/formatlex.mll" 64 450 452 "src/formatlex.mll" 99 1405 1436
+type(
+  Lexing.lexbuf
+)
+"src/formatlex.mll" 63 414 416 "src/formatlex.mll" 99 1405 1436
+type(
+  Lexing.lexbuf
+)
+"src/formatlex.mll" 62 394 396 "src/formatlex.mll" 99 1405 1436
+type(
+  Lexing.lexbuf
+)
+type(
+  Lexing.lexbuf
+)
+"src/formatlex.mll" 101 1438 1442 "src/formatlex.mll" 101 1438 1448
+type(
+  unit -> unit
+)
+ident(
+  def finish "src/formatlex.mll" 105 1502 1502 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.mll" 101 1438 1449 "src/formatlex.mll" 101 1438 1451
+type(
+  unit
+)
+"src/formatlex.mll" 102 1455 1457 "src/formatlex.mll" 102 1455 1472
+type(
+  unit -> unit
+)
+ident(
+  ext_ref E.finishParsing
+)
+"src/formatlex.mll" 102 1455 1473 "src/formatlex.mll" 102 1455 1475
+type(
+  unit
+)
+"src/formatlex.mll" 102 1455 1457 "src/formatlex.mll" 102 1455 1475
+call(
+  tail
+)
+type(
+  unit
+)
+"src/formatlex.mll" 105 1502 1506 "src/formatlex.mll" 105 1502 1511
+type(
+  string -> 'a
+)
+ident(
+  def error "src/formatlex.mll" 110 1579 1579 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.mll" 105 1502 1512 "src/formatlex.mll" 105 1502 1515
+type(
+  string
+)
+ident(
+  def msg "src/formatlex.mll" 106 1518 1520 "src/formatlex.mll" 106 1518 1537
+)
+"src/formatlex.mll" 106 1518 1520 "src/formatlex.mll" 106 1518 1533
+type(
+  string -> 'a
+)
+ident(
+  ext_ref E.parse_error
+)
+"src/formatlex.mll" 106 1518 1534 "src/formatlex.mll" 106 1518 1537
+type(
+  string
+)
+ident(
+  int_ref msg "src/formatlex.mll" 105 1502 1512 "src/formatlex.mll" 105 1502 1515
+)
+"src/formatlex.mll" 106 1518 1520 "src/formatlex.mll" 106 1518 1537
+call(
+  tail
+)
+type(
+  'a
+)
+"src/formatlex.mll" 110 1579 1583 "src/formatlex.mll" 110 1579 1594
+type(
+  string -> string
+)
+ident(
+  def scan_escape "src/formatlex.mll" 122 1876 1876 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.mll" 110 1579 1595 "src/formatlex.mll" 110 1579 1598
+type(
+  string
+)
+ident(
+  def str "src/formatlex.mll" 111 1601 1603 "src/formatlex.mll" 120 1862 1874
+)
+"src/formatlex.mll" 111 1601 1609 "src/formatlex.mll" 111 1601 1612
+type(
+  string
+)
+ident(
+  int_ref str "src/formatlex.mll" 110 1579 1595 "src/formatlex.mll" 110 1579 1598
+)
+"src/formatlex.mll" 112 1618 1622 "src/formatlex.mll" 112 1618 1625
+type(
+  string
+)
+"src/formatlex.mll" 112 1618 1629 "src/formatlex.mll" 112 1618 1633
+type(
+  string
+)
+"src/formatlex.mll" 113 1634 1638 "src/formatlex.mll" 113 1634 1641
+type(
+  string
+)
+"src/formatlex.mll" 113 1634 1645 "src/formatlex.mll" 113 1634 1649
+type(
+  string
+)
+"src/formatlex.mll" 114 1650 1654 "src/formatlex.mll" 114 1650 1657
+type(
+  string
+)
+"src/formatlex.mll" 114 1650 1661 "src/formatlex.mll" 114 1650 1665
+type(
+  string
+)
+"src/formatlex.mll" 115 1666 1670 "src/formatlex.mll" 115 1666 1673
+type(
+  string
+)
+"src/formatlex.mll" 115 1666 1677 "src/formatlex.mll" 115 1666 1681
+type(
+  string
+)
+"src/formatlex.mll" 116 1682 1686 "src/formatlex.mll" 116 1682 1689
+type(
+  string
+)
+"src/formatlex.mll" 116 1682 1693 "src/formatlex.mll" 116 1682 1699
+type(
+  string
+)
+"src/formatlex.mll" 117 1721 1725 "src/formatlex.mll" 117 1721 1728
+type(
+  string
+)
+"src/formatlex.mll" 117 1721 1732 "src/formatlex.mll" 117 1721 1738
+type(
+  string
+)
+"src/formatlex.mll" 118 1760 1764 "src/formatlex.mll" 118 1760 1767
+type(
+  string
+)
+"src/formatlex.mll" 118 1760 1771 "src/formatlex.mll" 118 1760 1777
+type(
+  string
+)
+"src/formatlex.mll" 119 1798 1802 "src/formatlex.mll" 119 1798 1805
+type(
+  string
+)
+"src/formatlex.mll" 119 1798 1809 "src/formatlex.mll" 119 1798 1815
+type(
+  string
+)
+"src/formatlex.mll" 120 1862 1866 "src/formatlex.mll" 120 1862 1867
+type(
+  string
+)
+"src/formatlex.mll" 120 1862 1871 "src/formatlex.mll" 120 1862 1874
+type(
+  string
+)
+ident(
+  int_ref str "src/formatlex.mll" 110 1579 1595 "src/formatlex.mll" 110 1579 1598
+)
+"src/formatlex.mll" 111 1601 1603 "src/formatlex.mll" 120 1862 1874
+type(
+  string
+)
+"src/formatlex.mll" 122 1876 1880 "src/formatlex.mll" 122 1876 1889
+type(
+  char -> int
+)
+ident(
+  def get_value "src/formatlex.mll" 128 2084 2084 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.mll" 122 1876 1890 "src/formatlex.mll" 122 1876 1893
+type(
+  char
+)
+ident(
+  def chr "src/formatlex.mll" 123 1896 1898 "src/formatlex.mll" 127 2073 2083
+)
+"src/formatlex.mll" 123 1896 1904 "src/formatlex.mll" 123 1896 1907
+type(
+  char
+)
+ident(
+  int_ref chr "src/formatlex.mll" 122 1876 1890 "src/formatlex.mll" 122 1876 1893
+)
+"src/formatlex.mll" 124 1913 1917 "src/formatlex.mll" 124 1913 1925
+type(
+  char
+)
+"src/formatlex.mll" 124 1913 1930 "src/formatlex.mll" 124 1913 1939
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"src/formatlex.mll" 124 1913 1940 "src/formatlex.mll" 124 1913 1943
+type(
+  char
+)
+ident(
+  int_ref chr "src/formatlex.mll" 122 1876 1890 "src/formatlex.mll" 122 1876 1893
+)
+"src/formatlex.mll" 124 1913 1929 "src/formatlex.mll" 124 1913 1944
+type(
+  int
+)
+"src/formatlex.mll" 124 1913 1945 "src/formatlex.mll" 124 1913 1946
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/formatlex.mll" 124 1913 1948 "src/formatlex.mll" 124 1913 1957
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"src/formatlex.mll" 124 1913 1958 "src/formatlex.mll" 124 1913 1961
+type(
+  char
+)
+"src/formatlex.mll" 124 1913 1947 "src/formatlex.mll" 124 1913 1962
+type(
+  int
+)
+"src/formatlex.mll" 124 1913 1929 "src/formatlex.mll" 124 1913 1962
+type(
+  int
+)
+"src/formatlex.mll" 125 1963 1967 "src/formatlex.mll" 125 1963 1975
+type(
+  char
+)
+"src/formatlex.mll" 125 1963 1980 "src/formatlex.mll" 125 1963 1989
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"src/formatlex.mll" 125 1963 1990 "src/formatlex.mll" 125 1963 1993
+type(
+  char
+)
+ident(
+  int_ref chr "src/formatlex.mll" 122 1876 1890 "src/formatlex.mll" 122 1876 1893
+)
+"src/formatlex.mll" 125 1963 1979 "src/formatlex.mll" 125 1963 1994
+type(
+  int
+)
+"src/formatlex.mll" 125 1963 1995 "src/formatlex.mll" 125 1963 1996
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/formatlex.mll" 125 1963 1998 "src/formatlex.mll" 125 1963 2007
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"src/formatlex.mll" 125 1963 2008 "src/formatlex.mll" 125 1963 2011
+type(
+  char
+)
+"src/formatlex.mll" 125 1963 1997 "src/formatlex.mll" 125 1963 2012
+type(
+  int
+)
+"src/formatlex.mll" 125 1963 1979 "src/formatlex.mll" 125 1963 2012
+type(
+  int
+)
+"src/formatlex.mll" 125 1963 2013 "src/formatlex.mll" 125 1963 2014
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/formatlex.mll" 125 1963 2015 "src/formatlex.mll" 125 1963 2017
+type(
+  int
+)
+"src/formatlex.mll" 125 1963 1979 "src/formatlex.mll" 125 1963 2017
+type(
+  int
+)
+"src/formatlex.mll" 126 2018 2022 "src/formatlex.mll" 126 2018 2030
+type(
+  char
+)
+"src/formatlex.mll" 126 2018 2035 "src/formatlex.mll" 126 2018 2044
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"src/formatlex.mll" 126 2018 2045 "src/formatlex.mll" 126 2018 2048
+type(
+  char
+)
+ident(
+  int_ref chr "src/formatlex.mll" 122 1876 1890 "src/formatlex.mll" 122 1876 1893
+)
+"src/formatlex.mll" 126 2018 2034 "src/formatlex.mll" 126 2018 2049
+type(
+  int
+)
+"src/formatlex.mll" 126 2018 2050 "src/formatlex.mll" 126 2018 2051
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/formatlex.mll" 126 2018 2053 "src/formatlex.mll" 126 2018 2062
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"src/formatlex.mll" 126 2018 2063 "src/formatlex.mll" 126 2018 2066
+type(
+  char
+)
+"src/formatlex.mll" 126 2018 2052 "src/formatlex.mll" 126 2018 2067
+type(
+  int
+)
+"src/formatlex.mll" 126 2018 2034 "src/formatlex.mll" 126 2018 2067
+type(
+  int
+)
+"src/formatlex.mll" 126 2018 2068 "src/formatlex.mll" 126 2018 2069
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/formatlex.mll" 126 2018 2070 "src/formatlex.mll" 126 2018 2072
+type(
+  int
+)
+"src/formatlex.mll" 126 2018 2034 "src/formatlex.mll" 126 2018 2072
+type(
+  int
+)
+"src/formatlex.mll" 127 2073 2077 "src/formatlex.mll" 127 2073 2078
+type(
+  char
+)
+"src/formatlex.mll" 127 2073 2082 "src/formatlex.mll" 127 2073 2083
+type(
+  int
+)
+"src/formatlex.mll" 123 1896 1898 "src/formatlex.mll" 127 2073 2083
+type(
+  int
+)
+"src/formatlex.mll" 128 2084 2088 "src/formatlex.mll" 128 2084 2103
+type(
+  string -> string
+)
+ident(
+  def scan_hex_escape "src/formatlex.mll" 133 2230 2230 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.mll" 128 2084 2104 "src/formatlex.mll" 128 2084 2107
+type(
+  string
+)
+ident(
+  def str "src/formatlex.mll" 129 2110 2112 "src/formatlex.mll" 132 2215 2229
+)
+"src/formatlex.mll" 129 2110 2112 "src/formatlex.mll" 129 2110 2123
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/formatlex.mll" 129 2110 2124 "src/formatlex.mll" 129 2110 2125
+type(
+  int
+)
+"src/formatlex.mll" 129 2110 2127 "src/formatlex.mll" 129 2110 2135
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"src/formatlex.mll" 130 2138 2142 "src/formatlex.mll" 130 2138 2151
+type(
+  char -> int
+)
+ident(
+  int_ref get_value "src/formatlex.mll" 122 1876 1880 "src/formatlex.mll" 122 1876 1889
+)
+"src/formatlex.mll" 130 2138 2153 "src/formatlex.mll" 130 2138 2163
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"src/formatlex.mll" 130 2138 2164 "src/formatlex.mll" 130 2138 2167
+type(
+  string
+)
+ident(
+  int_ref str "src/formatlex.mll" 128 2084 2104 "src/formatlex.mll" 128 2084 2107
+)
+"src/formatlex.mll" 130 2138 2168 "src/formatlex.mll" 130 2138 2169
+type(
+  int
+)
+"src/formatlex.mll" 130 2138 2152 "src/formatlex.mll" 130 2138 2170
+type(
+  char
+)
+"src/formatlex.mll" 130 2138 2141 "src/formatlex.mll" 130 2138 2171
+call(
+  stack
+)
+type(
+  int
+)
+"src/formatlex.mll" 130 2138 2172 "src/formatlex.mll" 130 2138 2173
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"src/formatlex.mll" 130 2138 2174 "src/formatlex.mll" 130 2138 2176
+type(
+  int
+)
+"src/formatlex.mll" 130 2138 2141 "src/formatlex.mll" 130 2138 2176
+type(
+  int
+)
+"src/formatlex.mll" 131 2177 2182 "src/formatlex.mll" 131 2177 2183
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/formatlex.mll" 131 2177 2185 "src/formatlex.mll" 131 2177 2194
+type(
+  char -> int
+)
+ident(
+  int_ref get_value "src/formatlex.mll" 122 1876 1880 "src/formatlex.mll" 122 1876 1889
+)
+"src/formatlex.mll" 131 2177 2196 "src/formatlex.mll" 131 2177 2206
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"src/formatlex.mll" 131 2177 2207 "src/formatlex.mll" 131 2177 2210
+type(
+  string
+)
+ident(
+  int_ref str "src/formatlex.mll" 128 2084 2104 "src/formatlex.mll" 128 2084 2107
+)
+"src/formatlex.mll" 131 2177 2211 "src/formatlex.mll" 131 2177 2212
+type(
+  int
+)
+"src/formatlex.mll" 131 2177 2195 "src/formatlex.mll" 131 2177 2213
+type(
+  char
+)
+"src/formatlex.mll" 131 2177 2184 "src/formatlex.mll" 131 2177 2214
+call(
+  stack
+)
+type(
+  int
+)
+"src/formatlex.mll" 129 2110 2136 "src/formatlex.mll" 132 2215 2228
+type(
+  int
+)
+"src/formatlex.mll" 129 2110 2126 "src/formatlex.mll" 132 2215 2229
+call(
+  stack
+)
+type(
+  char
+)
+"src/formatlex.mll" 129 2110 2112 "src/formatlex.mll" 132 2215 2229
+call(
+  tail
+)
+type(
+  string
+)
+"src/formatlex.mll" 133 2230 2234 "src/formatlex.mll" 133 2230 2249
+type(
+  string -> string
+)
+ident(
+  def scan_oct_escape "src/formatlex.mll" 146 2886 2886 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.mll" 133 2230 2250 "src/formatlex.mll" 133 2230 2253
+type(
+  string
+)
+ident(
+  def str "src/formatlex.mll" 136 2403 2405 "src/formatlex.mll" 141 2656 2709
+)
+"src/formatlex.mll" 136 2403 2409 "src/formatlex.mll" 136 2403 2418
+type(
+  int
+)
+ident(
+  def the_value "src/formatlex.mll" 139 2540 2542 "src/formatlex.mll" 141 2656 2709
+)
+"src/formatlex.mll" 136 2403 2422 "src/formatlex.mll" 136 2403 2431
+type(
+  char -> int
+)
+ident(
+  int_ref get_value "src/formatlex.mll" 122 1876 1880 "src/formatlex.mll" 122 1876 1889
+)
+"src/formatlex.mll" 136 2403 2433 "src/formatlex.mll" 136 2403 2443
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"src/formatlex.mll" 136 2403 2444 "src/formatlex.mll" 136 2403 2447
+type(
+  string
+)
+ident(
+  int_ref str "src/formatlex.mll" 133 2230 2250 "src/formatlex.mll" 133 2230 2253
+)
+"src/formatlex.mll" 136 2403 2448 "src/formatlex.mll" 136 2403 2449
+type(
+  int
+)
+"src/formatlex.mll" 136 2403 2432 "src/formatlex.mll" 136 2403 2450
+type(
+  char
+)
+"src/formatlex.mll" 136 2403 2421 "src/formatlex.mll" 136 2403 2451
+call(
+  stack
+)
+type(
+  int
+)
+"src/formatlex.mll" 136 2403 2452 "src/formatlex.mll" 136 2403 2453
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"src/formatlex.mll" 136 2403 2454 "src/formatlex.mll" 136 2403 2456
+type(
+  int
+)
+"src/formatlex.mll" 136 2403 2421 "src/formatlex.mll" 136 2403 2456
+type(
+  int
+)
+"src/formatlex.mll" 137 2457 2462 "src/formatlex.mll" 137 2457 2463
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/formatlex.mll" 137 2457 2465 "src/formatlex.mll" 137 2457 2474
+type(
+  char -> int
+)
+ident(
+  int_ref get_value "src/formatlex.mll" 122 1876 1880 "src/formatlex.mll" 122 1876 1889
+)
+"src/formatlex.mll" 137 2457 2476 "src/formatlex.mll" 137 2457 2486
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"src/formatlex.mll" 137 2457 2487 "src/formatlex.mll" 137 2457 2490
+type(
+  string
+)
+ident(
+  int_ref str "src/formatlex.mll" 133 2230 2250 "src/formatlex.mll" 133 2230 2253
+)
+"src/formatlex.mll" 137 2457 2491 "src/formatlex.mll" 137 2457 2492
+type(
+  int
+)
+"src/formatlex.mll" 137 2457 2475 "src/formatlex.mll" 137 2457 2493
+type(
+  char
+)
+"src/formatlex.mll" 137 2457 2464 "src/formatlex.mll" 137 2457 2494
+call(
+  stack
+)
+type(
+  int
+)
+"src/formatlex.mll" 137 2457 2495 "src/formatlex.mll" 137 2457 2496
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"src/formatlex.mll" 137 2457 2497 "src/formatlex.mll" 137 2457 2498
+type(
+  int
+)
+"src/formatlex.mll" 137 2457 2464 "src/formatlex.mll" 137 2457 2498
+type(
+  int
+)
+"src/formatlex.mll" 136 2403 2421 "src/formatlex.mll" 137 2457 2498
+type(
+  int
+)
+"src/formatlex.mll" 138 2499 2504 "src/formatlex.mll" 138 2499 2505
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/formatlex.mll" 138 2499 2507 "src/formatlex.mll" 138 2499 2516
+type(
+  char -> int
+)
+ident(
+  int_ref get_value "src/formatlex.mll" 122 1876 1880 "src/formatlex.mll" 122 1876 1889
+)
+"src/formatlex.mll" 138 2499 2518 "src/formatlex.mll" 138 2499 2528
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"src/formatlex.mll" 138 2499 2529 "src/formatlex.mll" 138 2499 2532
+type(
+  string
+)
+ident(
+  int_ref str "src/formatlex.mll" 133 2230 2250 "src/formatlex.mll" 133 2230 2253
+)
+"src/formatlex.mll" 138 2499 2533 "src/formatlex.mll" 138 2499 2534
+type(
+  int
+)
+"src/formatlex.mll" 138 2499 2517 "src/formatlex.mll" 138 2499 2535
+type(
+  char
+)
+"src/formatlex.mll" 138 2499 2506 "src/formatlex.mll" 138 2499 2536
+call(
+  stack
+)
+type(
+  int
+)
+"src/formatlex.mll" 136 2403 2421 "src/formatlex.mll" 138 2499 2536
+type(
+  int
+)
+"src/formatlex.mll" 139 2540 2545 "src/formatlex.mll" 139 2540 2554
+type(
+  int
+)
+ident(
+  int_ref the_value "src/formatlex.mll" 136 2403 2409 "src/formatlex.mll" 136 2403 2418
+)
+"src/formatlex.mll" 139 2540 2555 "src/formatlex.mll" 139 2540 2556
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/formatlex.mll" 139 2540 2557 "src/formatlex.mll" 139 2540 2560
+type(
+  int
+)
+"src/formatlex.mll" 139 2540 2545 "src/formatlex.mll" 139 2540 2560
+type(
+  bool
+)
+"src/formatlex.mll" 139 2540 2566 "src/formatlex.mll" 139 2540 2577
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/formatlex.mll" 139 2540 2578 "src/formatlex.mll" 139 2540 2579
+type(
+  int
+)
+"src/formatlex.mll" 139 2540 2581 "src/formatlex.mll" 139 2540 2589
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"src/formatlex.mll" 139 2540 2590 "src/formatlex.mll" 139 2540 2599
+type(
+  int
+)
+ident(
+  int_ref the_value "src/formatlex.mll" 136 2403 2409 "src/formatlex.mll" 136 2403 2418
+)
+"src/formatlex.mll" 139 2540 2580 "src/formatlex.mll" 139 2540 2601
+call(
+  stack
+)
+type(
+  char
+)
+"src/formatlex.mll" 139 2540 2566 "src/formatlex.mll" 139 2540 2601
+call(
+  tail
+)
+type(
+  string
+)
+"src/formatlex.mll" 140 2602 2610 "src/formatlex.mll" 140 2602 2621
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/formatlex.mll" 140 2602 2622 "src/formatlex.mll" 140 2602 2623
+type(
+  int
+)
+"src/formatlex.mll" 140 2602 2625 "src/formatlex.mll" 140 2602 2633
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"src/formatlex.mll" 140 2602 2635 "src/formatlex.mll" 140 2602 2644
+type(
+  int
+)
+ident(
+  int_ref the_value "src/formatlex.mll" 136 2403 2409 "src/formatlex.mll" 136 2403 2418
+)
+"src/formatlex.mll" 140 2602 2645 "src/formatlex.mll" 140 2602 2646
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"src/formatlex.mll" 140 2602 2647 "src/formatlex.mll" 140 2602 2650
+type(
+  int
+)
+"src/formatlex.mll" 140 2602 2634 "src/formatlex.mll" 140 2602 2651
+type(
+  int
+)
+"src/formatlex.mll" 140 2602 2624 "src/formatlex.mll" 140 2602 2652
+call(
+  stack
+)
+type(
+  char
+)
+"src/formatlex.mll" 140 2602 2609 "src/formatlex.mll" 140 2602 2653
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 140 2602 2654 "src/formatlex.mll" 140 2602 2655
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/formatlex.mll" 141 2656 2664 "src/formatlex.mll" 141 2656 2675
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/formatlex.mll" 141 2656 2676 "src/formatlex.mll" 141 2656 2677
+type(
+  int
+)
+"src/formatlex.mll" 141 2656 2679 "src/formatlex.mll" 141 2656 2687
+type(
+  int -> char
+)
+ident(
+  ext_ref Char.chr
+)
+"src/formatlex.mll" 141 2656 2689 "src/formatlex.mll" 141 2656 2698
+type(
+  int
+)
+ident(
+  int_ref the_value "src/formatlex.mll" 136 2403 2409 "src/formatlex.mll" 136 2403 2418
+)
+"src/formatlex.mll" 141 2656 2699 "src/formatlex.mll" 141 2656 2702
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/formatlex.mll" 141 2656 2703 "src/formatlex.mll" 141 2656 2706
+type(
+  int
+)
+"src/formatlex.mll" 141 2656 2688 "src/formatlex.mll" 141 2656 2707
+type(
+  int
+)
+"src/formatlex.mll" 141 2656 2678 "src/formatlex.mll" 141 2656 2708
+call(
+  stack
+)
+type(
+  char
+)
+"src/formatlex.mll" 141 2656 2663 "src/formatlex.mll" 141 2656 2709
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 140 2602 2609 "src/formatlex.mll" 141 2656 2709
+call(
+  tail
+)
+type(
+  string
+)
+"src/formatlex.mll" 139 2540 2542 "src/formatlex.mll" 141 2656 2709
+type(
+  string
+)
+"src/formatlex.mll" 136 2403 2405 "src/formatlex.mll" 141 2656 2709
+type(
+  string
+)
+"src/formatlex.mll" 146 2886 2890 "src/formatlex.mll" 146 2886 2896
+type(
+  string -> string
+)
+ident(
+  def wbtowc "src/formatlex.mll" 155 3128 3128 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.mll" 146 2886 2897 "src/formatlex.mll" 146 2886 2901
+type(
+  string
+)
+ident(
+  def wstr "src/formatlex.mll" 147 2904 2906 "src/formatlex.mll" 152 3048 3054
+)
+"src/formatlex.mll" 147 2904 2910 "src/formatlex.mll" 147 2904 2913
+type(
+  int
+)
+ident(
+  def len "src/formatlex.mll" 148 2939 2941 "src/formatlex.mll" 152 3048 3054
+)
+"src/formatlex.mll" 147 2904 2916 "src/formatlex.mll" 147 2904 2929
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/formatlex.mll" 147 2904 2930 "src/formatlex.mll" 147 2904 2934
+type(
+  string
+)
+ident(
+  int_ref wstr "src/formatlex.mll" 146 2886 2897 "src/formatlex.mll" 146 2886 2901
+)
+"src/formatlex.mll" 147 2904 2916 "src/formatlex.mll" 147 2904 2934
+type(
+  int
+)
+"src/formatlex.mll" 148 2939 2945 "src/formatlex.mll" 148 2939 2949
+type(
+  string
+)
+ident(
+  def dest "src/formatlex.mll" 149 2985 2987 "src/formatlex.mll" 152 3048 3054
+)
+"src/formatlex.mll" 148 2939 2952 "src/formatlex.mll" 148 2939 2963
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"src/formatlex.mll" 148 2939 2965 "src/formatlex.mll" 148 2939 2968
+type(
+  int
+)
+ident(
+  int_ref len "src/formatlex.mll" 147 2904 2910 "src/formatlex.mll" 147 2904 2913
+)
+"src/formatlex.mll" 148 2939 2969 "src/formatlex.mll" 148 2939 2970
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"src/formatlex.mll" 148 2939 2971 "src/formatlex.mll" 148 2939 2972
+type(
+  int
+)
+"src/formatlex.mll" 148 2939 2964 "src/formatlex.mll" 148 2939 2973
+type(
+  int
+)
+"src/formatlex.mll" 148 2939 2974 "src/formatlex.mll" 148 2939 2980
+type(
+  char
+)
+"src/formatlex.mll" 148 2939 2952 "src/formatlex.mll" 148 2939 2980
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 149 2985 2995 "src/formatlex.mll" 149 2985 2996
+type(
+  int
+)
+"src/formatlex.mll" 149 2985 3000 "src/formatlex.mll" 149 2985 3003
+type(
+  int
+)
+ident(
+  int_ref len "src/formatlex.mll" 147 2904 2910 "src/formatlex.mll" 147 2904 2913
+)
+"src/formatlex.mll" 149 2985 3003 "src/formatlex.mll" 149 2985 3004
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/formatlex.mll" 149 2985 3004 "src/formatlex.mll" 149 2985 3005
+type(
+  int
+)
+"src/formatlex.mll" 149 2985 3000 "src/formatlex.mll" 149 2985 3005
+type(
+  int
+)
+"src/formatlex.mll" 150 3010 3014 "src/formatlex.mll" 150 3010 3018
+type(
+  bytes
+)
+ident(
+  int_ref dest "src/formatlex.mll" 148 2939 2945 "src/formatlex.mll" 148 2939 2949
+)
+"src/formatlex.mll" 150 3010 3020 "src/formatlex.mll" 150 3010 3021
+type(
+  int
+)
+ident(
+  int_ref i "src/formatlex.mll" 149 2985 2987 "src/formatlex.mll" 151 3039 3045
+)
+"src/formatlex.mll" 150 3010 3021 "src/formatlex.mll" 150 3010 3022
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"src/formatlex.mll" 150 3010 3022 "src/formatlex.mll" 150 3010 3023
+type(
+  int
+)
+"src/formatlex.mll" 150 3010 3020 "src/formatlex.mll" 150 3010 3023
+type(
+  int
+)
+"src/formatlex.mll" 150 3010 3028 "src/formatlex.mll" 150 3010 3032
+type(
+  string
+)
+ident(
+  int_ref wstr "src/formatlex.mll" 146 2886 2897 "src/formatlex.mll" 146 2886 2901
+)
+"src/formatlex.mll" 150 3010 3034 "src/formatlex.mll" 150 3010 3035
+type(
+  int
+)
+ident(
+  int_ref i "src/formatlex.mll" 149 2985 2987 "src/formatlex.mll" 151 3039 3045
+)
+"src/formatlex.mll" 150 3010 3028 "src/formatlex.mll" 150 3010 3036
+type(
+  char
+)
+"src/formatlex.mll" 150 3010 3014 "src/formatlex.mll" 150 3010 3038
+type(
+  unit
+)
+"src/formatlex.mll" 149 2985 2987 "src/formatlex.mll" 151 3039 3045
+type(
+  unit
+)
+"src/formatlex.mll" 152 3048 3050 "src/formatlex.mll" 152 3048 3054
+type(
+  string
+)
+ident(
+  int_ref dest "src/formatlex.mll" 148 2939 2945 "src/formatlex.mll" 148 2939 2949
+)
+"src/formatlex.mll" 149 2985 2987 "src/formatlex.mll" 152 3048 3054
+type(
+  string
+)
+"src/formatlex.mll" 148 2939 2941 "src/formatlex.mll" 152 3048 3054
+type(
+  string
+)
+"src/formatlex.mll" 147 2904 2906 "src/formatlex.mll" 152 3048 3054
+type(
+  string
+)
+"src/formatlex.mll" 155 3128 3132 "src/formatlex.mll" 155 3128 3146
+type(
+  string -> string
+)
+ident(
+  def wstr_to_warray "src/formatlex.mll" 164 3329 3329 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.mll" 155 3128 3147 "src/formatlex.mll" 155 3128 3151
+type(
+  string
+)
+ident(
+  def wstr "src/formatlex.mll" 156 3154 3156 "src/formatlex.mll" 162 3321 3327
+)
+"src/formatlex.mll" 156 3154 3160 "src/formatlex.mll" 156 3154 3163
+type(
+  int
+)
+ident(
+  def len "src/formatlex.mll" 157 3188 3190 "src/formatlex.mll" 162 3321 3327
+)
+"src/formatlex.mll" 156 3154 3166 "src/formatlex.mll" 156 3154 3179
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/formatlex.mll" 156 3154 3180 "src/formatlex.mll" 156 3154 3184
+type(
+  string
+)
+ident(
+  int_ref wstr "src/formatlex.mll" 155 3128 3147 "src/formatlex.mll" 155 3128 3151
+)
+"src/formatlex.mll" 156 3154 3166 "src/formatlex.mll" 156 3154 3184
+type(
+  int
+)
+"src/formatlex.mll" 157 3188 3194 "src/formatlex.mll" 157 3188 3197
+type(
+  string ref
+)
+ident(
+  def res "src/formatlex.mll" 158 3212 3214 "src/formatlex.mll" 162 3321 3327
+)
+"src/formatlex.mll" 157 3188 3200 "src/formatlex.mll" 157 3188 3203
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/formatlex.mll" 157 3188 3204 "src/formatlex.mll" 157 3188 3208
+type(
+  string
+)
+"src/formatlex.mll" 157 3188 3200 "src/formatlex.mll" 157 3188 3208
+type(
+  string ref
+)
+"src/formatlex.mll" 158 3212 3222 "src/formatlex.mll" 158 3212 3223
+type(
+  int
+)
+"src/formatlex.mll" 158 3212 3227 "src/formatlex.mll" 158 3212 3230
+type(
+  int
+)
+ident(
+  int_ref len "src/formatlex.mll" 156 3154 3160 "src/formatlex.mll" 156 3154 3163
+)
+"src/formatlex.mll" 158 3212 3230 "src/formatlex.mll" 158 3212 3231
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/formatlex.mll" 158 3212 3231 "src/formatlex.mll" 158 3212 3232
+type(
+  int
+)
+"src/formatlex.mll" 158 3212 3227 "src/formatlex.mll" 158 3212 3232
+type(
+  int
+)
+"src/formatlex.mll" 159 3236 3240 "src/formatlex.mll" 159 3236 3243
+type(
+  string ref
+)
+ident(
+  int_ref res "src/formatlex.mll" 157 3188 3194 "src/formatlex.mll" 157 3188 3197
+)
+"src/formatlex.mll" 159 3236 3244 "src/formatlex.mll" 159 3236 3246
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/formatlex.mll" 159 3236 3247 "src/formatlex.mll" 159 3236 3248
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/formatlex.mll" 159 3236 3248 "src/formatlex.mll" 159 3236 3251
+type(
+  string ref
+)
+ident(
+  int_ref res "src/formatlex.mll" 157 3188 3194 "src/formatlex.mll" 157 3188 3197
+)
+"src/formatlex.mll" 159 3236 3247 "src/formatlex.mll" 159 3236 3251
+type(
+  string
+)
+"src/formatlex.mll" 159 3236 3252 "src/formatlex.mll" 159 3236 3253
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/formatlex.mll" 159 3236 3255 "src/formatlex.mll" 159 3236 3269
+type(
+  (char -> string, unit, string) format -> char -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"src/formatlex.mll" 159 3236 3270 "src/formatlex.mll" 159 3236 3279
+type(
+  (char -> string, unit, string) format
+)
+"src/formatlex.mll" 159 3236 3280 "src/formatlex.mll" 159 3236 3284
+type(
+  string
+)
+ident(
+  int_ref wstr "src/formatlex.mll" 155 3128 3147 "src/formatlex.mll" 155 3128 3151
+)
+"src/formatlex.mll" 159 3236 3286 "src/formatlex.mll" 159 3236 3287
+type(
+  int
+)
+ident(
+  int_ref i "src/formatlex.mll" 158 3212 3214 "src/formatlex.mll" 160 3290 3296
+)
+"src/formatlex.mll" 159 3236 3280 "src/formatlex.mll" 159 3236 3288
+type(
+  char
+)
+"src/formatlex.mll" 159 3236 3254 "src/formatlex.mll" 159 3236 3289
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 159 3236 3247 "src/formatlex.mll" 159 3236 3289
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 159 3236 3240 "src/formatlex.mll" 159 3236 3289
+type(
+  unit
+)
+"src/formatlex.mll" 158 3212 3214 "src/formatlex.mll" 160 3290 3296
+type(
+  unit
+)
+"src/formatlex.mll" 161 3299 3301 "src/formatlex.mll" 161 3299 3304
+type(
+  string ref
+)
+ident(
+  int_ref res "src/formatlex.mll" 157 3188 3194 "src/formatlex.mll" 157 3188 3197
+)
+"src/formatlex.mll" 161 3299 3305 "src/formatlex.mll" 161 3299 3307
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/formatlex.mll" 161 3299 3308 "src/formatlex.mll" 161 3299 3309
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/formatlex.mll" 161 3299 3309 "src/formatlex.mll" 161 3299 3312
+type(
+  string ref
+)
+ident(
+  int_ref res "src/formatlex.mll" 157 3188 3194 "src/formatlex.mll" 157 3188 3197
+)
+"src/formatlex.mll" 161 3299 3308 "src/formatlex.mll" 161 3299 3312
+type(
+  string
+)
+"src/formatlex.mll" 161 3299 3313 "src/formatlex.mll" 161 3299 3314
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/formatlex.mll" 161 3299 3315 "src/formatlex.mll" 161 3299 3318
+type(
+  string
+)
+"src/formatlex.mll" 161 3299 3308 "src/formatlex.mll" 161 3299 3318
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 161 3299 3301 "src/formatlex.mll" 161 3299 3318
+type(
+  unit
+)
+"src/formatlex.mll" 162 3321 3323 "src/formatlex.mll" 162 3321 3324
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/formatlex.mll" 162 3321 3324 "src/formatlex.mll" 162 3321 3327
+type(
+  string ref
+)
+ident(
+  int_ref res "src/formatlex.mll" 157 3188 3194 "src/formatlex.mll" 157 3188 3197
+)
+"src/formatlex.mll" 162 3321 3323 "src/formatlex.mll" 162 3321 3327
+type(
+  string
+)
+"src/formatlex.mll" 161 3299 3301 "src/formatlex.mll" 162 3321 3327
+type(
+  string
+)
+"src/formatlex.mll" 158 3212 3214 "src/formatlex.mll" 162 3321 3327
+type(
+  string
+)
+"src/formatlex.mll" 157 3188 3190 "src/formatlex.mll" 162 3321 3327
+type(
+  string
+)
+"src/formatlex.mll" 156 3154 3156 "src/formatlex.mll" 162 3321 3327
+type(
+  string
+)
+"src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  def getArgName "src/formatlex.ml" 137 3577 3577 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.mll" 164 3329 3345 "src/formatlex.mll" 164 3329 3346
+type(
+  Lexing.lexbuf
+)
+ident(
+  def l "src/formatlex.mll" 164 3329 3363 "src/formatlex.mll" 170 3544 3550
+)
+"src/formatlex.mll" 164 3329 3364 "src/formatlex.mll" 164 3329 3373
+type(
+  int
+)
+ident(
+  def prefixlen "src/formatlex.mll" 165 3382 3384 "src/formatlex.mll" 170 3544 3550
+)
+"src/formatlex.mll" 165 3382 3388 "src/formatlex.mll" 165 3382 3394
+type(
+  string
+)
+ident(
+  def lexeme "src/formatlex.mll" 166 3416 3418 "src/formatlex.mll" 170 3544 3550
+)
+"src/formatlex.mll" 165 3382 3397 "src/formatlex.mll" 165 3382 3410
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"src/formatlex.mll" 165 3382 3411 "src/formatlex.mll" 165 3382 3412
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref l "src/formatlex.mll" 164 3329 3345 "src/formatlex.mll" 164 3329 3346
+)
+"src/formatlex.mll" 165 3382 3397 "src/formatlex.mll" 165 3382 3412
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 166 3416 3422 "src/formatlex.mll" 166 3416 3424
+type(
+  int
+)
+ident(
+  def ll "src/formatlex.mll" 167 3451 3453 "src/formatlex.mll" 170 3544 3550
+)
+"src/formatlex.mll" 166 3416 3427 "src/formatlex.mll" 166 3416 3440
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/formatlex.mll" 166 3416 3441 "src/formatlex.mll" 166 3416 3447
+type(
+  string
+)
+ident(
+  int_ref lexeme "src/formatlex.mll" 165 3382 3388 "src/formatlex.mll" 165 3382 3394
+)
+"src/formatlex.mll" 166 3416 3427 "src/formatlex.mll" 166 3416 3447
+type(
+  int
+)
+"src/formatlex.mll" 167 3451 3457 "src/formatlex.mll" 167 3451 3459
+type(
+  int
+)
+ident(
+  int_ref ll "src/formatlex.mll" 166 3416 3422 "src/formatlex.mll" 166 3416 3424
+)
+"src/formatlex.mll" 167 3451 3460 "src/formatlex.mll" 167 3451 3461
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/formatlex.mll" 167 3451 3462 "src/formatlex.mll" 167 3451 3471
+type(
+  int
+)
+ident(
+  int_ref prefixlen "src/formatlex.mll" 164 3329 3364 "src/formatlex.mll" 164 3329 3373
+)
+"src/formatlex.mll" 167 3451 3457 "src/formatlex.mll" 167 3451 3471
+type(
+  bool
+)
+"src/formatlex.mll" 168 3478 3482 "src/formatlex.mll" 168 3478 3492
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/formatlex.mll" 168 3478 3493 "src/formatlex.mll" 168 3478 3499
+type(
+  string
+)
+ident(
+  int_ref lexeme "src/formatlex.mll" 165 3382 3388 "src/formatlex.mll" 165 3382 3394
+)
+"src/formatlex.mll" 168 3478 3501 "src/formatlex.mll" 168 3478 3510
+type(
+  int
+)
+ident(
+  int_ref prefixlen "src/formatlex.mll" 164 3329 3364 "src/formatlex.mll" 164 3329 3373
+)
+"src/formatlex.mll" 168 3478 3511 "src/formatlex.mll" 168 3478 3512
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/formatlex.mll" 168 3478 3513 "src/formatlex.mll" 168 3478 3514
+type(
+  int
+)
+"src/formatlex.mll" 168 3478 3500 "src/formatlex.mll" 168 3478 3515
+type(
+  int
+)
+"src/formatlex.mll" 168 3478 3517 "src/formatlex.mll" 168 3478 3519
+type(
+  int
+)
+ident(
+  int_ref ll "src/formatlex.mll" 166 3416 3422 "src/formatlex.mll" 166 3416 3424
+)
+"src/formatlex.mll" 168 3478 3520 "src/formatlex.mll" 168 3478 3521
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/formatlex.mll" 168 3478 3522 "src/formatlex.mll" 168 3478 3531
+type(
+  int
+)
+ident(
+  int_ref prefixlen "src/formatlex.mll" 164 3329 3364 "src/formatlex.mll" 164 3329 3373
+)
+"src/formatlex.mll" 168 3478 3517 "src/formatlex.mll" 168 3478 3531
+type(
+  int
+)
+"src/formatlex.mll" 168 3478 3532 "src/formatlex.mll" 168 3478 3533
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/formatlex.mll" 168 3478 3534 "src/formatlex.mll" 168 3478 3535
+type(
+  int
+)
+"src/formatlex.mll" 168 3478 3516 "src/formatlex.mll" 168 3478 3536
+type(
+  int
+)
+"src/formatlex.mll" 168 3478 3482 "src/formatlex.mll" 168 3478 3536
+call(
+  tail
+)
+type(
+  string
+)
+"src/formatlex.mll" 170 3544 3548 "src/formatlex.mll" 170 3544 3550
+type(
+  string
+)
+"src/formatlex.mll" 167 3451 3453 "src/formatlex.mll" 170 3544 3550
+type(
+  string
+)
+"src/formatlex.mll" 166 3416 3418 "src/formatlex.mll" 170 3544 3550
+type(
+  string
+)
+"src/formatlex.mll" 165 3382 3384 "src/formatlex.mll" 170 3544 3550
+type(
+  string
+)
+"src/formatlex.ml" 137 3577 3581 "src/formatlex.ml" 137 3577 3599
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "src/formatlex.ml" 1352 87381 87381 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.ml" 139 3624 3627 "src/formatlex.ml" 161 5164 5177
+type(
+  string
+)
+"src/formatlex.ml" 163 5202 5205 "src/formatlex.ml" 185 6742 6755
+type(
+  string
+)
+"src/formatlex.ml" 187 6780 6783 "src/formatlex.ml" 209 8320 8333
+type(
+  string
+)
+"src/formatlex.ml" 211 8356 8359 "src/formatlex.ml" 773 47696 47757
+type(
+  string
+)
+"src/formatlex.ml" 775 47780 47783 "src/formatlex.ml" 1337 87120 87181
+type(
+  string
+)
+"src/formatlex.ml" 1339 87208 87211 "src/formatlex.ml" 1339 87208 87213
+type(
+  string
+)
+"src/formatlex.ml" 1341 87243 87246 "src/formatlex.ml" 1341 87243 87248
+type(
+  string
+)
+"src/formatlex.ml" 1343 87278 87281 "src/formatlex.ml" 1343 87278 87283
+type(
+  string
+)
+"src/formatlex.ml" 1345 87311 87314 "src/formatlex.ml" 1345 87311 87316
+type(
+  string
+)
+"src/formatlex.ml" 1347 87344 87347 "src/formatlex.ml" 1347 87344 87349
+type(
+  string
+)
+"src/formatlex.ml" 1349 87371 87374 "src/formatlex.ml" 1349 87371 87376
+type(
+  string
+)
+"src/formatlex.ml" 137 3577 3602 "src/formatlex.ml" 1350 87378 87379
+type(
+  Lexing.lex_tables
+)
+"src/formatlex.ml" 1352 87381 87389 "src/formatlex.ml" 1352 87381 87396
+type(
+  Lexing.lexbuf -> Formatparse.token
+)
+ident(
+  def initial "src/formatlex.ml" 1352 87381 87381 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.ml" 1352 87381 87397 "src/formatlex.ml" 1352 87381 87403
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/formatlex.ml" 1353 87406 87409 "src/formatlex.ml" 1353 87406 87441
+)
+"src/formatlex.ml" 1353 87406 87409 "src/formatlex.ml" 1353 87406 87432
+type(
+  Lexing.lexbuf -> int -> Formatparse.token
+)
+ident(
+  int_ref __ocaml_lex_initial_rec "src/formatlex.ml" 1354 87442 87446 "src/formatlex.ml" 1354 87442 87469
+)
+"src/formatlex.ml" 1353 87406 87433 "src/formatlex.ml" 1353 87406 87439
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1352 87381 87397 "src/formatlex.ml" 1352 87381 87403
+)
+"src/formatlex.ml" 1353 87406 87440 "src/formatlex.ml" 1353 87406 87441
+type(
+  int
+)
+"src/formatlex.ml" 1353 87406 87409 "src/formatlex.ml" 1353 87406 87441
+call(
+  tail
+)
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1354 87442 87446 "src/formatlex.ml" 1354 87442 87469
+type(
+  Lexing.lexbuf -> int -> Formatparse.token
+)
+ident(
+  def __ocaml_lex_initial_rec "src/formatlex.ml" 1352 87381 87381 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/formatlex.ml" 1354 87442 87477 "src/formatlex.ml" 1765 96262 96316
+)
+"src/formatlex.ml" 1354 87442 87477 "src/formatlex.ml" 1354 87442 87494
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/formatlex.ml" 1355 87497 87499 "src/formatlex.ml" 1765 96262 96316
+)
+"src/formatlex.ml" 1355 87497 87505 "src/formatlex.ml" 1355 87497 87518
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"src/formatlex.ml" 1355 87497 87519 "src/formatlex.ml" 1355 87497 87537
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/formatlex.ml" 137 3577 3581 "src/formatlex.ml" 137 3577 3599
+)
+"src/formatlex.ml" 1355 87497 87538 "src/formatlex.ml" 1355 87497 87555
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/formatlex.ml" 1354 87442 87477 "src/formatlex.ml" 1354 87442 87494
+)
+"src/formatlex.ml" 1355 87497 87556 "src/formatlex.ml" 1355 87497 87562
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.ml" 1355 87497 87505 "src/formatlex.ml" 1355 87497 87562
+call(
+  stack
+)
+type(
+  int
+)
+"src/formatlex.ml" 1356 87568 87576 "src/formatlex.ml" 1356 87568 87577
+type(
+  int
+)
+"src/formatlex.mll" 209 87607 87625 "src/formatlex.mll" 209 87607 87632
+type(
+  Lexing.lexbuf -> Formatparse.token
+)
+ident(
+  int_ref initial "src/formatlex.ml" 1352 87381 87389 "src/formatlex.ml" 1352 87381 87396
+)
+"src/formatlex.mll" 209 87607 87633 "src/formatlex.mll" 209 87607 87639
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 209 87607 87623 "src/formatlex.mll" 209 87607 87640
+call(
+  tail
+)
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1361 87668 87672 "src/formatlex.ml" 1361 87668 87673
+type(
+  int
+)
+"src/formatlex.mll" 210 87703 87732 "src/formatlex.mll" 210 87703 87733
+type(
+  unit
+)
+"src/formatlex.mll" 210 87703 87736 "src/formatlex.mll" 210 87703 87743
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "src/formatlex.ml" 1767 96318 96322 "src/formatlex.ml" 1767 96318 96329
+)
+"src/formatlex.mll" 210 87703 87744 "src/formatlex.mll" 210 87703 87750
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 210 87703 87736 "src/formatlex.mll" 210 87703 87750
+call(
+  stack
+)
+type(
+  unit
+)
+"src/formatlex.mll" 211 87755 87797 "src/formatlex.mll" 211 87755 87804
+type(
+  Lexing.lexbuf -> Formatparse.token
+)
+ident(
+  int_ref initial "src/formatlex.ml" 1352 87381 87389 "src/formatlex.ml" 1352 87381 87396
+)
+"src/formatlex.mll" 211 87755 87805 "src/formatlex.mll" 211 87755 87811
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 211 87755 87797 "src/formatlex.mll" 211 87755 87811
+call(
+  tail
+)
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 210 87703 87726 "src/formatlex.mll" 211 87755 87812
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1367 87840 87844 "src/formatlex.ml" 1367 87840 87845
+type(
+  int
+)
+"src/formatlex.mll" 212 87875 87917 "src/formatlex.mll" 212 87875 87924
+type(
+  Lexing.lexbuf -> Formatparse.token
+)
+ident(
+  int_ref endline "src/formatlex.ml" 1789 96937 96941 "src/formatlex.ml" 1789 96937 96948
+)
+"src/formatlex.mll" 212 87875 87925 "src/formatlex.mll" 212 87875 87931
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 212 87875 87915 "src/formatlex.mll" 212 87875 87933
+call(
+  tail
+)
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1372 87961 87965 "src/formatlex.ml" 1372 87961 87966
+type(
+  int
+)
+"src/formatlex.mll" 213 87996 88038 "src/formatlex.mll" 213 87996 88047
+type(
+  unit -> unit
+)
+ident(
+  ext_ref E.newline
+)
+"src/formatlex.mll" 213 87996 88048 "src/formatlex.mll" 213 87996 88050
+type(
+  unit
+)
+"src/formatlex.mll" 213 87996 88038 "src/formatlex.mll" 213 87996 88050
+call(
+  stack
+)
+type(
+  unit
+)
+"src/formatlex.mll" 213 87996 88052 "src/formatlex.mll" 213 87996 88059
+type(
+  Lexing.lexbuf -> Formatparse.token
+)
+ident(
+  int_ref initial "src/formatlex.ml" 1352 87381 87389 "src/formatlex.ml" 1352 87381 87396
+)
+"src/formatlex.mll" 213 87996 88060 "src/formatlex.mll" 213 87996 88066
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 213 87996 88052 "src/formatlex.mll" 213 87996 88066
+call(
+  tail
+)
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 213 87996 88036 "src/formatlex.mll" 213 87996 88067
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1377 88095 88099 "src/formatlex.ml" 1377 88095 88100
+type(
+  int
+)
+"src/formatlex.mll" 214 88130 88155 "src/formatlex.mll" 214 88130 88168
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"src/formatlex.mll" 214 88130 88169 "src/formatlex.mll" 214 88130 88175
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 214 88130 88154 "src/formatlex.mll" 214 88130 88176
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 214 88130 88143 "src/formatlex.mll" 214 88130 88177
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1382 88205 88209 "src/formatlex.ml" 1382 88205 88210
+type(
+  int
+)
+"src/formatlex.mll" 215 88240 88262 "src/formatlex.mll" 215 88240 88275
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"src/formatlex.mll" 215 88240 88276 "src/formatlex.mll" 215 88240 88282
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 215 88240 88261 "src/formatlex.mll" 215 88240 88283
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 215 88240 88252 "src/formatlex.mll" 215 88240 88284
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1387 88312 88316 "src/formatlex.ml" 1387 88312 88317
+type(
+  int
+)
+"src/formatlex.mll" 216 88347 88369 "src/formatlex.mll" 216 88347 88382
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"src/formatlex.mll" 216 88347 88383 "src/formatlex.mll" 216 88347 88389
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 216 88347 88368 "src/formatlex.mll" 216 88347 88390
+type(
+  string
+)
+"src/formatlex.mll" 216 88347 88359 "src/formatlex.mll" 216 88347 88391
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1392 88419 88423 "src/formatlex.ml" 1392 88419 88424
+type(
+  int
+)
+"src/formatlex.mll" 217 88454 88476 "src/formatlex.mll" 217 88454 88489
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"src/formatlex.mll" 217 88454 88490 "src/formatlex.mll" 217 88454 88496
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 217 88454 88475 "src/formatlex.mll" 217 88454 88497
+type(
+  string
+)
+"src/formatlex.mll" 217 88454 88466 "src/formatlex.mll" 217 88454 88498
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1397 88526 88530 "src/formatlex.ml" 1397 88526 88531
+type(
+  int
+)
+"src/formatlex.mll" 219 88561 88599 "src/formatlex.mll" 219 88561 88611
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1402 88639 88643 "src/formatlex.ml" 1402 88639 88644
+type(
+  int
+)
+"src/formatlex.mll" 220 88674 88712 "src/formatlex.mll" 220 88674 88724
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1407 88752 88756 "src/formatlex.ml" 1407 88752 88758
+type(
+  int
+)
+"src/formatlex.mll" 221 88788 88826 "src/formatlex.mll" 221 88788 88835
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1412 88863 88867 "src/formatlex.ml" 1412 88863 88869
+type(
+  int
+)
+"src/formatlex.mll" 222 88899 88937 "src/formatlex.mll" 222 88899 88947
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1417 88975 88979 "src/formatlex.ml" 1417 88975 88981
+type(
+  int
+)
+"src/formatlex.mll" 223 89011 89049 "src/formatlex.mll" 223 89011 89057
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1422 89085 89089 "src/formatlex.ml" 1422 89085 89091
+type(
+  int
+)
+"src/formatlex.mll" 224 89121 89159 "src/formatlex.mll" 224 89121 89168
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1427 89196 89200 "src/formatlex.ml" 1427 89196 89202
+type(
+  int
+)
+"src/formatlex.mll" 225 89232 89270 "src/formatlex.mll" 225 89232 89279
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1432 89307 89311 "src/formatlex.ml" 1432 89307 89313
+type(
+  int
+)
+"src/formatlex.mll" 226 89343 89381 "src/formatlex.mll" 226 89343 89393
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1437 89421 89425 "src/formatlex.ml" 1437 89421 89427
+type(
+  int
+)
+"src/formatlex.mll" 229 89457 89468 "src/formatlex.mll" 229 89457 89478
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1442 89506 89510 "src/formatlex.ml" 1442 89506 89512
+type(
+  int
+)
+"src/formatlex.mll" 230 89542 89552 "src/formatlex.mll" 230 89542 89562
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1447 89590 89594 "src/formatlex.ml" 1447 89590 89596
+type(
+  int
+)
+"src/formatlex.mll" 231 89626 89636 "src/formatlex.mll" 231 89626 89645
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1452 89673 89677 "src/formatlex.ml" 1452 89673 89679
+type(
+  int
+)
+"src/formatlex.mll" 232 89709 89719 "src/formatlex.mll" 232 89709 89728
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1457 89756 89760 "src/formatlex.ml" 1457 89756 89762
+type(
+  int
+)
+"src/formatlex.mll" 233 89792 89802 "src/formatlex.mll" 233 89792 89811
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1462 89839 89843 "src/formatlex.ml" 1462 89839 89845
+type(
+  int
+)
+"src/formatlex.mll" 234 89875 89885 "src/formatlex.mll" 234 89875 89894
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1467 89922 89926 "src/formatlex.ml" 1467 89922 89928
+type(
+  int
+)
+"src/formatlex.mll" 235 89958 89969 "src/formatlex.mll" 235 89958 89976
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1472 90004 90008 "src/formatlex.ml" 1472 90004 90010
+type(
+  int
+)
+"src/formatlex.mll" 236 90040 90051 "src/formatlex.mll" 236 90040 90062
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1477 90090 90094 "src/formatlex.ml" 1477 90090 90096
+type(
+  int
+)
+"src/formatlex.mll" 237 90126 90136 "src/formatlex.mll" 237 90126 90144
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1482 90172 90176 "src/formatlex.ml" 1482 90172 90178
+type(
+  int
+)
+"src/formatlex.mll" 238 90208 90218 "src/formatlex.mll" 238 90208 90226
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1487 90254 90258 "src/formatlex.ml" 1487 90254 90260
+type(
+  int
+)
+"src/formatlex.mll" 239 90290 90299 "src/formatlex.mll" 239 90290 90303
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1492 90331 90335 "src/formatlex.ml" 1492 90331 90337
+type(
+  int
+)
+"src/formatlex.mll" 240 90367 90376 "src/formatlex.mll" 240 90367 90381
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1497 90409 90413 "src/formatlex.ml" 1497 90409 90415
+type(
+  int
+)
+"src/formatlex.mll" 241 90445 90454 "src/formatlex.mll" 241 90445 90459
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1502 90487 90491 "src/formatlex.ml" 1502 90487 90493
+type(
+  int
+)
+"src/formatlex.mll" 242 90523 90533 "src/formatlex.mll" 242 90523 90544
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1507 90572 90576 "src/formatlex.ml" 1507 90572 90578
+type(
+  int
+)
+"src/formatlex.mll" 243 90608 90618 "src/formatlex.mll" 243 90608 90631
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1512 90659 90663 "src/formatlex.ml" 1512 90659 90665
+type(
+  int
+)
+"src/formatlex.mll" 244 90695 90705 "src/formatlex.mll" 244 90695 90712
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1517 90740 90744 "src/formatlex.ml" 1517 90740 90746
+type(
+  int
+)
+"src/formatlex.mll" 245 90776 90785 "src/formatlex.mll" 245 90776 90791
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1522 90819 90823 "src/formatlex.ml" 1522 90819 90825
+type(
+  int
+)
+"src/formatlex.mll" 246 90855 90864 "src/formatlex.mll" 246 90855 90871
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1527 90899 90903 "src/formatlex.ml" 1527 90899 90905
+type(
+  int
+)
+"src/formatlex.mll" 247 90935 90944 "src/formatlex.mll" 247 90935 90950
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1532 90978 90982 "src/formatlex.ml" 1532 90978 90984
+type(
+  int
+)
+"src/formatlex.mll" 248 91014 91023 "src/formatlex.mll" 248 91014 91030
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1537 91058 91062 "src/formatlex.ml" 1537 91058 91064
+type(
+  int
+)
+"src/formatlex.mll" 249 91094 91103 "src/formatlex.mll" 249 91094 91111
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1542 91139 91143 "src/formatlex.ml" 1542 91139 91145
+type(
+  int
+)
+"src/formatlex.mll" 250 91175 91184 "src/formatlex.mll" 250 91175 91189
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1547 91217 91221 "src/formatlex.ml" 1547 91217 91223
+type(
+  int
+)
+"src/formatlex.mll" 251 91253 91262 "src/formatlex.mll" 251 91253 91268
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1552 91296 91300 "src/formatlex.ml" 1552 91296 91302
+type(
+  int
+)
+"src/formatlex.mll" 252 91332 91341 "src/formatlex.mll" 252 91332 91347
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1557 91375 91379 "src/formatlex.ml" 1557 91375 91381
+type(
+  int
+)
+"src/formatlex.mll" 253 91411 91420 "src/formatlex.mll" 253 91411 91427
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1562 91455 91459 "src/formatlex.ml" 1562 91455 91461
+type(
+  int
+)
+"src/formatlex.mll" 254 91491 91500 "src/formatlex.mll" 254 91491 91510
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1567 91538 91542 "src/formatlex.ml" 1567 91538 91544
+type(
+  int
+)
+"src/formatlex.mll" 255 91574 91583 "src/formatlex.mll" 255 91574 91593
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1572 91621 91625 "src/formatlex.ml" 1572 91621 91627
+type(
+  int
+)
+"src/formatlex.mll" 256 91657 91666 "src/formatlex.mll" 256 91657 91674
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1577 91702 91706 "src/formatlex.ml" 1577 91702 91708
+type(
+  int
+)
+"src/formatlex.mll" 257 91738 91747 "src/formatlex.mll" 257 91738 91755
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1582 91783 91787 "src/formatlex.ml" 1582 91783 91789
+type(
+  int
+)
+"src/formatlex.mll" 258 91819 91828 "src/formatlex.mll" 258 91819 91836
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1587 91864 91868 "src/formatlex.ml" 1587 91864 91870
+type(
+  int
+)
+"src/formatlex.mll" 259 91900 91909 "src/formatlex.mll" 259 91900 91917
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1592 91945 91949 "src/formatlex.ml" 1592 91945 91951
+type(
+  int
+)
+"src/formatlex.mll" 260 91981 91990 "src/formatlex.mll" 260 91981 92001
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1597 92029 92033 "src/formatlex.ml" 1597 92029 92035
+type(
+  int
+)
+"src/formatlex.mll" 261 92065 92074 "src/formatlex.mll" 261 92065 92081
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1602 92109 92113 "src/formatlex.ml" 1602 92109 92115
+type(
+  int
+)
+"src/formatlex.mll" 262 92145 92154 "src/formatlex.mll" 262 92145 92159
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1607 92187 92191 "src/formatlex.ml" 1607 92187 92193
+type(
+  int
+)
+"src/formatlex.mll" 263 92223 92263 "src/formatlex.mll" 263 92223 92270
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1612 92298 92302 "src/formatlex.ml" 1612 92298 92304
+type(
+  int
+)
+"src/formatlex.mll" 264 92334 92374 "src/formatlex.mll" 264 92334 92381
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1617 92409 92413 "src/formatlex.ml" 1617 92409 92415
+type(
+  int
+)
+"src/formatlex.mll" 265 92445 92458 "src/formatlex.mll" 265 92445 92466
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1622 92494 92498 "src/formatlex.ml" 1622 92494 92500
+type(
+  int
+)
+"src/formatlex.mll" 267 92530 92579 "src/formatlex.mll" 267 92530 92589
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 267 92530 92590 "src/formatlex.mll" 267 92530 92596
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 267 92530 92597 "src/formatlex.mll" 267 92530 92598
+type(
+  int
+)
+"src/formatlex.mll" 267 92530 92578 "src/formatlex.mll" 267 92530 92599
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 267 92530 92570 "src/formatlex.mll" 267 92530 92601
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1627 92629 92633 "src/formatlex.ml" 1627 92629 92635
+type(
+  int
+)
+"src/formatlex.mll" 268 92665 92714 "src/formatlex.mll" 268 92665 92724
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 268 92665 92725 "src/formatlex.mll" 268 92665 92731
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 268 92665 92732 "src/formatlex.mll" 268 92665 92733
+type(
+  int
+)
+"src/formatlex.mll" 268 92665 92713 "src/formatlex.mll" 268 92665 92734
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 268 92665 92705 "src/formatlex.mll" 268 92665 92736
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1632 92764 92768 "src/formatlex.ml" 1632 92764 92770
+type(
+  int
+)
+"src/formatlex.mll" 269 92800 92849 "src/formatlex.mll" 269 92800 92859
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 269 92800 92860 "src/formatlex.mll" 269 92800 92866
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 269 92800 92867 "src/formatlex.mll" 269 92800 92868
+type(
+  int
+)
+"src/formatlex.mll" 269 92800 92848 "src/formatlex.mll" 269 92800 92869
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 269 92800 92840 "src/formatlex.mll" 269 92800 92871
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1637 92899 92903 "src/formatlex.ml" 1637 92899 92905
+type(
+  int
+)
+"src/formatlex.mll" 270 92935 92984 "src/formatlex.mll" 270 92935 92994
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 270 92935 92995 "src/formatlex.mll" 270 92935 93001
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 270 92935 93002 "src/formatlex.mll" 270 92935 93003
+type(
+  int
+)
+"src/formatlex.mll" 270 92935 92983 "src/formatlex.mll" 270 92935 93004
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 270 92935 92975 "src/formatlex.mll" 270 92935 93006
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1642 93034 93038 "src/formatlex.ml" 1642 93034 93040
+type(
+  int
+)
+"src/formatlex.mll" 271 93070 93119 "src/formatlex.mll" 271 93070 93129
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 271 93070 93130 "src/formatlex.mll" 271 93070 93136
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 271 93070 93137 "src/formatlex.mll" 271 93070 93138
+type(
+  int
+)
+"src/formatlex.mll" 271 93070 93118 "src/formatlex.mll" 271 93070 93139
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 271 93070 93110 "src/formatlex.mll" 271 93070 93141
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1647 93169 93173 "src/formatlex.ml" 1647 93169 93175
+type(
+  int
+)
+"src/formatlex.mll" 272 93205 93254 "src/formatlex.mll" 272 93205 93264
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 272 93205 93265 "src/formatlex.mll" 272 93205 93271
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 272 93205 93272 "src/formatlex.mll" 272 93205 93273
+type(
+  int
+)
+"src/formatlex.mll" 272 93205 93253 "src/formatlex.mll" 272 93205 93274
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 272 93205 93245 "src/formatlex.mll" 272 93205 93276
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1652 93304 93308 "src/formatlex.ml" 1652 93304 93310
+type(
+  int
+)
+"src/formatlex.mll" 273 93340 93389 "src/formatlex.mll" 273 93340 93399
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 273 93340 93400 "src/formatlex.mll" 273 93340 93406
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 273 93340 93407 "src/formatlex.mll" 273 93340 93408
+type(
+  int
+)
+"src/formatlex.mll" 273 93340 93388 "src/formatlex.mll" 273 93340 93409
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 273 93340 93380 "src/formatlex.mll" 273 93340 93411
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1657 93439 93443 "src/formatlex.ml" 1657 93439 93445
+type(
+  int
+)
+"src/formatlex.mll" 274 93475 93524 "src/formatlex.mll" 274 93475 93534
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 274 93475 93535 "src/formatlex.mll" 274 93475 93541
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 274 93475 93542 "src/formatlex.mll" 274 93475 93543
+type(
+  int
+)
+"src/formatlex.mll" 274 93475 93523 "src/formatlex.mll" 274 93475 93544
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 274 93475 93515 "src/formatlex.mll" 274 93475 93546
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1662 93574 93578 "src/formatlex.ml" 1662 93574 93580
+type(
+  int
+)
+"src/formatlex.mll" 275 93610 93659 "src/formatlex.mll" 275 93610 93669
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 275 93610 93670 "src/formatlex.mll" 275 93610 93676
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 275 93610 93677 "src/formatlex.mll" 275 93610 93678
+type(
+  int
+)
+"src/formatlex.mll" 275 93610 93658 "src/formatlex.mll" 275 93610 93679
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 275 93610 93650 "src/formatlex.mll" 275 93610 93681
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1667 93709 93713 "src/formatlex.ml" 1667 93709 93715
+type(
+  int
+)
+"src/formatlex.mll" 276 93745 93794 "src/formatlex.mll" 276 93745 93804
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 276 93745 93805 "src/formatlex.mll" 276 93745 93811
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 276 93745 93812 "src/formatlex.mll" 276 93745 93813
+type(
+  int
+)
+"src/formatlex.mll" 276 93745 93793 "src/formatlex.mll" 276 93745 93814
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 276 93745 93785 "src/formatlex.mll" 276 93745 93816
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1672 93844 93848 "src/formatlex.ml" 1672 93844 93850
+type(
+  int
+)
+"src/formatlex.mll" 277 93880 93929 "src/formatlex.mll" 277 93880 93939
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 277 93880 93940 "src/formatlex.mll" 277 93880 93946
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 277 93880 93947 "src/formatlex.mll" 277 93880 93948
+type(
+  int
+)
+"src/formatlex.mll" 277 93880 93928 "src/formatlex.mll" 277 93880 93949
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 277 93880 93920 "src/formatlex.mll" 277 93880 93951
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1677 93979 93983 "src/formatlex.ml" 1677 93979 93985
+type(
+  int
+)
+"src/formatlex.mll" 278 94015 94064 "src/formatlex.mll" 278 94015 94074
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 278 94015 94075 "src/formatlex.mll" 278 94015 94081
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 278 94015 94082 "src/formatlex.mll" 278 94015 94083
+type(
+  int
+)
+"src/formatlex.mll" 278 94015 94063 "src/formatlex.mll" 278 94015 94084
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 278 94015 94055 "src/formatlex.mll" 278 94015 94086
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1682 94114 94118 "src/formatlex.ml" 1682 94114 94120
+type(
+  int
+)
+"src/formatlex.mll" 279 94150 94199 "src/formatlex.mll" 279 94150 94209
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 279 94150 94210 "src/formatlex.mll" 279 94150 94216
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 279 94150 94217 "src/formatlex.mll" 279 94150 94218
+type(
+  int
+)
+"src/formatlex.mll" 279 94150 94198 "src/formatlex.mll" 279 94150 94219
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 279 94150 94190 "src/formatlex.mll" 279 94150 94221
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1687 94249 94253 "src/formatlex.ml" 1687 94249 94255
+type(
+  int
+)
+"src/formatlex.mll" 280 94285 94334 "src/formatlex.mll" 280 94285 94344
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 280 94285 94345 "src/formatlex.mll" 280 94285 94351
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 280 94285 94352 "src/formatlex.mll" 280 94285 94353
+type(
+  int
+)
+"src/formatlex.mll" 280 94285 94333 "src/formatlex.mll" 280 94285 94354
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 280 94285 94325 "src/formatlex.mll" 280 94285 94356
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1692 94384 94388 "src/formatlex.ml" 1692 94384 94390
+type(
+  int
+)
+"src/formatlex.mll" 281 94420 94469 "src/formatlex.mll" 281 94420 94479
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 281 94420 94480 "src/formatlex.mll" 281 94420 94486
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 281 94420 94487 "src/formatlex.mll" 281 94420 94488
+type(
+  int
+)
+"src/formatlex.mll" 281 94420 94468 "src/formatlex.mll" 281 94420 94489
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 281 94420 94460 "src/formatlex.mll" 281 94420 94491
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1697 94519 94523 "src/formatlex.ml" 1697 94519 94525
+type(
+  int
+)
+"src/formatlex.mll" 282 94555 94604 "src/formatlex.mll" 282 94555 94614
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 282 94555 94615 "src/formatlex.mll" 282 94555 94621
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 282 94555 94622 "src/formatlex.mll" 282 94555 94623
+type(
+  int
+)
+"src/formatlex.mll" 282 94555 94603 "src/formatlex.mll" 282 94555 94624
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 282 94555 94595 "src/formatlex.mll" 282 94555 94626
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1702 94654 94658 "src/formatlex.ml" 1702 94654 94660
+type(
+  int
+)
+"src/formatlex.mll" 283 94690 94739 "src/formatlex.mll" 283 94690 94749
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 283 94690 94750 "src/formatlex.mll" 283 94690 94756
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 283 94690 94757 "src/formatlex.mll" 283 94690 94758
+type(
+  int
+)
+"src/formatlex.mll" 283 94690 94738 "src/formatlex.mll" 283 94690 94759
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 283 94690 94730 "src/formatlex.mll" 283 94690 94761
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1707 94789 94793 "src/formatlex.ml" 1707 94789 94795
+type(
+  int
+)
+"src/formatlex.mll" 284 94825 94874 "src/formatlex.mll" 284 94825 94884
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 284 94825 94885 "src/formatlex.mll" 284 94825 94891
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 284 94825 94892 "src/formatlex.mll" 284 94825 94893
+type(
+  int
+)
+"src/formatlex.mll" 284 94825 94873 "src/formatlex.mll" 284 94825 94894
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 284 94825 94865 "src/formatlex.mll" 284 94825 94896
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1712 94924 94928 "src/formatlex.ml" 1712 94924 94930
+type(
+  int
+)
+"src/formatlex.mll" 285 94960 95009 "src/formatlex.mll" 285 94960 95019
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 285 94960 95020 "src/formatlex.mll" 285 94960 95026
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 285 94960 95027 "src/formatlex.mll" 285 94960 95028
+type(
+  int
+)
+"src/formatlex.mll" 285 94960 95008 "src/formatlex.mll" 285 94960 95029
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 285 94960 95000 "src/formatlex.mll" 285 94960 95031
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1717 95059 95063 "src/formatlex.ml" 1717 95059 95065
+type(
+  int
+)
+"src/formatlex.mll" 286 95095 95144 "src/formatlex.mll" 286 95095 95154
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 286 95095 95155 "src/formatlex.mll" 286 95095 95161
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 286 95095 95162 "src/formatlex.mll" 286 95095 95163
+type(
+  int
+)
+"src/formatlex.mll" 286 95095 95143 "src/formatlex.mll" 286 95095 95164
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 286 95095 95135 "src/formatlex.mll" 286 95095 95166
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1722 95194 95198 "src/formatlex.ml" 1722 95194 95200
+type(
+  int
+)
+"src/formatlex.mll" 287 95230 95279 "src/formatlex.mll" 287 95230 95289
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 287 95230 95290 "src/formatlex.mll" 287 95230 95296
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 287 95230 95297 "src/formatlex.mll" 287 95230 95298
+type(
+  int
+)
+"src/formatlex.mll" 287 95230 95278 "src/formatlex.mll" 287 95230 95299
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 287 95230 95270 "src/formatlex.mll" 287 95230 95301
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1727 95329 95333 "src/formatlex.ml" 1727 95329 95335
+type(
+  int
+)
+"src/formatlex.mll" 288 95365 95414 "src/formatlex.mll" 288 95365 95424
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 288 95365 95425 "src/formatlex.mll" 288 95365 95431
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 288 95365 95432 "src/formatlex.mll" 288 95365 95433
+type(
+  int
+)
+"src/formatlex.mll" 288 95365 95413 "src/formatlex.mll" 288 95365 95434
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 288 95365 95405 "src/formatlex.mll" 288 95365 95436
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1732 95464 95468 "src/formatlex.ml" 1732 95464 95470
+type(
+  int
+)
+"src/formatlex.mll" 289 95500 95549 "src/formatlex.mll" 289 95500 95559
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 289 95500 95560 "src/formatlex.mll" 289 95500 95566
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 289 95500 95567 "src/formatlex.mll" 289 95500 95568
+type(
+  int
+)
+"src/formatlex.mll" 289 95500 95548 "src/formatlex.mll" 289 95500 95569
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 289 95500 95540 "src/formatlex.mll" 289 95500 95571
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1737 95599 95603 "src/formatlex.ml" 1737 95599 95605
+type(
+  int
+)
+"src/formatlex.mll" 290 95635 95684 "src/formatlex.mll" 290 95635 95694
+type(
+  Lexing.lexbuf -> int -> string
+)
+ident(
+  int_ref getArgName "src/formatlex.mll" 164 3329 3333 "src/formatlex.mll" 164 3329 3343
+)
+"src/formatlex.mll" 290 95635 95695 "src/formatlex.mll" 290 95635 95701
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 290 95635 95702 "src/formatlex.mll" 290 95635 95703
+type(
+  int
+)
+"src/formatlex.mll" 290 95635 95683 "src/formatlex.mll" 290 95635 95704
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 290 95635 95675 "src/formatlex.mll" 290 95635 95706
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1742 95734 95738 "src/formatlex.ml" 1742 95734 95740
+type(
+  int
+)
+"src/formatlex.mll" 292 95770 95779 "src/formatlex.mll" 292 95770 95788
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1747 95816 95820 "src/formatlex.ml" 1747 95816 95822
+type(
+  int
+)
+"src/formatlex.mll" 293 95852 95864 "src/formatlex.mll" 293 95852 95874
+type(
+  string -> Formatparse.token
+)
+ident(
+  int_ref scan_ident "src/formatlex.mll" 52 214 218 "src/formatlex.mll" 52 214 228
+)
+"src/formatlex.mll" 293 95852 95876 "src/formatlex.mll" 293 95852 95889
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"src/formatlex.mll" 293 95852 95890 "src/formatlex.mll" 293 95852 95896
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.mll" 293 95852 95875 "src/formatlex.mll" 293 95852 95897
+call(
+  stack
+)
+type(
+  string
+)
+"src/formatlex.mll" 293 95852 95863 "src/formatlex.mll" 293 95852 95898
+call(
+  tail
+)
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1752 95926 95930 "src/formatlex.ml" 1752 95926 95932
+type(
+  int
+)
+"src/formatlex.mll" 294 95962 95971 "src/formatlex.mll" 294 95962 95976
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1757 96004 96008 "src/formatlex.ml" 1757 96004 96010
+type(
+  int
+)
+"src/formatlex.mll" 295 96040 96048 "src/formatlex.mll" 295 96040 96061
+type(
+  string -> Formatparse.token
+)
+ident(
+  ext_ref E.parse_error
+)
+"src/formatlex.mll" 296 96063 96106 "src/formatlex.mll" 296 96063 96133
+type(
+  string
+)
+"src/formatlex.mll" 295 96040 96047 "src/formatlex.mll" 297 96134 96175
+call(
+  tail
+)
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1764 96203 96207 "src/formatlex.ml" 1764 96203 96224
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/formatlex.ml" 1764 96203 96228 "src/formatlex.ml" 1765 96262 96316
+)
+"src/formatlex.ml" 1764 96203 96228 "src/formatlex.ml" 1764 96203 96234
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.ml" 1764 96203 96228 "src/formatlex.ml" 1764 96203 96253
+type(
+  Lexing.lexbuf -> unit
+)
+"src/formatlex.ml" 1764 96203 96254 "src/formatlex.ml" 1764 96203 96260
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.ml" 1764 96203 96228 "src/formatlex.ml" 1764 96203 96260
+call(
+  stack
+)
+type(
+  unit
+)
+"src/formatlex.ml" 1765 96262 96268 "src/formatlex.ml" 1765 96262 96291
+type(
+  Lexing.lexbuf -> int -> Formatparse.token
+)
+ident(
+  int_ref __ocaml_lex_initial_rec "src/formatlex.ml" 1354 87442 87446 "src/formatlex.ml" 1354 87442 87469
+)
+"src/formatlex.ml" 1765 96262 96292 "src/formatlex.ml" 1765 96262 96298
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1354 87442 87470 "src/formatlex.ml" 1354 87442 87476
+)
+"src/formatlex.ml" 1765 96262 96299 "src/formatlex.ml" 1765 96262 96316
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/formatlex.ml" 1764 96203 96207 "src/formatlex.ml" 1764 96203 96224
+)
+"src/formatlex.ml" 1765 96262 96268 "src/formatlex.ml" 1765 96262 96316
+call(
+  tail
+)
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1764 96203 96228 "src/formatlex.ml" 1765 96262 96316
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1355 87497 87499 "src/formatlex.ml" 1765 96262 96316
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1767 96318 96322 "src/formatlex.ml" 1767 96318 96329
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def comment "src/formatlex.ml" 1352 87381 87381 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.ml" 1767 96318 96330 "src/formatlex.ml" 1767 96318 96336
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/formatlex.ml" 1768 96339 96342 "src/formatlex.ml" 1768 96339 96376
+)
+"src/formatlex.ml" 1768 96339 96342 "src/formatlex.ml" 1768 96339 96365
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_comment_rec "src/formatlex.ml" 1769 96377 96381 "src/formatlex.ml" 1769 96377 96404
+)
+"src/formatlex.ml" 1768 96339 96366 "src/formatlex.ml" 1768 96339 96372
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1767 96318 96330 "src/formatlex.ml" 1767 96318 96336
+)
+"src/formatlex.ml" 1768 96339 96373 "src/formatlex.ml" 1768 96339 96376
+type(
+  int
+)
+"src/formatlex.ml" 1768 96339 96342 "src/formatlex.ml" 1768 96339 96376
+call(
+  tail
+)
+type(
+  unit
+)
+"src/formatlex.ml" 1769 96377 96381 "src/formatlex.ml" 1769 96377 96404
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  def __ocaml_lex_comment_rec "src/formatlex.ml" 1352 87381 87381 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.ml" 1769 96377 96405 "src/formatlex.ml" 1769 96377 96411
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/formatlex.ml" 1769 96377 96412 "src/formatlex.ml" 1787 96881 96935
+)
+"src/formatlex.ml" 1769 96377 96412 "src/formatlex.ml" 1769 96377 96429
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/formatlex.ml" 1770 96432 96434 "src/formatlex.ml" 1787 96881 96935
+)
+"src/formatlex.ml" 1770 96432 96440 "src/formatlex.ml" 1770 96432 96453
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"src/formatlex.ml" 1770 96432 96454 "src/formatlex.ml" 1770 96432 96472
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/formatlex.ml" 137 3577 3581 "src/formatlex.ml" 137 3577 3599
+)
+"src/formatlex.ml" 1770 96432 96473 "src/formatlex.ml" 1770 96432 96490
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/formatlex.ml" 1769 96377 96412 "src/formatlex.ml" 1769 96377 96429
+)
+"src/formatlex.ml" 1770 96432 96491 "src/formatlex.ml" 1770 96432 96497
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1769 96377 96405 "src/formatlex.ml" 1769 96377 96411
+)
+"src/formatlex.ml" 1770 96432 96440 "src/formatlex.ml" 1770 96432 96497
+call(
+  stack
+)
+type(
+  int
+)
+"src/formatlex.ml" 1771 96503 96511 "src/formatlex.ml" 1771 96503 96512
+type(
+  int
+)
+"src/formatlex.mll" 301 96542 96563 "src/formatlex.mll" 301 96542 96569
+type(
+  unit
+)
+"src/formatlex.ml" 1776 96597 96601 "src/formatlex.ml" 1776 96597 96602
+type(
+  int
+)
+"src/formatlex.mll" 302 96632 96674 "src/formatlex.mll" 302 96632 96683
+type(
+  unit -> unit
+)
+ident(
+  ext_ref E.newline
+)
+"src/formatlex.mll" 302 96632 96684 "src/formatlex.mll" 302 96632 96686
+type(
+  unit
+)
+"src/formatlex.mll" 302 96632 96674 "src/formatlex.mll" 302 96632 96686
+call(
+  stack
+)
+type(
+  unit
+)
+"src/formatlex.mll" 302 96632 96688 "src/formatlex.mll" 302 96632 96695
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "src/formatlex.ml" 1767 96318 96322 "src/formatlex.ml" 1767 96318 96329
+)
+"src/formatlex.mll" 302 96632 96696 "src/formatlex.mll" 302 96632 96702
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1769 96377 96405 "src/formatlex.ml" 1769 96377 96411
+)
+"src/formatlex.mll" 302 96632 96688 "src/formatlex.mll" 302 96632 96702
+call(
+  tail
+)
+type(
+  unit
+)
+"src/formatlex.mll" 302 96632 96672 "src/formatlex.mll" 302 96632 96704
+type(
+  unit
+)
+"src/formatlex.ml" 1781 96732 96736 "src/formatlex.ml" 1781 96732 96737
+type(
+  int
+)
+"src/formatlex.mll" 303 96767 96778 "src/formatlex.mll" 303 96767 96785
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref comment "src/formatlex.ml" 1767 96318 96322 "src/formatlex.ml" 1767 96318 96329
+)
+"src/formatlex.mll" 303 96767 96786 "src/formatlex.mll" 303 96767 96792
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1769 96377 96405 "src/formatlex.ml" 1769 96377 96411
+)
+"src/formatlex.mll" 303 96767 96776 "src/formatlex.mll" 303 96767 96794
+call(
+  tail
+)
+type(
+  unit
+)
+"src/formatlex.ml" 1786 96822 96826 "src/formatlex.ml" 1786 96822 96843
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/formatlex.ml" 1786 96822 96847 "src/formatlex.ml" 1787 96881 96935
+)
+"src/formatlex.ml" 1786 96822 96847 "src/formatlex.ml" 1786 96822 96853
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1769 96377 96405 "src/formatlex.ml" 1769 96377 96411
+)
+"src/formatlex.ml" 1786 96822 96847 "src/formatlex.ml" 1786 96822 96872
+type(
+  Lexing.lexbuf -> unit
+)
+"src/formatlex.ml" 1786 96822 96873 "src/formatlex.ml" 1786 96822 96879
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1769 96377 96405 "src/formatlex.ml" 1769 96377 96411
+)
+"src/formatlex.ml" 1786 96822 96847 "src/formatlex.ml" 1786 96822 96879
+call(
+  stack
+)
+type(
+  unit
+)
+"src/formatlex.ml" 1787 96881 96887 "src/formatlex.ml" 1787 96881 96910
+type(
+  Lexing.lexbuf -> int -> unit
+)
+ident(
+  int_ref __ocaml_lex_comment_rec "src/formatlex.ml" 1769 96377 96381 "src/formatlex.ml" 1769 96377 96404
+)
+"src/formatlex.ml" 1787 96881 96911 "src/formatlex.ml" 1787 96881 96917
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1769 96377 96405 "src/formatlex.ml" 1769 96377 96411
+)
+"src/formatlex.ml" 1787 96881 96918 "src/formatlex.ml" 1787 96881 96935
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/formatlex.ml" 1786 96822 96826 "src/formatlex.ml" 1786 96822 96843
+)
+"src/formatlex.ml" 1787 96881 96887 "src/formatlex.ml" 1787 96881 96935
+call(
+  tail
+)
+type(
+  unit
+)
+"src/formatlex.ml" 1786 96822 96847 "src/formatlex.ml" 1787 96881 96935
+type(
+  unit
+)
+"src/formatlex.ml" 1770 96432 96434 "src/formatlex.ml" 1787 96881 96935
+type(
+  unit
+)
+"src/formatlex.ml" 1789 96937 96941 "src/formatlex.ml" 1789 96937 96948
+type(
+  Lexing.lexbuf -> Formatparse.token
+)
+ident(
+  def endline "src/formatlex.ml" 1352 87381 87381 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.ml" 1789 96937 96949 "src/formatlex.ml" 1789 96937 96955
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/formatlex.ml" 1790 96958 96961 "src/formatlex.ml" 1790 96958 96995
+)
+"src/formatlex.ml" 1790 96958 96961 "src/formatlex.ml" 1790 96958 96984
+type(
+  Lexing.lexbuf -> int -> Formatparse.token
+)
+ident(
+  int_ref __ocaml_lex_endline_rec "src/formatlex.ml" 1791 96996 97000 "src/formatlex.ml" 1791 96996 97023
+)
+"src/formatlex.ml" 1790 96958 96985 "src/formatlex.ml" 1790 96958 96991
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1789 96937 96949 "src/formatlex.ml" 1789 96937 96955
+)
+"src/formatlex.ml" 1790 96958 96992 "src/formatlex.ml" 1790 96958 96995
+type(
+  int
+)
+"src/formatlex.ml" 1790 96958 96961 "src/formatlex.ml" 1790 96958 96995
+call(
+  tail
+)
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1791 96996 97000 "src/formatlex.ml" 1791 96996 97023
+type(
+  Lexing.lexbuf -> int -> Formatparse.token
+)
+ident(
+  def __ocaml_lex_endline_rec "src/formatlex.ml" 1352 87381 87381 "src/formatlex.ml" 1 0 -1
+)
+"src/formatlex.ml" 1791 96996 97024 "src/formatlex.ml" 1791 96996 97030
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/formatlex.ml" 1791 96996 97031 "src/formatlex.ml" 1804 97381 97435
+)
+"src/formatlex.ml" 1791 96996 97031 "src/formatlex.ml" 1791 96996 97048
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/formatlex.ml" 1792 97051 97053 "src/formatlex.ml" 1804 97381 97435
+)
+"src/formatlex.ml" 1792 97051 97059 "src/formatlex.ml" 1792 97051 97072
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"src/formatlex.ml" 1792 97051 97073 "src/formatlex.ml" 1792 97051 97091
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/formatlex.ml" 137 3577 3581 "src/formatlex.ml" 137 3577 3599
+)
+"src/formatlex.ml" 1792 97051 97092 "src/formatlex.ml" 1792 97051 97109
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/formatlex.ml" 1791 96996 97031 "src/formatlex.ml" 1791 96996 97048
+)
+"src/formatlex.ml" 1792 97051 97110 "src/formatlex.ml" 1792 97051 97116
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1791 96996 97024 "src/formatlex.ml" 1791 96996 97030
+)
+"src/formatlex.ml" 1792 97051 97059 "src/formatlex.ml" 1792 97051 97116
+call(
+  stack
+)
+type(
+  int
+)
+"src/formatlex.ml" 1793 97122 97130 "src/formatlex.ml" 1793 97122 97131
+type(
+  int
+)
+"src/formatlex.mll" 307 97161 97179 "src/formatlex.mll" 307 97161 97188
+type(
+  unit -> unit
+)
+ident(
+  ext_ref E.newline
+)
+"src/formatlex.mll" 307 97161 97189 "src/formatlex.mll" 307 97161 97191
+type(
+  unit
+)
+"src/formatlex.mll" 307 97161 97179 "src/formatlex.mll" 307 97161 97191
+call(
+  stack
+)
+type(
+  unit
+)
+"src/formatlex.mll" 307 97161 97193 "src/formatlex.mll" 307 97161 97200
+type(
+  Lexing.lexbuf -> Formatparse.token
+)
+ident(
+  int_ref initial "src/formatlex.ml" 1352 87381 87389 "src/formatlex.ml" 1352 87381 87396
+)
+"src/formatlex.mll" 307 97161 97201 "src/formatlex.mll" 307 97161 97207
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1791 96996 97024 "src/formatlex.ml" 1791 96996 97030
+)
+"src/formatlex.mll" 307 97161 97193 "src/formatlex.mll" 307 97161 97207
+call(
+  tail
+)
+type(
+  Formatparse.token
+)
+"src/formatlex.mll" 307 97161 97177 "src/formatlex.mll" 307 97161 97208
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1798 97236 97240 "src/formatlex.ml" 1798 97236 97241
+type(
+  int
+)
+"src/formatlex.mll" 308 97271 97279 "src/formatlex.mll" 308 97271 97286
+type(
+  Lexing.lexbuf -> Formatparse.token
+)
+ident(
+  int_ref endline "src/formatlex.ml" 1789 96937 96941 "src/formatlex.ml" 1789 96937 96948
+)
+"src/formatlex.mll" 308 97271 97287 "src/formatlex.mll" 308 97271 97293
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1791 96996 97024 "src/formatlex.ml" 1791 96996 97030
+)
+"src/formatlex.mll" 308 97271 97277 "src/formatlex.mll" 308 97271 97294
+call(
+  tail
+)
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1803 97322 97326 "src/formatlex.ml" 1803 97322 97343
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/formatlex.ml" 1803 97322 97347 "src/formatlex.ml" 1804 97381 97435
+)
+"src/formatlex.ml" 1803 97322 97347 "src/formatlex.ml" 1803 97322 97353
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1791 96996 97024 "src/formatlex.ml" 1791 96996 97030
+)
+"src/formatlex.ml" 1803 97322 97347 "src/formatlex.ml" 1803 97322 97372
+type(
+  Lexing.lexbuf -> unit
+)
+"src/formatlex.ml" 1803 97322 97373 "src/formatlex.ml" 1803 97322 97379
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1791 96996 97024 "src/formatlex.ml" 1791 96996 97030
+)
+"src/formatlex.ml" 1803 97322 97347 "src/formatlex.ml" 1803 97322 97379
+call(
+  stack
+)
+type(
+  unit
+)
+"src/formatlex.ml" 1804 97381 97387 "src/formatlex.ml" 1804 97381 97410
+type(
+  Lexing.lexbuf -> int -> Formatparse.token
+)
+ident(
+  int_ref __ocaml_lex_endline_rec "src/formatlex.ml" 1791 96996 97000 "src/formatlex.ml" 1791 96996 97023
+)
+"src/formatlex.ml" 1804 97381 97411 "src/formatlex.ml" 1804 97381 97417
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/formatlex.ml" 1791 96996 97024 "src/formatlex.ml" 1791 96996 97030
+)
+"src/formatlex.ml" 1804 97381 97418 "src/formatlex.ml" 1804 97381 97435
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/formatlex.ml" 1803 97322 97326 "src/formatlex.ml" 1803 97322 97343
+)
+"src/formatlex.ml" 1804 97381 97387 "src/formatlex.ml" 1804 97381 97435
+call(
+  tail
+)
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1803 97322 97347 "src/formatlex.ml" 1804 97381 97435
+type(
+  Formatparse.token
+)
+"src/formatlex.ml" 1792 97051 97053 "src/formatlex.ml" 1804 97381 97435
+type(
+  Formatparse.token
+)

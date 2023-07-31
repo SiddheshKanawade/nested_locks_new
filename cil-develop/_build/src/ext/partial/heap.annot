@@ -1,0 +1,1683 @@
+"src/ext/partial/heap.ml" 11 338 342 "src/ext/partial/heap.ml" 11 338 348
+type(
+  int -> 'a t
+)
+ident(
+  def create "src/ext/partial/heap.ml" 17 448 448 "src/ext/partial/heap.ml" 1 0 -1
+)
+"src/ext/partial/heap.ml" 11 338 349 "src/ext/partial/heap.ml" 11 338 353
+type(
+  int
+)
+ident(
+  def size "src/ext/partial/heap.ml" 11 338 356 "src/ext/partial/heap.ml" 15 444 445
+)
+"src/ext/partial/heap.ml" 12 358 371 "src/ext/partial/heap.ml" 12 358 383
+type(
+  int -> int * 'a option -> (int * 'a option) array
+)
+ident(
+  ext_ref Array.create
+)
+"src/ext/partial/heap.ml" 12 358 385 "src/ext/partial/heap.ml" 12 358 389
+type(
+  int
+)
+ident(
+  int_ref size "src/ext/partial/heap.ml" 11 338 349 "src/ext/partial/heap.ml" 11 338 353
+)
+"src/ext/partial/heap.ml" 12 358 389 "src/ext/partial/heap.ml" 12 358 390
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/partial/heap.ml" 12 358 390 "src/ext/partial/heap.ml" 12 358 391
+type(
+  int
+)
+"src/ext/partial/heap.ml" 12 358 384 "src/ext/partial/heap.ml" 12 358 392
+type(
+  int
+)
+"src/ext/partial/heap.ml" 12 358 394 "src/ext/partial/heap.ml" 12 358 401
+type(
+  int
+)
+ident(
+  ext_ref Pervasives.max_int
+)
+"src/ext/partial/heap.ml" 12 358 402 "src/ext/partial/heap.ml" 12 358 406
+type(
+  'a option
+)
+"src/ext/partial/heap.ml" 12 358 393 "src/ext/partial/heap.ml" 12 358 407
+type(
+  int * 'a option
+)
+"src/ext/partial/heap.ml" 12 358 371 "src/ext/partial/heap.ml" 12 358 407
+type(
+  (int * 'a option) array
+)
+"src/ext/partial/heap.ml" 13 410 419 "src/ext/partial/heap.ml" 13 410 420
+type(
+  int
+)
+"src/ext/partial/heap.ml" 14 423 436 "src/ext/partial/heap.ml" 14 423 440
+type(
+  int
+)
+ident(
+  int_ref size "src/ext/partial/heap.ml" 11 338 349 "src/ext/partial/heap.ml" 11 338 353
+)
+"src/ext/partial/heap.ml" 11 338 356 "src/ext/partial/heap.ml" 15 444 445
+type(
+  'a t
+)
+"src/ext/partial/heap.ml" 17 448 452 "src/ext/partial/heap.ml" 17 448 457
+type(
+  'a t -> unit
+)
+ident(
+  def clear "src/ext/partial/heap.ml" 19 483 483 "src/ext/partial/heap.ml" 1 0 -1
+)
+"src/ext/partial/heap.ml" 17 448 458 "src/ext/partial/heap.ml" 17 448 462
+type(
+  'a t
+)
+ident(
+  def heap "src/ext/partial/heap.ml" 17 448 465 "src/ext/partial/heap.ml" 17 448 479
+)
+"src/ext/partial/heap.ml" 17 448 465 "src/ext/partial/heap.ml" 17 448 469
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 17 448 458 "src/ext/partial/heap.ml" 17 448 462
+)
+"src/ext/partial/heap.ml" 17 448 478 "src/ext/partial/heap.ml" 17 448 479
+type(
+  int
+)
+"src/ext/partial/heap.ml" 17 448 465 "src/ext/partial/heap.ml" 17 448 479
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 19 483 487 "src/ext/partial/heap.ml" 19 483 494
+type(
+  'a t -> bool
+)
+ident(
+  def is_full "src/ext/partial/heap.ml" 21 532 532 "src/ext/partial/heap.ml" 1 0 -1
+)
+"src/ext/partial/heap.ml" 19 483 495 "src/ext/partial/heap.ml" 19 483 499
+type(
+  'a t
+)
+ident(
+  def heap "src/ext/partial/heap.ml" 19 483 502 "src/ext/partial/heap.ml" 19 483 529
+)
+"src/ext/partial/heap.ml" 19 483 503 "src/ext/partial/heap.ml" 19 483 507
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 19 483 495 "src/ext/partial/heap.ml" 19 483 499
+)
+"src/ext/partial/heap.ml" 19 483 503 "src/ext/partial/heap.ml" 19 483 512
+type(
+  int
+)
+"src/ext/partial/heap.ml" 19 483 513 "src/ext/partial/heap.ml" 19 483 514
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/partial/heap.ml" 19 483 515 "src/ext/partial/heap.ml" 19 483 519
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 19 483 495 "src/ext/partial/heap.ml" 19 483 499
+)
+"src/ext/partial/heap.ml" 19 483 515 "src/ext/partial/heap.ml" 19 483 528
+type(
+  int
+)
+"src/ext/partial/heap.ml" 19 483 502 "src/ext/partial/heap.ml" 19 483 529
+type(
+  bool
+)
+"src/ext/partial/heap.ml" 21 532 536 "src/ext/partial/heap.ml" 21 532 544
+type(
+  'a t -> bool
+)
+ident(
+  def is_empty "src/ext/partial/heap.ml" 23 570 570 "src/ext/partial/heap.ml" 1 0 -1
+)
+"src/ext/partial/heap.ml" 21 532 545 "src/ext/partial/heap.ml" 21 532 549
+type(
+  'a t
+)
+ident(
+  def heap "src/ext/partial/heap.ml" 21 532 552 "src/ext/partial/heap.ml" 21 532 567
+)
+"src/ext/partial/heap.ml" 21 532 553 "src/ext/partial/heap.ml" 21 532 557
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 21 532 545 "src/ext/partial/heap.ml" 21 532 549
+)
+"src/ext/partial/heap.ml" 21 532 553 "src/ext/partial/heap.ml" 21 532 562
+type(
+  int
+)
+"src/ext/partial/heap.ml" 21 532 563 "src/ext/partial/heap.ml" 21 532 564
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/partial/heap.ml" 21 532 565 "src/ext/partial/heap.ml" 21 532 566
+type(
+  int
+)
+"src/ext/partial/heap.ml" 21 532 552 "src/ext/partial/heap.ml" 21 532 567
+type(
+  bool
+)
+"src/ext/partial/heap.ml" 23 570 574 "src/ext/partial/heap.ml" 23 570 580
+type(
+  'a t -> int -> 'a -> unit
+)
+ident(
+  def insert "src/ext/partial/heap.ml" 36 917 917 "src/ext/partial/heap.ml" 1 0 -1
+)
+"src/ext/partial/heap.ml" 23 570 581 "src/ext/partial/heap.ml" 23 570 585
+type(
+  'a t
+)
+ident(
+  def heap "src/ext/partial/heap.ml" 23 570 586 "src/ext/partial/heap.ml" 34 910 915
+)
+"src/ext/partial/heap.ml" 23 570 586 "src/ext/partial/heap.ml" 23 570 590
+type(
+  int
+)
+ident(
+  def prio "src/ext/partial/heap.ml" 23 570 591 "src/ext/partial/heap.ml" 34 910 915
+)
+"src/ext/partial/heap.ml" 23 570 591 "src/ext/partial/heap.ml" 23 570 594
+type(
+  'a
+)
+ident(
+  def elt "src/ext/partial/heap.ml" 23 570 597 "src/ext/partial/heap.ml" 34 910 915
+)
+"src/ext/partial/heap.ml" 24 603 608 "src/ext/partial/heap.ml" 24 603 615
+type(
+  'a t -> bool
+)
+ident(
+  int_ref is_full "src/ext/partial/heap.ml" 19 483 487 "src/ext/partial/heap.ml" 19 483 494
+)
+"src/ext/partial/heap.ml" 24 603 616 "src/ext/partial/heap.ml" 24 603 620
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 23 570 581 "src/ext/partial/heap.ml" 23 570 585
+)
+"src/ext/partial/heap.ml" 24 603 608 "src/ext/partial/heap.ml" 24 603 620
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/partial/heap.ml" 25 632 636 "src/ext/partial/heap.ml" 25 632 641
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ext/partial/heap.ml" 25 632 660 "src/ext/partial/heap.ml" 25 632 673
+type(
+  string
+)
+"src/ext/partial/heap.ml" 25 632 642 "src/ext/partial/heap.ml" 25 632 674
+type(
+  exn
+)
+"src/ext/partial/heap.ml" 24 603 626 "src/ext/partial/heap.ml" 26 675 680
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 24 603 605 "src/ext/partial/heap.ml" 26 675 680
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 27 684 686 "src/ext/partial/heap.ml" 27 684 690
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 23 570 581 "src/ext/partial/heap.ml" 23 570 585
+)
+"src/ext/partial/heap.ml" 27 684 699 "src/ext/partial/heap.ml" 27 684 703
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 23 570 581 "src/ext/partial/heap.ml" 23 570 585
+)
+"src/ext/partial/heap.ml" 27 684 699 "src/ext/partial/heap.ml" 27 684 708
+type(
+  int
+)
+"src/ext/partial/heap.ml" 27 684 709 "src/ext/partial/heap.ml" 27 684 710
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/partial/heap.ml" 27 684 711 "src/ext/partial/heap.ml" 27 684 712
+type(
+  int
+)
+"src/ext/partial/heap.ml" 27 684 699 "src/ext/partial/heap.ml" 27 684 712
+type(
+  int
+)
+"src/ext/partial/heap.ml" 27 684 686 "src/ext/partial/heap.ml" 27 684 712
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 28 715 721 "src/ext/partial/heap.ml" 28 715 722
+type(
+  int ref
+)
+ident(
+  def i "src/ext/partial/heap.ml" 29 742 744 "src/ext/partial/heap.ml" 33 869 909
+)
+"src/ext/partial/heap.ml" 28 715 725 "src/ext/partial/heap.ml" 28 715 728
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/partial/heap.ml" 28 715 729 "src/ext/partial/heap.ml" 28 715 733
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 23 570 581 "src/ext/partial/heap.ml" 23 570 585
+)
+"src/ext/partial/heap.ml" 28 715 729 "src/ext/partial/heap.ml" 28 715 738
+type(
+  int
+)
+"src/ext/partial/heap.ml" 28 715 725 "src/ext/partial/heap.ml" 28 715 738
+type(
+  int ref
+)
+"src/ext/partial/heap.ml" 29 742 752 "src/ext/partial/heap.ml" 29 742 755
+type(
+  int * 'a option -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"src/ext/partial/heap.ml" 29 742 756 "src/ext/partial/heap.ml" 29 742 760
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 23 570 581 "src/ext/partial/heap.ml" 23 570 585
+)
+"src/ext/partial/heap.ml" 29 742 756 "src/ext/partial/heap.ml" 29 742 769
+type(
+  (int * 'a option) array
+)
+"src/ext/partial/heap.ml" 29 742 771 "src/ext/partial/heap.ml" 29 742 772
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/partial/heap.ml" 29 742 772 "src/ext/partial/heap.ml" 29 742 773
+type(
+  int ref
+)
+ident(
+  int_ref i "src/ext/partial/heap.ml" 28 715 721 "src/ext/partial/heap.ml" 28 715 722
+)
+"src/ext/partial/heap.ml" 29 742 771 "src/ext/partial/heap.ml" 29 742 773
+type(
+  int
+)
+"src/ext/partial/heap.ml" 29 742 774 "src/ext/partial/heap.ml" 29 742 775
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"src/ext/partial/heap.ml" 29 742 776 "src/ext/partial/heap.ml" 29 742 777
+type(
+  int
+)
+"src/ext/partial/heap.ml" 29 742 771 "src/ext/partial/heap.ml" 29 742 777
+type(
+  int
+)
+"src/ext/partial/heap.ml" 29 742 756 "src/ext/partial/heap.ml" 29 742 778
+type(
+  int * 'a option
+)
+"src/ext/partial/heap.ml" 29 742 752 "src/ext/partial/heap.ml" 29 742 778
+type(
+  int
+)
+"src/ext/partial/heap.ml" 29 742 779 "src/ext/partial/heap.ml" 29 742 780
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ext/partial/heap.ml" 29 742 781 "src/ext/partial/heap.ml" 29 742 785
+type(
+  int
+)
+ident(
+  int_ref prio "src/ext/partial/heap.ml" 23 570 586 "src/ext/partial/heap.ml" 23 570 590
+)
+"src/ext/partial/heap.ml" 29 742 750 "src/ext/partial/heap.ml" 29 742 787
+type(
+  bool
+)
+"src/ext/partial/heap.ml" 30 791 795 "src/ext/partial/heap.ml" 30 791 799
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 23 570 581 "src/ext/partial/heap.ml" 23 570 585
+)
+"src/ext/partial/heap.ml" 30 791 795 "src/ext/partial/heap.ml" 30 791 808
+type(
+  (int * 'a option) array
+)
+"src/ext/partial/heap.ml" 30 791 810 "src/ext/partial/heap.ml" 30 791 811
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/partial/heap.ml" 30 791 811 "src/ext/partial/heap.ml" 30 791 812
+type(
+  int ref
+)
+ident(
+  int_ref i "src/ext/partial/heap.ml" 28 715 721 "src/ext/partial/heap.ml" 28 715 722
+)
+"src/ext/partial/heap.ml" 30 791 810 "src/ext/partial/heap.ml" 30 791 812
+type(
+  int
+)
+"src/ext/partial/heap.ml" 30 791 817 "src/ext/partial/heap.ml" 30 791 821
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 23 570 581 "src/ext/partial/heap.ml" 23 570 585
+)
+"src/ext/partial/heap.ml" 30 791 817 "src/ext/partial/heap.ml" 30 791 830
+type(
+  (int * 'a option) array
+)
+"src/ext/partial/heap.ml" 30 791 832 "src/ext/partial/heap.ml" 30 791 833
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/partial/heap.ml" 30 791 833 "src/ext/partial/heap.ml" 30 791 834
+type(
+  int ref
+)
+ident(
+  int_ref i "src/ext/partial/heap.ml" 28 715 721 "src/ext/partial/heap.ml" 28 715 722
+)
+"src/ext/partial/heap.ml" 30 791 832 "src/ext/partial/heap.ml" 30 791 834
+type(
+  int
+)
+"src/ext/partial/heap.ml" 30 791 835 "src/ext/partial/heap.ml" 30 791 836
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"src/ext/partial/heap.ml" 30 791 837 "src/ext/partial/heap.ml" 30 791 838
+type(
+  int
+)
+"src/ext/partial/heap.ml" 30 791 832 "src/ext/partial/heap.ml" 30 791 838
+type(
+  int
+)
+"src/ext/partial/heap.ml" 30 791 817 "src/ext/partial/heap.ml" 30 791 839
+type(
+  int * 'a option
+)
+"src/ext/partial/heap.ml" 30 791 795 "src/ext/partial/heap.ml" 30 791 839
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 31 842 846 "src/ext/partial/heap.ml" 31 842 847
+type(
+  int ref
+)
+ident(
+  int_ref i "src/ext/partial/heap.ml" 28 715 721 "src/ext/partial/heap.ml" 28 715 722
+)
+"src/ext/partial/heap.ml" 31 842 848 "src/ext/partial/heap.ml" 31 842 850
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/partial/heap.ml" 31 842 852 "src/ext/partial/heap.ml" 31 842 853
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/partial/heap.ml" 31 842 853 "src/ext/partial/heap.ml" 31 842 854
+type(
+  int ref
+)
+ident(
+  int_ref i "src/ext/partial/heap.ml" 28 715 721 "src/ext/partial/heap.ml" 28 715 722
+)
+"src/ext/partial/heap.ml" 31 842 852 "src/ext/partial/heap.ml" 31 842 854
+type(
+  int
+)
+"src/ext/partial/heap.ml" 31 842 855 "src/ext/partial/heap.ml" 31 842 856
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"src/ext/partial/heap.ml" 31 842 857 "src/ext/partial/heap.ml" 31 842 858
+type(
+  int
+)
+"src/ext/partial/heap.ml" 31 842 851 "src/ext/partial/heap.ml" 31 842 859
+type(
+  int
+)
+"src/ext/partial/heap.ml" 31 842 846 "src/ext/partial/heap.ml" 31 842 859
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 30 791 795 "src/ext/partial/heap.ml" 31 842 859
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 29 742 744 "src/ext/partial/heap.ml" 32 860 866
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 33 869 871 "src/ext/partial/heap.ml" 33 869 875
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 23 570 581 "src/ext/partial/heap.ml" 23 570 585
+)
+"src/ext/partial/heap.ml" 33 869 871 "src/ext/partial/heap.ml" 33 869 884
+type(
+  (int * 'a option) array
+)
+"src/ext/partial/heap.ml" 33 869 886 "src/ext/partial/heap.ml" 33 869 887
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/partial/heap.ml" 33 869 887 "src/ext/partial/heap.ml" 33 869 888
+type(
+  int ref
+)
+ident(
+  int_ref i "src/ext/partial/heap.ml" 28 715 721 "src/ext/partial/heap.ml" 28 715 722
+)
+"src/ext/partial/heap.ml" 33 869 886 "src/ext/partial/heap.ml" 33 869 888
+type(
+  int
+)
+"src/ext/partial/heap.ml" 33 869 894 "src/ext/partial/heap.ml" 33 869 898
+type(
+  int
+)
+ident(
+  int_ref prio "src/ext/partial/heap.ml" 23 570 586 "src/ext/partial/heap.ml" 23 570 590
+)
+"src/ext/partial/heap.ml" 33 869 903 "src/ext/partial/heap.ml" 33 869 908
+type(
+  'a
+)
+ident(
+  int_ref elt "src/ext/partial/heap.ml" 23 570 591 "src/ext/partial/heap.ml" 23 570 594
+)
+"src/ext/partial/heap.ml" 33 869 899 "src/ext/partial/heap.ml" 33 869 908
+type(
+  'a option
+)
+"src/ext/partial/heap.ml" 33 869 893 "src/ext/partial/heap.ml" 33 869 909
+type(
+  int * 'a option
+)
+"src/ext/partial/heap.ml" 33 869 871 "src/ext/partial/heap.ml" 33 869 909
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 29 742 744 "src/ext/partial/heap.ml" 33 869 909
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 28 715 717 "src/ext/partial/heap.ml" 33 869 909
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 27 684 686 "src/ext/partial/heap.ml" 33 869 909
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 23 570 597 "src/ext/partial/heap.ml" 34 910 915
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 36 917 921 "src/ext/partial/heap.ml" 36 917 932
+type(
+  'a t -> int * 'a
+)
+ident(
+  def examine_max "src/ext/partial/heap.ml" 44 1128 1128 "src/ext/partial/heap.ml" 1 0 -1
+)
+"src/ext/partial/heap.ml" 36 917 933 "src/ext/partial/heap.ml" 36 917 937
+type(
+  'a t
+)
+ident(
+  def heap "src/ext/partial/heap.ml" 37 941 943 "src/ext/partial/heap.ml" 42 1084 1125
+)
+"src/ext/partial/heap.ml" 37 941 946 "src/ext/partial/heap.ml" 37 941 954
+type(
+  'a t -> bool
+)
+ident(
+  int_ref is_empty "src/ext/partial/heap.ml" 21 532 536 "src/ext/partial/heap.ml" 21 532 544
+)
+"src/ext/partial/heap.ml" 37 941 955 "src/ext/partial/heap.ml" 37 941 959
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 36 917 933 "src/ext/partial/heap.ml" 36 917 937
+)
+"src/ext/partial/heap.ml" 37 941 946 "src/ext/partial/heap.ml" 37 941 959
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/partial/heap.ml" 38 971 975 "src/ext/partial/heap.ml" 38 971 980
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ext/partial/heap.ml" 38 971 999 "src/ext/partial/heap.ml" 38 971 1017
+type(
+  string
+)
+"src/ext/partial/heap.ml" 38 971 981 "src/ext/partial/heap.ml" 38 971 1018
+type(
+  exn
+)
+"src/ext/partial/heap.ml" 37 941 965 "src/ext/partial/heap.ml" 39 1019 1024
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 37 941 943 "src/ext/partial/heap.ml" 39 1019 1024
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 40 1028 1036 "src/ext/partial/heap.ml" 40 1028 1040
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 36 917 933 "src/ext/partial/heap.ml" 36 917 937
+)
+"src/ext/partial/heap.ml" 40 1028 1036 "src/ext/partial/heap.ml" 40 1028 1049
+type(
+  (int * 'a option) array
+)
+"src/ext/partial/heap.ml" 40 1028 1051 "src/ext/partial/heap.ml" 40 1028 1052
+type(
+  int
+)
+"src/ext/partial/heap.ml" 40 1028 1036 "src/ext/partial/heap.ml" 40 1028 1053
+type(
+  int * 'a option
+)
+"src/ext/partial/heap.ml" 41 1059 1063 "src/ext/partial/heap.ml" 41 1059 1064
+type(
+  int
+)
+ident(
+  def p "src/ext/partial/heap.ml" 41 1059 1078 "src/ext/partial/heap.ml" 41 1059 1083
+)
+"src/ext/partial/heap.ml" 41 1059 1070 "src/ext/partial/heap.ml" 41 1059 1073
+ident(
+  def elt "src/ext/partial/heap.ml" 41 1059 1078 "src/ext/partial/heap.ml" 41 1059 1083
+)
+"src/ext/partial/heap.ml" 41 1059 1069 "src/ext/partial/heap.ml" 41 1059 1074
+type(
+  'a
+)
+"src/ext/partial/heap.ml" 41 1059 1065 "src/ext/partial/heap.ml" 41 1059 1074
+type(
+  'a option
+)
+"src/ext/partial/heap.ml" 41 1059 1063 "src/ext/partial/heap.ml" 41 1059 1074
+type(
+  int * 'a option
+)
+"src/ext/partial/heap.ml" 41 1059 1078 "src/ext/partial/heap.ml" 41 1059 1079
+type(
+  int
+)
+ident(
+  int_ref p "src/ext/partial/heap.ml" 41 1059 1063 "src/ext/partial/heap.ml" 41 1059 1064
+)
+"src/ext/partial/heap.ml" 41 1059 1080 "src/ext/partial/heap.ml" 41 1059 1083
+type(
+  'a
+)
+ident(
+  int_ref elt "src/ext/partial/heap.ml" 41 1059 1069 "src/ext/partial/heap.ml" 41 1059 1074
+)
+"src/ext/partial/heap.ml" 41 1059 1078 "src/ext/partial/heap.ml" 41 1059 1083
+type(
+  int * 'a
+)
+"src/ext/partial/heap.ml" 42 1084 1088 "src/ext/partial/heap.ml" 42 1084 1089
+type(
+  int
+)
+ident(
+  def p "src/ext/partial/heap.ml" 42 1084 1098 "src/ext/partial/heap.ml" 42 1084 1125
+)
+"src/ext/partial/heap.ml" 42 1084 1090 "src/ext/partial/heap.ml" 42 1084 1094
+type(
+  'a option
+)
+"src/ext/partial/heap.ml" 42 1084 1088 "src/ext/partial/heap.ml" 42 1084 1094
+type(
+  int * 'a option
+)
+"src/ext/partial/heap.ml" 42 1084 1098 "src/ext/partial/heap.ml" 42 1084 1106
+type(
+  string -> int * 'a
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/ext/partial/heap.ml" 42 1084 1107 "src/ext/partial/heap.ml" 42 1084 1125
+type(
+  string
+)
+"src/ext/partial/heap.ml" 42 1084 1098 "src/ext/partial/heap.ml" 42 1084 1125
+call(
+  tail
+)
+type(
+  int * 'a
+)
+"src/ext/partial/heap.ml" 40 1028 1030 "src/ext/partial/heap.ml" 42 1084 1125
+type(
+  int * 'a
+)
+"src/ext/partial/heap.ml" 37 941 943 "src/ext/partial/heap.ml" 42 1084 1125
+type(
+  int * 'a
+)
+"src/ext/partial/heap.ml" 44 1128 1132 "src/ext/partial/heap.ml" 44 1128 1143
+type(
+  'a t -> int * 'a
+)
+ident(
+  def extract_max "src/ext/partial/heap.ml" 74 1986 1991 "src/ext/partial/heap.ml" 1 0 -1
+)
+"src/ext/partial/heap.ml" 44 1128 1144 "src/ext/partial/heap.ml" 44 1128 1148
+type(
+  'a t
+)
+ident(
+  def heap "src/ext/partial/heap.ml" 44 1128 1151 "src/ext/partial/heap.ml" 74 1986 1991
+)
+"src/ext/partial/heap.ml" 45 1157 1162 "src/ext/partial/heap.ml" 45 1157 1170
+type(
+  'a t -> bool
+)
+ident(
+  int_ref is_empty "src/ext/partial/heap.ml" 21 532 536 "src/ext/partial/heap.ml" 21 532 544
+)
+"src/ext/partial/heap.ml" 45 1157 1171 "src/ext/partial/heap.ml" 45 1157 1175
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 44 1128 1144 "src/ext/partial/heap.ml" 44 1128 1148
+)
+"src/ext/partial/heap.ml" 45 1157 1162 "src/ext/partial/heap.ml" 45 1157 1175
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/partial/heap.ml" 46 1187 1191 "src/ext/partial/heap.ml" 46 1187 1196
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ext/partial/heap.ml" 46 1187 1215 "src/ext/partial/heap.ml" 46 1187 1233
+type(
+  string
+)
+"src/ext/partial/heap.ml" 46 1187 1197 "src/ext/partial/heap.ml" 46 1187 1234
+type(
+  exn
+)
+"src/ext/partial/heap.ml" 45 1157 1181 "src/ext/partial/heap.ml" 47 1235 1240
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 45 1157 1159 "src/ext/partial/heap.ml" 47 1235 1240
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 48 1244 1250 "src/ext/partial/heap.ml" 48 1244 1253
+type(
+  int * 'a option
+)
+ident(
+  def max "src/ext/partial/heap.ml" 49 1277 1279 "src/ext/partial/heap.ml" 73 1943 1984
+)
+"src/ext/partial/heap.ml" 48 1244 1256 "src/ext/partial/heap.ml" 48 1244 1260
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 44 1128 1144 "src/ext/partial/heap.ml" 44 1128 1148
+)
+"src/ext/partial/heap.ml" 48 1244 1256 "src/ext/partial/heap.ml" 48 1244 1269
+type(
+  (int * 'a option) array
+)
+"src/ext/partial/heap.ml" 48 1244 1271 "src/ext/partial/heap.ml" 48 1244 1272
+type(
+  int
+)
+"src/ext/partial/heap.ml" 48 1244 1256 "src/ext/partial/heap.ml" 48 1244 1273
+type(
+  int * 'a option
+)
+"src/ext/partial/heap.ml" 49 1277 1283 "src/ext/partial/heap.ml" 49 1277 1287
+type(
+  int * 'a option
+)
+ident(
+  def last "src/ext/partial/heap.ml" 50 1319 1321 "src/ext/partial/heap.ml" 73 1943 1984
+)
+"src/ext/partial/heap.ml" 49 1277 1290 "src/ext/partial/heap.ml" 49 1277 1294
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 44 1128 1144 "src/ext/partial/heap.ml" 44 1128 1148
+)
+"src/ext/partial/heap.ml" 49 1277 1290 "src/ext/partial/heap.ml" 49 1277 1303
+type(
+  (int * 'a option) array
+)
+"src/ext/partial/heap.ml" 49 1277 1305 "src/ext/partial/heap.ml" 49 1277 1309
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 44 1128 1144 "src/ext/partial/heap.ml" 44 1128 1148
+)
+"src/ext/partial/heap.ml" 49 1277 1305 "src/ext/partial/heap.ml" 49 1277 1314
+type(
+  int
+)
+"src/ext/partial/heap.ml" 49 1277 1290 "src/ext/partial/heap.ml" 49 1277 1315
+type(
+  int * 'a option
+)
+"src/ext/partial/heap.ml" 50 1319 1321 "src/ext/partial/heap.ml" 50 1319 1325
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 44 1128 1144 "src/ext/partial/heap.ml" 44 1128 1148
+)
+"src/ext/partial/heap.ml" 50 1319 1334 "src/ext/partial/heap.ml" 50 1319 1338
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 44 1128 1144 "src/ext/partial/heap.ml" 44 1128 1148
+)
+"src/ext/partial/heap.ml" 50 1319 1334 "src/ext/partial/heap.ml" 50 1319 1343
+type(
+  int
+)
+"src/ext/partial/heap.ml" 50 1319 1344 "src/ext/partial/heap.ml" 50 1319 1345
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ext/partial/heap.ml" 50 1319 1346 "src/ext/partial/heap.ml" 50 1319 1347
+type(
+  int
+)
+"src/ext/partial/heap.ml" 50 1319 1334 "src/ext/partial/heap.ml" 50 1319 1347
+type(
+  int
+)
+"src/ext/partial/heap.ml" 50 1319 1321 "src/ext/partial/heap.ml" 50 1319 1347
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 51 1351 1357 "src/ext/partial/heap.ml" 51 1351 1358
+type(
+  int ref
+)
+ident(
+  def i "src/ext/partial/heap.ml" 52 1370 1372 "src/ext/partial/heap.ml" 73 1943 1984
+)
+"src/ext/partial/heap.ml" 51 1351 1361 "src/ext/partial/heap.ml" 51 1351 1364
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/partial/heap.ml" 51 1351 1365 "src/ext/partial/heap.ml" 51 1351 1366
+type(
+  int
+)
+"src/ext/partial/heap.ml" 51 1351 1361 "src/ext/partial/heap.ml" 51 1351 1366
+type(
+  int ref
+)
+"src/ext/partial/heap.ml" 52 1370 1376 "src/ext/partial/heap.ml" 52 1370 1381
+type(
+  bool ref
+)
+ident(
+  def break "src/ext/partial/heap.ml" 53 1398 1400 "src/ext/partial/heap.ml" 73 1943 1984
+)
+"src/ext/partial/heap.ml" 52 1370 1384 "src/ext/partial/heap.ml" 52 1370 1387
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/partial/heap.ml" 52 1370 1388 "src/ext/partial/heap.ml" 52 1370 1393
+type(
+  bool
+)
+"src/ext/partial/heap.ml" 52 1370 1384 "src/ext/partial/heap.ml" 52 1370 1393
+type(
+  bool ref
+)
+"src/ext/partial/heap.ml" 53 1398 1407 "src/ext/partial/heap.ml" 53 1398 1408
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/partial/heap.ml" 53 1398 1408 "src/ext/partial/heap.ml" 53 1398 1409
+type(
+  int ref
+)
+ident(
+  int_ref i "src/ext/partial/heap.ml" 51 1351 1357 "src/ext/partial/heap.ml" 51 1351 1358
+)
+"src/ext/partial/heap.ml" 53 1398 1407 "src/ext/partial/heap.ml" 53 1398 1409
+type(
+  int
+)
+"src/ext/partial/heap.ml" 53 1398 1410 "src/ext/partial/heap.ml" 53 1398 1411
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"src/ext/partial/heap.ml" 53 1398 1412 "src/ext/partial/heap.ml" 53 1398 1413
+type(
+  int
+)
+"src/ext/partial/heap.ml" 53 1398 1407 "src/ext/partial/heap.ml" 53 1398 1413
+type(
+  int
+)
+"src/ext/partial/heap.ml" 53 1398 1414 "src/ext/partial/heap.ml" 53 1398 1416
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/ext/partial/heap.ml" 53 1398 1417 "src/ext/partial/heap.ml" 53 1398 1421
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 44 1128 1144 "src/ext/partial/heap.ml" 44 1128 1148
+)
+"src/ext/partial/heap.ml" 53 1398 1417 "src/ext/partial/heap.ml" 53 1398 1426
+type(
+  int
+)
+"src/ext/partial/heap.ml" 53 1398 1406 "src/ext/partial/heap.ml" 53 1398 1427
+type(
+  bool
+)
+"src/ext/partial/heap.ml" 53 1398 1428 "src/ext/partial/heap.ml" 53 1398 1430
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/partial/heap.ml" 53 1398 1431 "src/ext/partial/heap.ml" 53 1398 1434
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/partial/heap.ml" 53 1398 1435 "src/ext/partial/heap.ml" 53 1398 1436
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/partial/heap.ml" 53 1398 1436 "src/ext/partial/heap.ml" 53 1398 1441
+type(
+  bool ref
+)
+ident(
+  int_ref break "src/ext/partial/heap.ml" 52 1370 1376 "src/ext/partial/heap.ml" 52 1370 1381
+)
+"src/ext/partial/heap.ml" 53 1398 1435 "src/ext/partial/heap.ml" 53 1398 1441
+type(
+  bool
+)
+"src/ext/partial/heap.ml" 53 1398 1431 "src/ext/partial/heap.ml" 53 1398 1441
+type(
+  bool
+)
+"src/ext/partial/heap.ml" 53 1398 1406 "src/ext/partial/heap.ml" 53 1398 1441
+type(
+  bool
+)
+"src/ext/partial/heap.ml" 54 1445 1453 "src/ext/partial/heap.ml" 54 1445 1458
+type(
+  int ref
+)
+ident(
+  def child "src/ext/partial/heap.ml" 57 1507 1511 "src/ext/partial/heap.ml" 68 1851 1858
+)
+"src/ext/partial/heap.ml" 54 1445 1461 "src/ext/partial/heap.ml" 54 1445 1464
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/partial/heap.ml" 54 1445 1466 "src/ext/partial/heap.ml" 54 1445 1467
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/partial/heap.ml" 54 1445 1467 "src/ext/partial/heap.ml" 54 1445 1468
+type(
+  int ref
+)
+ident(
+  int_ref i "src/ext/partial/heap.ml" 51 1351 1357 "src/ext/partial/heap.ml" 51 1351 1358
+)
+"src/ext/partial/heap.ml" 54 1445 1466 "src/ext/partial/heap.ml" 54 1445 1468
+type(
+  int
+)
+"src/ext/partial/heap.ml" 54 1445 1469 "src/ext/partial/heap.ml" 54 1445 1470
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"src/ext/partial/heap.ml" 54 1445 1471 "src/ext/partial/heap.ml" 54 1445 1472
+type(
+  int
+)
+"src/ext/partial/heap.ml" 54 1445 1465 "src/ext/partial/heap.ml" 54 1445 1473
+type(
+  int
+)
+"src/ext/partial/heap.ml" 54 1445 1461 "src/ext/partial/heap.ml" 54 1445 1473
+type(
+  int ref
+)
+"src/ext/partial/heap.ml" 57 1507 1515 "src/ext/partial/heap.ml" 57 1507 1516
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/partial/heap.ml" 57 1507 1516 "src/ext/partial/heap.ml" 57 1507 1521
+type(
+  int ref
+)
+ident(
+  int_ref child "src/ext/partial/heap.ml" 54 1445 1453 "src/ext/partial/heap.ml" 54 1445 1458
+)
+"src/ext/partial/heap.ml" 57 1507 1515 "src/ext/partial/heap.ml" 57 1507 1521
+type(
+  int
+)
+"src/ext/partial/heap.ml" 57 1507 1522 "src/ext/partial/heap.ml" 57 1507 1524
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ext/partial/heap.ml" 57 1507 1525 "src/ext/partial/heap.ml" 57 1507 1529
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 44 1128 1144 "src/ext/partial/heap.ml" 44 1128 1148
+)
+"src/ext/partial/heap.ml" 57 1507 1525 "src/ext/partial/heap.ml" 57 1507 1534
+type(
+  int
+)
+"src/ext/partial/heap.ml" 57 1507 1515 "src/ext/partial/heap.ml" 57 1507 1534
+type(
+  bool
+)
+"src/ext/partial/heap.ml" 57 1507 1535 "src/ext/partial/heap.ml" 57 1507 1537
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/partial/heap.ml" 58 1539 1547 "src/ext/partial/heap.ml" 58 1539 1550
+type(
+  int * 'a option -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"src/ext/partial/heap.ml" 58 1539 1551 "src/ext/partial/heap.ml" 58 1539 1555
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 44 1128 1144 "src/ext/partial/heap.ml" 44 1128 1148
+)
+"src/ext/partial/heap.ml" 58 1539 1551 "src/ext/partial/heap.ml" 58 1539 1564
+type(
+  (int * 'a option) array
+)
+"src/ext/partial/heap.ml" 58 1539 1566 "src/ext/partial/heap.ml" 58 1539 1567
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/partial/heap.ml" 58 1539 1567 "src/ext/partial/heap.ml" 58 1539 1572
+type(
+  int ref
+)
+ident(
+  int_ref child "src/ext/partial/heap.ml" 54 1445 1453 "src/ext/partial/heap.ml" 54 1445 1458
+)
+"src/ext/partial/heap.ml" 58 1539 1566 "src/ext/partial/heap.ml" 58 1539 1572
+type(
+  int
+)
+"src/ext/partial/heap.ml" 58 1539 1572 "src/ext/partial/heap.ml" 58 1539 1573
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/partial/heap.ml" 58 1539 1573 "src/ext/partial/heap.ml" 58 1539 1574
+type(
+  int
+)
+"src/ext/partial/heap.ml" 58 1539 1566 "src/ext/partial/heap.ml" 58 1539 1574
+type(
+  int
+)
+"src/ext/partial/heap.ml" 58 1539 1551 "src/ext/partial/heap.ml" 58 1539 1575
+type(
+  int * 'a option
+)
+"src/ext/partial/heap.ml" 58 1539 1547 "src/ext/partial/heap.ml" 58 1539 1575
+type(
+  int
+)
+"src/ext/partial/heap.ml" 58 1539 1576 "src/ext/partial/heap.ml" 58 1539 1577
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ext/partial/heap.ml" 58 1539 1578 "src/ext/partial/heap.ml" 58 1539 1581
+type(
+  int * 'a option -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"src/ext/partial/heap.ml" 58 1539 1582 "src/ext/partial/heap.ml" 58 1539 1586
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 44 1128 1144 "src/ext/partial/heap.ml" 44 1128 1148
+)
+"src/ext/partial/heap.ml" 58 1539 1582 "src/ext/partial/heap.ml" 58 1539 1595
+type(
+  (int * 'a option) array
+)
+"src/ext/partial/heap.ml" 58 1539 1597 "src/ext/partial/heap.ml" 58 1539 1598
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/partial/heap.ml" 58 1539 1598 "src/ext/partial/heap.ml" 58 1539 1603
+type(
+  int ref
+)
+ident(
+  int_ref child "src/ext/partial/heap.ml" 54 1445 1453 "src/ext/partial/heap.ml" 54 1445 1458
+)
+"src/ext/partial/heap.ml" 58 1539 1597 "src/ext/partial/heap.ml" 58 1539 1603
+type(
+  int
+)
+"src/ext/partial/heap.ml" 58 1539 1582 "src/ext/partial/heap.ml" 58 1539 1604
+type(
+  int * 'a option
+)
+"src/ext/partial/heap.ml" 58 1539 1578 "src/ext/partial/heap.ml" 58 1539 1604
+type(
+  int
+)
+"src/ext/partial/heap.ml" 58 1539 1547 "src/ext/partial/heap.ml" 58 1539 1604
+type(
+  bool
+)
+"src/ext/partial/heap.ml" 57 1507 1514 "src/ext/partial/heap.ml" 58 1539 1605
+type(
+  bool
+)
+"src/ext/partial/heap.ml" 59 1617 1625 "src/ext/partial/heap.ml" 59 1617 1629
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"src/ext/partial/heap.ml" 59 1617 1630 "src/ext/partial/heap.ml" 59 1617 1635
+type(
+  int ref
+)
+ident(
+  int_ref child "src/ext/partial/heap.ml" 54 1445 1453 "src/ext/partial/heap.ml" 54 1445 1458
+)
+"src/ext/partial/heap.ml" 58 1539 1611 "src/ext/partial/heap.ml" 60 1637 1644
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 57 1507 1511 "src/ext/partial/heap.ml" 60 1637 1644
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 63 1680 1688 "src/ext/partial/heap.ml" 63 1680 1691
+type(
+  int * 'a option -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"src/ext/partial/heap.ml" 63 1680 1692 "src/ext/partial/heap.ml" 63 1680 1696
+type(
+  int * 'a option
+)
+ident(
+  int_ref last "src/ext/partial/heap.ml" 49 1277 1283 "src/ext/partial/heap.ml" 49 1277 1287
+)
+"src/ext/partial/heap.ml" 63 1680 1688 "src/ext/partial/heap.ml" 63 1680 1696
+type(
+  int
+)
+"src/ext/partial/heap.ml" 63 1680 1697 "src/ext/partial/heap.ml" 63 1680 1698
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ext/partial/heap.ml" 63 1680 1699 "src/ext/partial/heap.ml" 63 1680 1702
+type(
+  int * 'a option -> int
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"src/ext/partial/heap.ml" 63 1680 1703 "src/ext/partial/heap.ml" 63 1680 1707
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 44 1128 1144 "src/ext/partial/heap.ml" 44 1128 1148
+)
+"src/ext/partial/heap.ml" 63 1680 1703 "src/ext/partial/heap.ml" 63 1680 1716
+type(
+  (int * 'a option) array
+)
+"src/ext/partial/heap.ml" 63 1680 1718 "src/ext/partial/heap.ml" 63 1680 1719
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/partial/heap.ml" 63 1680 1719 "src/ext/partial/heap.ml" 63 1680 1724
+type(
+  int ref
+)
+ident(
+  int_ref child "src/ext/partial/heap.ml" 54 1445 1453 "src/ext/partial/heap.ml" 54 1445 1458
+)
+"src/ext/partial/heap.ml" 63 1680 1718 "src/ext/partial/heap.ml" 63 1680 1724
+type(
+  int
+)
+"src/ext/partial/heap.ml" 63 1680 1703 "src/ext/partial/heap.ml" 63 1680 1725
+type(
+  int * 'a option
+)
+"src/ext/partial/heap.ml" 63 1680 1699 "src/ext/partial/heap.ml" 63 1680 1725
+type(
+  int
+)
+"src/ext/partial/heap.ml" 63 1680 1687 "src/ext/partial/heap.ml" 63 1680 1726
+type(
+  bool
+)
+"src/ext/partial/heap.ml" 64 1738 1744 "src/ext/partial/heap.ml" 64 1738 1748
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 44 1128 1144 "src/ext/partial/heap.ml" 44 1128 1148
+)
+"src/ext/partial/heap.ml" 64 1738 1744 "src/ext/partial/heap.ml" 64 1738 1757
+type(
+  (int * 'a option) array
+)
+"src/ext/partial/heap.ml" 64 1738 1759 "src/ext/partial/heap.ml" 64 1738 1760
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/partial/heap.ml" 64 1738 1760 "src/ext/partial/heap.ml" 64 1738 1761
+type(
+  int ref
+)
+ident(
+  int_ref i "src/ext/partial/heap.ml" 51 1351 1357 "src/ext/partial/heap.ml" 51 1351 1358
+)
+"src/ext/partial/heap.ml" 64 1738 1759 "src/ext/partial/heap.ml" 64 1738 1761
+type(
+  int
+)
+"src/ext/partial/heap.ml" 64 1738 1766 "src/ext/partial/heap.ml" 64 1738 1770
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 44 1128 1144 "src/ext/partial/heap.ml" 44 1128 1148
+)
+"src/ext/partial/heap.ml" 64 1738 1766 "src/ext/partial/heap.ml" 64 1738 1779
+type(
+  (int * 'a option) array
+)
+"src/ext/partial/heap.ml" 64 1738 1781 "src/ext/partial/heap.ml" 64 1738 1782
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/partial/heap.ml" 64 1738 1782 "src/ext/partial/heap.ml" 64 1738 1787
+type(
+  int ref
+)
+ident(
+  int_ref child "src/ext/partial/heap.ml" 54 1445 1453 "src/ext/partial/heap.ml" 54 1445 1458
+)
+"src/ext/partial/heap.ml" 64 1738 1781 "src/ext/partial/heap.ml" 64 1738 1787
+type(
+  int
+)
+"src/ext/partial/heap.ml" 64 1738 1766 "src/ext/partial/heap.ml" 64 1738 1788
+type(
+  int * 'a option
+)
+"src/ext/partial/heap.ml" 64 1738 1744 "src/ext/partial/heap.ml" 64 1738 1788
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 65 1792 1798 "src/ext/partial/heap.ml" 65 1792 1799
+type(
+  int ref
+)
+ident(
+  int_ref i "src/ext/partial/heap.ml" 51 1351 1357 "src/ext/partial/heap.ml" 51 1351 1358
+)
+"src/ext/partial/heap.ml" 65 1792 1800 "src/ext/partial/heap.ml" 65 1792 1802
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/partial/heap.ml" 65 1792 1803 "src/ext/partial/heap.ml" 65 1792 1804
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/partial/heap.ml" 65 1792 1804 "src/ext/partial/heap.ml" 65 1792 1809
+type(
+  int ref
+)
+ident(
+  int_ref child "src/ext/partial/heap.ml" 54 1445 1453 "src/ext/partial/heap.ml" 54 1445 1458
+)
+"src/ext/partial/heap.ml" 65 1792 1803 "src/ext/partial/heap.ml" 65 1792 1809
+type(
+  int
+)
+"src/ext/partial/heap.ml" 65 1792 1798 "src/ext/partial/heap.ml" 65 1792 1809
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 63 1680 1732 "src/ext/partial/heap.ml" 66 1811 1818
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 67 1830 1836 "src/ext/partial/heap.ml" 67 1830 1841
+type(
+  bool ref
+)
+ident(
+  int_ref break "src/ext/partial/heap.ml" 52 1370 1376 "src/ext/partial/heap.ml" 52 1370 1381
+)
+"src/ext/partial/heap.ml" 67 1830 1842 "src/ext/partial/heap.ml" 67 1830 1844
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/partial/heap.ml" 67 1830 1845 "src/ext/partial/heap.ml" 67 1830 1849
+type(
+  bool
+)
+"src/ext/partial/heap.ml" 66 1811 1824 "src/ext/partial/heap.ml" 68 1851 1858
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 63 1680 1684 "src/ext/partial/heap.ml" 68 1851 1858
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 57 1507 1511 "src/ext/partial/heap.ml" 68 1851 1858
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 54 1445 1449 "src/ext/partial/heap.ml" 68 1851 1858
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 53 1398 1400 "src/ext/partial/heap.ml" 69 1859 1865
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 70 1869 1871 "src/ext/partial/heap.ml" 70 1869 1875
+type(
+  'a t
+)
+ident(
+  int_ref heap "src/ext/partial/heap.ml" 44 1128 1144 "src/ext/partial/heap.ml" 44 1128 1148
+)
+"src/ext/partial/heap.ml" 70 1869 1871 "src/ext/partial/heap.ml" 70 1869 1884
+type(
+  (int * 'a option) array
+)
+"src/ext/partial/heap.ml" 70 1869 1886 "src/ext/partial/heap.ml" 70 1869 1887
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/partial/heap.ml" 70 1869 1887 "src/ext/partial/heap.ml" 70 1869 1888
+type(
+  int ref
+)
+ident(
+  int_ref i "src/ext/partial/heap.ml" 51 1351 1357 "src/ext/partial/heap.ml" 51 1351 1358
+)
+"src/ext/partial/heap.ml" 70 1869 1886 "src/ext/partial/heap.ml" 70 1869 1888
+type(
+  int
+)
+"src/ext/partial/heap.ml" 70 1869 1893 "src/ext/partial/heap.ml" 70 1869 1897
+type(
+  int * 'a option
+)
+ident(
+  int_ref last "src/ext/partial/heap.ml" 49 1277 1283 "src/ext/partial/heap.ml" 49 1277 1287
+)
+"src/ext/partial/heap.ml" 70 1869 1871 "src/ext/partial/heap.ml" 70 1869 1897
+type(
+  unit
+)
+"src/ext/partial/heap.ml" 71 1900 1908 "src/ext/partial/heap.ml" 71 1900 1911
+type(
+  int * 'a option
+)
+ident(
+  int_ref max "src/ext/partial/heap.ml" 48 1244 1250 "src/ext/partial/heap.ml" 48 1244 1253
+)
+"src/ext/partial/heap.ml" 72 1918 1922 "src/ext/partial/heap.ml" 72 1918 1923
+type(
+  int
+)
+ident(
+  def p "src/ext/partial/heap.ml" 72 1918 1937 "src/ext/partial/heap.ml" 72 1918 1942
+)
+"src/ext/partial/heap.ml" 72 1918 1929 "src/ext/partial/heap.ml" 72 1918 1932
+ident(
+  def elt "src/ext/partial/heap.ml" 72 1918 1937 "src/ext/partial/heap.ml" 72 1918 1942
+)
+"src/ext/partial/heap.ml" 72 1918 1928 "src/ext/partial/heap.ml" 72 1918 1933
+type(
+  'a
+)
+"src/ext/partial/heap.ml" 72 1918 1924 "src/ext/partial/heap.ml" 72 1918 1933
+type(
+  'a option
+)
+"src/ext/partial/heap.ml" 72 1918 1922 "src/ext/partial/heap.ml" 72 1918 1933
+type(
+  int * 'a option
+)
+"src/ext/partial/heap.ml" 72 1918 1937 "src/ext/partial/heap.ml" 72 1918 1938
+type(
+  int
+)
+ident(
+  int_ref p "src/ext/partial/heap.ml" 72 1918 1922 "src/ext/partial/heap.ml" 72 1918 1923
+)
+"src/ext/partial/heap.ml" 72 1918 1939 "src/ext/partial/heap.ml" 72 1918 1942
+type(
+  'a
+)
+ident(
+  int_ref elt "src/ext/partial/heap.ml" 72 1918 1928 "src/ext/partial/heap.ml" 72 1918 1933
+)
+"src/ext/partial/heap.ml" 72 1918 1937 "src/ext/partial/heap.ml" 72 1918 1942
+type(
+  int * 'a
+)
+"src/ext/partial/heap.ml" 73 1943 1947 "src/ext/partial/heap.ml" 73 1943 1948
+type(
+  int
+)
+ident(
+  def p "src/ext/partial/heap.ml" 73 1943 1957 "src/ext/partial/heap.ml" 73 1943 1984
+)
+"src/ext/partial/heap.ml" 73 1943 1949 "src/ext/partial/heap.ml" 73 1943 1953
+type(
+  'a option
+)
+"src/ext/partial/heap.ml" 73 1943 1947 "src/ext/partial/heap.ml" 73 1943 1953
+type(
+  int * 'a option
+)
+"src/ext/partial/heap.ml" 73 1943 1957 "src/ext/partial/heap.ml" 73 1943 1965
+type(
+  string -> int * 'a
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/ext/partial/heap.ml" 73 1943 1966 "src/ext/partial/heap.ml" 73 1943 1984
+type(
+  string
+)
+"src/ext/partial/heap.ml" 73 1943 1957 "src/ext/partial/heap.ml" 73 1943 1984
+call(
+  tail
+)
+type(
+  int * 'a
+)
+"src/ext/partial/heap.ml" 71 1900 1902 "src/ext/partial/heap.ml" 73 1943 1984
+type(
+  int * 'a
+)
+"src/ext/partial/heap.ml" 70 1869 1871 "src/ext/partial/heap.ml" 73 1943 1984
+type(
+  int * 'a
+)
+"src/ext/partial/heap.ml" 53 1398 1400 "src/ext/partial/heap.ml" 73 1943 1984
+type(
+  int * 'a
+)
+"src/ext/partial/heap.ml" 52 1370 1372 "src/ext/partial/heap.ml" 73 1943 1984
+type(
+  int * 'a
+)
+"src/ext/partial/heap.ml" 51 1351 1353 "src/ext/partial/heap.ml" 73 1943 1984
+type(
+  int * 'a
+)
+"src/ext/partial/heap.ml" 50 1319 1321 "src/ext/partial/heap.ml" 73 1943 1984
+type(
+  int * 'a
+)
+"src/ext/partial/heap.ml" 49 1277 1279 "src/ext/partial/heap.ml" 73 1943 1984
+type(
+  int * 'a
+)
+"src/ext/partial/heap.ml" 48 1244 1246 "src/ext/partial/heap.ml" 73 1943 1984
+type(
+  int * 'a
+)
+"src/ext/partial/heap.ml" 44 1128 1151 "src/ext/partial/heap.ml" 74 1986 1991
+type(
+  int * 'a
+)

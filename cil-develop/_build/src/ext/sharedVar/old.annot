@@ -1,0 +1,238 @@
+"src/ext/sharedVar/old.ml" 6 66 70 "src/ext/sharedVar/old.ml" 6 66 82
+type(
+  Cil.nopCilVisitor
+)
+ident(
+  def dummyVisitor "src/ext/sharedVar/old.ml" 57 1498 1498 "src/ext/sharedVar/old.ml" 1 0 -1
+)
+"src/ext/sharedVar/old.ml" 6 66 89 "src/ext/sharedVar/old.ml" 6 66 102
+call(
+  stack
+)
+"src/ext/sharedVar/old.ml" 6 66 85 "src/ext/sharedVar/old.ml" 6 66 102
+type(
+  Cil.nopCilVisitor
+)
+"src/ext/sharedVar/old.ml" 57 1498 1502 "src/ext/sharedVar/old.ml" 57 1498 1506
+type(
+  Cil.varinfo -> unit
+)
+ident(
+  def rule "src/ext/sharedVar/old.ml" 67 1720 1720 "src/ext/sharedVar/old.ml" 1 0 -1
+)
+"src/ext/sharedVar/old.ml" 57 1498 1508 "src/ext/sharedVar/old.ml" 57 1498 1509
+type(
+  Cil.varinfo
+)
+ident(
+  def f "src/ext/sharedVar/old.ml" 61 1624 1626 "src/ext/sharedVar/old.ml" 63 1674 1699
+)
+"src/ext/sharedVar/old.ml" 61 1624 1630 "src/ext/sharedVar/old.ml" 61 1624 1638
+type(
+  string
+)
+ident(
+  def var_name "src/ext/sharedVar/old.ml" 62 1652 1653 "src/ext/sharedVar/old.ml" 63 1674 1699
+)
+"src/ext/sharedVar/old.ml" 61 1624 1641 "src/ext/sharedVar/old.ml" 61 1624 1642
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref f "src/ext/sharedVar/old.ml" 57 1498 1508 "src/ext/sharedVar/old.ml" 57 1498 1509
+)
+"src/ext/sharedVar/old.ml" 61 1624 1641 "src/ext/sharedVar/old.ml" 61 1624 1648
+type(
+  string
+)
+"src/ext/sharedVar/old.ml" 62 1652 1653 "src/ext/sharedVar/old.ml" 62 1652 1658
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/sharedVar/old.ml" 62 1652 1659 "src/ext/sharedVar/old.ml" 62 1652 1672
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/sharedVar/old.ml" 63 1674 1692 "src/ext/sharedVar/old.ml" 63 1674 1693
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref f "src/ext/sharedVar/old.ml" 57 1498 1508 "src/ext/sharedVar/old.ml" 57 1498 1509
+)
+"src/ext/sharedVar/old.ml" 63 1674 1692 "src/ext/sharedVar/old.ml" 63 1674 1699
+type(
+  string
+)
+"src/ext/sharedVar/old.ml" 62 1652 1653 "src/ext/sharedVar/old.ml" 63 1674 1699
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/sharedVar/old.ml" 61 1624 1626 "src/ext/sharedVar/old.ml" 63 1674 1699
+type(
+  unit
+)
+"src/ext/sharedVar/old.ml" 67 1720 1724 "src/ext/sharedVar/old.ml" 67 1720 1731
+type(
+  Feature.t
+)
+ident(
+  def feature "src/ext/sharedVar/old.ml" 83 2180 2180 "src/ext/sharedVar/old.ml" 1 0 -1
+)
+"src/ext/sharedVar/old.ml" 68 1735 1749 "src/ext/sharedVar/old.ml" 68 1735 1756
+type(
+  string
+)
+"src/ext/sharedVar/old.ml" 69 1758 1775 "src/ext/sharedVar/old.ml" 69 1758 1780
+type(
+  bool
+)
+"src/ext/sharedVar/old.ml" 70 1782 1803 "src/ext/sharedVar/old.ml" 70 1782 1825
+type(
+  string
+)
+"src/ext/sharedVar/old.ml" 71 1828 1846 "src/ext/sharedVar/old.ml" 71 1828 1848
+type(
+  (string * Arg.spec * string) list
+)
+"src/ext/sharedVar/old.ml" 76 2000 2025 "src/ext/sharedVar/old.ml" 76 2000 2026
+type(
+  Cil.file
+)
+ident(
+  def f "src/ext/sharedVar/old.ml" 77 2038 2044 "src/ext/sharedVar/old.ml" 79 2129 2145
+)
+"src/ext/sharedVar/old.ml" 77 2038 2044 "src/ext/sharedVar/old.ml" 77 2038 2059
+type(
+  Cil.file -> (Cil.global -> unit) -> unit
+)
+ident(
+  ext_ref Cil.iterGlobals
+)
+"src/ext/sharedVar/old.ml" 77 2038 2060 "src/ext/sharedVar/old.ml" 77 2038 2061
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/sharedVar/old.ml" 76 2000 2025 "src/ext/sharedVar/old.ml" 76 2000 2026
+)
+"src/ext/sharedVar/old.ml" 77 2038 2067 "src/ext/sharedVar/old.ml" 77 2038 2071
+type(
+  Cil.global
+)
+ident(
+  def glob "src/ext/sharedVar/old.ml" 77 2038 2075 "src/ext/sharedVar/old.ml" 79 2129 2144
+)
+"src/ext/sharedVar/old.ml" 77 2038 2081 "src/ext/sharedVar/old.ml" 77 2038 2085
+type(
+  Cil.global
+)
+ident(
+  int_ref glob "src/ext/sharedVar/old.ml" 77 2038 2067 "src/ext/sharedVar/old.ml" 77 2038 2071
+)
+"src/ext/sharedVar/old.ml" 78 2091 2108 "src/ext/sharedVar/old.ml" 78 2091 2110
+type(
+  Cil.varinfo
+)
+ident(
+  def fd "src/ext/sharedVar/old.ml" 78 2091 2119 "src/ext/sharedVar/old.ml" 78 2091 2127
+)
+"src/ext/sharedVar/old.ml" 78 2091 2111 "src/ext/sharedVar/old.ml" 78 2091 2112
+type(
+  Cil.initinfo
+)
+"src/ext/sharedVar/old.ml" 78 2091 2113 "src/ext/sharedVar/old.ml" 78 2091 2114
+type(
+  Cil.location
+)
+"src/ext/sharedVar/old.ml" 78 2091 2099 "src/ext/sharedVar/old.ml" 78 2091 2115
+type(
+  Cil.global
+)
+"src/ext/sharedVar/old.ml" 78 2091 2119 "src/ext/sharedVar/old.ml" 78 2091 2123
+type(
+  Cil.varinfo -> unit
+)
+ident(
+  int_ref rule "src/ext/sharedVar/old.ml" 57 1498 1502 "src/ext/sharedVar/old.ml" 57 1498 1506
+)
+"src/ext/sharedVar/old.ml" 78 2091 2124 "src/ext/sharedVar/old.ml" 78 2091 2126
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref fd "src/ext/sharedVar/old.ml" 78 2091 2108 "src/ext/sharedVar/old.ml" 78 2091 2110
+)
+"src/ext/sharedVar/old.ml" 78 2091 2119 "src/ext/sharedVar/old.ml" 78 2091 2127
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/sharedVar/old.ml" 79 2129 2137 "src/ext/sharedVar/old.ml" 79 2129 2138
+type(
+  Cil.global
+)
+"src/ext/sharedVar/old.ml" 79 2129 2142 "src/ext/sharedVar/old.ml" 79 2129 2144
+type(
+  unit
+)
+"src/ext/sharedVar/old.ml" 77 2038 2075 "src/ext/sharedVar/old.ml" 79 2129 2144
+type(
+  unit
+)
+"src/ext/sharedVar/old.ml" 77 2038 2062 "src/ext/sharedVar/old.ml" 79 2129 2145
+type(
+  Cil.global -> unit
+)
+"src/ext/sharedVar/old.ml" 77 2038 2044 "src/ext/sharedVar/old.ml" 79 2129 2145
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/sharedVar/old.ml" 76 2000 2014 "src/ext/sharedVar/old.ml" 79 2129 2146
+type(
+  Cil.file -> unit
+)
+"src/ext/sharedVar/old.ml" 80 2148 2168 "src/ext/sharedVar/old.ml" 80 2148 2172
+type(
+  bool
+)
+"src/ext/sharedVar/old.ml" 68 1735 1737 "src/ext/sharedVar/old.ml" 81 2174 2177
+type(
+  Feature.t
+)
+"src/ext/sharedVar/old.ml" 83 2180 2184 "src/ext/sharedVar/old.ml" 83 2180 2186
+type(
+  unit
+)
+"src/ext/sharedVar/old.ml" 83 2180 2189 "src/ext/sharedVar/old.ml" 83 2180 2205
+type(
+  Feature.t -> unit
+)
+ident(
+  ext_ref Feature.register
+)
+"src/ext/sharedVar/old.ml" 83 2180 2206 "src/ext/sharedVar/old.ml" 83 2180 2213
+type(
+  Feature.t
+)
+ident(
+  int_ref feature "src/ext/sharedVar/old.ml" 67 1720 1724 "src/ext/sharedVar/old.ml" 67 1720 1731
+)
+"src/ext/sharedVar/old.ml" 83 2180 2189 "src/ext/sharedVar/old.ml" 83 2180 2213
+call(
+  stack
+)
+type(
+  unit
+)

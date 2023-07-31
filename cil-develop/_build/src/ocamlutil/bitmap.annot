@@ -1,0 +1,5059 @@
+"src/ocamlutil/bitmap.ml" 10 350 354 "src/ocamlutil/bitmap.ml" 10 350 361
+type(
+  t -> int -> unit
+)
+ident(
+  def enlarge "src/ocamlutil/bitmap.ml" 24 719 719 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 10 350 362 "src/ocamlutil/bitmap.ml" 10 350 363
+type(
+  t
+)
+ident(
+  def b "src/ocamlutil/bitmap.ml" 10 350 364 "src/ocamlutil/bitmap.ml" 20 612 636
+)
+"src/ocamlutil/bitmap.ml" 10 350 364 "src/ocamlutil/bitmap.ml" 10 350 372
+type(
+  int
+)
+ident(
+  def newWords "src/ocamlutil/bitmap.ml" 11 376 378 "src/ocamlutil/bitmap.ml" 20 612 636
+)
+"src/ocamlutil/bitmap.ml" 11 376 382 "src/ocamlutil/bitmap.ml" 11 376 391
+type(
+  int32 array
+)
+ident(
+  def newbitmap "src/ocamlutil/bitmap.ml" 18 556 558 "src/ocamlutil/bitmap.ml" 20 612 636
+)
+"src/ocamlutil/bitmap.ml" 12 395 402 "src/ocamlutil/bitmap.ml" 12 395 410
+type(
+  int
+)
+ident(
+  int_ref newWords "src/ocamlutil/bitmap.ml" 10 350 364 "src/ocamlutil/bitmap.ml" 10 350 372
+)
+"src/ocamlutil/bitmap.ml" 12 395 411 "src/ocamlutil/bitmap.ml" 12 395 412
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/bitmap.ml" 12 395 413 "src/ocamlutil/bitmap.ml" 12 395 414
+type(
+  t
+)
+ident(
+  int_ref b "src/ocamlutil/bitmap.ml" 10 350 362 "src/ocamlutil/bitmap.ml" 10 350 363
+)
+"src/ocamlutil/bitmap.ml" 12 395 413 "src/ocamlutil/bitmap.ml" 12 395 422
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 12 395 402 "src/ocamlutil/bitmap.ml" 12 395 422
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 13 428 438 "src/ocamlutil/bitmap.ml" 13 428 439
+type(
+  int32 array
+)
+ident(
+  def a "src/ocamlutil/bitmap.ml" 14 478 484 "src/ocamlutil/bitmap.ml" 15 521 528
+)
+"src/ocamlutil/bitmap.ml" 13 428 442 "src/ocamlutil/bitmap.ml" 13 428 454
+type(
+  int -> int32 -> int32 array
+)
+ident(
+  ext_ref Array.create
+)
+"src/ocamlutil/bitmap.ml" 13 428 455 "src/ocamlutil/bitmap.ml" 13 428 463
+type(
+  int
+)
+ident(
+  int_ref newWords "src/ocamlutil/bitmap.ml" 10 350 364 "src/ocamlutil/bitmap.ml" 10 350 372
+)
+"src/ocamlutil/bitmap.ml" 13 428 464 "src/ocamlutil/bitmap.ml" 13 428 474
+type(
+  int32
+)
+ident(
+  ext_ref Int32.zero
+)
+"src/ocamlutil/bitmap.ml" 13 428 442 "src/ocamlutil/bitmap.ml" 13 428 474
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 14 478 484 "src/ocamlutil/bitmap.ml" 14 478 494
+type(
+  int32 array -> int -> int32 array -> int -> int -> unit
+)
+ident(
+  ext_ref Array.blit
+)
+"src/ocamlutil/bitmap.ml" 14 478 495 "src/ocamlutil/bitmap.ml" 14 478 496
+type(
+  t
+)
+ident(
+  int_ref b "src/ocamlutil/bitmap.ml" 10 350 362 "src/ocamlutil/bitmap.ml" 10 350 363
+)
+"src/ocamlutil/bitmap.ml" 14 478 495 "src/ocamlutil/bitmap.ml" 14 478 503
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 14 478 504 "src/ocamlutil/bitmap.ml" 14 478 505
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 14 478 506 "src/ocamlutil/bitmap.ml" 14 478 507
+type(
+  int32 array
+)
+ident(
+  int_ref a "src/ocamlutil/bitmap.ml" 13 428 438 "src/ocamlutil/bitmap.ml" 13 428 439
+)
+"src/ocamlutil/bitmap.ml" 14 478 508 "src/ocamlutil/bitmap.ml" 14 478 509
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 14 478 510 "src/ocamlutil/bitmap.ml" 14 478 511
+type(
+  t
+)
+ident(
+  int_ref b "src/ocamlutil/bitmap.ml" 10 350 362 "src/ocamlutil/bitmap.ml" 10 350 363
+)
+"src/ocamlutil/bitmap.ml" 14 478 510 "src/ocamlutil/bitmap.ml" 14 478 519
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 14 478 484 "src/ocamlutil/bitmap.ml" 14 478 519
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 15 521 527 "src/ocamlutil/bitmap.ml" 15 521 528
+type(
+  int32 array
+)
+ident(
+  int_ref a "src/ocamlutil/bitmap.ml" 13 428 438 "src/ocamlutil/bitmap.ml" 13 428 439
+)
+"src/ocamlutil/bitmap.ml" 14 478 484 "src/ocamlutil/bitmap.ml" 15 521 528
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 13 428 434 "src/ocamlutil/bitmap.ml" 15 521 528
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 17 538 544 "src/ocamlutil/bitmap.ml" 17 538 545
+type(
+  t
+)
+ident(
+  int_ref b "src/ocamlutil/bitmap.ml" 10 350 362 "src/ocamlutil/bitmap.ml" 10 350 363
+)
+"src/ocamlutil/bitmap.ml" 17 538 544 "src/ocamlutil/bitmap.ml" 17 538 552
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 12 395 399 "src/ocamlutil/bitmap.ml" 17 538 552
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 18 556 558 "src/ocamlutil/bitmap.ml" 18 556 559
+type(
+  t
+)
+ident(
+  int_ref b "src/ocamlutil/bitmap.ml" 10 350 362 "src/ocamlutil/bitmap.ml" 10 350 363
+)
+"src/ocamlutil/bitmap.ml" 18 556 571 "src/ocamlutil/bitmap.ml" 18 556 579
+type(
+  int
+)
+ident(
+  int_ref newWords "src/ocamlutil/bitmap.ml" 10 350 364 "src/ocamlutil/bitmap.ml" 10 350 372
+)
+"src/ocamlutil/bitmap.ml" 18 556 558 "src/ocamlutil/bitmap.ml" 18 556 579
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 19 581 583 "src/ocamlutil/bitmap.ml" 19 581 584
+type(
+  t
+)
+ident(
+  int_ref b "src/ocamlutil/bitmap.ml" 10 350 362 "src/ocamlutil/bitmap.ml" 10 350 363
+)
+"src/ocamlutil/bitmap.ml" 19 581 596 "src/ocamlutil/bitmap.ml" 19 581 604
+type(
+  int
+)
+ident(
+  int_ref newWords "src/ocamlutil/bitmap.ml" 10 350 364 "src/ocamlutil/bitmap.ml" 10 350 372
+)
+"src/ocamlutil/bitmap.ml" 19 581 605 "src/ocamlutil/bitmap.ml" 19 581 608
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"src/ocamlutil/bitmap.ml" 19 581 609 "src/ocamlutil/bitmap.ml" 19 581 610
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 19 581 596 "src/ocamlutil/bitmap.ml" 19 581 610
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 19 581 583 "src/ocamlutil/bitmap.ml" 19 581 610
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 20 612 614 "src/ocamlutil/bitmap.ml" 20 612 615
+type(
+  t
+)
+ident(
+  int_ref b "src/ocamlutil/bitmap.ml" 10 350 362 "src/ocamlutil/bitmap.ml" 10 350 363
+)
+"src/ocamlutil/bitmap.ml" 20 612 627 "src/ocamlutil/bitmap.ml" 20 612 636
+type(
+  int32 array
+)
+ident(
+  int_ref newbitmap "src/ocamlutil/bitmap.ml" 11 376 382 "src/ocamlutil/bitmap.ml" 11 376 391
+)
+"src/ocamlutil/bitmap.ml" 20 612 614 "src/ocamlutil/bitmap.ml" 20 612 636
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 19 581 583 "src/ocamlutil/bitmap.ml" 20 612 636
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 18 556 558 "src/ocamlutil/bitmap.ml" 20 612 636
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 11 376 378 "src/ocamlutil/bitmap.ml" 20 612 636
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 24 719 723 "src/ocamlutil/bitmap.ml" 24 719 727
+type(
+  int -> t
+)
+ident(
+  def make "src/ocamlutil/bitmap.ml" 31 862 862 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 24 719 728 "src/ocamlutil/bitmap.ml" 24 719 732
+type(
+  int
+)
+ident(
+  def size "src/ocamlutil/bitmap.ml" 25 736 738 "src/ocamlutil/bitmap.ml" 29 856 859
+)
+"src/ocamlutil/bitmap.ml" 25 736 742 "src/ocamlutil/bitmap.ml" 25 736 745
+type(
+  int
+)
+ident(
+  def wrd "src/ocamlutil/bitmap.ml" 26 769 771 "src/ocamlutil/bitmap.ml" 29 856 859
+)
+"src/ocamlutil/bitmap.ml" 25 736 749 "src/ocamlutil/bitmap.ml" 25 736 753
+type(
+  int
+)
+ident(
+  int_ref size "src/ocamlutil/bitmap.ml" 24 719 728 "src/ocamlutil/bitmap.ml" 24 719 732
+)
+"src/ocamlutil/bitmap.ml" 25 736 754 "src/ocamlutil/bitmap.ml" 25 736 755
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/bitmap.ml" 25 736 756 "src/ocamlutil/bitmap.ml" 25 736 758
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 25 736 748 "src/ocamlutil/bitmap.ml" 25 736 759
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 25 736 760 "src/ocamlutil/bitmap.ml" 25 736 763
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsr )
+)
+"src/ocamlutil/bitmap.ml" 25 736 764 "src/ocamlutil/bitmap.ml" 25 736 765
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 25 736 748 "src/ocamlutil/bitmap.ml" 25 736 765
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 26 769 784 "src/ocamlutil/bitmap.ml" 26 769 787
+type(
+  int
+)
+ident(
+  int_ref wrd "src/ocamlutil/bitmap.ml" 25 736 742 "src/ocamlutil/bitmap.ml" 25 736 745
+)
+"src/ocamlutil/bitmap.ml" 27 789 804 "src/ocamlutil/bitmap.ml" 27 789 807
+type(
+  int
+)
+ident(
+  int_ref wrd "src/ocamlutil/bitmap.ml" 25 736 742 "src/ocamlutil/bitmap.ml" 25 736 745
+)
+"src/ocamlutil/bitmap.ml" 27 789 808 "src/ocamlutil/bitmap.ml" 27 789 811
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"src/ocamlutil/bitmap.ml" 27 789 812 "src/ocamlutil/bitmap.ml" 27 789 813
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 27 789 804 "src/ocamlutil/bitmap.ml" 27 789 813
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 28 815 830 "src/ocamlutil/bitmap.ml" 28 815 840
+type(
+  int -> int32 -> int32 array
+)
+ident(
+  ext_ref Array.make
+)
+"src/ocamlutil/bitmap.ml" 28 815 841 "src/ocamlutil/bitmap.ml" 28 815 844
+type(
+  int
+)
+ident(
+  int_ref wrd "src/ocamlutil/bitmap.ml" 25 736 742 "src/ocamlutil/bitmap.ml" 25 736 745
+)
+"src/ocamlutil/bitmap.ml" 28 815 845 "src/ocamlutil/bitmap.ml" 28 815 855
+type(
+  int32
+)
+ident(
+  ext_ref Int32.zero
+)
+"src/ocamlutil/bitmap.ml" 28 815 830 "src/ocamlutil/bitmap.ml" 28 815 855
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 26 769 771 "src/ocamlutil/bitmap.ml" 29 856 859
+type(
+  t
+)
+"src/ocamlutil/bitmap.ml" 25 736 738 "src/ocamlutil/bitmap.ml" 29 856 859
+type(
+  t
+)
+"src/ocamlutil/bitmap.ml" 31 862 866 "src/ocamlutil/bitmap.ml" 31 862 870
+type(
+  t -> int
+)
+ident(
+  def size "src/ocamlutil/bitmap.ml" 33 957 957 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 31 862 871 "src/ocamlutil/bitmap.ml" 31 862 872
+type(
+  t
+)
+ident(
+  def t "src/ocamlutil/bitmap.ml" 31 862 875 "src/ocamlutil/bitmap.ml" 31 862 883
+)
+"src/ocamlutil/bitmap.ml" 31 862 875 "src/ocamlutil/bitmap.ml" 31 862 876
+type(
+  t
+)
+ident(
+  int_ref t "src/ocamlutil/bitmap.ml" 31 862 871 "src/ocamlutil/bitmap.ml" 31 862 872
+)
+"src/ocamlutil/bitmap.ml" 31 862 875 "src/ocamlutil/bitmap.ml" 31 862 883
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 33 957 961 "src/ocamlutil/bitmap.ml" 33 957 965
+type(
+  int -> (int -> bool) -> t
+)
+ident(
+  def init "src/ocamlutil/bitmap.ml" 52 1430 1430 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 33 957 966 "src/ocamlutil/bitmap.ml" 33 957 970
+type(
+  int
+)
+ident(
+  def size "src/ocamlutil/bitmap.ml" 33 957 971 "src/ocamlutil/bitmap.ml" 50 1422 1425
+)
+"src/ocamlutil/bitmap.ml" 33 957 971 "src/ocamlutil/bitmap.ml" 33 957 974
+type(
+  int -> bool
+)
+ident(
+  def how "src/ocamlutil/bitmap.ml" 34 978 980 "src/ocamlutil/bitmap.ml" 50 1422 1425
+)
+"src/ocamlutil/bitmap.ml" 34 978 984 "src/ocamlutil/bitmap.ml" 34 978 987
+type(
+  int
+)
+ident(
+  def wrd "src/ocamlutil/bitmap.ml" 35 1011 1013 "src/ocamlutil/bitmap.ml" 50 1422 1425
+)
+"src/ocamlutil/bitmap.ml" 34 978 991 "src/ocamlutil/bitmap.ml" 34 978 995
+type(
+  int
+)
+ident(
+  int_ref size "src/ocamlutil/bitmap.ml" 33 957 966 "src/ocamlutil/bitmap.ml" 33 957 970
+)
+"src/ocamlutil/bitmap.ml" 34 978 996 "src/ocamlutil/bitmap.ml" 34 978 997
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/bitmap.ml" 34 978 998 "src/ocamlutil/bitmap.ml" 34 978 1000
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 34 978 990 "src/ocamlutil/bitmap.ml" 34 978 1001
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 34 978 1002 "src/ocamlutil/bitmap.ml" 34 978 1005
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsr )
+)
+"src/ocamlutil/bitmap.ml" 34 978 1006 "src/ocamlutil/bitmap.ml" 34 978 1007
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 34 978 990 "src/ocamlutil/bitmap.ml" 34 978 1007
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 35 1011 1017 "src/ocamlutil/bitmap.ml" 35 1011 1021
+type(
+  int -> int32
+)
+ident(
+  def how' "src/ocamlutil/bitmap.ml" 47 1341 1343 "src/ocamlutil/bitmap.ml" 50 1422 1425
+)
+"src/ocamlutil/bitmap.ml" 35 1011 1022 "src/ocamlutil/bitmap.ml" 35 1011 1023
+type(
+  int
+)
+ident(
+  def w "src/ocamlutil/bitmap.ml" 36 1027 1031 "src/ocamlutil/bitmap.ml" 45 1310 1335
+)
+"src/ocamlutil/bitmap.ml" 36 1027 1035 "src/ocamlutil/bitmap.ml" 36 1027 1040
+type(
+  int
+)
+ident(
+  def first "src/ocamlutil/bitmap.ml" 37 1054 1058 "src/ocamlutil/bitmap.ml" 45 1310 1335
+)
+"src/ocamlutil/bitmap.ml" 36 1027 1043 "src/ocamlutil/bitmap.ml" 36 1027 1044
+type(
+  int
+)
+ident(
+  int_ref w "src/ocamlutil/bitmap.ml" 35 1011 1022 "src/ocamlutil/bitmap.ml" 35 1011 1023
+)
+"src/ocamlutil/bitmap.ml" 36 1027 1045 "src/ocamlutil/bitmap.ml" 36 1027 1048
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"src/ocamlutil/bitmap.ml" 36 1027 1049 "src/ocamlutil/bitmap.ml" 36 1027 1050
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 36 1027 1043 "src/ocamlutil/bitmap.ml" 36 1027 1050
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 37 1054 1062 "src/ocamlutil/bitmap.ml" 37 1054 1066
+type(
+  int
+)
+ident(
+  def last "src/ocamlutil/bitmap.ml" 38 1096 1100 "src/ocamlutil/bitmap.ml" 45 1310 1335
+)
+"src/ocamlutil/bitmap.ml" 37 1054 1070 "src/ocamlutil/bitmap.ml" 37 1054 1073
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"src/ocamlutil/bitmap.ml" 37 1054 1074 "src/ocamlutil/bitmap.ml" 37 1054 1078
+type(
+  int
+)
+ident(
+  int_ref size "src/ocamlutil/bitmap.ml" 33 957 966 "src/ocamlutil/bitmap.ml" 33 957 970
+)
+"src/ocamlutil/bitmap.ml" 37 1054 1080 "src/ocamlutil/bitmap.ml" 37 1054 1085
+type(
+  int
+)
+ident(
+  int_ref first "src/ocamlutil/bitmap.ml" 36 1027 1035 "src/ocamlutil/bitmap.ml" 36 1027 1040
+)
+"src/ocamlutil/bitmap.ml" 37 1054 1086 "src/ocamlutil/bitmap.ml" 37 1054 1087
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/bitmap.ml" 37 1054 1088 "src/ocamlutil/bitmap.ml" 37 1054 1090
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 37 1054 1079 "src/ocamlutil/bitmap.ml" 37 1054 1091
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 37 1054 1070 "src/ocamlutil/bitmap.ml" 37 1054 1091
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 38 1096 1108 "src/ocamlutil/bitmap.ml" 38 1096 1112
+type(
+  int -> int32 -> int32
+)
+ident(
+  def loop "src/ocamlutil/bitmap.ml" 38 1096 1100 "src/ocamlutil/bitmap.ml" 45 1310 1335
+)
+"src/ocamlutil/bitmap.ml" 38 1096 1113 "src/ocamlutil/bitmap.ml" 38 1096 1114
+type(
+  int
+)
+ident(
+  def i "src/ocamlutil/bitmap.ml" 38 1096 1115 "src/ocamlutil/bitmap.ml" 43 1272 1302
+)
+"src/ocamlutil/bitmap.ml" 38 1096 1115 "src/ocamlutil/bitmap.ml" 38 1096 1118
+type(
+  int32
+)
+ident(
+  def acc "src/ocamlutil/bitmap.ml" 39 1122 1128 "src/ocamlutil/bitmap.ml" 43 1272 1302
+)
+"src/ocamlutil/bitmap.ml" 39 1122 1131 "src/ocamlutil/bitmap.ml" 39 1122 1132
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 38 1096 1113 "src/ocamlutil/bitmap.ml" 38 1096 1114
+)
+"src/ocamlutil/bitmap.ml" 39 1122 1133 "src/ocamlutil/bitmap.ml" 39 1122 1135
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ocamlutil/bitmap.ml" 39 1122 1136 "src/ocamlutil/bitmap.ml" 39 1122 1140
+type(
+  int
+)
+ident(
+  int_ref last "src/ocamlutil/bitmap.ml" 37 1054 1062 "src/ocamlutil/bitmap.ml" 37 1054 1066
+)
+"src/ocamlutil/bitmap.ml" 39 1122 1131 "src/ocamlutil/bitmap.ml" 39 1122 1140
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 39 1122 1146 "src/ocamlutil/bitmap.ml" 39 1122 1149
+type(
+  int32
+)
+ident(
+  int_ref acc "src/ocamlutil/bitmap.ml" 38 1096 1115 "src/ocamlutil/bitmap.ml" 38 1096 1118
+)
+"src/ocamlutil/bitmap.ml" 41 1162 1174 "src/ocamlutil/bitmap.ml" 41 1162 1178
+type(
+  int32
+)
+ident(
+  def acc' "src/ocamlutil/bitmap.ml" 42 1207 1215 "src/ocamlutil/bitmap.ml" 43 1272 1302
+)
+"src/ocamlutil/bitmap.ml" 41 1162 1181 "src/ocamlutil/bitmap.ml" 41 1162 1197
+type(
+  int32 -> int -> int32
+)
+ident(
+  ext_ref Int32.shift_left
+)
+"src/ocamlutil/bitmap.ml" 41 1162 1198 "src/ocamlutil/bitmap.ml" 41 1162 1201
+type(
+  int32
+)
+ident(
+  int_ref acc "src/ocamlutil/bitmap.ml" 38 1096 1115 "src/ocamlutil/bitmap.ml" 38 1096 1118
+)
+"src/ocamlutil/bitmap.ml" 41 1162 1202 "src/ocamlutil/bitmap.ml" 41 1162 1203
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 41 1162 1181 "src/ocamlutil/bitmap.ml" 41 1162 1203
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 42 1207 1218 "src/ocamlutil/bitmap.ml" 42 1207 1221
+type(
+  int -> bool
+)
+ident(
+  int_ref how "src/ocamlutil/bitmap.ml" 33 957 971 "src/ocamlutil/bitmap.ml" 33 957 974
+)
+"src/ocamlutil/bitmap.ml" 42 1207 1222 "src/ocamlutil/bitmap.ml" 42 1207 1223
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 38 1096 1113 "src/ocamlutil/bitmap.ml" 38 1096 1114
+)
+"src/ocamlutil/bitmap.ml" 42 1207 1218 "src/ocamlutil/bitmap.ml" 42 1207 1223
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 42 1207 1229 "src/ocamlutil/bitmap.ml" 42 1207 1233
+type(
+  int -> int32 -> int32
+)
+ident(
+  int_ref loop "src/ocamlutil/bitmap.ml" 38 1096 1108 "src/ocamlutil/bitmap.ml" 38 1096 1112
+)
+"src/ocamlutil/bitmap.ml" 42 1207 1235 "src/ocamlutil/bitmap.ml" 42 1207 1236
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 38 1096 1113 "src/ocamlutil/bitmap.ml" 38 1096 1114
+)
+"src/ocamlutil/bitmap.ml" 42 1207 1237 "src/ocamlutil/bitmap.ml" 42 1207 1238
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/bitmap.ml" 42 1207 1239 "src/ocamlutil/bitmap.ml" 42 1207 1240
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 42 1207 1234 "src/ocamlutil/bitmap.ml" 42 1207 1241
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 42 1207 1243 "src/ocamlutil/bitmap.ml" 42 1207 1254
+type(
+  int32 -> int32 -> int32
+)
+ident(
+  ext_ref Int32.logor
+)
+"src/ocamlutil/bitmap.ml" 42 1207 1255 "src/ocamlutil/bitmap.ml" 42 1207 1259
+type(
+  int32
+)
+ident(
+  int_ref acc' "src/ocamlutil/bitmap.ml" 41 1162 1174 "src/ocamlutil/bitmap.ml" 41 1162 1178
+)
+"src/ocamlutil/bitmap.ml" 42 1207 1260 "src/ocamlutil/bitmap.ml" 42 1207 1269
+type(
+  int32
+)
+ident(
+  ext_ref Int32.one
+)
+"src/ocamlutil/bitmap.ml" 42 1207 1242 "src/ocamlutil/bitmap.ml" 42 1207 1270
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 42 1207 1229 "src/ocamlutil/bitmap.ml" 42 1207 1270
+call(
+  tail
+)
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 43 1272 1285 "src/ocamlutil/bitmap.ml" 43 1272 1289
+type(
+  int -> int32 -> int32
+)
+ident(
+  int_ref loop "src/ocamlutil/bitmap.ml" 38 1096 1108 "src/ocamlutil/bitmap.ml" 38 1096 1112
+)
+"src/ocamlutil/bitmap.ml" 43 1272 1291 "src/ocamlutil/bitmap.ml" 43 1272 1292
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 38 1096 1113 "src/ocamlutil/bitmap.ml" 38 1096 1114
+)
+"src/ocamlutil/bitmap.ml" 43 1272 1293 "src/ocamlutil/bitmap.ml" 43 1272 1294
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/bitmap.ml" 43 1272 1295 "src/ocamlutil/bitmap.ml" 43 1272 1296
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 43 1272 1290 "src/ocamlutil/bitmap.ml" 43 1272 1297
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 43 1272 1298 "src/ocamlutil/bitmap.ml" 43 1272 1302
+type(
+  int32
+)
+ident(
+  int_ref acc' "src/ocamlutil/bitmap.ml" 41 1162 1174 "src/ocamlutil/bitmap.ml" 41 1162 1178
+)
+"src/ocamlutil/bitmap.ml" 43 1272 1285 "src/ocamlutil/bitmap.ml" 43 1272 1302
+call(
+  tail
+)
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 42 1207 1215 "src/ocamlutil/bitmap.ml" 43 1272 1302
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 41 1162 1170 "src/ocamlutil/bitmap.ml" 43 1272 1302
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 39 1122 1128 "src/ocamlutil/bitmap.ml" 43 1272 1302
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 45 1310 1314 "src/ocamlutil/bitmap.ml" 45 1310 1318
+type(
+  int -> int32 -> int32
+)
+ident(
+  int_ref loop "src/ocamlutil/bitmap.ml" 38 1096 1108 "src/ocamlutil/bitmap.ml" 38 1096 1112
+)
+"src/ocamlutil/bitmap.ml" 45 1310 1319 "src/ocamlutil/bitmap.ml" 45 1310 1324
+type(
+  int
+)
+ident(
+  int_ref first "src/ocamlutil/bitmap.ml" 36 1027 1035 "src/ocamlutil/bitmap.ml" 36 1027 1040
+)
+"src/ocamlutil/bitmap.ml" 45 1310 1325 "src/ocamlutil/bitmap.ml" 45 1310 1335
+type(
+  int32
+)
+ident(
+  ext_ref Int32.zero
+)
+"src/ocamlutil/bitmap.ml" 45 1310 1314 "src/ocamlutil/bitmap.ml" 45 1310 1335
+call(
+  tail
+)
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 38 1096 1100 "src/ocamlutil/bitmap.ml" 45 1310 1335
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 37 1054 1058 "src/ocamlutil/bitmap.ml" 45 1310 1335
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 36 1027 1031 "src/ocamlutil/bitmap.ml" 45 1310 1335
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 47 1341 1356 "src/ocamlutil/bitmap.ml" 47 1341 1359
+type(
+  int
+)
+ident(
+  int_ref wrd "src/ocamlutil/bitmap.ml" 34 978 984 "src/ocamlutil/bitmap.ml" 34 978 987
+)
+"src/ocamlutil/bitmap.ml" 48 1361 1376 "src/ocamlutil/bitmap.ml" 48 1361 1379
+type(
+  int
+)
+ident(
+  int_ref wrd "src/ocamlutil/bitmap.ml" 34 978 984 "src/ocamlutil/bitmap.ml" 34 978 987
+)
+"src/ocamlutil/bitmap.ml" 48 1361 1380 "src/ocamlutil/bitmap.ml" 48 1361 1383
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"src/ocamlutil/bitmap.ml" 48 1361 1384 "src/ocamlutil/bitmap.ml" 48 1361 1385
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 48 1361 1376 "src/ocamlutil/bitmap.ml" 48 1361 1385
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 49 1387 1402 "src/ocamlutil/bitmap.ml" 49 1387 1412
+type(
+  int -> (int -> int32) -> int32 array
+)
+ident(
+  ext_ref Array.init
+)
+"src/ocamlutil/bitmap.ml" 49 1387 1413 "src/ocamlutil/bitmap.ml" 49 1387 1416
+type(
+  int
+)
+ident(
+  int_ref wrd "src/ocamlutil/bitmap.ml" 34 978 984 "src/ocamlutil/bitmap.ml" 34 978 987
+)
+"src/ocamlutil/bitmap.ml" 49 1387 1417 "src/ocamlutil/bitmap.ml" 49 1387 1421
+type(
+  int -> int32
+)
+ident(
+  int_ref how' "src/ocamlutil/bitmap.ml" 35 1011 1017 "src/ocamlutil/bitmap.ml" 35 1011 1021
+)
+"src/ocamlutil/bitmap.ml" 49 1387 1402 "src/ocamlutil/bitmap.ml" 49 1387 1421
+call(
+  stack
+)
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 47 1341 1343 "src/ocamlutil/bitmap.ml" 50 1422 1425
+type(
+  t
+)
+"src/ocamlutil/bitmap.ml" 35 1011 1013 "src/ocamlutil/bitmap.ml" 50 1422 1425
+type(
+  t
+)
+"src/ocamlutil/bitmap.ml" 34 978 980 "src/ocamlutil/bitmap.ml" 50 1422 1425
+type(
+  t
+)
+"src/ocamlutil/bitmap.ml" 52 1430 1434 "src/ocamlutil/bitmap.ml" 52 1430 1439
+type(
+  t -> t
+)
+ident(
+  def clone "src/ocamlutil/bitmap.ml" 58 1542 1542 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 52 1430 1440 "src/ocamlutil/bitmap.ml" 52 1430 1441
+type(
+  t
+)
+ident(
+  def b "src/ocamlutil/bitmap.ml" 53 1445 1447 "src/ocamlutil/bitmap.ml" 56 1532 1535
+)
+"src/ocamlutil/bitmap.ml" 53 1445 1460 "src/ocamlutil/bitmap.ml" 53 1445 1461
+type(
+  t
+)
+ident(
+  int_ref b "src/ocamlutil/bitmap.ml" 52 1430 1440 "src/ocamlutil/bitmap.ml" 52 1430 1441
+)
+"src/ocamlutil/bitmap.ml" 53 1445 1460 "src/ocamlutil/bitmap.ml" 53 1445 1469
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 54 1471 1486 "src/ocamlutil/bitmap.ml" 54 1471 1487
+type(
+  t
+)
+ident(
+  int_ref b "src/ocamlutil/bitmap.ml" 52 1430 1440 "src/ocamlutil/bitmap.ml" 52 1430 1441
+)
+"src/ocamlutil/bitmap.ml" 54 1471 1486 "src/ocamlutil/bitmap.ml" 54 1471 1494
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 55 1496 1511 "src/ocamlutil/bitmap.ml" 55 1496 1521
+type(
+  int32 array -> int32 array
+)
+ident(
+  ext_ref Array.copy
+)
+"src/ocamlutil/bitmap.ml" 55 1496 1522 "src/ocamlutil/bitmap.ml" 55 1496 1523
+type(
+  t
+)
+ident(
+  int_ref b "src/ocamlutil/bitmap.ml" 52 1430 1440 "src/ocamlutil/bitmap.ml" 52 1430 1441
+)
+"src/ocamlutil/bitmap.ml" 55 1496 1522 "src/ocamlutil/bitmap.ml" 55 1496 1530
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 55 1496 1511 "src/ocamlutil/bitmap.ml" 55 1496 1530
+call(
+  stack
+)
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 53 1445 1447 "src/ocamlutil/bitmap.ml" 56 1532 1535
+type(
+  t
+)
+"src/ocamlutil/bitmap.ml" 58 1542 1546 "src/ocamlutil/bitmap.ml" 58 1542 1556
+type(
+  t -> t
+)
+ident(
+  def cloneEmpty "src/ocamlutil/bitmap.ml" 64 1666 1666 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 58 1542 1557 "src/ocamlutil/bitmap.ml" 58 1542 1558
+type(
+  t
+)
+ident(
+  def b "src/ocamlutil/bitmap.ml" 59 1561 1563 "src/ocamlutil/bitmap.ml" 62 1660 1663
+)
+"src/ocamlutil/bitmap.ml" 59 1561 1576 "src/ocamlutil/bitmap.ml" 59 1561 1577
+type(
+  t
+)
+ident(
+  int_ref b "src/ocamlutil/bitmap.ml" 58 1542 1557 "src/ocamlutil/bitmap.ml" 58 1542 1558
+)
+"src/ocamlutil/bitmap.ml" 59 1561 1576 "src/ocamlutil/bitmap.ml" 59 1561 1585
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 60 1587 1602 "src/ocamlutil/bitmap.ml" 60 1587 1603
+type(
+  t
+)
+ident(
+  int_ref b "src/ocamlutil/bitmap.ml" 58 1542 1557 "src/ocamlutil/bitmap.ml" 58 1542 1558
+)
+"src/ocamlutil/bitmap.ml" 60 1587 1602 "src/ocamlutil/bitmap.ml" 60 1587 1610
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 61 1612 1627 "src/ocamlutil/bitmap.ml" 61 1612 1637
+type(
+  int -> int32 -> int32 array
+)
+ident(
+  ext_ref Array.make
+)
+"src/ocamlutil/bitmap.ml" 61 1612 1638 "src/ocamlutil/bitmap.ml" 61 1612 1639
+type(
+  t
+)
+ident(
+  int_ref b "src/ocamlutil/bitmap.ml" 58 1542 1557 "src/ocamlutil/bitmap.ml" 58 1542 1558
+)
+"src/ocamlutil/bitmap.ml" 61 1612 1638 "src/ocamlutil/bitmap.ml" 61 1612 1647
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 61 1612 1648 "src/ocamlutil/bitmap.ml" 61 1612 1658
+type(
+  int32
+)
+ident(
+  ext_ref Int32.zero
+)
+"src/ocamlutil/bitmap.ml" 61 1612 1627 "src/ocamlutil/bitmap.ml" 61 1612 1658
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 59 1561 1563 "src/ocamlutil/bitmap.ml" 62 1660 1663
+type(
+  t
+)
+"src/ocamlutil/bitmap.ml" 64 1666 1670 "src/ocamlutil/bitmap.ml" 64 1666 1675
+type(
+  t -> t -> bool
+)
+ident(
+  def union "src/ocamlutil/bitmap.ml" 82 2155 2155 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 64 1666 1676 "src/ocamlutil/bitmap.ml" 64 1666 1678
+type(
+  t
+)
+ident(
+  def b1 "src/ocamlutil/bitmap.ml" 64 1666 1679 "src/ocamlutil/bitmap.ml" 80 2083 2088
+)
+"src/ocamlutil/bitmap.ml" 64 1666 1679 "src/ocamlutil/bitmap.ml" 64 1666 1681
+type(
+  t
+)
+ident(
+  def b2 "src/ocamlutil/bitmap.ml" 65 1685 1687 "src/ocamlutil/bitmap.ml" 80 2083 2088
+)
+"src/ocamlutil/bitmap.ml" 66 1693 1701 "src/ocamlutil/bitmap.ml" 66 1693 1702
+type(
+  int
+)
+ident(
+  def n "src/ocamlutil/bitmap.ml" 67 1719 1723 "src/ocamlutil/bitmap.ml" 79 2069 2082
+)
+"src/ocamlutil/bitmap.ml" 66 1693 1705 "src/ocamlutil/bitmap.ml" 66 1693 1707
+type(
+  t
+)
+ident(
+  int_ref b2 "src/ocamlutil/bitmap.ml" 64 1666 1679 "src/ocamlutil/bitmap.ml" 64 1666 1681
+)
+"src/ocamlutil/bitmap.ml" 66 1693 1705 "src/ocamlutil/bitmap.ml" 66 1693 1715
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 67 1719 1726 "src/ocamlutil/bitmap.ml" 67 1719 1728
+type(
+  t
+)
+ident(
+  int_ref b1 "src/ocamlutil/bitmap.ml" 64 1666 1676 "src/ocamlutil/bitmap.ml" 64 1666 1678
+)
+"src/ocamlutil/bitmap.ml" 67 1719 1726 "src/ocamlutil/bitmap.ml" 67 1719 1736
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 67 1719 1737 "src/ocamlutil/bitmap.ml" 67 1719 1738
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ocamlutil/bitmap.ml" 67 1719 1739 "src/ocamlutil/bitmap.ml" 67 1719 1740
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 66 1693 1701 "src/ocamlutil/bitmap.ml" 66 1693 1702
+)
+"src/ocamlutil/bitmap.ml" 67 1719 1726 "src/ocamlutil/bitmap.ml" 67 1719 1740
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 67 1719 1746 "src/ocamlutil/bitmap.ml" 67 1719 1753
+type(
+  t -> int -> unit
+)
+ident(
+  int_ref enlarge "src/ocamlutil/bitmap.ml" 10 350 354 "src/ocamlutil/bitmap.ml" 10 350 361
+)
+"src/ocamlutil/bitmap.ml" 67 1719 1754 "src/ocamlutil/bitmap.ml" 67 1719 1756
+type(
+  t
+)
+ident(
+  int_ref b1 "src/ocamlutil/bitmap.ml" 64 1666 1676 "src/ocamlutil/bitmap.ml" 64 1666 1678
+)
+"src/ocamlutil/bitmap.ml" 67 1719 1757 "src/ocamlutil/bitmap.ml" 67 1719 1758
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 66 1693 1701 "src/ocamlutil/bitmap.ml" 66 1693 1702
+)
+"src/ocamlutil/bitmap.ml" 67 1719 1746 "src/ocamlutil/bitmap.ml" 67 1719 1758
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 67 1719 1764 "src/ocamlutil/bitmap.ml" 67 1719 1766
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 67 1719 1723 "src/ocamlutil/bitmap.ml" 67 1719 1766
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 68 1768 1776 "src/ocamlutil/bitmap.ml" 68 1768 1778
+type(
+  int32 array
+)
+ident(
+  def a1 "src/ocamlutil/bitmap.ml" 69 1794 1798 "src/ocamlutil/bitmap.ml" 79 2069 2082
+)
+"src/ocamlutil/bitmap.ml" 68 1768 1781 "src/ocamlutil/bitmap.ml" 68 1768 1783
+type(
+  t
+)
+ident(
+  int_ref b1 "src/ocamlutil/bitmap.ml" 64 1666 1676 "src/ocamlutil/bitmap.ml" 64 1666 1678
+)
+"src/ocamlutil/bitmap.ml" 68 1768 1781 "src/ocamlutil/bitmap.ml" 68 1768 1790
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 69 1794 1802 "src/ocamlutil/bitmap.ml" 69 1794 1804
+type(
+  int32 array
+)
+ident(
+  def a2 "src/ocamlutil/bitmap.ml" 70 1820 1824 "src/ocamlutil/bitmap.ml" 79 2069 2082
+)
+"src/ocamlutil/bitmap.ml" 69 1794 1807 "src/ocamlutil/bitmap.ml" 69 1794 1809
+type(
+  t
+)
+ident(
+  int_ref b2 "src/ocamlutil/bitmap.ml" 64 1666 1679 "src/ocamlutil/bitmap.ml" 64 1666 1681
+)
+"src/ocamlutil/bitmap.ml" 69 1794 1807 "src/ocamlutil/bitmap.ml" 69 1794 1816
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 70 1820 1828 "src/ocamlutil/bitmap.ml" 70 1820 1835
+type(
+  bool ref
+)
+ident(
+  def changed "src/ocamlutil/bitmap.ml" 71 1851 1855 "src/ocamlutil/bitmap.ml" 79 2069 2082
+)
+"src/ocamlutil/bitmap.ml" 70 1820 1838 "src/ocamlutil/bitmap.ml" 70 1820 1841
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ocamlutil/bitmap.ml" 70 1820 1842 "src/ocamlutil/bitmap.ml" 70 1820 1847
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 70 1820 1838 "src/ocamlutil/bitmap.ml" 70 1820 1847
+type(
+  bool ref
+)
+"src/ocamlutil/bitmap.ml" 71 1851 1861 "src/ocamlutil/bitmap.ml" 71 1851 1862
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 71 1851 1866 "src/ocamlutil/bitmap.ml" 71 1851 1867
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 66 1693 1701 "src/ocamlutil/bitmap.ml" 66 1693 1702
+)
+"src/ocamlutil/bitmap.ml" 71 1851 1868 "src/ocamlutil/bitmap.ml" 71 1851 1869
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/bitmap.ml" 71 1851 1870 "src/ocamlutil/bitmap.ml" 71 1851 1871
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 71 1851 1866 "src/ocamlutil/bitmap.ml" 71 1851 1871
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 73 1887 1899 "src/ocamlutil/bitmap.ml" 73 1887 1900
+type(
+  int32
+)
+ident(
+  def t "src/ocamlutil/bitmap.ml" 74 1913 1921 "src/ocamlutil/bitmap.ml" 76 2015 2048
+)
+"src/ocamlutil/bitmap.ml" 73 1887 1903 "src/ocamlutil/bitmap.ml" 73 1887 1905
+type(
+  int32 array
+)
+ident(
+  int_ref a1 "src/ocamlutil/bitmap.ml" 68 1768 1776 "src/ocamlutil/bitmap.ml" 68 1768 1778
+)
+"src/ocamlutil/bitmap.ml" 73 1887 1907 "src/ocamlutil/bitmap.ml" 73 1887 1908
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 71 1851 1855 "src/ocamlutil/bitmap.ml" 78 2059 2067
+)
+"src/ocamlutil/bitmap.ml" 73 1887 1903 "src/ocamlutil/bitmap.ml" 73 1887 1909
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 74 1913 1925 "src/ocamlutil/bitmap.ml" 74 1913 1928
+type(
+  int32
+)
+ident(
+  def upd "src/ocamlutil/bitmap.ml" 75 1955 1963 "src/ocamlutil/bitmap.ml" 76 2015 2048
+)
+"src/ocamlutil/bitmap.ml" 74 1913 1931 "src/ocamlutil/bitmap.ml" 74 1913 1942
+type(
+  int32 -> int32 -> int32
+)
+ident(
+  ext_ref Int32.logor
+)
+"src/ocamlutil/bitmap.ml" 74 1913 1943 "src/ocamlutil/bitmap.ml" 74 1913 1944
+type(
+  int32
+)
+ident(
+  int_ref t "src/ocamlutil/bitmap.ml" 73 1887 1899 "src/ocamlutil/bitmap.ml" 73 1887 1900
+)
+"src/ocamlutil/bitmap.ml" 74 1913 1945 "src/ocamlutil/bitmap.ml" 74 1913 1947
+type(
+  int32 array
+)
+ident(
+  int_ref a2 "src/ocamlutil/bitmap.ml" 69 1794 1802 "src/ocamlutil/bitmap.ml" 69 1794 1804
+)
+"src/ocamlutil/bitmap.ml" 74 1913 1949 "src/ocamlutil/bitmap.ml" 74 1913 1950
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 71 1851 1855 "src/ocamlutil/bitmap.ml" 78 2059 2067
+)
+"src/ocamlutil/bitmap.ml" 74 1913 1945 "src/ocamlutil/bitmap.ml" 74 1913 1951
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 74 1913 1931 "src/ocamlutil/bitmap.ml" 74 1913 1951
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 75 1955 1967 "src/ocamlutil/bitmap.ml" 75 1955 1968
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 75 1955 1974 "src/ocamlutil/bitmap.ml" 75 1955 1977
+type(
+  int32
+)
+ident(
+  int_ref upd "src/ocamlutil/bitmap.ml" 74 1913 1925 "src/ocamlutil/bitmap.ml" 74 1913 1928
+)
+"src/ocamlutil/bitmap.ml" 75 1955 1978 "src/ocamlutil/bitmap.ml" 75 1955 1980
+type(
+  int32 -> int32 -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ocamlutil/bitmap.ml" 75 1955 1981 "src/ocamlutil/bitmap.ml" 75 1955 1982
+type(
+  int32
+)
+ident(
+  int_ref t "src/ocamlutil/bitmap.ml" 73 1887 1899 "src/ocamlutil/bitmap.ml" 73 1887 1900
+)
+"src/ocamlutil/bitmap.ml" 75 1955 1974 "src/ocamlutil/bitmap.ml" 75 1955 1982
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 75 1955 1988 "src/ocamlutil/bitmap.ml" 75 1955 1995
+type(
+  bool ref
+)
+ident(
+  int_ref changed "src/ocamlutil/bitmap.ml" 70 1820 1828 "src/ocamlutil/bitmap.ml" 70 1820 1835
+)
+"src/ocamlutil/bitmap.ml" 75 1955 1996 "src/ocamlutil/bitmap.ml" 75 1955 1998
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/bitmap.ml" 75 1955 1999 "src/ocamlutil/bitmap.ml" 75 1955 2003
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 75 1955 1988 "src/ocamlutil/bitmap.ml" 75 1955 2003
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 75 1955 2009 "src/ocamlutil/bitmap.ml" 75 1955 2011
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 75 1955 1971 "src/ocamlutil/bitmap.ml" 75 1955 2011
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 76 2015 2023 "src/ocamlutil/bitmap.ml" 76 2015 2039
+type(
+  int32 array -> int -> int32 -> unit
+)
+ident(
+  ext_ref Array.unsafe_set
+)
+"src/ocamlutil/bitmap.ml" 76 2015 2040 "src/ocamlutil/bitmap.ml" 76 2015 2042
+type(
+  int32 array
+)
+ident(
+  int_ref a1 "src/ocamlutil/bitmap.ml" 68 1768 1776 "src/ocamlutil/bitmap.ml" 68 1768 1778
+)
+"src/ocamlutil/bitmap.ml" 76 2015 2043 "src/ocamlutil/bitmap.ml" 76 2015 2044
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 71 1851 1855 "src/ocamlutil/bitmap.ml" 78 2059 2067
+)
+"src/ocamlutil/bitmap.ml" 76 2015 2045 "src/ocamlutil/bitmap.ml" 76 2015 2048
+type(
+  int32
+)
+ident(
+  int_ref upd "src/ocamlutil/bitmap.ml" 74 1913 1925 "src/ocamlutil/bitmap.ml" 74 1913 1928
+)
+"src/ocamlutil/bitmap.ml" 76 2015 2023 "src/ocamlutil/bitmap.ml" 76 2015 2048
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 75 1955 1963 "src/ocamlutil/bitmap.ml" 76 2015 2048
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 74 1913 1921 "src/ocamlutil/bitmap.ml" 76 2015 2048
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 72 1875 1881 "src/ocamlutil/bitmap.ml" 77 2049 2058
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 71 1851 1855 "src/ocamlutil/bitmap.ml" 78 2059 2067
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 79 2069 2073 "src/ocamlutil/bitmap.ml" 79 2069 2074
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/bitmap.ml" 79 2069 2075 "src/ocamlutil/bitmap.ml" 79 2069 2082
+type(
+  bool ref
+)
+ident(
+  int_ref changed "src/ocamlutil/bitmap.ml" 70 1820 1828 "src/ocamlutil/bitmap.ml" 70 1820 1835
+)
+"src/ocamlutil/bitmap.ml" 79 2069 2073 "src/ocamlutil/bitmap.ml" 79 2069 2082
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 71 1851 1855 "src/ocamlutil/bitmap.ml" 79 2069 2082
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 70 1820 1824 "src/ocamlutil/bitmap.ml" 79 2069 2082
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 69 1794 1798 "src/ocamlutil/bitmap.ml" 79 2069 2082
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 68 1768 1772 "src/ocamlutil/bitmap.ml" 79 2069 2082
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 67 1719 1723 "src/ocamlutil/bitmap.ml" 79 2069 2082
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 65 1685 1687 "src/ocamlutil/bitmap.ml" 80 2083 2088
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 82 2155 2159 "src/ocamlutil/bitmap.ml" 82 2155 2171
+type(
+  t -> t -> t -> bool
+)
+ident(
+  def union_except "src/ocamlutil/bitmap.ml" 105 2942 2942 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 82 2155 2172 "src/ocamlutil/bitmap.ml" 82 2155 2175
+type(
+  t
+)
+ident(
+  def lin "src/ocamlutil/bitmap.ml" 82 2155 2176 "src/ocamlutil/bitmap.ml" 102 2880 2885
+)
+"src/ocamlutil/bitmap.ml" 82 2155 2176 "src/ocamlutil/bitmap.ml" 82 2155 2180
+type(
+  t
+)
+ident(
+  def lout "src/ocamlutil/bitmap.ml" 82 2155 2181 "src/ocamlutil/bitmap.ml" 102 2880 2885
+)
+"src/ocamlutil/bitmap.ml" 82 2155 2181 "src/ocamlutil/bitmap.ml" 82 2155 2184
+type(
+  t
+)
+ident(
+  def def "src/ocamlutil/bitmap.ml" 83 2188 2190 "src/ocamlutil/bitmap.ml" 102 2880 2885
+)
+"src/ocamlutil/bitmap.ml" 84 2262 2270 "src/ocamlutil/bitmap.ml" 84 2262 2271
+type(
+  int
+)
+ident(
+  def n "src/ocamlutil/bitmap.ml" 85 2290 2294 "src/ocamlutil/bitmap.ml" 101 2867 2879
+)
+"src/ocamlutil/bitmap.ml" 84 2262 2274 "src/ocamlutil/bitmap.ml" 84 2262 2278
+type(
+  t
+)
+ident(
+  int_ref lout "src/ocamlutil/bitmap.ml" 82 2155 2176 "src/ocamlutil/bitmap.ml" 82 2155 2180
+)
+"src/ocamlutil/bitmap.ml" 84 2262 2274 "src/ocamlutil/bitmap.ml" 84 2262 2286
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 85 2290 2297 "src/ocamlutil/bitmap.ml" 85 2290 2300
+type(
+  t
+)
+ident(
+  int_ref def "src/ocamlutil/bitmap.ml" 82 2155 2181 "src/ocamlutil/bitmap.ml" 82 2155 2184
+)
+"src/ocamlutil/bitmap.ml" 85 2290 2297 "src/ocamlutil/bitmap.ml" 85 2290 2308
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 85 2290 2309 "src/ocamlutil/bitmap.ml" 85 2290 2310
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ocamlutil/bitmap.ml" 85 2290 2311 "src/ocamlutil/bitmap.ml" 85 2290 2312
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 84 2262 2270 "src/ocamlutil/bitmap.ml" 84 2262 2271
+)
+"src/ocamlutil/bitmap.ml" 85 2290 2297 "src/ocamlutil/bitmap.ml" 85 2290 2312
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 85 2290 2318 "src/ocamlutil/bitmap.ml" 85 2290 2325
+type(
+  t -> int -> unit
+)
+ident(
+  int_ref enlarge "src/ocamlutil/bitmap.ml" 10 350 354 "src/ocamlutil/bitmap.ml" 10 350 361
+)
+"src/ocamlutil/bitmap.ml" 85 2290 2326 "src/ocamlutil/bitmap.ml" 85 2290 2329
+type(
+  t
+)
+ident(
+  int_ref def "src/ocamlutil/bitmap.ml" 82 2155 2181 "src/ocamlutil/bitmap.ml" 82 2155 2184
+)
+"src/ocamlutil/bitmap.ml" 85 2290 2330 "src/ocamlutil/bitmap.ml" 85 2290 2331
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 84 2262 2270 "src/ocamlutil/bitmap.ml" 84 2262 2271
+)
+"src/ocamlutil/bitmap.ml" 85 2290 2318 "src/ocamlutil/bitmap.ml" 85 2290 2331
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 85 2290 2337 "src/ocamlutil/bitmap.ml" 85 2290 2339
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 85 2290 2294 "src/ocamlutil/bitmap.ml" 85 2290 2339
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 87 2415 2422 "src/ocamlutil/bitmap.ml" 87 2415 2425
+type(
+  t
+)
+ident(
+  int_ref lin "src/ocamlutil/bitmap.ml" 82 2155 2172 "src/ocamlutil/bitmap.ml" 82 2155 2175
+)
+"src/ocamlutil/bitmap.ml" 87 2415 2422 "src/ocamlutil/bitmap.ml" 87 2415 2433
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 87 2415 2434 "src/ocamlutil/bitmap.ml" 87 2415 2435
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ocamlutil/bitmap.ml" 87 2415 2436 "src/ocamlutil/bitmap.ml" 87 2415 2437
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 84 2262 2270 "src/ocamlutil/bitmap.ml" 84 2262 2271
+)
+"src/ocamlutil/bitmap.ml" 87 2415 2422 "src/ocamlutil/bitmap.ml" 87 2415 2437
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 87 2415 2443 "src/ocamlutil/bitmap.ml" 87 2415 2450
+type(
+  t -> int -> unit
+)
+ident(
+  int_ref enlarge "src/ocamlutil/bitmap.ml" 10 350 354 "src/ocamlutil/bitmap.ml" 10 350 361
+)
+"src/ocamlutil/bitmap.ml" 87 2415 2451 "src/ocamlutil/bitmap.ml" 87 2415 2454
+type(
+  t
+)
+ident(
+  int_ref lin "src/ocamlutil/bitmap.ml" 82 2155 2172 "src/ocamlutil/bitmap.ml" 82 2155 2175
+)
+"src/ocamlutil/bitmap.ml" 87 2415 2455 "src/ocamlutil/bitmap.ml" 87 2415 2456
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 84 2262 2270 "src/ocamlutil/bitmap.ml" 84 2262 2271
+)
+"src/ocamlutil/bitmap.ml" 87 2415 2443 "src/ocamlutil/bitmap.ml" 87 2415 2456
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 87 2415 2462 "src/ocamlutil/bitmap.ml" 87 2415 2464
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 87 2415 2419 "src/ocamlutil/bitmap.ml" 87 2415 2464
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 88 2466 2474 "src/ocamlutil/bitmap.ml" 88 2466 2481
+type(
+  bool ref
+)
+ident(
+  def changed "src/ocamlutil/bitmap.ml" 89 2497 2501 "src/ocamlutil/bitmap.ml" 101 2867 2879
+)
+"src/ocamlutil/bitmap.ml" 88 2466 2484 "src/ocamlutil/bitmap.ml" 88 2466 2487
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ocamlutil/bitmap.ml" 88 2466 2488 "src/ocamlutil/bitmap.ml" 88 2466 2493
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 88 2466 2484 "src/ocamlutil/bitmap.ml" 88 2466 2493
+type(
+  bool ref
+)
+"src/ocamlutil/bitmap.ml" 89 2497 2505 "src/ocamlutil/bitmap.ml" 89 2497 2509
+type(
+  int32 array
+)
+ident(
+  def alin "src/ocamlutil/bitmap.ml" 90 2527 2531 "src/ocamlutil/bitmap.ml" 101 2867 2879
+)
+"src/ocamlutil/bitmap.ml" 89 2497 2513 "src/ocamlutil/bitmap.ml" 89 2497 2516
+type(
+  t
+)
+ident(
+  int_ref lin "src/ocamlutil/bitmap.ml" 82 2155 2172 "src/ocamlutil/bitmap.ml" 82 2155 2175
+)
+"src/ocamlutil/bitmap.ml" 89 2497 2513 "src/ocamlutil/bitmap.ml" 89 2497 2523
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 90 2527 2535 "src/ocamlutil/bitmap.ml" 90 2527 2540
+type(
+  int32 array
+)
+ident(
+  def alout "src/ocamlutil/bitmap.ml" 91 2558 2562 "src/ocamlutil/bitmap.ml" 101 2867 2879
+)
+"src/ocamlutil/bitmap.ml" 90 2527 2543 "src/ocamlutil/bitmap.ml" 90 2527 2547
+type(
+  t
+)
+ident(
+  int_ref lout "src/ocamlutil/bitmap.ml" 82 2155 2176 "src/ocamlutil/bitmap.ml" 82 2155 2180
+)
+"src/ocamlutil/bitmap.ml" 90 2527 2543 "src/ocamlutil/bitmap.ml" 90 2527 2554
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 91 2558 2566 "src/ocamlutil/bitmap.ml" 91 2558 2570
+type(
+  int32 array
+)
+ident(
+  def adef "src/ocamlutil/bitmap.ml" 92 2588 2592 "src/ocamlutil/bitmap.ml" 101 2867 2879
+)
+"src/ocamlutil/bitmap.ml" 91 2558 2574 "src/ocamlutil/bitmap.ml" 91 2558 2577
+type(
+  t
+)
+ident(
+  int_ref def "src/ocamlutil/bitmap.ml" 82 2155 2181 "src/ocamlutil/bitmap.ml" 82 2155 2184
+)
+"src/ocamlutil/bitmap.ml" 91 2558 2574 "src/ocamlutil/bitmap.ml" 91 2558 2584
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 92 2588 2598 "src/ocamlutil/bitmap.ml" 92 2588 2599
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 92 2588 2603 "src/ocamlutil/bitmap.ml" 92 2588 2604
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 84 2262 2270 "src/ocamlutil/bitmap.ml" 84 2262 2271
+)
+"src/ocamlutil/bitmap.ml" 92 2588 2605 "src/ocamlutil/bitmap.ml" 92 2588 2606
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/bitmap.ml" 92 2588 2607 "src/ocamlutil/bitmap.ml" 92 2588 2608
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 92 2588 2603 "src/ocamlutil/bitmap.ml" 92 2588 2608
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 94 2624 2636 "src/ocamlutil/bitmap.ml" 94 2624 2639
+type(
+  int32
+)
+ident(
+  def old "src/ocamlutil/bitmap.ml" 95 2654 2662 "src/ocamlutil/bitmap.ml" 98 2802 2846
+)
+"src/ocamlutil/bitmap.ml" 94 2624 2642 "src/ocamlutil/bitmap.ml" 94 2624 2646
+type(
+  int32 array
+)
+ident(
+  int_ref alin "src/ocamlutil/bitmap.ml" 89 2497 2505 "src/ocamlutil/bitmap.ml" 89 2497 2509
+)
+"src/ocamlutil/bitmap.ml" 94 2624 2648 "src/ocamlutil/bitmap.ml" 94 2624 2649
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 92 2588 2592 "src/ocamlutil/bitmap.ml" 100 2857 2865
+)
+"src/ocamlutil/bitmap.ml" 94 2624 2642 "src/ocamlutil/bitmap.ml" 94 2624 2650
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 95 2654 2666 "src/ocamlutil/bitmap.ml" 95 2654 2668
+type(
+  int32
+)
+ident(
+  def nw "src/ocamlutil/bitmap.ml" 97 2778 2786 "src/ocamlutil/bitmap.ml" 98 2802 2846
+)
+"src/ocamlutil/bitmap.ml" 95 2654 2672 "src/ocamlutil/bitmap.ml" 95 2654 2683
+type(
+  int32 -> int32 -> int32
+)
+ident(
+  ext_ref Int32.logor
+)
+"src/ocamlutil/bitmap.ml" 95 2654 2684 "src/ocamlutil/bitmap.ml" 95 2654 2687
+type(
+  int32
+)
+ident(
+  int_ref old "src/ocamlutil/bitmap.ml" 94 2624 2636 "src/ocamlutil/bitmap.ml" 94 2624 2639
+)
+"src/ocamlutil/bitmap.ml" 95 2654 2689 "src/ocamlutil/bitmap.ml" 95 2654 2701
+type(
+  int32 -> int32 -> int32
+)
+ident(
+  ext_ref Int32.logand
+)
+"src/ocamlutil/bitmap.ml" 95 2654 2702 "src/ocamlutil/bitmap.ml" 95 2654 2707
+type(
+  int32 array
+)
+ident(
+  int_ref alout "src/ocamlutil/bitmap.ml" 90 2527 2535 "src/ocamlutil/bitmap.ml" 90 2527 2540
+)
+"src/ocamlutil/bitmap.ml" 95 2654 2709 "src/ocamlutil/bitmap.ml" 95 2654 2710
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 92 2588 2592 "src/ocamlutil/bitmap.ml" 100 2857 2865
+)
+"src/ocamlutil/bitmap.ml" 95 2654 2702 "src/ocamlutil/bitmap.ml" 95 2654 2711
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 96 2713 2751 "src/ocamlutil/bitmap.ml" 96 2713 2763
+type(
+  int32 -> int32
+)
+ident(
+  ext_ref Int32.lognot
+)
+"src/ocamlutil/bitmap.ml" 96 2713 2764 "src/ocamlutil/bitmap.ml" 96 2713 2768
+type(
+  int32 array
+)
+ident(
+  int_ref adef "src/ocamlutil/bitmap.ml" 91 2558 2566 "src/ocamlutil/bitmap.ml" 91 2558 2570
+)
+"src/ocamlutil/bitmap.ml" 96 2713 2770 "src/ocamlutil/bitmap.ml" 96 2713 2771
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 92 2588 2592 "src/ocamlutil/bitmap.ml" 100 2857 2865
+)
+"src/ocamlutil/bitmap.ml" 96 2713 2764 "src/ocamlutil/bitmap.ml" 96 2713 2772
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 96 2713 2750 "src/ocamlutil/bitmap.ml" 96 2713 2773
+call(
+  stack
+)
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 95 2654 2688 "src/ocamlutil/bitmap.ml" 96 2713 2774
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 95 2654 2672 "src/ocamlutil/bitmap.ml" 96 2713 2774
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 97 2778 2786 "src/ocamlutil/bitmap.ml" 97 2778 2790
+type(
+  int32 array
+)
+ident(
+  int_ref alin "src/ocamlutil/bitmap.ml" 89 2497 2505 "src/ocamlutil/bitmap.ml" 89 2497 2509
+)
+"src/ocamlutil/bitmap.ml" 97 2778 2792 "src/ocamlutil/bitmap.ml" 97 2778 2793
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 92 2588 2592 "src/ocamlutil/bitmap.ml" 100 2857 2865
+)
+"src/ocamlutil/bitmap.ml" 97 2778 2798 "src/ocamlutil/bitmap.ml" 97 2778 2800
+type(
+  int32
+)
+ident(
+  int_ref nw "src/ocamlutil/bitmap.ml" 95 2654 2666 "src/ocamlutil/bitmap.ml" 95 2654 2668
+)
+"src/ocamlutil/bitmap.ml" 97 2778 2786 "src/ocamlutil/bitmap.ml" 97 2778 2800
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 98 2802 2810 "src/ocamlutil/bitmap.ml" 98 2802 2817
+type(
+  bool ref
+)
+ident(
+  int_ref changed "src/ocamlutil/bitmap.ml" 88 2466 2474 "src/ocamlutil/bitmap.ml" 88 2466 2481
+)
+"src/ocamlutil/bitmap.ml" 98 2802 2818 "src/ocamlutil/bitmap.ml" 98 2802 2820
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/bitmap.ml" 98 2802 2822 "src/ocamlutil/bitmap.ml" 98 2802 2825
+type(
+  int32
+)
+ident(
+  int_ref old "src/ocamlutil/bitmap.ml" 94 2624 2636 "src/ocamlutil/bitmap.ml" 94 2624 2639
+)
+"src/ocamlutil/bitmap.ml" 98 2802 2826 "src/ocamlutil/bitmap.ml" 98 2802 2828
+type(
+  int32 -> int32 -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ocamlutil/bitmap.ml" 98 2802 2829 "src/ocamlutil/bitmap.ml" 98 2802 2831
+type(
+  int32
+)
+ident(
+  int_ref nw "src/ocamlutil/bitmap.ml" 95 2654 2666 "src/ocamlutil/bitmap.ml" 95 2654 2668
+)
+"src/ocamlutil/bitmap.ml" 98 2802 2821 "src/ocamlutil/bitmap.ml" 98 2802 2832
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 98 2802 2833 "src/ocamlutil/bitmap.ml" 98 2802 2835
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ocamlutil/bitmap.ml" 98 2802 2837 "src/ocamlutil/bitmap.ml" 98 2802 2838
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/bitmap.ml" 98 2802 2838 "src/ocamlutil/bitmap.ml" 98 2802 2845
+type(
+  bool ref
+)
+ident(
+  int_ref changed "src/ocamlutil/bitmap.ml" 88 2466 2474 "src/ocamlutil/bitmap.ml" 88 2466 2481
+)
+"src/ocamlutil/bitmap.ml" 98 2802 2836 "src/ocamlutil/bitmap.ml" 98 2802 2846
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 98 2802 2821 "src/ocamlutil/bitmap.ml" 98 2802 2846
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 98 2802 2810 "src/ocamlutil/bitmap.ml" 98 2802 2846
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 97 2778 2786 "src/ocamlutil/bitmap.ml" 98 2802 2846
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 95 2654 2662 "src/ocamlutil/bitmap.ml" 98 2802 2846
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 93 2612 2618 "src/ocamlutil/bitmap.ml" 99 2847 2856
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 92 2588 2592 "src/ocamlutil/bitmap.ml" 100 2857 2865
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 101 2867 2871 "src/ocamlutil/bitmap.ml" 101 2867 2872
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/bitmap.ml" 101 2867 2872 "src/ocamlutil/bitmap.ml" 101 2867 2879
+type(
+  bool ref
+)
+ident(
+  int_ref changed "src/ocamlutil/bitmap.ml" 88 2466 2474 "src/ocamlutil/bitmap.ml" 88 2466 2481
+)
+"src/ocamlutil/bitmap.ml" 101 2867 2871 "src/ocamlutil/bitmap.ml" 101 2867 2879
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 92 2588 2592 "src/ocamlutil/bitmap.ml" 101 2867 2879
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 91 2558 2562 "src/ocamlutil/bitmap.ml" 101 2867 2879
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 90 2527 2531 "src/ocamlutil/bitmap.ml" 101 2867 2879
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 89 2497 2501 "src/ocamlutil/bitmap.ml" 101 2867 2879
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 88 2466 2470 "src/ocamlutil/bitmap.ml" 101 2867 2879
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 87 2415 2419 "src/ocamlutil/bitmap.ml" 101 2867 2879
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 85 2290 2294 "src/ocamlutil/bitmap.ml" 101 2867 2879
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 83 2188 2190 "src/ocamlutil/bitmap.ml" 102 2880 2885
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 105 2942 2946 "src/ocamlutil/bitmap.ml" 105 2942 2952
+type(
+  t -> t -> unit
+)
+ident(
+  def inters "src/ocamlutil/bitmap.ml" 121 3266 3266 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 105 2942 2953 "src/ocamlutil/bitmap.ml" 105 2942 2955
+type(
+  t
+)
+ident(
+  def b1 "src/ocamlutil/bitmap.ml" 105 2942 2956 "src/ocamlutil/bitmap.ml" 119 3259 3264
+)
+"src/ocamlutil/bitmap.ml" 105 2942 2956 "src/ocamlutil/bitmap.ml" 105 2942 2958
+type(
+  t
+)
+ident(
+  def b2 "src/ocamlutil/bitmap.ml" 106 2962 2964 "src/ocamlutil/bitmap.ml" 119 3259 3264
+)
+"src/ocamlutil/bitmap.ml" 107 2970 2978 "src/ocamlutil/bitmap.ml" 107 2970 2979
+type(
+  int
+)
+ident(
+  def n "src/ocamlutil/bitmap.ml" 108 3011 3015 "src/ocamlutil/bitmap.ml" 118 3250 3258
+)
+"src/ocamlutil/bitmap.ml" 107 2970 2982 "src/ocamlutil/bitmap.ml" 107 2970 2985
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"src/ocamlutil/bitmap.ml" 107 2970 2986 "src/ocamlutil/bitmap.ml" 107 2970 2988
+type(
+  t
+)
+ident(
+  int_ref b1 "src/ocamlutil/bitmap.ml" 105 2942 2953 "src/ocamlutil/bitmap.ml" 105 2942 2955
+)
+"src/ocamlutil/bitmap.ml" 107 2970 2986 "src/ocamlutil/bitmap.ml" 107 2970 2996
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 107 2970 2997 "src/ocamlutil/bitmap.ml" 107 2970 2999
+type(
+  t
+)
+ident(
+  int_ref b2 "src/ocamlutil/bitmap.ml" 105 2942 2956 "src/ocamlutil/bitmap.ml" 105 2942 2958
+)
+"src/ocamlutil/bitmap.ml" 107 2970 2997 "src/ocamlutil/bitmap.ml" 107 2970 3007
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 107 2970 2982 "src/ocamlutil/bitmap.ml" 107 2970 3007
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 108 3011 3019 "src/ocamlutil/bitmap.ml" 108 3011 3021
+type(
+  int32 array
+)
+ident(
+  def a1 "src/ocamlutil/bitmap.ml" 109 3037 3041 "src/ocamlutil/bitmap.ml" 118 3250 3258
+)
+"src/ocamlutil/bitmap.ml" 108 3011 3024 "src/ocamlutil/bitmap.ml" 108 3011 3026
+type(
+  t
+)
+ident(
+  int_ref b1 "src/ocamlutil/bitmap.ml" 105 2942 2953 "src/ocamlutil/bitmap.ml" 105 2942 2955
+)
+"src/ocamlutil/bitmap.ml" 108 3011 3024 "src/ocamlutil/bitmap.ml" 108 3011 3033
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 109 3037 3045 "src/ocamlutil/bitmap.ml" 109 3037 3047
+type(
+  int32 array
+)
+ident(
+  def a2 "src/ocamlutil/bitmap.ml" 110 3063 3067 "src/ocamlutil/bitmap.ml" 118 3250 3258
+)
+"src/ocamlutil/bitmap.ml" 109 3037 3050 "src/ocamlutil/bitmap.ml" 109 3037 3052
+type(
+  t
+)
+ident(
+  int_ref b2 "src/ocamlutil/bitmap.ml" 105 2942 2956 "src/ocamlutil/bitmap.ml" 105 2942 2958
+)
+"src/ocamlutil/bitmap.ml" 109 3037 3050 "src/ocamlutil/bitmap.ml" 109 3037 3059
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 110 3063 3073 "src/ocamlutil/bitmap.ml" 110 3063 3074
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 110 3063 3078 "src/ocamlutil/bitmap.ml" 110 3063 3079
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 107 2970 2978 "src/ocamlutil/bitmap.ml" 107 2970 2979
+)
+"src/ocamlutil/bitmap.ml" 110 3063 3080 "src/ocamlutil/bitmap.ml" 110 3063 3081
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/bitmap.ml" 110 3063 3082 "src/ocamlutil/bitmap.ml" 110 3063 3083
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 110 3063 3078 "src/ocamlutil/bitmap.ml" 110 3063 3083
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 112 3099 3107 "src/ocamlutil/bitmap.ml" 112 3099 3109
+type(
+  int32 array
+)
+ident(
+  int_ref a1 "src/ocamlutil/bitmap.ml" 108 3011 3019 "src/ocamlutil/bitmap.ml" 108 3011 3021
+)
+"src/ocamlutil/bitmap.ml" 112 3099 3111 "src/ocamlutil/bitmap.ml" 112 3099 3112
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 110 3063 3067 "src/ocamlutil/bitmap.ml" 114 3154 3162
+)
+"src/ocamlutil/bitmap.ml" 112 3099 3117 "src/ocamlutil/bitmap.ml" 112 3099 3129
+type(
+  int32 -> int32 -> int32
+)
+ident(
+  ext_ref Int32.logand
+)
+"src/ocamlutil/bitmap.ml" 112 3099 3130 "src/ocamlutil/bitmap.ml" 112 3099 3132
+type(
+  int32 array
+)
+ident(
+  int_ref a1 "src/ocamlutil/bitmap.ml" 108 3011 3019 "src/ocamlutil/bitmap.ml" 108 3011 3021
+)
+"src/ocamlutil/bitmap.ml" 112 3099 3134 "src/ocamlutil/bitmap.ml" 112 3099 3135
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 110 3063 3067 "src/ocamlutil/bitmap.ml" 114 3154 3162
+)
+"src/ocamlutil/bitmap.ml" 112 3099 3130 "src/ocamlutil/bitmap.ml" 112 3099 3136
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 112 3099 3137 "src/ocamlutil/bitmap.ml" 112 3099 3139
+type(
+  int32 array
+)
+ident(
+  int_ref a2 "src/ocamlutil/bitmap.ml" 109 3037 3045 "src/ocamlutil/bitmap.ml" 109 3037 3047
+)
+"src/ocamlutil/bitmap.ml" 112 3099 3141 "src/ocamlutil/bitmap.ml" 112 3099 3142
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 110 3063 3067 "src/ocamlutil/bitmap.ml" 114 3154 3162
+)
+"src/ocamlutil/bitmap.ml" 112 3099 3137 "src/ocamlutil/bitmap.ml" 112 3099 3143
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 112 3099 3117 "src/ocamlutil/bitmap.ml" 112 3099 3143
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 111 3087 3093 "src/ocamlutil/bitmap.ml" 113 3144 3153
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 110 3063 3067 "src/ocamlutil/bitmap.ml" 114 3154 3162
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 115 3164 3171 "src/ocamlutil/bitmap.ml" 115 3164 3172
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 107 2970 2978 "src/ocamlutil/bitmap.ml" 107 2970 2979
+)
+"src/ocamlutil/bitmap.ml" 115 3164 3173 "src/ocamlutil/bitmap.ml" 115 3164 3174
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ocamlutil/bitmap.ml" 115 3164 3175 "src/ocamlutil/bitmap.ml" 115 3164 3177
+type(
+  t
+)
+ident(
+  int_ref b1 "src/ocamlutil/bitmap.ml" 105 2942 2953 "src/ocamlutil/bitmap.ml" 105 2942 2955
+)
+"src/ocamlutil/bitmap.ml" 115 3164 3175 "src/ocamlutil/bitmap.ml" 115 3164 3185
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 115 3164 3171 "src/ocamlutil/bitmap.ml" 115 3164 3185
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 116 3191 3197 "src/ocamlutil/bitmap.ml" 116 3191 3207
+type(
+  int32 array -> int -> int -> int32 -> unit
+)
+ident(
+  ext_ref Array.fill
+)
+"src/ocamlutil/bitmap.ml" 116 3191 3208 "src/ocamlutil/bitmap.ml" 116 3191 3210
+type(
+  int32 array
+)
+ident(
+  int_ref a1 "src/ocamlutil/bitmap.ml" 108 3011 3019 "src/ocamlutil/bitmap.ml" 108 3011 3021
+)
+"src/ocamlutil/bitmap.ml" 116 3191 3211 "src/ocamlutil/bitmap.ml" 116 3191 3212
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 107 2970 2978 "src/ocamlutil/bitmap.ml" 107 2970 2979
+)
+"src/ocamlutil/bitmap.ml" 116 3191 3214 "src/ocamlutil/bitmap.ml" 116 3191 3216
+type(
+  t
+)
+ident(
+  int_ref b1 "src/ocamlutil/bitmap.ml" 105 2942 2953 "src/ocamlutil/bitmap.ml" 105 2942 2955
+)
+"src/ocamlutil/bitmap.ml" 116 3191 3214 "src/ocamlutil/bitmap.ml" 116 3191 3224
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 116 3191 3225 "src/ocamlutil/bitmap.ml" 116 3191 3226
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/bitmap.ml" 116 3191 3227 "src/ocamlutil/bitmap.ml" 116 3191 3228
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 107 2970 2978 "src/ocamlutil/bitmap.ml" 107 2970 2979
+)
+"src/ocamlutil/bitmap.ml" 116 3191 3213 "src/ocamlutil/bitmap.ml" 116 3191 3229
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 116 3191 3230 "src/ocamlutil/bitmap.ml" 116 3191 3240
+type(
+  int32
+)
+ident(
+  ext_ref Int32.zero
+)
+"src/ocamlutil/bitmap.ml" 116 3191 3197 "src/ocamlutil/bitmap.ml" 116 3191 3240
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 118 3250 3256 "src/ocamlutil/bitmap.ml" 118 3250 3258
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 115 3164 3168 "src/ocamlutil/bitmap.ml" 118 3250 3258
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 110 3063 3067 "src/ocamlutil/bitmap.ml" 118 3250 3258
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 109 3037 3041 "src/ocamlutil/bitmap.ml" 118 3250 3258
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 108 3011 3015 "src/ocamlutil/bitmap.ml" 118 3250 3258
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 106 2962 2964 "src/ocamlutil/bitmap.ml" 119 3259 3264
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 121 3266 3270 "src/ocamlutil/bitmap.ml" 121 3266 3278
+type(
+  t -> int -> bool
+)
+ident(
+  def emptyInt "src/ocamlutil/bitmap.ml" 128 3420 3420 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 121 3266 3279 "src/ocamlutil/bitmap.ml" 121 3266 3280
+type(
+  t
+)
+ident(
+  def b "src/ocamlutil/bitmap.ml" 121 3266 3281 "src/ocamlutil/bitmap.ml" 126 3406 3418
+)
+"src/ocamlutil/bitmap.ml" 121 3266 3281 "src/ocamlutil/bitmap.ml" 121 3266 3286
+type(
+  int
+)
+ident(
+  def start "src/ocamlutil/bitmap.ml" 122 3290 3292 "src/ocamlutil/bitmap.ml" 126 3406 3418
+)
+"src/ocamlutil/bitmap.ml" 122 3290 3296 "src/ocamlutil/bitmap.ml" 122 3290 3297
+type(
+  int
+)
+ident(
+  def n "src/ocamlutil/bitmap.ml" 123 3313 3315 "src/ocamlutil/bitmap.ml" 126 3406 3418
+)
+"src/ocamlutil/bitmap.ml" 122 3290 3300 "src/ocamlutil/bitmap.ml" 122 3290 3301
+type(
+  t
+)
+ident(
+  int_ref b "src/ocamlutil/bitmap.ml" 121 3266 3279 "src/ocamlutil/bitmap.ml" 121 3266 3280
+)
+"src/ocamlutil/bitmap.ml" 122 3290 3300 "src/ocamlutil/bitmap.ml" 122 3290 3309
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 123 3313 3319 "src/ocamlutil/bitmap.ml" 123 3313 3320
+type(
+  int32 array
+)
+ident(
+  def a "src/ocamlutil/bitmap.ml" 124 3335 3337 "src/ocamlutil/bitmap.ml" 126 3406 3418
+)
+"src/ocamlutil/bitmap.ml" 123 3313 3323 "src/ocamlutil/bitmap.ml" 123 3313 3324
+type(
+  t
+)
+ident(
+  int_ref b "src/ocamlutil/bitmap.ml" 121 3266 3279 "src/ocamlutil/bitmap.ml" 121 3266 3280
+)
+"src/ocamlutil/bitmap.ml" 123 3313 3323 "src/ocamlutil/bitmap.ml" 123 3313 3331
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3345 "src/ocamlutil/bitmap.ml" 124 3335 3349
+type(
+  int -> bool
+)
+ident(
+  def loop "src/ocamlutil/bitmap.ml" 124 3335 3337 "src/ocamlutil/bitmap.ml" 126 3406 3418
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3350 "src/ocamlutil/bitmap.ml" 124 3335 3351
+type(
+  int
+)
+ident(
+  def i "src/ocamlutil/bitmap.ml" 124 3335 3354 "src/ocamlutil/bitmap.ml" 124 3335 3400
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3354 "src/ocamlutil/bitmap.ml" 124 3335 3355
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 124 3335 3350 "src/ocamlutil/bitmap.ml" 124 3335 3351
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3356 "src/ocamlutil/bitmap.ml" 124 3335 3358
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3359 "src/ocamlutil/bitmap.ml" 124 3335 3360
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 122 3290 3296 "src/ocamlutil/bitmap.ml" 122 3290 3297
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3354 "src/ocamlutil/bitmap.ml" 124 3335 3360
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3361 "src/ocamlutil/bitmap.ml" 124 3335 3363
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3365 "src/ocamlutil/bitmap.ml" 124 3335 3366
+type(
+  int32 array
+)
+ident(
+  int_ref a "src/ocamlutil/bitmap.ml" 123 3313 3319 "src/ocamlutil/bitmap.ml" 123 3313 3320
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3368 "src/ocamlutil/bitmap.ml" 124 3335 3369
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 124 3335 3350 "src/ocamlutil/bitmap.ml" 124 3335 3351
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3365 "src/ocamlutil/bitmap.ml" 124 3335 3370
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3371 "src/ocamlutil/bitmap.ml" 124 3335 3372
+type(
+  int32 -> int32 -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3373 "src/ocamlutil/bitmap.ml" 124 3335 3383
+type(
+  int32
+)
+ident(
+  ext_ref Int32.zero
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3365 "src/ocamlutil/bitmap.ml" 124 3335 3383
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3384 "src/ocamlutil/bitmap.ml" 124 3335 3386
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3387 "src/ocamlutil/bitmap.ml" 124 3335 3391
+type(
+  int -> bool
+)
+ident(
+  int_ref loop "src/ocamlutil/bitmap.ml" 124 3335 3345 "src/ocamlutil/bitmap.ml" 124 3335 3349
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3393 "src/ocamlutil/bitmap.ml" 124 3335 3394
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 124 3335 3350 "src/ocamlutil/bitmap.ml" 124 3335 3351
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3395 "src/ocamlutil/bitmap.ml" 124 3335 3396
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3397 "src/ocamlutil/bitmap.ml" 124 3335 3398
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3392 "src/ocamlutil/bitmap.ml" 124 3335 3399
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3387 "src/ocamlutil/bitmap.ml" 124 3335 3399
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3364 "src/ocamlutil/bitmap.ml" 124 3335 3400
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3354 "src/ocamlutil/bitmap.ml" 124 3335 3400
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 126 3406 3408 "src/ocamlutil/bitmap.ml" 126 3406 3412
+type(
+  int -> bool
+)
+ident(
+  int_ref loop "src/ocamlutil/bitmap.ml" 124 3335 3345 "src/ocamlutil/bitmap.ml" 124 3335 3349
+)
+"src/ocamlutil/bitmap.ml" 126 3406 3413 "src/ocamlutil/bitmap.ml" 126 3406 3418
+type(
+  int
+)
+ident(
+  int_ref start "src/ocamlutil/bitmap.ml" 121 3266 3281 "src/ocamlutil/bitmap.ml" 121 3266 3286
+)
+"src/ocamlutil/bitmap.ml" 126 3406 3408 "src/ocamlutil/bitmap.ml" 126 3406 3418
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 124 3335 3337 "src/ocamlutil/bitmap.ml" 126 3406 3418
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 123 3313 3315 "src/ocamlutil/bitmap.ml" 126 3406 3418
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 122 3290 3292 "src/ocamlutil/bitmap.ml" 126 3406 3418
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 128 3420 3424 "src/ocamlutil/bitmap.ml" 128 3420 3429
+type(
+  t -> bool
+)
+ident(
+  def empty "src/ocamlutil/bitmap.ml" 131 3503 3503 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 128 3420 3430 "src/ocamlutil/bitmap.ml" 128 3420 3431
+type(
+  t
+)
+ident(
+  def b "src/ocamlutil/bitmap.ml" 128 3420 3434 "src/ocamlutil/bitmap.ml" 128 3420 3446
+)
+"src/ocamlutil/bitmap.ml" 128 3420 3434 "src/ocamlutil/bitmap.ml" 128 3420 3442
+type(
+  t -> int -> bool
+)
+ident(
+  int_ref emptyInt "src/ocamlutil/bitmap.ml" 121 3266 3270 "src/ocamlutil/bitmap.ml" 121 3266 3278
+)
+"src/ocamlutil/bitmap.ml" 128 3420 3443 "src/ocamlutil/bitmap.ml" 128 3420 3444
+type(
+  t
+)
+ident(
+  int_ref b "src/ocamlutil/bitmap.ml" 128 3420 3430 "src/ocamlutil/bitmap.ml" 128 3420 3431
+)
+"src/ocamlutil/bitmap.ml" 128 3420 3445 "src/ocamlutil/bitmap.ml" 128 3420 3446
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 128 3420 3434 "src/ocamlutil/bitmap.ml" 128 3420 3446
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 131 3503 3507 "src/ocamlutil/bitmap.ml" 131 3503 3512
+type(
+  t -> t -> bool
+)
+ident(
+  def equal "src/ocamlutil/bitmap.ml" 153 3936 3936 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 131 3503 3513 "src/ocamlutil/bitmap.ml" 131 3503 3515
+type(
+  t
+)
+ident(
+  def b1 "src/ocamlutil/bitmap.ml" 131 3503 3516 "src/ocamlutil/bitmap.ml" 151 3929 3934
+)
+"src/ocamlutil/bitmap.ml" 131 3503 3516 "src/ocamlutil/bitmap.ml" 131 3503 3518
+type(
+  t
+)
+ident(
+  def b2 "src/ocamlutil/bitmap.ml" 132 3521 3523 "src/ocamlutil/bitmap.ml" 151 3929 3934
+)
+"src/ocamlutil/bitmap.ml" 133 3529 3537 "src/ocamlutil/bitmap.ml" 133 3529 3538
+type(
+  int
+)
+ident(
+  def n "src/ocamlutil/bitmap.ml" 134 3570 3574 "src/ocamlutil/bitmap.ml" 150 3917 3928
+)
+"src/ocamlutil/bitmap.ml" 133 3529 3541 "src/ocamlutil/bitmap.ml" 133 3529 3544
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"src/ocamlutil/bitmap.ml" 133 3529 3545 "src/ocamlutil/bitmap.ml" 133 3529 3547
+type(
+  t
+)
+ident(
+  int_ref b1 "src/ocamlutil/bitmap.ml" 131 3503 3513 "src/ocamlutil/bitmap.ml" 131 3503 3515
+)
+"src/ocamlutil/bitmap.ml" 133 3529 3545 "src/ocamlutil/bitmap.ml" 133 3529 3555
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 133 3529 3556 "src/ocamlutil/bitmap.ml" 133 3529 3558
+type(
+  t
+)
+ident(
+  int_ref b2 "src/ocamlutil/bitmap.ml" 131 3503 3516 "src/ocamlutil/bitmap.ml" 131 3503 3518
+)
+"src/ocamlutil/bitmap.ml" 133 3529 3556 "src/ocamlutil/bitmap.ml" 133 3529 3566
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 133 3529 3541 "src/ocamlutil/bitmap.ml" 133 3529 3566
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 134 3570 3578 "src/ocamlutil/bitmap.ml" 134 3570 3580
+type(
+  int32 array
+)
+ident(
+  def a1 "src/ocamlutil/bitmap.ml" 135 3596 3600 "src/ocamlutil/bitmap.ml" 150 3917 3928
+)
+"src/ocamlutil/bitmap.ml" 134 3570 3583 "src/ocamlutil/bitmap.ml" 134 3570 3585
+type(
+  t
+)
+ident(
+  int_ref b1 "src/ocamlutil/bitmap.ml" 131 3503 3513 "src/ocamlutil/bitmap.ml" 131 3503 3515
+)
+"src/ocamlutil/bitmap.ml" 134 3570 3583 "src/ocamlutil/bitmap.ml" 134 3570 3592
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 135 3596 3604 "src/ocamlutil/bitmap.ml" 135 3596 3606
+type(
+  int32 array
+)
+ident(
+  def a2 "src/ocamlutil/bitmap.ml" 136 3622 3626 "src/ocamlutil/bitmap.ml" 150 3917 3928
+)
+"src/ocamlutil/bitmap.ml" 135 3596 3609 "src/ocamlutil/bitmap.ml" 135 3596 3611
+type(
+  t
+)
+ident(
+  int_ref b2 "src/ocamlutil/bitmap.ml" 131 3503 3516 "src/ocamlutil/bitmap.ml" 131 3503 3518
+)
+"src/ocamlutil/bitmap.ml" 135 3596 3609 "src/ocamlutil/bitmap.ml" 135 3596 3618
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 136 3622 3630 "src/ocamlutil/bitmap.ml" 136 3622 3633
+type(
+  bool ref
+)
+ident(
+  def res "src/ocamlutil/bitmap.ml" 137 3648 3652 "src/ocamlutil/bitmap.ml" 150 3917 3928
+)
+"src/ocamlutil/bitmap.ml" 136 3622 3636 "src/ocamlutil/bitmap.ml" 136 3622 3639
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ocamlutil/bitmap.ml" 136 3622 3640 "src/ocamlutil/bitmap.ml" 136 3622 3644
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 136 3622 3636 "src/ocamlutil/bitmap.ml" 136 3622 3644
+type(
+  bool ref
+)
+"src/ocamlutil/bitmap.ml" 137 3648 3658 "src/ocamlutil/bitmap.ml" 137 3648 3659
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 137 3648 3663 "src/ocamlutil/bitmap.ml" 137 3648 3664
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 133 3529 3537 "src/ocamlutil/bitmap.ml" 133 3529 3538
+)
+"src/ocamlutil/bitmap.ml" 137 3648 3665 "src/ocamlutil/bitmap.ml" 137 3648 3666
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/bitmap.ml" 137 3648 3667 "src/ocamlutil/bitmap.ml" 137 3648 3668
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 137 3648 3663 "src/ocamlutil/bitmap.ml" 137 3648 3668
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 139 3684 3695 "src/ocamlutil/bitmap.ml" 139 3684 3697
+type(
+  int32 array
+)
+ident(
+  int_ref a1 "src/ocamlutil/bitmap.ml" 134 3570 3578 "src/ocamlutil/bitmap.ml" 134 3570 3580
+)
+"src/ocamlutil/bitmap.ml" 139 3684 3699 "src/ocamlutil/bitmap.ml" 139 3684 3700
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 137 3648 3652 "src/ocamlutil/bitmap.ml" 141 3748 3756
+)
+"src/ocamlutil/bitmap.ml" 139 3684 3695 "src/ocamlutil/bitmap.ml" 139 3684 3701
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 139 3684 3702 "src/ocamlutil/bitmap.ml" 139 3684 3704
+type(
+  int32 -> int32 -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ocamlutil/bitmap.ml" 139 3684 3705 "src/ocamlutil/bitmap.ml" 139 3684 3707
+type(
+  int32 array
+)
+ident(
+  int_ref a2 "src/ocamlutil/bitmap.ml" 135 3596 3604 "src/ocamlutil/bitmap.ml" 135 3596 3606
+)
+"src/ocamlutil/bitmap.ml" 139 3684 3709 "src/ocamlutil/bitmap.ml" 139 3684 3710
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 137 3648 3652 "src/ocamlutil/bitmap.ml" 141 3748 3756
+)
+"src/ocamlutil/bitmap.ml" 139 3684 3705 "src/ocamlutil/bitmap.ml" 139 3684 3711
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 139 3684 3695 "src/ocamlutil/bitmap.ml" 139 3684 3711
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 139 3684 3717 "src/ocamlutil/bitmap.ml" 139 3684 3720
+type(
+  bool ref
+)
+ident(
+  int_ref res "src/ocamlutil/bitmap.ml" 136 3622 3630 "src/ocamlutil/bitmap.ml" 136 3622 3633
+)
+"src/ocamlutil/bitmap.ml" 139 3684 3721 "src/ocamlutil/bitmap.ml" 139 3684 3723
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/bitmap.ml" 139 3684 3724 "src/ocamlutil/bitmap.ml" 139 3684 3729
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 139 3684 3717 "src/ocamlutil/bitmap.ml" 139 3684 3729
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 139 3684 3735 "src/ocamlutil/bitmap.ml" 139 3684 3737
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 138 3672 3678 "src/ocamlutil/bitmap.ml" 140 3738 3747
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 137 3648 3652 "src/ocamlutil/bitmap.ml" 141 3748 3756
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 142 3758 3765 "src/ocamlutil/bitmap.ml" 142 3758 3766
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/bitmap.ml" 142 3758 3766 "src/ocamlutil/bitmap.ml" 142 3758 3769
+type(
+  bool ref
+)
+ident(
+  int_ref res "src/ocamlutil/bitmap.ml" 136 3622 3630 "src/ocamlutil/bitmap.ml" 136 3622 3633
+)
+"src/ocamlutil/bitmap.ml" 142 3758 3765 "src/ocamlutil/bitmap.ml" 142 3758 3769
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 143 3776 3785 "src/ocamlutil/bitmap.ml" 143 3776 3787
+type(
+  t
+)
+ident(
+  int_ref b1 "src/ocamlutil/bitmap.ml" 131 3503 3513 "src/ocamlutil/bitmap.ml" 131 3503 3515
+)
+"src/ocamlutil/bitmap.ml" 143 3776 3785 "src/ocamlutil/bitmap.ml" 143 3776 3795
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 143 3776 3796 "src/ocamlutil/bitmap.ml" 143 3776 3797
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/bitmap.ml" 143 3776 3798 "src/ocamlutil/bitmap.ml" 143 3776 3799
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 133 3529 3537 "src/ocamlutil/bitmap.ml" 133 3529 3538
+)
+"src/ocamlutil/bitmap.ml" 143 3776 3785 "src/ocamlutil/bitmap.ml" 143 3776 3799
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 144 3805 3813 "src/ocamlutil/bitmap.ml" 144 3805 3821
+type(
+  t -> int -> bool
+)
+ident(
+  int_ref emptyInt "src/ocamlutil/bitmap.ml" 121 3266 3270 "src/ocamlutil/bitmap.ml" 121 3266 3278
+)
+"src/ocamlutil/bitmap.ml" 144 3805 3822 "src/ocamlutil/bitmap.ml" 144 3805 3824
+type(
+  t
+)
+ident(
+  int_ref b1 "src/ocamlutil/bitmap.ml" 131 3503 3513 "src/ocamlutil/bitmap.ml" 131 3503 3515
+)
+"src/ocamlutil/bitmap.ml" 144 3805 3825 "src/ocamlutil/bitmap.ml" 144 3805 3826
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 133 3529 3537 "src/ocamlutil/bitmap.ml" 133 3529 3538
+)
+"src/ocamlutil/bitmap.ml" 144 3805 3813 "src/ocamlutil/bitmap.ml" 144 3805 3826
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 145 3827 3841 "src/ocamlutil/bitmap.ml" 145 3827 3843
+type(
+  t
+)
+ident(
+  int_ref b2 "src/ocamlutil/bitmap.ml" 131 3503 3516 "src/ocamlutil/bitmap.ml" 131 3503 3518
+)
+"src/ocamlutil/bitmap.ml" 145 3827 3841 "src/ocamlutil/bitmap.ml" 145 3827 3851
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 145 3827 3852 "src/ocamlutil/bitmap.ml" 145 3827 3853
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/bitmap.ml" 145 3827 3854 "src/ocamlutil/bitmap.ml" 145 3827 3855
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 133 3529 3537 "src/ocamlutil/bitmap.ml" 133 3529 3538
+)
+"src/ocamlutil/bitmap.ml" 145 3827 3841 "src/ocamlutil/bitmap.ml" 145 3827 3855
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 146 3862 3870 "src/ocamlutil/bitmap.ml" 146 3862 3878
+type(
+  t -> int -> bool
+)
+ident(
+  int_ref emptyInt "src/ocamlutil/bitmap.ml" 121 3266 3270 "src/ocamlutil/bitmap.ml" 121 3266 3278
+)
+"src/ocamlutil/bitmap.ml" 146 3862 3879 "src/ocamlutil/bitmap.ml" 146 3862 3881
+type(
+  t
+)
+ident(
+  int_ref b2 "src/ocamlutil/bitmap.ml" 131 3503 3516 "src/ocamlutil/bitmap.ml" 131 3503 3518
+)
+"src/ocamlutil/bitmap.ml" 146 3862 3882 "src/ocamlutil/bitmap.ml" 146 3862 3883
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 133 3529 3537 "src/ocamlutil/bitmap.ml" 133 3529 3538
+)
+"src/ocamlutil/bitmap.ml" 146 3862 3870 "src/ocamlutil/bitmap.ml" 146 3862 3883
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 148 3895 3903 "src/ocamlutil/bitmap.ml" 148 3895 3907
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 145 3827 3838 "src/ocamlutil/bitmap.ml" 148 3895 3907
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 143 3776 3782 "src/ocamlutil/bitmap.ml" 148 3895 3907
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 150 3917 3923 "src/ocamlutil/bitmap.ml" 150 3917 3928
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 142 3758 3762 "src/ocamlutil/bitmap.ml" 150 3917 3928
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 137 3648 3652 "src/ocamlutil/bitmap.ml" 150 3917 3928
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 136 3622 3626 "src/ocamlutil/bitmap.ml" 150 3917 3928
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 135 3596 3600 "src/ocamlutil/bitmap.ml" 150 3917 3928
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 134 3570 3574 "src/ocamlutil/bitmap.ml" 150 3917 3928
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 132 3521 3523 "src/ocamlutil/bitmap.ml" 151 3929 3934
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 153 3936 3940 "src/ocamlutil/bitmap.ml" 153 3936 3946
+type(
+  t -> t -> unit
+)
+ident(
+  def assign "src/ocamlutil/bitmap.ml" 163 4181 4181 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 153 3936 3947 "src/ocamlutil/bitmap.ml" 153 3936 3949
+type(
+  t
+)
+ident(
+  def b1 "src/ocamlutil/bitmap.ml" 153 3936 3950 "src/ocamlutil/bitmap.ml" 160 4119 4124
+)
+"src/ocamlutil/bitmap.ml" 153 3936 3950 "src/ocamlutil/bitmap.ml" 153 3936 3952
+type(
+  t
+)
+ident(
+  def b2 "src/ocamlutil/bitmap.ml" 154 3956 3958 "src/ocamlutil/bitmap.ml" 160 4119 4124
+)
+"src/ocamlutil/bitmap.ml" 155 3964 3972 "src/ocamlutil/bitmap.ml" 155 3964 3973
+type(
+  int
+)
+ident(
+  def n "src/ocamlutil/bitmap.ml" 156 3990 3994 "src/ocamlutil/bitmap.ml" 159 4091 4117
+)
+"src/ocamlutil/bitmap.ml" 155 3964 3976 "src/ocamlutil/bitmap.ml" 155 3964 3978
+type(
+  t
+)
+ident(
+  int_ref b2 "src/ocamlutil/bitmap.ml" 153 3936 3950 "src/ocamlutil/bitmap.ml" 153 3936 3952
+)
+"src/ocamlutil/bitmap.ml" 155 3964 3976 "src/ocamlutil/bitmap.ml" 155 3964 3986
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 156 3990 3997 "src/ocamlutil/bitmap.ml" 156 3990 3999
+type(
+  t
+)
+ident(
+  int_ref b1 "src/ocamlutil/bitmap.ml" 153 3936 3947 "src/ocamlutil/bitmap.ml" 153 3936 3949
+)
+"src/ocamlutil/bitmap.ml" 156 3990 3997 "src/ocamlutil/bitmap.ml" 156 3990 4007
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 156 3990 4008 "src/ocamlutil/bitmap.ml" 156 3990 4009
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ocamlutil/bitmap.ml" 156 3990 4010 "src/ocamlutil/bitmap.ml" 156 3990 4011
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 155 3964 3972 "src/ocamlutil/bitmap.ml" 155 3964 3973
+)
+"src/ocamlutil/bitmap.ml" 156 3990 3997 "src/ocamlutil/bitmap.ml" 156 3990 4011
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 156 3990 4017 "src/ocamlutil/bitmap.ml" 156 3990 4024
+type(
+  t -> int -> unit
+)
+ident(
+  int_ref enlarge "src/ocamlutil/bitmap.ml" 10 350 354 "src/ocamlutil/bitmap.ml" 10 350 361
+)
+"src/ocamlutil/bitmap.ml" 156 3990 4025 "src/ocamlutil/bitmap.ml" 156 3990 4027
+type(
+  t
+)
+ident(
+  int_ref b1 "src/ocamlutil/bitmap.ml" 153 3936 3947 "src/ocamlutil/bitmap.ml" 153 3936 3949
+)
+"src/ocamlutil/bitmap.ml" 156 3990 4028 "src/ocamlutil/bitmap.ml" 156 3990 4029
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 155 3964 3972 "src/ocamlutil/bitmap.ml" 155 3964 3973
+)
+"src/ocamlutil/bitmap.ml" 156 3990 4017 "src/ocamlutil/bitmap.ml" 156 3990 4029
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 156 3990 4035 "src/ocamlutil/bitmap.ml" 156 3990 4037
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 156 3990 3994 "src/ocamlutil/bitmap.ml" 156 3990 4037
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 157 4039 4047 "src/ocamlutil/bitmap.ml" 157 4039 4049
+type(
+  int32 array
+)
+ident(
+  def a1 "src/ocamlutil/bitmap.ml" 158 4065 4069 "src/ocamlutil/bitmap.ml" 159 4091 4117
+)
+"src/ocamlutil/bitmap.ml" 157 4039 4052 "src/ocamlutil/bitmap.ml" 157 4039 4054
+type(
+  t
+)
+ident(
+  int_ref b1 "src/ocamlutil/bitmap.ml" 153 3936 3947 "src/ocamlutil/bitmap.ml" 153 3936 3949
+)
+"src/ocamlutil/bitmap.ml" 157 4039 4052 "src/ocamlutil/bitmap.ml" 157 4039 4061
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 158 4065 4073 "src/ocamlutil/bitmap.ml" 158 4065 4075
+type(
+  int32 array
+)
+ident(
+  def a2 "src/ocamlutil/bitmap.ml" 159 4091 4095 "src/ocamlutil/bitmap.ml" 159 4091 4117
+)
+"src/ocamlutil/bitmap.ml" 158 4065 4078 "src/ocamlutil/bitmap.ml" 158 4065 4080
+type(
+  t
+)
+ident(
+  int_ref b2 "src/ocamlutil/bitmap.ml" 153 3936 3950 "src/ocamlutil/bitmap.ml" 153 3936 3952
+)
+"src/ocamlutil/bitmap.ml" 158 4065 4078 "src/ocamlutil/bitmap.ml" 158 4065 4087
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 159 4091 4095 "src/ocamlutil/bitmap.ml" 159 4091 4105
+type(
+  int32 array -> int -> int32 array -> int -> int -> unit
+)
+ident(
+  ext_ref Array.blit
+)
+"src/ocamlutil/bitmap.ml" 159 4091 4106 "src/ocamlutil/bitmap.ml" 159 4091 4108
+type(
+  int32 array
+)
+ident(
+  int_ref a2 "src/ocamlutil/bitmap.ml" 158 4065 4073 "src/ocamlutil/bitmap.ml" 158 4065 4075
+)
+"src/ocamlutil/bitmap.ml" 159 4091 4109 "src/ocamlutil/bitmap.ml" 159 4091 4110
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 159 4091 4111 "src/ocamlutil/bitmap.ml" 159 4091 4113
+type(
+  int32 array
+)
+ident(
+  int_ref a1 "src/ocamlutil/bitmap.ml" 157 4039 4047 "src/ocamlutil/bitmap.ml" 157 4039 4049
+)
+"src/ocamlutil/bitmap.ml" 159 4091 4114 "src/ocamlutil/bitmap.ml" 159 4091 4115
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 159 4091 4116 "src/ocamlutil/bitmap.ml" 159 4091 4117
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 155 3964 3972 "src/ocamlutil/bitmap.ml" 155 3964 3973
+)
+"src/ocamlutil/bitmap.ml" 159 4091 4095 "src/ocamlutil/bitmap.ml" 159 4091 4117
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 158 4065 4069 "src/ocamlutil/bitmap.ml" 159 4091 4117
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 157 4039 4043 "src/ocamlutil/bitmap.ml" 159 4091 4117
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 156 3990 3994 "src/ocamlutil/bitmap.ml" 159 4091 4117
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 154 3956 3958 "src/ocamlutil/bitmap.ml" 160 4119 4124
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 163 4181 4185 "src/ocamlutil/bitmap.ml" 163 4181 4189
+type(
+  t -> t -> unit
+)
+ident(
+  def diff "src/ocamlutil/bitmap.ml" 180 4506 4506 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 163 4181 4190 "src/ocamlutil/bitmap.ml" 163 4181 4192
+type(
+  t
+)
+ident(
+  def b1 "src/ocamlutil/bitmap.ml" 163 4181 4193 "src/ocamlutil/bitmap.ml" 175 4490 4495
+)
+"src/ocamlutil/bitmap.ml" 163 4181 4193 "src/ocamlutil/bitmap.ml" 163 4181 4195
+type(
+  t
+)
+ident(
+  def b2 "src/ocamlutil/bitmap.ml" 164 4199 4201 "src/ocamlutil/bitmap.ml" 175 4490 4495
+)
+"src/ocamlutil/bitmap.ml" 165 4207 4215 "src/ocamlutil/bitmap.ml" 165 4207 4216
+type(
+  int
+)
+ident(
+  def n "src/ocamlutil/bitmap.ml" 166 4248 4252 "src/ocamlutil/bitmap.ml" 174 4481 4489
+)
+"src/ocamlutil/bitmap.ml" 165 4207 4219 "src/ocamlutil/bitmap.ml" 165 4207 4222
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"src/ocamlutil/bitmap.ml" 165 4207 4223 "src/ocamlutil/bitmap.ml" 165 4207 4225
+type(
+  t
+)
+ident(
+  int_ref b1 "src/ocamlutil/bitmap.ml" 163 4181 4190 "src/ocamlutil/bitmap.ml" 163 4181 4192
+)
+"src/ocamlutil/bitmap.ml" 165 4207 4223 "src/ocamlutil/bitmap.ml" 165 4207 4233
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 165 4207 4234 "src/ocamlutil/bitmap.ml" 165 4207 4236
+type(
+  t
+)
+ident(
+  int_ref b2 "src/ocamlutil/bitmap.ml" 163 4181 4193 "src/ocamlutil/bitmap.ml" 163 4181 4195
+)
+"src/ocamlutil/bitmap.ml" 165 4207 4234 "src/ocamlutil/bitmap.ml" 165 4207 4244
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 165 4207 4219 "src/ocamlutil/bitmap.ml" 165 4207 4244
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 166 4248 4256 "src/ocamlutil/bitmap.ml" 166 4248 4258
+type(
+  int32 array
+)
+ident(
+  def a1 "src/ocamlutil/bitmap.ml" 167 4274 4278 "src/ocamlutil/bitmap.ml" 174 4481 4489
+)
+"src/ocamlutil/bitmap.ml" 166 4248 4261 "src/ocamlutil/bitmap.ml" 166 4248 4263
+type(
+  t
+)
+ident(
+  int_ref b1 "src/ocamlutil/bitmap.ml" 163 4181 4190 "src/ocamlutil/bitmap.ml" 163 4181 4192
+)
+"src/ocamlutil/bitmap.ml" 166 4248 4261 "src/ocamlutil/bitmap.ml" 166 4248 4270
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 167 4274 4282 "src/ocamlutil/bitmap.ml" 167 4274 4284
+type(
+  int32 array
+)
+ident(
+  def a2 "src/ocamlutil/bitmap.ml" 168 4300 4304 "src/ocamlutil/bitmap.ml" 174 4481 4489
+)
+"src/ocamlutil/bitmap.ml" 167 4274 4287 "src/ocamlutil/bitmap.ml" 167 4274 4289
+type(
+  t
+)
+ident(
+  int_ref b2 "src/ocamlutil/bitmap.ml" 163 4181 4193 "src/ocamlutil/bitmap.ml" 163 4181 4195
+)
+"src/ocamlutil/bitmap.ml" 167 4274 4287 "src/ocamlutil/bitmap.ml" 167 4274 4296
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 168 4300 4310 "src/ocamlutil/bitmap.ml" 168 4300 4311
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 168 4300 4315 "src/ocamlutil/bitmap.ml" 168 4300 4316
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 165 4207 4215 "src/ocamlutil/bitmap.ml" 165 4207 4216
+)
+"src/ocamlutil/bitmap.ml" 168 4300 4317 "src/ocamlutil/bitmap.ml" 168 4300 4318
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/bitmap.ml" 168 4300 4319 "src/ocamlutil/bitmap.ml" 168 4300 4320
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 168 4300 4315 "src/ocamlutil/bitmap.ml" 168 4300 4320
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 169 4324 4332 "src/ocamlutil/bitmap.ml" 169 4324 4334
+type(
+  int32 array
+)
+ident(
+  int_ref a1 "src/ocamlutil/bitmap.ml" 166 4248 4256 "src/ocamlutil/bitmap.ml" 166 4248 4258
+)
+"src/ocamlutil/bitmap.ml" 169 4324 4336 "src/ocamlutil/bitmap.ml" 169 4324 4337
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 168 4300 4304 "src/ocamlutil/bitmap.ml" 170 4384 4392
+)
+"src/ocamlutil/bitmap.ml" 169 4324 4342 "src/ocamlutil/bitmap.ml" 169 4324 4354
+type(
+  int32 -> int32 -> int32
+)
+ident(
+  ext_ref Int32.logand
+)
+"src/ocamlutil/bitmap.ml" 169 4324 4355 "src/ocamlutil/bitmap.ml" 169 4324 4357
+type(
+  int32 array
+)
+ident(
+  int_ref a1 "src/ocamlutil/bitmap.ml" 166 4248 4256 "src/ocamlutil/bitmap.ml" 166 4248 4258
+)
+"src/ocamlutil/bitmap.ml" 169 4324 4359 "src/ocamlutil/bitmap.ml" 169 4324 4360
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 168 4300 4304 "src/ocamlutil/bitmap.ml" 170 4384 4392
+)
+"src/ocamlutil/bitmap.ml" 169 4324 4355 "src/ocamlutil/bitmap.ml" 169 4324 4361
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 169 4324 4363 "src/ocamlutil/bitmap.ml" 169 4324 4375
+type(
+  int32 -> int32
+)
+ident(
+  ext_ref Int32.lognot
+)
+"src/ocamlutil/bitmap.ml" 169 4324 4376 "src/ocamlutil/bitmap.ml" 169 4324 4378
+type(
+  int32 array
+)
+ident(
+  int_ref a2 "src/ocamlutil/bitmap.ml" 167 4274 4282 "src/ocamlutil/bitmap.ml" 167 4274 4284
+)
+"src/ocamlutil/bitmap.ml" 169 4324 4380 "src/ocamlutil/bitmap.ml" 169 4324 4381
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 168 4300 4304 "src/ocamlutil/bitmap.ml" 170 4384 4392
+)
+"src/ocamlutil/bitmap.ml" 169 4324 4376 "src/ocamlutil/bitmap.ml" 169 4324 4382
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 169 4324 4362 "src/ocamlutil/bitmap.ml" 169 4324 4383
+call(
+  stack
+)
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 169 4324 4342 "src/ocamlutil/bitmap.ml" 169 4324 4383
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 169 4324 4332 "src/ocamlutil/bitmap.ml" 169 4324 4383
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 168 4300 4304 "src/ocamlutil/bitmap.ml" 170 4384 4392
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 171 4394 4401 "src/ocamlutil/bitmap.ml" 171 4394 4402
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 165 4207 4215 "src/ocamlutil/bitmap.ml" 165 4207 4216
+)
+"src/ocamlutil/bitmap.ml" 171 4394 4403 "src/ocamlutil/bitmap.ml" 171 4394 4404
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ocamlutil/bitmap.ml" 171 4394 4405 "src/ocamlutil/bitmap.ml" 171 4394 4407
+type(
+  t
+)
+ident(
+  int_ref b1 "src/ocamlutil/bitmap.ml" 163 4181 4190 "src/ocamlutil/bitmap.ml" 163 4181 4192
+)
+"src/ocamlutil/bitmap.ml" 171 4394 4405 "src/ocamlutil/bitmap.ml" 171 4394 4415
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 171 4394 4401 "src/ocamlutil/bitmap.ml" 171 4394 4415
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 172 4422 4428 "src/ocamlutil/bitmap.ml" 172 4422 4438
+type(
+  int32 array -> int -> int -> int32 -> unit
+)
+ident(
+  ext_ref Array.fill
+)
+"src/ocamlutil/bitmap.ml" 172 4422 4439 "src/ocamlutil/bitmap.ml" 172 4422 4441
+type(
+  int32 array
+)
+ident(
+  int_ref a1 "src/ocamlutil/bitmap.ml" 166 4248 4256 "src/ocamlutil/bitmap.ml" 166 4248 4258
+)
+"src/ocamlutil/bitmap.ml" 172 4422 4442 "src/ocamlutil/bitmap.ml" 172 4422 4443
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 165 4207 4215 "src/ocamlutil/bitmap.ml" 165 4207 4216
+)
+"src/ocamlutil/bitmap.ml" 172 4422 4445 "src/ocamlutil/bitmap.ml" 172 4422 4447
+type(
+  t
+)
+ident(
+  int_ref b1 "src/ocamlutil/bitmap.ml" 163 4181 4190 "src/ocamlutil/bitmap.ml" 163 4181 4192
+)
+"src/ocamlutil/bitmap.ml" 172 4422 4445 "src/ocamlutil/bitmap.ml" 172 4422 4455
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 172 4422 4456 "src/ocamlutil/bitmap.ml" 172 4422 4457
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/bitmap.ml" 172 4422 4458 "src/ocamlutil/bitmap.ml" 172 4422 4459
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 165 4207 4215 "src/ocamlutil/bitmap.ml" 165 4207 4216
+)
+"src/ocamlutil/bitmap.ml" 172 4422 4444 "src/ocamlutil/bitmap.ml" 172 4422 4460
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 172 4422 4461 "src/ocamlutil/bitmap.ml" 172 4422 4471
+type(
+  int32
+)
+ident(
+  ext_ref Int32.zero
+)
+"src/ocamlutil/bitmap.ml" 172 4422 4428 "src/ocamlutil/bitmap.ml" 172 4422 4471
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 174 4481 4487 "src/ocamlutil/bitmap.ml" 174 4481 4489
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 171 4394 4398 "src/ocamlutil/bitmap.ml" 174 4481 4489
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 168 4300 4304 "src/ocamlutil/bitmap.ml" 174 4481 4489
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 167 4274 4278 "src/ocamlutil/bitmap.ml" 174 4481 4489
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 166 4248 4252 "src/ocamlutil/bitmap.ml" 174 4481 4489
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 164 4199 4201 "src/ocamlutil/bitmap.ml" 175 4490 4495
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 180 4506 4510 "src/ocamlutil/bitmap.ml" 180 4506 4514
+type(
+  t -> int -> bool
+)
+ident(
+  def test "src/ocamlutil/bitmap.ml" 188 4743 4743 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 180 4506 4515 "src/ocamlutil/bitmap.ml" 180 4506 4518
+type(
+  t
+)
+ident(
+  def bmp "src/ocamlutil/bitmap.ml" 180 4506 4519 "src/ocamlutil/bitmap.ml" 185 4689 4740
+)
+"src/ocamlutil/bitmap.ml" 180 4506 4519 "src/ocamlutil/bitmap.ml" 180 4506 4520
+type(
+  int
+)
+ident(
+  def i "src/ocamlutil/bitmap.ml" 181 4524 4526 "src/ocamlutil/bitmap.ml" 185 4689 4740
+)
+"src/ocamlutil/bitmap.ml" 181 4524 4534 "src/ocamlutil/bitmap.ml" 181 4524 4535
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 180 4506 4519 "src/ocamlutil/bitmap.ml" 180 4506 4520
+)
+"src/ocamlutil/bitmap.ml" 181 4524 4536 "src/ocamlutil/bitmap.ml" 181 4524 4538
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ocamlutil/bitmap.ml" 181 4524 4539 "src/ocamlutil/bitmap.ml" 181 4524 4540
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 181 4524 4533 "src/ocamlutil/bitmap.ml" 181 4524 4541
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 181 4524 4526 "src/ocamlutil/bitmap.ml" 181 4524 4541
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 182 4543 4548 "src/ocamlutil/bitmap.ml" 182 4543 4549
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 180 4506 4519 "src/ocamlutil/bitmap.ml" 180 4506 4520
+)
+"src/ocamlutil/bitmap.ml" 182 4543 4550 "src/ocamlutil/bitmap.ml" 182 4543 4552
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ocamlutil/bitmap.ml" 182 4543 4553 "src/ocamlutil/bitmap.ml" 182 4543 4556
+type(
+  t
+)
+ident(
+  int_ref bmp "src/ocamlutil/bitmap.ml" 180 4506 4515 "src/ocamlutil/bitmap.ml" 180 4506 4518
+)
+"src/ocamlutil/bitmap.ml" 182 4543 4553 "src/ocamlutil/bitmap.ml" 182 4543 4563
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 182 4543 4548 "src/ocamlutil/bitmap.ml" 182 4543 4563
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 182 4543 4569 "src/ocamlutil/bitmap.ml" 182 4543 4576
+type(
+  t -> int -> unit
+)
+ident(
+  int_ref enlarge "src/ocamlutil/bitmap.ml" 10 350 354 "src/ocamlutil/bitmap.ml" 10 350 361
+)
+"src/ocamlutil/bitmap.ml" 182 4543 4577 "src/ocamlutil/bitmap.ml" 182 4543 4580
+type(
+  t
+)
+ident(
+  int_ref bmp "src/ocamlutil/bitmap.ml" 180 4506 4515 "src/ocamlutil/bitmap.ml" 180 4506 4518
+)
+"src/ocamlutil/bitmap.ml" 182 4543 4583 "src/ocamlutil/bitmap.ml" 182 4543 4584
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 180 4506 4519 "src/ocamlutil/bitmap.ml" 180 4506 4520
+)
+"src/ocamlutil/bitmap.ml" 182 4543 4585 "src/ocamlutil/bitmap.ml" 182 4543 4588
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsr )
+)
+"src/ocamlutil/bitmap.ml" 182 4543 4589 "src/ocamlutil/bitmap.ml" 182 4543 4590
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 182 4543 4582 "src/ocamlutil/bitmap.ml" 182 4543 4591
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 182 4543 4592 "src/ocamlutil/bitmap.ml" 182 4543 4593
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/bitmap.ml" 182 4543 4594 "src/ocamlutil/bitmap.ml" 182 4543 4595
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 182 4543 4581 "src/ocamlutil/bitmap.ml" 182 4543 4596
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 182 4543 4569 "src/ocamlutil/bitmap.ml" 182 4543 4596
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 182 4543 4602 "src/ocamlutil/bitmap.ml" 182 4543 4604
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 182 4543 4545 "src/ocamlutil/bitmap.ml" 182 4543 4604
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 183 4606 4612 "src/ocamlutil/bitmap.ml" 183 4606 4615
+type(
+  int
+)
+ident(
+  def wrd "src/ocamlutil/bitmap.ml" 184 4629 4631 "src/ocamlutil/bitmap.ml" 185 4689 4740
+)
+"src/ocamlutil/bitmap.ml" 183 4606 4618 "src/ocamlutil/bitmap.ml" 183 4606 4619
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 180 4506 4519 "src/ocamlutil/bitmap.ml" 180 4506 4520
+)
+"src/ocamlutil/bitmap.ml" 183 4606 4620 "src/ocamlutil/bitmap.ml" 183 4606 4623
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsr )
+)
+"src/ocamlutil/bitmap.ml" 183 4606 4624 "src/ocamlutil/bitmap.ml" 183 4606 4625
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 183 4606 4618 "src/ocamlutil/bitmap.ml" 183 4606 4625
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 184 4629 4635 "src/ocamlutil/bitmap.ml" 184 4629 4638
+type(
+  int32
+)
+ident(
+  def msk "src/ocamlutil/bitmap.ml" 185 4689 4691 "src/ocamlutil/bitmap.ml" 185 4689 4740
+)
+"src/ocamlutil/bitmap.ml" 184 4629 4641 "src/ocamlutil/bitmap.ml" 184 4629 4657
+type(
+  int32 -> int -> int32
+)
+ident(
+  ext_ref Int32.shift_left
+)
+"src/ocamlutil/bitmap.ml" 184 4629 4658 "src/ocamlutil/bitmap.ml" 184 4629 4667
+type(
+  int32
+)
+ident(
+  ext_ref Int32.one
+)
+"src/ocamlutil/bitmap.ml" 184 4629 4669 "src/ocamlutil/bitmap.ml" 184 4629 4670
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 180 4506 4519 "src/ocamlutil/bitmap.ml" 180 4506 4520
+)
+"src/ocamlutil/bitmap.ml" 184 4629 4671 "src/ocamlutil/bitmap.ml" 184 4629 4672
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/bitmap.ml" 184 4629 4674 "src/ocamlutil/bitmap.ml" 184 4629 4677
+type(
+  int
+)
+ident(
+  int_ref wrd "src/ocamlutil/bitmap.ml" 183 4606 4612 "src/ocamlutil/bitmap.ml" 183 4606 4615
+)
+"src/ocamlutil/bitmap.ml" 184 4629 4678 "src/ocamlutil/bitmap.ml" 184 4629 4681
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"src/ocamlutil/bitmap.ml" 184 4629 4682 "src/ocamlutil/bitmap.ml" 184 4629 4683
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 184 4629 4673 "src/ocamlutil/bitmap.ml" 184 4629 4684
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 184 4629 4668 "src/ocamlutil/bitmap.ml" 184 4629 4685
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 184 4629 4641 "src/ocamlutil/bitmap.ml" 184 4629 4685
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 185 4689 4692 "src/ocamlutil/bitmap.ml" 185 4689 4704
+type(
+  int32 -> int32 -> int32
+)
+ident(
+  ext_ref Int32.logand
+)
+"src/ocamlutil/bitmap.ml" 185 4689 4705 "src/ocamlutil/bitmap.ml" 185 4689 4708
+type(
+  t
+)
+ident(
+  int_ref bmp "src/ocamlutil/bitmap.ml" 180 4506 4515 "src/ocamlutil/bitmap.ml" 180 4506 4518
+)
+"src/ocamlutil/bitmap.ml" 185 4689 4705 "src/ocamlutil/bitmap.ml" 185 4689 4715
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 185 4689 4717 "src/ocamlutil/bitmap.ml" 185 4689 4720
+type(
+  int
+)
+ident(
+  int_ref wrd "src/ocamlutil/bitmap.ml" 183 4606 4612 "src/ocamlutil/bitmap.ml" 183 4606 4615
+)
+"src/ocamlutil/bitmap.ml" 185 4689 4705 "src/ocamlutil/bitmap.ml" 185 4689 4721
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 185 4689 4722 "src/ocamlutil/bitmap.ml" 185 4689 4725
+type(
+  int32
+)
+ident(
+  int_ref msk "src/ocamlutil/bitmap.ml" 184 4629 4635 "src/ocamlutil/bitmap.ml" 184 4629 4638
+)
+"src/ocamlutil/bitmap.ml" 185 4689 4691 "src/ocamlutil/bitmap.ml" 185 4689 4726
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 185 4689 4727 "src/ocamlutil/bitmap.ml" 185 4689 4729
+type(
+  int32 -> int32 -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ocamlutil/bitmap.ml" 185 4689 4730 "src/ocamlutil/bitmap.ml" 185 4689 4740
+type(
+  int32
+)
+ident(
+  ext_ref Int32.zero
+)
+"src/ocamlutil/bitmap.ml" 185 4689 4691 "src/ocamlutil/bitmap.ml" 185 4689 4740
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 184 4629 4631 "src/ocamlutil/bitmap.ml" 185 4689 4740
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 183 4606 4608 "src/ocamlutil/bitmap.ml" 185 4689 4740
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 182 4543 4545 "src/ocamlutil/bitmap.ml" 185 4689 4740
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 181 4524 4526 "src/ocamlutil/bitmap.ml" 185 4689 4740
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 188 4743 4747 "src/ocamlutil/bitmap.ml" 188 4743 4759
+type(
+  t -> int -> bool -> bool
+)
+ident(
+  def testAndSetTo "src/ocamlutil/bitmap.ml" 200 5146 5146 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 188 4743 4760 "src/ocamlutil/bitmap.ml" 188 4743 4763
+type(
+  t
+)
+ident(
+  def bmp "src/ocamlutil/bitmap.ml" 188 4743 4764 "src/ocamlutil/bitmap.ml" 198 5139 5144
+)
+"src/ocamlutil/bitmap.ml" 188 4743 4764 "src/ocamlutil/bitmap.ml" 188 4743 4765
+type(
+  int
+)
+ident(
+  def i "src/ocamlutil/bitmap.ml" 188 4743 4766 "src/ocamlutil/bitmap.ml" 198 5139 5144
+)
+"src/ocamlutil/bitmap.ml" 188 4743 4766 "src/ocamlutil/bitmap.ml" 188 4743 4768
+type(
+  bool
+)
+ident(
+  def tv "src/ocamlutil/bitmap.ml" 189 4772 4774 "src/ocamlutil/bitmap.ml" 198 5139 5144
+)
+"src/ocamlutil/bitmap.ml" 189 4772 4781 "src/ocamlutil/bitmap.ml" 189 4772 4782
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 188 4743 4764 "src/ocamlutil/bitmap.ml" 188 4743 4765
+)
+"src/ocamlutil/bitmap.ml" 189 4772 4783 "src/ocamlutil/bitmap.ml" 189 4772 4785
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ocamlutil/bitmap.ml" 189 4772 4786 "src/ocamlutil/bitmap.ml" 189 4772 4787
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 189 4772 4780 "src/ocamlutil/bitmap.ml" 189 4772 4788
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 189 4772 4774 "src/ocamlutil/bitmap.ml" 189 4772 4788
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 190 4790 4796 "src/ocamlutil/bitmap.ml" 190 4790 4799
+type(
+  int
+)
+ident(
+  def wrd "src/ocamlutil/bitmap.ml" 191 4813 4815 "src/ocamlutil/bitmap.ml" 198 5139 5144
+)
+"src/ocamlutil/bitmap.ml" 190 4790 4802 "src/ocamlutil/bitmap.ml" 190 4790 4803
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 188 4743 4764 "src/ocamlutil/bitmap.ml" 188 4743 4765
+)
+"src/ocamlutil/bitmap.ml" 190 4790 4804 "src/ocamlutil/bitmap.ml" 190 4790 4807
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsr )
+)
+"src/ocamlutil/bitmap.ml" 190 4790 4808 "src/ocamlutil/bitmap.ml" 190 4790 4809
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 190 4790 4802 "src/ocamlutil/bitmap.ml" 190 4790 4809
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 191 4813 4819 "src/ocamlutil/bitmap.ml" 191 4813 4822
+type(
+  int32
+)
+ident(
+  def msk "src/ocamlutil/bitmap.ml" 192 4873 4875 "src/ocamlutil/bitmap.ml" 198 5139 5144
+)
+"src/ocamlutil/bitmap.ml" 191 4813 4825 "src/ocamlutil/bitmap.ml" 191 4813 4841
+type(
+  int32 -> int -> int32
+)
+ident(
+  ext_ref Int32.shift_left
+)
+"src/ocamlutil/bitmap.ml" 191 4813 4842 "src/ocamlutil/bitmap.ml" 191 4813 4851
+type(
+  int32
+)
+ident(
+  ext_ref Int32.one
+)
+"src/ocamlutil/bitmap.ml" 191 4813 4853 "src/ocamlutil/bitmap.ml" 191 4813 4854
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 188 4743 4764 "src/ocamlutil/bitmap.ml" 188 4743 4765
+)
+"src/ocamlutil/bitmap.ml" 191 4813 4855 "src/ocamlutil/bitmap.ml" 191 4813 4856
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/bitmap.ml" 191 4813 4858 "src/ocamlutil/bitmap.ml" 191 4813 4861
+type(
+  int
+)
+ident(
+  int_ref wrd "src/ocamlutil/bitmap.ml" 190 4790 4796 "src/ocamlutil/bitmap.ml" 190 4790 4799
+)
+"src/ocamlutil/bitmap.ml" 191 4813 4862 "src/ocamlutil/bitmap.ml" 191 4813 4865
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"src/ocamlutil/bitmap.ml" 191 4813 4866 "src/ocamlutil/bitmap.ml" 191 4813 4867
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 191 4813 4857 "src/ocamlutil/bitmap.ml" 191 4813 4868
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 191 4813 4852 "src/ocamlutil/bitmap.ml" 191 4813 4869
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 191 4813 4825 "src/ocamlutil/bitmap.ml" 191 4813 4869
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 192 4873 4878 "src/ocamlutil/bitmap.ml" 192 4873 4879
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 188 4743 4764 "src/ocamlutil/bitmap.ml" 188 4743 4765
+)
+"src/ocamlutil/bitmap.ml" 192 4873 4880 "src/ocamlutil/bitmap.ml" 192 4873 4882
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ocamlutil/bitmap.ml" 192 4873 4883 "src/ocamlutil/bitmap.ml" 192 4873 4886
+type(
+  t
+)
+ident(
+  int_ref bmp "src/ocamlutil/bitmap.ml" 188 4743 4760 "src/ocamlutil/bitmap.ml" 188 4743 4763
+)
+"src/ocamlutil/bitmap.ml" 192 4873 4883 "src/ocamlutil/bitmap.ml" 192 4873 4893
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 192 4873 4878 "src/ocamlutil/bitmap.ml" 192 4873 4893
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 192 4873 4899 "src/ocamlutil/bitmap.ml" 192 4873 4906
+type(
+  t -> int -> unit
+)
+ident(
+  int_ref enlarge "src/ocamlutil/bitmap.ml" 10 350 354 "src/ocamlutil/bitmap.ml" 10 350 361
+)
+"src/ocamlutil/bitmap.ml" 192 4873 4907 "src/ocamlutil/bitmap.ml" 192 4873 4910
+type(
+  t
+)
+ident(
+  int_ref bmp "src/ocamlutil/bitmap.ml" 188 4743 4760 "src/ocamlutil/bitmap.ml" 188 4743 4763
+)
+"src/ocamlutil/bitmap.ml" 192 4873 4912 "src/ocamlutil/bitmap.ml" 192 4873 4915
+type(
+  int
+)
+ident(
+  int_ref wrd "src/ocamlutil/bitmap.ml" 190 4790 4796 "src/ocamlutil/bitmap.ml" 190 4790 4799
+)
+"src/ocamlutil/bitmap.ml" 192 4873 4916 "src/ocamlutil/bitmap.ml" 192 4873 4917
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/bitmap.ml" 192 4873 4918 "src/ocamlutil/bitmap.ml" 192 4873 4919
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 192 4873 4911 "src/ocamlutil/bitmap.ml" 192 4873 4920
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 192 4873 4899 "src/ocamlutil/bitmap.ml" 192 4873 4920
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 192 4873 4926 "src/ocamlutil/bitmap.ml" 192 4873 4928
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 192 4873 4875 "src/ocamlutil/bitmap.ml" 192 4873 4928
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 193 4930 4936 "src/ocamlutil/bitmap.ml" 193 4930 4939
+type(
+  bool
+)
+ident(
+  def old "src/ocamlutil/bitmap.ml" 194 4985 4987 "src/ocamlutil/bitmap.ml" 198 5139 5144
+)
+"src/ocamlutil/bitmap.ml" 193 4930 4942 "src/ocamlutil/bitmap.ml" 193 4930 4954
+type(
+  int32 -> int32 -> int32
+)
+ident(
+  ext_ref Int32.logand
+)
+"src/ocamlutil/bitmap.ml" 193 4930 4955 "src/ocamlutil/bitmap.ml" 193 4930 4958
+type(
+  t
+)
+ident(
+  int_ref bmp "src/ocamlutil/bitmap.ml" 188 4743 4760 "src/ocamlutil/bitmap.ml" 188 4743 4763
+)
+"src/ocamlutil/bitmap.ml" 193 4930 4955 "src/ocamlutil/bitmap.ml" 193 4930 4965
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 193 4930 4967 "src/ocamlutil/bitmap.ml" 193 4930 4970
+type(
+  int
+)
+ident(
+  int_ref wrd "src/ocamlutil/bitmap.ml" 190 4790 4796 "src/ocamlutil/bitmap.ml" 190 4790 4799
+)
+"src/ocamlutil/bitmap.ml" 193 4930 4955 "src/ocamlutil/bitmap.ml" 193 4930 4971
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 193 4930 4972 "src/ocamlutil/bitmap.ml" 193 4930 4975
+type(
+  int32
+)
+ident(
+  int_ref msk "src/ocamlutil/bitmap.ml" 191 4813 4819 "src/ocamlutil/bitmap.ml" 191 4813 4822
+)
+"src/ocamlutil/bitmap.ml" 193 4930 4942 "src/ocamlutil/bitmap.ml" 193 4930 4975
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 193 4930 4976 "src/ocamlutil/bitmap.ml" 193 4930 4978
+type(
+  int32 -> int32 -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ocamlutil/bitmap.ml" 193 4930 4979 "src/ocamlutil/bitmap.ml" 193 4930 4981
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 193 4930 4942 "src/ocamlutil/bitmap.ml" 193 4930 4981
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 194 4985 4991 "src/ocamlutil/bitmap.ml" 194 4985 4993
+type(
+  bool
+)
+ident(
+  int_ref tv "src/ocamlutil/bitmap.ml" 188 4743 4766 "src/ocamlutil/bitmap.ml" 188 4743 4768
+)
+"src/ocamlutil/bitmap.ml" 195 5000 5004 "src/ocamlutil/bitmap.ml" 195 5000 5007
+type(
+  t
+)
+ident(
+  int_ref bmp "src/ocamlutil/bitmap.ml" 188 4743 4760 "src/ocamlutil/bitmap.ml" 188 4743 4763
+)
+"src/ocamlutil/bitmap.ml" 195 5000 5004 "src/ocamlutil/bitmap.ml" 195 5000 5014
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 195 5000 5016 "src/ocamlutil/bitmap.ml" 195 5000 5019
+type(
+  int
+)
+ident(
+  int_ref wrd "src/ocamlutil/bitmap.ml" 190 4790 4796 "src/ocamlutil/bitmap.ml" 190 4790 4799
+)
+"src/ocamlutil/bitmap.ml" 195 5000 5024 "src/ocamlutil/bitmap.ml" 195 5000 5035
+type(
+  int32 -> int32 -> int32
+)
+ident(
+  ext_ref Int32.logor
+)
+"src/ocamlutil/bitmap.ml" 195 5000 5036 "src/ocamlutil/bitmap.ml" 195 5000 5039
+type(
+  t
+)
+ident(
+  int_ref bmp "src/ocamlutil/bitmap.ml" 188 4743 4760 "src/ocamlutil/bitmap.ml" 188 4743 4763
+)
+"src/ocamlutil/bitmap.ml" 195 5000 5036 "src/ocamlutil/bitmap.ml" 195 5000 5046
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 195 5000 5048 "src/ocamlutil/bitmap.ml" 195 5000 5051
+type(
+  int
+)
+ident(
+  int_ref wrd "src/ocamlutil/bitmap.ml" 190 4790 4796 "src/ocamlutil/bitmap.ml" 190 4790 4799
+)
+"src/ocamlutil/bitmap.ml" 195 5000 5036 "src/ocamlutil/bitmap.ml" 195 5000 5052
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 195 5000 5053 "src/ocamlutil/bitmap.ml" 195 5000 5056
+type(
+  int32
+)
+ident(
+  int_ref msk "src/ocamlutil/bitmap.ml" 191 4813 4819 "src/ocamlutil/bitmap.ml" 191 4813 4822
+)
+"src/ocamlutil/bitmap.ml" 195 5000 5024 "src/ocamlutil/bitmap.ml" 195 5000 5056
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 195 5000 5004 "src/ocamlutil/bitmap.ml" 195 5000 5056
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 197 5064 5068 "src/ocamlutil/bitmap.ml" 197 5064 5071
+type(
+  t
+)
+ident(
+  int_ref bmp "src/ocamlutil/bitmap.ml" 188 4743 4760 "src/ocamlutil/bitmap.ml" 188 4743 4763
+)
+"src/ocamlutil/bitmap.ml" 197 5064 5068 "src/ocamlutil/bitmap.ml" 197 5064 5078
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 197 5064 5080 "src/ocamlutil/bitmap.ml" 197 5064 5083
+type(
+  int
+)
+ident(
+  int_ref wrd "src/ocamlutil/bitmap.ml" 190 4790 4796 "src/ocamlutil/bitmap.ml" 190 4790 4799
+)
+"src/ocamlutil/bitmap.ml" 197 5064 5088 "src/ocamlutil/bitmap.ml" 197 5064 5100
+type(
+  int32 -> int32 -> int32
+)
+ident(
+  ext_ref Int32.logand
+)
+"src/ocamlutil/bitmap.ml" 197 5064 5101 "src/ocamlutil/bitmap.ml" 197 5064 5104
+type(
+  t
+)
+ident(
+  int_ref bmp "src/ocamlutil/bitmap.ml" 188 4743 4760 "src/ocamlutil/bitmap.ml" 188 4743 4763
+)
+"src/ocamlutil/bitmap.ml" 197 5064 5101 "src/ocamlutil/bitmap.ml" 197 5064 5111
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 197 5064 5113 "src/ocamlutil/bitmap.ml" 197 5064 5116
+type(
+  int
+)
+ident(
+  int_ref wrd "src/ocamlutil/bitmap.ml" 190 4790 4796 "src/ocamlutil/bitmap.ml" 190 4790 4799
+)
+"src/ocamlutil/bitmap.ml" 197 5064 5101 "src/ocamlutil/bitmap.ml" 197 5064 5117
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 197 5064 5119 "src/ocamlutil/bitmap.ml" 197 5064 5131
+type(
+  int32 -> int32
+)
+ident(
+  ext_ref Int32.lognot
+)
+"src/ocamlutil/bitmap.ml" 197 5064 5132 "src/ocamlutil/bitmap.ml" 197 5064 5135
+type(
+  int32
+)
+ident(
+  int_ref msk "src/ocamlutil/bitmap.ml" 191 4813 4819 "src/ocamlutil/bitmap.ml" 191 4813 4822
+)
+"src/ocamlutil/bitmap.ml" 197 5064 5118 "src/ocamlutil/bitmap.ml" 197 5064 5136
+call(
+  stack
+)
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 197 5064 5088 "src/ocamlutil/bitmap.ml" 197 5064 5136
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 197 5064 5068 "src/ocamlutil/bitmap.ml" 197 5064 5136
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 194 4985 4987 "src/ocamlutil/bitmap.ml" 197 5064 5137
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 198 5139 5141 "src/ocamlutil/bitmap.ml" 198 5139 5144
+type(
+  bool
+)
+ident(
+  int_ref old "src/ocamlutil/bitmap.ml" 193 4930 4936 "src/ocamlutil/bitmap.ml" 193 4930 4939
+)
+"src/ocamlutil/bitmap.ml" 194 4985 4987 "src/ocamlutil/bitmap.ml" 198 5139 5144
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 193 4930 4932 "src/ocamlutil/bitmap.ml" 198 5139 5144
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 192 4873 4875 "src/ocamlutil/bitmap.ml" 198 5139 5144
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 191 4813 4815 "src/ocamlutil/bitmap.ml" 198 5139 5144
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 190 4790 4792 "src/ocamlutil/bitmap.ml" 198 5139 5144
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 189 4772 4774 "src/ocamlutil/bitmap.ml" 198 5139 5144
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 200 5146 5150 "src/ocamlutil/bitmap.ml" 200 5146 5155
+type(
+  t -> int -> bool -> unit
+)
+ident(
+  def setTo "src/ocamlutil/bitmap.ml" 205 5330 5330 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 200 5146 5156 "src/ocamlutil/bitmap.ml" 200 5146 5159
+type(
+  t
+)
+ident(
+  def bmp "src/ocamlutil/bitmap.ml" 200 5146 5160 "src/ocamlutil/bitmap.ml" 200 5146 5197
+)
+"src/ocamlutil/bitmap.ml" 200 5146 5160 "src/ocamlutil/bitmap.ml" 200 5146 5161
+type(
+  int
+)
+ident(
+  def i "src/ocamlutil/bitmap.ml" 200 5146 5162 "src/ocamlutil/bitmap.ml" 200 5146 5197
+)
+"src/ocamlutil/bitmap.ml" 200 5146 5162 "src/ocamlutil/bitmap.ml" 200 5146 5164
+type(
+  bool
+)
+ident(
+  def tv "src/ocamlutil/bitmap.ml" 200 5146 5167 "src/ocamlutil/bitmap.ml" 200 5146 5197
+)
+"src/ocamlutil/bitmap.ml" 200 5146 5167 "src/ocamlutil/bitmap.ml" 200 5146 5173
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ocamlutil/bitmap.ml" 200 5146 5175 "src/ocamlutil/bitmap.ml" 200 5146 5187
+type(
+  t -> int -> bool -> bool
+)
+ident(
+  int_ref testAndSetTo "src/ocamlutil/bitmap.ml" 188 4743 4747 "src/ocamlutil/bitmap.ml" 188 4743 4759
+)
+"src/ocamlutil/bitmap.ml" 200 5146 5188 "src/ocamlutil/bitmap.ml" 200 5146 5191
+type(
+  t
+)
+ident(
+  int_ref bmp "src/ocamlutil/bitmap.ml" 200 5146 5156 "src/ocamlutil/bitmap.ml" 200 5146 5159
+)
+"src/ocamlutil/bitmap.ml" 200 5146 5192 "src/ocamlutil/bitmap.ml" 200 5146 5193
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 200 5146 5160 "src/ocamlutil/bitmap.ml" 200 5146 5161
+)
+"src/ocamlutil/bitmap.ml" 200 5146 5194 "src/ocamlutil/bitmap.ml" 200 5146 5196
+type(
+  bool
+)
+ident(
+  int_ref tv "src/ocamlutil/bitmap.ml" 200 5146 5162 "src/ocamlutil/bitmap.ml" 200 5146 5164
+)
+"src/ocamlutil/bitmap.ml" 200 5146 5174 "src/ocamlutil/bitmap.ml" 200 5146 5197
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 200 5146 5167 "src/ocamlutil/bitmap.ml" 200 5146 5197
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 205 5330 5334 "src/ocamlutil/bitmap.ml" 205 5330 5338
+type(
+  ('a -> int -> 'a) -> t -> 'a -> 'a
+)
+ident(
+  def fold "src/ocamlutil/bitmap.ml" 223 5794 5794 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 205 5330 5339 "src/ocamlutil/bitmap.ml" 205 5330 5340
+type(
+  'a -> int -> 'a
+)
+ident(
+  def f "src/ocamlutil/bitmap.ml" 205 5330 5341 "src/ocamlutil/bitmap.ml" 220 5773 5791
+)
+"src/ocamlutil/bitmap.ml" 205 5330 5341 "src/ocamlutil/bitmap.ml" 205 5330 5344
+type(
+  t
+)
+ident(
+  def bmp "src/ocamlutil/bitmap.ml" 205 5330 5345 "src/ocamlutil/bitmap.ml" 220 5773 5791
+)
+"src/ocamlutil/bitmap.ml" 205 5330 5345 "src/ocamlutil/bitmap.ml" 205 5330 5348
+type(
+  'a
+)
+ident(
+  def arg "src/ocamlutil/bitmap.ml" 206 5351 5353 "src/ocamlutil/bitmap.ml" 220 5773 5791
+)
+"src/ocamlutil/bitmap.ml" 206 5351 5357 "src/ocamlutil/bitmap.ml" 206 5351 5358
+type(
+  int32 array
+)
+ident(
+  def a "src/ocamlutil/bitmap.ml" 207 5375 5377 "src/ocamlutil/bitmap.ml" 220 5773 5791
+)
+"src/ocamlutil/bitmap.ml" 206 5351 5361 "src/ocamlutil/bitmap.ml" 206 5351 5364
+type(
+  t
+)
+ident(
+  int_ref bmp "src/ocamlutil/bitmap.ml" 205 5330 5341 "src/ocamlutil/bitmap.ml" 205 5330 5344
+)
+"src/ocamlutil/bitmap.ml" 206 5351 5361 "src/ocamlutil/bitmap.ml" 206 5351 5371
+type(
+  int32 array
+)
+"src/ocamlutil/bitmap.ml" 207 5375 5381 "src/ocamlutil/bitmap.ml" 207 5375 5382
+type(
+  int
+)
+ident(
+  def n "src/ocamlutil/bitmap.ml" 208 5400 5402 "src/ocamlutil/bitmap.ml" 220 5773 5791
+)
+"src/ocamlutil/bitmap.ml" 207 5375 5385 "src/ocamlutil/bitmap.ml" 207 5375 5388
+type(
+  t
+)
+ident(
+  int_ref bmp "src/ocamlutil/bitmap.ml" 205 5330 5341 "src/ocamlutil/bitmap.ml" 205 5330 5344
+)
+"src/ocamlutil/bitmap.ml" 207 5375 5385 "src/ocamlutil/bitmap.ml" 207 5375 5396
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 208 5400 5410 "src/ocamlutil/bitmap.ml" 208 5400 5418
+type(
+  int -> int -> 'a -> 'a
+)
+ident(
+  def allWords "src/ocamlutil/bitmap.ml" 208 5400 5402 "src/ocamlutil/bitmap.ml" 220 5773 5791
+)
+"src/ocamlutil/bitmap.ml" 208 5400 5419 "src/ocamlutil/bitmap.ml" 208 5400 5422
+type(
+  int
+)
+ident(
+  def wrd "src/ocamlutil/bitmap.ml" 208 5400 5423 "src/ocamlutil/bitmap.ml" 218 5736 5766
+)
+"src/ocamlutil/bitmap.ml" 208 5400 5423 "src/ocamlutil/bitmap.ml" 208 5400 5426
+type(
+  int
+)
+ident(
+  def bit "src/ocamlutil/bitmap.ml" 208 5400 5427 "src/ocamlutil/bitmap.ml" 218 5736 5766
+)
+"src/ocamlutil/bitmap.ml" 208 5400 5427 "src/ocamlutil/bitmap.ml" 208 5400 5430
+type(
+  'a
+)
+ident(
+  def arg "src/ocamlutil/bitmap.ml" 209 5434 5438 "src/ocamlutil/bitmap.ml" 218 5736 5766
+)
+"src/ocamlutil/bitmap.ml" 209 5434 5441 "src/ocamlutil/bitmap.ml" 209 5434 5444
+type(
+  int
+)
+ident(
+  int_ref wrd "src/ocamlutil/bitmap.ml" 208 5400 5419 "src/ocamlutil/bitmap.ml" 208 5400 5422
+)
+"src/ocamlutil/bitmap.ml" 209 5434 5445 "src/ocamlutil/bitmap.ml" 209 5434 5447
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ocamlutil/bitmap.ml" 209 5434 5448 "src/ocamlutil/bitmap.ml" 209 5434 5449
+type(
+  int
+)
+ident(
+  int_ref n "src/ocamlutil/bitmap.ml" 207 5375 5381 "src/ocamlutil/bitmap.ml" 207 5375 5382
+)
+"src/ocamlutil/bitmap.ml" 209 5434 5441 "src/ocamlutil/bitmap.ml" 209 5434 5449
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 209 5434 5455 "src/ocamlutil/bitmap.ml" 209 5434 5458
+type(
+  'a
+)
+ident(
+  int_ref arg "src/ocamlutil/bitmap.ml" 208 5400 5427 "src/ocamlutil/bitmap.ml" 208 5400 5430
+)
+"src/ocamlutil/bitmap.ml" 210 5464 5476 "src/ocamlutil/bitmap.ml" 210 5464 5483
+type(
+  int32 -> int -> int -> 'a -> 'a
+)
+ident(
+  def allBits "src/ocamlutil/bitmap.ml" 210 5464 5468 "src/ocamlutil/bitmap.ml" 218 5736 5766
+)
+"src/ocamlutil/bitmap.ml" 210 5464 5484 "src/ocamlutil/bitmap.ml" 210 5464 5487
+type(
+  int32
+)
+ident(
+  def msk "src/ocamlutil/bitmap.ml" 210 5464 5488 "src/ocamlutil/bitmap.ml" 216 5709 5728
+)
+"src/ocamlutil/bitmap.ml" 210 5464 5488 "src/ocamlutil/bitmap.ml" 210 5464 5491
+type(
+  int
+)
+ident(
+  def bit "src/ocamlutil/bitmap.ml" 210 5464 5492 "src/ocamlutil/bitmap.ml" 216 5709 5728
+)
+"src/ocamlutil/bitmap.ml" 210 5464 5492 "src/ocamlutil/bitmap.ml" 210 5464 5496
+type(
+  int
+)
+ident(
+  def left "src/ocamlutil/bitmap.ml" 210 5464 5497 "src/ocamlutil/bitmap.ml" 216 5709 5728
+)
+"src/ocamlutil/bitmap.ml" 210 5464 5497 "src/ocamlutil/bitmap.ml" 210 5464 5500
+type(
+  'a
+)
+ident(
+  def arg "src/ocamlutil/bitmap.ml" 211 5504 5510 "src/ocamlutil/bitmap.ml" 216 5709 5728
+)
+"src/ocamlutil/bitmap.ml" 211 5504 5513 "src/ocamlutil/bitmap.ml" 211 5504 5517
+type(
+  int
+)
+ident(
+  int_ref left "src/ocamlutil/bitmap.ml" 210 5464 5492 "src/ocamlutil/bitmap.ml" 210 5464 5496
+)
+"src/ocamlutil/bitmap.ml" 211 5504 5518 "src/ocamlutil/bitmap.ml" 211 5504 5519
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/bitmap.ml" 211 5504 5520 "src/ocamlutil/bitmap.ml" 211 5504 5521
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 211 5504 5513 "src/ocamlutil/bitmap.ml" 211 5504 5521
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 212 5528 5536 "src/ocamlutil/bitmap.ml" 212 5528 5544
+type(
+  int -> int -> 'a -> 'a
+)
+ident(
+  int_ref allWords "src/ocamlutil/bitmap.ml" 208 5400 5410 "src/ocamlutil/bitmap.ml" 208 5400 5418
+)
+"src/ocamlutil/bitmap.ml" 212 5528 5546 "src/ocamlutil/bitmap.ml" 212 5528 5549
+type(
+  int
+)
+ident(
+  int_ref wrd "src/ocamlutil/bitmap.ml" 208 5400 5419 "src/ocamlutil/bitmap.ml" 208 5400 5422
+)
+"src/ocamlutil/bitmap.ml" 212 5528 5550 "src/ocamlutil/bitmap.ml" 212 5528 5551
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/bitmap.ml" 212 5528 5552 "src/ocamlutil/bitmap.ml" 212 5528 5553
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 212 5528 5545 "src/ocamlutil/bitmap.ml" 212 5528 5554
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 212 5528 5555 "src/ocamlutil/bitmap.ml" 212 5528 5558
+type(
+  int
+)
+ident(
+  int_ref bit "src/ocamlutil/bitmap.ml" 210 5464 5488 "src/ocamlutil/bitmap.ml" 210 5464 5491
+)
+"src/ocamlutil/bitmap.ml" 212 5528 5559 "src/ocamlutil/bitmap.ml" 212 5528 5562
+type(
+  'a
+)
+ident(
+  int_ref arg "src/ocamlutil/bitmap.ml" 210 5464 5497 "src/ocamlutil/bitmap.ml" 210 5464 5500
+)
+"src/ocamlutil/bitmap.ml" 212 5528 5536 "src/ocamlutil/bitmap.ml" 212 5528 5562
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/bitmap.ml" 214 5574 5582 "src/ocamlutil/bitmap.ml" 214 5574 5589
+type(
+  int32 -> int -> int -> 'a -> 'a
+)
+ident(
+  int_ref allBits "src/ocamlutil/bitmap.ml" 210 5464 5476 "src/ocamlutil/bitmap.ml" 210 5464 5483
+)
+"src/ocamlutil/bitmap.ml" 214 5574 5591 "src/ocamlutil/bitmap.ml" 214 5574 5608
+type(
+  int32 -> int -> int32
+)
+ident(
+  ext_ref Int32.shift_right
+)
+"src/ocamlutil/bitmap.ml" 214 5574 5609 "src/ocamlutil/bitmap.ml" 214 5574 5612
+type(
+  int32
+)
+ident(
+  int_ref msk "src/ocamlutil/bitmap.ml" 210 5464 5484 "src/ocamlutil/bitmap.ml" 210 5464 5487
+)
+"src/ocamlutil/bitmap.ml" 214 5574 5613 "src/ocamlutil/bitmap.ml" 214 5574 5614
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 214 5574 5590 "src/ocamlutil/bitmap.ml" 214 5574 5615
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 214 5574 5617 "src/ocamlutil/bitmap.ml" 214 5574 5620
+type(
+  int
+)
+ident(
+  int_ref bit "src/ocamlutil/bitmap.ml" 210 5464 5488 "src/ocamlutil/bitmap.ml" 210 5464 5491
+)
+"src/ocamlutil/bitmap.ml" 214 5574 5621 "src/ocamlutil/bitmap.ml" 214 5574 5622
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/bitmap.ml" 214 5574 5623 "src/ocamlutil/bitmap.ml" 214 5574 5624
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 214 5574 5616 "src/ocamlutil/bitmap.ml" 214 5574 5625
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 214 5574 5627 "src/ocamlutil/bitmap.ml" 214 5574 5631
+type(
+  int
+)
+ident(
+  int_ref left "src/ocamlutil/bitmap.ml" 210 5464 5492 "src/ocamlutil/bitmap.ml" 210 5464 5496
+)
+"src/ocamlutil/bitmap.ml" 214 5574 5632 "src/ocamlutil/bitmap.ml" 214 5574 5633
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/bitmap.ml" 214 5574 5634 "src/ocamlutil/bitmap.ml" 214 5574 5635
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 214 5574 5626 "src/ocamlutil/bitmap.ml" 214 5574 5636
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 215 5638 5652 "src/ocamlutil/bitmap.ml" 215 5638 5664
+type(
+  int32 -> int32 -> int32
+)
+ident(
+  ext_ref Int32.logand
+)
+"src/ocamlutil/bitmap.ml" 215 5638 5665 "src/ocamlutil/bitmap.ml" 215 5638 5668
+type(
+  int32
+)
+ident(
+  int_ref msk "src/ocamlutil/bitmap.ml" 210 5464 5484 "src/ocamlutil/bitmap.ml" 210 5464 5487
+)
+"src/ocamlutil/bitmap.ml" 215 5638 5669 "src/ocamlutil/bitmap.ml" 215 5638 5678
+type(
+  int32
+)
+ident(
+  ext_ref Int32.one
+)
+"src/ocamlutil/bitmap.ml" 215 5638 5652 "src/ocamlutil/bitmap.ml" 215 5638 5678
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 215 5638 5679 "src/ocamlutil/bitmap.ml" 215 5638 5681
+type(
+  int32 -> int32 -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ocamlutil/bitmap.ml" 215 5638 5682 "src/ocamlutil/bitmap.ml" 215 5638 5692
+type(
+  int32
+)
+ident(
+  ext_ref Int32.zero
+)
+"src/ocamlutil/bitmap.ml" 215 5638 5652 "src/ocamlutil/bitmap.ml" 215 5638 5692
+type(
+  bool
+)
+"src/ocamlutil/bitmap.ml" 215 5638 5698 "src/ocamlutil/bitmap.ml" 215 5638 5699
+type(
+  'a -> int -> 'a
+)
+ident(
+  int_ref f "src/ocamlutil/bitmap.ml" 205 5330 5339 "src/ocamlutil/bitmap.ml" 205 5330 5340
+)
+"src/ocamlutil/bitmap.ml" 215 5638 5700 "src/ocamlutil/bitmap.ml" 215 5638 5703
+type(
+  'a
+)
+ident(
+  int_ref arg "src/ocamlutil/bitmap.ml" 210 5464 5497 "src/ocamlutil/bitmap.ml" 210 5464 5500
+)
+"src/ocamlutil/bitmap.ml" 215 5638 5704 "src/ocamlutil/bitmap.ml" 215 5638 5707
+type(
+  int
+)
+ident(
+  int_ref bit "src/ocamlutil/bitmap.ml" 210 5464 5488 "src/ocamlutil/bitmap.ml" 210 5464 5491
+)
+"src/ocamlutil/bitmap.ml" 215 5638 5698 "src/ocamlutil/bitmap.ml" 215 5638 5707
+call(
+  stack
+)
+type(
+  'a
+)
+"src/ocamlutil/bitmap.ml" 216 5709 5724 "src/ocamlutil/bitmap.ml" 216 5709 5727
+type(
+  'a
+)
+ident(
+  int_ref arg "src/ocamlutil/bitmap.ml" 210 5464 5497 "src/ocamlutil/bitmap.ml" 210 5464 5500
+)
+"src/ocamlutil/bitmap.ml" 215 5638 5648 "src/ocamlutil/bitmap.ml" 216 5709 5728
+type(
+  'a
+)
+"src/ocamlutil/bitmap.ml" 214 5574 5582 "src/ocamlutil/bitmap.ml" 216 5709 5728
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/bitmap.ml" 211 5504 5510 "src/ocamlutil/bitmap.ml" 216 5709 5728
+type(
+  'a
+)
+"src/ocamlutil/bitmap.ml" 218 5736 5740 "src/ocamlutil/bitmap.ml" 218 5736 5747
+type(
+  int32 -> int -> int -> 'a -> 'a
+)
+ident(
+  int_ref allBits "src/ocamlutil/bitmap.ml" 210 5464 5476 "src/ocamlutil/bitmap.ml" 210 5464 5483
+)
+"src/ocamlutil/bitmap.ml" 218 5736 5748 "src/ocamlutil/bitmap.ml" 218 5736 5749
+type(
+  int32 array
+)
+ident(
+  int_ref a "src/ocamlutil/bitmap.ml" 206 5351 5357 "src/ocamlutil/bitmap.ml" 206 5351 5358
+)
+"src/ocamlutil/bitmap.ml" 218 5736 5751 "src/ocamlutil/bitmap.ml" 218 5736 5754
+type(
+  int
+)
+ident(
+  int_ref wrd "src/ocamlutil/bitmap.ml" 208 5400 5419 "src/ocamlutil/bitmap.ml" 208 5400 5422
+)
+"src/ocamlutil/bitmap.ml" 218 5736 5748 "src/ocamlutil/bitmap.ml" 218 5736 5755
+type(
+  int32
+)
+"src/ocamlutil/bitmap.ml" 218 5736 5756 "src/ocamlutil/bitmap.ml" 218 5736 5759
+type(
+  int
+)
+ident(
+  int_ref bit "src/ocamlutil/bitmap.ml" 208 5400 5423 "src/ocamlutil/bitmap.ml" 208 5400 5426
+)
+"src/ocamlutil/bitmap.ml" 218 5736 5760 "src/ocamlutil/bitmap.ml" 218 5736 5762
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 218 5736 5763 "src/ocamlutil/bitmap.ml" 218 5736 5766
+type(
+  'a
+)
+ident(
+  int_ref arg "src/ocamlutil/bitmap.ml" 208 5400 5427 "src/ocamlutil/bitmap.ml" 208 5400 5430
+)
+"src/ocamlutil/bitmap.ml" 218 5736 5740 "src/ocamlutil/bitmap.ml" 218 5736 5766
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/bitmap.ml" 210 5464 5468 "src/ocamlutil/bitmap.ml" 218 5736 5766
+type(
+  'a
+)
+"src/ocamlutil/bitmap.ml" 209 5434 5438 "src/ocamlutil/bitmap.ml" 218 5736 5766
+type(
+  'a
+)
+"src/ocamlutil/bitmap.ml" 220 5773 5775 "src/ocamlutil/bitmap.ml" 220 5773 5783
+type(
+  int -> int -> 'a -> 'a
+)
+ident(
+  int_ref allWords "src/ocamlutil/bitmap.ml" 208 5400 5410 "src/ocamlutil/bitmap.ml" 208 5400 5418
+)
+"src/ocamlutil/bitmap.ml" 220 5773 5784 "src/ocamlutil/bitmap.ml" 220 5773 5785
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 220 5773 5786 "src/ocamlutil/bitmap.ml" 220 5773 5787
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 220 5773 5788 "src/ocamlutil/bitmap.ml" 220 5773 5791
+type(
+  'a
+)
+ident(
+  int_ref arg "src/ocamlutil/bitmap.ml" 205 5330 5345 "src/ocamlutil/bitmap.ml" 205 5330 5348
+)
+"src/ocamlutil/bitmap.ml" 220 5773 5775 "src/ocamlutil/bitmap.ml" 220 5773 5791
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/bitmap.ml" 208 5400 5402 "src/ocamlutil/bitmap.ml" 220 5773 5791
+type(
+  'a
+)
+"src/ocamlutil/bitmap.ml" 207 5375 5377 "src/ocamlutil/bitmap.ml" 220 5773 5791
+type(
+  'a
+)
+"src/ocamlutil/bitmap.ml" 206 5351 5353 "src/ocamlutil/bitmap.ml" 220 5773 5791
+type(
+  'a
+)
+"src/ocamlutil/bitmap.ml" 223 5794 5798 "src/ocamlutil/bitmap.ml" 223 5794 5802
+type(
+  (int -> unit) -> t -> unit
+)
+ident(
+  def iter "src/ocamlutil/bitmap.ml" 225 5837 5837 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 223 5794 5803 "src/ocamlutil/bitmap.ml" 223 5794 5804
+type(
+  int -> unit
+)
+ident(
+  def f "src/ocamlutil/bitmap.ml" 223 5794 5805 "src/ocamlutil/bitmap.ml" 223 5794 5835
+)
+"src/ocamlutil/bitmap.ml" 223 5794 5805 "src/ocamlutil/bitmap.ml" 223 5794 5806
+type(
+  t
+)
+ident(
+  def t "src/ocamlutil/bitmap.ml" 223 5794 5809 "src/ocamlutil/bitmap.ml" 223 5794 5835
+)
+"src/ocamlutil/bitmap.ml" 223 5794 5809 "src/ocamlutil/bitmap.ml" 223 5794 5813
+type(
+  (unit -> int -> unit) -> t -> unit -> unit
+)
+ident(
+  int_ref fold "src/ocamlutil/bitmap.ml" 205 5330 5334 "src/ocamlutil/bitmap.ml" 205 5330 5338
+)
+"src/ocamlutil/bitmap.ml" 223 5794 5819 "src/ocamlutil/bitmap.ml" 223 5794 5820
+type(
+  unit
+)
+ident(
+  def x "src/ocamlutil/bitmap.ml" 223 5794 5821 "src/ocamlutil/bitmap.ml" 223 5794 5829
+)
+"src/ocamlutil/bitmap.ml" 223 5794 5821 "src/ocamlutil/bitmap.ml" 223 5794 5822
+type(
+  int
+)
+ident(
+  def y "src/ocamlutil/bitmap.ml" 223 5794 5826 "src/ocamlutil/bitmap.ml" 223 5794 5829
+)
+"src/ocamlutil/bitmap.ml" 223 5794 5826 "src/ocamlutil/bitmap.ml" 223 5794 5827
+type(
+  int -> unit
+)
+ident(
+  int_ref f "src/ocamlutil/bitmap.ml" 223 5794 5803 "src/ocamlutil/bitmap.ml" 223 5794 5804
+)
+"src/ocamlutil/bitmap.ml" 223 5794 5828 "src/ocamlutil/bitmap.ml" 223 5794 5829
+type(
+  int
+)
+ident(
+  int_ref y "src/ocamlutil/bitmap.ml" 223 5794 5821 "src/ocamlutil/bitmap.ml" 223 5794 5822
+)
+"src/ocamlutil/bitmap.ml" 223 5794 5826 "src/ocamlutil/bitmap.ml" 223 5794 5829
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 223 5794 5814 "src/ocamlutil/bitmap.ml" 223 5794 5830
+type(
+  unit -> int -> unit
+)
+"src/ocamlutil/bitmap.ml" 223 5794 5831 "src/ocamlutil/bitmap.ml" 223 5794 5832
+type(
+  t
+)
+ident(
+  int_ref t "src/ocamlutil/bitmap.ml" 223 5794 5805 "src/ocamlutil/bitmap.ml" 223 5794 5806
+)
+"src/ocamlutil/bitmap.ml" 223 5794 5833 "src/ocamlutil/bitmap.ml" 223 5794 5835
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 223 5794 5809 "src/ocamlutil/bitmap.ml" 223 5794 5835
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/bitmap.ml" 225 5837 5841 "src/ocamlutil/bitmap.ml" 225 5837 5847
+type(
+  t -> int list
+)
+ident(
+  def toList "src/ocamlutil/bitmap.ml" 227 5891 5891 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 225 5837 5848 "src/ocamlutil/bitmap.ml" 225 5837 5851
+type(
+  t
+)
+ident(
+  def bmp "src/ocamlutil/bitmap.ml" 225 5837 5854 "src/ocamlutil/bitmap.ml" 225 5837 5889
+)
+"src/ocamlutil/bitmap.ml" 225 5837 5854 "src/ocamlutil/bitmap.ml" 225 5837 5858
+type(
+  (int list -> int -> int list) -> t -> int list -> int list
+)
+ident(
+  int_ref fold "src/ocamlutil/bitmap.ml" 205 5330 5334 "src/ocamlutil/bitmap.ml" 205 5330 5338
+)
+"src/ocamlutil/bitmap.ml" 225 5837 5864 "src/ocamlutil/bitmap.ml" 225 5837 5867
+type(
+  int list
+)
+ident(
+  def acc "src/ocamlutil/bitmap.ml" 225 5837 5868 "src/ocamlutil/bitmap.ml" 225 5837 5881
+)
+"src/ocamlutil/bitmap.ml" 225 5837 5868 "src/ocamlutil/bitmap.ml" 225 5837 5869
+type(
+  int
+)
+ident(
+  def i "src/ocamlutil/bitmap.ml" 225 5837 5873 "src/ocamlutil/bitmap.ml" 225 5837 5881
+)
+"src/ocamlutil/bitmap.ml" 225 5837 5873 "src/ocamlutil/bitmap.ml" 225 5837 5874
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/bitmap.ml" 225 5837 5868 "src/ocamlutil/bitmap.ml" 225 5837 5869
+)
+"src/ocamlutil/bitmap.ml" 225 5837 5878 "src/ocamlutil/bitmap.ml" 225 5837 5881
+type(
+  int list
+)
+ident(
+  int_ref acc "src/ocamlutil/bitmap.ml" 225 5837 5864 "src/ocamlutil/bitmap.ml" 225 5837 5867
+)
+"src/ocamlutil/bitmap.ml" 225 5837 5873 "src/ocamlutil/bitmap.ml" 225 5837 5881
+type(
+  int list
+)
+"src/ocamlutil/bitmap.ml" 225 5837 5859 "src/ocamlutil/bitmap.ml" 225 5837 5882
+type(
+  int list -> int -> int list
+)
+"src/ocamlutil/bitmap.ml" 225 5837 5883 "src/ocamlutil/bitmap.ml" 225 5837 5886
+type(
+  t
+)
+ident(
+  int_ref bmp "src/ocamlutil/bitmap.ml" 225 5837 5848 "src/ocamlutil/bitmap.ml" 225 5837 5851
+)
+"src/ocamlutil/bitmap.ml" 225 5837 5887 "src/ocamlutil/bitmap.ml" 225 5837 5889
+type(
+  int list
+)
+"src/ocamlutil/bitmap.ml" 225 5837 5854 "src/ocamlutil/bitmap.ml" 225 5837 5889
+call(
+  tail
+)
+type(
+  int list
+)
+"src/ocamlutil/bitmap.ml" 227 5891 5895 "src/ocamlutil/bitmap.ml" 227 5891 5899
+type(
+  t -> int
+)
+ident(
+  def card "src/ocamlutil/bitmap.ml" 227 5891 5941 "src/ocamlutil/bitmap.ml" 1 0 -1
+)
+"src/ocamlutil/bitmap.ml" 227 5891 5900 "src/ocamlutil/bitmap.ml" 227 5891 5903
+type(
+  t
+)
+ident(
+  def bmp "src/ocamlutil/bitmap.ml" 227 5891 5908 "src/ocamlutil/bitmap.ml" 227 5891 5941
+)
+"src/ocamlutil/bitmap.ml" 227 5891 5908 "src/ocamlutil/bitmap.ml" 227 5891 5912
+type(
+  (int -> int -> int) -> t -> int -> int
+)
+ident(
+  int_ref fold "src/ocamlutil/bitmap.ml" 205 5330 5334 "src/ocamlutil/bitmap.ml" 205 5330 5338
+)
+"src/ocamlutil/bitmap.ml" 227 5891 5918 "src/ocamlutil/bitmap.ml" 227 5891 5921
+type(
+  int
+)
+ident(
+  def acc "src/ocamlutil/bitmap.ml" 227 5891 5922 "src/ocamlutil/bitmap.ml" 227 5891 5934
+)
+"src/ocamlutil/bitmap.ml" 227 5891 5922 "src/ocamlutil/bitmap.ml" 227 5891 5923
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 227 5891 5927 "src/ocamlutil/bitmap.ml" 227 5891 5930
+type(
+  int
+)
+ident(
+  int_ref acc "src/ocamlutil/bitmap.ml" 227 5891 5918 "src/ocamlutil/bitmap.ml" 227 5891 5921
+)
+"src/ocamlutil/bitmap.ml" 227 5891 5931 "src/ocamlutil/bitmap.ml" 227 5891 5932
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/bitmap.ml" 227 5891 5933 "src/ocamlutil/bitmap.ml" 227 5891 5934
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 227 5891 5927 "src/ocamlutil/bitmap.ml" 227 5891 5934
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 227 5891 5913 "src/ocamlutil/bitmap.ml" 227 5891 5935
+type(
+  int -> int -> int
+)
+"src/ocamlutil/bitmap.ml" 227 5891 5936 "src/ocamlutil/bitmap.ml" 227 5891 5939
+type(
+  t
+)
+ident(
+  int_ref bmp "src/ocamlutil/bitmap.ml" 227 5891 5900 "src/ocamlutil/bitmap.ml" 227 5891 5903
+)
+"src/ocamlutil/bitmap.ml" 227 5891 5940 "src/ocamlutil/bitmap.ml" 227 5891 5941
+type(
+  int
+)
+"src/ocamlutil/bitmap.ml" 227 5891 5908 "src/ocamlutil/bitmap.ml" 227 5891 5941
+call(
+  tail
+)
+type(
+  int
+)

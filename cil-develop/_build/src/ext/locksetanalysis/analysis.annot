@@ -1,0 +1,4769 @@
+"src/ext/locksetanalysis/analysis.ml" 17 391 395 "src/ext/locksetanalysis/analysis.ml" 17 391 400
+type(
+  bool ref
+)
+ident(
+  def debug "src/ext/locksetanalysis/analysis.ml" 19 414 414 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 17 391 403 "src/ext/locksetanalysis/analysis.ml" 17 391 406
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/locksetanalysis/analysis.ml" 17 391 407 "src/ext/locksetanalysis/analysis.ml" 17 391 412
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 17 391 403 "src/ext/locksetanalysis/analysis.ml" 17 391 412
+type(
+  bool ref
+)
+"src/ext/locksetanalysis/analysis.ml" 20 455 459 "src/ext/locksetanalysis/analysis.ml" 20 455 466
+type(
+  funT
+)
+ident(
+  def currFun "src/ext/locksetanalysis/analysis.ml" 24 495 495 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 20 455 483 "src/ext/locksetanalysis/analysis.ml" 20 455 490
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 20 455 470 "src/ext/locksetanalysis/analysis.ml" 20 455 491
+type(
+  funT
+)
+"src/ext/locksetanalysis/analysis.ml" 24 495 499 "src/ext/locksetanalysis/analysis.ml" 24 495 503
+type(
+  'a -> ('a -> 'b) -> 'b
+)
+ident(
+  def |> "src/ext/locksetanalysis/analysis.ml" 26 540 540 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 24 495 505 "src/ext/locksetanalysis/analysis.ml" 24 495 506
+type(
+  'a
+)
+ident(
+  def a "src/ext/locksetanalysis/analysis.ml" 24 495 513 "src/ext/locksetanalysis/analysis.ml" 24 495 538
+)
+"src/ext/locksetanalysis/analysis.ml" 24 495 514 "src/ext/locksetanalysis/analysis.ml" 24 495 515
+type(
+  'a -> 'b
+)
+ident(
+  def f "src/ext/locksetanalysis/analysis.ml" 24 495 528 "src/ext/locksetanalysis/analysis.ml" 24 495 538
+)
+"src/ext/locksetanalysis/analysis.ml" 24 495 535 "src/ext/locksetanalysis/analysis.ml" 24 495 536
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "src/ext/locksetanalysis/analysis.ml" 24 495 514 "src/ext/locksetanalysis/analysis.ml" 24 495 515
+)
+"src/ext/locksetanalysis/analysis.ml" 24 495 537 "src/ext/locksetanalysis/analysis.ml" 24 495 538
+type(
+  'a
+)
+ident(
+  int_ref a "src/ext/locksetanalysis/analysis.ml" 24 495 505 "src/ext/locksetanalysis/analysis.ml" 24 495 506
+)
+"src/ext/locksetanalysis/analysis.ml" 24 495 535 "src/ext/locksetanalysis/analysis.ml" 24 495 538
+call(
+  tail
+)
+type(
+  'b
+)
+type(
+  'b
+)
+"src/ext/locksetanalysis/analysis.ml" 26 540 544 "src/ext/locksetanalysis/analysis.ml" 26 540 548
+type(
+  Cil.varinfo list ref
+)
+ident(
+  def gVar "src/ext/locksetanalysis/analysis.ml" 30 561 561 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 26 540 551 "src/ext/locksetanalysis/analysis.ml" 26 540 554
+type(
+  Cil.varinfo list -> Cil.varinfo list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/locksetanalysis/analysis.ml" 26 540 555 "src/ext/locksetanalysis/analysis.ml" 26 540 557
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 26 540 551 "src/ext/locksetanalysis/analysis.ml" 26 540 557
+type(
+  Cil.varinfo list ref
+)
+"src/ext/locksetanalysis/analysis.ml" 30 561 565 "src/ext/locksetanalysis/analysis.ml" 30 561 578
+type(
+  (Cil.fundec -> Cil.location -> unit) -> Cil.global -> unit
+)
+ident(
+  def onlyFunctions "src/ext/locksetanalysis/analysis.ml" 35 693 693 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 30 561 580 "src/ext/locksetanalysis/analysis.ml" 30 561 582
+type(
+  Cil.fundec -> Cil.location -> unit
+)
+ident(
+  def fn "src/ext/locksetanalysis/analysis.ml" 30 561 613 "src/ext/locksetanalysis/analysis.ml" 33 680 691
+)
+"src/ext/locksetanalysis/analysis.ml" 30 561 614 "src/ext/locksetanalysis/analysis.ml" 30 561 615
+type(
+  Cil.global
+)
+ident(
+  def g "src/ext/locksetanalysis/analysis.ml" 30 561 626 "src/ext/locksetanalysis/analysis.ml" 33 680 691
+)
+"src/ext/locksetanalysis/analysis.ml" 31 636 644 "src/ext/locksetanalysis/analysis.ml" 31 636 645
+type(
+  Cil.global
+)
+ident(
+  int_ref g "src/ext/locksetanalysis/analysis.ml" 30 561 614 "src/ext/locksetanalysis/analysis.ml" 30 561 615
+)
+"src/ext/locksetanalysis/analysis.ml" 32 651 660 "src/ext/locksetanalysis/analysis.ml" 32 651 661
+type(
+  Cil.fundec
+)
+ident(
+  def f "src/ext/locksetanalysis/analysis.ml" 32 651 671 "src/ext/locksetanalysis/analysis.ml" 32 651 679
+)
+"src/ext/locksetanalysis/analysis.ml" 32 651 663 "src/ext/locksetanalysis/analysis.ml" 32 651 666
+type(
+  Cil.location
+)
+ident(
+  def loc "src/ext/locksetanalysis/analysis.ml" 32 651 671 "src/ext/locksetanalysis/analysis.ml" 32 651 679
+)
+"src/ext/locksetanalysis/analysis.ml" 32 651 655 "src/ext/locksetanalysis/analysis.ml" 32 651 667
+type(
+  Cil.global
+)
+"src/ext/locksetanalysis/analysis.ml" 32 651 671 "src/ext/locksetanalysis/analysis.ml" 32 651 673
+type(
+  Cil.fundec -> Cil.location -> unit
+)
+ident(
+  int_ref fn "src/ext/locksetanalysis/analysis.ml" 30 561 580 "src/ext/locksetanalysis/analysis.ml" 30 561 582
+)
+"src/ext/locksetanalysis/analysis.ml" 32 651 674 "src/ext/locksetanalysis/analysis.ml" 32 651 675
+type(
+  Cil.fundec
+)
+ident(
+  int_ref f "src/ext/locksetanalysis/analysis.ml" 32 651 660 "src/ext/locksetanalysis/analysis.ml" 32 651 661
+)
+"src/ext/locksetanalysis/analysis.ml" 32 651 676 "src/ext/locksetanalysis/analysis.ml" 32 651 679
+type(
+  Cil.location
+)
+ident(
+  int_ref loc "src/ext/locksetanalysis/analysis.ml" 32 651 663 "src/ext/locksetanalysis/analysis.ml" 32 651 666
+)
+"src/ext/locksetanalysis/analysis.ml" 32 651 671 "src/ext/locksetanalysis/analysis.ml" 32 651 679
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 33 680 684 "src/ext/locksetanalysis/analysis.ml" 33 680 685
+type(
+  Cil.global
+)
+"src/ext/locksetanalysis/analysis.ml" 33 680 689 "src/ext/locksetanalysis/analysis.ml" 33 680 691
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 31 636 638 "src/ext/locksetanalysis/analysis.ml" 33 680 691
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 35 693 697 "src/ext/locksetanalysis/analysis.ml" 35 693 704
+type(
+  Cil.file -> Cil.global list
+)
+ident(
+  def getVars "src/ext/locksetanalysis/analysis.ml" 42 823 823 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 35 693 706 "src/ext/locksetanalysis/analysis.ml" 35 693 707
+type(
+  Cil.file
+)
+ident(
+  def f "src/ext/locksetanalysis/analysis.ml" 36 719 721 "src/ext/locksetanalysis/analysis.ml" 40 810 821
+)
+"src/ext/locksetanalysis/analysis.ml" 36 719 721 "src/ext/locksetanalysis/analysis.ml" 36 719 732
+type(
+  (Cil.global -> bool) -> Cil.global list -> Cil.global list
+)
+ident(
+  ext_ref List.filter
+)
+"src/ext/locksetanalysis/analysis.ml" 36 719 738 "src/ext/locksetanalysis/analysis.ml" 36 719 739
+type(
+  Cil.global
+)
+ident(
+  def g "src/ext/locksetanalysis/analysis.ml" 37 743 747 "src/ext/locksetanalysis/analysis.ml" 39 791 807
+)
+"src/ext/locksetanalysis/analysis.ml" 37 743 753 "src/ext/locksetanalysis/analysis.ml" 37 743 754
+type(
+  Cil.global
+)
+ident(
+  int_ref g "src/ext/locksetanalysis/analysis.ml" 36 719 738 "src/ext/locksetanalysis/analysis.ml" 36 719 739
+)
+"src/ext/locksetanalysis/analysis.ml" 38 760 771 "src/ext/locksetanalysis/analysis.ml" 38 760 773
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/locksetanalysis/analysis.ml" 38 760 785 "src/ext/locksetanalysis/analysis.ml" 38 760 789
+)
+"src/ext/locksetanalysis/analysis.ml" 38 760 774 "src/ext/locksetanalysis/analysis.ml" 38 760 775
+type(
+  Cil.initinfo
+)
+ident(
+  def i "src/ext/locksetanalysis/analysis.ml" 38 760 785 "src/ext/locksetanalysis/analysis.ml" 38 760 789
+)
+"src/ext/locksetanalysis/analysis.ml" 38 760 777 "src/ext/locksetanalysis/analysis.ml" 38 760 780
+type(
+  Cil.location
+)
+ident(
+  def loc "src/ext/locksetanalysis/analysis.ml" 38 760 785 "src/ext/locksetanalysis/analysis.ml" 38 760 789
+)
+"src/ext/locksetanalysis/analysis.ml" 38 760 766 "src/ext/locksetanalysis/analysis.ml" 38 760 781
+type(
+  Cil.global
+)
+"src/ext/locksetanalysis/analysis.ml" 38 760 785 "src/ext/locksetanalysis/analysis.ml" 38 760 789
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 39 791 797 "src/ext/locksetanalysis/analysis.ml" 39 791 798
+type(
+  Cil.global
+)
+"src/ext/locksetanalysis/analysis.ml" 39 791 802 "src/ext/locksetanalysis/analysis.ml" 39 791 807
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 37 743 747 "src/ext/locksetanalysis/analysis.ml" 39 791 807
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 36 719 733 "src/ext/locksetanalysis/analysis.ml" 39 791 809
+type(
+  Cil.global -> bool
+)
+"src/ext/locksetanalysis/analysis.ml" 40 810 812 "src/ext/locksetanalysis/analysis.ml" 40 810 813
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/locksetanalysis/analysis.ml" 35 693 706 "src/ext/locksetanalysis/analysis.ml" 35 693 707
+)
+"src/ext/locksetanalysis/analysis.ml" 40 810 812 "src/ext/locksetanalysis/analysis.ml" 40 810 821
+type(
+  Cil.global list
+)
+"src/ext/locksetanalysis/analysis.ml" 36 719 721 "src/ext/locksetanalysis/analysis.ml" 40 810 821
+call(
+  tail
+)
+type(
+  Cil.global list
+)
+"src/ext/locksetanalysis/analysis.ml" 42 823 831 "src/ext/locksetanalysis/analysis.ml" 42 823 842
+type(
+  Cil.global list -> Cil.varinfo list
+)
+ident(
+  def convertVars "src/ext/locksetanalysis/analysis.ml" 42 823 823 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 42 823 843 "src/ext/locksetanalysis/analysis.ml" 42 823 846
+type(
+  Cil.global list
+)
+ident(
+  def lst "src/ext/locksetanalysis/analysis.ml" 43 849 851 "src/ext/locksetanalysis/analysis.ml" 48 987 996
+)
+"src/ext/locksetanalysis/analysis.ml" 43 849 857 "src/ext/locksetanalysis/analysis.ml" 43 849 860
+type(
+  Cil.global list
+)
+ident(
+  int_ref lst "src/ext/locksetanalysis/analysis.ml" 42 823 843 "src/ext/locksetanalysis/analysis.ml" 42 823 846
+)
+"src/ext/locksetanalysis/analysis.ml" 44 866 870 "src/ext/locksetanalysis/analysis.ml" 44 866 872
+type(
+  Cil.global list
+)
+"src/ext/locksetanalysis/analysis.ml" 44 866 876 "src/ext/locksetanalysis/analysis.ml" 44 866 878
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 45 879 885 "src/ext/locksetanalysis/analysis.ml" 45 879 886
+type(
+  Cil.global
+)
+ident(
+  def h "src/ext/locksetanalysis/analysis.ml" 46 896 902 "src/ext/locksetanalysis/analysis.ml" 48 987 996
+)
+"src/ext/locksetanalysis/analysis.ml" 45 879 890 "src/ext/locksetanalysis/analysis.ml" 45 879 891
+type(
+  Cil.global list
+)
+ident(
+  def t "src/ext/locksetanalysis/analysis.ml" 46 896 902 "src/ext/locksetanalysis/analysis.ml" 48 987 996
+)
+"src/ext/locksetanalysis/analysis.ml" 45 879 885 "src/ext/locksetanalysis/analysis.ml" 45 879 891
+type(
+  Cil.global list
+)
+"src/ext/locksetanalysis/analysis.ml" 46 896 908 "src/ext/locksetanalysis/analysis.ml" 46 896 909
+type(
+  Cil.global
+)
+ident(
+  int_ref h "src/ext/locksetanalysis/analysis.ml" 45 879 885 "src/ext/locksetanalysis/analysis.ml" 45 879 886
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 928 "src/ext/locksetanalysis/analysis.ml" 47 915 930
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/locksetanalysis/analysis.ml" 47 915 942 "src/ext/locksetanalysis/analysis.ml" 47 915 986
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 931 "src/ext/locksetanalysis/analysis.ml" 47 915 932
+type(
+  Cil.initinfo
+)
+ident(
+  def i "src/ext/locksetanalysis/analysis.ml" 47 915 942 "src/ext/locksetanalysis/analysis.ml" 47 915 986
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 934 "src/ext/locksetanalysis/analysis.ml" 47 915 937
+type(
+  Cil.location
+)
+ident(
+  def loc "src/ext/locksetanalysis/analysis.ml" 47 915 942 "src/ext/locksetanalysis/analysis.ml" 47 915 986
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 923 "src/ext/locksetanalysis/analysis.ml" 47 915 938
+type(
+  Cil.global
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 942 "src/ext/locksetanalysis/analysis.ml" 47 915 946
+type(
+  Cil.varinfo list ref
+)
+ident(
+  int_ref gVar "src/ext/locksetanalysis/analysis.ml" 26 540 544 "src/ext/locksetanalysis/analysis.ml" 26 540 548
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 947 "src/ext/locksetanalysis/analysis.ml" 47 915 949
+type(
+  Cil.varinfo list ref -> Cil.varinfo list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 951 "src/ext/locksetanalysis/analysis.ml" 47 915 952
+type(
+  Cil.varinfo list ref -> Cil.varinfo list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 952 "src/ext/locksetanalysis/analysis.ml" 47 915 956
+type(
+  Cil.varinfo list ref
+)
+ident(
+  int_ref gVar "src/ext/locksetanalysis/analysis.ml" 26 540 544 "src/ext/locksetanalysis/analysis.ml" 26 540 548
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 951 "src/ext/locksetanalysis/analysis.ml" 47 915 956
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 957 "src/ext/locksetanalysis/analysis.ml" 47 915 958
+type(
+  Cil.varinfo list -> Cil.varinfo list -> Cil.varinfo list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 961 "src/ext/locksetanalysis/analysis.ml" 47 915 963
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/locksetanalysis/analysis.ml" 47 915 928 "src/ext/locksetanalysis/analysis.ml" 47 915 930
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 960 "src/ext/locksetanalysis/analysis.ml" 47 915 964
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 965 "src/ext/locksetanalysis/analysis.ml" 47 915 966
+type(
+  Cil.varinfo list -> Cil.varinfo list -> Cil.varinfo list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 968 "src/ext/locksetanalysis/analysis.ml" 47 915 979
+type(
+  Cil.global list -> Cil.varinfo list
+)
+ident(
+  int_ref convertVars "src/ext/locksetanalysis/analysis.ml" 42 823 831 "src/ext/locksetanalysis/analysis.ml" 42 823 842
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 980 "src/ext/locksetanalysis/analysis.ml" 47 915 981
+type(
+  Cil.global list
+)
+ident(
+  int_ref t "src/ext/locksetanalysis/analysis.ml" 45 879 890 "src/ext/locksetanalysis/analysis.ml" 45 879 891
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 967 "src/ext/locksetanalysis/analysis.ml" 47 915 982
+call(
+  stack
+)
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 960 "src/ext/locksetanalysis/analysis.ml" 47 915 982
+call(
+  stack
+)
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 951 "src/ext/locksetanalysis/analysis.ml" 47 915 982
+call(
+  stack
+)
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 942 "src/ext/locksetanalysis/analysis.ml" 47 915 982
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 984 "src/ext/locksetanalysis/analysis.ml" 47 915 986
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 47 915 942 "src/ext/locksetanalysis/analysis.ml" 47 915 986
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 48 987 989 "src/ext/locksetanalysis/analysis.ml" 48 987 990
+type(
+  Cil.global
+)
+"src/ext/locksetanalysis/analysis.ml" 48 987 994 "src/ext/locksetanalysis/analysis.ml" 48 987 996
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 46 896 902 "src/ext/locksetanalysis/analysis.ml" 48 987 996
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 43 849 851 "src/ext/locksetanalysis/analysis.ml" 48 987 996
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 50 998 1006 "src/ext/locksetanalysis/analysis.ml" 50 998 1015
+type(
+  Cil.varinfo list -> Cil.varinfo -> bool
+)
+ident(
+  def presentIn "src/ext/locksetanalysis/analysis.ml" 50 998 998 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 50 998 1016 "src/ext/locksetanalysis/analysis.ml" 50 998 1019
+type(
+  Cil.varinfo list
+)
+ident(
+  def lst "src/ext/locksetanalysis/analysis.ml" 50 998 1020 "src/ext/locksetanalysis/analysis.ml" 54 1101 1130
+)
+"src/ext/locksetanalysis/analysis.ml" 50 998 1020 "src/ext/locksetanalysis/analysis.ml" 50 998 1023
+type(
+  Cil.varinfo
+)
+ident(
+  def var "src/ext/locksetanalysis/analysis.ml" 51 1026 1028 "src/ext/locksetanalysis/analysis.ml" 54 1101 1130
+)
+"src/ext/locksetanalysis/analysis.ml" 51 1026 1034 "src/ext/locksetanalysis/analysis.ml" 51 1026 1037
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref lst "src/ext/locksetanalysis/analysis.ml" 50 998 1016 "src/ext/locksetanalysis/analysis.ml" 50 998 1019
+)
+"src/ext/locksetanalysis/analysis.ml" 52 1043 1045 "src/ext/locksetanalysis/analysis.ml" 52 1043 1047
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 52 1043 1051 "src/ext/locksetanalysis/analysis.ml" 52 1043 1056
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 53 1057 1061 "src/ext/locksetanalysis/analysis.ml" 53 1057 1062
+type(
+  Cil.varinfo
+)
+ident(
+  def h "src/ext/locksetanalysis/analysis.ml" 53 1057 1073 "src/ext/locksetanalysis/analysis.ml" 53 1057 1100
+)
+"src/ext/locksetanalysis/analysis.ml" 53 1057 1066 "src/ext/locksetanalysis/analysis.ml" 53 1057 1067
+type(
+  Cil.varinfo list
+)
+ident(
+  def t "src/ext/locksetanalysis/analysis.ml" 53 1057 1073 "src/ext/locksetanalysis/analysis.ml" 53 1057 1100
+)
+"src/ext/locksetanalysis/analysis.ml" 53 1057 1061 "src/ext/locksetanalysis/analysis.ml" 53 1057 1067
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 53 1057 1073 "src/ext/locksetanalysis/analysis.ml" 53 1057 1074
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref h "src/ext/locksetanalysis/analysis.ml" 53 1057 1061 "src/ext/locksetanalysis/analysis.ml" 53 1057 1062
+)
+"src/ext/locksetanalysis/analysis.ml" 53 1057 1073 "src/ext/locksetanalysis/analysis.ml" 53 1057 1080
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 53 1057 1081 "src/ext/locksetanalysis/analysis.ml" 53 1057 1082
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/locksetanalysis/analysis.ml" 53 1057 1083 "src/ext/locksetanalysis/analysis.ml" 53 1057 1086
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref var "src/ext/locksetanalysis/analysis.ml" 50 998 1020 "src/ext/locksetanalysis/analysis.ml" 50 998 1023
+)
+"src/ext/locksetanalysis/analysis.ml" 53 1057 1083 "src/ext/locksetanalysis/analysis.ml" 53 1057 1092
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 53 1057 1073 "src/ext/locksetanalysis/analysis.ml" 53 1057 1092
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 53 1057 1096 "src/ext/locksetanalysis/analysis.ml" 53 1057 1100
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 54 1101 1105 "src/ext/locksetanalysis/analysis.ml" 54 1101 1106
+type(
+  Cil.varinfo
+)
+ident(
+  def h "src/ext/locksetanalysis/analysis.ml" 54 1101 1115 "src/ext/locksetanalysis/analysis.ml" 54 1101 1130
+)
+"src/ext/locksetanalysis/analysis.ml" 54 1101 1110 "src/ext/locksetanalysis/analysis.ml" 54 1101 1111
+type(
+  Cil.varinfo list
+)
+ident(
+  def t "src/ext/locksetanalysis/analysis.ml" 54 1101 1115 "src/ext/locksetanalysis/analysis.ml" 54 1101 1130
+)
+"src/ext/locksetanalysis/analysis.ml" 54 1101 1105 "src/ext/locksetanalysis/analysis.ml" 54 1101 1111
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 54 1101 1115 "src/ext/locksetanalysis/analysis.ml" 54 1101 1124
+type(
+  Cil.varinfo list -> Cil.varinfo -> bool
+)
+ident(
+  int_ref presentIn "src/ext/locksetanalysis/analysis.ml" 50 998 1006 "src/ext/locksetanalysis/analysis.ml" 50 998 1015
+)
+"src/ext/locksetanalysis/analysis.ml" 54 1101 1125 "src/ext/locksetanalysis/analysis.ml" 54 1101 1126
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref t "src/ext/locksetanalysis/analysis.ml" 54 1101 1110 "src/ext/locksetanalysis/analysis.ml" 54 1101 1111
+)
+"src/ext/locksetanalysis/analysis.ml" 54 1101 1127 "src/ext/locksetanalysis/analysis.ml" 54 1101 1130
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref var "src/ext/locksetanalysis/analysis.ml" 50 998 1020 "src/ext/locksetanalysis/analysis.ml" 50 998 1023
+)
+"src/ext/locksetanalysis/analysis.ml" 54 1101 1115 "src/ext/locksetanalysis/analysis.ml" 54 1101 1130
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 51 1026 1028 "src/ext/locksetanalysis/analysis.ml" 54 1101 1130
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 73 1374 1378 "src/ext/locksetanalysis/analysis.ml" 73 1374 1386
+type(
+  lockT list ref
+)
+ident(
+  def lock_set "src/ext/locksetanalysis/analysis.ml" 75 1397 1397 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 73 1374 1389 "src/ext/locksetanalysis/analysis.ml" 73 1374 1392
+type(
+  lockT list -> lockT list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/locksetanalysis/analysis.ml" 73 1374 1393 "src/ext/locksetanalysis/analysis.ml" 73 1374 1395
+type(
+  lockT list
+)
+"src/ext/locksetanalysis/analysis.ml" 73 1374 1389 "src/ext/locksetanalysis/analysis.ml" 73 1374 1395
+type(
+  lockT list ref
+)
+"src/ext/locksetanalysis/analysis.ml" 75 1397 1401 "src/ext/locksetanalysis/analysis.ml" 75 1397 1404
+type(
+  lock -> string
+)
+ident(
+  def l2v "src/ext/locksetanalysis/analysis.ml" 80 1483 1483 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 75 1397 1406 "src/ext/locksetanalysis/analysis.ml" 75 1397 1407
+type(
+  lock
+)
+ident(
+  def k "src/ext/locksetanalysis/analysis.ml" 75 1397 1416 "src/ext/locksetanalysis/analysis.ml" 78 1466 1481
+)
+"src/ext/locksetanalysis/analysis.ml" 76 1427 1435 "src/ext/locksetanalysis/analysis.ml" 76 1427 1436
+type(
+  lock
+)
+ident(
+  int_ref k "src/ext/locksetanalysis/analysis.ml" 75 1397 1406 "src/ext/locksetanalysis/analysis.ml" 75 1397 1407
+)
+"src/ext/locksetanalysis/analysis.ml" 77 1442 1450 "src/ext/locksetanalysis/analysis.ml" 77 1442 1452
+ident(
+  def vi "src/ext/locksetanalysis/analysis.ml" 77 1442 1457 "src/ext/locksetanalysis/analysis.ml" 77 1442 1465
+)
+"src/ext/locksetanalysis/analysis.ml" 77 1442 1449 "src/ext/locksetanalysis/analysis.ml" 77 1442 1453
+type(
+  Cil.varinfo
+)
+"src/ext/locksetanalysis/analysis.ml" 77 1442 1446 "src/ext/locksetanalysis/analysis.ml" 77 1442 1453
+type(
+  lock
+)
+"src/ext/locksetanalysis/analysis.ml" 77 1442 1457 "src/ext/locksetanalysis/analysis.ml" 77 1442 1459
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/locksetanalysis/analysis.ml" 77 1442 1449 "src/ext/locksetanalysis/analysis.ml" 77 1442 1453
+)
+"src/ext/locksetanalysis/analysis.ml" 77 1442 1457 "src/ext/locksetanalysis/analysis.ml" 77 1442 1465
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 78 1466 1471 "src/ext/locksetanalysis/analysis.ml" 78 1466 1472
+type(
+  lock
+)
+"src/ext/locksetanalysis/analysis.ml" 78 1466 1476 "src/ext/locksetanalysis/analysis.ml" 78 1466 1481
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 76 1427 1429 "src/ext/locksetanalysis/analysis.ml" 78 1466 1481
+type(
+  string
+)
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 80 1483 1487 "src/ext/locksetanalysis/analysis.ml" 80 1483 1495
+type(
+  lock list -> string
+)
+ident(
+  def l2v_list "src/ext/locksetanalysis/analysis.ml" 83 1563 1563 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 80 1483 1497 "src/ext/locksetanalysis/analysis.ml" 80 1483 1499
+type(
+  lock list
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 80 1483 1513 "src/ext/locksetanalysis/analysis.ml" 81 1524 1561
+)
+"src/ext/locksetanalysis/analysis.ml" 81 1524 1526 "src/ext/locksetanalysis/analysis.ml" 81 1524 1528
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 80 1483 1497 "src/ext/locksetanalysis/analysis.ml" 80 1483 1499
+)
+"src/ext/locksetanalysis/analysis.ml" 81 1524 1529 "src/ext/locksetanalysis/analysis.ml" 81 1524 1531
+type(
+  lock list -> (lock list -> string list) -> string list
+)
+ident(
+  int_ref |> "src/ext/locksetanalysis/analysis.ml" 24 495 499 "src/ext/locksetanalysis/analysis.ml" 24 495 503
+)
+"src/ext/locksetanalysis/analysis.ml" 81 1524 1532 "src/ext/locksetanalysis/analysis.ml" 81 1524 1537
+type(
+  (lock -> string) -> lock list -> string list
+)
+ident(
+  ext_ref L.map
+)
+"src/ext/locksetanalysis/analysis.ml" 81 1524 1538 "src/ext/locksetanalysis/analysis.ml" 81 1524 1541
+type(
+  lock -> string
+)
+ident(
+  int_ref l2v "src/ext/locksetanalysis/analysis.ml" 75 1397 1401 "src/ext/locksetanalysis/analysis.ml" 75 1397 1404
+)
+"src/ext/locksetanalysis/analysis.ml" 81 1524 1532 "src/ext/locksetanalysis/analysis.ml" 81 1524 1541
+call(
+  stack
+)
+type(
+  lock list -> string list
+)
+"src/ext/locksetanalysis/analysis.ml" 81 1524 1526 "src/ext/locksetanalysis/analysis.ml" 81 1524 1541
+call(
+  stack
+)
+type(
+  string list
+)
+"src/ext/locksetanalysis/analysis.ml" 81 1524 1542 "src/ext/locksetanalysis/analysis.ml" 81 1524 1544
+type(
+  string list -> (string list -> string) -> string
+)
+ident(
+  int_ref |> "src/ext/locksetanalysis/analysis.ml" 24 495 499 "src/ext/locksetanalysis/analysis.ml" 24 495 503
+)
+"src/ext/locksetanalysis/analysis.ml" 81 1524 1545 "src/ext/locksetanalysis/analysis.ml" 81 1524 1558
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/ext/locksetanalysis/analysis.ml" 81 1524 1559 "src/ext/locksetanalysis/analysis.ml" 81 1524 1561
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 81 1524 1545 "src/ext/locksetanalysis/analysis.ml" 81 1524 1561
+call(
+  stack
+)
+type(
+  string list -> string
+)
+"src/ext/locksetanalysis/analysis.ml" 81 1524 1526 "src/ext/locksetanalysis/analysis.ml" 81 1524 1561
+call(
+  tail
+)
+type(
+  string
+)
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 83 1563 1567 "src/ext/locksetanalysis/analysis.ml" 83 1563 1583
+type(
+  unit -> lock list -> Pretty.doc
+)
+ident(
+  def lock_list_pretty "src/ext/locksetanalysis/analysis.ml" 86 1632 1632 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 83 1563 1584 "src/ext/locksetanalysis/analysis.ml" 83 1563 1586
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 83 1563 1588 "src/ext/locksetanalysis/analysis.ml" 83 1563 1590
+type(
+  lock list
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 84 1606 1608 "src/ext/locksetanalysis/analysis.ml" 84 1606 1630
+)
+"src/ext/locksetanalysis/analysis.ml" 84 1606 1608 "src/ext/locksetanalysis/analysis.ml" 84 1606 1610
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 83 1563 1588 "src/ext/locksetanalysis/analysis.ml" 83 1563 1590
+)
+"src/ext/locksetanalysis/analysis.ml" 84 1606 1611 "src/ext/locksetanalysis/analysis.ml" 84 1606 1613
+type(
+  lock list -> (lock list -> string) -> string
+)
+ident(
+  int_ref |> "src/ext/locksetanalysis/analysis.ml" 24 495 499 "src/ext/locksetanalysis/analysis.ml" 24 495 503
+)
+"src/ext/locksetanalysis/analysis.ml" 84 1606 1614 "src/ext/locksetanalysis/analysis.ml" 84 1606 1622
+type(
+  lock list -> string
+)
+ident(
+  int_ref l2v_list "src/ext/locksetanalysis/analysis.ml" 80 1483 1487 "src/ext/locksetanalysis/analysis.ml" 80 1483 1495
+)
+"src/ext/locksetanalysis/analysis.ml" 84 1606 1608 "src/ext/locksetanalysis/analysis.ml" 84 1606 1622
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 84 1606 1623 "src/ext/locksetanalysis/analysis.ml" 84 1606 1625
+type(
+  string -> (string -> Pretty.doc) -> Pretty.doc
+)
+ident(
+  int_ref |> "src/ext/locksetanalysis/analysis.ml" 24 495 499 "src/ext/locksetanalysis/analysis.ml" 24 495 503
+)
+"src/ext/locksetanalysis/analysis.ml" 84 1606 1626 "src/ext/locksetanalysis/analysis.ml" 84 1606 1630
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/locksetanalysis/analysis.ml" 84 1606 1608 "src/ext/locksetanalysis/analysis.ml" 84 1606 1630
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/locksetanalysis/analysis.ml" 86 1632 1640 "src/ext/locksetanalysis/analysis.ml" 86 1632 1646
+type(
+  lock list -> lock -> lock list
+)
+ident(
+  def remove "src/ext/locksetanalysis/analysis.ml" 86 1632 1632 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 86 1632 1648 "src/ext/locksetanalysis/analysis.ml" 86 1632 1650
+type(
+  lock list
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 86 1632 1664 "src/ext/locksetanalysis/analysis.ml" 90 1743 1793
+)
+"src/ext/locksetanalysis/analysis.ml" 86 1632 1665 "src/ext/locksetanalysis/analysis.ml" 86 1632 1666
+type(
+  lock
+)
+ident(
+  def a "src/ext/locksetanalysis/analysis.ml" 87 1677 1679 "src/ext/locksetanalysis/analysis.ml" 90 1743 1793
+)
+"src/ext/locksetanalysis/analysis.ml" 87 1677 1685 "src/ext/locksetanalysis/analysis.ml" 87 1677 1687
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 86 1632 1648 "src/ext/locksetanalysis/analysis.ml" 86 1632 1650
+)
+"src/ext/locksetanalysis/analysis.ml" 88 1693 1697 "src/ext/locksetanalysis/analysis.ml" 88 1693 1699
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 88 1693 1703 "src/ext/locksetanalysis/analysis.ml" 88 1693 1705
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 89 1706 1710 "src/ext/locksetanalysis/analysis.ml" 89 1706 1711
+type(
+  lock
+)
+ident(
+  def h "src/ext/locksetanalysis/analysis.ml" 89 1706 1720 "src/ext/locksetanalysis/analysis.ml" 89 1706 1742
+)
+"src/ext/locksetanalysis/analysis.ml" 89 1706 1713 "src/ext/locksetanalysis/analysis.ml" 89 1706 1714
+type(
+  lock list
+)
+ident(
+  def t "src/ext/locksetanalysis/analysis.ml" 89 1706 1720 "src/ext/locksetanalysis/analysis.ml" 89 1706 1742
+)
+"src/ext/locksetanalysis/analysis.ml" 89 1706 1710 "src/ext/locksetanalysis/analysis.ml" 89 1706 1714
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 89 1706 1721 "src/ext/locksetanalysis/analysis.ml" 89 1706 1724
+type(
+  lock -> string
+)
+ident(
+  int_ref l2v "src/ext/locksetanalysis/analysis.ml" 75 1397 1401 "src/ext/locksetanalysis/analysis.ml" 75 1397 1404
+)
+"src/ext/locksetanalysis/analysis.ml" 89 1706 1725 "src/ext/locksetanalysis/analysis.ml" 89 1706 1726
+type(
+  lock
+)
+ident(
+  int_ref h "src/ext/locksetanalysis/analysis.ml" 89 1706 1710 "src/ext/locksetanalysis/analysis.ml" 89 1706 1711
+)
+"src/ext/locksetanalysis/analysis.ml" 89 1706 1720 "src/ext/locksetanalysis/analysis.ml" 89 1706 1727
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 89 1706 1728 "src/ext/locksetanalysis/analysis.ml" 89 1706 1729
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/locksetanalysis/analysis.ml" 89 1706 1731 "src/ext/locksetanalysis/analysis.ml" 89 1706 1734
+type(
+  lock -> string
+)
+ident(
+  int_ref l2v "src/ext/locksetanalysis/analysis.ml" 75 1397 1401 "src/ext/locksetanalysis/analysis.ml" 75 1397 1404
+)
+"src/ext/locksetanalysis/analysis.ml" 89 1706 1735 "src/ext/locksetanalysis/analysis.ml" 89 1706 1736
+type(
+  lock
+)
+ident(
+  int_ref a "src/ext/locksetanalysis/analysis.ml" 86 1632 1665 "src/ext/locksetanalysis/analysis.ml" 86 1632 1666
+)
+"src/ext/locksetanalysis/analysis.ml" 89 1706 1730 "src/ext/locksetanalysis/analysis.ml" 89 1706 1737
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 89 1706 1720 "src/ext/locksetanalysis/analysis.ml" 89 1706 1737
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 89 1706 1741 "src/ext/locksetanalysis/analysis.ml" 89 1706 1742
+type(
+  lock list
+)
+ident(
+  int_ref t "src/ext/locksetanalysis/analysis.ml" 89 1706 1713 "src/ext/locksetanalysis/analysis.ml" 89 1706 1714
+)
+"src/ext/locksetanalysis/analysis.ml" 90 1743 1747 "src/ext/locksetanalysis/analysis.ml" 90 1743 1748
+type(
+  lock
+)
+ident(
+  def h "src/ext/locksetanalysis/analysis.ml" 90 1743 1778 "src/ext/locksetanalysis/analysis.ml" 90 1743 1793
+)
+"src/ext/locksetanalysis/analysis.ml" 90 1743 1750 "src/ext/locksetanalysis/analysis.ml" 90 1743 1751
+type(
+  lock list
+)
+ident(
+  def t "src/ext/locksetanalysis/analysis.ml" 90 1743 1778 "src/ext/locksetanalysis/analysis.ml" 90 1743 1793
+)
+"src/ext/locksetanalysis/analysis.ml" 90 1743 1747 "src/ext/locksetanalysis/analysis.ml" 90 1743 1751
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 90 1743 1778 "src/ext/locksetanalysis/analysis.ml" 90 1743 1779
+type(
+  lock
+)
+ident(
+  int_ref h "src/ext/locksetanalysis/analysis.ml" 90 1743 1747 "src/ext/locksetanalysis/analysis.ml" 90 1743 1748
+)
+"src/ext/locksetanalysis/analysis.ml" 90 1743 1782 "src/ext/locksetanalysis/analysis.ml" 90 1743 1788
+type(
+  lock list -> lock -> lock list
+)
+ident(
+  int_ref remove "src/ext/locksetanalysis/analysis.ml" 86 1632 1640 "src/ext/locksetanalysis/analysis.ml" 86 1632 1646
+)
+"src/ext/locksetanalysis/analysis.ml" 90 1743 1789 "src/ext/locksetanalysis/analysis.ml" 90 1743 1790
+type(
+  lock list
+)
+ident(
+  int_ref t "src/ext/locksetanalysis/analysis.ml" 90 1743 1750 "src/ext/locksetanalysis/analysis.ml" 90 1743 1751
+)
+"src/ext/locksetanalysis/analysis.ml" 90 1743 1791 "src/ext/locksetanalysis/analysis.ml" 90 1743 1792
+type(
+  lock
+)
+ident(
+  int_ref a "src/ext/locksetanalysis/analysis.ml" 86 1632 1665 "src/ext/locksetanalysis/analysis.ml" 86 1632 1666
+)
+"src/ext/locksetanalysis/analysis.ml" 90 1743 1781 "src/ext/locksetanalysis/analysis.ml" 90 1743 1793
+call(
+  stack
+)
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 90 1743 1778 "src/ext/locksetanalysis/analysis.ml" 90 1743 1793
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 87 1677 1679 "src/ext/locksetanalysis/analysis.ml" 90 1743 1793
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 92 1795 1803 "src/ext/locksetanalysis/analysis.ml" 92 1795 1807
+type(
+  lock list -> lock -> bool
+)
+ident(
+  def isin "src/ext/locksetanalysis/analysis.ml" 92 1795 1795 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 92 1795 1809 "src/ext/locksetanalysis/analysis.ml" 92 1795 1811
+type(
+  lock list
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 92 1795 1825 "src/ext/locksetanalysis/analysis.ml" 96 1958 1978
+)
+"src/ext/locksetanalysis/analysis.ml" 92 1795 1826 "src/ext/locksetanalysis/analysis.ml" 92 1795 1827
+type(
+  lock
+)
+ident(
+  def a "src/ext/locksetanalysis/analysis.ml" 93 1838 1840 "src/ext/locksetanalysis/analysis.ml" 96 1958 1978
+)
+"src/ext/locksetanalysis/analysis.ml" 93 1838 1846 "src/ext/locksetanalysis/analysis.ml" 93 1838 1848
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 92 1795 1809 "src/ext/locksetanalysis/analysis.ml" 92 1795 1811
+)
+"src/ext/locksetanalysis/analysis.ml" 94 1854 1858 "src/ext/locksetanalysis/analysis.ml" 94 1854 1860
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 94 1854 1864 "src/ext/locksetanalysis/analysis.ml" 94 1854 1869
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 95 1870 1874 "src/ext/locksetanalysis/analysis.ml" 95 1870 1875
+type(
+  lock
+)
+ident(
+  def h "src/ext/locksetanalysis/analysis.ml" 95 1870 1884 "src/ext/locksetanalysis/analysis.ml" 95 1870 1909
+)
+"src/ext/locksetanalysis/analysis.ml" 95 1870 1877 "src/ext/locksetanalysis/analysis.ml" 95 1870 1878
+type(
+  lock list
+)
+ident(
+  def t "src/ext/locksetanalysis/analysis.ml" 95 1870 1884 "src/ext/locksetanalysis/analysis.ml" 95 1870 1909
+)
+"src/ext/locksetanalysis/analysis.ml" 95 1870 1874 "src/ext/locksetanalysis/analysis.ml" 95 1870 1878
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 95 1870 1885 "src/ext/locksetanalysis/analysis.ml" 95 1870 1888
+type(
+  lock -> string
+)
+ident(
+  int_ref l2v "src/ext/locksetanalysis/analysis.ml" 75 1397 1401 "src/ext/locksetanalysis/analysis.ml" 75 1397 1404
+)
+"src/ext/locksetanalysis/analysis.ml" 95 1870 1889 "src/ext/locksetanalysis/analysis.ml" 95 1870 1890
+type(
+  lock
+)
+ident(
+  int_ref h "src/ext/locksetanalysis/analysis.ml" 95 1870 1874 "src/ext/locksetanalysis/analysis.ml" 95 1870 1875
+)
+"src/ext/locksetanalysis/analysis.ml" 95 1870 1884 "src/ext/locksetanalysis/analysis.ml" 95 1870 1891
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 95 1870 1892 "src/ext/locksetanalysis/analysis.ml" 95 1870 1893
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/locksetanalysis/analysis.ml" 95 1870 1895 "src/ext/locksetanalysis/analysis.ml" 95 1870 1898
+type(
+  lock -> string
+)
+ident(
+  int_ref l2v "src/ext/locksetanalysis/analysis.ml" 75 1397 1401 "src/ext/locksetanalysis/analysis.ml" 75 1397 1404
+)
+"src/ext/locksetanalysis/analysis.ml" 95 1870 1899 "src/ext/locksetanalysis/analysis.ml" 95 1870 1900
+type(
+  lock
+)
+ident(
+  int_ref a "src/ext/locksetanalysis/analysis.ml" 92 1795 1826 "src/ext/locksetanalysis/analysis.ml" 92 1795 1827
+)
+"src/ext/locksetanalysis/analysis.ml" 95 1870 1894 "src/ext/locksetanalysis/analysis.ml" 95 1870 1901
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 95 1870 1884 "src/ext/locksetanalysis/analysis.ml" 95 1870 1901
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 95 1870 1905 "src/ext/locksetanalysis/analysis.ml" 95 1870 1909
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 96 1958 1962 "src/ext/locksetanalysis/analysis.ml" 96 1958 1963
+type(
+  lock
+)
+ident(
+  def h "src/ext/locksetanalysis/analysis.ml" 96 1958 1970 "src/ext/locksetanalysis/analysis.ml" 96 1958 1978
+)
+"src/ext/locksetanalysis/analysis.ml" 96 1958 1965 "src/ext/locksetanalysis/analysis.ml" 96 1958 1966
+type(
+  lock list
+)
+ident(
+  def t "src/ext/locksetanalysis/analysis.ml" 96 1958 1970 "src/ext/locksetanalysis/analysis.ml" 96 1958 1978
+)
+"src/ext/locksetanalysis/analysis.ml" 96 1958 1962 "src/ext/locksetanalysis/analysis.ml" 96 1958 1966
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 96 1958 1970 "src/ext/locksetanalysis/analysis.ml" 96 1958 1974
+type(
+  lock list -> lock -> bool
+)
+ident(
+  int_ref isin "src/ext/locksetanalysis/analysis.ml" 92 1795 1803 "src/ext/locksetanalysis/analysis.ml" 92 1795 1807
+)
+"src/ext/locksetanalysis/analysis.ml" 96 1958 1975 "src/ext/locksetanalysis/analysis.ml" 96 1958 1976
+type(
+  lock list
+)
+ident(
+  int_ref t "src/ext/locksetanalysis/analysis.ml" 96 1958 1965 "src/ext/locksetanalysis/analysis.ml" 96 1958 1966
+)
+"src/ext/locksetanalysis/analysis.ml" 96 1958 1977 "src/ext/locksetanalysis/analysis.ml" 96 1958 1978
+type(
+  lock
+)
+ident(
+  int_ref a "src/ext/locksetanalysis/analysis.ml" 92 1795 1826 "src/ext/locksetanalysis/analysis.ml" 92 1795 1827
+)
+"src/ext/locksetanalysis/analysis.ml" 96 1958 1970 "src/ext/locksetanalysis/analysis.ml" 96 1958 1978
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 93 1838 1840 "src/ext/locksetanalysis/analysis.ml" 96 1958 1978
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 98 1981 1989 "src/ext/locksetanalysis/analysis.ml" 98 1981 2001
+type(
+  lock list -> lock list -> lock list
+)
+ident(
+  def intersection "src/ext/locksetanalysis/analysis.ml" 98 1981 1981 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 98 1981 2002 "src/ext/locksetanalysis/analysis.ml" 98 1981 2003
+type(
+  lock list
+)
+ident(
+  def a "src/ext/locksetanalysis/analysis.ml" 98 1981 2004 "src/ext/locksetanalysis/analysis.ml" 102 2098 2126
+)
+"src/ext/locksetanalysis/analysis.ml" 98 1981 2004 "src/ext/locksetanalysis/analysis.ml" 98 1981 2005
+type(
+  lock list
+)
+ident(
+  def b "src/ext/locksetanalysis/analysis.ml" 99 2008 2010 "src/ext/locksetanalysis/analysis.ml" 102 2098 2126
+)
+"src/ext/locksetanalysis/analysis.ml" 99 2008 2016 "src/ext/locksetanalysis/analysis.ml" 99 2008 2017
+type(
+  lock list
+)
+ident(
+  int_ref a "src/ext/locksetanalysis/analysis.ml" 98 1981 2002 "src/ext/locksetanalysis/analysis.ml" 98 1981 2003
+)
+"src/ext/locksetanalysis/analysis.ml" 100 2024 2028 "src/ext/locksetanalysis/analysis.ml" 100 2024 2030
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 100 2024 2034 "src/ext/locksetanalysis/analysis.ml" 100 2024 2036
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 101 2037 2041 "src/ext/locksetanalysis/analysis.ml" 101 2037 2042
+type(
+  lock
+)
+ident(
+  def h "src/ext/locksetanalysis/analysis.ml" 101 2037 2051 "src/ext/locksetanalysis/analysis.ml" 101 2037 2097
+)
+"src/ext/locksetanalysis/analysis.ml" 101 2037 2044 "src/ext/locksetanalysis/analysis.ml" 101 2037 2045
+type(
+  lock list
+)
+ident(
+  def t "src/ext/locksetanalysis/analysis.ml" 101 2037 2051 "src/ext/locksetanalysis/analysis.ml" 101 2037 2097
+)
+"src/ext/locksetanalysis/analysis.ml" 101 2037 2041 "src/ext/locksetanalysis/analysis.ml" 101 2037 2045
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 101 2037 2051 "src/ext/locksetanalysis/analysis.ml" 101 2037 2055
+type(
+  lock list -> lock -> bool
+)
+ident(
+  int_ref isin "src/ext/locksetanalysis/analysis.ml" 92 1795 1803 "src/ext/locksetanalysis/analysis.ml" 92 1795 1807
+)
+"src/ext/locksetanalysis/analysis.ml" 101 2037 2056 "src/ext/locksetanalysis/analysis.ml" 101 2037 2057
+type(
+  lock list
+)
+ident(
+  int_ref b "src/ext/locksetanalysis/analysis.ml" 98 1981 2004 "src/ext/locksetanalysis/analysis.ml" 98 1981 2005
+)
+"src/ext/locksetanalysis/analysis.ml" 101 2037 2058 "src/ext/locksetanalysis/analysis.ml" 101 2037 2059
+type(
+  lock
+)
+ident(
+  int_ref h "src/ext/locksetanalysis/analysis.ml" 101 2037 2041 "src/ext/locksetanalysis/analysis.ml" 101 2037 2042
+)
+"src/ext/locksetanalysis/analysis.ml" 101 2037 2051 "src/ext/locksetanalysis/analysis.ml" 101 2037 2059
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 101 2037 2063 "src/ext/locksetanalysis/analysis.ml" 101 2037 2064
+type(
+  lock
+)
+ident(
+  int_ref h "src/ext/locksetanalysis/analysis.ml" 101 2037 2041 "src/ext/locksetanalysis/analysis.ml" 101 2037 2042
+)
+"src/ext/locksetanalysis/analysis.ml" 101 2037 2068 "src/ext/locksetanalysis/analysis.ml" 101 2037 2080
+type(
+  lock list -> lock list -> lock list
+)
+ident(
+  int_ref intersection "src/ext/locksetanalysis/analysis.ml" 98 1981 1989 "src/ext/locksetanalysis/analysis.ml" 98 1981 2001
+)
+"src/ext/locksetanalysis/analysis.ml" 101 2037 2081 "src/ext/locksetanalysis/analysis.ml" 101 2037 2082
+type(
+  lock list
+)
+ident(
+  int_ref t "src/ext/locksetanalysis/analysis.ml" 101 2037 2044 "src/ext/locksetanalysis/analysis.ml" 101 2037 2045
+)
+"src/ext/locksetanalysis/analysis.ml" 101 2037 2084 "src/ext/locksetanalysis/analysis.ml" 101 2037 2090
+type(
+  lock list -> lock -> lock list
+)
+ident(
+  int_ref remove "src/ext/locksetanalysis/analysis.ml" 86 1632 1640 "src/ext/locksetanalysis/analysis.ml" 86 1632 1646
+)
+"src/ext/locksetanalysis/analysis.ml" 101 2037 2091 "src/ext/locksetanalysis/analysis.ml" 101 2037 2092
+type(
+  lock list
+)
+ident(
+  int_ref b "src/ext/locksetanalysis/analysis.ml" 98 1981 2004 "src/ext/locksetanalysis/analysis.ml" 98 1981 2005
+)
+"src/ext/locksetanalysis/analysis.ml" 101 2037 2093 "src/ext/locksetanalysis/analysis.ml" 101 2037 2094
+type(
+  lock
+)
+ident(
+  int_ref h "src/ext/locksetanalysis/analysis.ml" 101 2037 2041 "src/ext/locksetanalysis/analysis.ml" 101 2037 2042
+)
+"src/ext/locksetanalysis/analysis.ml" 101 2037 2083 "src/ext/locksetanalysis/analysis.ml" 101 2037 2095
+call(
+  stack
+)
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 101 2037 2066 "src/ext/locksetanalysis/analysis.ml" 101 2037 2097
+call(
+  stack
+)
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 101 2037 2063 "src/ext/locksetanalysis/analysis.ml" 101 2037 2097
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 102 2098 2102 "src/ext/locksetanalysis/analysis.ml" 102 2098 2103
+type(
+  lock
+)
+ident(
+  def h "src/ext/locksetanalysis/analysis.ml" 102 2098 2110 "src/ext/locksetanalysis/analysis.ml" 102 2098 2126
+)
+"src/ext/locksetanalysis/analysis.ml" 102 2098 2105 "src/ext/locksetanalysis/analysis.ml" 102 2098 2106
+type(
+  lock list
+)
+ident(
+  def t "src/ext/locksetanalysis/analysis.ml" 102 2098 2110 "src/ext/locksetanalysis/analysis.ml" 102 2098 2126
+)
+"src/ext/locksetanalysis/analysis.ml" 102 2098 2102 "src/ext/locksetanalysis/analysis.ml" 102 2098 2106
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 102 2098 2110 "src/ext/locksetanalysis/analysis.ml" 102 2098 2122
+type(
+  lock list -> lock list -> lock list
+)
+ident(
+  int_ref intersection "src/ext/locksetanalysis/analysis.ml" 98 1981 1989 "src/ext/locksetanalysis/analysis.ml" 98 1981 2001
+)
+"src/ext/locksetanalysis/analysis.ml" 102 2098 2123 "src/ext/locksetanalysis/analysis.ml" 102 2098 2124
+type(
+  lock list
+)
+ident(
+  int_ref t "src/ext/locksetanalysis/analysis.ml" 102 2098 2105 "src/ext/locksetanalysis/analysis.ml" 102 2098 2106
+)
+"src/ext/locksetanalysis/analysis.ml" 102 2098 2125 "src/ext/locksetanalysis/analysis.ml" 102 2098 2126
+type(
+  lock list
+)
+ident(
+  int_ref b "src/ext/locksetanalysis/analysis.ml" 98 1981 2004 "src/ext/locksetanalysis/analysis.ml" 98 1981 2005
+)
+"src/ext/locksetanalysis/analysis.ml" 102 2098 2110 "src/ext/locksetanalysis/analysis.ml" 102 2098 2126
+call(
+  tail
+)
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 99 2008 2010 "src/ext/locksetanalysis/analysis.ml" 102 2098 2126
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 104 2129 2133 "src/ext/locksetanalysis/analysis.ml" 104 2129 2146
+type(
+  lock list -> lock -> lock list
+)
+ident(
+  def lock_list_add "src/ext/locksetanalysis/analysis.ml" 107 2183 2183 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 104 2129 2148 "src/ext/locksetanalysis/analysis.ml" 104 2129 2150
+type(
+  lock list
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 104 2129 2162 "src/ext/locksetanalysis/analysis.ml" 105 2173 2181
+)
+"src/ext/locksetanalysis/analysis.ml" 104 2129 2163 "src/ext/locksetanalysis/analysis.ml" 104 2129 2164
+type(
+  lock
+)
+ident(
+  def a "src/ext/locksetanalysis/analysis.ml" 105 2173 2176 "src/ext/locksetanalysis/analysis.ml" 105 2173 2181
+)
+"src/ext/locksetanalysis/analysis.ml" 105 2173 2176 "src/ext/locksetanalysis/analysis.ml" 105 2173 2177
+type(
+  lock
+)
+ident(
+  int_ref a "src/ext/locksetanalysis/analysis.ml" 104 2129 2163 "src/ext/locksetanalysis/analysis.ml" 104 2129 2164
+)
+"src/ext/locksetanalysis/analysis.ml" 105 2173 2179 "src/ext/locksetanalysis/analysis.ml" 105 2173 2181
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 104 2129 2148 "src/ext/locksetanalysis/analysis.ml" 104 2129 2150
+)
+"src/ext/locksetanalysis/analysis.ml" 105 2173 2176 "src/ext/locksetanalysis/analysis.ml" 105 2173 2181
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 107 2183 2191 "src/ext/locksetanalysis/analysis.ml" 107 2183 2208
+type(
+  lock list -> Cil.exp list -> lock list
+)
+ident(
+  def lock_list_add_all "src/ext/locksetanalysis/analysis.ml" 107 2183 2183 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 107 2183 2209 "src/ext/locksetanalysis/analysis.ml" 107 2183 2211
+type(
+  lock list
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 107 2183 2212 "src/ext/locksetanalysis/analysis.ml" 111 2333 2399
+)
+"src/ext/locksetanalysis/analysis.ml" 107 2183 2212 "src/ext/locksetanalysis/analysis.ml" 107 2183 2216
+type(
+  Cil.exp list
+)
+ident(
+  def args "src/ext/locksetanalysis/analysis.ml" 108 2219 2221 "src/ext/locksetanalysis/analysis.ml" 111 2333 2399
+)
+"src/ext/locksetanalysis/analysis.ml" 108 2219 2227 "src/ext/locksetanalysis/analysis.ml" 108 2219 2231
+type(
+  Cil.exp list
+)
+ident(
+  int_ref args "src/ext/locksetanalysis/analysis.ml" 107 2183 2212 "src/ext/locksetanalysis/analysis.ml" 107 2183 2216
+)
+"src/ext/locksetanalysis/analysis.ml" 109 2237 2240 "src/ext/locksetanalysis/analysis.ml" 109 2237 2242
+type(
+  Cil.exp list
+)
+"src/ext/locksetanalysis/analysis.ml" 109 2237 2255 "src/ext/locksetanalysis/analysis.ml" 109 2237 2257
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 107 2183 2209 "src/ext/locksetanalysis/analysis.ml" 107 2183 2211
+)
+"src/ext/locksetanalysis/analysis.ml" 110 2258 2272 "src/ext/locksetanalysis/analysis.ml" 110 2258 2273
+ident(
+  def i "src/ext/locksetanalysis/analysis.ml" 110 2258 2285 "src/ext/locksetanalysis/analysis.ml" 110 2258 2332
+)
+"src/ext/locksetanalysis/analysis.ml" 110 2258 2271 "src/ext/locksetanalysis/analysis.ml" 110 2258 2274
+type(
+  Cil.varinfo
+)
+"src/ext/locksetanalysis/analysis.ml" 110 2258 2268 "src/ext/locksetanalysis/analysis.ml" 110 2258 2274
+type(
+  Cil.lhost
+)
+"src/ext/locksetanalysis/analysis.ml" 110 2258 2275 "src/ext/locksetanalysis/analysis.ml" 110 2258 2276
+type(
+  Cil.offset
+)
+"src/ext/locksetanalysis/analysis.ml" 110 2258 2266 "src/ext/locksetanalysis/analysis.ml" 110 2258 2278
+type(
+  Cil.lval
+)
+"src/ext/locksetanalysis/analysis.ml" 110 2258 2262 "src/ext/locksetanalysis/analysis.ml" 110 2258 2278
+type(
+  Cil.exp
+)
+"src/ext/locksetanalysis/analysis.ml" 110 2258 2280 "src/ext/locksetanalysis/analysis.ml" 110 2258 2281
+type(
+  Cil.exp list
+)
+ident(
+  def t "src/ext/locksetanalysis/analysis.ml" 110 2258 2285 "src/ext/locksetanalysis/analysis.ml" 110 2258 2332
+)
+"src/ext/locksetanalysis/analysis.ml" 110 2258 2262 "src/ext/locksetanalysis/analysis.ml" 110 2258 2281
+type(
+  Cil.exp list
+)
+"src/ext/locksetanalysis/analysis.ml" 110 2258 2285 "src/ext/locksetanalysis/analysis.ml" 110 2258 2302
+type(
+  lock list -> Cil.exp list -> lock list
+)
+ident(
+  int_ref lock_list_add_all "src/ext/locksetanalysis/analysis.ml" 107 2183 2191 "src/ext/locksetanalysis/analysis.ml" 107 2183 2208
+)
+"src/ext/locksetanalysis/analysis.ml" 110 2258 2304 "src/ext/locksetanalysis/analysis.ml" 110 2258 2317
+type(
+  lock list -> lock -> lock list
+)
+ident(
+  int_ref lock_list_add "src/ext/locksetanalysis/analysis.ml" 104 2129 2133 "src/ext/locksetanalysis/analysis.ml" 104 2129 2146
+)
+"src/ext/locksetanalysis/analysis.ml" 110 2258 2318 "src/ext/locksetanalysis/analysis.ml" 110 2258 2320
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 107 2183 2209 "src/ext/locksetanalysis/analysis.ml" 107 2183 2211
+)
+"src/ext/locksetanalysis/analysis.ml" 110 2258 2325 "src/ext/locksetanalysis/analysis.ml" 110 2258 2328
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref i "src/ext/locksetanalysis/analysis.ml" 110 2258 2271 "src/ext/locksetanalysis/analysis.ml" 110 2258 2274
+)
+"src/ext/locksetanalysis/analysis.ml" 110 2258 2321 "src/ext/locksetanalysis/analysis.ml" 110 2258 2329
+type(
+  lock
+)
+"src/ext/locksetanalysis/analysis.ml" 110 2258 2303 "src/ext/locksetanalysis/analysis.ml" 110 2258 2330
+call(
+  stack
+)
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 110 2258 2331 "src/ext/locksetanalysis/analysis.ml" 110 2258 2332
+type(
+  Cil.exp list
+)
+ident(
+  int_ref t "src/ext/locksetanalysis/analysis.ml" 110 2258 2280 "src/ext/locksetanalysis/analysis.ml" 110 2258 2281
+)
+"src/ext/locksetanalysis/analysis.ml" 110 2258 2285 "src/ext/locksetanalysis/analysis.ml" 110 2258 2332
+call(
+  tail
+)
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 111 2333 2337 "src/ext/locksetanalysis/analysis.ml" 111 2333 2338
+type(
+  Cil.exp list
+)
+"src/ext/locksetanalysis/analysis.ml" 111 2333 2350 "src/ext/locksetanalysis/analysis.ml" 111 2333 2355
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/locksetanalysis/analysis.ml" 111 2333 2356 "src/ext/locksetanalysis/analysis.ml" 111 2333 2395
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/locksetanalysis/analysis.ml" 111 2333 2350 "src/ext/locksetanalysis/analysis.ml" 111 2333 2395
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 111 2333 2397 "src/ext/locksetanalysis/analysis.ml" 111 2333 2399
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 107 2183 2209 "src/ext/locksetanalysis/analysis.ml" 107 2183 2211
+)
+"src/ext/locksetanalysis/analysis.ml" 111 2333 2350 "src/ext/locksetanalysis/analysis.ml" 111 2333 2399
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 108 2219 2221 "src/ext/locksetanalysis/analysis.ml" 111 2333 2399
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 113 2401 2409 "src/ext/locksetanalysis/analysis.ml" 113 2401 2425
+type(
+  lock list -> lock -> lock list
+)
+ident(
+  def lock_list_remove "src/ext/locksetanalysis/analysis.ml" 113 2401 2401 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 113 2401 2426 "src/ext/locksetanalysis/analysis.ml" 113 2401 2428
+type(
+  lock list
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 113 2401 2429 "src/ext/locksetanalysis/analysis.ml" 117 2499 2536
+)
+"src/ext/locksetanalysis/analysis.ml" 113 2401 2429 "src/ext/locksetanalysis/analysis.ml" 113 2401 2430
+type(
+  lock
+)
+ident(
+  def a "src/ext/locksetanalysis/analysis.ml" 114 2433 2435 "src/ext/locksetanalysis/analysis.ml" 117 2499 2536
+)
+"src/ext/locksetanalysis/analysis.ml" 114 2433 2441 "src/ext/locksetanalysis/analysis.ml" 114 2433 2443
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 113 2401 2426 "src/ext/locksetanalysis/analysis.ml" 113 2401 2428
+)
+"src/ext/locksetanalysis/analysis.ml" 115 2449 2453 "src/ext/locksetanalysis/analysis.ml" 115 2449 2455
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 115 2449 2459 "src/ext/locksetanalysis/analysis.ml" 115 2449 2461
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 116 2462 2466 "src/ext/locksetanalysis/analysis.ml" 116 2462 2467
+type(
+  lock
+)
+ident(
+  def h "src/ext/locksetanalysis/analysis.ml" 116 2462 2476 "src/ext/locksetanalysis/analysis.ml" 116 2462 2498
+)
+"src/ext/locksetanalysis/analysis.ml" 116 2462 2469 "src/ext/locksetanalysis/analysis.ml" 116 2462 2470
+type(
+  lock list
+)
+ident(
+  def t "src/ext/locksetanalysis/analysis.ml" 116 2462 2476 "src/ext/locksetanalysis/analysis.ml" 116 2462 2498
+)
+"src/ext/locksetanalysis/analysis.ml" 116 2462 2466 "src/ext/locksetanalysis/analysis.ml" 116 2462 2470
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 116 2462 2477 "src/ext/locksetanalysis/analysis.ml" 116 2462 2480
+type(
+  lock -> string
+)
+ident(
+  int_ref l2v "src/ext/locksetanalysis/analysis.ml" 75 1397 1401 "src/ext/locksetanalysis/analysis.ml" 75 1397 1404
+)
+"src/ext/locksetanalysis/analysis.ml" 116 2462 2481 "src/ext/locksetanalysis/analysis.ml" 116 2462 2482
+type(
+  lock
+)
+ident(
+  int_ref h "src/ext/locksetanalysis/analysis.ml" 116 2462 2466 "src/ext/locksetanalysis/analysis.ml" 116 2462 2467
+)
+"src/ext/locksetanalysis/analysis.ml" 116 2462 2476 "src/ext/locksetanalysis/analysis.ml" 116 2462 2483
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 116 2462 2484 "src/ext/locksetanalysis/analysis.ml" 116 2462 2485
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/locksetanalysis/analysis.ml" 116 2462 2487 "src/ext/locksetanalysis/analysis.ml" 116 2462 2490
+type(
+  lock -> string
+)
+ident(
+  int_ref l2v "src/ext/locksetanalysis/analysis.ml" 75 1397 1401 "src/ext/locksetanalysis/analysis.ml" 75 1397 1404
+)
+"src/ext/locksetanalysis/analysis.ml" 116 2462 2491 "src/ext/locksetanalysis/analysis.ml" 116 2462 2492
+type(
+  lock
+)
+ident(
+  int_ref a "src/ext/locksetanalysis/analysis.ml" 113 2401 2429 "src/ext/locksetanalysis/analysis.ml" 113 2401 2430
+)
+"src/ext/locksetanalysis/analysis.ml" 116 2462 2486 "src/ext/locksetanalysis/analysis.ml" 116 2462 2493
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 116 2462 2476 "src/ext/locksetanalysis/analysis.ml" 116 2462 2493
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 116 2462 2497 "src/ext/locksetanalysis/analysis.ml" 116 2462 2498
+type(
+  lock list
+)
+ident(
+  int_ref t "src/ext/locksetanalysis/analysis.ml" 116 2462 2469 "src/ext/locksetanalysis/analysis.ml" 116 2462 2470
+)
+"src/ext/locksetanalysis/analysis.ml" 117 2499 2503 "src/ext/locksetanalysis/analysis.ml" 117 2499 2504
+type(
+  lock
+)
+ident(
+  def h "src/ext/locksetanalysis/analysis.ml" 117 2499 2511 "src/ext/locksetanalysis/analysis.ml" 117 2499 2536
+)
+"src/ext/locksetanalysis/analysis.ml" 117 2499 2506 "src/ext/locksetanalysis/analysis.ml" 117 2499 2507
+type(
+  lock list
+)
+ident(
+  def t "src/ext/locksetanalysis/analysis.ml" 117 2499 2511 "src/ext/locksetanalysis/analysis.ml" 117 2499 2536
+)
+"src/ext/locksetanalysis/analysis.ml" 117 2499 2503 "src/ext/locksetanalysis/analysis.ml" 117 2499 2507
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 117 2499 2511 "src/ext/locksetanalysis/analysis.ml" 117 2499 2512
+type(
+  lock
+)
+ident(
+  int_ref h "src/ext/locksetanalysis/analysis.ml" 117 2499 2503 "src/ext/locksetanalysis/analysis.ml" 117 2499 2504
+)
+"src/ext/locksetanalysis/analysis.ml" 117 2499 2515 "src/ext/locksetanalysis/analysis.ml" 117 2499 2531
+type(
+  lock list -> lock -> lock list
+)
+ident(
+  int_ref lock_list_remove "src/ext/locksetanalysis/analysis.ml" 113 2401 2409 "src/ext/locksetanalysis/analysis.ml" 113 2401 2425
+)
+"src/ext/locksetanalysis/analysis.ml" 117 2499 2532 "src/ext/locksetanalysis/analysis.ml" 117 2499 2533
+type(
+  lock list
+)
+ident(
+  int_ref t "src/ext/locksetanalysis/analysis.ml" 117 2499 2506 "src/ext/locksetanalysis/analysis.ml" 117 2499 2507
+)
+"src/ext/locksetanalysis/analysis.ml" 117 2499 2534 "src/ext/locksetanalysis/analysis.ml" 117 2499 2535
+type(
+  lock
+)
+ident(
+  int_ref a "src/ext/locksetanalysis/analysis.ml" 113 2401 2429 "src/ext/locksetanalysis/analysis.ml" 113 2401 2430
+)
+"src/ext/locksetanalysis/analysis.ml" 117 2499 2514 "src/ext/locksetanalysis/analysis.ml" 117 2499 2536
+call(
+  stack
+)
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 117 2499 2511 "src/ext/locksetanalysis/analysis.ml" 117 2499 2536
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 114 2433 2435 "src/ext/locksetanalysis/analysis.ml" 117 2499 2536
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 119 2539 2547 "src/ext/locksetanalysis/analysis.ml" 119 2539 2567
+type(
+  lock list -> Cil.exp list -> lock list
+)
+ident(
+  def lock_list_remove_all "src/ext/locksetanalysis/analysis.ml" 119 2539 2539 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 119 2539 2568 "src/ext/locksetanalysis/analysis.ml" 119 2539 2570
+type(
+  lock list
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 119 2539 2571 "src/ext/locksetanalysis/analysis.ml" 123 2692 2703
+)
+"src/ext/locksetanalysis/analysis.ml" 119 2539 2571 "src/ext/locksetanalysis/analysis.ml" 119 2539 2575
+type(
+  Cil.exp list
+)
+ident(
+  def args "src/ext/locksetanalysis/analysis.ml" 120 2578 2580 "src/ext/locksetanalysis/analysis.ml" 123 2692 2703
+)
+"src/ext/locksetanalysis/analysis.ml" 120 2578 2586 "src/ext/locksetanalysis/analysis.ml" 120 2578 2590
+type(
+  Cil.exp list
+)
+ident(
+  int_ref args "src/ext/locksetanalysis/analysis.ml" 119 2539 2571 "src/ext/locksetanalysis/analysis.ml" 119 2539 2575
+)
+"src/ext/locksetanalysis/analysis.ml" 121 2596 2600 "src/ext/locksetanalysis/analysis.ml" 121 2596 2602
+type(
+  Cil.exp list
+)
+"src/ext/locksetanalysis/analysis.ml" 121 2596 2606 "src/ext/locksetanalysis/analysis.ml" 121 2596 2608
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 119 2539 2568 "src/ext/locksetanalysis/analysis.ml" 119 2539 2570
+)
+"src/ext/locksetanalysis/analysis.ml" 122 2609 2623 "src/ext/locksetanalysis/analysis.ml" 122 2609 2624
+ident(
+  def i "src/ext/locksetanalysis/analysis.ml" 122 2609 2636 "src/ext/locksetanalysis/analysis.ml" 122 2609 2691
+)
+"src/ext/locksetanalysis/analysis.ml" 122 2609 2622 "src/ext/locksetanalysis/analysis.ml" 122 2609 2625
+type(
+  Cil.varinfo
+)
+"src/ext/locksetanalysis/analysis.ml" 122 2609 2619 "src/ext/locksetanalysis/analysis.ml" 122 2609 2625
+type(
+  Cil.lhost
+)
+"src/ext/locksetanalysis/analysis.ml" 122 2609 2626 "src/ext/locksetanalysis/analysis.ml" 122 2609 2627
+type(
+  Cil.offset
+)
+"src/ext/locksetanalysis/analysis.ml" 122 2609 2617 "src/ext/locksetanalysis/analysis.ml" 122 2609 2629
+type(
+  Cil.lval
+)
+"src/ext/locksetanalysis/analysis.ml" 122 2609 2613 "src/ext/locksetanalysis/analysis.ml" 122 2609 2629
+type(
+  Cil.exp
+)
+"src/ext/locksetanalysis/analysis.ml" 122 2609 2631 "src/ext/locksetanalysis/analysis.ml" 122 2609 2632
+type(
+  Cil.exp list
+)
+ident(
+  def t "src/ext/locksetanalysis/analysis.ml" 122 2609 2636 "src/ext/locksetanalysis/analysis.ml" 122 2609 2691
+)
+"src/ext/locksetanalysis/analysis.ml" 122 2609 2613 "src/ext/locksetanalysis/analysis.ml" 122 2609 2632
+type(
+  Cil.exp list
+)
+"src/ext/locksetanalysis/analysis.ml" 122 2609 2636 "src/ext/locksetanalysis/analysis.ml" 122 2609 2656
+type(
+  lock list -> Cil.exp list -> lock list
+)
+ident(
+  int_ref lock_list_remove_all "src/ext/locksetanalysis/analysis.ml" 119 2539 2547 "src/ext/locksetanalysis/analysis.ml" 119 2539 2567
+)
+"src/ext/locksetanalysis/analysis.ml" 122 2609 2659 "src/ext/locksetanalysis/analysis.ml" 122 2609 2675
+type(
+  lock list -> lock -> lock list
+)
+ident(
+  int_ref lock_list_remove "src/ext/locksetanalysis/analysis.ml" 113 2401 2409 "src/ext/locksetanalysis/analysis.ml" 113 2401 2425
+)
+"src/ext/locksetanalysis/analysis.ml" 122 2609 2676 "src/ext/locksetanalysis/analysis.ml" 122 2609 2678
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 119 2539 2568 "src/ext/locksetanalysis/analysis.ml" 119 2539 2570
+)
+"src/ext/locksetanalysis/analysis.ml" 122 2609 2683 "src/ext/locksetanalysis/analysis.ml" 122 2609 2686
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref i "src/ext/locksetanalysis/analysis.ml" 122 2609 2622 "src/ext/locksetanalysis/analysis.ml" 122 2609 2625
+)
+"src/ext/locksetanalysis/analysis.ml" 122 2609 2679 "src/ext/locksetanalysis/analysis.ml" 122 2609 2687
+type(
+  lock
+)
+"src/ext/locksetanalysis/analysis.ml" 122 2609 2657 "src/ext/locksetanalysis/analysis.ml" 122 2609 2689
+call(
+  stack
+)
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 122 2609 2690 "src/ext/locksetanalysis/analysis.ml" 122 2609 2691
+type(
+  Cil.exp list
+)
+ident(
+  int_ref t "src/ext/locksetanalysis/analysis.ml" 122 2609 2631 "src/ext/locksetanalysis/analysis.ml" 122 2609 2632
+)
+"src/ext/locksetanalysis/analysis.ml" 122 2609 2636 "src/ext/locksetanalysis/analysis.ml" 122 2609 2691
+call(
+  tail
+)
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 123 2692 2696 "src/ext/locksetanalysis/analysis.ml" 123 2692 2697
+type(
+  Cil.exp list
+)
+"src/ext/locksetanalysis/analysis.ml" 123 2692 2701 "src/ext/locksetanalysis/analysis.ml" 123 2692 2703
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 119 2539 2568 "src/ext/locksetanalysis/analysis.ml" 119 2539 2570
+)
+"src/ext/locksetanalysis/analysis.ml" 120 2578 2580 "src/ext/locksetanalysis/analysis.ml" 123 2692 2703
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 125 2705 2709 "src/ext/locksetanalysis/analysis.ml" 125 2705 2730
+type(
+  Cil.instr -> lock list -> lock list
+)
+ident(
+  def lock_list_handle_inst "src/ext/locksetanalysis/analysis.ml" 143 3282 3282 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 125 2705 2732 "src/ext/locksetanalysis/analysis.ml" 125 2705 2733
+type(
+  Cil.instr
+)
+ident(
+  def i "src/ext/locksetanalysis/analysis.ml" 125 2705 2743 "src/ext/locksetanalysis/analysis.ml" 134 3106 3118
+)
+"src/ext/locksetanalysis/analysis.ml" 125 2705 2744 "src/ext/locksetanalysis/analysis.ml" 125 2705 2746
+type(
+  lock list
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 125 2705 2760 "src/ext/locksetanalysis/analysis.ml" 134 3106 3118
+)
+"src/ext/locksetanalysis/analysis.ml" 126 2774 2782 "src/ext/locksetanalysis/analysis.ml" 126 2774 2783
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/locksetanalysis/analysis.ml" 125 2705 2732 "src/ext/locksetanalysis/analysis.ml" 125 2705 2733
+)
+"src/ext/locksetanalysis/analysis.ml" 127 2791 2799 "src/ext/locksetanalysis/analysis.ml" 127 2791 2803
+type(
+  Cil.lval option
+)
+ident(
+  def dest "src/ext/locksetanalysis/analysis.ml" 128 2824 2829 "src/ext/locksetanalysis/analysis.ml" 132 3073 3079
+)
+"src/ext/locksetanalysis/analysis.ml" 127 2791 2805 "src/ext/locksetanalysis/analysis.ml" 127 2791 2809
+type(
+  Cil.exp
+)
+ident(
+  def what "src/ext/locksetanalysis/analysis.ml" 128 2824 2829 "src/ext/locksetanalysis/analysis.ml" 132 3073 3079
+)
+"src/ext/locksetanalysis/analysis.ml" 127 2791 2811 "src/ext/locksetanalysis/analysis.ml" 127 2791 2815
+type(
+  Cil.exp list
+)
+ident(
+  def args "src/ext/locksetanalysis/analysis.ml" 128 2824 2829 "src/ext/locksetanalysis/analysis.ml" 132 3073 3079
+)
+"src/ext/locksetanalysis/analysis.ml" 127 2791 2817 "src/ext/locksetanalysis/analysis.ml" 127 2791 2818
+type(
+  Cil.location
+)
+ident(
+  def l "src/ext/locksetanalysis/analysis.ml" 128 2824 2829 "src/ext/locksetanalysis/analysis.ml" 132 3073 3079
+)
+"src/ext/locksetanalysis/analysis.ml" 127 2791 2794 "src/ext/locksetanalysis/analysis.ml" 127 2791 2819
+type(
+  Cil.instr
+)
+"src/ext/locksetanalysis/analysis.ml" 128 2824 2836 "src/ext/locksetanalysis/analysis.ml" 128 2824 2840
+type(
+  Cil.exp
+)
+ident(
+  int_ref what "src/ext/locksetanalysis/analysis.ml" 127 2791 2805 "src/ext/locksetanalysis/analysis.ml" 127 2791 2809
+)
+"src/ext/locksetanalysis/analysis.ml" 129 2846 2863 "src/ext/locksetanalysis/analysis.ml" 129 2846 2865
+ident(
+  def vi "src/ext/locksetanalysis/analysis.ml" 129 2846 2878 "src/ext/locksetanalysis/analysis.ml" 129 2846 2931
+)
+"src/ext/locksetanalysis/analysis.ml" 129 2846 2862 "src/ext/locksetanalysis/analysis.ml" 129 2846 2866
+type(
+  Cil.varinfo
+)
+"src/ext/locksetanalysis/analysis.ml" 129 2846 2859 "src/ext/locksetanalysis/analysis.ml" 129 2846 2866
+type(
+  Cil.lhost
+)
+"src/ext/locksetanalysis/analysis.ml" 129 2846 2868 "src/ext/locksetanalysis/analysis.ml" 129 2846 2869
+type(
+  Cil.offset
+)
+"src/ext/locksetanalysis/analysis.ml" 129 2846 2857 "src/ext/locksetanalysis/analysis.ml" 129 2846 2872
+type(
+  Cil.lval
+)
+"src/ext/locksetanalysis/analysis.ml" 129 2846 2853 "src/ext/locksetanalysis/analysis.ml" 129 2846 2872
+type(
+  Cil.exp
+)
+"src/ext/locksetanalysis/analysis.ml" 129 2846 2878 "src/ext/locksetanalysis/analysis.ml" 129 2846 2880
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/locksetanalysis/analysis.ml" 129 2846 2862 "src/ext/locksetanalysis/analysis.ml" 129 2846 2866
+)
+"src/ext/locksetanalysis/analysis.ml" 129 2846 2878 "src/ext/locksetanalysis/analysis.ml" 129 2846 2886
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 129 2846 2887 "src/ext/locksetanalysis/analysis.ml" 129 2846 2888
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/locksetanalysis/analysis.ml" 129 2846 2889 "src/ext/locksetanalysis/analysis.ml" 129 2846 2902
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 129 2846 2878 "src/ext/locksetanalysis/analysis.ml" 129 2846 2902
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 129 2846 2906 "src/ext/locksetanalysis/analysis.ml" 129 2846 2923
+type(
+  lock list -> Cil.exp list -> lock list
+)
+ident(
+  int_ref lock_list_add_all "src/ext/locksetanalysis/analysis.ml" 107 2183 2191 "src/ext/locksetanalysis/analysis.ml" 107 2183 2208
+)
+"src/ext/locksetanalysis/analysis.ml" 129 2846 2924 "src/ext/locksetanalysis/analysis.ml" 129 2846 2926
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 125 2705 2744 "src/ext/locksetanalysis/analysis.ml" 125 2705 2746
+)
+"src/ext/locksetanalysis/analysis.ml" 129 2846 2927 "src/ext/locksetanalysis/analysis.ml" 129 2846 2931
+type(
+  Cil.exp list
+)
+ident(
+  int_ref args "src/ext/locksetanalysis/analysis.ml" 127 2791 2811 "src/ext/locksetanalysis/analysis.ml" 127 2791 2815
+)
+"src/ext/locksetanalysis/analysis.ml" 129 2846 2906 "src/ext/locksetanalysis/analysis.ml" 129 2846 2931
+call(
+  tail
+)
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 130 2933 2950 "src/ext/locksetanalysis/analysis.ml" 130 2933 2952
+ident(
+  def vi "src/ext/locksetanalysis/analysis.ml" 130 2933 2965 "src/ext/locksetanalysis/analysis.ml" 130 2933 3025
+)
+"src/ext/locksetanalysis/analysis.ml" 130 2933 2949 "src/ext/locksetanalysis/analysis.ml" 130 2933 2953
+type(
+  Cil.varinfo
+)
+"src/ext/locksetanalysis/analysis.ml" 130 2933 2946 "src/ext/locksetanalysis/analysis.ml" 130 2933 2953
+type(
+  Cil.lhost
+)
+"src/ext/locksetanalysis/analysis.ml" 130 2933 2955 "src/ext/locksetanalysis/analysis.ml" 130 2933 2956
+type(
+  Cil.offset
+)
+"src/ext/locksetanalysis/analysis.ml" 130 2933 2944 "src/ext/locksetanalysis/analysis.ml" 130 2933 2959
+type(
+  Cil.lval
+)
+"src/ext/locksetanalysis/analysis.ml" 130 2933 2940 "src/ext/locksetanalysis/analysis.ml" 130 2933 2959
+type(
+  Cil.exp
+)
+"src/ext/locksetanalysis/analysis.ml" 130 2933 2965 "src/ext/locksetanalysis/analysis.ml" 130 2933 2967
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/locksetanalysis/analysis.ml" 130 2933 2949 "src/ext/locksetanalysis/analysis.ml" 130 2933 2953
+)
+"src/ext/locksetanalysis/analysis.ml" 130 2933 2965 "src/ext/locksetanalysis/analysis.ml" 130 2933 2973
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 130 2933 2974 "src/ext/locksetanalysis/analysis.ml" 130 2933 2975
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/locksetanalysis/analysis.ml" 130 2933 2976 "src/ext/locksetanalysis/analysis.ml" 130 2933 2993
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 130 2933 2965 "src/ext/locksetanalysis/analysis.ml" 130 2933 2993
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 130 2933 2997 "src/ext/locksetanalysis/analysis.ml" 130 2933 3017
+type(
+  lock list -> Cil.exp list -> lock list
+)
+ident(
+  int_ref lock_list_remove_all "src/ext/locksetanalysis/analysis.ml" 119 2539 2547 "src/ext/locksetanalysis/analysis.ml" 119 2539 2567
+)
+"src/ext/locksetanalysis/analysis.ml" 130 2933 3018 "src/ext/locksetanalysis/analysis.ml" 130 2933 3020
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 125 2705 2744 "src/ext/locksetanalysis/analysis.ml" 125 2705 2746
+)
+"src/ext/locksetanalysis/analysis.ml" 130 2933 3021 "src/ext/locksetanalysis/analysis.ml" 130 2933 3025
+type(
+  Cil.exp list
+)
+ident(
+  int_ref args "src/ext/locksetanalysis/analysis.ml" 127 2791 2811 "src/ext/locksetanalysis/analysis.ml" 127 2791 2815
+)
+"src/ext/locksetanalysis/analysis.ml" 130 2933 2997 "src/ext/locksetanalysis/analysis.ml" 130 2933 3025
+call(
+  tail
+)
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 131 3026 3034 "src/ext/locksetanalysis/analysis.ml" 131 3026 3035
+type(
+  Cil.exp
+)
+"src/ext/locksetanalysis/analysis.ml" 131 3026 3039 "src/ext/locksetanalysis/analysis.ml" 131 3026 3041
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 125 2705 2744 "src/ext/locksetanalysis/analysis.ml" 125 2705 2746
+)
+"src/ext/locksetanalysis/analysis.ml" 128 2824 2829 "src/ext/locksetanalysis/analysis.ml" 132 3073 3079
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 134 3106 3111 "src/ext/locksetanalysis/analysis.ml" 134 3106 3112
+type(
+  Cil.instr
+)
+"src/ext/locksetanalysis/analysis.ml" 134 3106 3116 "src/ext/locksetanalysis/analysis.ml" 134 3106 3118
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 125 2705 2744 "src/ext/locksetanalysis/analysis.ml" 125 2705 2746
+)
+"src/ext/locksetanalysis/analysis.ml" 126 2774 2776 "src/ext/locksetanalysis/analysis.ml" 134 3106 3118
+type(
+  lock list
+)
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 149 3462 3468 "src/ext/locksetanalysis/analysis.ml" 149 3462 3472
+type(
+  string
+)
+ident(
+  def name "src/ext/locksetanalysis/analysis.ml" 150 3485 3487 "src/ext/locksetanalysis/analysis.ml" 181 4428 4431
+)
+"src/ext/locksetanalysis/analysis.ml" 149 3462 3475 "src/ext/locksetanalysis/analysis.ml" 149 3462 3484
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 150 3485 3491 "src/ext/locksetanalysis/analysis.ml" 150 3485 3496
+type(
+  bool ref
+)
+ident(
+  def debug "src/ext/locksetanalysis/analysis.ml" 151 3505 3507 "src/ext/locksetanalysis/analysis.ml" 181 4428 4431
+)
+"src/ext/locksetanalysis/analysis.ml" 150 3485 3499 "src/ext/locksetanalysis/analysis.ml" 150 3485 3504
+type(
+  bool ref
+)
+ident(
+  int_ref debug "src/ext/locksetanalysis/analysis.ml" 17 391 395 "src/ext/locksetanalysis/analysis.ml" 17 391 400
+)
+"src/ext/locksetanalysis/analysis.ml" 152 3557 3563 "src/ext/locksetanalysis/analysis.ml" 152 3557 3567
+type(
+  'a -> 'a
+)
+ident(
+  def copy "src/ext/locksetanalysis/analysis.ml" 154 3634 3636 "src/ext/locksetanalysis/analysis.ml" 181 4428 4431
+)
+"src/ext/locksetanalysis/analysis.ml" 152 3557 3568 "src/ext/locksetanalysis/analysis.ml" 152 3557 3570
+type(
+  'a
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 152 3557 3573 "src/ext/locksetanalysis/analysis.ml" 152 3557 3575
+)
+"src/ext/locksetanalysis/analysis.ml" 152 3557 3573 "src/ext/locksetanalysis/analysis.ml" 152 3557 3575
+type(
+  'a
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 152 3557 3568 "src/ext/locksetanalysis/analysis.ml" 152 3557 3570
+)
+"src/ext/locksetanalysis/analysis.ml" 154 3634 3640 "src/ext/locksetanalysis/analysis.ml" 154 3634 3653
+type(
+  lock list IH.t
+)
+ident(
+  def stmtStartData "src/ext/locksetanalysis/analysis.ml" 155 3669 3671 "src/ext/locksetanalysis/analysis.ml" 181 4428 4431
+)
+"src/ext/locksetanalysis/analysis.ml" 154 3634 3656 "src/ext/locksetanalysis/analysis.ml" 154 3634 3665
+type(
+  int -> lock list IH.t
+)
+ident(
+  ext_ref IH.create
+)
+"src/ext/locksetanalysis/analysis.ml" 154 3634 3666 "src/ext/locksetanalysis/analysis.ml" 154 3634 3668
+type(
+  int
+)
+"src/ext/locksetanalysis/analysis.ml" 154 3634 3656 "src/ext/locksetanalysis/analysis.ml" 154 3634 3668
+call(
+  stack
+)
+type(
+  lock list IH.t
+)
+"src/ext/locksetanalysis/analysis.ml" 155 3669 3675 "src/ext/locksetanalysis/analysis.ml" 155 3669 3681
+type(
+  unit -> lock list -> Pretty.doc
+)
+ident(
+  def pretty "src/ext/locksetanalysis/analysis.ml" 156 3701 3703 "src/ext/locksetanalysis/analysis.ml" 181 4428 4431
+)
+"src/ext/locksetanalysis/analysis.ml" 155 3669 3684 "src/ext/locksetanalysis/analysis.ml" 155 3669 3700
+type(
+  unit -> lock list -> Pretty.doc
+)
+ident(
+  int_ref lock_list_pretty "src/ext/locksetanalysis/analysis.ml" 83 1563 1567 "src/ext/locksetanalysis/analysis.ml" 83 1563 1583
+)
+"src/ext/locksetanalysis/analysis.ml" 156 3701 3707 "src/ext/locksetanalysis/analysis.ml" 156 3701 3730
+type(
+  'b -> 'c -> 'c
+)
+ident(
+  def computeFirstPredecessor "src/ext/locksetanalysis/analysis.ml" 159 3794 3796 "src/ext/locksetanalysis/analysis.ml" 181 4428 4431
+)
+"src/ext/locksetanalysis/analysis.ml" 156 3701 3731 "src/ext/locksetanalysis/analysis.ml" 156 3701 3734
+type(
+  'b
+)
+ident(
+  def stm "src/ext/locksetanalysis/analysis.ml" 156 3701 3735 "src/ext/locksetanalysis/analysis.ml" 156 3701 3742
+)
+"src/ext/locksetanalysis/analysis.ml" 156 3701 3735 "src/ext/locksetanalysis/analysis.ml" 156 3701 3737
+type(
+  'c
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 156 3701 3740 "src/ext/locksetanalysis/analysis.ml" 156 3701 3742
+)
+"src/ext/locksetanalysis/analysis.ml" 156 3701 3740 "src/ext/locksetanalysis/analysis.ml" 156 3701 3742
+type(
+  'c
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 156 3701 3735 "src/ext/locksetanalysis/analysis.ml" 156 3701 3737
+)
+"src/ext/locksetanalysis/analysis.ml" 159 3794 3800 "src/ext/locksetanalysis/analysis.ml" 159 3794 3819
+type(
+  Cil.stmt -> old:t -> t -> lock list option
+)
+ident(
+  def combinePredecessors "src/ext/locksetanalysis/analysis.ml" 164 3975 3977 "src/ext/locksetanalysis/analysis.ml" 181 4428 4431
+)
+"src/ext/locksetanalysis/analysis.ml" 159 3794 3821 "src/ext/locksetanalysis/analysis.ml" 159 3794 3822
+type(
+  Cil.stmt
+)
+ident(
+  def s "src/ext/locksetanalysis/analysis.ml" 159 3794 3831 "src/ext/locksetanalysis/analysis.ml" 161 3884 3913
+)
+"src/ext/locksetanalysis/analysis.ml" 159 3794 3833 "src/ext/locksetanalysis/analysis.ml" 159 3794 3836
+type(
+  t
+)
+ident(
+  def old "src/ext/locksetanalysis/analysis.ml" 159 3794 3842 "src/ext/locksetanalysis/analysis.ml" 161 3884 3913
+)
+"src/ext/locksetanalysis/analysis.ml" 159 3794 3843 "src/ext/locksetanalysis/analysis.ml" 159 3794 3845
+type(
+  t
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 160 3853 3857 "src/ext/locksetanalysis/analysis.ml" 161 3884 3913
+)
+"src/ext/locksetanalysis/analysis.ml" 160 3853 3860 "src/ext/locksetanalysis/analysis.ml" 160 3853 3863
+type(
+  t
+)
+ident(
+  int_ref old "src/ext/locksetanalysis/analysis.ml" 159 3794 3833 "src/ext/locksetanalysis/analysis.ml" 159 3794 3836
+)
+"src/ext/locksetanalysis/analysis.ml" 160 3853 3864 "src/ext/locksetanalysis/analysis.ml" 160 3853 3865
+type(
+  t -> t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/locksetanalysis/analysis.ml" 160 3853 3866 "src/ext/locksetanalysis/analysis.ml" 160 3853 3868
+type(
+  t
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 159 3794 3843 "src/ext/locksetanalysis/analysis.ml" 159 3794 3845
+)
+"src/ext/locksetanalysis/analysis.ml" 160 3853 3860 "src/ext/locksetanalysis/analysis.ml" 160 3853 3868
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 160 3853 3874 "src/ext/locksetanalysis/analysis.ml" 160 3853 3878
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 161 3884 3893 "src/ext/locksetanalysis/analysis.ml" 161 3884 3905
+type(
+  t -> t -> lock list
+)
+ident(
+  int_ref intersection "src/ext/locksetanalysis/analysis.ml" 98 1981 1989 "src/ext/locksetanalysis/analysis.ml" 98 1981 2001
+)
+"src/ext/locksetanalysis/analysis.ml" 161 3884 3906 "src/ext/locksetanalysis/analysis.ml" 161 3884 3909
+type(
+  t
+)
+ident(
+  int_ref old "src/ext/locksetanalysis/analysis.ml" 159 3794 3833 "src/ext/locksetanalysis/analysis.ml" 159 3794 3836
+)
+"src/ext/locksetanalysis/analysis.ml" 161 3884 3910 "src/ext/locksetanalysis/analysis.ml" 161 3884 3912
+type(
+  t
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 159 3794 3843 "src/ext/locksetanalysis/analysis.ml" 159 3794 3845
+)
+"src/ext/locksetanalysis/analysis.ml" 161 3884 3892 "src/ext/locksetanalysis/analysis.ml" 161 3884 3913
+call(
+  stack
+)
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 161 3884 3888 "src/ext/locksetanalysis/analysis.ml" 161 3884 3913
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 160 3853 3857 "src/ext/locksetanalysis/analysis.ml" 161 3884 3913
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 164 3975 3981 "src/ext/locksetanalysis/analysis.ml" 164 3975 3988
+type(
+  Cil.instr -> t -> lock list DF.action
+)
+ident(
+  def doInstr "src/ext/locksetanalysis/analysis.ml" 168 4080 4082 "src/ext/locksetanalysis/analysis.ml" 181 4428 4431
+)
+"src/ext/locksetanalysis/analysis.ml" 164 3975 3990 "src/ext/locksetanalysis/analysis.ml" 164 3975 3991
+type(
+  Cil.instr
+)
+ident(
+  def i "src/ext/locksetanalysis/analysis.ml" 164 3975 4001 "src/ext/locksetanalysis/analysis.ml" 166 4060 4078
+)
+"src/ext/locksetanalysis/analysis.ml" 164 3975 4002 "src/ext/locksetanalysis/analysis.ml" 164 3975 4004
+type(
+  t
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 165 4012 4016 "src/ext/locksetanalysis/analysis.ml" 166 4060 4078
+)
+"src/ext/locksetanalysis/analysis.ml" 165 4012 4020 "src/ext/locksetanalysis/analysis.ml" 165 4012 4026
+type(
+  lock list -> lock list
+)
+ident(
+  def action "src/ext/locksetanalysis/analysis.ml" 166 4060 4064 "src/ext/locksetanalysis/analysis.ml" 166 4060 4078
+)
+"src/ext/locksetanalysis/analysis.ml" 165 4012 4029 "src/ext/locksetanalysis/analysis.ml" 165 4012 4050
+type(
+  Cil.instr -> lock list -> lock list
+)
+ident(
+  int_ref lock_list_handle_inst "src/ext/locksetanalysis/analysis.ml" 125 2705 2709 "src/ext/locksetanalysis/analysis.ml" 125 2705 2730
+)
+"src/ext/locksetanalysis/analysis.ml" 165 4012 4051 "src/ext/locksetanalysis/analysis.ml" 165 4012 4052
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/locksetanalysis/analysis.ml" 164 3975 3990 "src/ext/locksetanalysis/analysis.ml" 164 3975 3991
+)
+"src/ext/locksetanalysis/analysis.ml" 165 4012 4029 "src/ext/locksetanalysis/analysis.ml" 165 4012 4052
+call(
+  stack
+)
+type(
+  lock list -> lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 166 4060 4072 "src/ext/locksetanalysis/analysis.ml" 166 4060 4078
+type(
+  lock list -> lock list
+)
+ident(
+  int_ref action "src/ext/locksetanalysis/analysis.ml" 165 4012 4020 "src/ext/locksetanalysis/analysis.ml" 165 4012 4026
+)
+"src/ext/locksetanalysis/analysis.ml" 166 4060 4064 "src/ext/locksetanalysis/analysis.ml" 166 4060 4078
+type(
+  lock list DF.action
+)
+"src/ext/locksetanalysis/analysis.ml" 165 4012 4016 "src/ext/locksetanalysis/analysis.ml" 166 4060 4078
+type(
+  lock list DF.action
+)
+"src/ext/locksetanalysis/analysis.ml" 168 4080 4086 "src/ext/locksetanalysis/analysis.ml" 168 4080 4092
+type(
+  'd -> 'e -> 'f DF.stmtaction
+)
+ident(
+  def doStmt "src/ext/locksetanalysis/analysis.ml" 174 4241 4243 "src/ext/locksetanalysis/analysis.ml" 181 4428 4431
+)
+"src/ext/locksetanalysis/analysis.ml" 168 4080 4093 "src/ext/locksetanalysis/analysis.ml" 168 4080 4096
+type(
+  'd
+)
+ident(
+  def stm "src/ext/locksetanalysis/analysis.ml" 168 4080 4097 "src/ext/locksetanalysis/analysis.ml" 168 4080 4113
+)
+"src/ext/locksetanalysis/analysis.ml" 168 4080 4097 "src/ext/locksetanalysis/analysis.ml" 168 4080 4099
+type(
+  'e
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 168 4080 4102 "src/ext/locksetanalysis/analysis.ml" 168 4080 4113
+)
+"src/ext/locksetanalysis/analysis.ml" 168 4080 4102 "src/ext/locksetanalysis/analysis.ml" 168 4080 4113
+type(
+  'f DF.stmtaction
+)
+"src/ext/locksetanalysis/analysis.ml" 174 4241 4247 "src/ext/locksetanalysis/analysis.ml" 174 4241 4254
+type(
+  'g -> 'h -> 'i DF.guardaction
+)
+ident(
+  def doGuard "src/ext/locksetanalysis/analysis.ml" 175 4274 4276 "src/ext/locksetanalysis/analysis.ml" 181 4428 4431
+)
+"src/ext/locksetanalysis/analysis.ml" 174 4241 4255 "src/ext/locksetanalysis/analysis.ml" 174 4241 4256
+type(
+  'g
+)
+ident(
+  def c "src/ext/locksetanalysis/analysis.ml" 174 4241 4257 "src/ext/locksetanalysis/analysis.ml" 174 4241 4273
+)
+"src/ext/locksetanalysis/analysis.ml" 174 4241 4257 "src/ext/locksetanalysis/analysis.ml" 174 4241 4259
+type(
+  'h
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 174 4241 4262 "src/ext/locksetanalysis/analysis.ml" 174 4241 4273
+)
+"src/ext/locksetanalysis/analysis.ml" 174 4241 4262 "src/ext/locksetanalysis/analysis.ml" 174 4241 4273
+type(
+  'i DF.guardaction
+)
+"src/ext/locksetanalysis/analysis.ml" 175 4274 4280 "src/ext/locksetanalysis/analysis.ml" 175 4274 4290
+type(
+  'j -> bool
+)
+ident(
+  def filterStmt "src/ext/locksetanalysis/analysis.ml" 175 4274 4301 "src/ext/locksetanalysis/analysis.ml" 181 4428 4431
+)
+"src/ext/locksetanalysis/analysis.ml" 175 4274 4291 "src/ext/locksetanalysis/analysis.ml" 175 4274 4294
+type(
+  'j
+)
+ident(
+  def stm "src/ext/locksetanalysis/analysis.ml" 175 4274 4297 "src/ext/locksetanalysis/analysis.ml" 175 4274 4301
+)
+"src/ext/locksetanalysis/analysis.ml" 175 4274 4297 "src/ext/locksetanalysis/analysis.ml" 175 4274 4301
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 185 4510 4527 "src/ext/locksetanalysis/analysis.ml" 185 4510 4557
+call(
+  stack
+)
+"src/ext/locksetanalysis/analysis.ml" 191 4634 4638 "src/ext/locksetanalysis/analysis.ml" 191 4634 4652
+type(
+  Cil.fundec -> unit
+)
+ident(
+  def computeLockSet "src/ext/locksetanalysis/analysis.ml" 206 5035 5035 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 191 4634 4654 "src/ext/locksetanalysis/analysis.ml" 191 4634 4656
+type(
+  Cil.fundec
+)
+ident(
+  def fd "src/ext/locksetanalysis/analysis.ml" 191 4634 4667 "src/ext/locksetanalysis/analysis.ml" 198 4872 4902
+)
+"src/ext/locksetanalysis/analysis.ml" 192 4676 4678 "src/ext/locksetanalysis/analysis.ml" 192 4676 4694
+type(
+  Cil.fundec -> unit
+)
+ident(
+  ext_ref Cfg.clearCFGinfo
+)
+"src/ext/locksetanalysis/analysis.ml" 192 4676 4695 "src/ext/locksetanalysis/analysis.ml" 192 4676 4697
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fd "src/ext/locksetanalysis/analysis.ml" 191 4634 4654 "src/ext/locksetanalysis/analysis.ml" 191 4634 4656
+)
+"src/ext/locksetanalysis/analysis.ml" 192 4676 4678 "src/ext/locksetanalysis/analysis.ml" 192 4676 4697
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 193 4699 4701 "src/ext/locksetanalysis/analysis.ml" 193 4699 4707
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/locksetanalysis/analysis.ml" 193 4699 4708 "src/ext/locksetanalysis/analysis.ml" 193 4699 4718
+type(
+  Cil.fundec -> int
+)
+ident(
+  ext_ref Cfg.cfgFun
+)
+"src/ext/locksetanalysis/analysis.ml" 193 4699 4719 "src/ext/locksetanalysis/analysis.ml" 193 4699 4721
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fd "src/ext/locksetanalysis/analysis.ml" 191 4634 4654 "src/ext/locksetanalysis/analysis.ml" 191 4634 4656
+)
+"src/ext/locksetanalysis/analysis.ml" 193 4699 4707 "src/ext/locksetanalysis/analysis.ml" 193 4699 4722
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/locksetanalysis/analysis.ml" 193 4699 4701 "src/ext/locksetanalysis/analysis.ml" 193 4699 4722
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 194 4724 4730 "src/ext/locksetanalysis/analysis.ml" 194 4724 4740
+type(
+  Cil.stmt
+)
+ident(
+  def first_stmt "src/ext/locksetanalysis/analysis.ml" 195 4767 4769 "src/ext/locksetanalysis/analysis.ml" 198 4872 4902
+)
+"src/ext/locksetanalysis/analysis.ml" 194 4724 4743 "src/ext/locksetanalysis/analysis.ml" 194 4724 4747
+type(
+  Cil.stmt list -> Cil.stmt
+)
+ident(
+  ext_ref L.hd
+)
+"src/ext/locksetanalysis/analysis.ml" 194 4724 4748 "src/ext/locksetanalysis/analysis.ml" 194 4724 4750
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fd "src/ext/locksetanalysis/analysis.ml" 191 4634 4654 "src/ext/locksetanalysis/analysis.ml" 191 4634 4656
+)
+"src/ext/locksetanalysis/analysis.ml" 194 4724 4748 "src/ext/locksetanalysis/analysis.ml" 194 4724 4756
+type(
+  Cil.block
+)
+"src/ext/locksetanalysis/analysis.ml" 194 4724 4748 "src/ext/locksetanalysis/analysis.ml" 194 4724 4763
+type(
+  Cil.stmt list
+)
+"src/ext/locksetanalysis/analysis.ml" 194 4724 4743 "src/ext/locksetanalysis/analysis.ml" 194 4724 4763
+call(
+  stack
+)
+type(
+  Cil.stmt
+)
+"src/ext/locksetanalysis/analysis.ml" 195 4767 4773 "src/ext/locksetanalysis/analysis.ml" 195 4767 4775
+type(
+  'a list
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 196 4784 4786 "src/ext/locksetanalysis/analysis.ml" 198 4872 4902
+)
+"src/ext/locksetanalysis/analysis.ml" 195 4767 4778 "src/ext/locksetanalysis/analysis.ml" 195 4767 4780
+type(
+  'a list
+)
+"src/ext/locksetanalysis/analysis.ml" 196 4784 4786 "src/ext/locksetanalysis/analysis.ml" 196 4784 4794
+type(
+  lock list IH.t -> unit
+)
+ident(
+  ext_ref IH.clear
+)
+"src/ext/locksetanalysis/analysis.ml" 196 4784 4795 "src/ext/locksetanalysis/analysis.ml" 196 4784 4818
+type(
+  lock list IH.t
+)
+ident(
+  int_ref LockSetDF.stmtStartData "src/ext/locksetanalysis/analysis.ml" 154 3634 3640 "src/ext/locksetanalysis/analysis.ml" 154 3634 3653
+)
+"src/ext/locksetanalysis/analysis.ml" 196 4784 4786 "src/ext/locksetanalysis/analysis.ml" 196 4784 4818
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 197 4820 4822 "src/ext/locksetanalysis/analysis.ml" 197 4820 4828
+type(
+  lock list IH.t -> int -> lock list -> unit
+)
+ident(
+  ext_ref IH.add
+)
+"src/ext/locksetanalysis/analysis.ml" 197 4820 4829 "src/ext/locksetanalysis/analysis.ml" 197 4820 4852
+type(
+  lock list IH.t
+)
+ident(
+  int_ref LockSetDF.stmtStartData "src/ext/locksetanalysis/analysis.ml" 154 3634 3640 "src/ext/locksetanalysis/analysis.ml" 154 3634 3653
+)
+"src/ext/locksetanalysis/analysis.ml" 197 4820 4853 "src/ext/locksetanalysis/analysis.ml" 197 4820 4863
+type(
+  Cil.stmt
+)
+ident(
+  int_ref first_stmt "src/ext/locksetanalysis/analysis.ml" 194 4724 4730 "src/ext/locksetanalysis/analysis.ml" 194 4724 4740
+)
+"src/ext/locksetanalysis/analysis.ml" 197 4820 4853 "src/ext/locksetanalysis/analysis.ml" 197 4820 4867
+type(
+  int
+)
+"src/ext/locksetanalysis/analysis.ml" 197 4820 4868 "src/ext/locksetanalysis/analysis.ml" 197 4820 4870
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 195 4767 4773 "src/ext/locksetanalysis/analysis.ml" 195 4767 4775
+)
+"src/ext/locksetanalysis/analysis.ml" 197 4820 4822 "src/ext/locksetanalysis/analysis.ml" 197 4820 4870
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 198 4872 4874 "src/ext/locksetanalysis/analysis.ml" 198 4872 4889
+type(
+  Cil.stmt list -> unit
+)
+ident(
+  ext_ref LockSet.compute
+)
+"src/ext/locksetanalysis/analysis.ml" 198 4872 4891 "src/ext/locksetanalysis/analysis.ml" 198 4872 4901
+type(
+  Cil.stmt
+)
+ident(
+  int_ref first_stmt "src/ext/locksetanalysis/analysis.ml" 194 4724 4730 "src/ext/locksetanalysis/analysis.ml" 194 4724 4740
+)
+"src/ext/locksetanalysis/analysis.ml" 198 4872 4890 "src/ext/locksetanalysis/analysis.ml" 198 4872 4902
+type(
+  Cil.stmt list
+)
+"src/ext/locksetanalysis/analysis.ml" 198 4872 4874 "src/ext/locksetanalysis/analysis.ml" 198 4872 4902
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 197 4820 4822 "src/ext/locksetanalysis/analysis.ml" 198 4872 4902
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 196 4784 4786 "src/ext/locksetanalysis/analysis.ml" 198 4872 4902
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 195 4767 4769 "src/ext/locksetanalysis/analysis.ml" 198 4872 4902
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 194 4724 4726 "src/ext/locksetanalysis/analysis.ml" 198 4872 4902
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 193 4699 4701 "src/ext/locksetanalysis/analysis.ml" 198 4872 4902
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 192 4676 4678 "src/ext/locksetanalysis/analysis.ml" 198 4872 4902
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 206 5035 5039 "src/ext/locksetanalysis/analysis.ml" 206 5035 5049
+type(
+  int -> lock list option
+)
+ident(
+  def getLockSet "src/ext/locksetanalysis/analysis.ml" 211 5158 5158 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 206 5035 5051 "src/ext/locksetanalysis/analysis.ml" 206 5035 5054
+type(
+  int
+)
+ident(
+  def sid "src/ext/locksetanalysis/analysis.ml" 206 5035 5062 "src/ext/locksetanalysis/analysis.ml" 208 5131 5155
+)
+"src/ext/locksetanalysis/analysis.ml" 207 5083 5094 "src/ext/locksetanalysis/analysis.ml" 207 5083 5101
+type(
+  lock list IH.t -> int -> lock list
+)
+ident(
+  ext_ref IH.find
+)
+"src/ext/locksetanalysis/analysis.ml" 207 5083 5102 "src/ext/locksetanalysis/analysis.ml" 207 5083 5125
+type(
+  lock list IH.t
+)
+ident(
+  int_ref LockSetDF.stmtStartData "src/ext/locksetanalysis/analysis.ml" 154 3634 3640 "src/ext/locksetanalysis/analysis.ml" 154 3634 3653
+)
+"src/ext/locksetanalysis/analysis.ml" 207 5083 5126 "src/ext/locksetanalysis/analysis.ml" 207 5083 5129
+type(
+  int
+)
+ident(
+  int_ref sid "src/ext/locksetanalysis/analysis.ml" 206 5035 5051 "src/ext/locksetanalysis/analysis.ml" 206 5035 5054
+)
+"src/ext/locksetanalysis/analysis.ml" 207 5083 5093 "src/ext/locksetanalysis/analysis.ml" 207 5083 5130
+call(
+  stack
+)
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 207 5083 5089 "src/ext/locksetanalysis/analysis.ml" 207 5083 5130
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 208 5131 5138 "src/ext/locksetanalysis/analysis.ml" 208 5131 5147
+type(
+  exn
+)
+"src/ext/locksetanalysis/analysis.ml" 208 5131 5151 "src/ext/locksetanalysis/analysis.ml" 208 5131 5155
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 207 5083 5085 "src/ext/locksetanalysis/analysis.ml" 208 5131 5155
+type(
+  lock list option
+)
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 211 5158 5162 "src/ext/locksetanalysis/analysis.ml" 211 5158 5174
+type(
+  Cil.instr list -> lock list -> lock list list
+)
+ident(
+  def instrLockSet "src/ext/locksetanalysis/analysis.ml" 219 5437 5437 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 211 5158 5176 "src/ext/locksetanalysis/analysis.ml" 211 5158 5178
+type(
+  Cil.instr list
+)
+ident(
+  def il "src/ext/locksetanalysis/analysis.ml" 211 5158 5193 "src/ext/locksetanalysis/analysis.ml" 217 5384 5434
+)
+"src/ext/locksetanalysis/analysis.ml" 211 5158 5194 "src/ext/locksetanalysis/analysis.ml" 211 5158 5196
+type(
+  lock list
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 211 5158 5210 "src/ext/locksetanalysis/analysis.ml" 217 5384 5434
+)
+"src/ext/locksetanalysis/analysis.ml" 212 5229 5235 "src/ext/locksetanalysis/analysis.ml" 212 5229 5243
+type(
+  lock list list -> Cil.instr -> lock list list
+)
+ident(
+  def proc_one "src/ext/locksetanalysis/analysis.ml" 217 5384 5386 "src/ext/locksetanalysis/analysis.ml" 217 5384 5434
+)
+"src/ext/locksetanalysis/analysis.ml" 212 5229 5244 "src/ext/locksetanalysis/analysis.ml" 212 5229 5247
+type(
+  lock list list
+)
+ident(
+  def hil "src/ext/locksetanalysis/analysis.ml" 212 5229 5248 "src/ext/locksetanalysis/analysis.ml" 215 5319 5378
+)
+"src/ext/locksetanalysis/analysis.ml" 212 5229 5248 "src/ext/locksetanalysis/analysis.ml" 212 5229 5249
+type(
+  Cil.instr
+)
+ident(
+  def i "src/ext/locksetanalysis/analysis.ml" 213 5252 5256 "src/ext/locksetanalysis/analysis.ml" 215 5319 5378
+)
+"src/ext/locksetanalysis/analysis.ml" 213 5252 5262 "src/ext/locksetanalysis/analysis.ml" 213 5252 5265
+type(
+  lock list list
+)
+ident(
+  int_ref hil "src/ext/locksetanalysis/analysis.ml" 212 5229 5244 "src/ext/locksetanalysis/analysis.ml" 212 5229 5247
+)
+"src/ext/locksetanalysis/analysis.ml" 214 5271 5277 "src/ext/locksetanalysis/analysis.ml" 214 5271 5279
+type(
+  lock list list
+)
+"src/ext/locksetanalysis/analysis.ml" 214 5271 5284 "src/ext/locksetanalysis/analysis.ml" 214 5271 5305
+type(
+  Cil.instr -> lock list -> lock list
+)
+ident(
+  int_ref lock_list_handle_inst "src/ext/locksetanalysis/analysis.ml" 125 2705 2709 "src/ext/locksetanalysis/analysis.ml" 125 2705 2730
+)
+"src/ext/locksetanalysis/analysis.ml" 214 5271 5306 "src/ext/locksetanalysis/analysis.ml" 214 5271 5307
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/locksetanalysis/analysis.ml" 212 5229 5248 "src/ext/locksetanalysis/analysis.ml" 212 5229 5249
+)
+"src/ext/locksetanalysis/analysis.ml" 214 5271 5308 "src/ext/locksetanalysis/analysis.ml" 214 5271 5310
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 211 5158 5194 "src/ext/locksetanalysis/analysis.ml" 211 5158 5196
+)
+"src/ext/locksetanalysis/analysis.ml" 214 5271 5283 "src/ext/locksetanalysis/analysis.ml" 214 5271 5311
+call(
+  stack
+)
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 214 5271 5315 "src/ext/locksetanalysis/analysis.ml" 214 5271 5318
+type(
+  lock list list
+)
+ident(
+  int_ref hil "src/ext/locksetanalysis/analysis.ml" 212 5229 5244 "src/ext/locksetanalysis/analysis.ml" 212 5229 5247
+)
+"src/ext/locksetanalysis/analysis.ml" 214 5271 5283 "src/ext/locksetanalysis/analysis.ml" 214 5271 5318
+type(
+  lock list list
+)
+"src/ext/locksetanalysis/analysis.ml" 215 5319 5325 "src/ext/locksetanalysis/analysis.ml" 215 5319 5328
+type(
+  lock list
+)
+ident(
+  def ll' "src/ext/locksetanalysis/analysis.ml" 215 5319 5344 "src/ext/locksetanalysis/analysis.ml" 215 5319 5378
+)
+"src/ext/locksetanalysis/analysis.ml" 215 5319 5331 "src/ext/locksetanalysis/analysis.ml" 215 5319 5335
+type(
+  lock list list
+)
+ident(
+  def rest "src/ext/locksetanalysis/analysis.ml" 215 5319 5344 "src/ext/locksetanalysis/analysis.ml" 215 5319 5378
+)
+"src/ext/locksetanalysis/analysis.ml" 215 5319 5325 "src/ext/locksetanalysis/analysis.ml" 215 5319 5335
+type(
+  lock list list
+)
+"src/ext/locksetanalysis/analysis.ml" 215 5319 5339 "src/ext/locksetanalysis/analysis.ml" 215 5319 5340
+ident(
+  def l "src/ext/locksetanalysis/analysis.ml" 215 5319 5344 "src/ext/locksetanalysis/analysis.ml" 215 5319 5378
+)
+"src/ext/locksetanalysis/analysis.ml" 215 5319 5325 "src/ext/locksetanalysis/analysis.ml" 215 5319 5340
+type(
+  lock list list
+)
+"src/ext/locksetanalysis/analysis.ml" 215 5319 5345 "src/ext/locksetanalysis/analysis.ml" 215 5319 5366
+type(
+  Cil.instr -> lock list -> lock list
+)
+ident(
+  int_ref lock_list_handle_inst "src/ext/locksetanalysis/analysis.ml" 125 2705 2709 "src/ext/locksetanalysis/analysis.ml" 125 2705 2730
+)
+"src/ext/locksetanalysis/analysis.ml" 215 5319 5367 "src/ext/locksetanalysis/analysis.ml" 215 5319 5368
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/locksetanalysis/analysis.ml" 212 5229 5248 "src/ext/locksetanalysis/analysis.ml" 212 5229 5249
+)
+"src/ext/locksetanalysis/analysis.ml" 215 5319 5369 "src/ext/locksetanalysis/analysis.ml" 215 5319 5372
+type(
+  lock list
+)
+ident(
+  int_ref ll' "src/ext/locksetanalysis/analysis.ml" 215 5319 5325 "src/ext/locksetanalysis/analysis.ml" 215 5319 5328
+)
+"src/ext/locksetanalysis/analysis.ml" 215 5319 5344 "src/ext/locksetanalysis/analysis.ml" 215 5319 5373
+call(
+  stack
+)
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 215 5319 5377 "src/ext/locksetanalysis/analysis.ml" 215 5319 5378
+type(
+  lock list list
+)
+ident(
+  int_ref l "src/ext/locksetanalysis/analysis.ml" 215 5319 5325 "src/ext/locksetanalysis/analysis.ml" 215 5319 5340
+)
+"src/ext/locksetanalysis/analysis.ml" 215 5319 5344 "src/ext/locksetanalysis/analysis.ml" 215 5319 5378
+type(
+  lock list list
+)
+"src/ext/locksetanalysis/analysis.ml" 213 5252 5256 "src/ext/locksetanalysis/analysis.ml" 215 5319 5378
+type(
+  lock list list
+)
+"src/ext/locksetanalysis/analysis.ml" 217 5384 5386 "src/ext/locksetanalysis/analysis.ml" 217 5384 5388
+type(
+  Cil.instr list
+)
+ident(
+  int_ref il "src/ext/locksetanalysis/analysis.ml" 211 5158 5176 "src/ext/locksetanalysis/analysis.ml" 211 5158 5178
+)
+"src/ext/locksetanalysis/analysis.ml" 217 5384 5389 "src/ext/locksetanalysis/analysis.ml" 217 5384 5391
+type(
+  Cil.instr list -> (Cil.instr list -> lock list list) -> lock list list
+)
+ident(
+  int_ref |> "src/ext/locksetanalysis/analysis.ml" 24 495 499 "src/ext/locksetanalysis/analysis.ml" 24 495 503
+)
+"src/ext/locksetanalysis/analysis.ml" 217 5384 5392 "src/ext/locksetanalysis/analysis.ml" 217 5384 5403
+type(
+  (lock list list -> Cil.instr -> lock list list) ->
+  lock list list -> Cil.instr list -> lock list list
+)
+ident(
+  ext_ref L.fold_left
+)
+"src/ext/locksetanalysis/analysis.ml" 217 5384 5404 "src/ext/locksetanalysis/analysis.ml" 217 5384 5412
+type(
+  lock list list -> Cil.instr -> lock list list
+)
+ident(
+  int_ref proc_one "src/ext/locksetanalysis/analysis.ml" 212 5229 5235 "src/ext/locksetanalysis/analysis.ml" 212 5229 5243
+)
+"src/ext/locksetanalysis/analysis.ml" 217 5384 5414 "src/ext/locksetanalysis/analysis.ml" 217 5384 5416
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 211 5158 5194 "src/ext/locksetanalysis/analysis.ml" 211 5158 5196
+)
+"src/ext/locksetanalysis/analysis.ml" 217 5384 5413 "src/ext/locksetanalysis/analysis.ml" 217 5384 5417
+type(
+  lock list list
+)
+"src/ext/locksetanalysis/analysis.ml" 217 5384 5392 "src/ext/locksetanalysis/analysis.ml" 217 5384 5417
+call(
+  stack
+)
+type(
+  Cil.instr list -> lock list list
+)
+"src/ext/locksetanalysis/analysis.ml" 217 5384 5386 "src/ext/locksetanalysis/analysis.ml" 217 5384 5417
+call(
+  stack
+)
+type(
+  lock list list
+)
+"src/ext/locksetanalysis/analysis.ml" 217 5384 5418 "src/ext/locksetanalysis/analysis.ml" 217 5384 5420
+type(
+  lock list list -> (lock list list -> lock list list) -> lock list list
+)
+ident(
+  int_ref |> "src/ext/locksetanalysis/analysis.ml" 24 495 499 "src/ext/locksetanalysis/analysis.ml" 24 495 503
+)
+"src/ext/locksetanalysis/analysis.ml" 217 5384 5421 "src/ext/locksetanalysis/analysis.ml" 217 5384 5425
+type(
+  lock list list -> lock list list
+)
+ident(
+  ext_ref L.tl
+)
+"src/ext/locksetanalysis/analysis.ml" 217 5384 5386 "src/ext/locksetanalysis/analysis.ml" 217 5384 5425
+call(
+  stack
+)
+type(
+  lock list list
+)
+"src/ext/locksetanalysis/analysis.ml" 217 5384 5426 "src/ext/locksetanalysis/analysis.ml" 217 5384 5428
+type(
+  lock list list -> (lock list list -> lock list list) -> lock list list
+)
+ident(
+  int_ref |> "src/ext/locksetanalysis/analysis.ml" 24 495 499 "src/ext/locksetanalysis/analysis.ml" 24 495 503
+)
+"src/ext/locksetanalysis/analysis.ml" 217 5384 5429 "src/ext/locksetanalysis/analysis.ml" 217 5384 5434
+type(
+  lock list list -> lock list list
+)
+ident(
+  ext_ref L.rev
+)
+"src/ext/locksetanalysis/analysis.ml" 217 5384 5386 "src/ext/locksetanalysis/analysis.ml" 217 5384 5434
+call(
+  tail
+)
+type(
+  lock list list
+)
+"src/ext/locksetanalysis/analysis.ml" 212 5229 5231 "src/ext/locksetanalysis/analysis.ml" 217 5384 5434
+type(
+  lock list list
+)
+type(
+  lock list list
+)
+"src/ext/locksetanalysis/analysis.ml" 219 5437 5466 "src/ext/locksetanalysis/analysis.ml" 219 5437 5472
+type(
+  < get_cur_ll : unit -> lock list option;
+    queueInstr : Cil.instr list -> unit;
+    unqueueInstr : unit -> Cil.instr list;
+    vattr : Cil.attribute -> Cil.attribute list Cil.visitAction;
+    vattrparam : Cil.attrparam -> Cil.attrparam Cil.visitAction;
+    vblock : Cil.block -> Cil.block Cil.visitAction;
+    vexpr : Cil.exp -> Cil.exp Cil.visitAction;
+    vfunc : Cil.fundec -> Cil.fundec Cil.visitAction;
+    vglob : Cil.global -> Cil.global list Cil.visitAction;
+    vinit : Cil.varinfo -> Cil.offset -> Cil.init -> Cil.init Cil.visitAction;
+    vinitoffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vinst : Cil.instr -> Cil.instr list Cil.visitAction;
+    vlval : Cil.lval -> Cil.lval Cil.visitAction;
+    voffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vstmt : Cil.stmt -> Cil.stmt Cil.visitAction;
+    vtype : Cil.typ -> Cil.typ Cil.visitAction;
+    vvdec : Cil.varinfo -> Cil.varinfo Cil.visitAction;
+    vvrbl : Cil.varinfo -> Cil.varinfo Cil.visitAction; .. >
+)
+"src/ext/locksetanalysis/analysis.ml" 222 5498 5528 "src/ext/locksetanalysis/analysis.ml" 222 5498 5530
+type(
+  int
+)
+"src/ext/locksetanalysis/analysis.ml" 223 5531 5561 "src/ext/locksetanalysis/analysis.ml" 223 5531 5563
+type(
+  lock list list
+)
+"src/ext/locksetanalysis/analysis.ml" 224 5564 5594 "src/ext/locksetanalysis/analysis.ml" 224 5564 5598
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 227 5641 5656 "src/ext/locksetanalysis/analysis.ml" 227 5641 5659
+type(
+  Cil.stmt
+)
+ident(
+  def stm "src/ext/locksetanalysis/analysis.ml" 228 5662 5666 "src/ext/locksetanalysis/analysis.ml" 238 5945 5959
+)
+"src/ext/locksetanalysis/analysis.ml" 228 5662 5673 "src/ext/locksetanalysis/analysis.ml" 228 5662 5676
+type(
+  Cil.stmt
+)
+ident(
+  int_ref stm "src/ext/locksetanalysis/analysis.ml" 227 5641 5656 "src/ext/locksetanalysis/analysis.ml" 227 5641 5659
+)
+"src/ext/locksetanalysis/analysis.ml" 228 5662 5673 "src/ext/locksetanalysis/analysis.ml" 228 5662 5680
+type(
+  int
+)
+"src/ext/locksetanalysis/analysis.ml" 228 5662 5666 "src/ext/locksetanalysis/analysis.ml" 228 5662 5680
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 229 5682 5698 "src/ext/locksetanalysis/analysis.ml" 229 5682 5708
+type(
+  int -> lock list option
+)
+ident(
+  int_ref getLockSet "src/ext/locksetanalysis/analysis.ml" 206 5035 5039 "src/ext/locksetanalysis/analysis.ml" 206 5035 5049
+)
+"src/ext/locksetanalysis/analysis.ml" 229 5682 5709 "src/ext/locksetanalysis/analysis.ml" 229 5682 5712
+type(
+  int
+)
+ident(
+  ext_ref sid
+)
+"src/ext/locksetanalysis/analysis.ml" 229 5682 5698 "src/ext/locksetanalysis/analysis.ml" 229 5682 5712
+call(
+  stack
+)
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 230 5718 5724 "src/ext/locksetanalysis/analysis.ml" 230 5718 5728
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 230 5718 5749 "src/ext/locksetanalysis/analysis.ml" 230 5718 5753
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 230 5718 5732 "src/ext/locksetanalysis/analysis.ml" 230 5718 5753
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 231 5754 5765 "src/ext/locksetanalysis/analysis.ml" 231 5754 5767
+type(
+  lock list
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 231 5754 5771 "src/ext/locksetanalysis/analysis.ml" 237 5932 5939
+)
+"src/ext/locksetanalysis/analysis.ml" 231 5754 5760 "src/ext/locksetanalysis/analysis.ml" 231 5754 5767
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 232 5777 5789 "src/ext/locksetanalysis/analysis.ml" 232 5777 5792
+type(
+  Cil.stmt
+)
+ident(
+  int_ref stm "src/ext/locksetanalysis/analysis.ml" 227 5641 5656 "src/ext/locksetanalysis/analysis.ml" 227 5641 5659
+)
+"src/ext/locksetanalysis/analysis.ml" 232 5777 5789 "src/ext/locksetanalysis/analysis.ml" 232 5777 5798
+type(
+  Cil.stmtkind
+)
+"src/ext/locksetanalysis/analysis.ml" 233 5804 5818 "src/ext/locksetanalysis/analysis.ml" 233 5804 5820
+type(
+  Cil.instr list
+)
+ident(
+  def il "src/ext/locksetanalysis/analysis.ml" 234 5824 5832 "src/ext/locksetanalysis/analysis.ml" 235 5855 5895
+)
+"src/ext/locksetanalysis/analysis.ml" 233 5804 5812 "src/ext/locksetanalysis/analysis.ml" 233 5804 5820
+type(
+  Cil.stmtkind
+)
+"src/ext/locksetanalysis/analysis.ml" 234 5824 5849 "src/ext/locksetanalysis/analysis.ml" 234 5824 5853
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 234 5824 5832 "src/ext/locksetanalysis/analysis.ml" 234 5824 5853
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 235 5855 5877 "src/ext/locksetanalysis/analysis.ml" 235 5855 5889
+type(
+  Cil.instr list -> lock list -> lock list list
+)
+ident(
+  int_ref instrLockSet "src/ext/locksetanalysis/analysis.ml" 211 5158 5162 "src/ext/locksetanalysis/analysis.ml" 211 5158 5174
+)
+"src/ext/locksetanalysis/analysis.ml" 235 5855 5890 "src/ext/locksetanalysis/analysis.ml" 235 5855 5892
+type(
+  Cil.instr list
+)
+ident(
+  int_ref il "src/ext/locksetanalysis/analysis.ml" 233 5804 5818 "src/ext/locksetanalysis/analysis.ml" 233 5804 5820
+)
+"src/ext/locksetanalysis/analysis.ml" 235 5855 5893 "src/ext/locksetanalysis/analysis.ml" 235 5855 5895
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 231 5754 5765 "src/ext/locksetanalysis/analysis.ml" 231 5754 5767
+)
+"src/ext/locksetanalysis/analysis.ml" 235 5855 5877 "src/ext/locksetanalysis/analysis.ml" 235 5855 5895
+call(
+  stack
+)
+type(
+  lock list list
+)
+"src/ext/locksetanalysis/analysis.ml" 235 5855 5863 "src/ext/locksetanalysis/analysis.ml" 235 5855 5895
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 234 5824 5832 "src/ext/locksetanalysis/analysis.ml" 235 5855 5895
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 236 5897 5905 "src/ext/locksetanalysis/analysis.ml" 236 5897 5906
+type(
+  Cil.stmtkind
+)
+"src/ext/locksetanalysis/analysis.ml" 236 5897 5927 "src/ext/locksetanalysis/analysis.ml" 236 5897 5931
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 236 5897 5910 "src/ext/locksetanalysis/analysis.ml" 236 5897 5931
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 231 5754 5771 "src/ext/locksetanalysis/analysis.ml" 237 5932 5939
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 229 5682 5686 "src/ext/locksetanalysis/analysis.ml" 237 5932 5943
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 238 5945 5949 "src/ext/locksetanalysis/analysis.ml" 238 5945 5959
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/locksetanalysis/analysis.ml" 229 5682 5686 "src/ext/locksetanalysis/analysis.ml" 238 5945 5959
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/locksetanalysis/analysis.ml" 228 5662 5666 "src/ext/locksetanalysis/analysis.ml" 238 5945 5959
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/locksetanalysis/analysis.ml" 241 6007 6022 "src/ext/locksetanalysis/analysis.ml" 241 6007 6023
+type(
+  Cil.instr
+)
+ident(
+  def i "src/ext/locksetanalysis/analysis.ml" 242 6026 6030 "src/ext/locksetanalysis/analysis.ml" 246 6159 6207
+)
+"src/ext/locksetanalysis/analysis.ml" 242 6026 6038 "src/ext/locksetanalysis/analysis.ml" 242 6026 6042
+type(
+  lock list
+)
+ident(
+  def data "src/ext/locksetanalysis/analysis.ml" 243 6064 6072 "src/ext/locksetanalysis/analysis.ml" 245 6140 6158
+)
+"src/ext/locksetanalysis/analysis.ml" 242 6026 6045 "src/ext/locksetanalysis/analysis.ml" 242 6026 6049
+type(
+  lock list list -> lock list
+)
+ident(
+  ext_ref L.hd
+)
+"src/ext/locksetanalysis/analysis.ml" 242 6026 6050 "src/ext/locksetanalysis/analysis.ml" 242 6026 6060
+type(
+  lock list list
+)
+ident(
+  ext_ref state_list
+)
+"src/ext/locksetanalysis/analysis.ml" 242 6026 6045 "src/ext/locksetanalysis/analysis.ml" 242 6026 6060
+call(
+  stack
+)
+type(
+  lock list
+)
+"src/ext/locksetanalysis/analysis.ml" 243 6064 6093 "src/ext/locksetanalysis/analysis.ml" 243 6064 6099
+type(
+  lock list
+)
+ident(
+  int_ref data "src/ext/locksetanalysis/analysis.ml" 242 6026 6038 "src/ext/locksetanalysis/analysis.ml" 242 6026 6042
+)
+"src/ext/locksetanalysis/analysis.ml" 243 6064 6089 "src/ext/locksetanalysis/analysis.ml" 243 6064 6099
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 243 6064 6072 "src/ext/locksetanalysis/analysis.ml" 243 6064 6099
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 244 6101 6123 "src/ext/locksetanalysis/analysis.ml" 244 6101 6127
+type(
+  lock list list -> lock list list
+)
+ident(
+  ext_ref L.tl
+)
+"src/ext/locksetanalysis/analysis.ml" 244 6101 6128 "src/ext/locksetanalysis/analysis.ml" 244 6101 6138
+type(
+  lock list list
+)
+ident(
+  ext_ref state_list
+)
+"src/ext/locksetanalysis/analysis.ml" 244 6101 6123 "src/ext/locksetanalysis/analysis.ml" 244 6101 6138
+call(
+  stack
+)
+type(
+  lock list list
+)
+"src/ext/locksetanalysis/analysis.ml" 244 6101 6109 "src/ext/locksetanalysis/analysis.ml" 244 6101 6138
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 245 6140 6148 "src/ext/locksetanalysis/analysis.ml" 245 6140 6158
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/locksetanalysis/analysis.ml" 244 6101 6109 "src/ext/locksetanalysis/analysis.ml" 245 6140 6158
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/locksetanalysis/analysis.ml" 243 6064 6072 "src/ext/locksetanalysis/analysis.ml" 245 6140 6158
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/locksetanalysis/analysis.ml" 242 6026 6034 "src/ext/locksetanalysis/analysis.ml" 245 6140 6158
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/locksetanalysis/analysis.ml" 246 6159 6176 "src/ext/locksetanalysis/analysis.ml" 246 6159 6193
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 246 6159 6168 "src/ext/locksetanalysis/analysis.ml" 246 6159 6193
+type(
+  exn
+)
+"src/ext/locksetanalysis/analysis.ml" 246 6159 6197 "src/ext/locksetanalysis/analysis.ml" 246 6159 6207
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/locksetanalysis/analysis.ml" 242 6026 6030 "src/ext/locksetanalysis/analysis.ml" 246 6159 6207
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/locksetanalysis/analysis.ml" 248 6209 6229 "src/ext/locksetanalysis/analysis.ml" 248 6209 6231
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 249 6234 6244 "src/ext/locksetanalysis/analysis.ml" 249 6234 6257
+type(
+  lock list option
+)
+ident(
+  ext_ref current_state
+)
+"src/ext/locksetanalysis/analysis.ml" 250 6263 6269 "src/ext/locksetanalysis/analysis.ml" 250 6263 6273
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 250 6263 6277 "src/ext/locksetanalysis/analysis.ml" 250 6263 6287
+type(
+  int -> lock list option
+)
+ident(
+  int_ref getLockSet "src/ext/locksetanalysis/analysis.ml" 206 5035 5039 "src/ext/locksetanalysis/analysis.ml" 206 5035 5049
+)
+"src/ext/locksetanalysis/analysis.ml" 250 6263 6288 "src/ext/locksetanalysis/analysis.ml" 250 6263 6291
+type(
+  int
+)
+ident(
+  ext_ref sid
+)
+"src/ext/locksetanalysis/analysis.ml" 250 6263 6277 "src/ext/locksetanalysis/analysis.ml" 250 6263 6291
+call(
+  tail
+)
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 251 6292 6303 "src/ext/locksetanalysis/analysis.ml" 251 6292 6305
+type(
+  lock list
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 251 6292 6309 "src/ext/locksetanalysis/analysis.ml" 251 6292 6316
+)
+"src/ext/locksetanalysis/analysis.ml" 251 6292 6298 "src/ext/locksetanalysis/analysis.ml" 251 6292 6305
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 251 6292 6314 "src/ext/locksetanalysis/analysis.ml" 251 6292 6316
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 251 6292 6303 "src/ext/locksetanalysis/analysis.ml" 251 6292 6305
+)
+"src/ext/locksetanalysis/analysis.ml" 251 6292 6309 "src/ext/locksetanalysis/analysis.ml" 251 6292 6316
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 249 6234 6238 "src/ext/locksetanalysis/analysis.ml" 251 6292 6316
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 255 6355 6389 "src/ext/locksetanalysis/analysis.ml" 255 6355 6395
+type(
+  < get_cur_ll : unit -> lock list option;
+    queueInstr : Cil.instr list -> unit;
+    unqueueInstr : unit -> Cil.instr list;
+    vattr : Cil.attribute -> Cil.attribute list Cil.visitAction;
+    vattrparam : Cil.attrparam -> Cil.attrparam Cil.visitAction;
+    vblock : Cil.block -> Cil.block Cil.visitAction;
+    vexpr : Cil.exp -> Cil.exp Cil.visitAction;
+    vfunc : Cil.fundec -> Cil.fundec Cil.visitAction;
+    vglob : Cil.global -> Cil.global list Cil.visitAction;
+    vinit : Cil.varinfo -> Cil.offset -> Cil.init -> Cil.init Cil.visitAction;
+    vinitoffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vinst : Cil.instr -> Cil.instr list Cil.visitAction;
+    vlval : Cil.lval -> Cil.lval Cil.visitAction;
+    voffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vstmt : Cil.stmt -> Cil.stmt Cil.visitAction;
+    vtype : Cil.typ -> Cil.typ Cil.visitAction;
+    vvdec : Cil.varinfo -> Cil.varinfo Cil.visitAction;
+    vvrbl : Cil.varinfo -> Cil.varinfo Cil.visitAction; .. >
+)
+"src/ext/locksetanalysis/analysis.ml" 260 6484 6500 "src/ext/locksetanalysis/analysis.ml" 260 6484 6502
+type(
+  Cil.lval
+)
+ident(
+  def vl "src/ext/locksetanalysis/analysis.ml" 261 6513 6517 "src/ext/locksetanalysis/analysis.ml" 282 7559 7572
+)
+"src/ext/locksetanalysis/analysis.ml" 261 6513 6523 "src/ext/locksetanalysis/analysis.ml" 261 6513 6527
+type(
+  < get_cur_ll : unit -> lock list option;
+    queueInstr : Cil.instr list -> unit;
+    unqueueInstr : unit -> Cil.instr list;
+    vattr : Cil.attribute -> Cil.attribute list Cil.visitAction;
+    vattrparam : Cil.attrparam -> Cil.attrparam Cil.visitAction;
+    vblock : Cil.block -> Cil.block Cil.visitAction;
+    vexpr : Cil.exp -> Cil.exp Cil.visitAction;
+    vfunc : Cil.fundec -> Cil.fundec Cil.visitAction;
+    vglob : Cil.global -> Cil.global list Cil.visitAction;
+    vinit : Cil.varinfo -> Cil.offset -> Cil.init -> Cil.init Cil.visitAction;
+    vinitoffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vinst : Cil.instr -> Cil.instr list Cil.visitAction;
+    vlval : Cil.lval -> Cil.lval Cil.visitAction;
+    voffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vstmt : Cil.stmt -> Cil.stmt Cil.visitAction;
+    vtype : Cil.typ -> Cil.typ Cil.visitAction;
+    vvdec : Cil.varinfo -> Cil.varinfo Cil.visitAction;
+    vvrbl : Cil.varinfo -> Cil.varinfo Cil.visitAction; .. >
+  as 'a
+)
+ident(
+  int_ref self "src/ext/locksetanalysis/analysis.ml" 255 6355 6389 "src/ext/locksetanalysis/analysis.ml" 255 6355 6395
+)
+"src/ext/locksetanalysis/analysis.ml" 261 6513 6523 "src/ext/locksetanalysis/analysis.ml" 261 6513 6538
+call(
+  stack
+)
+type(
+  unit -> lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 261 6513 6539 "src/ext/locksetanalysis/analysis.ml" 261 6513 6541
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 261 6513 6523 "src/ext/locksetanalysis/analysis.ml" 261 6513 6541
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 262 6547 6553 "src/ext/locksetanalysis/analysis.ml" 262 6547 6557
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 262 6547 6561 "src/ext/locksetanalysis/analysis.ml" 262 6547 6573
+type(
+  Cil.lval Cil.visitAction
+)
+"src/ext/locksetanalysis/analysis.ml" 263 6574 6585 "src/ext/locksetanalysis/analysis.ml" 263 6574 6587
+type(
+  lock list
+)
+ident(
+  def ll "src/ext/locksetanalysis/analysis.ml" 264 6593 6594 "src/ext/locksetanalysis/analysis.ml" 282 7559 7572
+)
+"src/ext/locksetanalysis/analysis.ml" 263 6574 6580 "src/ext/locksetanalysis/analysis.ml" 263 6574 6587
+type(
+  lock list option
+)
+"src/ext/locksetanalysis/analysis.ml" 266 6660 6675 "src/ext/locksetanalysis/analysis.ml" 266 6660 6677
+type(
+  Cil.lval
+)
+ident(
+  int_ref vl "src/ext/locksetanalysis/analysis.ml" 260 6484 6500 "src/ext/locksetanalysis/analysis.ml" 260 6484 6502
+)
+"src/ext/locksetanalysis/analysis.ml" 267 6683 6698 "src/ext/locksetanalysis/analysis.ml" 267 6683 6700
+ident(
+  def vi "src/ext/locksetanalysis/analysis.ml" 267 6683 6718 "src/ext/locksetanalysis/analysis.ml" 269 6862 6958
+)
+"src/ext/locksetanalysis/analysis.ml" 267 6683 6697 "src/ext/locksetanalysis/analysis.ml" 267 6683 6701
+type(
+  Cil.varinfo
+)
+"src/ext/locksetanalysis/analysis.ml" 267 6683 6694 "src/ext/locksetanalysis/analysis.ml" 267 6683 6701
+type(
+  Cil.lhost
+)
+"src/ext/locksetanalysis/analysis.ml" 267 6683 6703 "src/ext/locksetanalysis/analysis.ml" 267 6683 6711
+type(
+  Cil.offset
+)
+"src/ext/locksetanalysis/analysis.ml" 267 6683 6693 "src/ext/locksetanalysis/analysis.ml" 267 6683 6712
+type(
+  Cil.lval
+)
+"src/ext/locksetanalysis/analysis.ml" 267 6683 6718 "src/ext/locksetanalysis/analysis.ml" 267 6683 6727
+type(
+  Cil.varinfo list -> Cil.varinfo -> bool
+)
+ident(
+  int_ref presentIn "src/ext/locksetanalysis/analysis.ml" 50 998 1006 "src/ext/locksetanalysis/analysis.ml" 50 998 1015
+)
+"src/ext/locksetanalysis/analysis.ml" 267 6683 6728 "src/ext/locksetanalysis/analysis.ml" 267 6683 6729
+type(
+  Cil.varinfo list ref -> Cil.varinfo list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/locksetanalysis/analysis.ml" 267 6683 6729 "src/ext/locksetanalysis/analysis.ml" 267 6683 6733
+type(
+  Cil.varinfo list ref
+)
+ident(
+  int_ref gVar "src/ext/locksetanalysis/analysis.ml" 26 540 544 "src/ext/locksetanalysis/analysis.ml" 26 540 548
+)
+"src/ext/locksetanalysis/analysis.ml" 267 6683 6728 "src/ext/locksetanalysis/analysis.ml" 267 6683 6733
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 267 6683 6734 "src/ext/locksetanalysis/analysis.ml" 267 6683 6736
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/locksetanalysis/analysis.ml" 267 6683 6697 "src/ext/locksetanalysis/analysis.ml" 267 6683 6701
+)
+"src/ext/locksetanalysis/analysis.ml" 267 6683 6718 "src/ext/locksetanalysis/analysis.ml" 267 6683 6736
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6751 "src/ext/locksetanalysis/analysis.ml" 268 6741 6759
+type(
+  lockT list ref
+)
+ident(
+  int_ref lock_set "src/ext/locksetanalysis/analysis.ml" 73 1374 1378 "src/ext/locksetanalysis/analysis.ml" 73 1374 1386
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6760 "src/ext/locksetanalysis/analysis.ml" 268 6741 6762
+type(
+  lockT list ref -> lockT list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6763 "src/ext/locksetanalysis/analysis.ml" 268 6741 6764
+type(
+  lockT list ref -> lockT list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6764 "src/ext/locksetanalysis/analysis.ml" 268 6741 6772
+type(
+  lockT list ref
+)
+ident(
+  int_ref lock_set "src/ext/locksetanalysis/analysis.ml" 73 1374 1378 "src/ext/locksetanalysis/analysis.ml" 73 1374 1386
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6763 "src/ext/locksetanalysis/analysis.ml" 268 6741 6772
+type(
+  lockT list
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6773 "src/ext/locksetanalysis/analysis.ml" 268 6741 6774
+type(
+  lockT list -> lockT list -> lockT list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6785 "src/ext/locksetanalysis/analysis.ml" 268 6741 6792
+type(
+  funT
+)
+ident(
+  int_ref currFun "src/ext/locksetanalysis/analysis.ml" 20 455 459 "src/ext/locksetanalysis/analysis.ml" 20 455 466
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6785 "src/ext/locksetanalysis/analysis.ml" 268 6741 6800
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6809 "src/ext/locksetanalysis/analysis.ml" 268 6741 6810
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6810 "src/ext/locksetanalysis/analysis.ml" 268 6741 6820
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6809 "src/ext/locksetanalysis/analysis.ml" 268 6741 6820
+type(
+  Cil.location
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6809 "src/ext/locksetanalysis/analysis.ml" 268 6741 6825
+type(
+  int
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6833 "src/ext/locksetanalysis/analysis.ml" 268 6741 6835
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/locksetanalysis/analysis.ml" 267 6683 6697 "src/ext/locksetanalysis/analysis.ml" 267 6683 6701
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6833 "src/ext/locksetanalysis/analysis.ml" 268 6741 6841
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6854 "src/ext/locksetanalysis/analysis.ml" 268 6741 6856
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 263 6574 6585 "src/ext/locksetanalysis/analysis.ml" 263 6574 6587
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6776 "src/ext/locksetanalysis/analysis.ml" 268 6741 6859
+type(
+  lockT
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6775 "src/ext/locksetanalysis/analysis.ml" 268 6741 6860
+type(
+  lockT list
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6763 "src/ext/locksetanalysis/analysis.ml" 268 6741 6860
+call(
+  stack
+)
+type(
+  lockT list
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6751 "src/ext/locksetanalysis/analysis.ml" 268 6741 6860
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 269 6862 6872 "src/ext/locksetanalysis/analysis.ml" 269 6862 6877
+type(
+  ((unit -> Cil.location -> Pretty.doc) ->
+   Cil.location ->
+   (unit -> Cil.lval -> Pretty.doc) ->
+   Cil.lval ->
+   string -> (unit -> lock list -> Pretty.doc) -> lock list -> unit, 
+   unit, Pretty.doc, unit)
+  format4 ->
+  (unit -> Cil.location -> Pretty.doc) ->
+  Cil.location ->
+  (unit -> Cil.lval -> Pretty.doc) ->
+  Cil.lval ->
+  string -> (unit -> lock list -> Pretty.doc) -> lock list -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/locksetanalysis/analysis.ml" 269 6862 6878 "src/ext/locksetanalysis/analysis.ml" 269 6862 6892
+type(
+  ((unit -> Cil.location -> Pretty.doc) ->
+   Cil.location ->
+   (unit -> Cil.lval -> Pretty.doc) ->
+   Cil.lval ->
+   string -> (unit -> lock list -> Pretty.doc) -> lock list -> unit, 
+   unit, Pretty.doc, unit)
+  format4
+)
+"src/ext/locksetanalysis/analysis.ml" 269 6862 6893 "src/ext/locksetanalysis/analysis.ml" 269 6862 6898
+type(
+  unit -> Cil.location -> Pretty.doc
+)
+ident(
+  ext_ref Cil.d_loc
+)
+"src/ext/locksetanalysis/analysis.ml" 269 6862 6900 "src/ext/locksetanalysis/analysis.ml" 269 6862 6901
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/locksetanalysis/analysis.ml" 269 6862 6901 "src/ext/locksetanalysis/analysis.ml" 269 6862 6911
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/locksetanalysis/analysis.ml" 269 6862 6899 "src/ext/locksetanalysis/analysis.ml" 269 6862 6912
+type(
+  Cil.location
+)
+"src/ext/locksetanalysis/analysis.ml" 269 6862 6913 "src/ext/locksetanalysis/analysis.ml" 269 6862 6919
+type(
+  unit -> Cil.lval -> Pretty.doc
+)
+ident(
+  ext_ref Cil.d_lval
+)
+"src/ext/locksetanalysis/analysis.ml" 269 6862 6920 "src/ext/locksetanalysis/analysis.ml" 269 6862 6922
+type(
+  Cil.lval
+)
+ident(
+  int_ref vl "src/ext/locksetanalysis/analysis.ml" 260 6484 6500 "src/ext/locksetanalysis/analysis.ml" 260 6484 6502
+)
+"src/ext/locksetanalysis/analysis.ml" 269 6862 6923 "src/ext/locksetanalysis/analysis.ml" 269 6862 6930
+type(
+  funT
+)
+ident(
+  int_ref currFun "src/ext/locksetanalysis/analysis.ml" 20 455 459 "src/ext/locksetanalysis/analysis.ml" 20 455 466
+)
+"src/ext/locksetanalysis/analysis.ml" 269 6862 6923 "src/ext/locksetanalysis/analysis.ml" 269 6862 6938
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 269 6862 6939 "src/ext/locksetanalysis/analysis.ml" 269 6862 6955
+type(
+  unit -> lock list -> Pretty.doc
+)
+ident(
+  int_ref lock_list_pretty "src/ext/locksetanalysis/analysis.ml" 83 1563 1567 "src/ext/locksetanalysis/analysis.ml" 83 1563 1583
+)
+"src/ext/locksetanalysis/analysis.ml" 269 6862 6956 "src/ext/locksetanalysis/analysis.ml" 269 6862 6958
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 263 6574 6585 "src/ext/locksetanalysis/analysis.ml" 263 6574 6587
+)
+"src/ext/locksetanalysis/analysis.ml" 269 6862 6872 "src/ext/locksetanalysis/analysis.ml" 269 6862 6958
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 268 6741 6751 "src/ext/locksetanalysis/analysis.ml" 269 6862 6958
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 271 6960 6975 "src/ext/locksetanalysis/analysis.ml" 271 6960 6977
+ident(
+  def vi "src/ext/locksetanalysis/analysis.ml" 271 6960 6998 "src/ext/locksetanalysis/analysis.ml" 273 7142 7238
+)
+"src/ext/locksetanalysis/analysis.ml" 271 6960 6974 "src/ext/locksetanalysis/analysis.ml" 271 6960 6978
+type(
+  Cil.varinfo
+)
+"src/ext/locksetanalysis/analysis.ml" 271 6960 6971 "src/ext/locksetanalysis/analysis.ml" 271 6960 6978
+type(
+  Cil.lhost
+)
+"src/ext/locksetanalysis/analysis.ml" 271 6960 6986 "src/ext/locksetanalysis/analysis.ml" 271 6960 6987
+type(
+  Cil.exp
+)
+"src/ext/locksetanalysis/analysis.ml" 271 6960 6989 "src/ext/locksetanalysis/analysis.ml" 271 6960 6990
+type(
+  Cil.offset
+)
+"src/ext/locksetanalysis/analysis.ml" 271 6960 6980 "src/ext/locksetanalysis/analysis.ml" 271 6960 6991
+type(
+  Cil.offset
+)
+"src/ext/locksetanalysis/analysis.ml" 271 6960 6970 "src/ext/locksetanalysis/analysis.ml" 271 6960 6992
+type(
+  Cil.lval
+)
+"src/ext/locksetanalysis/analysis.ml" 271 6960 6998 "src/ext/locksetanalysis/analysis.ml" 271 6960 7007
+type(
+  Cil.varinfo list -> Cil.varinfo -> bool
+)
+ident(
+  int_ref presentIn "src/ext/locksetanalysis/analysis.ml" 50 998 1006 "src/ext/locksetanalysis/analysis.ml" 50 998 1015
+)
+"src/ext/locksetanalysis/analysis.ml" 271 6960 7008 "src/ext/locksetanalysis/analysis.ml" 271 6960 7009
+type(
+  Cil.varinfo list ref -> Cil.varinfo list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/locksetanalysis/analysis.ml" 271 6960 7009 "src/ext/locksetanalysis/analysis.ml" 271 6960 7013
+type(
+  Cil.varinfo list ref
+)
+ident(
+  int_ref gVar "src/ext/locksetanalysis/analysis.ml" 26 540 544 "src/ext/locksetanalysis/analysis.ml" 26 540 548
+)
+"src/ext/locksetanalysis/analysis.ml" 271 6960 7008 "src/ext/locksetanalysis/analysis.ml" 271 6960 7013
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 271 6960 7014 "src/ext/locksetanalysis/analysis.ml" 271 6960 7016
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/locksetanalysis/analysis.ml" 271 6960 6974 "src/ext/locksetanalysis/analysis.ml" 271 6960 6978
+)
+"src/ext/locksetanalysis/analysis.ml" 271 6960 6998 "src/ext/locksetanalysis/analysis.ml" 271 6960 7016
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7030 "src/ext/locksetanalysis/analysis.ml" 272 7021 7038
+type(
+  lockT list ref
+)
+ident(
+  int_ref lock_set "src/ext/locksetanalysis/analysis.ml" 73 1374 1378 "src/ext/locksetanalysis/analysis.ml" 73 1374 1386
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7039 "src/ext/locksetanalysis/analysis.ml" 272 7021 7041
+type(
+  lockT list ref -> lockT list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7042 "src/ext/locksetanalysis/analysis.ml" 272 7021 7043
+type(
+  lockT list ref -> lockT list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7043 "src/ext/locksetanalysis/analysis.ml" 272 7021 7051
+type(
+  lockT list ref
+)
+ident(
+  int_ref lock_set "src/ext/locksetanalysis/analysis.ml" 73 1374 1378 "src/ext/locksetanalysis/analysis.ml" 73 1374 1386
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7042 "src/ext/locksetanalysis/analysis.ml" 272 7021 7051
+type(
+  lockT list
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7052 "src/ext/locksetanalysis/analysis.ml" 272 7021 7053
+type(
+  lockT list -> lockT list -> lockT list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7064 "src/ext/locksetanalysis/analysis.ml" 272 7021 7071
+type(
+  funT
+)
+ident(
+  int_ref currFun "src/ext/locksetanalysis/analysis.ml" 20 455 459 "src/ext/locksetanalysis/analysis.ml" 20 455 466
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7064 "src/ext/locksetanalysis/analysis.ml" 272 7021 7079
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7088 "src/ext/locksetanalysis/analysis.ml" 272 7021 7089
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7089 "src/ext/locksetanalysis/analysis.ml" 272 7021 7099
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7088 "src/ext/locksetanalysis/analysis.ml" 272 7021 7099
+type(
+  Cil.location
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7088 "src/ext/locksetanalysis/analysis.ml" 272 7021 7104
+type(
+  int
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7112 "src/ext/locksetanalysis/analysis.ml" 272 7021 7114
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/locksetanalysis/analysis.ml" 271 6960 6974 "src/ext/locksetanalysis/analysis.ml" 271 6960 6978
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7112 "src/ext/locksetanalysis/analysis.ml" 272 7021 7120
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7133 "src/ext/locksetanalysis/analysis.ml" 272 7021 7135
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 263 6574 6585 "src/ext/locksetanalysis/analysis.ml" 263 6574 6587
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7055 "src/ext/locksetanalysis/analysis.ml" 272 7021 7139
+type(
+  lockT
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7054 "src/ext/locksetanalysis/analysis.ml" 272 7021 7140
+type(
+  lockT list
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7042 "src/ext/locksetanalysis/analysis.ml" 272 7021 7140
+call(
+  stack
+)
+type(
+  lockT list
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7030 "src/ext/locksetanalysis/analysis.ml" 272 7021 7140
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 273 7142 7152 "src/ext/locksetanalysis/analysis.ml" 273 7142 7157
+type(
+  ((unit -> Cil.location -> Pretty.doc) ->
+   Cil.location ->
+   (unit -> Cil.lval -> Pretty.doc) ->
+   Cil.lval ->
+   string -> (unit -> lock list -> Pretty.doc) -> lock list -> unit, 
+   unit, Pretty.doc, unit)
+  format4 ->
+  (unit -> Cil.location -> Pretty.doc) ->
+  Cil.location ->
+  (unit -> Cil.lval -> Pretty.doc) ->
+  Cil.lval ->
+  string -> (unit -> lock list -> Pretty.doc) -> lock list -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/locksetanalysis/analysis.ml" 273 7142 7158 "src/ext/locksetanalysis/analysis.ml" 273 7142 7172
+type(
+  ((unit -> Cil.location -> Pretty.doc) ->
+   Cil.location ->
+   (unit -> Cil.lval -> Pretty.doc) ->
+   Cil.lval ->
+   string -> (unit -> lock list -> Pretty.doc) -> lock list -> unit, 
+   unit, Pretty.doc, unit)
+  format4
+)
+"src/ext/locksetanalysis/analysis.ml" 273 7142 7173 "src/ext/locksetanalysis/analysis.ml" 273 7142 7178
+type(
+  unit -> Cil.location -> Pretty.doc
+)
+ident(
+  ext_ref Cil.d_loc
+)
+"src/ext/locksetanalysis/analysis.ml" 273 7142 7180 "src/ext/locksetanalysis/analysis.ml" 273 7142 7181
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/locksetanalysis/analysis.ml" 273 7142 7181 "src/ext/locksetanalysis/analysis.ml" 273 7142 7191
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/locksetanalysis/analysis.ml" 273 7142 7179 "src/ext/locksetanalysis/analysis.ml" 273 7142 7192
+type(
+  Cil.location
+)
+"src/ext/locksetanalysis/analysis.ml" 273 7142 7193 "src/ext/locksetanalysis/analysis.ml" 273 7142 7199
+type(
+  unit -> Cil.lval -> Pretty.doc
+)
+ident(
+  ext_ref Cil.d_lval
+)
+"src/ext/locksetanalysis/analysis.ml" 273 7142 7200 "src/ext/locksetanalysis/analysis.ml" 273 7142 7202
+type(
+  Cil.lval
+)
+ident(
+  int_ref vl "src/ext/locksetanalysis/analysis.ml" 260 6484 6500 "src/ext/locksetanalysis/analysis.ml" 260 6484 6502
+)
+"src/ext/locksetanalysis/analysis.ml" 273 7142 7203 "src/ext/locksetanalysis/analysis.ml" 273 7142 7210
+type(
+  funT
+)
+ident(
+  int_ref currFun "src/ext/locksetanalysis/analysis.ml" 20 455 459 "src/ext/locksetanalysis/analysis.ml" 20 455 466
+)
+"src/ext/locksetanalysis/analysis.ml" 273 7142 7203 "src/ext/locksetanalysis/analysis.ml" 273 7142 7218
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 273 7142 7219 "src/ext/locksetanalysis/analysis.ml" 273 7142 7235
+type(
+  unit -> lock list -> Pretty.doc
+)
+ident(
+  int_ref lock_list_pretty "src/ext/locksetanalysis/analysis.ml" 83 1563 1567 "src/ext/locksetanalysis/analysis.ml" 83 1563 1583
+)
+"src/ext/locksetanalysis/analysis.ml" 273 7142 7236 "src/ext/locksetanalysis/analysis.ml" 273 7142 7238
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 263 6574 6585 "src/ext/locksetanalysis/analysis.ml" 263 6574 6587
+)
+"src/ext/locksetanalysis/analysis.ml" 273 7142 7152 "src/ext/locksetanalysis/analysis.ml" 273 7142 7238
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 272 7021 7030 "src/ext/locksetanalysis/analysis.ml" 273 7142 7238
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 275 7242 7250 "src/ext/locksetanalysis/analysis.ml" 275 7242 7252
+ident(
+  def vi "src/ext/locksetanalysis/analysis.ml" 275 7242 7276 "src/ext/locksetanalysis/analysis.ml" 277 7420 7516
+)
+"src/ext/locksetanalysis/analysis.ml" 275 7242 7249 "src/ext/locksetanalysis/analysis.ml" 275 7242 7253
+type(
+  Cil.varinfo
+)
+"src/ext/locksetanalysis/analysis.ml" 275 7242 7246 "src/ext/locksetanalysis/analysis.ml" 275 7242 7253
+type(
+  Cil.lhost
+)
+"src/ext/locksetanalysis/analysis.ml" 275 7242 7261 "src/ext/locksetanalysis/analysis.ml" 275 7242 7263
+type(
+  Cil.fieldinfo
+)
+ident(
+  def fi "src/ext/locksetanalysis/analysis.ml" 275 7242 7276 "src/ext/locksetanalysis/analysis.ml" 277 7420 7516
+)
+"src/ext/locksetanalysis/analysis.ml" 275 7242 7265 "src/ext/locksetanalysis/analysis.ml" 275 7242 7268
+type(
+  Cil.offset
+)
+ident(
+  def ofs "src/ext/locksetanalysis/analysis.ml" 275 7242 7276 "src/ext/locksetanalysis/analysis.ml" 277 7420 7516
+)
+"src/ext/locksetanalysis/analysis.ml" 275 7242 7255 "src/ext/locksetanalysis/analysis.ml" 275 7242 7269
+type(
+  Cil.offset
+)
+"src/ext/locksetanalysis/analysis.ml" 275 7242 7245 "src/ext/locksetanalysis/analysis.ml" 275 7242 7270
+type(
+  Cil.lval
+)
+"src/ext/locksetanalysis/analysis.ml" 275 7242 7276 "src/ext/locksetanalysis/analysis.ml" 275 7242 7285
+type(
+  Cil.varinfo list -> Cil.varinfo -> bool
+)
+ident(
+  int_ref presentIn "src/ext/locksetanalysis/analysis.ml" 50 998 1006 "src/ext/locksetanalysis/analysis.ml" 50 998 1015
+)
+"src/ext/locksetanalysis/analysis.ml" 275 7242 7286 "src/ext/locksetanalysis/analysis.ml" 275 7242 7287
+type(
+  Cil.varinfo list ref -> Cil.varinfo list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/locksetanalysis/analysis.ml" 275 7242 7287 "src/ext/locksetanalysis/analysis.ml" 275 7242 7291
+type(
+  Cil.varinfo list ref
+)
+ident(
+  int_ref gVar "src/ext/locksetanalysis/analysis.ml" 26 540 544 "src/ext/locksetanalysis/analysis.ml" 26 540 548
+)
+"src/ext/locksetanalysis/analysis.ml" 275 7242 7286 "src/ext/locksetanalysis/analysis.ml" 275 7242 7291
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 275 7242 7292 "src/ext/locksetanalysis/analysis.ml" 275 7242 7294
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/locksetanalysis/analysis.ml" 275 7242 7249 "src/ext/locksetanalysis/analysis.ml" 275 7242 7253
+)
+"src/ext/locksetanalysis/analysis.ml" 275 7242 7276 "src/ext/locksetanalysis/analysis.ml" 275 7242 7294
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7308 "src/ext/locksetanalysis/analysis.ml" 276 7299 7316
+type(
+  lockT list ref
+)
+ident(
+  int_ref lock_set "src/ext/locksetanalysis/analysis.ml" 73 1374 1378 "src/ext/locksetanalysis/analysis.ml" 73 1374 1386
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7317 "src/ext/locksetanalysis/analysis.ml" 276 7299 7319
+type(
+  lockT list ref -> lockT list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7320 "src/ext/locksetanalysis/analysis.ml" 276 7299 7321
+type(
+  lockT list ref -> lockT list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7321 "src/ext/locksetanalysis/analysis.ml" 276 7299 7329
+type(
+  lockT list ref
+)
+ident(
+  int_ref lock_set "src/ext/locksetanalysis/analysis.ml" 73 1374 1378 "src/ext/locksetanalysis/analysis.ml" 73 1374 1386
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7320 "src/ext/locksetanalysis/analysis.ml" 276 7299 7329
+type(
+  lockT list
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7330 "src/ext/locksetanalysis/analysis.ml" 276 7299 7331
+type(
+  lockT list -> lockT list -> lockT list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7342 "src/ext/locksetanalysis/analysis.ml" 276 7299 7349
+type(
+  funT
+)
+ident(
+  int_ref currFun "src/ext/locksetanalysis/analysis.ml" 20 455 459 "src/ext/locksetanalysis/analysis.ml" 20 455 466
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7342 "src/ext/locksetanalysis/analysis.ml" 276 7299 7357
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7366 "src/ext/locksetanalysis/analysis.ml" 276 7299 7367
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7367 "src/ext/locksetanalysis/analysis.ml" 276 7299 7377
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7366 "src/ext/locksetanalysis/analysis.ml" 276 7299 7377
+type(
+  Cil.location
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7366 "src/ext/locksetanalysis/analysis.ml" 276 7299 7382
+type(
+  int
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7390 "src/ext/locksetanalysis/analysis.ml" 276 7299 7392
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/locksetanalysis/analysis.ml" 275 7242 7249 "src/ext/locksetanalysis/analysis.ml" 275 7242 7253
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7390 "src/ext/locksetanalysis/analysis.ml" 276 7299 7398
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7411 "src/ext/locksetanalysis/analysis.ml" 276 7299 7413
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 263 6574 6585 "src/ext/locksetanalysis/analysis.ml" 263 6574 6587
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7333 "src/ext/locksetanalysis/analysis.ml" 276 7299 7417
+type(
+  lockT
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7332 "src/ext/locksetanalysis/analysis.ml" 276 7299 7418
+type(
+  lockT list
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7320 "src/ext/locksetanalysis/analysis.ml" 276 7299 7418
+call(
+  stack
+)
+type(
+  lockT list
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7308 "src/ext/locksetanalysis/analysis.ml" 276 7299 7418
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 277 7420 7430 "src/ext/locksetanalysis/analysis.ml" 277 7420 7435
+type(
+  ((unit -> Cil.location -> Pretty.doc) ->
+   Cil.location ->
+   (unit -> Cil.lval -> Pretty.doc) ->
+   Cil.lval ->
+   string -> (unit -> lock list -> Pretty.doc) -> lock list -> unit, 
+   unit, Pretty.doc, unit)
+  format4 ->
+  (unit -> Cil.location -> Pretty.doc) ->
+  Cil.location ->
+  (unit -> Cil.lval -> Pretty.doc) ->
+  Cil.lval ->
+  string -> (unit -> lock list -> Pretty.doc) -> lock list -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/locksetanalysis/analysis.ml" 277 7420 7436 "src/ext/locksetanalysis/analysis.ml" 277 7420 7450
+type(
+  ((unit -> Cil.location -> Pretty.doc) ->
+   Cil.location ->
+   (unit -> Cil.lval -> Pretty.doc) ->
+   Cil.lval ->
+   string -> (unit -> lock list -> Pretty.doc) -> lock list -> unit, 
+   unit, Pretty.doc, unit)
+  format4
+)
+"src/ext/locksetanalysis/analysis.ml" 277 7420 7451 "src/ext/locksetanalysis/analysis.ml" 277 7420 7456
+type(
+  unit -> Cil.location -> Pretty.doc
+)
+ident(
+  ext_ref Cil.d_loc
+)
+"src/ext/locksetanalysis/analysis.ml" 277 7420 7458 "src/ext/locksetanalysis/analysis.ml" 277 7420 7459
+type(
+  Cil.location ref -> Cil.location
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/locksetanalysis/analysis.ml" 277 7420 7459 "src/ext/locksetanalysis/analysis.ml" 277 7420 7469
+type(
+  Cil.location ref
+)
+ident(
+  ext_ref Cil.currentLoc
+)
+"src/ext/locksetanalysis/analysis.ml" 277 7420 7457 "src/ext/locksetanalysis/analysis.ml" 277 7420 7470
+type(
+  Cil.location
+)
+"src/ext/locksetanalysis/analysis.ml" 277 7420 7471 "src/ext/locksetanalysis/analysis.ml" 277 7420 7477
+type(
+  unit -> Cil.lval -> Pretty.doc
+)
+ident(
+  ext_ref Cil.d_lval
+)
+"src/ext/locksetanalysis/analysis.ml" 277 7420 7478 "src/ext/locksetanalysis/analysis.ml" 277 7420 7480
+type(
+  Cil.lval
+)
+ident(
+  int_ref vl "src/ext/locksetanalysis/analysis.ml" 260 6484 6500 "src/ext/locksetanalysis/analysis.ml" 260 6484 6502
+)
+"src/ext/locksetanalysis/analysis.ml" 277 7420 7481 "src/ext/locksetanalysis/analysis.ml" 277 7420 7488
+type(
+  funT
+)
+ident(
+  int_ref currFun "src/ext/locksetanalysis/analysis.ml" 20 455 459 "src/ext/locksetanalysis/analysis.ml" 20 455 466
+)
+"src/ext/locksetanalysis/analysis.ml" 277 7420 7481 "src/ext/locksetanalysis/analysis.ml" 277 7420 7496
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 277 7420 7497 "src/ext/locksetanalysis/analysis.ml" 277 7420 7513
+type(
+  unit -> lock list -> Pretty.doc
+)
+ident(
+  int_ref lock_list_pretty "src/ext/locksetanalysis/analysis.ml" 83 1563 1567 "src/ext/locksetanalysis/analysis.ml" 83 1563 1583
+)
+"src/ext/locksetanalysis/analysis.ml" 277 7420 7514 "src/ext/locksetanalysis/analysis.ml" 277 7420 7516
+type(
+  lock list
+)
+ident(
+  int_ref ll "src/ext/locksetanalysis/analysis.ml" 263 6574 6585 "src/ext/locksetanalysis/analysis.ml" 263 6574 6587
+)
+"src/ext/locksetanalysis/analysis.ml" 277 7420 7430 "src/ext/locksetanalysis/analysis.ml" 277 7420 7516
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 276 7299 7308 "src/ext/locksetanalysis/analysis.ml" 277 7420 7516
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 279 7518 7529 "src/ext/locksetanalysis/analysis.ml" 279 7518 7530
+type(
+  Cil.lval
+)
+"src/ext/locksetanalysis/analysis.ml" 279 7518 7534 "src/ext/locksetanalysis/analysis.ml" 279 7518 7539
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/locksetanalysis/analysis.ml" 279 7518 7540 "src/ext/locksetanalysis/analysis.ml" 279 7518 7542
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/locksetanalysis/analysis.ml" 279 7518 7534 "src/ext/locksetanalysis/analysis.ml" 279 7518 7542
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 264 6593 6594 "src/ext/locksetanalysis/analysis.ml" 280 7544 7555
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 282 7559 7560 "src/ext/locksetanalysis/analysis.ml" 282 7559 7572
+type(
+  Cil.lval Cil.visitAction
+)
+"src/ext/locksetanalysis/analysis.ml" 264 6593 6594 "src/ext/locksetanalysis/analysis.ml" 282 7559 7572
+type(
+  Cil.lval Cil.visitAction
+)
+"src/ext/locksetanalysis/analysis.ml" 261 6513 6517 "src/ext/locksetanalysis/analysis.ml" 282 7559 7572
+type(
+  Cil.lval Cil.visitAction
+)
+"src/ext/locksetanalysis/analysis.ml" 288 7613 7617 "src/ext/locksetanalysis/analysis.ml" 288 7613 7632
+type(
+  Cil.fundec -> Cil.location -> unit
+)
+ident(
+  def lockSetAnalysis "src/ext/locksetanalysis/analysis.ml" 296 7891 7891 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 288 7613 7634 "src/ext/locksetanalysis/analysis.ml" 288 7613 7636
+type(
+  Cil.fundec
+)
+ident(
+  def fd "src/ext/locksetanalysis/analysis.ml" 288 7613 7647 "src/ext/locksetanalysis/analysis.ml" 293 7855 7887
+)
+"src/ext/locksetanalysis/analysis.ml" 288 7613 7648 "src/ext/locksetanalysis/analysis.ml" 288 7613 7651
+type(
+  Cil.location
+)
+ident(
+  def loc "src/ext/locksetanalysis/analysis.ml" 288 7613 7664 "src/ext/locksetanalysis/analysis.ml" 293 7855 7887
+)
+"src/ext/locksetanalysis/analysis.ml" 289 7673 7674 "src/ext/locksetanalysis/analysis.ml" 289 7673 7681
+type(
+  funT
+)
+ident(
+  int_ref currFun "src/ext/locksetanalysis/analysis.ml" 20 455 459 "src/ext/locksetanalysis/analysis.ml" 20 455 466
+)
+"src/ext/locksetanalysis/analysis.ml" 289 7673 7693 "src/ext/locksetanalysis/analysis.ml" 289 7673 7695
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fd "src/ext/locksetanalysis/analysis.ml" 288 7613 7634 "src/ext/locksetanalysis/analysis.ml" 288 7613 7636
+)
+"src/ext/locksetanalysis/analysis.ml" 289 7673 7693 "src/ext/locksetanalysis/analysis.ml" 289 7673 7700
+type(
+  Cil.varinfo
+)
+"src/ext/locksetanalysis/analysis.ml" 289 7673 7693 "src/ext/locksetanalysis/analysis.ml" 289 7673 7706
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 289 7673 7674 "src/ext/locksetanalysis/analysis.ml" 289 7673 7706
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 290 7708 7709 "src/ext/locksetanalysis/analysis.ml" 290 7708 7723
+type(
+  Cil.fundec -> unit
+)
+ident(
+  int_ref computeLockSet "src/ext/locksetanalysis/analysis.ml" 191 4634 4638 "src/ext/locksetanalysis/analysis.ml" 191 4634 4652
+)
+"src/ext/locksetanalysis/analysis.ml" 290 7708 7724 "src/ext/locksetanalysis/analysis.ml" 290 7708 7726
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fd "src/ext/locksetanalysis/analysis.ml" 288 7613 7634 "src/ext/locksetanalysis/analysis.ml" 288 7613 7636
+)
+"src/ext/locksetanalysis/analysis.ml" 290 7708 7709 "src/ext/locksetanalysis/analysis.ml" 290 7708 7726
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 292 7762 7767 "src/ext/locksetanalysis/analysis.ml" 292 7762 7770
+type(
+  Cil.nopCilVisitor
+)
+ident(
+  def vis "src/ext/locksetanalysis/analysis.ml" 293 7855 7856 "src/ext/locksetanalysis/analysis.ml" 293 7855 7887
+)
+"src/ext/locksetanalysis/analysis.ml" 292 7762 7779 "src/ext/locksetanalysis/analysis.ml" 292 7762 7798
+call(
+  stack
+)
+"src/ext/locksetanalysis/analysis.ml" 292 7762 7774 "src/ext/locksetanalysis/analysis.ml" 292 7762 7799
+type(
+  Cil.nopCilVisitor
+)
+type(
+  varUseReporterClass
+)
+"src/ext/locksetanalysis/analysis.ml" 293 7855 7856 "src/ext/locksetanalysis/analysis.ml" 293 7855 7862
+type(
+  Cil.fundec -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/locksetanalysis/analysis.ml" 293 7855 7863 "src/ext/locksetanalysis/analysis.ml" 293 7855 7879
+type(
+  Cil.cilVisitor -> Cil.fundec -> Cil.fundec
+)
+ident(
+  ext_ref Cil.visitCilFunction
+)
+"src/ext/locksetanalysis/analysis.ml" 293 7855 7880 "src/ext/locksetanalysis/analysis.ml" 293 7855 7883
+type(
+  Cil.nopCilVisitor
+)
+ident(
+  int_ref vis "src/ext/locksetanalysis/analysis.ml" 292 7762 7767 "src/ext/locksetanalysis/analysis.ml" 292 7762 7770
+)
+"src/ext/locksetanalysis/analysis.ml" 293 7855 7884 "src/ext/locksetanalysis/analysis.ml" 293 7855 7886
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fd "src/ext/locksetanalysis/analysis.ml" 288 7613 7634 "src/ext/locksetanalysis/analysis.ml" 288 7613 7636
+)
+"src/ext/locksetanalysis/analysis.ml" 293 7855 7862 "src/ext/locksetanalysis/analysis.ml" 293 7855 7887
+call(
+  stack
+)
+type(
+  Cil.fundec
+)
+"src/ext/locksetanalysis/analysis.ml" 293 7855 7856 "src/ext/locksetanalysis/analysis.ml" 293 7855 7887
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 292 7762 7763 "src/ext/locksetanalysis/analysis.ml" 293 7855 7887
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 290 7708 7709 "src/ext/locksetanalysis/analysis.ml" 293 7855 7887
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 289 7673 7674 "src/ext/locksetanalysis/analysis.ml" 293 7855 7887
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 296 7891 7895 "src/ext/locksetanalysis/analysis.ml" 296 7891 7901
+type(
+  Cil.file -> unit
+)
+ident(
+  def mainls "src/ext/locksetanalysis/analysis.ml" 307 8087 8087 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 296 7891 7903 "src/ext/locksetanalysis/analysis.ml" 296 7891 7904
+type(
+  Cil.file
+)
+ident(
+  def f "src/ext/locksetanalysis/analysis.ml" 296 7891 7913 "src/ext/locksetanalysis/analysis.ml" 303 8022 8068
+)
+"src/ext/locksetanalysis/analysis.ml" 297 7922 7923 "src/ext/locksetanalysis/analysis.ml" 297 7922 7937
+type(
+  Cil.file -> unit
+)
+ident(
+  ext_ref Cil.uniqueVarNames
+)
+"src/ext/locksetanalysis/analysis.ml" 297 7922 7938 "src/ext/locksetanalysis/analysis.ml" 297 7922 7939
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/locksetanalysis/analysis.ml" 296 7891 7903 "src/ext/locksetanalysis/analysis.ml" 296 7891 7904
+)
+"src/ext/locksetanalysis/analysis.ml" 297 7922 7923 "src/ext/locksetanalysis/analysis.ml" 297 7922 7939
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 298 7941 7946 "src/ext/locksetanalysis/analysis.ml" 298 7941 7956
+type(
+  Cil.global list
+)
+ident(
+  def sharedVars "src/ext/locksetanalysis/analysis.ml" 300 7973 7974 "src/ext/locksetanalysis/analysis.ml" 303 8022 8068
+)
+"src/ext/locksetanalysis/analysis.ml" 298 7941 7959 "src/ext/locksetanalysis/analysis.ml" 298 7941 7966
+type(
+  Cil.file -> Cil.global list
+)
+ident(
+  int_ref getVars "src/ext/locksetanalysis/analysis.ml" 35 693 697 "src/ext/locksetanalysis/analysis.ml" 35 693 704
+)
+"src/ext/locksetanalysis/analysis.ml" 298 7941 7967 "src/ext/locksetanalysis/analysis.ml" 298 7941 7968
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/locksetanalysis/analysis.ml" 296 7891 7903 "src/ext/locksetanalysis/analysis.ml" 296 7891 7904
+)
+"src/ext/locksetanalysis/analysis.ml" 298 7941 7959 "src/ext/locksetanalysis/analysis.ml" 298 7941 7968
+call(
+  stack
+)
+type(
+  Cil.global list
+)
+"src/ext/locksetanalysis/analysis.ml" 300 7973 7974 "src/ext/locksetanalysis/analysis.ml" 300 7973 7985
+type(
+  Cil.global list -> Cil.varinfo list
+)
+ident(
+  int_ref convertVars "src/ext/locksetanalysis/analysis.ml" 42 823 831 "src/ext/locksetanalysis/analysis.ml" 42 823 842
+)
+"src/ext/locksetanalysis/analysis.ml" 300 7973 7986 "src/ext/locksetanalysis/analysis.ml" 300 7973 7996
+type(
+  Cil.global list
+)
+ident(
+  int_ref sharedVars "src/ext/locksetanalysis/analysis.ml" 298 7941 7946 "src/ext/locksetanalysis/analysis.ml" 298 7941 7956
+)
+"src/ext/locksetanalysis/analysis.ml" 300 7973 7974 "src/ext/locksetanalysis/analysis.ml" 300 7973 7996
+call(
+  stack
+)
+type(
+  Cil.varinfo list
+)
+"src/ext/locksetanalysis/analysis.ml" 302 7999 8000 "src/ext/locksetanalysis/analysis.ml" 302 7999 8018
+type(
+  Cil.file -> unit
+)
+ident(
+  ext_ref Cfg.computeFileCFG
+)
+"src/ext/locksetanalysis/analysis.ml" 302 7999 8019 "src/ext/locksetanalysis/analysis.ml" 302 7999 8020
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/locksetanalysis/analysis.ml" 296 7891 7903 "src/ext/locksetanalysis/analysis.ml" 296 7891 7904
+)
+"src/ext/locksetanalysis/analysis.ml" 302 7999 8000 "src/ext/locksetanalysis/analysis.ml" 302 7999 8020
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 303 8022 8023 "src/ext/locksetanalysis/analysis.ml" 303 8022 8034
+type(
+  Cil.file -> (Cil.global -> unit) -> unit
+)
+ident(
+  ext_ref Cil.iterGlobals
+)
+"src/ext/locksetanalysis/analysis.ml" 303 8022 8035 "src/ext/locksetanalysis/analysis.ml" 303 8022 8036
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/locksetanalysis/analysis.ml" 296 7891 7903 "src/ext/locksetanalysis/analysis.ml" 296 7891 7904
+)
+"src/ext/locksetanalysis/analysis.ml" 303 8022 8038 "src/ext/locksetanalysis/analysis.ml" 303 8022 8051
+type(
+  (Cil.fundec -> Cil.location -> unit) -> Cil.global -> unit
+)
+ident(
+  int_ref onlyFunctions "src/ext/locksetanalysis/analysis.ml" 30 561 565 "src/ext/locksetanalysis/analysis.ml" 30 561 578
+)
+"src/ext/locksetanalysis/analysis.ml" 303 8022 8052 "src/ext/locksetanalysis/analysis.ml" 303 8022 8067
+type(
+  Cil.fundec -> Cil.location -> unit
+)
+ident(
+  int_ref lockSetAnalysis "src/ext/locksetanalysis/analysis.ml" 288 7613 7617 "src/ext/locksetanalysis/analysis.ml" 288 7613 7632
+)
+"src/ext/locksetanalysis/analysis.ml" 303 8022 8037 "src/ext/locksetanalysis/analysis.ml" 303 8022 8068
+call(
+  stack
+)
+type(
+  Cil.global -> unit
+)
+"src/ext/locksetanalysis/analysis.ml" 303 8022 8023 "src/ext/locksetanalysis/analysis.ml" 303 8022 8068
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 302 7999 8000 "src/ext/locksetanalysis/analysis.ml" 303 8022 8068
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 300 7973 7974 "src/ext/locksetanalysis/analysis.ml" 303 8022 8068
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 298 7941 7942 "src/ext/locksetanalysis/analysis.ml" 303 8022 8068
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 297 7922 7923 "src/ext/locksetanalysis/analysis.ml" 303 8022 8068
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 307 8087 8091 "src/ext/locksetanalysis/analysis.ml" 307 8087 8098
+type(
+  Feature.t
+)
+ident(
+  def feature "src/ext/locksetanalysis/analysis.ml" 316 8259 8259 "src/ext/locksetanalysis/analysis.ml" 1 0 -1
+)
+"src/ext/locksetanalysis/analysis.ml" 308 8102 8114 "src/ext/locksetanalysis/analysis.ml" 308 8102 8123
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 309 8125 8138 "src/ext/locksetanalysis/analysis.ml" 309 8125 8143
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 310 8145 8162 "src/ext/locksetanalysis/analysis.ml" 310 8145 8197
+type(
+  string
+)
+"src/ext/locksetanalysis/analysis.ml" 311 8199 8213 "src/ext/locksetanalysis/analysis.ml" 311 8199 8215
+type(
+  (string * Arg.spec * string) list
+)
+"src/ext/locksetanalysis/analysis.ml" 312 8217 8227 "src/ext/locksetanalysis/analysis.ml" 312 8217 8233
+type(
+  Cil.file -> unit
+)
+ident(
+  int_ref mainls "src/ext/locksetanalysis/analysis.ml" 296 7891 7895 "src/ext/locksetanalysis/analysis.ml" 296 7891 7901
+)
+"src/ext/locksetanalysis/analysis.ml" 313 8235 8251 "src/ext/locksetanalysis/analysis.ml" 313 8235 8255
+type(
+  bool
+)
+"src/ext/locksetanalysis/analysis.ml" 308 8102 8102 "src/ext/locksetanalysis/analysis.ml" 314 8256 8257
+type(
+  Feature.t
+)
+"src/ext/locksetanalysis/analysis.ml" 316 8259 8263 "src/ext/locksetanalysis/analysis.ml" 316 8259 8265
+type(
+  unit
+)
+"src/ext/locksetanalysis/analysis.ml" 316 8259 8268 "src/ext/locksetanalysis/analysis.ml" 316 8259 8284
+type(
+  Feature.t -> unit
+)
+ident(
+  ext_ref Feature.register
+)
+"src/ext/locksetanalysis/analysis.ml" 316 8259 8285 "src/ext/locksetanalysis/analysis.ml" 316 8259 8292
+type(
+  Feature.t
+)
+ident(
+  int_ref feature "src/ext/locksetanalysis/analysis.ml" 307 8087 8091 "src/ext/locksetanalysis/analysis.ml" 307 8087 8098
+)
+"src/ext/locksetanalysis/analysis.ml" 316 8259 8268 "src/ext/locksetanalysis/analysis.ml" 316 8259 8292
+call(
+  stack
+)
+type(
+  unit
+)

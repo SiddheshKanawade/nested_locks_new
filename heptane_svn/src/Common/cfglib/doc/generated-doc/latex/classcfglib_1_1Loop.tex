@@ -1,0 +1,149 @@
+\hypertarget{classcfglib_1_1Loop}{}\doxysection{cfglib\+::Loop Class Reference}
+\label{classcfglib_1_1Loop}\index{cfglib::Loop@{cfglib::Loop}}
+
+
+{\ttfamily \#include $<$Loop.\+h$>$}
+
+Inheritance diagram for cfglib\+::Loop\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classcfglib_1_1Loop}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcfglib_1_1Loop_a14d3e2db416417b9a0debad435307fb6}{Loop}} ()
+\item 
+\mbox{\hyperlink{classcfglib_1_1Loop_a7ce83c4b6b9fca7d2c4c86dfce6f4197}{$\sim$\+Loop}} ()
+\item 
+\mbox{\hyperlink{classcfglib_1_1Loop}{Loop}} $\ast$ \mbox{\hyperlink{classcfglib_1_1Loop_aedb7371aa0f0b55996814ca608b28aca}{Clone}} (\mbox{\hyperlink{classcfglib_1_1CloneHandle}{Clone\+Handle}} \&)
+\item 
+std\+::ostream \& \mbox{\hyperlink{classcfglib_1_1Loop_a7a64d5f9cdda71e80b3798c0f17ef237}{Write\+Xml}} (std\+::ostream \&os, \mbox{\hyperlink{classcfglib_1_1Handle}{Handle}} \&hand)
+\item 
+virtual void \mbox{\hyperlink{classcfglib_1_1Loop_a9bca6f0b552a7863259d34611dff7b4a}{Read\+Xml}} (\mbox{\hyperlink{classXmlTag}{Xml\+Tag}} const $\ast$tag, \mbox{\hyperlink{classcfglib_1_1Handle}{Handle}} \&hand)
+\item 
+void \mbox{\hyperlink{classcfglib_1_1Loop_ae6c9f22b961258f08b3f5e75629d0b1e}{Add\+Node}} (\mbox{\hyperlink{classcfglib_1_1Node}{Node}} $\ast$)
+\item 
+void \mbox{\hyperlink{classcfglib_1_1Loop_a2d327d15a95feaa19e09b83a1cf6a496}{Add\+Backedge}} (\mbox{\hyperlink{classcfglib_1_1Edge}{Edge}} $\ast$)
+\item 
+\mbox{\hyperlink{classcfglib_1_1Node}{Node}} $\ast$ \mbox{\hyperlink{classcfglib_1_1Loop_a40546268dd442308d1b7b6378f925a5e}{Get\+Head}} () const
+\item 
+bool \mbox{\hyperlink{classcfglib_1_1Loop_acbe30a927df0b77ed4aed07cb1517ba4}{Find\+In\+Loop}} (\mbox{\hyperlink{classcfglib_1_1Node}{Node}} $\ast$node) const
+\item 
+std\+::vector$<$ \mbox{\hyperlink{classcfglib_1_1Node}{Node}} $\ast$ $>$ \mbox{\hyperlink{classcfglib_1_1Loop_a44b72feb6f18b9777934624ae739a178}{Get\+All\+Nodes}} () const
+\item 
+std\+::vector$<$ \mbox{\hyperlink{classcfglib_1_1Node}{Node}} $\ast$ $>$ \mbox{\hyperlink{classcfglib_1_1Loop_ac56a143e69c8ad93282a02eaa1c6f660}{Get\+All\+Nodes\+Not\+Nested}} () const
+\item 
+std\+::vector$<$ \mbox{\hyperlink{classcfglib_1_1Edge}{Edge}} $\ast$ $>$ \mbox{\hyperlink{classcfglib_1_1Loop_aed2af25c5a0859663d71be2ac239f07c}{Get\+Backedges}} () const
+\item 
+bool \mbox{\hyperlink{classcfglib_1_1Loop_a8deea5bb51a437e8417143e77ee435a7}{Is\+Nested\+In}} (\mbox{\hyperlink{classcfglib_1_1Loop}{Loop}} $\ast$l) const
+\item 
+void \mbox{\hyperlink{classcfglib_1_1Loop_a8df5fb64b7864ba46b405dd16385fb90}{Peel}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Natural loops. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcfglib_1_1Loop_a14d3e2db416417b9a0debad435307fb6}\label{classcfglib_1_1Loop_a14d3e2db416417b9a0debad435307fb6}} 
+\index{cfglib::Loop@{cfglib::Loop}!Loop@{Loop}}
+\index{Loop@{Loop}!cfglib::Loop@{cfglib::Loop}}
+\doxysubsubsection{\texorpdfstring{Loop()}{Loop()}}
+{\footnotesize\ttfamily cfglib\+::\+Loop\+::\+Loop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor \mbox{\Hypertarget{classcfglib_1_1Loop_a7ce83c4b6b9fca7d2c4c86dfce6f4197}\label{classcfglib_1_1Loop_a7ce83c4b6b9fca7d2c4c86dfce6f4197}} 
+\index{cfglib::Loop@{cfglib::Loop}!````~Loop@{$\sim$Loop}}
+\index{````~Loop@{$\sim$Loop}!cfglib::Loop@{cfglib::Loop}}
+\doxysubsubsection{\texorpdfstring{$\sim$Loop()}{~Loop()}}
+{\footnotesize\ttfamily cfglib\+::\+Loop\+::$\sim$\+Loop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+destructor 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcfglib_1_1Loop_a2d327d15a95feaa19e09b83a1cf6a496}\label{classcfglib_1_1Loop_a2d327d15a95feaa19e09b83a1cf6a496}} 
+\index{cfglib::Loop@{cfglib::Loop}!AddBackedge@{AddBackedge}}
+\index{AddBackedge@{AddBackedge}!cfglib::Loop@{cfglib::Loop}}
+\doxysubsubsection{\texorpdfstring{AddBackedge()}{AddBackedge()}}
+{\footnotesize\ttfamily void cfglib\+::\+Loop\+::\+Add\+Backedge (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcfglib_1_1Edge}{Edge}} $\ast$}]{ }\end{DoxyParamCaption})}
+
+Add backedge to the loop. The Nodes of the backedge should be added independently. FIXME\+: in the reductible loop case I could infer backedges from the head information and this function will be therefore redundant. \mbox{\Hypertarget{classcfglib_1_1Loop_ae6c9f22b961258f08b3f5e75629d0b1e}\label{classcfglib_1_1Loop_ae6c9f22b961258f08b3f5e75629d0b1e}} 
+\index{cfglib::Loop@{cfglib::Loop}!AddNode@{AddNode}}
+\index{AddNode@{AddNode}!cfglib::Loop@{cfglib::Loop}}
+\doxysubsubsection{\texorpdfstring{AddNode()}{AddNode()}}
+{\footnotesize\ttfamily void cfglib\+::\+Loop\+::\+Add\+Node (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcfglib_1_1Node}{Node}} $\ast$}]{ }\end{DoxyParamCaption})}
+
+Add nodes to the loop, the first \mbox{\hyperlink{classcfglib_1_1Node}{Node}} added must be the head of the loop \mbox{\Hypertarget{classcfglib_1_1Loop_aedb7371aa0f0b55996814ca608b28aca}\label{classcfglib_1_1Loop_aedb7371aa0f0b55996814ca608b28aca}} 
+\index{cfglib::Loop@{cfglib::Loop}!Clone@{Clone}}
+\index{Clone@{Clone}!cfglib::Loop@{cfglib::Loop}}
+\doxysubsubsection{\texorpdfstring{Clone()}{Clone()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcfglib_1_1Loop}{Loop}} $\ast$ cfglib\+::\+Loop\+::\+Clone (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcfglib_1_1CloneHandle}{Clone\+Handle}} \&}]{ }\end{DoxyParamCaption})}
+
+cloning function \mbox{\Hypertarget{classcfglib_1_1Loop_acbe30a927df0b77ed4aed07cb1517ba4}\label{classcfglib_1_1Loop_acbe30a927df0b77ed4aed07cb1517ba4}} 
+\index{cfglib::Loop@{cfglib::Loop}!FindInLoop@{FindInLoop}}
+\index{FindInLoop@{FindInLoop}!cfglib::Loop@{cfglib::Loop}}
+\doxysubsubsection{\texorpdfstring{FindInLoop()}{FindInLoop()}}
+{\footnotesize\ttfamily bool cfglib\+::\+Loop\+::\+Find\+In\+Loop (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcfglib_1_1Node}{Node}} $\ast$}]{node }\end{DoxyParamCaption}) const}
+
+Say if the node is in this loop. \mbox{\Hypertarget{classcfglib_1_1Loop_a44b72feb6f18b9777934624ae739a178}\label{classcfglib_1_1Loop_a44b72feb6f18b9777934624ae739a178}} 
+\index{cfglib::Loop@{cfglib::Loop}!GetAllNodes@{GetAllNodes}}
+\index{GetAllNodes@{GetAllNodes}!cfglib::Loop@{cfglib::Loop}}
+\doxysubsubsection{\texorpdfstring{GetAllNodes()}{GetAllNodes()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{classcfglib_1_1Node}{Node}} $\ast$ $>$ cfglib\+::\+Loop\+::\+Get\+All\+Nodes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the nodes of the \mbox{\hyperlink{classcfglib_1_1Loop}{Loop}}. The vector\textquotesingle{}s first \mbox{\hyperlink{classcfglib_1_1Node}{Node}} is the head of the loop, other nodes are in no particular order. Returns all nodes of the loop, even those belonging to nested loops. To have only the nodes not belonging to nested loops, call method Get\+All\+Nodes\+Not\+Nested \mbox{\Hypertarget{classcfglib_1_1Loop_ac56a143e69c8ad93282a02eaa1c6f660}\label{classcfglib_1_1Loop_ac56a143e69c8ad93282a02eaa1c6f660}} 
+\index{cfglib::Loop@{cfglib::Loop}!GetAllNodesNotNested@{GetAllNodesNotNested}}
+\index{GetAllNodesNotNested@{GetAllNodesNotNested}!cfglib::Loop@{cfglib::Loop}}
+\doxysubsubsection{\texorpdfstring{GetAllNodesNotNested()}{GetAllNodesNotNested()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{classcfglib_1_1Node}{Node}} $\ast$ $>$ cfglib\+::\+Loop\+::\+Get\+All\+Nodes\+Not\+Nested (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the nodes of the \mbox{\hyperlink{classcfglib_1_1Loop}{Loop}}. The vector\textquotesingle{}s first \mbox{\hyperlink{classcfglib_1_1Node}{Node}} is the head of the loop, other nodes are in no particular order. Returns only the nodes not belonging to nested loops. To have all nodes, call method Get\+All\+Nodes \mbox{\Hypertarget{classcfglib_1_1Loop_aed2af25c5a0859663d71be2ac239f07c}\label{classcfglib_1_1Loop_aed2af25c5a0859663d71be2ac239f07c}} 
+\index{cfglib::Loop@{cfglib::Loop}!GetBackedges@{GetBackedges}}
+\index{GetBackedges@{GetBackedges}!cfglib::Loop@{cfglib::Loop}}
+\doxysubsubsection{\texorpdfstring{GetBackedges()}{GetBackedges()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{classcfglib_1_1Edge}{Edge}} $\ast$ $>$ cfglib\+::\+Loop\+::\+Get\+Backedges (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the \mbox{\hyperlink{classcfglib_1_1Loop}{Loop}} Backedges. \mbox{\Hypertarget{classcfglib_1_1Loop_a40546268dd442308d1b7b6378f925a5e}\label{classcfglib_1_1Loop_a40546268dd442308d1b7b6378f925a5e}} 
+\index{cfglib::Loop@{cfglib::Loop}!GetHead@{GetHead}}
+\index{GetHead@{GetHead}!cfglib::Loop@{cfglib::Loop}}
+\doxysubsubsection{\texorpdfstring{GetHead()}{GetHead()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcfglib_1_1Node}{Node}} $\ast$ cfglib\+::\+Loop\+::\+Get\+Head (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the entry node of the loop \mbox{\Hypertarget{classcfglib_1_1Loop_a8deea5bb51a437e8417143e77ee435a7}\label{classcfglib_1_1Loop_a8deea5bb51a437e8417143e77ee435a7}} 
+\index{cfglib::Loop@{cfglib::Loop}!IsNestedIn@{IsNestedIn}}
+\index{IsNestedIn@{IsNestedIn}!cfglib::Loop@{cfglib::Loop}}
+\doxysubsubsection{\texorpdfstring{IsNestedIn()}{IsNestedIn()}}
+{\footnotesize\ttfamily bool cfglib\+::\+Loop\+::\+Is\+Nested\+In (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcfglib_1_1Loop}{Loop}} $\ast$}]{l }\end{DoxyParamCaption}) const}
+
+Returns true if the loop (this) is nested in loop (l) \mbox{\Hypertarget{classcfglib_1_1Loop_a8df5fb64b7864ba46b405dd16385fb90}\label{classcfglib_1_1Loop_a8df5fb64b7864ba46b405dd16385fb90}} 
+\index{cfglib::Loop@{cfglib::Loop}!Peel@{Peel}}
+\index{Peel@{Peel}!cfglib::Loop@{cfglib::Loop}}
+\doxysubsubsection{\texorpdfstring{Peel()}{Peel()}}
+{\footnotesize\ttfamily void cfglib\+::\+Loop\+::\+Peel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classcfglib_1_1Loop_a9bca6f0b552a7863259d34611dff7b4a}\label{classcfglib_1_1Loop_a9bca6f0b552a7863259d34611dff7b4a}} 
+\index{cfglib::Loop@{cfglib::Loop}!ReadXml@{ReadXml}}
+\index{ReadXml@{ReadXml}!cfglib::Loop@{cfglib::Loop}}
+\doxysubsubsection{\texorpdfstring{ReadXml()}{ReadXml()}}
+{\footnotesize\ttfamily virtual void cfglib\+::\+Loop\+::\+Read\+Xml (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classXmlTag}{Xml\+Tag}} const $\ast$}]{tag,  }\item[{\mbox{\hyperlink{classcfglib_1_1Handle}{Handle}} \&}]{hand }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Deserialisation function. 
+
+Implements \mbox{\hyperlink{classcfglib_1_1Serialisable_a876d530446317872259356af9b016e13}{cfglib\+::\+Serialisable}}.
+
+\mbox{\Hypertarget{classcfglib_1_1Loop_a7a64d5f9cdda71e80b3798c0f17ef237}\label{classcfglib_1_1Loop_a7a64d5f9cdda71e80b3798c0f17ef237}} 
+\index{cfglib::Loop@{cfglib::Loop}!WriteXml@{WriteXml}}
+\index{WriteXml@{WriteXml}!cfglib::Loop@{cfglib::Loop}}
+\doxysubsubsection{\texorpdfstring{WriteXml()}{WriteXml()}}
+{\footnotesize\ttfamily std\+::ostream \& cfglib\+::\+Loop\+::\+Write\+Xml (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{\mbox{\hyperlink{classcfglib_1_1Handle}{Handle}} \&}]{hand }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Serialisation function. 
+
+Implements \mbox{\hyperlink{classcfglib_1_1Serialisable_aa46c0daf93c3416320973ec4d3157421}{cfglib\+::\+Serialisable}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{Loop_8h}{Loop.\+h}}\end{DoxyCompactItemize}

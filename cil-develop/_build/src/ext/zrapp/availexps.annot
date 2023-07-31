@@ -1,0 +1,6801 @@
+"src/ext/zrapp/availexps.ml" 17 343 347 "src/ext/zrapp/availexps.ml" 17 343 352
+type(
+  bool ref
+)
+ident(
+  def debug "src/ext/zrapp/availexps.ml" 18 365 365 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 17 343 355 "src/ext/zrapp/availexps.ml" 17 343 358
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/zrapp/availexps.ml" 17 343 359 "src/ext/zrapp/availexps.ml" 17 343 364
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 17 343 355 "src/ext/zrapp/availexps.ml" 17 343 364
+type(
+  bool ref
+)
+"src/ext/zrapp/availexps.ml" 18 365 369 "src/ext/zrapp/availexps.ml" 18 365 375
+type(
+  bool ref
+)
+ident(
+  def doTime "src/ext/zrapp/availexps.ml" 21 390 390 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 18 365 378 "src/ext/zrapp/availexps.ml" 18 365 381
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/zrapp/availexps.ml" 18 365 382 "src/ext/zrapp/availexps.ml" 18 365 387
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 18 365 378 "src/ext/zrapp/availexps.ml" 18 365 387
+type(
+  bool ref
+)
+"src/ext/zrapp/availexps.ml" 21 390 394 "src/ext/zrapp/availexps.ml" 21 390 398
+type(
+  string -> ('a -> 'b) -> 'a -> 'b
+)
+ident(
+  def time "src/ext/zrapp/availexps.ml" 34 693 693 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 21 390 399 "src/ext/zrapp/availexps.ml" 21 390 400
+type(
+  string
+)
+ident(
+  def s "src/ext/zrapp/availexps.ml" 21 390 401 "src/ext/zrapp/availexps.ml" 24 443 453
+)
+"src/ext/zrapp/availexps.ml" 21 390 401 "src/ext/zrapp/availexps.ml" 21 390 402
+type(
+  'a -> 'b
+)
+ident(
+  def f "src/ext/zrapp/availexps.ml" 21 390 403 "src/ext/zrapp/availexps.ml" 24 443 453
+)
+"src/ext/zrapp/availexps.ml" 21 390 403 "src/ext/zrapp/availexps.ml" 21 390 404
+type(
+  'a
+)
+ident(
+  def a "src/ext/zrapp/availexps.ml" 22 408 410 "src/ext/zrapp/availexps.ml" 24 443 453
+)
+"src/ext/zrapp/availexps.ml" 22 408 413 "src/ext/zrapp/availexps.ml" 22 408 414
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 22 408 414 "src/ext/zrapp/availexps.ml" 22 408 420
+type(
+  bool ref
+)
+ident(
+  int_ref doTime "src/ext/zrapp/availexps.ml" 18 365 369 "src/ext/zrapp/availexps.ml" 18 365 375
+)
+"src/ext/zrapp/availexps.ml" 22 408 413 "src/ext/zrapp/availexps.ml" 22 408 420
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 23 426 430 "src/ext/zrapp/availexps.ml" 23 426 436
+type(
+  string -> ('a -> 'b) -> 'a -> 'b
+)
+ident(
+  ext_ref S.time
+)
+"src/ext/zrapp/availexps.ml" 23 426 437 "src/ext/zrapp/availexps.ml" 23 426 438
+type(
+  string
+)
+ident(
+  int_ref s "src/ext/zrapp/availexps.ml" 21 390 399 "src/ext/zrapp/availexps.ml" 21 390 400
+)
+"src/ext/zrapp/availexps.ml" 23 426 439 "src/ext/zrapp/availexps.ml" 23 426 440
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "src/ext/zrapp/availexps.ml" 21 390 401 "src/ext/zrapp/availexps.ml" 21 390 402
+)
+"src/ext/zrapp/availexps.ml" 23 426 441 "src/ext/zrapp/availexps.ml" 23 426 442
+type(
+  'a
+)
+ident(
+  int_ref a "src/ext/zrapp/availexps.ml" 21 390 403 "src/ext/zrapp/availexps.ml" 21 390 404
+)
+"src/ext/zrapp/availexps.ml" 23 426 430 "src/ext/zrapp/availexps.ml" 23 426 442
+call(
+  tail
+)
+type(
+  'b
+)
+"src/ext/zrapp/availexps.ml" 24 443 450 "src/ext/zrapp/availexps.ml" 24 443 451
+type(
+  'a -> 'b
+)
+ident(
+  int_ref f "src/ext/zrapp/availexps.ml" 21 390 401 "src/ext/zrapp/availexps.ml" 21 390 402
+)
+"src/ext/zrapp/availexps.ml" 24 443 452 "src/ext/zrapp/availexps.ml" 24 443 453
+type(
+  'a
+)
+ident(
+  int_ref a "src/ext/zrapp/availexps.ml" 21 390 403 "src/ext/zrapp/availexps.ml" 21 390 404
+)
+"src/ext/zrapp/availexps.ml" 24 443 450 "src/ext/zrapp/availexps.ml" 24 443 453
+call(
+  tail
+)
+type(
+  'b
+)
+"src/ext/zrapp/availexps.ml" 22 408 410 "src/ext/zrapp/availexps.ml" 24 443 453
+type(
+  'b
+)
+"src/ext/zrapp/availexps.ml" 34 693 697 "src/ext/zrapp/availexps.ml" 34 693 708
+type(
+  (Cil.instr -> bool) ref
+)
+ident(
+  def ignore_inst "src/ext/zrapp/availexps.ml" 35 732 732 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 34 693 711 "src/ext/zrapp/availexps.ml" 34 693 714
+type(
+  (Cil.instr -> bool) -> (Cil.instr -> bool) ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/zrapp/availexps.ml" 34 693 720 "src/ext/zrapp/availexps.ml" 34 693 721
+type(
+  Cil.instr
+)
+ident(
+  def i "src/ext/zrapp/availexps.ml" 34 693 725 "src/ext/zrapp/availexps.ml" 34 693 730
+)
+"src/ext/zrapp/availexps.ml" 34 693 725 "src/ext/zrapp/availexps.ml" 34 693 730
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 34 693 715 "src/ext/zrapp/availexps.ml" 34 693 731
+type(
+  Cil.instr -> bool
+)
+"src/ext/zrapp/availexps.ml" 34 693 711 "src/ext/zrapp/availexps.ml" 34 693 731
+type(
+  (Cil.instr -> bool) ref
+)
+"src/ext/zrapp/availexps.ml" 35 732 736 "src/ext/zrapp/availexps.ml" 35 732 747
+type(
+  (Cil.instr -> bool) ref
+)
+ident(
+  def ignore_call "src/ext/zrapp/availexps.ml" 37 772 772 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 35 732 750 "src/ext/zrapp/availexps.ml" 35 732 753
+type(
+  (Cil.instr -> bool) -> (Cil.instr -> bool) ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/zrapp/availexps.ml" 35 732 759 "src/ext/zrapp/availexps.ml" 35 732 760
+type(
+  Cil.instr
+)
+ident(
+  def i "src/ext/zrapp/availexps.ml" 35 732 764 "src/ext/zrapp/availexps.ml" 35 732 769
+)
+"src/ext/zrapp/availexps.ml" 35 732 764 "src/ext/zrapp/availexps.ml" 35 732 769
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 35 732 754 "src/ext/zrapp/availexps.ml" 35 732 770
+type(
+  Cil.instr -> bool
+)
+"src/ext/zrapp/availexps.ml" 35 732 750 "src/ext/zrapp/availexps.ml" 35 732 770
+type(
+  (Cil.instr -> bool) ref
+)
+"src/ext/zrapp/availexps.ml" 37 772 776 "src/ext/zrapp/availexps.ml" 37 772 794
+type(
+  (Cil.instr -> bool) -> unit
+)
+ident(
+  def registerIgnoreInst "src/ext/zrapp/availexps.ml" 41 896 896 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 37 772 796 "src/ext/zrapp/availexps.ml" 37 772 797
+type(
+  Cil.instr -> bool
+)
+ident(
+  def f "src/ext/zrapp/availexps.ml" 37 772 815 "src/ext/zrapp/availexps.ml" 39 851 894
+)
+"src/ext/zrapp/availexps.ml" 38 824 830 "src/ext/zrapp/availexps.ml" 38 824 832
+type(
+  Cil.instr -> bool
+)
+ident(
+  def f' "src/ext/zrapp/availexps.ml" 39 851 853 "src/ext/zrapp/availexps.ml" 39 851 894
+)
+"src/ext/zrapp/availexps.ml" 38 824 835 "src/ext/zrapp/availexps.ml" 38 824 836
+type(
+  (Cil.instr -> bool) ref -> Cil.instr -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 38 824 836 "src/ext/zrapp/availexps.ml" 38 824 847
+type(
+  (Cil.instr -> bool) ref
+)
+ident(
+  int_ref ignore_inst "src/ext/zrapp/availexps.ml" 34 693 697 "src/ext/zrapp/availexps.ml" 34 693 708
+)
+"src/ext/zrapp/availexps.ml" 38 824 835 "src/ext/zrapp/availexps.ml" 38 824 847
+type(
+  Cil.instr -> bool
+)
+"src/ext/zrapp/availexps.ml" 39 851 853 "src/ext/zrapp/availexps.ml" 39 851 864
+type(
+  (Cil.instr -> bool) ref
+)
+ident(
+  int_ref ignore_inst "src/ext/zrapp/availexps.ml" 34 693 697 "src/ext/zrapp/availexps.ml" 34 693 708
+)
+"src/ext/zrapp/availexps.ml" 39 851 865 "src/ext/zrapp/availexps.ml" 39 851 867
+type(
+  (Cil.instr -> bool) ref -> (Cil.instr -> bool) -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/zrapp/availexps.ml" 39 851 873 "src/ext/zrapp/availexps.ml" 39 851 874
+type(
+  Cil.instr
+)
+ident(
+  def i "src/ext/zrapp/availexps.ml" 39 851 878 "src/ext/zrapp/availexps.ml" 39 851 893
+)
+"src/ext/zrapp/availexps.ml" 39 851 879 "src/ext/zrapp/availexps.ml" 39 851 880
+type(
+  Cil.instr -> bool
+)
+ident(
+  int_ref f "src/ext/zrapp/availexps.ml" 37 772 796 "src/ext/zrapp/availexps.ml" 37 772 797
+)
+"src/ext/zrapp/availexps.ml" 39 851 881 "src/ext/zrapp/availexps.ml" 39 851 882
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/zrapp/availexps.ml" 39 851 873 "src/ext/zrapp/availexps.ml" 39 851 874
+)
+"src/ext/zrapp/availexps.ml" 39 851 878 "src/ext/zrapp/availexps.ml" 39 851 883
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 39 851 884 "src/ext/zrapp/availexps.ml" 39 851 886
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ext/zrapp/availexps.ml" 39 851 888 "src/ext/zrapp/availexps.ml" 39 851 890
+type(
+  Cil.instr -> bool
+)
+ident(
+  int_ref f' "src/ext/zrapp/availexps.ml" 38 824 830 "src/ext/zrapp/availexps.ml" 38 824 832
+)
+"src/ext/zrapp/availexps.ml" 39 851 891 "src/ext/zrapp/availexps.ml" 39 851 892
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/zrapp/availexps.ml" 39 851 873 "src/ext/zrapp/availexps.ml" 39 851 874
+)
+"src/ext/zrapp/availexps.ml" 39 851 887 "src/ext/zrapp/availexps.ml" 39 851 893
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 39 851 878 "src/ext/zrapp/availexps.ml" 39 851 893
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 39 851 868 "src/ext/zrapp/availexps.ml" 39 851 894
+type(
+  Cil.instr -> bool
+)
+"src/ext/zrapp/availexps.ml" 39 851 853 "src/ext/zrapp/availexps.ml" 39 851 894
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 38 824 826 "src/ext/zrapp/availexps.ml" 39 851 894
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 41 896 900 "src/ext/zrapp/availexps.ml" 41 896 918
+type(
+  (Cil.instr -> bool) -> unit
+)
+ident(
+  def registerIgnoreCall "src/ext/zrapp/availexps.ml" 47 1056 1056 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 41 896 920 "src/ext/zrapp/availexps.ml" 41 896 921
+type(
+  Cil.instr -> bool
+)
+ident(
+  def f "src/ext/zrapp/availexps.ml" 41 896 939 "src/ext/zrapp/availexps.ml" 43 975 1018
+)
+"src/ext/zrapp/availexps.ml" 42 948 954 "src/ext/zrapp/availexps.ml" 42 948 956
+type(
+  Cil.instr -> bool
+)
+ident(
+  def f' "src/ext/zrapp/availexps.ml" 43 975 977 "src/ext/zrapp/availexps.ml" 43 975 1018
+)
+"src/ext/zrapp/availexps.ml" 42 948 959 "src/ext/zrapp/availexps.ml" 42 948 960
+type(
+  (Cil.instr -> bool) ref -> Cil.instr -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 42 948 960 "src/ext/zrapp/availexps.ml" 42 948 971
+type(
+  (Cil.instr -> bool) ref
+)
+ident(
+  int_ref ignore_call "src/ext/zrapp/availexps.ml" 35 732 736 "src/ext/zrapp/availexps.ml" 35 732 747
+)
+"src/ext/zrapp/availexps.ml" 42 948 959 "src/ext/zrapp/availexps.ml" 42 948 971
+type(
+  Cil.instr -> bool
+)
+"src/ext/zrapp/availexps.ml" 43 975 977 "src/ext/zrapp/availexps.ml" 43 975 988
+type(
+  (Cil.instr -> bool) ref
+)
+ident(
+  int_ref ignore_call "src/ext/zrapp/availexps.ml" 35 732 736 "src/ext/zrapp/availexps.ml" 35 732 747
+)
+"src/ext/zrapp/availexps.ml" 43 975 989 "src/ext/zrapp/availexps.ml" 43 975 991
+type(
+  (Cil.instr -> bool) ref -> (Cil.instr -> bool) -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/zrapp/availexps.ml" 43 975 997 "src/ext/zrapp/availexps.ml" 43 975 998
+type(
+  Cil.instr
+)
+ident(
+  def i "src/ext/zrapp/availexps.ml" 43 975 1002 "src/ext/zrapp/availexps.ml" 43 975 1017
+)
+"src/ext/zrapp/availexps.ml" 43 975 1003 "src/ext/zrapp/availexps.ml" 43 975 1004
+type(
+  Cil.instr -> bool
+)
+ident(
+  int_ref f "src/ext/zrapp/availexps.ml" 41 896 920 "src/ext/zrapp/availexps.ml" 41 896 921
+)
+"src/ext/zrapp/availexps.ml" 43 975 1005 "src/ext/zrapp/availexps.ml" 43 975 1006
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/zrapp/availexps.ml" 43 975 997 "src/ext/zrapp/availexps.ml" 43 975 998
+)
+"src/ext/zrapp/availexps.ml" 43 975 1002 "src/ext/zrapp/availexps.ml" 43 975 1007
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 43 975 1008 "src/ext/zrapp/availexps.ml" 43 975 1010
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ext/zrapp/availexps.ml" 43 975 1012 "src/ext/zrapp/availexps.ml" 43 975 1014
+type(
+  Cil.instr -> bool
+)
+ident(
+  int_ref f' "src/ext/zrapp/availexps.ml" 42 948 954 "src/ext/zrapp/availexps.ml" 42 948 956
+)
+"src/ext/zrapp/availexps.ml" 43 975 1015 "src/ext/zrapp/availexps.ml" 43 975 1016
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/zrapp/availexps.ml" 43 975 997 "src/ext/zrapp/availexps.ml" 43 975 998
+)
+"src/ext/zrapp/availexps.ml" 43 975 1011 "src/ext/zrapp/availexps.ml" 43 975 1017
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 43 975 1002 "src/ext/zrapp/availexps.ml" 43 975 1017
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 43 975 992 "src/ext/zrapp/availexps.ml" 43 975 1018
+type(
+  Cil.instr -> bool
+)
+"src/ext/zrapp/availexps.ml" 43 975 977 "src/ext/zrapp/availexps.ml" 43 975 1018
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 42 948 950 "src/ext/zrapp/availexps.ml" 43 975 1018
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 47 1056 1060 "src/ext/zrapp/availexps.ml" 47 1056 1069
+type(
+  Cil.exp IH.t -> Cil.exp IH.t -> bool
+)
+ident(
+  def eh_equals "src/ext/zrapp/availexps.ml" 59 1337 1337 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 47 1056 1070 "src/ext/zrapp/availexps.ml" 47 1056 1073
+type(
+  Cil.exp IH.t
+)
+ident(
+  def eh1 "src/ext/zrapp/availexps.ml" 47 1056 1074 "src/ext/zrapp/availexps.ml" 57 1321 1335
+)
+"src/ext/zrapp/availexps.ml" 47 1056 1074 "src/ext/zrapp/availexps.ml" 47 1056 1077
+type(
+  Cil.exp IH.t
+)
+ident(
+  def eh2 "src/ext/zrapp/availexps.ml" 48 1080 1082 "src/ext/zrapp/availexps.ml" 57 1321 1335
+)
+"src/ext/zrapp/availexps.ml" 48 1080 1085 "src/ext/zrapp/availexps.ml" 48 1080 1088
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/zrapp/availexps.ml" 48 1080 1089 "src/ext/zrapp/availexps.ml" 48 1080 1098
+type(
+  Cil.exp IH.t -> int
+)
+ident(
+  ext_ref IH.length
+)
+"src/ext/zrapp/availexps.ml" 48 1080 1099 "src/ext/zrapp/availexps.ml" 48 1080 1102
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh1 "src/ext/zrapp/availexps.ml" 47 1056 1070 "src/ext/zrapp/availexps.ml" 47 1056 1073
+)
+"src/ext/zrapp/availexps.ml" 48 1080 1089 "src/ext/zrapp/availexps.ml" 48 1080 1102
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 48 1080 1103 "src/ext/zrapp/availexps.ml" 48 1080 1104
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/zrapp/availexps.ml" 48 1080 1105 "src/ext/zrapp/availexps.ml" 48 1080 1114
+type(
+  Cil.exp IH.t -> int
+)
+ident(
+  ext_ref IH.length
+)
+"src/ext/zrapp/availexps.ml" 48 1080 1115 "src/ext/zrapp/availexps.ml" 48 1080 1118
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh2 "src/ext/zrapp/availexps.ml" 47 1056 1074 "src/ext/zrapp/availexps.ml" 47 1056 1077
+)
+"src/ext/zrapp/availexps.ml" 48 1080 1105 "src/ext/zrapp/availexps.ml" 48 1080 1118
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 48 1080 1088 "src/ext/zrapp/availexps.ml" 48 1080 1119
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 48 1080 1085 "src/ext/zrapp/availexps.ml" 48 1080 1119
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 49 1120 1127 "src/ext/zrapp/availexps.ml" 49 1120 1132
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 50 1133 1140 "src/ext/zrapp/availexps.ml" 50 1133 1147
+type(
+  (int -> Cil.exp -> bool -> bool) -> Cil.exp IH.t -> bool -> bool
+)
+ident(
+  ext_ref IH.fold
+)
+"src/ext/zrapp/availexps.ml" 50 1133 1153 "src/ext/zrapp/availexps.ml" 50 1133 1156
+type(
+  int
+)
+ident(
+  def vid "src/ext/zrapp/availexps.ml" 50 1133 1157 "src/ext/zrapp/availexps.ml" 56 1292 1319
+)
+"src/ext/zrapp/availexps.ml" 50 1133 1157 "src/ext/zrapp/availexps.ml" 50 1133 1158
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/zrapp/availexps.ml" 50 1133 1159 "src/ext/zrapp/availexps.ml" 56 1292 1319
+)
+"src/ext/zrapp/availexps.ml" 50 1133 1159 "src/ext/zrapp/availexps.ml" 50 1133 1160
+type(
+  bool
+)
+ident(
+  def b "src/ext/zrapp/availexps.ml" 51 1164 1168 "src/ext/zrapp/availexps.ml" 56 1292 1319
+)
+"src/ext/zrapp/availexps.ml" 51 1164 1171 "src/ext/zrapp/availexps.ml" 51 1164 1174
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/zrapp/availexps.ml" 51 1164 1175 "src/ext/zrapp/availexps.ml" 51 1164 1176
+type(
+  bool
+)
+ident(
+  int_ref b "src/ext/zrapp/availexps.ml" 50 1133 1159 "src/ext/zrapp/availexps.ml" 50 1133 1160
+)
+"src/ext/zrapp/availexps.ml" 51 1164 1171 "src/ext/zrapp/availexps.ml" 51 1164 1176
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 51 1164 1182 "src/ext/zrapp/availexps.ml" 51 1164 1183
+type(
+  bool
+)
+ident(
+  int_ref b "src/ext/zrapp/availexps.ml" 50 1133 1159 "src/ext/zrapp/availexps.ml" 50 1133 1160
+)
+"src/ext/zrapp/availexps.ml" 52 1189 1201 "src/ext/zrapp/availexps.ml" 52 1189 1203
+type(
+  Cil.exp
+)
+ident(
+  def e2 "src/ext/zrapp/availexps.ml" 53 1225 1229 "src/ext/zrapp/availexps.ml" 55 1278 1291
+)
+"src/ext/zrapp/availexps.ml" 52 1189 1206 "src/ext/zrapp/availexps.ml" 52 1189 1213
+type(
+  Cil.exp IH.t -> int -> Cil.exp
+)
+ident(
+  ext_ref IH.find
+)
+"src/ext/zrapp/availexps.ml" 52 1189 1214 "src/ext/zrapp/availexps.ml" 52 1189 1217
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh2 "src/ext/zrapp/availexps.ml" 47 1056 1074 "src/ext/zrapp/availexps.ml" 47 1056 1077
+)
+"src/ext/zrapp/availexps.ml" 52 1189 1218 "src/ext/zrapp/availexps.ml" 52 1189 1221
+type(
+  int
+)
+ident(
+  int_ref vid "src/ext/zrapp/availexps.ml" 50 1133 1153 "src/ext/zrapp/availexps.ml" 50 1133 1156
+)
+"src/ext/zrapp/availexps.ml" 52 1189 1206 "src/ext/zrapp/availexps.ml" 52 1189 1221
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/zrapp/availexps.ml" 53 1225 1232 "src/ext/zrapp/availexps.ml" 53 1225 1235
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/zrapp/availexps.ml" 53 1225 1236 "src/ext/zrapp/availexps.ml" 53 1225 1256
+type(
+  Cil.exp -> Cil.exp -> bool
+)
+ident(
+  ext_ref Expcompare.compareExpStripCasts
+)
+"src/ext/zrapp/availexps.ml" 53 1225 1257 "src/ext/zrapp/availexps.ml" 53 1225 1258
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/zrapp/availexps.ml" 50 1133 1157 "src/ext/zrapp/availexps.ml" 50 1133 1158
+)
+"src/ext/zrapp/availexps.ml" 53 1225 1259 "src/ext/zrapp/availexps.ml" 53 1225 1261
+type(
+  Cil.exp
+)
+ident(
+  int_ref e2 "src/ext/zrapp/availexps.ml" 52 1189 1201 "src/ext/zrapp/availexps.ml" 52 1189 1203
+)
+"src/ext/zrapp/availexps.ml" 53 1225 1235 "src/ext/zrapp/availexps.ml" 53 1225 1262
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 53 1225 1232 "src/ext/zrapp/availexps.ml" 53 1225 1262
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 54 1263 1272 "src/ext/zrapp/availexps.ml" 54 1263 1277
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 55 1278 1287 "src/ext/zrapp/availexps.ml" 55 1278 1291
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 53 1225 1229 "src/ext/zrapp/availexps.ml" 55 1278 1291
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 52 1189 1197 "src/ext/zrapp/availexps.ml" 55 1278 1291
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 56 1292 1301 "src/ext/zrapp/availexps.ml" 56 1292 1310
+type(
+  exn
+)
+"src/ext/zrapp/availexps.ml" 56 1292 1314 "src/ext/zrapp/availexps.ml" 56 1292 1319
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 52 1189 1193 "src/ext/zrapp/availexps.ml" 56 1292 1319
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 51 1164 1168 "src/ext/zrapp/availexps.ml" 56 1292 1319
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 50 1133 1148 "src/ext/zrapp/availexps.ml" 56 1292 1320
+type(
+  int -> Cil.exp -> bool -> bool
+)
+"src/ext/zrapp/availexps.ml" 57 1321 1327 "src/ext/zrapp/availexps.ml" 57 1321 1330
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh1 "src/ext/zrapp/availexps.ml" 47 1056 1070 "src/ext/zrapp/availexps.ml" 47 1056 1073
+)
+"src/ext/zrapp/availexps.ml" 57 1321 1331 "src/ext/zrapp/availexps.ml" 57 1321 1335
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 50 1133 1140 "src/ext/zrapp/availexps.ml" 57 1321 1335
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 48 1080 1082 "src/ext/zrapp/availexps.ml" 57 1321 1335
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 59 1337 1341 "src/ext/zrapp/availexps.ml" 59 1337 1350
+type(
+  unit -> Cil.exp IH.t -> Pretty.doc
+)
+ident(
+  def eh_pretty "src/ext/zrapp/availexps.ml" 65 1566 1566 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 59 1337 1351 "src/ext/zrapp/availexps.ml" 59 1337 1353
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 59 1337 1354 "src/ext/zrapp/availexps.ml" 59 1337 1356
+type(
+  Cil.exp IH.t
+)
+ident(
+  def eh "src/ext/zrapp/availexps.ml" 59 1337 1359 "src/ext/zrapp/availexps.ml" 61 1436 1468
+)
+"src/ext/zrapp/availexps.ml" 59 1337 1359 "src/ext/zrapp/availexps.ml" 59 1337 1363
+type(
+  Pretty.doc
+)
+ident(
+  ext_ref Pretty.line
+)
+"src/ext/zrapp/availexps.ml" 59 1337 1364 "src/ext/zrapp/availexps.ml" 59 1337 1366
+type(
+  Pretty.doc -> Pretty.doc -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.( ++ )
+)
+"src/ext/zrapp/availexps.ml" 59 1337 1367 "src/ext/zrapp/availexps.ml" 59 1337 1370
+type(
+  sep:Pretty.doc ->
+  doit:(int * Cil.exp -> Pretty.doc) ->
+  elements:(int * Cil.exp) list -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.seq
+)
+"src/ext/zrapp/availexps.ml" 59 1337 1371 "src/ext/zrapp/availexps.ml" 59 1337 1375
+type(
+  Pretty.doc
+)
+ident(
+  ext_ref Pretty.line
+)
+"src/ext/zrapp/availexps.ml" 59 1337 1382 "src/ext/zrapp/availexps.ml" 59 1337 1385
+type(
+  int
+)
+ident(
+  def vid "src/ext/zrapp/availexps.ml" 60 1392 1394 "src/ext/zrapp/availexps.ml" 61 1436 1452
+)
+"src/ext/zrapp/availexps.ml" 59 1337 1386 "src/ext/zrapp/availexps.ml" 59 1337 1387
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/zrapp/availexps.ml" 60 1392 1394 "src/ext/zrapp/availexps.ml" 61 1436 1452
+)
+"src/ext/zrapp/availexps.ml" 59 1337 1381 "src/ext/zrapp/availexps.ml" 59 1337 1388
+type(
+  int * Cil.exp
+)
+"src/ext/zrapp/availexps.ml" 60 1392 1394 "src/ext/zrapp/availexps.ml" 60 1392 1398
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/zrapp/availexps.ml" 60 1392 1399 "src/ext/zrapp/availexps.ml" 60 1392 1408
+type(
+  string
+)
+"src/ext/zrapp/availexps.ml" 60 1392 1394 "src/ext/zrapp/availexps.ml" 60 1392 1408
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/zrapp/availexps.ml" 60 1392 1409 "src/ext/zrapp/availexps.ml" 60 1392 1411
+type(
+  Pretty.doc -> Pretty.doc -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.( ++ )
+)
+"src/ext/zrapp/availexps.ml" 60 1392 1412 "src/ext/zrapp/availexps.ml" 60 1392 1415
+type(
+  int -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.num
+)
+"src/ext/zrapp/availexps.ml" 60 1392 1416 "src/ext/zrapp/availexps.ml" 60 1392 1419
+type(
+  int
+)
+ident(
+  int_ref vid "src/ext/zrapp/availexps.ml" 59 1337 1382 "src/ext/zrapp/availexps.ml" 59 1337 1385
+)
+"src/ext/zrapp/availexps.ml" 60 1392 1412 "src/ext/zrapp/availexps.ml" 60 1392 1419
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/zrapp/availexps.ml" 60 1392 1394 "src/ext/zrapp/availexps.ml" 60 1392 1419
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/zrapp/availexps.ml" 60 1392 1420 "src/ext/zrapp/availexps.ml" 60 1392 1422
+type(
+  Pretty.doc -> Pretty.doc -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.( ++ )
+)
+"src/ext/zrapp/availexps.ml" 60 1392 1423 "src/ext/zrapp/availexps.ml" 60 1392 1427
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/ext/zrapp/availexps.ml" 60 1392 1428 "src/ext/zrapp/availexps.ml" 60 1392 1432
+type(
+  string
+)
+"src/ext/zrapp/availexps.ml" 60 1392 1423 "src/ext/zrapp/availexps.ml" 60 1392 1432
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/zrapp/availexps.ml" 60 1392 1394 "src/ext/zrapp/availexps.ml" 60 1392 1432
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/zrapp/availexps.ml" 60 1392 1433 "src/ext/zrapp/availexps.ml" 60 1392 1435
+type(
+  Pretty.doc -> Pretty.doc -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.( ++ )
+)
+"src/ext/zrapp/availexps.ml" 61 1436 1441 "src/ext/zrapp/availexps.ml" 61 1436 1446
+type(
+  unit -> Cil.exp -> Pretty.doc
+)
+ident(
+  ext_ref Cil.d_exp
+)
+"src/ext/zrapp/availexps.ml" 61 1436 1447 "src/ext/zrapp/availexps.ml" 61 1436 1449
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 61 1436 1450 "src/ext/zrapp/availexps.ml" 61 1436 1451
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/zrapp/availexps.ml" 59 1337 1386 "src/ext/zrapp/availexps.ml" 59 1337 1387
+)
+"src/ext/zrapp/availexps.ml" 61 1436 1440 "src/ext/zrapp/availexps.ml" 61 1436 1452
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/zrapp/availexps.ml" 60 1392 1394 "src/ext/zrapp/availexps.ml" 61 1436 1452
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/zrapp/availexps.ml" 59 1337 1376 "src/ext/zrapp/availexps.ml" 61 1436 1453
+type(
+  int * Cil.exp -> Pretty.doc
+)
+"src/ext/zrapp/availexps.ml" 61 1436 1455 "src/ext/zrapp/availexps.ml" 61 1436 1464
+type(
+  Cil.exp IH.t -> (int * Cil.exp) list
+)
+ident(
+  ext_ref IH.tolist
+)
+"src/ext/zrapp/availexps.ml" 61 1436 1465 "src/ext/zrapp/availexps.ml" 61 1436 1467
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 59 1337 1354 "src/ext/zrapp/availexps.ml" 59 1337 1356
+)
+"src/ext/zrapp/availexps.ml" 61 1436 1454 "src/ext/zrapp/availexps.ml" 61 1436 1468
+call(
+  stack
+)
+type(
+  (int * Cil.exp) list
+)
+"src/ext/zrapp/availexps.ml" 59 1337 1367 "src/ext/zrapp/availexps.ml" 61 1436 1468
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/ext/zrapp/availexps.ml" 59 1337 1359 "src/ext/zrapp/availexps.ml" 61 1436 1468
+call(
+  tail
+)
+type(
+  Pretty.doc
+)
+"src/ext/zrapp/availexps.ml" 65 1566 1570 "src/ext/zrapp/availexps.ml" 65 1566 1580
+type(
+  Cil.exp IH.t -> Cil.exp IH.t -> Cil.exp IH.t
+)
+ident(
+  def eh_combine "src/ext/zrapp/availexps.ml" 86 2385 2385 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 65 1566 1581 "src/ext/zrapp/availexps.ml" 65 1566 1584
+type(
+  Cil.exp IH.t
+)
+ident(
+  def eh1 "src/ext/zrapp/availexps.ml" 65 1566 1585 "src/ext/zrapp/availexps.ml" 81 2255 2260
+)
+"src/ext/zrapp/availexps.ml" 65 1566 1585 "src/ext/zrapp/availexps.ml" 65 1566 1588
+type(
+  Cil.exp IH.t
+)
+ident(
+  def eh2 "src/ext/zrapp/availexps.ml" 66 1591 1593 "src/ext/zrapp/availexps.ml" 81 2255 2260
+)
+"src/ext/zrapp/availexps.ml" 66 1591 1596 "src/ext/zrapp/availexps.ml" 66 1591 1597
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 66 1591 1597 "src/ext/zrapp/availexps.ml" 66 1591 1602
+type(
+  bool ref
+)
+ident(
+  int_ref debug "src/ext/zrapp/availexps.ml" 17 343 347 "src/ext/zrapp/availexps.ml" 17 343 352
+)
+"src/ext/zrapp/availexps.ml" 66 1591 1596 "src/ext/zrapp/availexps.ml" 66 1591 1602
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 66 1591 1608 "src/ext/zrapp/availexps.ml" 66 1591 1614
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 66 1591 1615 "src/ext/zrapp/availexps.ml" 66 1591 1620
+type(
+  ((unit -> Cil.exp IH.t -> Pretty.doc) ->
+   Cil.exp IH.t ->
+   (unit -> Cil.exp IH.t -> Pretty.doc) -> Cil.exp IH.t -> unit, unit,
+   Pretty.doc, unit)
+  format4 ->
+  (unit -> Cil.exp IH.t -> Pretty.doc) ->
+  Cil.exp IH.t ->
+  (unit -> Cil.exp IH.t -> Pretty.doc) -> Cil.exp IH.t -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/zrapp/availexps.ml" 66 1591 1621 "src/ext/zrapp/availexps.ml" 66 1591 1660
+type(
+  ((unit -> Cil.exp IH.t -> Pretty.doc) ->
+   Cil.exp IH.t ->
+   (unit -> Cil.exp IH.t -> Pretty.doc) -> Cil.exp IH.t -> unit, unit,
+   Pretty.doc, unit)
+  format4
+)
+"src/ext/zrapp/availexps.ml" 67 1661 1666 "src/ext/zrapp/availexps.ml" 67 1661 1675
+type(
+  unit -> Cil.exp IH.t -> Pretty.doc
+)
+ident(
+  int_ref eh_pretty "src/ext/zrapp/availexps.ml" 59 1337 1341 "src/ext/zrapp/availexps.ml" 59 1337 1350
+)
+"src/ext/zrapp/availexps.ml" 67 1661 1676 "src/ext/zrapp/availexps.ml" 67 1661 1679
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh1 "src/ext/zrapp/availexps.ml" 65 1566 1581 "src/ext/zrapp/availexps.ml" 65 1566 1584
+)
+"src/ext/zrapp/availexps.ml" 67 1661 1680 "src/ext/zrapp/availexps.ml" 67 1661 1689
+type(
+  unit -> Cil.exp IH.t -> Pretty.doc
+)
+ident(
+  int_ref eh_pretty "src/ext/zrapp/availexps.ml" 59 1337 1341 "src/ext/zrapp/availexps.ml" 59 1337 1350
+)
+"src/ext/zrapp/availexps.ml" 67 1661 1690 "src/ext/zrapp/availexps.ml" 67 1661 1693
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh2 "src/ext/zrapp/availexps.ml" 65 1566 1585 "src/ext/zrapp/availexps.ml" 65 1566 1588
+)
+"src/ext/zrapp/availexps.ml" 66 1591 1614 "src/ext/zrapp/availexps.ml" 67 1661 1694
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 66 1591 1608 "src/ext/zrapp/availexps.ml" 67 1661 1694
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 66 1591 1593 "src/ext/zrapp/availexps.ml" 67 1661 1694
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 68 1696 1702 "src/ext/zrapp/availexps.ml" 68 1696 1705
+type(
+  Cil.exp IH.t
+)
+ident(
+  def eh' "src/ext/zrapp/availexps.ml" 69 1749 1751 "src/ext/zrapp/availexps.ml" 81 2255 2260
+)
+"src/ext/zrapp/availexps.ml" 68 1696 1708 "src/ext/zrapp/availexps.ml" 68 1696 1715
+type(
+  Cil.exp IH.t -> Cil.exp IH.t
+)
+ident(
+  ext_ref IH.copy
+)
+"src/ext/zrapp/availexps.ml" 68 1696 1716 "src/ext/zrapp/availexps.ml" 68 1696 1719
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh1 "src/ext/zrapp/availexps.ml" 65 1566 1581 "src/ext/zrapp/availexps.ml" 65 1566 1584
+)
+"src/ext/zrapp/availexps.ml" 68 1696 1708 "src/ext/zrapp/availexps.ml" 68 1696 1719
+call(
+  stack
+)
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 69 1749 1751 "src/ext/zrapp/availexps.ml" 69 1749 1758
+type(
+  (int -> Cil.exp -> unit) -> Cil.exp IH.t -> unit
+)
+ident(
+  ext_ref IH.iter
+)
+"src/ext/zrapp/availexps.ml" 69 1749 1764 "src/ext/zrapp/availexps.ml" 69 1749 1767
+type(
+  int
+)
+ident(
+  def vid "src/ext/zrapp/availexps.ml" 69 1749 1768 "src/ext/zrapp/availexps.ml" 78 2151 2178
+)
+"src/ext/zrapp/availexps.ml" 69 1749 1768 "src/ext/zrapp/availexps.ml" 69 1749 1770
+type(
+  Cil.exp
+)
+ident(
+  def e1 "src/ext/zrapp/availexps.ml" 70 1774 1778 "src/ext/zrapp/availexps.ml" 78 2151 2178
+)
+"src/ext/zrapp/availexps.ml" 70 1774 1786 "src/ext/zrapp/availexps.ml" 70 1774 1789
+type(
+  Cil.exp list
+)
+ident(
+  def e2l "src/ext/zrapp/availexps.ml" 71 1815 1819 "src/ext/zrapp/availexps.ml" 76 2082 2128
+)
+"src/ext/zrapp/availexps.ml" 70 1774 1792 "src/ext/zrapp/availexps.ml" 70 1774 1803
+type(
+  Cil.exp IH.t -> int -> Cil.exp list
+)
+ident(
+  ext_ref IH.find_all
+)
+"src/ext/zrapp/availexps.ml" 70 1774 1804 "src/ext/zrapp/availexps.ml" 70 1774 1807
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh2 "src/ext/zrapp/availexps.ml" 65 1566 1585 "src/ext/zrapp/availexps.ml" 65 1566 1588
+)
+"src/ext/zrapp/availexps.ml" 70 1774 1808 "src/ext/zrapp/availexps.ml" 70 1774 1811
+type(
+  int
+)
+ident(
+  int_ref vid "src/ext/zrapp/availexps.ml" 69 1749 1764 "src/ext/zrapp/availexps.ml" 69 1749 1767
+)
+"src/ext/zrapp/availexps.ml" 70 1774 1792 "src/ext/zrapp/availexps.ml" 70 1774 1811
+call(
+  stack
+)
+type(
+  Cil.exp list
+)
+"src/ext/zrapp/availexps.ml" 71 1815 1822 "src/ext/zrapp/availexps.ml" 71 1815 1825
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/zrapp/availexps.ml" 71 1815 1826 "src/ext/zrapp/availexps.ml" 71 1815 1837
+type(
+  (Cil.exp -> bool) -> Cil.exp list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"src/ext/zrapp/availexps.ml" 71 1815 1843 "src/ext/zrapp/availexps.ml" 71 1815 1845
+type(
+  Cil.exp
+)
+ident(
+  def e2 "src/ext/zrapp/availexps.ml" 71 1815 1849 "src/ext/zrapp/availexps.ml" 71 1815 1875
+)
+"src/ext/zrapp/availexps.ml" 71 1815 1849 "src/ext/zrapp/availexps.ml" 71 1815 1869
+type(
+  Cil.exp -> Cil.exp -> bool
+)
+ident(
+  ext_ref Expcompare.compareExpStripCasts
+)
+"src/ext/zrapp/availexps.ml" 71 1815 1870 "src/ext/zrapp/availexps.ml" 71 1815 1872
+type(
+  Cil.exp
+)
+ident(
+  int_ref e1 "src/ext/zrapp/availexps.ml" 69 1749 1768 "src/ext/zrapp/availexps.ml" 69 1749 1770
+)
+"src/ext/zrapp/availexps.ml" 71 1815 1873 "src/ext/zrapp/availexps.ml" 71 1815 1875
+type(
+  Cil.exp
+)
+ident(
+  int_ref e2 "src/ext/zrapp/availexps.ml" 71 1815 1843 "src/ext/zrapp/availexps.ml" 71 1815 1845
+)
+"src/ext/zrapp/availexps.ml" 71 1815 1849 "src/ext/zrapp/availexps.ml" 71 1815 1875
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 71 1815 1838 "src/ext/zrapp/availexps.ml" 71 1815 1876
+type(
+  Cil.exp -> bool
+)
+"src/ext/zrapp/availexps.ml" 71 1815 1877 "src/ext/zrapp/availexps.ml" 71 1815 1880
+type(
+  Cil.exp list
+)
+ident(
+  int_ref e2l "src/ext/zrapp/availexps.ml" 70 1774 1786 "src/ext/zrapp/availexps.ml" 70 1774 1789
+)
+"src/ext/zrapp/availexps.ml" 71 1815 1825 "src/ext/zrapp/availexps.ml" 71 1815 1881
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 71 1815 1822 "src/ext/zrapp/availexps.ml" 71 1815 1881
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 73 1937 1950 "src/ext/zrapp/availexps.ml" 73 1937 1953
+type(
+  Cil.exp list
+)
+ident(
+  def e1l "src/ext/zrapp/availexps.ml" 74 1979 1983 "src/ext/zrapp/availexps.ml" 76 2082 2128
+)
+"src/ext/zrapp/availexps.ml" 73 1937 1956 "src/ext/zrapp/availexps.ml" 73 1937 1967
+type(
+  Cil.exp IH.t -> int -> Cil.exp list
+)
+ident(
+  ext_ref IH.find_all
+)
+"src/ext/zrapp/availexps.ml" 73 1937 1968 "src/ext/zrapp/availexps.ml" 73 1937 1971
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh' "src/ext/zrapp/availexps.ml" 68 1696 1702 "src/ext/zrapp/availexps.ml" 68 1696 1705
+)
+"src/ext/zrapp/availexps.ml" 73 1937 1972 "src/ext/zrapp/availexps.ml" 73 1937 1975
+type(
+  int
+)
+ident(
+  int_ref vid "src/ext/zrapp/availexps.ml" 69 1749 1764 "src/ext/zrapp/availexps.ml" 69 1749 1767
+)
+"src/ext/zrapp/availexps.ml" 73 1937 1956 "src/ext/zrapp/availexps.ml" 73 1937 1975
+call(
+  stack
+)
+type(
+  Cil.exp list
+)
+"src/ext/zrapp/availexps.ml" 74 1979 1987 "src/ext/zrapp/availexps.ml" 74 1979 1991
+type(
+  Cil.exp list
+)
+ident(
+  def e1l' "src/ext/zrapp/availexps.ml" 75 2055 2059 "src/ext/zrapp/availexps.ml" 76 2082 2128
+)
+"src/ext/zrapp/availexps.ml" 74 1979 1994 "src/ext/zrapp/availexps.ml" 74 1979 2005
+type(
+  (Cil.exp -> bool) -> Cil.exp list -> Cil.exp list
+)
+ident(
+  ext_ref List.filter
+)
+"src/ext/zrapp/availexps.ml" 74 1979 2011 "src/ext/zrapp/availexps.ml" 74 1979 2012
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/zrapp/availexps.ml" 74 1979 2016 "src/ext/zrapp/availexps.ml" 74 1979 2046
+)
+"src/ext/zrapp/availexps.ml" 74 1979 2016 "src/ext/zrapp/availexps.ml" 74 1979 2019
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/zrapp/availexps.ml" 74 1979 2020 "src/ext/zrapp/availexps.ml" 74 1979 2040
+type(
+  Cil.exp -> Cil.exp -> bool
+)
+ident(
+  ext_ref Expcompare.compareExpStripCasts
+)
+"src/ext/zrapp/availexps.ml" 74 1979 2041 "src/ext/zrapp/availexps.ml" 74 1979 2042
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/zrapp/availexps.ml" 74 1979 2011 "src/ext/zrapp/availexps.ml" 74 1979 2012
+)
+"src/ext/zrapp/availexps.ml" 74 1979 2043 "src/ext/zrapp/availexps.ml" 74 1979 2045
+type(
+  Cil.exp
+)
+ident(
+  int_ref e1 "src/ext/zrapp/availexps.ml" 69 1749 1768 "src/ext/zrapp/availexps.ml" 69 1749 1770
+)
+"src/ext/zrapp/availexps.ml" 74 1979 2019 "src/ext/zrapp/availexps.ml" 74 1979 2046
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 74 1979 2016 "src/ext/zrapp/availexps.ml" 74 1979 2046
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 74 1979 2006 "src/ext/zrapp/availexps.ml" 74 1979 2047
+type(
+  Cil.exp -> bool
+)
+"src/ext/zrapp/availexps.ml" 74 1979 2048 "src/ext/zrapp/availexps.ml" 74 1979 2051
+type(
+  Cil.exp list
+)
+ident(
+  int_ref e1l "src/ext/zrapp/availexps.ml" 73 1937 1950 "src/ext/zrapp/availexps.ml" 73 1937 1953
+)
+"src/ext/zrapp/availexps.ml" 74 1979 1994 "src/ext/zrapp/availexps.ml" 74 1979 2051
+call(
+  stack
+)
+type(
+  Cil.exp list
+)
+"src/ext/zrapp/availexps.ml" 75 2055 2059 "src/ext/zrapp/availexps.ml" 75 2055 2072
+type(
+  Cil.exp IH.t -> int -> unit
+)
+ident(
+  ext_ref IH.remove_all
+)
+"src/ext/zrapp/availexps.ml" 75 2055 2073 "src/ext/zrapp/availexps.ml" 75 2055 2076
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh' "src/ext/zrapp/availexps.ml" 68 1696 1702 "src/ext/zrapp/availexps.ml" 68 1696 1705
+)
+"src/ext/zrapp/availexps.ml" 75 2055 2077 "src/ext/zrapp/availexps.ml" 75 2055 2080
+type(
+  int
+)
+ident(
+  int_ref vid "src/ext/zrapp/availexps.ml" 69 1749 1764 "src/ext/zrapp/availexps.ml" 69 1749 1767
+)
+"src/ext/zrapp/availexps.ml" 75 2055 2059 "src/ext/zrapp/availexps.ml" 75 2055 2080
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 76 2082 2086 "src/ext/zrapp/availexps.ml" 76 2082 2095
+type(
+  (Cil.exp -> unit) -> Cil.exp list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/ext/zrapp/availexps.ml" 76 2082 2101 "src/ext/zrapp/availexps.ml" 76 2082 2102
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/zrapp/availexps.ml" 76 2082 2106 "src/ext/zrapp/availexps.ml" 76 2082 2122
+)
+"src/ext/zrapp/availexps.ml" 76 2082 2106 "src/ext/zrapp/availexps.ml" 76 2082 2112
+type(
+  Cil.exp IH.t -> int -> Cil.exp -> unit
+)
+ident(
+  ext_ref IH.add
+)
+"src/ext/zrapp/availexps.ml" 76 2082 2113 "src/ext/zrapp/availexps.ml" 76 2082 2116
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh' "src/ext/zrapp/availexps.ml" 68 1696 1702 "src/ext/zrapp/availexps.ml" 68 1696 1705
+)
+"src/ext/zrapp/availexps.ml" 76 2082 2117 "src/ext/zrapp/availexps.ml" 76 2082 2120
+type(
+  int
+)
+ident(
+  int_ref vid "src/ext/zrapp/availexps.ml" 69 1749 1764 "src/ext/zrapp/availexps.ml" 69 1749 1767
+)
+"src/ext/zrapp/availexps.ml" 76 2082 2121 "src/ext/zrapp/availexps.ml" 76 2082 2122
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/zrapp/availexps.ml" 76 2082 2101 "src/ext/zrapp/availexps.ml" 76 2082 2102
+)
+"src/ext/zrapp/availexps.ml" 76 2082 2106 "src/ext/zrapp/availexps.ml" 76 2082 2122
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 76 2082 2096 "src/ext/zrapp/availexps.ml" 76 2082 2123
+type(
+  Cil.exp -> unit
+)
+"src/ext/zrapp/availexps.ml" 76 2082 2124 "src/ext/zrapp/availexps.ml" 76 2082 2128
+type(
+  Cil.exp list
+)
+ident(
+  int_ref e1l' "src/ext/zrapp/availexps.ml" 74 1979 1987 "src/ext/zrapp/availexps.ml" 74 1979 1991
+)
+"src/ext/zrapp/availexps.ml" 76 2082 2086 "src/ext/zrapp/availexps.ml" 76 2082 2128
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 75 2055 2059 "src/ext/zrapp/availexps.ml" 76 2082 2128
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 74 1979 1983 "src/ext/zrapp/availexps.ml" 76 2082 2128
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 73 1937 1946 "src/ext/zrapp/availexps.ml" 76 2082 2128
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 71 1815 1819 "src/ext/zrapp/availexps.ml" 76 2082 2128
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 70 1774 1782 "src/ext/zrapp/availexps.ml" 76 2082 2128
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 77 2129 2138 "src/ext/zrapp/availexps.ml" 77 2129 2147
+type(
+  exn
+)
+"src/ext/zrapp/availexps.ml" 78 2151 2157 "src/ext/zrapp/availexps.ml" 78 2151 2170
+type(
+  Cil.exp IH.t -> int -> unit
+)
+ident(
+  ext_ref IH.remove_all
+)
+"src/ext/zrapp/availexps.ml" 78 2151 2171 "src/ext/zrapp/availexps.ml" 78 2151 2174
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh' "src/ext/zrapp/availexps.ml" 68 1696 1702 "src/ext/zrapp/availexps.ml" 68 1696 1705
+)
+"src/ext/zrapp/availexps.ml" 78 2151 2175 "src/ext/zrapp/availexps.ml" 78 2151 2178
+type(
+  int
+)
+ident(
+  int_ref vid "src/ext/zrapp/availexps.ml" 69 1749 1764 "src/ext/zrapp/availexps.ml" 69 1749 1767
+)
+"src/ext/zrapp/availexps.ml" 78 2151 2157 "src/ext/zrapp/availexps.ml" 78 2151 2178
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 70 1774 1778 "src/ext/zrapp/availexps.ml" 78 2151 2178
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 69 1749 1759 "src/ext/zrapp/availexps.ml" 78 2151 2179
+type(
+  int -> Cil.exp -> unit
+)
+"src/ext/zrapp/availexps.ml" 78 2151 2180 "src/ext/zrapp/availexps.ml" 78 2151 2183
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh1 "src/ext/zrapp/availexps.ml" 65 1566 1581 "src/ext/zrapp/availexps.ml" 65 1566 1584
+)
+"src/ext/zrapp/availexps.ml" 69 1749 1751 "src/ext/zrapp/availexps.ml" 78 2151 2183
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 79 2185 2190 "src/ext/zrapp/availexps.ml" 79 2185 2191
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 79 2185 2191 "src/ext/zrapp/availexps.ml" 79 2185 2196
+type(
+  bool ref
+)
+ident(
+  int_ref debug "src/ext/zrapp/availexps.ml" 17 343 347 "src/ext/zrapp/availexps.ml" 17 343 352
+)
+"src/ext/zrapp/availexps.ml" 79 2185 2190 "src/ext/zrapp/availexps.ml" 79 2185 2196
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 79 2185 2202 "src/ext/zrapp/availexps.ml" 79 2185 2208
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 79 2185 2209 "src/ext/zrapp/availexps.ml" 79 2185 2214
+type(
+  ((unit -> Cil.exp IH.t -> Pretty.doc) -> Cil.exp IH.t -> unit, unit,
+   Pretty.doc, unit)
+  format4 -> (unit -> Cil.exp IH.t -> Pretty.doc) -> Cil.exp IH.t -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/zrapp/availexps.ml" 79 2185 2215 "src/ext/zrapp/availexps.ml" 79 2185 2233
+type(
+  ((unit -> Cil.exp IH.t -> Pretty.doc) -> Cil.exp IH.t -> unit, unit,
+   Pretty.doc, unit)
+  format4
+)
+"src/ext/zrapp/availexps.ml" 80 2234 2239 "src/ext/zrapp/availexps.ml" 80 2234 2248
+type(
+  unit -> Cil.exp IH.t -> Pretty.doc
+)
+ident(
+  int_ref eh_pretty "src/ext/zrapp/availexps.ml" 59 1337 1341 "src/ext/zrapp/availexps.ml" 59 1337 1350
+)
+"src/ext/zrapp/availexps.ml" 80 2234 2249 "src/ext/zrapp/availexps.ml" 80 2234 2252
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh' "src/ext/zrapp/availexps.ml" 68 1696 1702 "src/ext/zrapp/availexps.ml" 68 1696 1705
+)
+"src/ext/zrapp/availexps.ml" 79 2185 2208 "src/ext/zrapp/availexps.ml" 80 2234 2253
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 79 2185 2202 "src/ext/zrapp/availexps.ml" 80 2234 2253
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 79 2185 2187 "src/ext/zrapp/availexps.ml" 80 2234 2253
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 81 2255 2257 "src/ext/zrapp/availexps.ml" 81 2255 2260
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh' "src/ext/zrapp/availexps.ml" 68 1696 1702 "src/ext/zrapp/availexps.ml" 68 1696 1705
+)
+"src/ext/zrapp/availexps.ml" 79 2185 2187 "src/ext/zrapp/availexps.ml" 81 2255 2260
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 69 1749 1751 "src/ext/zrapp/availexps.ml" 81 2255 2260
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 68 1696 1698 "src/ext/zrapp/availexps.ml" 81 2255 2260
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 66 1591 1593 "src/ext/zrapp/availexps.ml" 81 2255 2260
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 86 2385 2418 "src/ext/zrapp/availexps.ml" 86 2385 2420
+type(
+  bool ref
+)
+"src/ext/zrapp/availexps.ml" 86 2385 2429 "src/ext/zrapp/availexps.ml" 86 2385 2435
+type(
+  < queueInstr : Cil.instr list -> unit;
+    unqueueInstr : unit -> Cil.instr list;
+    vattr : Cil.attribute -> Cil.attribute list Cil.visitAction;
+    vattrparam : Cil.attrparam -> Cil.attrparam Cil.visitAction;
+    vblock : Cil.block -> Cil.block Cil.visitAction;
+    vexpr : Cil.exp -> Cil.exp Cil.visitAction;
+    vfunc : Cil.fundec -> Cil.fundec Cil.visitAction;
+    vglob : Cil.global -> Cil.global list Cil.visitAction;
+    vinit : Cil.varinfo -> Cil.offset -> Cil.init -> Cil.init Cil.visitAction;
+    vinitoffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vinst : Cil.instr -> Cil.instr list Cil.visitAction;
+    vlval : Cil.lval -> Cil.lval Cil.visitAction;
+    voffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vstmt : Cil.stmt -> Cil.stmt Cil.visitAction;
+    vtype : Cil.typ -> Cil.typ Cil.visitAction;
+    vvdec : Cil.varinfo -> Cil.varinfo Cil.visitAction;
+    vvrbl : Cil.varinfo -> Cil.varinfo Cil.visitAction; .. >
+)
+"src/ext/zrapp/availexps.ml" 89 2461 2476 "src/ext/zrapp/availexps.ml" 89 2461 2477
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/zrapp/availexps.ml" 89 2461 2480 "src/ext/zrapp/availexps.ml" 97 2683 2702
+)
+"src/ext/zrapp/availexps.ml" 89 2461 2486 "src/ext/zrapp/availexps.ml" 89 2461 2487
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/zrapp/availexps.ml" 89 2461 2476 "src/ext/zrapp/availexps.ml" 89 2461 2477
+)
+"src/ext/zrapp/availexps.ml" 90 2493 2506 "src/ext/zrapp/availexps.ml" 90 2493 2507
+type(
+  Cil.exp
+)
+"src/ext/zrapp/availexps.ml" 90 2493 2502 "src/ext/zrapp/availexps.ml" 90 2493 2507
+type(
+  Cil.lhost
+)
+"src/ext/zrapp/availexps.ml" 90 2493 2509 "src/ext/zrapp/availexps.ml" 90 2493 2510
+type(
+  Cil.offset
+)
+"src/ext/zrapp/availexps.ml" 90 2493 2501 "src/ext/zrapp/availexps.ml" 90 2493 2511
+type(
+  Cil.lval
+)
+"src/ext/zrapp/availexps.ml" 90 2493 2497 "src/ext/zrapp/availexps.ml" 90 2493 2511
+type(
+  Cil.exp
+)
+"src/ext/zrapp/availexps.ml" 91 2521 2527 "src/ext/zrapp/availexps.ml" 91 2521 2529
+type(
+  bool ref
+)
+ident(
+  int_ref br "src/ext/zrapp/availexps.ml" 86 2385 2418 "src/ext/zrapp/availexps.ml" 86 2385 2420
+)
+"src/ext/zrapp/availexps.ml" 91 2521 2530 "src/ext/zrapp/availexps.ml" 91 2521 2532
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/zrapp/availexps.ml" 91 2521 2533 "src/ext/zrapp/availexps.ml" 91 2521 2537
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 91 2521 2527 "src/ext/zrapp/availexps.ml" 91 2521 2537
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 92 2539 2545 "src/ext/zrapp/availexps.ml" 92 2539 2557
+type(
+  Cil.exp Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 90 2493 2515 "src/ext/zrapp/availexps.ml" 93 2558 2563
+type(
+  Cil.exp Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 94 2564 2579 "src/ext/zrapp/availexps.ml" 94 2564 2581
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/zrapp/availexps.ml" 96 2664 2670 "src/ext/zrapp/availexps.ml" 96 2664 2682
+)
+"src/ext/zrapp/availexps.ml" 94 2564 2575 "src/ext/zrapp/availexps.ml" 94 2564 2581
+type(
+  Cil.lhost
+)
+"src/ext/zrapp/availexps.ml" 94 2564 2583 "src/ext/zrapp/availexps.ml" 94 2564 2591
+type(
+  Cil.offset
+)
+"src/ext/zrapp/availexps.ml" 94 2564 2574 "src/ext/zrapp/availexps.ml" 94 2564 2592
+type(
+  Cil.lval
+)
+"src/ext/zrapp/availexps.ml" 94 2564 2568 "src/ext/zrapp/availexps.ml" 94 2564 2592
+type(
+  Cil.exp
+)
+"src/ext/zrapp/availexps.ml" 96 2664 2670 "src/ext/zrapp/availexps.ml" 96 2664 2682
+type(
+  Cil.exp Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 97 2683 2687 "src/ext/zrapp/availexps.ml" 97 2683 2688
+type(
+  Cil.exp
+)
+"src/ext/zrapp/availexps.ml" 97 2683 2692 "src/ext/zrapp/availexps.ml" 97 2683 2702
+type(
+  Cil.exp Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 89 2461 2480 "src/ext/zrapp/availexps.ml" 97 2683 2702
+type(
+  Cil.exp Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 99 2704 2719 "src/ext/zrapp/availexps.ml" 99 2704 2721
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/zrapp/availexps.ml" 100 2724 2728 "src/ext/zrapp/availexps.ml" 103 2799 2818
+)
+"src/ext/zrapp/availexps.ml" 100 2724 2731 "src/ext/zrapp/availexps.ml" 100 2724 2733
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 99 2704 2719 "src/ext/zrapp/availexps.ml" 99 2704 2721
+)
+"src/ext/zrapp/availexps.ml" 100 2724 2731 "src/ext/zrapp/availexps.ml" 100 2724 2741
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 100 2724 2742 "src/ext/zrapp/availexps.ml" 100 2724 2744
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ext/zrapp/availexps.ml" 100 2724 2745 "src/ext/zrapp/availexps.ml" 100 2724 2747
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 99 2704 2719 "src/ext/zrapp/availexps.ml" 99 2704 2721
+)
+"src/ext/zrapp/availexps.ml" 100 2724 2745 "src/ext/zrapp/availexps.ml" 100 2724 2753
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 100 2724 2731 "src/ext/zrapp/availexps.ml" 100 2724 2753
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 101 2759 2766 "src/ext/zrapp/availexps.ml" 101 2759 2768
+type(
+  bool ref
+)
+ident(
+  int_ref br "src/ext/zrapp/availexps.ml" 86 2385 2418 "src/ext/zrapp/availexps.ml" 86 2385 2420
+)
+"src/ext/zrapp/availexps.ml" 101 2759 2769 "src/ext/zrapp/availexps.ml" 101 2759 2771
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/zrapp/availexps.ml" 101 2759 2772 "src/ext/zrapp/availexps.ml" 101 2759 2776
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 101 2759 2766 "src/ext/zrapp/availexps.ml" 101 2759 2776
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 102 2778 2785 "src/ext/zrapp/availexps.ml" 102 2778 2797
+type(
+  Cil.varinfo Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 101 2759 2765 "src/ext/zrapp/availexps.ml" 102 2778 2798
+type(
+  Cil.varinfo Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 103 2799 2808 "src/ext/zrapp/availexps.ml" 103 2799 2818
+type(
+  Cil.varinfo Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 100 2724 2728 "src/ext/zrapp/availexps.ml" 103 2799 2818
+type(
+  Cil.varinfo Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 108 2843 2847 "src/ext/zrapp/availexps.ml" 108 2843 2863
+type(
+  Cil.exp -> bool
+)
+ident(
+  def exp_has_mem_read "src/ext/zrapp/availexps.ml" 115 2982 2982 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 108 2843 2864 "src/ext/zrapp/availexps.ml" 108 2843 2865
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/zrapp/availexps.ml" 109 2868 2870 "src/ext/zrapp/availexps.ml" 112 2971 2976
+)
+"src/ext/zrapp/availexps.ml" 109 2868 2874 "src/ext/zrapp/availexps.ml" 109 2868 2876
+type(
+  bool ref
+)
+ident(
+  def br "src/ext/zrapp/availexps.ml" 110 2892 2894 "src/ext/zrapp/availexps.ml" 112 2971 2976
+)
+"src/ext/zrapp/availexps.ml" 109 2868 2879 "src/ext/zrapp/availexps.ml" 109 2868 2882
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/zrapp/availexps.ml" 109 2868 2883 "src/ext/zrapp/availexps.ml" 109 2868 2888
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 109 2868 2879 "src/ext/zrapp/availexps.ml" 109 2868 2888
+type(
+  bool ref
+)
+"src/ext/zrapp/availexps.ml" 110 2892 2898 "src/ext/zrapp/availexps.ml" 110 2892 2901
+type(
+  memReadOrAddrOfFinderClass
+)
+ident(
+  def vis "src/ext/zrapp/availexps.ml" 111 2941 2943 "src/ext/zrapp/availexps.ml" 112 2971 2976
+)
+"src/ext/zrapp/availexps.ml" 110 2892 2904 "src/ext/zrapp/availexps.ml" 110 2892 2934
+type(
+  bool ref -> memReadOrAddrOfFinderClass
+)
+"src/ext/zrapp/availexps.ml" 110 2892 2935 "src/ext/zrapp/availexps.ml" 110 2892 2937
+type(
+  bool ref
+)
+ident(
+  int_ref br "src/ext/zrapp/availexps.ml" 109 2868 2874 "src/ext/zrapp/availexps.ml" 109 2868 2876
+)
+"src/ext/zrapp/availexps.ml" 110 2892 2904 "src/ext/zrapp/availexps.ml" 110 2892 2937
+call(
+  stack
+)
+type(
+  memReadOrAddrOfFinderClass
+)
+"src/ext/zrapp/availexps.ml" 111 2941 2943 "src/ext/zrapp/availexps.ml" 111 2941 2949
+type(
+  Cil.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 111 2941 2950 "src/ext/zrapp/availexps.ml" 111 2941 2962
+type(
+  Cil.cilVisitor -> Cil.exp -> Cil.exp
+)
+ident(
+  ext_ref Cil.visitCilExpr
+)
+"src/ext/zrapp/availexps.ml" 111 2941 2963 "src/ext/zrapp/availexps.ml" 111 2941 2966
+type(
+  memReadOrAddrOfFinderClass
+)
+ident(
+  int_ref vis "src/ext/zrapp/availexps.ml" 110 2892 2898 "src/ext/zrapp/availexps.ml" 110 2892 2901
+)
+"src/ext/zrapp/availexps.ml" 111 2941 2967 "src/ext/zrapp/availexps.ml" 111 2941 2968
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/zrapp/availexps.ml" 108 2843 2864 "src/ext/zrapp/availexps.ml" 108 2843 2865
+)
+"src/ext/zrapp/availexps.ml" 111 2941 2949 "src/ext/zrapp/availexps.ml" 111 2941 2969
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/zrapp/availexps.ml" 111 2941 2943 "src/ext/zrapp/availexps.ml" 111 2941 2969
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 112 2971 2973 "src/ext/zrapp/availexps.ml" 112 2971 2974
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 112 2971 2974 "src/ext/zrapp/availexps.ml" 112 2971 2976
+type(
+  bool ref
+)
+ident(
+  int_ref br "src/ext/zrapp/availexps.ml" 109 2868 2874 "src/ext/zrapp/availexps.ml" 109 2868 2876
+)
+"src/ext/zrapp/availexps.ml" 112 2971 2973 "src/ext/zrapp/availexps.ml" 112 2971 2976
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 111 2941 2943 "src/ext/zrapp/availexps.ml" 112 2971 2976
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 110 2892 2894 "src/ext/zrapp/availexps.ml" 112 2971 2976
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 109 2868 2870 "src/ext/zrapp/availexps.ml" 112 2971 2976
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 115 2982 2986 "src/ext/zrapp/availexps.ml" 115 2982 2997
+type(
+  Cil.exp IH.t -> unit
+)
+ident(
+  def eh_kill_mem "src/ext/zrapp/availexps.ml" 122 3149 3149 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 115 2982 2998 "src/ext/zrapp/availexps.ml" 115 2982 3000
+type(
+  Cil.exp IH.t
+)
+ident(
+  def eh "src/ext/zrapp/availexps.ml" 116 3003 3005 "src/ext/zrapp/availexps.ml" 119 3080 3086
+)
+"src/ext/zrapp/availexps.ml" 116 3003 3005 "src/ext/zrapp/availexps.ml" 116 3003 3012
+type(
+  (int -> Cil.exp -> unit) -> Cil.exp IH.t -> unit
+)
+ident(
+  ext_ref IH.iter
+)
+"src/ext/zrapp/availexps.ml" 116 3003 3018 "src/ext/zrapp/availexps.ml" 116 3003 3021
+type(
+  int
+)
+ident(
+  def vid "src/ext/zrapp/availexps.ml" 116 3003 3022 "src/ext/zrapp/availexps.ml" 118 3053 3078
+)
+"src/ext/zrapp/availexps.ml" 116 3003 3022 "src/ext/zrapp/availexps.ml" 116 3003 3023
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/zrapp/availexps.ml" 117 3027 3031 "src/ext/zrapp/availexps.ml" 118 3053 3078
+)
+"src/ext/zrapp/availexps.ml" 117 3027 3034 "src/ext/zrapp/availexps.ml" 117 3027 3050
+type(
+  Cil.exp -> bool
+)
+ident(
+  int_ref exp_has_mem_read "src/ext/zrapp/availexps.ml" 108 2843 2847 "src/ext/zrapp/availexps.ml" 108 2843 2863
+)
+"src/ext/zrapp/availexps.ml" 117 3027 3051 "src/ext/zrapp/availexps.ml" 117 3027 3052
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/zrapp/availexps.ml" 116 3003 3022 "src/ext/zrapp/availexps.ml" 116 3003 3023
+)
+"src/ext/zrapp/availexps.ml" 117 3027 3034 "src/ext/zrapp/availexps.ml" 117 3027 3052
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 118 3053 3062 "src/ext/zrapp/availexps.ml" 118 3053 3071
+type(
+  Cil.exp IH.t -> int -> unit
+)
+ident(
+  ext_ref IH.remove
+)
+"src/ext/zrapp/availexps.ml" 118 3053 3072 "src/ext/zrapp/availexps.ml" 118 3053 3074
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 115 2982 2998 "src/ext/zrapp/availexps.ml" 115 2982 3000
+)
+"src/ext/zrapp/availexps.ml" 118 3053 3075 "src/ext/zrapp/availexps.ml" 118 3053 3078
+type(
+  int
+)
+ident(
+  int_ref vid "src/ext/zrapp/availexps.ml" 116 3003 3018 "src/ext/zrapp/availexps.ml" 116 3003 3021
+)
+"src/ext/zrapp/availexps.ml" 118 3053 3062 "src/ext/zrapp/availexps.ml" 118 3053 3078
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 117 3027 3031 "src/ext/zrapp/availexps.ml" 118 3053 3078
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 116 3003 3013 "src/ext/zrapp/availexps.ml" 118 3053 3079
+type(
+  int -> Cil.exp -> unit
+)
+"src/ext/zrapp/availexps.ml" 119 3080 3084 "src/ext/zrapp/availexps.ml" 119 3080 3086
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 115 2982 2998 "src/ext/zrapp/availexps.ml" 115 2982 3000
+)
+"src/ext/zrapp/availexps.ml" 116 3003 3005 "src/ext/zrapp/availexps.ml" 119 3080 3086
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 122 3149 3169 "src/ext/zrapp/availexps.ml" 122 3149 3171
+type(
+  Cil.varinfo
+)
+"src/ext/zrapp/availexps.ml" 122 3149 3172 "src/ext/zrapp/availexps.ml" 122 3149 3174
+type(
+  bool ref
+)
+"src/ext/zrapp/availexps.ml" 122 3149 3183 "src/ext/zrapp/availexps.ml" 122 3149 3189
+type(
+  < queueInstr : Cil.instr list -> unit;
+    unqueueInstr : unit -> Cil.instr list;
+    vattr : Cil.attribute -> Cil.attribute list Cil.visitAction;
+    vattrparam : Cil.attrparam -> Cil.attrparam Cil.visitAction;
+    vblock : Cil.block -> Cil.block Cil.visitAction;
+    vexpr : Cil.exp -> Cil.exp Cil.visitAction;
+    vfunc : Cil.fundec -> Cil.fundec Cil.visitAction;
+    vglob : Cil.global -> Cil.global list Cil.visitAction;
+    vinit : Cil.varinfo -> Cil.offset -> Cil.init -> Cil.init Cil.visitAction;
+    vinitoffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vinst : Cil.instr -> Cil.instr list Cil.visitAction;
+    vlval : Cil.lval -> Cil.lval Cil.visitAction;
+    voffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vstmt : Cil.stmt -> Cil.stmt Cil.visitAction;
+    vtype : Cil.typ -> Cil.typ Cil.visitAction;
+    vvdec : Cil.varinfo -> Cil.varinfo Cil.visitAction;
+    vvrbl : Cil.varinfo -> Cil.varinfo Cil.visitAction; .. >
+)
+"src/ext/zrapp/availexps.ml" 125 3221 3236 "src/ext/zrapp/availexps.ml" 125 3221 3239
+type(
+  Cil.varinfo
+)
+ident(
+  def vi' "src/ext/zrapp/availexps.ml" 126 3243 3247 "src/ext/zrapp/availexps.ml" 128 3303 3322
+)
+"src/ext/zrapp/availexps.ml" 126 3243 3250 "src/ext/zrapp/availexps.ml" 126 3243 3252
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 122 3149 3169 "src/ext/zrapp/availexps.ml" 122 3149 3171
+)
+"src/ext/zrapp/availexps.ml" 126 3243 3250 "src/ext/zrapp/availexps.ml" 126 3243 3256
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 126 3243 3257 "src/ext/zrapp/availexps.ml" 126 3243 3258
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/zrapp/availexps.ml" 126 3243 3259 "src/ext/zrapp/availexps.ml" 126 3243 3262
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi' "src/ext/zrapp/availexps.ml" 125 3221 3236 "src/ext/zrapp/availexps.ml" 125 3221 3239
+)
+"src/ext/zrapp/availexps.ml" 126 3243 3259 "src/ext/zrapp/availexps.ml" 126 3243 3266
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 126 3243 3250 "src/ext/zrapp/availexps.ml" 126 3243 3266
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 127 3267 3277 "src/ext/zrapp/availexps.ml" 127 3267 3279
+type(
+  bool ref
+)
+ident(
+  int_ref br "src/ext/zrapp/availexps.ml" 122 3149 3172 "src/ext/zrapp/availexps.ml" 122 3149 3174
+)
+"src/ext/zrapp/availexps.ml" 127 3267 3280 "src/ext/zrapp/availexps.ml" 127 3267 3282
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/zrapp/availexps.ml" 127 3267 3283 "src/ext/zrapp/availexps.ml" 127 3267 3287
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 127 3267 3277 "src/ext/zrapp/availexps.ml" 127 3267 3287
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 127 3267 3289 "src/ext/zrapp/availexps.ml" 127 3267 3301
+type(
+  Cil.varinfo Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 127 3267 3276 "src/ext/zrapp/availexps.ml" 127 3267 3302
+type(
+  Cil.varinfo Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 128 3303 3312 "src/ext/zrapp/availexps.ml" 128 3303 3322
+type(
+  Cil.varinfo Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 126 3243 3247 "src/ext/zrapp/availexps.ml" 128 3303 3322
+type(
+  Cil.varinfo Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 132 3329 3333 "src/ext/zrapp/availexps.ml" 132 3329 3343
+type(
+  Cil.varinfo -> Cil.exp -> bool
+)
+ident(
+  def exp_has_vi "src/ext/zrapp/availexps.ml" 138 3451 3451 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 132 3329 3344 "src/ext/zrapp/availexps.ml" 132 3329 3346
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/zrapp/availexps.ml" 132 3329 3347 "src/ext/zrapp/availexps.ml" 136 3444 3449
+)
+"src/ext/zrapp/availexps.ml" 132 3329 3347 "src/ext/zrapp/availexps.ml" 132 3329 3348
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/zrapp/availexps.ml" 133 3351 3353 "src/ext/zrapp/availexps.ml" 136 3444 3449
+)
+"src/ext/zrapp/availexps.ml" 133 3351 3357 "src/ext/zrapp/availexps.ml" 133 3351 3359
+type(
+  bool ref
+)
+ident(
+  def br "src/ext/zrapp/availexps.ml" 134 3375 3377 "src/ext/zrapp/availexps.ml" 136 3444 3449
+)
+"src/ext/zrapp/availexps.ml" 133 3351 3362 "src/ext/zrapp/availexps.ml" 133 3351 3365
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/zrapp/availexps.ml" 133 3351 3366 "src/ext/zrapp/availexps.ml" 133 3351 3371
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 133 3351 3362 "src/ext/zrapp/availexps.ml" 133 3351 3371
+type(
+  bool ref
+)
+"src/ext/zrapp/availexps.ml" 134 3375 3381 "src/ext/zrapp/availexps.ml" 134 3375 3384
+type(
+  viFinderClass
+)
+ident(
+  def vis "src/ext/zrapp/availexps.ml" 135 3414 3416 "src/ext/zrapp/availexps.ml" 136 3444 3449
+)
+"src/ext/zrapp/availexps.ml" 134 3375 3387 "src/ext/zrapp/availexps.ml" 134 3375 3404
+type(
+  Cil.varinfo -> bool ref -> viFinderClass
+)
+"src/ext/zrapp/availexps.ml" 134 3375 3405 "src/ext/zrapp/availexps.ml" 134 3375 3407
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 132 3329 3344 "src/ext/zrapp/availexps.ml" 132 3329 3346
+)
+"src/ext/zrapp/availexps.ml" 134 3375 3408 "src/ext/zrapp/availexps.ml" 134 3375 3410
+type(
+  bool ref
+)
+ident(
+  int_ref br "src/ext/zrapp/availexps.ml" 133 3351 3357 "src/ext/zrapp/availexps.ml" 133 3351 3359
+)
+"src/ext/zrapp/availexps.ml" 134 3375 3387 "src/ext/zrapp/availexps.ml" 134 3375 3410
+call(
+  stack
+)
+type(
+  viFinderClass
+)
+"src/ext/zrapp/availexps.ml" 135 3414 3416 "src/ext/zrapp/availexps.ml" 135 3414 3422
+type(
+  Cil.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 135 3414 3423 "src/ext/zrapp/availexps.ml" 135 3414 3435
+type(
+  Cil.cilVisitor -> Cil.exp -> Cil.exp
+)
+ident(
+  ext_ref Cil.visitCilExpr
+)
+"src/ext/zrapp/availexps.ml" 135 3414 3436 "src/ext/zrapp/availexps.ml" 135 3414 3439
+type(
+  viFinderClass
+)
+ident(
+  int_ref vis "src/ext/zrapp/availexps.ml" 134 3375 3381 "src/ext/zrapp/availexps.ml" 134 3375 3384
+)
+"src/ext/zrapp/availexps.ml" 135 3414 3440 "src/ext/zrapp/availexps.ml" 135 3414 3441
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/zrapp/availexps.ml" 132 3329 3347 "src/ext/zrapp/availexps.ml" 132 3329 3348
+)
+"src/ext/zrapp/availexps.ml" 135 3414 3422 "src/ext/zrapp/availexps.ml" 135 3414 3442
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/zrapp/availexps.ml" 135 3414 3416 "src/ext/zrapp/availexps.ml" 135 3414 3442
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 136 3444 3446 "src/ext/zrapp/availexps.ml" 136 3444 3447
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 136 3444 3447 "src/ext/zrapp/availexps.ml" 136 3444 3449
+type(
+  bool ref
+)
+ident(
+  int_ref br "src/ext/zrapp/availexps.ml" 133 3351 3357 "src/ext/zrapp/availexps.ml" 133 3351 3359
+)
+"src/ext/zrapp/availexps.ml" 136 3444 3446 "src/ext/zrapp/availexps.ml" 136 3444 3449
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 135 3414 3416 "src/ext/zrapp/availexps.ml" 136 3444 3449
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 134 3375 3377 "src/ext/zrapp/availexps.ml" 136 3444 3449
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 133 3351 3353 "src/ext/zrapp/availexps.ml" 136 3444 3449
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 138 3451 3455 "src/ext/zrapp/availexps.ml" 138 3451 3465
+type(
+  Cil.exp IH.t -> Cil.varinfo -> unit
+)
+ident(
+  def eh_kill_vi "src/ext/zrapp/availexps.ml" 145 3619 3619 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 138 3451 3466 "src/ext/zrapp/availexps.ml" 138 3451 3468
+type(
+  Cil.exp IH.t
+)
+ident(
+  def eh "src/ext/zrapp/availexps.ml" 138 3451 3469 "src/ext/zrapp/availexps.ml" 142 3548 3554
+)
+"src/ext/zrapp/availexps.ml" 138 3451 3469 "src/ext/zrapp/availexps.ml" 138 3451 3471
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/zrapp/availexps.ml" 139 3474 3476 "src/ext/zrapp/availexps.ml" 142 3548 3554
+)
+"src/ext/zrapp/availexps.ml" 139 3474 3476 "src/ext/zrapp/availexps.ml" 139 3474 3483
+type(
+  (int -> Cil.exp -> unit) -> Cil.exp IH.t -> unit
+)
+ident(
+  ext_ref IH.iter
+)
+"src/ext/zrapp/availexps.ml" 139 3474 3489 "src/ext/zrapp/availexps.ml" 139 3474 3492
+type(
+  int
+)
+ident(
+  def vid "src/ext/zrapp/availexps.ml" 139 3474 3493 "src/ext/zrapp/availexps.ml" 141 3521 3546
+)
+"src/ext/zrapp/availexps.ml" 139 3474 3493 "src/ext/zrapp/availexps.ml" 139 3474 3494
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/zrapp/availexps.ml" 140 3498 3502 "src/ext/zrapp/availexps.ml" 141 3521 3546
+)
+"src/ext/zrapp/availexps.ml" 140 3498 3505 "src/ext/zrapp/availexps.ml" 140 3498 3515
+type(
+  Cil.varinfo -> Cil.exp -> bool
+)
+ident(
+  int_ref exp_has_vi "src/ext/zrapp/availexps.ml" 132 3329 3333 "src/ext/zrapp/availexps.ml" 132 3329 3343
+)
+"src/ext/zrapp/availexps.ml" 140 3498 3516 "src/ext/zrapp/availexps.ml" 140 3498 3518
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 138 3451 3469 "src/ext/zrapp/availexps.ml" 138 3451 3471
+)
+"src/ext/zrapp/availexps.ml" 140 3498 3519 "src/ext/zrapp/availexps.ml" 140 3498 3520
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/zrapp/availexps.ml" 139 3474 3493 "src/ext/zrapp/availexps.ml" 139 3474 3494
+)
+"src/ext/zrapp/availexps.ml" 140 3498 3505 "src/ext/zrapp/availexps.ml" 140 3498 3520
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 141 3521 3530 "src/ext/zrapp/availexps.ml" 141 3521 3539
+type(
+  Cil.exp IH.t -> int -> unit
+)
+ident(
+  ext_ref IH.remove
+)
+"src/ext/zrapp/availexps.ml" 141 3521 3540 "src/ext/zrapp/availexps.ml" 141 3521 3542
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 138 3451 3466 "src/ext/zrapp/availexps.ml" 138 3451 3468
+)
+"src/ext/zrapp/availexps.ml" 141 3521 3543 "src/ext/zrapp/availexps.ml" 141 3521 3546
+type(
+  int
+)
+ident(
+  int_ref vid "src/ext/zrapp/availexps.ml" 139 3474 3489 "src/ext/zrapp/availexps.ml" 139 3474 3492
+)
+"src/ext/zrapp/availexps.ml" 141 3521 3530 "src/ext/zrapp/availexps.ml" 141 3521 3546
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 140 3498 3502 "src/ext/zrapp/availexps.ml" 141 3521 3546
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 139 3474 3484 "src/ext/zrapp/availexps.ml" 141 3521 3547
+type(
+  int -> Cil.exp -> unit
+)
+"src/ext/zrapp/availexps.ml" 142 3548 3552 "src/ext/zrapp/availexps.ml" 142 3548 3554
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 138 3451 3466 "src/ext/zrapp/availexps.ml" 138 3451 3468
+)
+"src/ext/zrapp/availexps.ml" 139 3474 3476 "src/ext/zrapp/availexps.ml" 142 3548 3554
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 145 3619 3641 "src/ext/zrapp/availexps.ml" 145 3619 3643
+type(
+  Cil.lval
+)
+"src/ext/zrapp/availexps.ml" 145 3619 3644 "src/ext/zrapp/availexps.ml" 145 3619 3646
+type(
+  bool ref
+)
+"src/ext/zrapp/availexps.ml" 145 3619 3655 "src/ext/zrapp/availexps.ml" 145 3619 3661
+type(
+  < queueInstr : Cil.instr list -> unit;
+    unqueueInstr : unit -> Cil.instr list;
+    vattr : Cil.attribute -> Cil.attribute list Cil.visitAction;
+    vattrparam : Cil.attrparam -> Cil.attrparam Cil.visitAction;
+    vblock : Cil.block -> Cil.block Cil.visitAction;
+    vexpr : Cil.exp -> Cil.exp Cil.visitAction;
+    vfunc : Cil.fundec -> Cil.fundec Cil.visitAction;
+    vglob : Cil.global -> Cil.global list Cil.visitAction;
+    vinit : Cil.varinfo -> Cil.offset -> Cil.init -> Cil.init Cil.visitAction;
+    vinitoffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vinst : Cil.instr -> Cil.instr list Cil.visitAction;
+    vlval : Cil.lval -> Cil.lval Cil.visitAction;
+    voffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vstmt : Cil.stmt -> Cil.stmt Cil.visitAction;
+    vtype : Cil.typ -> Cil.typ Cil.visitAction;
+    vvdec : Cil.varinfo -> Cil.varinfo Cil.visitAction;
+    vvrbl : Cil.varinfo -> Cil.varinfo Cil.visitAction; .. >
+)
+"src/ext/zrapp/availexps.ml" 148 3687 3702 "src/ext/zrapp/availexps.ml" 148 3687 3703
+type(
+  Cil.lval
+)
+ident(
+  def l "src/ext/zrapp/availexps.ml" 149 3706 3710 "src/ext/zrapp/availexps.ml" 151 3766 3785
+)
+"src/ext/zrapp/availexps.ml" 149 3706 3713 "src/ext/zrapp/availexps.ml" 149 3706 3724
+type(
+  Cil.lval -> Cil.lval -> bool
+)
+ident(
+  ext_ref Expcompare.compareLval
+)
+"src/ext/zrapp/availexps.ml" 149 3706 3725 "src/ext/zrapp/availexps.ml" 149 3706 3726
+type(
+  Cil.lval
+)
+ident(
+  int_ref l "src/ext/zrapp/availexps.ml" 148 3687 3702 "src/ext/zrapp/availexps.ml" 148 3687 3703
+)
+"src/ext/zrapp/availexps.ml" 149 3706 3727 "src/ext/zrapp/availexps.ml" 149 3706 3729
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/zrapp/availexps.ml" 145 3619 3641 "src/ext/zrapp/availexps.ml" 145 3619 3643
+)
+"src/ext/zrapp/availexps.ml" 149 3706 3713 "src/ext/zrapp/availexps.ml" 149 3706 3729
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 150 3730 3740 "src/ext/zrapp/availexps.ml" 150 3730 3742
+type(
+  bool ref
+)
+ident(
+  int_ref br "src/ext/zrapp/availexps.ml" 145 3619 3644 "src/ext/zrapp/availexps.ml" 145 3619 3646
+)
+"src/ext/zrapp/availexps.ml" 150 3730 3743 "src/ext/zrapp/availexps.ml" 150 3730 3745
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/zrapp/availexps.ml" 150 3730 3746 "src/ext/zrapp/availexps.ml" 150 3730 3750
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 150 3730 3740 "src/ext/zrapp/availexps.ml" 150 3730 3750
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 150 3730 3752 "src/ext/zrapp/availexps.ml" 150 3730 3764
+type(
+  Cil.lval Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 150 3730 3739 "src/ext/zrapp/availexps.ml" 150 3730 3765
+type(
+  Cil.lval Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 151 3766 3775 "src/ext/zrapp/availexps.ml" 151 3766 3785
+type(
+  Cil.lval Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 149 3706 3710 "src/ext/zrapp/availexps.ml" 151 3766 3785
+type(
+  Cil.lval Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 155 3792 3796 "src/ext/zrapp/availexps.ml" 155 3792 3808
+type(
+  Cil.lval -> Cil.exp -> bool
+)
+ident(
+  def exp_has_lval "src/ext/zrapp/availexps.ml" 161 3918 3918 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 155 3792 3809 "src/ext/zrapp/availexps.ml" 155 3792 3811
+type(
+  Cil.lval
+)
+ident(
+  def lv "src/ext/zrapp/availexps.ml" 155 3792 3812 "src/ext/zrapp/availexps.ml" 159 3911 3916
+)
+"src/ext/zrapp/availexps.ml" 155 3792 3812 "src/ext/zrapp/availexps.ml" 155 3792 3813
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/zrapp/availexps.ml" 156 3816 3818 "src/ext/zrapp/availexps.ml" 159 3911 3916
+)
+"src/ext/zrapp/availexps.ml" 156 3816 3822 "src/ext/zrapp/availexps.ml" 156 3816 3824
+type(
+  bool ref
+)
+ident(
+  def br "src/ext/zrapp/availexps.ml" 157 3840 3842 "src/ext/zrapp/availexps.ml" 159 3911 3916
+)
+"src/ext/zrapp/availexps.ml" 156 3816 3827 "src/ext/zrapp/availexps.ml" 156 3816 3830
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/zrapp/availexps.ml" 156 3816 3831 "src/ext/zrapp/availexps.ml" 156 3816 3836
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 156 3816 3827 "src/ext/zrapp/availexps.ml" 156 3816 3836
+type(
+  bool ref
+)
+"src/ext/zrapp/availexps.ml" 157 3840 3846 "src/ext/zrapp/availexps.ml" 157 3840 3849
+type(
+  lvalFinderClass
+)
+ident(
+  def vis "src/ext/zrapp/availexps.ml" 158 3881 3883 "src/ext/zrapp/availexps.ml" 159 3911 3916
+)
+"src/ext/zrapp/availexps.ml" 157 3840 3852 "src/ext/zrapp/availexps.ml" 157 3840 3871
+type(
+  Cil.lval -> bool ref -> lvalFinderClass
+)
+"src/ext/zrapp/availexps.ml" 157 3840 3872 "src/ext/zrapp/availexps.ml" 157 3840 3874
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/zrapp/availexps.ml" 155 3792 3809 "src/ext/zrapp/availexps.ml" 155 3792 3811
+)
+"src/ext/zrapp/availexps.ml" 157 3840 3875 "src/ext/zrapp/availexps.ml" 157 3840 3877
+type(
+  bool ref
+)
+ident(
+  int_ref br "src/ext/zrapp/availexps.ml" 156 3816 3822 "src/ext/zrapp/availexps.ml" 156 3816 3824
+)
+"src/ext/zrapp/availexps.ml" 157 3840 3852 "src/ext/zrapp/availexps.ml" 157 3840 3877
+call(
+  stack
+)
+type(
+  lvalFinderClass
+)
+"src/ext/zrapp/availexps.ml" 158 3881 3883 "src/ext/zrapp/availexps.ml" 158 3881 3889
+type(
+  Cil.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 158 3881 3890 "src/ext/zrapp/availexps.ml" 158 3881 3902
+type(
+  Cil.cilVisitor -> Cil.exp -> Cil.exp
+)
+ident(
+  ext_ref Cil.visitCilExpr
+)
+"src/ext/zrapp/availexps.ml" 158 3881 3903 "src/ext/zrapp/availexps.ml" 158 3881 3906
+type(
+  lvalFinderClass
+)
+ident(
+  int_ref vis "src/ext/zrapp/availexps.ml" 157 3840 3846 "src/ext/zrapp/availexps.ml" 157 3840 3849
+)
+"src/ext/zrapp/availexps.ml" 158 3881 3907 "src/ext/zrapp/availexps.ml" 158 3881 3908
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/zrapp/availexps.ml" 155 3792 3812 "src/ext/zrapp/availexps.ml" 155 3792 3813
+)
+"src/ext/zrapp/availexps.ml" 158 3881 3889 "src/ext/zrapp/availexps.ml" 158 3881 3909
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/zrapp/availexps.ml" 158 3881 3883 "src/ext/zrapp/availexps.ml" 158 3881 3909
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 159 3911 3913 "src/ext/zrapp/availexps.ml" 159 3911 3914
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 159 3911 3914 "src/ext/zrapp/availexps.ml" 159 3911 3916
+type(
+  bool ref
+)
+ident(
+  int_ref br "src/ext/zrapp/availexps.ml" 156 3816 3822 "src/ext/zrapp/availexps.ml" 156 3816 3824
+)
+"src/ext/zrapp/availexps.ml" 159 3911 3913 "src/ext/zrapp/availexps.ml" 159 3911 3916
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 158 3881 3883 "src/ext/zrapp/availexps.ml" 159 3911 3916
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 157 3840 3842 "src/ext/zrapp/availexps.ml" 159 3911 3916
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 156 3816 3818 "src/ext/zrapp/availexps.ml" 159 3911 3916
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 161 3918 3922 "src/ext/zrapp/availexps.ml" 161 3918 3934
+type(
+  Cil.exp IH.t -> Cil.lval -> unit
+)
+ident(
+  def eh_kill_lval "src/ext/zrapp/availexps.ml" 168 4028 4028 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 161 3918 3935 "src/ext/zrapp/availexps.ml" 161 3918 3937
+type(
+  Cil.exp IH.t
+)
+ident(
+  def eh "src/ext/zrapp/availexps.ml" 161 3918 3938 "src/ext/zrapp/availexps.ml" 165 4019 4025
+)
+"src/ext/zrapp/availexps.ml" 161 3918 3938 "src/ext/zrapp/availexps.ml" 161 3918 3940
+type(
+  Cil.lval
+)
+ident(
+  def lv "src/ext/zrapp/availexps.ml" 162 3943 3945 "src/ext/zrapp/availexps.ml" 165 4019 4025
+)
+"src/ext/zrapp/availexps.ml" 162 3943 3945 "src/ext/zrapp/availexps.ml" 162 3943 3952
+type(
+  (int -> Cil.exp -> unit) -> Cil.exp IH.t -> unit
+)
+ident(
+  ext_ref IH.iter
+)
+"src/ext/zrapp/availexps.ml" 162 3943 3958 "src/ext/zrapp/availexps.ml" 162 3943 3961
+type(
+  int
+)
+ident(
+  def vid "src/ext/zrapp/availexps.ml" 162 3943 3962 "src/ext/zrapp/availexps.ml" 164 3992 4017
+)
+"src/ext/zrapp/availexps.ml" 162 3943 3962 "src/ext/zrapp/availexps.ml" 162 3943 3963
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/zrapp/availexps.ml" 163 3967 3971 "src/ext/zrapp/availexps.ml" 164 3992 4017
+)
+"src/ext/zrapp/availexps.ml" 163 3967 3974 "src/ext/zrapp/availexps.ml" 163 3967 3986
+type(
+  Cil.lval -> Cil.exp -> bool
+)
+ident(
+  int_ref exp_has_lval "src/ext/zrapp/availexps.ml" 155 3792 3796 "src/ext/zrapp/availexps.ml" 155 3792 3808
+)
+"src/ext/zrapp/availexps.ml" 163 3967 3987 "src/ext/zrapp/availexps.ml" 163 3967 3989
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/zrapp/availexps.ml" 161 3918 3938 "src/ext/zrapp/availexps.ml" 161 3918 3940
+)
+"src/ext/zrapp/availexps.ml" 163 3967 3990 "src/ext/zrapp/availexps.ml" 163 3967 3991
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/zrapp/availexps.ml" 162 3943 3962 "src/ext/zrapp/availexps.ml" 162 3943 3963
+)
+"src/ext/zrapp/availexps.ml" 163 3967 3974 "src/ext/zrapp/availexps.ml" 163 3967 3991
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 164 3992 4001 "src/ext/zrapp/availexps.ml" 164 3992 4010
+type(
+  Cil.exp IH.t -> int -> unit
+)
+ident(
+  ext_ref IH.remove
+)
+"src/ext/zrapp/availexps.ml" 164 3992 4011 "src/ext/zrapp/availexps.ml" 164 3992 4013
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 161 3918 3935 "src/ext/zrapp/availexps.ml" 161 3918 3937
+)
+"src/ext/zrapp/availexps.ml" 164 3992 4014 "src/ext/zrapp/availexps.ml" 164 3992 4017
+type(
+  int
+)
+ident(
+  int_ref vid "src/ext/zrapp/availexps.ml" 162 3943 3958 "src/ext/zrapp/availexps.ml" 162 3943 3961
+)
+"src/ext/zrapp/availexps.ml" 164 3992 4001 "src/ext/zrapp/availexps.ml" 164 3992 4017
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 163 3967 3971 "src/ext/zrapp/availexps.ml" 164 3992 4017
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 162 3943 3953 "src/ext/zrapp/availexps.ml" 164 3992 4018
+type(
+  int -> Cil.exp -> unit
+)
+"src/ext/zrapp/availexps.ml" 165 4019 4023 "src/ext/zrapp/availexps.ml" 165 4019 4025
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 161 3918 3935 "src/ext/zrapp/availexps.ml" 161 3918 3937
+)
+"src/ext/zrapp/availexps.ml" 162 3943 3945 "src/ext/zrapp/availexps.ml" 165 4019 4025
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 168 4028 4054 "src/ext/zrapp/availexps.ml" 168 4028 4056
+type(
+  bool ref
+)
+"src/ext/zrapp/availexps.ml" 168 4028 4065 "src/ext/zrapp/availexps.ml" 168 4028 4071
+type(
+  < queueInstr : Cil.instr list -> unit;
+    unqueueInstr : unit -> Cil.instr list;
+    vattr : Cil.attribute -> Cil.attribute list Cil.visitAction;
+    vattrparam : Cil.attrparam -> Cil.attrparam Cil.visitAction;
+    vblock : Cil.block -> Cil.block Cil.visitAction;
+    vexpr : Cil.exp -> Cil.exp Cil.visitAction;
+    vfunc : Cil.fundec -> Cil.fundec Cil.visitAction;
+    vglob : Cil.global -> Cil.global list Cil.visitAction;
+    vinit : Cil.varinfo -> Cil.offset -> Cil.init -> Cil.init Cil.visitAction;
+    vinitoffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vinst : Cil.instr -> Cil.instr list Cil.visitAction;
+    vlval : Cil.lval -> Cil.lval Cil.visitAction;
+    voffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vstmt : Cil.stmt -> Cil.stmt Cil.visitAction;
+    vtype : Cil.typ -> Cil.typ Cil.visitAction;
+    vvdec : Cil.varinfo -> Cil.varinfo Cil.visitAction;
+    vvrbl : Cil.varinfo -> Cil.varinfo Cil.visitAction; .. >
+)
+"src/ext/zrapp/availexps.ml" 171 4097 4112 "src/ext/zrapp/availexps.ml" 171 4097 4113
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/zrapp/availexps.ml" 172 4116 4120 "src/ext/zrapp/availexps.ml" 174 4209 4228
+)
+"src/ext/zrapp/availexps.ml" 172 4116 4124 "src/ext/zrapp/availexps.ml" 172 4116 4136
+type(
+  string -> Cil.attributes -> bool
+)
+ident(
+  ext_ref Cil.hasAttribute
+)
+"src/ext/zrapp/availexps.ml" 172 4116 4137 "src/ext/zrapp/availexps.ml" 172 4116 4147
+type(
+  string
+)
+"src/ext/zrapp/availexps.ml" 172 4116 4149 "src/ext/zrapp/availexps.ml" 172 4116 4158
+type(
+  Cil.typ -> Cil.attributes
+)
+ident(
+  ext_ref Cil.typeAttrs
+)
+"src/ext/zrapp/availexps.ml" 172 4116 4160 "src/ext/zrapp/availexps.ml" 172 4116 4166
+type(
+  Cil.exp -> Cil.typ
+)
+ident(
+  ext_ref Cil.typeOf
+)
+"src/ext/zrapp/availexps.ml" 172 4116 4167 "src/ext/zrapp/availexps.ml" 172 4116 4168
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/zrapp/availexps.ml" 171 4097 4112 "src/ext/zrapp/availexps.ml" 171 4097 4113
+)
+"src/ext/zrapp/availexps.ml" 172 4116 4159 "src/ext/zrapp/availexps.ml" 172 4116 4169
+call(
+  stack
+)
+type(
+  Cil.typ
+)
+"src/ext/zrapp/availexps.ml" 172 4116 4148 "src/ext/zrapp/availexps.ml" 172 4116 4170
+call(
+  stack
+)
+type(
+  Cil.attributes
+)
+"src/ext/zrapp/availexps.ml" 172 4116 4123 "src/ext/zrapp/availexps.ml" 172 4116 4171
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 173 4173 4183 "src/ext/zrapp/availexps.ml" 173 4173 4185
+type(
+  bool ref
+)
+ident(
+  int_ref br "src/ext/zrapp/availexps.ml" 168 4028 4054 "src/ext/zrapp/availexps.ml" 168 4028 4056
+)
+"src/ext/zrapp/availexps.ml" 173 4173 4186 "src/ext/zrapp/availexps.ml" 173 4173 4188
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ext/zrapp/availexps.ml" 173 4173 4189 "src/ext/zrapp/availexps.ml" 173 4173 4193
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 173 4173 4183 "src/ext/zrapp/availexps.ml" 173 4173 4193
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 173 4173 4195 "src/ext/zrapp/availexps.ml" 173 4173 4207
+type(
+  Cil.exp Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 173 4173 4182 "src/ext/zrapp/availexps.ml" 173 4173 4208
+type(
+  Cil.exp Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 174 4209 4218 "src/ext/zrapp/availexps.ml" 174 4209 4228
+type(
+  Cil.exp Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 172 4116 4120 "src/ext/zrapp/availexps.ml" 174 4209 4228
+type(
+  Cil.exp Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 177 4234 4238 "src/ext/zrapp/availexps.ml" 177 4234 4253
+type(
+  Cil.exp -> bool
+)
+ident(
+  def exp_is_volatile "src/ext/zrapp/availexps.ml" 183 4368 4368 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 177 4234 4254 "src/ext/zrapp/availexps.ml" 177 4234 4255
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/zrapp/availexps.ml" 177 4234 4256 "src/ext/zrapp/availexps.ml" 181 4361 4366
+)
+"src/ext/zrapp/availexps.ml" 178 4265 4271 "src/ext/zrapp/availexps.ml" 178 4265 4273
+type(
+  bool ref
+)
+ident(
+  def br "src/ext/zrapp/availexps.ml" 179 4289 4291 "src/ext/zrapp/availexps.ml" 181 4361 4366
+)
+"src/ext/zrapp/availexps.ml" 178 4265 4276 "src/ext/zrapp/availexps.ml" 178 4265 4279
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ext/zrapp/availexps.ml" 178 4265 4280 "src/ext/zrapp/availexps.ml" 178 4265 4285
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 178 4265 4276 "src/ext/zrapp/availexps.ml" 178 4265 4285
+type(
+  bool ref
+)
+"src/ext/zrapp/availexps.ml" 179 4289 4295 "src/ext/zrapp/availexps.ml" 179 4289 4298
+type(
+  volatileFinderClass
+)
+ident(
+  def vis "src/ext/zrapp/availexps.ml" 180 4331 4333 "src/ext/zrapp/availexps.ml" 181 4361 4366
+)
+"src/ext/zrapp/availexps.ml" 179 4289 4301 "src/ext/zrapp/availexps.ml" 179 4289 4324
+type(
+  bool ref -> volatileFinderClass
+)
+"src/ext/zrapp/availexps.ml" 179 4289 4325 "src/ext/zrapp/availexps.ml" 179 4289 4327
+type(
+  bool ref
+)
+ident(
+  int_ref br "src/ext/zrapp/availexps.ml" 178 4265 4271 "src/ext/zrapp/availexps.ml" 178 4265 4273
+)
+"src/ext/zrapp/availexps.ml" 179 4289 4301 "src/ext/zrapp/availexps.ml" 179 4289 4327
+call(
+  stack
+)
+type(
+  volatileFinderClass
+)
+"src/ext/zrapp/availexps.ml" 180 4331 4333 "src/ext/zrapp/availexps.ml" 180 4331 4339
+type(
+  Cil.exp -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 180 4331 4340 "src/ext/zrapp/availexps.ml" 180 4331 4352
+type(
+  Cil.cilVisitor -> Cil.exp -> Cil.exp
+)
+ident(
+  ext_ref Cil.visitCilExpr
+)
+"src/ext/zrapp/availexps.ml" 180 4331 4353 "src/ext/zrapp/availexps.ml" 180 4331 4356
+type(
+  volatileFinderClass
+)
+ident(
+  int_ref vis "src/ext/zrapp/availexps.ml" 179 4289 4295 "src/ext/zrapp/availexps.ml" 179 4289 4298
+)
+"src/ext/zrapp/availexps.ml" 180 4331 4357 "src/ext/zrapp/availexps.ml" 180 4331 4358
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/zrapp/availexps.ml" 177 4234 4254 "src/ext/zrapp/availexps.ml" 177 4234 4255
+)
+"src/ext/zrapp/availexps.ml" 180 4331 4339 "src/ext/zrapp/availexps.ml" 180 4331 4359
+call(
+  stack
+)
+type(
+  Cil.exp
+)
+"src/ext/zrapp/availexps.ml" 180 4331 4333 "src/ext/zrapp/availexps.ml" 180 4331 4359
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 181 4361 4363 "src/ext/zrapp/availexps.ml" 181 4361 4364
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 181 4361 4364 "src/ext/zrapp/availexps.ml" 181 4361 4366
+type(
+  bool ref
+)
+ident(
+  int_ref br "src/ext/zrapp/availexps.ml" 178 4265 4271 "src/ext/zrapp/availexps.ml" 178 4265 4273
+)
+"src/ext/zrapp/availexps.ml" 181 4361 4363 "src/ext/zrapp/availexps.ml" 181 4361 4366
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 180 4331 4333 "src/ext/zrapp/availexps.ml" 181 4361 4366
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 179 4289 4291 "src/ext/zrapp/availexps.ml" 181 4361 4366
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 178 4265 4267 "src/ext/zrapp/availexps.ml" 181 4361 4366
+type(
+  bool
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 183 4368 4372 "src/ext/zrapp/availexps.ml" 183 4368 4379
+type(
+  Cil.varinfo IH.t
+)
+ident(
+  def varHash "src/ext/zrapp/availexps.ml" 185 4396 4396 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 183 4368 4382 "src/ext/zrapp/availexps.ml" 183 4368 4391
+type(
+  int -> Cil.varinfo IH.t
+)
+ident(
+  ext_ref IH.create
+)
+"src/ext/zrapp/availexps.ml" 183 4368 4392 "src/ext/zrapp/availexps.ml" 183 4368 4394
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 183 4368 4382 "src/ext/zrapp/availexps.ml" 183 4368 4394
+call(
+  stack
+)
+type(
+  Cil.varinfo IH.t
+)
+"src/ext/zrapp/availexps.ml" 185 4396 4400 "src/ext/zrapp/availexps.ml" 185 4396 4424
+type(
+  'a IH.t -> unit
+)
+ident(
+  def eh_kill_addrof_or_global "src/ext/zrapp/availexps.ml" 203 4880 4880 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 185 4396 4425 "src/ext/zrapp/availexps.ml" 185 4396 4427
+type(
+  'a IH.t
+)
+ident(
+  def eh "src/ext/zrapp/availexps.ml" 186 4430 4432 "src/ext/zrapp/availexps.ml" 201 4850 4878
+)
+"src/ext/zrapp/availexps.ml" 186 4430 4435 "src/ext/zrapp/availexps.ml" 186 4430 4436
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 186 4430 4436 "src/ext/zrapp/availexps.ml" 186 4430 4441
+type(
+  bool ref
+)
+ident(
+  int_ref debug "src/ext/zrapp/availexps.ml" 17 343 347 "src/ext/zrapp/availexps.ml" 17 343 352
+)
+"src/ext/zrapp/availexps.ml" 186 4430 4435 "src/ext/zrapp/availexps.ml" 186 4430 4441
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 186 4430 4447 "src/ext/zrapp/availexps.ml" 186 4430 4453
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 186 4430 4454 "src/ext/zrapp/availexps.ml" 186 4430 4459
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/zrapp/availexps.ml" 186 4430 4460 "src/ext/zrapp/availexps.ml" 186 4430 4483
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/zrapp/availexps.ml" 186 4430 4453 "src/ext/zrapp/availexps.ml" 186 4430 4484
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 186 4430 4447 "src/ext/zrapp/availexps.ml" 186 4430 4484
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 186 4430 4432 "src/ext/zrapp/availexps.ml" 186 4430 4484
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 187 4486 4488 "src/ext/zrapp/availexps.ml" 187 4486 4495
+type(
+  (int -> 'a -> unit) -> 'a IH.t -> unit
+)
+ident(
+  ext_ref IH.iter
+)
+"src/ext/zrapp/availexps.ml" 187 4486 4501 "src/ext/zrapp/availexps.ml" 187 4486 4504
+type(
+  int
+)
+ident(
+  def vid "src/ext/zrapp/availexps.ml" 187 4486 4505 "src/ext/zrapp/availexps.ml" 201 4850 4874
+)
+"src/ext/zrapp/availexps.ml" 187 4486 4505 "src/ext/zrapp/availexps.ml" 187 4486 4506
+type(
+  'a
+)
+ident(
+  def e "src/ext/zrapp/availexps.ml" 188 4510 4514 "src/ext/zrapp/availexps.ml" 201 4850 4874
+)
+"src/ext/zrapp/availexps.ml" 188 4510 4522 "src/ext/zrapp/availexps.ml" 188 4510 4524
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/zrapp/availexps.ml" 189 4550 4554 "src/ext/zrapp/availexps.ml" 200 4842 4849
+)
+"src/ext/zrapp/availexps.ml" 188 4510 4527 "src/ext/zrapp/availexps.ml" 188 4510 4534
+type(
+  Cil.varinfo IH.t -> int -> Cil.varinfo
+)
+ident(
+  ext_ref IH.find
+)
+"src/ext/zrapp/availexps.ml" 188 4510 4535 "src/ext/zrapp/availexps.ml" 188 4510 4542
+type(
+  Cil.varinfo IH.t
+)
+ident(
+  int_ref varHash "src/ext/zrapp/availexps.ml" 183 4368 4372 "src/ext/zrapp/availexps.ml" 183 4368 4379
+)
+"src/ext/zrapp/availexps.ml" 188 4510 4543 "src/ext/zrapp/availexps.ml" 188 4510 4546
+type(
+  int
+)
+ident(
+  int_ref vid "src/ext/zrapp/availexps.ml" 187 4486 4501 "src/ext/zrapp/availexps.ml" 187 4486 4504
+)
+"src/ext/zrapp/availexps.ml" 188 4510 4527 "src/ext/zrapp/availexps.ml" 188 4510 4546
+call(
+  stack
+)
+type(
+  Cil.varinfo
+)
+"src/ext/zrapp/availexps.ml" 189 4550 4557 "src/ext/zrapp/availexps.ml" 189 4550 4559
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 188 4510 4522 "src/ext/zrapp/availexps.ml" 188 4510 4524
+)
+"src/ext/zrapp/availexps.ml" 189 4550 4557 "src/ext/zrapp/availexps.ml" 189 4550 4567
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 191 4583 4592 "src/ext/zrapp/availexps.ml" 191 4583 4593
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 191 4583 4593 "src/ext/zrapp/availexps.ml" 191 4583 4598
+type(
+  bool ref
+)
+ident(
+  int_ref debug "src/ext/zrapp/availexps.ml" 17 343 347 "src/ext/zrapp/availexps.ml" 17 343 352
+)
+"src/ext/zrapp/availexps.ml" 191 4583 4592 "src/ext/zrapp/availexps.ml" 191 4583 4598
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 191 4583 4604 "src/ext/zrapp/availexps.ml" 191 4583 4610
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 191 4583 4611 "src/ext/zrapp/availexps.ml" 191 4583 4616
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/zrapp/availexps.ml" 191 4583 4617 "src/ext/zrapp/availexps.ml" 191 4583 4654
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/zrapp/availexps.ml" 192 4655 4664 "src/ext/zrapp/availexps.ml" 192 4655 4666
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 188 4510 4522 "src/ext/zrapp/availexps.ml" 188 4510 4524
+)
+"src/ext/zrapp/availexps.ml" 192 4655 4664 "src/ext/zrapp/availexps.ml" 192 4655 4672
+type(
+  string
+)
+"src/ext/zrapp/availexps.ml" 191 4583 4610 "src/ext/zrapp/availexps.ml" 192 4655 4673
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 191 4583 4604 "src/ext/zrapp/availexps.ml" 192 4655 4673
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 191 4583 4589 "src/ext/zrapp/availexps.ml" 192 4655 4673
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 193 4675 4681 "src/ext/zrapp/availexps.ml" 193 4675 4690
+type(
+  'a IH.t -> int -> unit
+)
+ident(
+  ext_ref IH.remove
+)
+"src/ext/zrapp/availexps.ml" 193 4675 4691 "src/ext/zrapp/availexps.ml" 193 4675 4693
+type(
+  'a IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 185 4396 4425 "src/ext/zrapp/availexps.ml" 185 4396 4427
+)
+"src/ext/zrapp/availexps.ml" 193 4675 4694 "src/ext/zrapp/availexps.ml" 193 4675 4697
+type(
+  int
+)
+ident(
+  int_ref vid "src/ext/zrapp/availexps.ml" 187 4486 4501 "src/ext/zrapp/availexps.ml" 187 4486 4504
+)
+"src/ext/zrapp/availexps.ml" 193 4675 4681 "src/ext/zrapp/availexps.ml" 193 4675 4697
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 190 4568 4577 "src/ext/zrapp/availexps.ml" 194 4698 4705
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 195 4706 4718 "src/ext/zrapp/availexps.ml" 195 4706 4720
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 188 4510 4522 "src/ext/zrapp/availexps.ml" 188 4510 4524
+)
+"src/ext/zrapp/availexps.ml" 195 4706 4718 "src/ext/zrapp/availexps.ml" 195 4706 4726
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 197 4742 4751 "src/ext/zrapp/availexps.ml" 197 4742 4752
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 197 4742 4752 "src/ext/zrapp/availexps.ml" 197 4742 4757
+type(
+  bool ref
+)
+ident(
+  int_ref debug "src/ext/zrapp/availexps.ml" 17 343 347 "src/ext/zrapp/availexps.ml" 17 343 352
+)
+"src/ext/zrapp/availexps.ml" 197 4742 4751 "src/ext/zrapp/availexps.ml" 197 4742 4757
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 197 4742 4763 "src/ext/zrapp/availexps.ml" 197 4742 4769
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 197 4742 4770 "src/ext/zrapp/availexps.ml" 197 4742 4775
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/zrapp/availexps.ml" 197 4742 4776 "src/ext/zrapp/availexps.ml" 197 4742 4801
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/zrapp/availexps.ml" 198 4802 4808 "src/ext/zrapp/availexps.ml" 198 4802 4810
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 188 4510 4522 "src/ext/zrapp/availexps.ml" 188 4510 4524
+)
+"src/ext/zrapp/availexps.ml" 198 4802 4808 "src/ext/zrapp/availexps.ml" 198 4802 4816
+type(
+  string
+)
+"src/ext/zrapp/availexps.ml" 197 4742 4769 "src/ext/zrapp/availexps.ml" 198 4802 4817
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 197 4742 4763 "src/ext/zrapp/availexps.ml" 198 4802 4817
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 197 4742 4748 "src/ext/zrapp/availexps.ml" 198 4802 4817
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 199 4819 4825 "src/ext/zrapp/availexps.ml" 199 4819 4834
+type(
+  'a IH.t -> int -> unit
+)
+ident(
+  ext_ref IH.remove
+)
+"src/ext/zrapp/availexps.ml" 199 4819 4835 "src/ext/zrapp/availexps.ml" 199 4819 4837
+type(
+  'a IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 185 4396 4425 "src/ext/zrapp/availexps.ml" 185 4396 4427
+)
+"src/ext/zrapp/availexps.ml" 199 4819 4838 "src/ext/zrapp/availexps.ml" 199 4819 4841
+type(
+  int
+)
+ident(
+  int_ref vid "src/ext/zrapp/availexps.ml" 187 4486 4501 "src/ext/zrapp/availexps.ml" 187 4486 4504
+)
+"src/ext/zrapp/availexps.ml" 199 4819 4825 "src/ext/zrapp/availexps.ml" 199 4819 4841
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 196 4727 4736 "src/ext/zrapp/availexps.ml" 200 4842 4849
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 195 4706 4715 "src/ext/zrapp/availexps.ml" 200 4842 4849
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 189 4550 4554 "src/ext/zrapp/availexps.ml" 200 4842 4849
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 188 4510 4518 "src/ext/zrapp/availexps.ml" 200 4842 4849
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 201 4850 4859 "src/ext/zrapp/availexps.ml" 201 4850 4868
+type(
+  exn
+)
+"src/ext/zrapp/availexps.ml" 201 4850 4872 "src/ext/zrapp/availexps.ml" 201 4850 4874
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 188 4510 4514 "src/ext/zrapp/availexps.ml" 201 4850 4874
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 187 4486 4496 "src/ext/zrapp/availexps.ml" 201 4850 4875
+type(
+  int -> 'a -> unit
+)
+"src/ext/zrapp/availexps.ml" 201 4850 4876 "src/ext/zrapp/availexps.ml" 201 4850 4878
+type(
+  'a IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 185 4396 4425 "src/ext/zrapp/availexps.ml" 185 4396 4427
+)
+"src/ext/zrapp/availexps.ml" 187 4486 4488 "src/ext/zrapp/availexps.ml" 201 4850 4878
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 186 4430 4432 "src/ext/zrapp/availexps.ml" 201 4850 4878
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 203 4880 4884 "src/ext/zrapp/availexps.ml" 203 4880 4898
+type(
+  Cil.instr -> Cil.exp IH.t -> Cil.exp IH.t
+)
+ident(
+  def eh_handle_inst "src/ext/zrapp/availexps.ml" 250 6119 6119 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 203 4880 4899 "src/ext/zrapp/availexps.ml" 203 4880 4900
+type(
+  Cil.instr
+)
+ident(
+  def i "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 248 6107 6117
+)
+"src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+type(
+  Cil.exp IH.t
+)
+ident(
+  def eh "src/ext/zrapp/availexps.ml" 204 4907 4909 "src/ext/zrapp/availexps.ml" 248 6107 6117
+)
+"src/ext/zrapp/availexps.ml" 204 4907 4913 "src/ext/zrapp/availexps.ml" 204 4907 4914
+type(
+  (Cil.instr -> bool) ref -> Cil.instr -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 204 4907 4914 "src/ext/zrapp/availexps.ml" 204 4907 4925
+type(
+  (Cil.instr -> bool) ref
+)
+ident(
+  int_ref ignore_inst "src/ext/zrapp/availexps.ml" 34 693 697 "src/ext/zrapp/availexps.ml" 34 693 708
+)
+"src/ext/zrapp/availexps.ml" 204 4907 4912 "src/ext/zrapp/availexps.ml" 204 4907 4926
+type(
+  Cil.instr -> bool
+)
+"src/ext/zrapp/availexps.ml" 204 4907 4927 "src/ext/zrapp/availexps.ml" 204 4907 4928
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/zrapp/availexps.ml" 203 4880 4899 "src/ext/zrapp/availexps.ml" 203 4880 4900
+)
+"src/ext/zrapp/availexps.ml" 204 4907 4912 "src/ext/zrapp/availexps.ml" 204 4907 4928
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 204 4907 4934 "src/ext/zrapp/availexps.ml" 204 4907 4936
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 205 4942 4950 "src/ext/zrapp/availexps.ml" 205 4942 4951
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/zrapp/availexps.ml" 203 4880 4899 "src/ext/zrapp/availexps.ml" 203 4880 4900
+)
+"src/ext/zrapp/availexps.ml" 210 5164 5172 "src/ext/zrapp/availexps.ml" 210 5164 5174
+type(
+  Cil.lval
+)
+ident(
+  def lv "src/ext/zrapp/availexps.ml" 210 5164 5183 "src/ext/zrapp/availexps.ml" 231 5681 5689
+)
+"src/ext/zrapp/availexps.ml" 210 5164 5175 "src/ext/zrapp/availexps.ml" 210 5164 5176
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/zrapp/availexps.ml" 210 5164 5183 "src/ext/zrapp/availexps.ml" 231 5681 5689
+)
+"src/ext/zrapp/availexps.ml" 210 5164 5177 "src/ext/zrapp/availexps.ml" 210 5164 5178
+type(
+  Cil.location
+)
+"src/ext/zrapp/availexps.ml" 210 5164 5168 "src/ext/zrapp/availexps.ml" 210 5164 5179
+type(
+  Cil.instr
+)
+"src/ext/zrapp/availexps.ml" 210 5164 5190 "src/ext/zrapp/availexps.ml" 210 5164 5192
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/zrapp/availexps.ml" 210 5164 5172 "src/ext/zrapp/availexps.ml" 210 5164 5174
+)
+"src/ext/zrapp/availexps.ml" 211 5198 5209 "src/ext/zrapp/availexps.ml" 211 5198 5210
+type(
+  Cil.exp
+)
+"src/ext/zrapp/availexps.ml" 211 5198 5205 "src/ext/zrapp/availexps.ml" 211 5198 5210
+type(
+  Cil.lhost
+)
+"src/ext/zrapp/availexps.ml" 211 5198 5212 "src/ext/zrapp/availexps.ml" 211 5198 5213
+type(
+  Cil.offset
+)
+"src/ext/zrapp/availexps.ml" 211 5198 5204 "src/ext/zrapp/availexps.ml" 211 5198 5214
+type(
+  Cil.lval
+)
+"src/ext/zrapp/availexps.ml" 212 5219 5221 "src/ext/zrapp/availexps.ml" 212 5219 5232
+type(
+  Cil.exp IH.t -> unit
+)
+ident(
+  int_ref eh_kill_mem "src/ext/zrapp/availexps.ml" 115 2982 2986 "src/ext/zrapp/availexps.ml" 115 2982 2997
+)
+"src/ext/zrapp/availexps.ml" 212 5219 5233 "src/ext/zrapp/availexps.ml" 212 5219 5235
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 212 5219 5221 "src/ext/zrapp/availexps.ml" 212 5219 5235
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 213 5238 5240 "src/ext/zrapp/availexps.ml" 213 5238 5264
+type(
+  Cil.exp IH.t -> unit
+)
+ident(
+  int_ref eh_kill_addrof_or_global "src/ext/zrapp/availexps.ml" 185 4396 4400 "src/ext/zrapp/availexps.ml" 185 4396 4424
+)
+"src/ext/zrapp/availexps.ml" 213 5238 5265 "src/ext/zrapp/availexps.ml" 213 5238 5267
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 213 5238 5240 "src/ext/zrapp/availexps.ml" 213 5238 5267
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 214 5269 5271 "src/ext/zrapp/availexps.ml" 214 5269 5273
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 213 5238 5240 "src/ext/zrapp/availexps.ml" 214 5269 5273
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 212 5219 5220 "src/ext/zrapp/availexps.ml" 214 5269 5274
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 215 5275 5286 "src/ext/zrapp/availexps.ml" 215 5275 5288
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/zrapp/availexps.ml" 215 5275 5305 "src/ext/zrapp/availexps.ml" 225 5561 5571
+)
+"src/ext/zrapp/availexps.ml" 215 5275 5282 "src/ext/zrapp/availexps.ml" 215 5275 5288
+type(
+  Cil.lhost
+)
+"src/ext/zrapp/availexps.ml" 215 5275 5290 "src/ext/zrapp/availexps.ml" 215 5275 5298
+type(
+  Cil.offset
+)
+"src/ext/zrapp/availexps.ml" 215 5275 5281 "src/ext/zrapp/availexps.ml" 215 5275 5299
+type(
+  Cil.lval
+)
+"src/ext/zrapp/availexps.ml" 215 5275 5305 "src/ext/zrapp/availexps.ml" 215 5275 5308
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/zrapp/availexps.ml" 215 5275 5310 "src/ext/zrapp/availexps.ml" 215 5275 5325
+type(
+  Cil.exp -> bool
+)
+ident(
+  int_ref exp_is_volatile "src/ext/zrapp/availexps.ml" 177 4234 4238 "src/ext/zrapp/availexps.ml" 177 4234 4253
+)
+"src/ext/zrapp/availexps.ml" 215 5275 5326 "src/ext/zrapp/availexps.ml" 215 5275 5327
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/zrapp/availexps.ml" 210 5164 5175 "src/ext/zrapp/availexps.ml" 210 5164 5176
+)
+"src/ext/zrapp/availexps.ml" 215 5275 5309 "src/ext/zrapp/availexps.ml" 215 5275 5328
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 215 5275 5305 "src/ext/zrapp/availexps.ml" 215 5275 5328
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 216 5333 5341 "src/ext/zrapp/availexps.ml" 216 5333 5342
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/zrapp/availexps.ml" 210 5164 5175 "src/ext/zrapp/availexps.ml" 210 5164 5176
+)
+"src/ext/zrapp/availexps.ml" 217 5348 5360 "src/ext/zrapp/availexps.ml" 217 5348 5363
+type(
+  Cil.varinfo
+)
+ident(
+  def vi' "src/ext/zrapp/availexps.ml" 218 5397 5402 "src/ext/zrapp/availexps.ml" 221 5489 5498
+)
+"src/ext/zrapp/availexps.ml" 217 5348 5356 "src/ext/zrapp/availexps.ml" 217 5348 5363
+type(
+  Cil.lhost
+)
+"src/ext/zrapp/availexps.ml" 217 5348 5365 "src/ext/zrapp/availexps.ml" 217 5348 5373
+type(
+  Cil.offset
+)
+"src/ext/zrapp/availexps.ml" 217 5348 5355 "src/ext/zrapp/availexps.ml" 217 5348 5374
+type(
+  Cil.lval
+)
+"src/ext/zrapp/availexps.ml" 217 5348 5351 "src/ext/zrapp/availexps.ml" 217 5348 5374
+type(
+  Cil.exp
+)
+"src/ext/zrapp/availexps.ml" 218 5397 5405 "src/ext/zrapp/availexps.ml" 218 5397 5408
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi' "src/ext/zrapp/availexps.ml" 217 5348 5360 "src/ext/zrapp/availexps.ml" 217 5348 5363
+)
+"src/ext/zrapp/availexps.ml" 218 5397 5405 "src/ext/zrapp/availexps.ml" 218 5397 5412
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 218 5397 5413 "src/ext/zrapp/availexps.ml" 218 5397 5414
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/zrapp/availexps.ml" 218 5397 5415 "src/ext/zrapp/availexps.ml" 218 5397 5417
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 215 5275 5286 "src/ext/zrapp/availexps.ml" 215 5275 5288
+)
+"src/ext/zrapp/availexps.ml" 218 5397 5415 "src/ext/zrapp/availexps.ml" 218 5397 5421
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 218 5397 5405 "src/ext/zrapp/availexps.ml" 218 5397 5421
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 218 5397 5427 "src/ext/zrapp/availexps.ml" 218 5397 5429
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 219 5435 5441 "src/ext/zrapp/availexps.ml" 219 5435 5451
+type(
+  Cil.exp IH.t -> int -> Cil.exp -> unit
+)
+ident(
+  ext_ref IH.replace
+)
+"src/ext/zrapp/availexps.ml" 219 5435 5452 "src/ext/zrapp/availexps.ml" 219 5435 5454
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 219 5435 5455 "src/ext/zrapp/availexps.ml" 219 5435 5457
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 215 5275 5286 "src/ext/zrapp/availexps.ml" 215 5275 5288
+)
+"src/ext/zrapp/availexps.ml" 219 5435 5455 "src/ext/zrapp/availexps.ml" 219 5435 5461
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 219 5435 5462 "src/ext/zrapp/availexps.ml" 219 5435 5463
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/zrapp/availexps.ml" 210 5164 5175 "src/ext/zrapp/availexps.ml" 210 5164 5176
+)
+"src/ext/zrapp/availexps.ml" 219 5435 5441 "src/ext/zrapp/availexps.ml" 219 5435 5463
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 220 5465 5471 "src/ext/zrapp/availexps.ml" 220 5465 5481
+type(
+  Cil.exp IH.t -> Cil.varinfo -> unit
+)
+ident(
+  int_ref eh_kill_vi "src/ext/zrapp/availexps.ml" 138 3451 3455 "src/ext/zrapp/availexps.ml" 138 3451 3465
+)
+"src/ext/zrapp/availexps.ml" 220 5465 5482 "src/ext/zrapp/availexps.ml" 220 5465 5484
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 220 5465 5485 "src/ext/zrapp/availexps.ml" 220 5465 5487
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 215 5275 5286 "src/ext/zrapp/availexps.ml" 215 5275 5288
+)
+"src/ext/zrapp/availexps.ml" 220 5465 5471 "src/ext/zrapp/availexps.ml" 220 5465 5487
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 221 5489 5495 "src/ext/zrapp/availexps.ml" 221 5489 5497
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 220 5465 5471 "src/ext/zrapp/availexps.ml" 221 5489 5497
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 219 5435 5440 "src/ext/zrapp/availexps.ml" 221 5489 5498
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 218 5397 5402 "src/ext/zrapp/availexps.ml" 221 5489 5498
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 222 5499 5502 "src/ext/zrapp/availexps.ml" 222 5499 5503
+type(
+  Cil.exp
+)
+"src/ext/zrapp/availexps.ml" 223 5507 5513 "src/ext/zrapp/availexps.ml" 223 5507 5523
+type(
+  Cil.exp IH.t -> int -> Cil.exp -> unit
+)
+ident(
+  ext_ref IH.replace
+)
+"src/ext/zrapp/availexps.ml" 223 5507 5524 "src/ext/zrapp/availexps.ml" 223 5507 5526
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 223 5507 5527 "src/ext/zrapp/availexps.ml" 223 5507 5529
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 215 5275 5286 "src/ext/zrapp/availexps.ml" 215 5275 5288
+)
+"src/ext/zrapp/availexps.ml" 223 5507 5527 "src/ext/zrapp/availexps.ml" 223 5507 5533
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 223 5507 5534 "src/ext/zrapp/availexps.ml" 223 5507 5535
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/zrapp/availexps.ml" 210 5164 5175 "src/ext/zrapp/availexps.ml" 210 5164 5176
+)
+"src/ext/zrapp/availexps.ml" 223 5507 5513 "src/ext/zrapp/availexps.ml" 223 5507 5535
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 224 5537 5543 "src/ext/zrapp/availexps.ml" 224 5537 5553
+type(
+  Cil.exp IH.t -> Cil.varinfo -> unit
+)
+ident(
+  int_ref eh_kill_vi "src/ext/zrapp/availexps.ml" 138 3451 3455 "src/ext/zrapp/availexps.ml" 138 3451 3465
+)
+"src/ext/zrapp/availexps.ml" 224 5537 5554 "src/ext/zrapp/availexps.ml" 224 5537 5556
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 224 5537 5557 "src/ext/zrapp/availexps.ml" 224 5537 5559
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 215 5275 5286 "src/ext/zrapp/availexps.ml" 215 5275 5288
+)
+"src/ext/zrapp/availexps.ml" 224 5537 5543 "src/ext/zrapp/availexps.ml" 224 5537 5559
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 225 5561 5567 "src/ext/zrapp/availexps.ml" 225 5561 5569
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 224 5537 5543 "src/ext/zrapp/availexps.ml" 225 5561 5569
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 223 5507 5512 "src/ext/zrapp/availexps.ml" 225 5561 5570
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 216 5333 5334 "src/ext/zrapp/availexps.ml" 225 5561 5571
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 226 5572 5583 "src/ext/zrapp/availexps.ml" 226 5572 5585
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/zrapp/availexps.ml" 226 5572 5594 "src/ext/zrapp/availexps.ml" 231 5681 5688
+)
+"src/ext/zrapp/availexps.ml" 226 5572 5579 "src/ext/zrapp/availexps.ml" 226 5572 5585
+type(
+  Cil.lhost
+)
+"src/ext/zrapp/availexps.ml" 226 5572 5587 "src/ext/zrapp/availexps.ml" 226 5572 5588
+type(
+  Cil.offset
+)
+"src/ext/zrapp/availexps.ml" 226 5572 5578 "src/ext/zrapp/availexps.ml" 226 5572 5590
+type(
+  Cil.lval
+)
+"src/ext/zrapp/availexps.ml" 228 5634 5635 "src/ext/zrapp/availexps.ml" 228 5634 5644
+type(
+  Cil.exp IH.t -> int -> unit
+)
+ident(
+  ext_ref IH.remove
+)
+"src/ext/zrapp/availexps.ml" 228 5634 5645 "src/ext/zrapp/availexps.ml" 228 5634 5647
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 228 5634 5648 "src/ext/zrapp/availexps.ml" 228 5634 5650
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 226 5572 5583 "src/ext/zrapp/availexps.ml" 226 5572 5585
+)
+"src/ext/zrapp/availexps.ml" 228 5634 5648 "src/ext/zrapp/availexps.ml" 228 5634 5654
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 228 5634 5635 "src/ext/zrapp/availexps.ml" 228 5634 5654
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 229 5656 5657 "src/ext/zrapp/availexps.ml" 229 5656 5669
+type(
+  Cil.exp IH.t -> Cil.lval -> unit
+)
+ident(
+  int_ref eh_kill_lval "src/ext/zrapp/availexps.ml" 161 3918 3922 "src/ext/zrapp/availexps.ml" 161 3918 3934
+)
+"src/ext/zrapp/availexps.ml" 229 5656 5670 "src/ext/zrapp/availexps.ml" 229 5656 5672
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 229 5656 5673 "src/ext/zrapp/availexps.ml" 229 5656 5675
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/zrapp/availexps.ml" 210 5164 5172 "src/ext/zrapp/availexps.ml" 210 5164 5174
+)
+"src/ext/zrapp/availexps.ml" 229 5656 5657 "src/ext/zrapp/availexps.ml" 229 5656 5675
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 230 5677 5678 "src/ext/zrapp/availexps.ml" 230 5677 5680
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 229 5656 5657 "src/ext/zrapp/availexps.ml" 230 5677 5680
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 226 5572 5594 "src/ext/zrapp/availexps.ml" 231 5681 5688
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 210 5164 5183 "src/ext/zrapp/availexps.ml" 231 5681 5689
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 232 5690 5708 "src/ext/zrapp/availexps.ml" 232 5690 5710
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/zrapp/availexps.ml" 233 5731 5737 "src/ext/zrapp/availexps.ml" 239 5887 5897
+)
+"src/ext/zrapp/availexps.ml" 232 5690 5704 "src/ext/zrapp/availexps.ml" 232 5690 5710
+type(
+  Cil.lhost
+)
+"src/ext/zrapp/availexps.ml" 232 5690 5711 "src/ext/zrapp/availexps.ml" 232 5690 5719
+type(
+  Cil.offset
+)
+"src/ext/zrapp/availexps.ml" 232 5690 5703 "src/ext/zrapp/availexps.ml" 232 5690 5720
+type(
+  Cil.lval
+)
+"src/ext/zrapp/availexps.ml" 232 5690 5699 "src/ext/zrapp/availexps.ml" 232 5690 5720
+type(
+  Cil.lval option
+)
+"src/ext/zrapp/availexps.ml" 232 5690 5721 "src/ext/zrapp/availexps.ml" 232 5690 5722
+type(
+  Cil.exp
+)
+"src/ext/zrapp/availexps.ml" 232 5690 5723 "src/ext/zrapp/availexps.ml" 232 5690 5724
+type(
+  Cil.exp list
+)
+"src/ext/zrapp/availexps.ml" 232 5690 5725 "src/ext/zrapp/availexps.ml" 232 5690 5726
+type(
+  Cil.location
+)
+"src/ext/zrapp/availexps.ml" 232 5690 5694 "src/ext/zrapp/availexps.ml" 232 5690 5727
+type(
+  Cil.instr
+)
+"src/ext/zrapp/availexps.ml" 233 5731 5738 "src/ext/zrapp/availexps.ml" 233 5731 5747
+type(
+  Cil.exp IH.t -> int -> unit
+)
+ident(
+  ext_ref IH.remove
+)
+"src/ext/zrapp/availexps.ml" 233 5731 5748 "src/ext/zrapp/availexps.ml" 233 5731 5750
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 233 5731 5751 "src/ext/zrapp/availexps.ml" 233 5731 5753
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 232 5690 5708 "src/ext/zrapp/availexps.ml" 232 5690 5710
+)
+"src/ext/zrapp/availexps.ml" 233 5731 5751 "src/ext/zrapp/availexps.ml" 233 5731 5757
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 233 5731 5738 "src/ext/zrapp/availexps.ml" 233 5731 5757
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 234 5759 5766 "src/ext/zrapp/availexps.ml" 234 5759 5776
+type(
+  Cil.exp IH.t -> Cil.varinfo -> unit
+)
+ident(
+  int_ref eh_kill_vi "src/ext/zrapp/availexps.ml" 138 3451 3455 "src/ext/zrapp/availexps.ml" 138 3451 3465
+)
+"src/ext/zrapp/availexps.ml" 234 5759 5777 "src/ext/zrapp/availexps.ml" 234 5759 5779
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 234 5759 5780 "src/ext/zrapp/availexps.ml" 234 5759 5782
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 232 5690 5708 "src/ext/zrapp/availexps.ml" 232 5690 5710
+)
+"src/ext/zrapp/availexps.ml" 234 5759 5766 "src/ext/zrapp/availexps.ml" 234 5759 5782
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 235 5784 5794 "src/ext/zrapp/availexps.ml" 235 5784 5797
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/zrapp/availexps.ml" 235 5784 5799 "src/ext/zrapp/availexps.ml" 235 5784 5800
+type(
+  (Cil.instr -> bool) ref -> Cil.instr -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 235 5784 5800 "src/ext/zrapp/availexps.ml" 235 5784 5811
+type(
+  (Cil.instr -> bool) ref
+)
+ident(
+  int_ref ignore_call "src/ext/zrapp/availexps.ml" 35 732 736 "src/ext/zrapp/availexps.ml" 35 732 747
+)
+"src/ext/zrapp/availexps.ml" 235 5784 5798 "src/ext/zrapp/availexps.ml" 235 5784 5812
+type(
+  Cil.instr -> bool
+)
+"src/ext/zrapp/availexps.ml" 235 5784 5813 "src/ext/zrapp/availexps.ml" 235 5784 5814
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/zrapp/availexps.ml" 203 4880 4899 "src/ext/zrapp/availexps.ml" 203 4880 4900
+)
+"src/ext/zrapp/availexps.ml" 235 5784 5797 "src/ext/zrapp/availexps.ml" 235 5784 5815
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 235 5784 5794 "src/ext/zrapp/availexps.ml" 235 5784 5815
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 236 5827 5829 "src/ext/zrapp/availexps.ml" 236 5827 5840
+type(
+  Cil.exp IH.t -> unit
+)
+ident(
+  int_ref eh_kill_mem "src/ext/zrapp/availexps.ml" 115 2982 2986 "src/ext/zrapp/availexps.ml" 115 2982 2997
+)
+"src/ext/zrapp/availexps.ml" 236 5827 5841 "src/ext/zrapp/availexps.ml" 236 5827 5843
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 236 5827 5829 "src/ext/zrapp/availexps.ml" 236 5827 5843
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 237 5845 5847 "src/ext/zrapp/availexps.ml" 237 5845 5871
+type(
+  Cil.exp IH.t -> unit
+)
+ident(
+  int_ref eh_kill_addrof_or_global "src/ext/zrapp/availexps.ml" 185 4396 4400 "src/ext/zrapp/availexps.ml" 185 4396 4424
+)
+"src/ext/zrapp/availexps.ml" 237 5845 5872 "src/ext/zrapp/availexps.ml" 237 5845 5874
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 237 5845 5847 "src/ext/zrapp/availexps.ml" 237 5845 5874
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 235 5784 5821 "src/ext/zrapp/availexps.ml" 238 5875 5885
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 235 5784 5791 "src/ext/zrapp/availexps.ml" 238 5875 5885
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 239 5887 5894 "src/ext/zrapp/availexps.ml" 239 5887 5896
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 235 5784 5791 "src/ext/zrapp/availexps.ml" 239 5887 5896
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 234 5759 5766 "src/ext/zrapp/availexps.ml" 239 5887 5896
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 233 5731 5737 "src/ext/zrapp/availexps.ml" 239 5887 5897
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 240 5898 5907 "src/ext/zrapp/availexps.ml" 240 5898 5908
+type(
+  Cil.lval option
+)
+"src/ext/zrapp/availexps.ml" 240 5898 5909 "src/ext/zrapp/availexps.ml" 240 5898 5910
+type(
+  Cil.exp
+)
+"src/ext/zrapp/availexps.ml" 240 5898 5911 "src/ext/zrapp/availexps.ml" 240 5898 5912
+type(
+  Cil.exp list
+)
+"src/ext/zrapp/availexps.ml" 240 5898 5913 "src/ext/zrapp/availexps.ml" 240 5898 5914
+type(
+  Cil.location
+)
+"src/ext/zrapp/availexps.ml" 240 5898 5902 "src/ext/zrapp/availexps.ml" 240 5898 5915
+type(
+  Cil.instr
+)
+"src/ext/zrapp/availexps.ml" 241 5919 5926 "src/ext/zrapp/availexps.ml" 241 5919 5937
+type(
+  Cil.exp IH.t -> unit
+)
+ident(
+  int_ref eh_kill_mem "src/ext/zrapp/availexps.ml" 115 2982 2986 "src/ext/zrapp/availexps.ml" 115 2982 2997
+)
+"src/ext/zrapp/availexps.ml" 241 5919 5938 "src/ext/zrapp/availexps.ml" 241 5919 5940
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 241 5919 5926 "src/ext/zrapp/availexps.ml" 241 5919 5940
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 242 5942 5949 "src/ext/zrapp/availexps.ml" 242 5942 5973
+type(
+  Cil.exp IH.t -> unit
+)
+ident(
+  int_ref eh_kill_addrof_or_global "src/ext/zrapp/availexps.ml" 185 4396 4400 "src/ext/zrapp/availexps.ml" 185 4396 4424
+)
+"src/ext/zrapp/availexps.ml" 242 5942 5974 "src/ext/zrapp/availexps.ml" 242 5942 5976
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 242 5942 5949 "src/ext/zrapp/availexps.ml" 242 5942 5976
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 243 5978 5985 "src/ext/zrapp/availexps.ml" 243 5978 5987
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 242 5942 5949 "src/ext/zrapp/availexps.ml" 243 5978 5987
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 241 5919 5925 "src/ext/zrapp/availexps.ml" 243 5978 5988
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 244 5989 5997 "src/ext/zrapp/availexps.ml" 244 5989 5998
+type(
+  Cil.attributes
+)
+"src/ext/zrapp/availexps.ml" 244 5989 5999 "src/ext/zrapp/availexps.ml" 244 5989 6000
+type(
+  string list
+)
+"src/ext/zrapp/availexps.ml" 244 5989 6001 "src/ext/zrapp/availexps.ml" 244 5989 6002
+type(
+  (string option * string * Cil.lval) list
+)
+"src/ext/zrapp/availexps.ml" 244 5989 6003 "src/ext/zrapp/availexps.ml" 244 5989 6004
+type(
+  (string option * string * Cil.exp) list
+)
+"src/ext/zrapp/availexps.ml" 244 5989 6005 "src/ext/zrapp/availexps.ml" 244 5989 6006
+type(
+  string list
+)
+"src/ext/zrapp/availexps.ml" 244 5989 6007 "src/ext/zrapp/availexps.ml" 244 5989 6008
+type(
+  Cil.location
+)
+"src/ext/zrapp/availexps.ml" 244 5989 5993 "src/ext/zrapp/availexps.ml" 244 5989 6009
+type(
+  Cil.instr
+)
+"src/ext/zrapp/availexps.ml" 245 6013 6023 "src/ext/zrapp/availexps.ml" 245 6013 6024
+type(
+  UD.VS.t
+)
+"src/ext/zrapp/availexps.ml" 245 6013 6025 "src/ext/zrapp/availexps.ml" 245 6013 6026
+type(
+  UD.VS.t
+)
+ident(
+  def d "src/ext/zrapp/availexps.ml" 246 6056 6062 "src/ext/zrapp/availexps.ml" 248 6107 6117
+)
+"src/ext/zrapp/availexps.ml" 245 6013 6023 "src/ext/zrapp/availexps.ml" 245 6013 6026
+type(
+  UD.VS.t * UD.VS.t
+)
+"src/ext/zrapp/availexps.ml" 245 6013 6029 "src/ext/zrapp/availexps.ml" 245 6013 6050
+type(
+  ?acc_used:UD.VS.t -> ?acc_defs:UD.VS.t -> Cil.instr -> UD.VS.t * UD.VS.t
+)
+ident(
+  ext_ref UD.computeUseDefInstr
+)
+"src/ext/zrapp/availexps.ml" 245 6013 6051 "src/ext/zrapp/availexps.ml" 245 6013 6052
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/zrapp/availexps.ml" 203 4880 4899 "src/ext/zrapp/availexps.ml" 203 4880 4900
+)
+"src/ext/zrapp/availexps.ml" 245 6013 6029 "src/ext/zrapp/availexps.ml" 245 6013 6052
+call(
+  stack
+)
+type(
+  UD.VS.t * UD.VS.t
+)
+"src/ext/zrapp/availexps.ml" 246 6056 6063 "src/ext/zrapp/availexps.ml" 246 6056 6073
+type(
+  (UD.VS.elt -> unit) -> UD.VS.t -> unit
+)
+ident(
+  ext_ref UD.VS.iter
+)
+"src/ext/zrapp/availexps.ml" 246 6056 6079 "src/ext/zrapp/availexps.ml" 246 6056 6081
+type(
+  UD.VS.elt
+)
+ident(
+  def vi "src/ext/zrapp/availexps.ml" 247 6085 6086 "src/ext/zrapp/availexps.ml" 247 6085 6102
+)
+"src/ext/zrapp/availexps.ml" 247 6085 6086 "src/ext/zrapp/availexps.ml" 247 6085 6096
+type(
+  Cil.exp IH.t -> UD.VS.elt -> unit
+)
+ident(
+  int_ref eh_kill_vi "src/ext/zrapp/availexps.ml" 138 3451 3455 "src/ext/zrapp/availexps.ml" 138 3451 3465
+)
+"src/ext/zrapp/availexps.ml" 247 6085 6097 "src/ext/zrapp/availexps.ml" 247 6085 6099
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 247 6085 6100 "src/ext/zrapp/availexps.ml" 247 6085 6102
+type(
+  UD.VS.elt
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 246 6056 6079 "src/ext/zrapp/availexps.ml" 246 6056 6081
+)
+"src/ext/zrapp/availexps.ml" 247 6085 6086 "src/ext/zrapp/availexps.ml" 247 6085 6102
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 246 6056 6074 "src/ext/zrapp/availexps.ml" 247 6085 6103
+type(
+  UD.VS.elt -> unit
+)
+"src/ext/zrapp/availexps.ml" 247 6085 6104 "src/ext/zrapp/availexps.ml" 247 6085 6105
+type(
+  UD.VS.t
+)
+ident(
+  int_ref d "src/ext/zrapp/availexps.ml" 245 6013 6025 "src/ext/zrapp/availexps.ml" 245 6013 6026
+)
+"src/ext/zrapp/availexps.ml" 246 6056 6063 "src/ext/zrapp/availexps.ml" 247 6085 6105
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 248 6107 6114 "src/ext/zrapp/availexps.ml" 248 6107 6116
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 203 4880 4901 "src/ext/zrapp/availexps.ml" 203 4880 4903
+)
+"src/ext/zrapp/availexps.ml" 246 6056 6062 "src/ext/zrapp/availexps.ml" 248 6107 6117
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 245 6013 6019 "src/ext/zrapp/availexps.ml" 248 6107 6117
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 205 4942 4944 "src/ext/zrapp/availexps.ml" 248 6107 6117
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 204 4907 4909 "src/ext/zrapp/availexps.ml" 248 6107 6117
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 253 6152 6160 "src/ext/zrapp/availexps.ml" 253 6152 6164
+type(
+  string
+)
+ident(
+  def name "src/ext/zrapp/availexps.ml" 255 6192 6196 "src/ext/zrapp/availexps.ml" 282 6783 6788
+)
+"src/ext/zrapp/availexps.ml" 253 6152 6167 "src/ext/zrapp/availexps.ml" 253 6152 6190
+type(
+  string
+)
+"src/ext/zrapp/availexps.ml" 255 6192 6200 "src/ext/zrapp/availexps.ml" 255 6192 6205
+type(
+  bool ref
+)
+ident(
+  def debug "src/ext/zrapp/availexps.ml" 258 6259 6263 "src/ext/zrapp/availexps.ml" 282 6783 6788
+)
+"src/ext/zrapp/availexps.ml" 255 6192 6208 "src/ext/zrapp/availexps.ml" 255 6192 6213
+type(
+  bool ref
+)
+ident(
+  int_ref debug "src/ext/zrapp/availexps.ml" 17 343 347 "src/ext/zrapp/availexps.ml" 17 343 352
+)
+"src/ext/zrapp/availexps.ml" 260 6282 6290 "src/ext/zrapp/availexps.ml" 260 6282 6294
+type(
+  'a IH.t -> 'a IH.t
+)
+ident(
+  def copy "src/ext/zrapp/availexps.ml" 262 6306 6310 "src/ext/zrapp/availexps.ml" 282 6783 6788
+)
+"src/ext/zrapp/availexps.ml" 260 6282 6297 "src/ext/zrapp/availexps.ml" 260 6282 6304
+type(
+  'a IH.t -> 'a IH.t
+)
+ident(
+  ext_ref IH.copy
+)
+"src/ext/zrapp/availexps.ml" 262 6306 6314 "src/ext/zrapp/availexps.ml" 262 6306 6327
+type(
+  Cil.exp IH.t IH.t
+)
+ident(
+  def stmtStartData "src/ext/zrapp/availexps.ml" 264 6344 6348 "src/ext/zrapp/availexps.ml" 282 6783 6788
+)
+"src/ext/zrapp/availexps.ml" 262 6306 6330 "src/ext/zrapp/availexps.ml" 262 6306 6339
+type(
+  int -> Cil.exp IH.t IH.t
+)
+ident(
+  ext_ref IH.create
+)
+"src/ext/zrapp/availexps.ml" 262 6306 6340 "src/ext/zrapp/availexps.ml" 262 6306 6342
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 262 6306 6330 "src/ext/zrapp/availexps.ml" 262 6306 6342
+call(
+  stack
+)
+type(
+  Cil.exp IH.t IH.t
+)
+"src/ext/zrapp/availexps.ml" 264 6344 6352 "src/ext/zrapp/availexps.ml" 264 6344 6358
+type(
+  unit -> Cil.exp IH.t -> Pretty.doc
+)
+ident(
+  def pretty "src/ext/zrapp/availexps.ml" 266 6372 6376 "src/ext/zrapp/availexps.ml" 282 6783 6788
+)
+"src/ext/zrapp/availexps.ml" 264 6344 6361 "src/ext/zrapp/availexps.ml" 264 6344 6370
+type(
+  unit -> Cil.exp IH.t -> Pretty.doc
+)
+ident(
+  int_ref eh_pretty "src/ext/zrapp/availexps.ml" 59 1337 1341 "src/ext/zrapp/availexps.ml" 59 1337 1350
+)
+"src/ext/zrapp/availexps.ml" 266 6372 6380 "src/ext/zrapp/availexps.ml" 266 6372 6403
+type(
+  'b -> 'c -> 'c
+)
+ident(
+  def computeFirstPredecessor "src/ext/zrapp/availexps.ml" 268 6417 6421 "src/ext/zrapp/availexps.ml" 282 6783 6788
+)
+"src/ext/zrapp/availexps.ml" 266 6372 6404 "src/ext/zrapp/availexps.ml" 266 6372 6407
+type(
+  'b
+)
+ident(
+  def stm "src/ext/zrapp/availexps.ml" 266 6372 6408 "src/ext/zrapp/availexps.ml" 266 6372 6415
+)
+"src/ext/zrapp/availexps.ml" 266 6372 6408 "src/ext/zrapp/availexps.ml" 266 6372 6410
+type(
+  'c
+)
+ident(
+  def eh "src/ext/zrapp/availexps.ml" 266 6372 6413 "src/ext/zrapp/availexps.ml" 266 6372 6415
+)
+"src/ext/zrapp/availexps.ml" 266 6372 6413 "src/ext/zrapp/availexps.ml" 266 6372 6415
+type(
+  'c
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 266 6372 6408 "src/ext/zrapp/availexps.ml" 266 6372 6410
+)
+"src/ext/zrapp/availexps.ml" 268 6417 6425 "src/ext/zrapp/availexps.ml" 268 6417 6444
+type(
+  Cil.stmt -> old:t -> t -> Cil.exp IH.t option
+)
+ident(
+  def combinePredecessors "src/ext/zrapp/availexps.ml" 272 6585 6589 "src/ext/zrapp/availexps.ml" 282 6783 6788
+)
+"src/ext/zrapp/availexps.ml" 268 6417 6446 "src/ext/zrapp/availexps.ml" 268 6417 6449
+type(
+  Cil.stmt
+)
+ident(
+  def stm "src/ext/zrapp/availexps.ml" 268 6417 6456 "src/ext/zrapp/availexps.ml" 270 6534 6583
+)
+"src/ext/zrapp/availexps.ml" 268 6417 6458 "src/ext/zrapp/availexps.ml" 268 6417 6461
+type(
+  t
+)
+ident(
+  def old "src/ext/zrapp/availexps.ml" 268 6417 6465 "src/ext/zrapp/availexps.ml" 270 6534 6583
+)
+"src/ext/zrapp/availexps.ml" 268 6417 6466 "src/ext/zrapp/availexps.ml" 268 6417 6468
+type(
+  t
+)
+ident(
+  def eh "src/ext/zrapp/availexps.ml" 269 6474 6480 "src/ext/zrapp/availexps.ml" 270 6534 6583
+)
+"src/ext/zrapp/availexps.ml" 269 6474 6483 "src/ext/zrapp/availexps.ml" 269 6474 6487
+type(
+  string -> (Cil.exp IH.t -> bool) -> Cil.exp IH.t -> bool
+)
+ident(
+  int_ref time "src/ext/zrapp/availexps.ml" 21 390 394 "src/ext/zrapp/availexps.ml" 21 390 398
+)
+"src/ext/zrapp/availexps.ml" 269 6474 6488 "src/ext/zrapp/availexps.ml" 269 6474 6499
+type(
+  string
+)
+"src/ext/zrapp/availexps.ml" 269 6474 6501 "src/ext/zrapp/availexps.ml" 269 6474 6510
+type(
+  Cil.exp IH.t -> Cil.exp IH.t -> bool
+)
+ident(
+  int_ref eh_equals "src/ext/zrapp/availexps.ml" 47 1056 1060 "src/ext/zrapp/availexps.ml" 47 1056 1069
+)
+"src/ext/zrapp/availexps.ml" 269 6474 6511 "src/ext/zrapp/availexps.ml" 269 6474 6514
+type(
+  t
+)
+ident(
+  int_ref old "src/ext/zrapp/availexps.ml" 268 6417 6458 "src/ext/zrapp/availexps.ml" 268 6417 6461
+)
+"src/ext/zrapp/availexps.ml" 269 6474 6500 "src/ext/zrapp/availexps.ml" 269 6474 6515
+call(
+  stack
+)
+type(
+  Cil.exp IH.t -> bool
+)
+"src/ext/zrapp/availexps.ml" 269 6474 6516 "src/ext/zrapp/availexps.ml" 269 6474 6518
+type(
+  t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 268 6417 6466 "src/ext/zrapp/availexps.ml" 268 6417 6468
+)
+"src/ext/zrapp/availexps.ml" 269 6474 6483 "src/ext/zrapp/availexps.ml" 269 6474 6518
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 269 6474 6524 "src/ext/zrapp/availexps.ml" 269 6474 6528
+type(
+  Cil.exp IH.t option
+)
+"src/ext/zrapp/availexps.ml" 270 6534 6545 "src/ext/zrapp/availexps.ml" 270 6534 6549
+type(
+  string -> (Cil.exp IH.t -> Cil.exp IH.t) -> Cil.exp IH.t -> Cil.exp IH.t
+)
+ident(
+  int_ref time "src/ext/zrapp/availexps.ml" 21 390 394 "src/ext/zrapp/availexps.ml" 21 390 398
+)
+"src/ext/zrapp/availexps.ml" 270 6534 6550 "src/ext/zrapp/availexps.ml" 270 6534 6562
+type(
+  string
+)
+"src/ext/zrapp/availexps.ml" 270 6534 6564 "src/ext/zrapp/availexps.ml" 270 6534 6574
+type(
+  Cil.exp IH.t -> Cil.exp IH.t -> Cil.exp IH.t
+)
+ident(
+  int_ref eh_combine "src/ext/zrapp/availexps.ml" 65 1566 1570 "src/ext/zrapp/availexps.ml" 65 1566 1580
+)
+"src/ext/zrapp/availexps.ml" 270 6534 6575 "src/ext/zrapp/availexps.ml" 270 6534 6578
+type(
+  t
+)
+ident(
+  int_ref old "src/ext/zrapp/availexps.ml" 268 6417 6458 "src/ext/zrapp/availexps.ml" 268 6417 6461
+)
+"src/ext/zrapp/availexps.ml" 270 6534 6563 "src/ext/zrapp/availexps.ml" 270 6534 6579
+call(
+  stack
+)
+type(
+  Cil.exp IH.t -> Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 270 6534 6580 "src/ext/zrapp/availexps.ml" 270 6534 6582
+type(
+  t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 268 6417 6466 "src/ext/zrapp/availexps.ml" 268 6417 6468
+)
+"src/ext/zrapp/availexps.ml" 270 6534 6544 "src/ext/zrapp/availexps.ml" 270 6534 6583
+call(
+  stack
+)
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 270 6534 6540 "src/ext/zrapp/availexps.ml" 270 6534 6583
+type(
+  Cil.exp IH.t option
+)
+"src/ext/zrapp/availexps.ml" 269 6474 6480 "src/ext/zrapp/availexps.ml" 270 6534 6583
+type(
+  Cil.exp IH.t option
+)
+"src/ext/zrapp/availexps.ml" 272 6585 6593 "src/ext/zrapp/availexps.ml" 272 6585 6600
+type(
+  Cil.instr -> 'd -> Cil.exp IH.t DF.action
+)
+ident(
+  def doInstr "src/ext/zrapp/availexps.ml" 276 6671 6675 "src/ext/zrapp/availexps.ml" 282 6783 6788
+)
+"src/ext/zrapp/availexps.ml" 272 6585 6601 "src/ext/zrapp/availexps.ml" 272 6585 6602
+type(
+  Cil.instr
+)
+ident(
+  def i "src/ext/zrapp/availexps.ml" 272 6585 6603 "src/ext/zrapp/availexps.ml" 274 6648 6669
+)
+"src/ext/zrapp/availexps.ml" 272 6585 6603 "src/ext/zrapp/availexps.ml" 272 6585 6605
+type(
+  'd
+)
+ident(
+  def eh "src/ext/zrapp/availexps.ml" 273 6609 6615 "src/ext/zrapp/availexps.ml" 274 6648 6669
+)
+"src/ext/zrapp/availexps.ml" 273 6609 6619 "src/ext/zrapp/availexps.ml" 273 6609 6625
+type(
+  Cil.exp IH.t -> Cil.exp IH.t
+)
+ident(
+  def action "src/ext/zrapp/availexps.ml" 274 6648 6654 "src/ext/zrapp/availexps.ml" 274 6648 6669
+)
+"src/ext/zrapp/availexps.ml" 273 6609 6628 "src/ext/zrapp/availexps.ml" 273 6609 6642
+type(
+  Cil.instr -> Cil.exp IH.t -> Cil.exp IH.t
+)
+ident(
+  int_ref eh_handle_inst "src/ext/zrapp/availexps.ml" 203 4880 4884 "src/ext/zrapp/availexps.ml" 203 4880 4898
+)
+"src/ext/zrapp/availexps.ml" 273 6609 6643 "src/ext/zrapp/availexps.ml" 273 6609 6644
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/zrapp/availexps.ml" 272 6585 6601 "src/ext/zrapp/availexps.ml" 272 6585 6602
+)
+"src/ext/zrapp/availexps.ml" 273 6609 6628 "src/ext/zrapp/availexps.ml" 273 6609 6644
+call(
+  stack
+)
+type(
+  Cil.exp IH.t -> Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 274 6648 6661 "src/ext/zrapp/availexps.ml" 274 6648 6669
+type(
+  Cil.exp IH.t -> Cil.exp IH.t
+)
+ident(
+  int_ref action "src/ext/zrapp/availexps.ml" 273 6609 6619 "src/ext/zrapp/availexps.ml" 273 6609 6625
+)
+"src/ext/zrapp/availexps.ml" 274 6648 6654 "src/ext/zrapp/availexps.ml" 274 6648 6669
+type(
+  Cil.exp IH.t DF.action
+)
+"src/ext/zrapp/availexps.ml" 273 6609 6615 "src/ext/zrapp/availexps.ml" 274 6648 6669
+type(
+  Cil.exp IH.t DF.action
+)
+"src/ext/zrapp/availexps.ml" 276 6671 6679 "src/ext/zrapp/availexps.ml" 276 6671 6685
+type(
+  'e -> 'f -> 'g DF.stmtaction
+)
+ident(
+  def doStmt "src/ext/zrapp/availexps.ml" 278 6712 6716 "src/ext/zrapp/availexps.ml" 282 6783 6788
+)
+"src/ext/zrapp/availexps.ml" 276 6671 6686 "src/ext/zrapp/availexps.ml" 276 6671 6689
+type(
+  'e
+)
+ident(
+  def stm "src/ext/zrapp/availexps.ml" 276 6671 6690 "src/ext/zrapp/availexps.ml" 276 6671 6710
+)
+"src/ext/zrapp/availexps.ml" 276 6671 6690 "src/ext/zrapp/availexps.ml" 276 6671 6696
+type(
+  'f
+)
+ident(
+  def astate "src/ext/zrapp/availexps.ml" 276 6671 6699 "src/ext/zrapp/availexps.ml" 276 6671 6710
+)
+"src/ext/zrapp/availexps.ml" 276 6671 6699 "src/ext/zrapp/availexps.ml" 276 6671 6710
+type(
+  'g DF.stmtaction
+)
+"src/ext/zrapp/availexps.ml" 278 6712 6720 "src/ext/zrapp/availexps.ml" 278 6712 6727
+type(
+  'h -> 'i -> 'j DF.guardaction
+)
+ident(
+  def doGuard "src/ext/zrapp/availexps.ml" 280 6752 6756 "src/ext/zrapp/availexps.ml" 282 6783 6788
+)
+"src/ext/zrapp/availexps.ml" 278 6712 6728 "src/ext/zrapp/availexps.ml" 278 6712 6729
+type(
+  'h
+)
+ident(
+  def c "src/ext/zrapp/availexps.ml" 278 6712 6730 "src/ext/zrapp/availexps.ml" 278 6712 6750
+)
+"src/ext/zrapp/availexps.ml" 278 6712 6730 "src/ext/zrapp/availexps.ml" 278 6712 6736
+type(
+  'i
+)
+ident(
+  def astate "src/ext/zrapp/availexps.ml" 278 6712 6739 "src/ext/zrapp/availexps.ml" 278 6712 6750
+)
+"src/ext/zrapp/availexps.ml" 278 6712 6739 "src/ext/zrapp/availexps.ml" 278 6712 6750
+type(
+  'j DF.guardaction
+)
+"src/ext/zrapp/availexps.ml" 280 6752 6760 "src/ext/zrapp/availexps.ml" 280 6752 6770
+type(
+  'k -> bool
+)
+ident(
+  def filterStmt "src/ext/zrapp/availexps.ml" 280 6752 6781 "src/ext/zrapp/availexps.ml" 282 6783 6788
+)
+"src/ext/zrapp/availexps.ml" 280 6752 6771 "src/ext/zrapp/availexps.ml" 280 6752 6774
+type(
+  'k
+)
+ident(
+  def stm "src/ext/zrapp/availexps.ml" 280 6752 6777 "src/ext/zrapp/availexps.ml" 280 6752 6781
+)
+"src/ext/zrapp/availexps.ml" 280 6752 6777 "src/ext/zrapp/availexps.ml" 280 6752 6781
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 284 6790 6802 "src/ext/zrapp/availexps.ml" 284 6790 6836
+call(
+  stack
+)
+"src/ext/zrapp/availexps.ml" 289 6928 6960 "src/ext/zrapp/availexps.ml" 289 6928 6966
+type(
+  < queueInstr : Cil.instr list -> unit;
+    unqueueInstr : unit -> Cil.instr list;
+    vattr : Cil.attribute -> Cil.attribute list Cil.visitAction;
+    vattrparam : Cil.attrparam -> Cil.attrparam Cil.visitAction;
+    vblock : Cil.block -> Cil.block Cil.visitAction;
+    vexpr : Cil.exp -> Cil.exp Cil.visitAction;
+    vfunc : Cil.fundec -> Cil.fundec Cil.visitAction;
+    vglob : Cil.global -> Cil.global list Cil.visitAction;
+    vinit : Cil.varinfo -> Cil.offset -> Cil.init -> Cil.init Cil.visitAction;
+    vinitoffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vinst : Cil.instr -> Cil.instr list Cil.visitAction;
+    vlval : Cil.lval -> Cil.lval Cil.visitAction;
+    voffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vstmt : Cil.stmt -> Cil.stmt Cil.visitAction;
+    vtype : Cil.typ -> Cil.typ Cil.visitAction;
+    vvdec : Cil.varinfo -> Cil.varinfo Cil.visitAction;
+    vvrbl : Cil.varinfo -> Cil.varinfo Cil.visitAction; .. >
+)
+"src/ext/zrapp/availexps.ml" 292 6992 7007 "src/ext/zrapp/availexps.ml" 292 6992 7009
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/zrapp/availexps.ml" 293 7012 7016 "src/ext/zrapp/availexps.ml" 298 7251 7265
+)
+"src/ext/zrapp/availexps.ml" 293 7012 7020 "src/ext/zrapp/availexps.ml" 293 7012 7023
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/zrapp/availexps.ml" 293 7012 7024 "src/ext/zrapp/availexps.ml" 293 7012 7030
+type(
+  Cil.varinfo IH.t -> int -> bool
+)
+ident(
+  ext_ref IH.mem
+)
+"src/ext/zrapp/availexps.ml" 293 7012 7031 "src/ext/zrapp/availexps.ml" 293 7012 7038
+type(
+  Cil.varinfo IH.t
+)
+ident(
+  int_ref varHash "src/ext/zrapp/availexps.ml" 183 4368 4372 "src/ext/zrapp/availexps.ml" 183 4368 4379
+)
+"src/ext/zrapp/availexps.ml" 293 7012 7039 "src/ext/zrapp/availexps.ml" 293 7012 7041
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 292 6992 7007 "src/ext/zrapp/availexps.ml" 292 6992 7009
+)
+"src/ext/zrapp/availexps.ml" 293 7012 7039 "src/ext/zrapp/availexps.ml" 293 7012 7045
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 293 7012 7023 "src/ext/zrapp/availexps.ml" 293 7012 7046
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 293 7012 7020 "src/ext/zrapp/availexps.ml" 293 7012 7046
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 295 7057 7067 "src/ext/zrapp/availexps.ml" 295 7057 7068
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 295 7057 7068 "src/ext/zrapp/availexps.ml" 295 7057 7073
+type(
+  bool ref
+)
+ident(
+  int_ref debug "src/ext/zrapp/availexps.ml" 17 343 347 "src/ext/zrapp/availexps.ml" 17 343 352
+)
+"src/ext/zrapp/availexps.ml" 295 7057 7067 "src/ext/zrapp/availexps.ml" 295 7057 7073
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 295 7057 7074 "src/ext/zrapp/availexps.ml" 295 7057 7076
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/zrapp/availexps.ml" 295 7057 7077 "src/ext/zrapp/availexps.ml" 295 7057 7079
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 292 6992 7007 "src/ext/zrapp/availexps.ml" 292 6992 7009
+)
+"src/ext/zrapp/availexps.ml" 295 7057 7077 "src/ext/zrapp/availexps.ml" 295 7057 7085
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 295 7057 7067 "src/ext/zrapp/availexps.ml" 295 7057 7085
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 295 7057 7091 "src/ext/zrapp/availexps.ml" 295 7057 7097
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 295 7057 7098 "src/ext/zrapp/availexps.ml" 295 7057 7103
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/zrapp/availexps.ml" 295 7057 7104 "src/ext/zrapp/availexps.ml" 295 7057 7120
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/zrapp/availexps.ml" 295 7057 7121 "src/ext/zrapp/availexps.ml" 295 7057 7123
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 292 6992 7007 "src/ext/zrapp/availexps.ml" 292 6992 7009
+)
+"src/ext/zrapp/availexps.ml" 295 7057 7121 "src/ext/zrapp/availexps.ml" 295 7057 7129
+type(
+  string
+)
+"src/ext/zrapp/availexps.ml" 295 7057 7097 "src/ext/zrapp/availexps.ml" 295 7057 7130
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 295 7057 7091 "src/ext/zrapp/availexps.ml" 295 7057 7130
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 295 7057 7064 "src/ext/zrapp/availexps.ml" 295 7057 7130
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 296 7132 7142 "src/ext/zrapp/availexps.ml" 296 7132 7143
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 296 7132 7143 "src/ext/zrapp/availexps.ml" 296 7132 7148
+type(
+  bool ref
+)
+ident(
+  int_ref debug "src/ext/zrapp/availexps.ml" 17 343 347 "src/ext/zrapp/availexps.ml" 17 343 352
+)
+"src/ext/zrapp/availexps.ml" 296 7132 7142 "src/ext/zrapp/availexps.ml" 296 7132 7148
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 296 7132 7149 "src/ext/zrapp/availexps.ml" 296 7132 7151
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/zrapp/availexps.ml" 296 7132 7152 "src/ext/zrapp/availexps.ml" 296 7132 7155
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/zrapp/availexps.ml" 296 7132 7156 "src/ext/zrapp/availexps.ml" 296 7132 7158
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 292 6992 7007 "src/ext/zrapp/availexps.ml" 292 6992 7009
+)
+"src/ext/zrapp/availexps.ml" 296 7132 7155 "src/ext/zrapp/availexps.ml" 296 7132 7165
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 296 7132 7152 "src/ext/zrapp/availexps.ml" 296 7132 7165
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 296 7132 7142 "src/ext/zrapp/availexps.ml" 296 7132 7165
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 296 7132 7171 "src/ext/zrapp/availexps.ml" 296 7132 7177
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 296 7132 7178 "src/ext/zrapp/availexps.ml" 296 7132 7183
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/zrapp/availexps.ml" 296 7132 7184 "src/ext/zrapp/availexps.ml" 296 7132 7204
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/zrapp/availexps.ml" 296 7132 7205 "src/ext/zrapp/availexps.ml" 296 7132 7207
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 292 6992 7007 "src/ext/zrapp/availexps.ml" 292 6992 7009
+)
+"src/ext/zrapp/availexps.ml" 296 7132 7205 "src/ext/zrapp/availexps.ml" 296 7132 7213
+type(
+  string
+)
+"src/ext/zrapp/availexps.ml" 296 7132 7177 "src/ext/zrapp/availexps.ml" 296 7132 7214
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 296 7132 7171 "src/ext/zrapp/availexps.ml" 296 7132 7214
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 296 7132 7139 "src/ext/zrapp/availexps.ml" 296 7132 7214
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 297 7216 7223 "src/ext/zrapp/availexps.ml" 297 7216 7229
+type(
+  Cil.varinfo IH.t -> int -> Cil.varinfo -> unit
+)
+ident(
+  ext_ref IH.add
+)
+"src/ext/zrapp/availexps.ml" 297 7216 7230 "src/ext/zrapp/availexps.ml" 297 7216 7237
+type(
+  Cil.varinfo IH.t
+)
+ident(
+  int_ref varHash "src/ext/zrapp/availexps.ml" 183 4368 4372 "src/ext/zrapp/availexps.ml" 183 4368 4379
+)
+"src/ext/zrapp/availexps.ml" 297 7216 7238 "src/ext/zrapp/availexps.ml" 297 7216 7240
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 292 6992 7007 "src/ext/zrapp/availexps.ml" 292 6992 7009
+)
+"src/ext/zrapp/availexps.ml" 297 7216 7238 "src/ext/zrapp/availexps.ml" 297 7216 7244
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 297 7216 7245 "src/ext/zrapp/availexps.ml" 297 7216 7247
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/zrapp/availexps.ml" 292 6992 7007 "src/ext/zrapp/availexps.ml" 292 6992 7009
+)
+"src/ext/zrapp/availexps.ml" 297 7216 7223 "src/ext/zrapp/availexps.ml" 297 7216 7247
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 296 7132 7139 "src/ext/zrapp/availexps.ml" 297 7216 7247
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 295 7057 7063 "src/ext/zrapp/availexps.ml" 297 7216 7248
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 293 7012 7016 "src/ext/zrapp/availexps.ml" 297 7216 7249
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 298 7251 7255 "src/ext/zrapp/availexps.ml" 298 7251 7265
+type(
+  Cil.varinfo Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 293 7012 7016 "src/ext/zrapp/availexps.ml" 298 7251 7265
+type(
+  Cil.varinfo Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 302 7272 7276 "src/ext/zrapp/availexps.ml" 302 7272 7288
+type(
+  varHashMakerClass
+)
+ident(
+  def varHashMaker "src/ext/zrapp/availexps.ml" 304 7314 7314 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 302 7272 7295 "src/ext/zrapp/availexps.ml" 302 7272 7312
+call(
+  stack
+)
+"src/ext/zrapp/availexps.ml" 302 7272 7291 "src/ext/zrapp/availexps.ml" 302 7272 7312
+type(
+  varHashMakerClass
+)
+"src/ext/zrapp/availexps.ml" 304 7314 7318 "src/ext/zrapp/availexps.ml" 304 7314 7331
+type(
+  Cil.fundec -> unit
+)
+ident(
+  def make_var_hash "src/ext/zrapp/availexps.ml" 313 7447 7447 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 304 7314 7332 "src/ext/zrapp/availexps.ml" 304 7314 7334
+type(
+  Cil.fundec
+)
+ident(
+  def fd "src/ext/zrapp/availexps.ml" 305 7337 7339 "src/ext/zrapp/availexps.ml" 306 7357 7399
+)
+"src/ext/zrapp/availexps.ml" 305 7337 7339 "src/ext/zrapp/availexps.ml" 305 7337 7347
+type(
+  Cil.varinfo IH.t -> unit
+)
+ident(
+  ext_ref IH.clear
+)
+"src/ext/zrapp/availexps.ml" 305 7337 7348 "src/ext/zrapp/availexps.ml" 305 7337 7355
+type(
+  Cil.varinfo IH.t
+)
+ident(
+  int_ref varHash "src/ext/zrapp/availexps.ml" 183 4368 4372 "src/ext/zrapp/availexps.ml" 183 4368 4379
+)
+"src/ext/zrapp/availexps.ml" 305 7337 7339 "src/ext/zrapp/availexps.ml" 305 7337 7355
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 306 7357 7359 "src/ext/zrapp/availexps.ml" 306 7357 7365
+type(
+  Cil.fundec -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 306 7357 7366 "src/ext/zrapp/availexps.ml" 306 7357 7382
+type(
+  Cil.cilVisitor -> Cil.fundec -> Cil.fundec
+)
+ident(
+  ext_ref Cil.visitCilFunction
+)
+"src/ext/zrapp/availexps.ml" 306 7357 7383 "src/ext/zrapp/availexps.ml" 306 7357 7395
+type(
+  varHashMakerClass
+)
+ident(
+  int_ref varHashMaker "src/ext/zrapp/availexps.ml" 302 7272 7276 "src/ext/zrapp/availexps.ml" 302 7272 7288
+)
+"src/ext/zrapp/availexps.ml" 306 7357 7396 "src/ext/zrapp/availexps.ml" 306 7357 7398
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fd "src/ext/zrapp/availexps.ml" 304 7314 7332 "src/ext/zrapp/availexps.ml" 304 7314 7334
+)
+"src/ext/zrapp/availexps.ml" 306 7357 7365 "src/ext/zrapp/availexps.ml" 306 7357 7399
+call(
+  stack
+)
+type(
+  Cil.fundec
+)
+"src/ext/zrapp/availexps.ml" 306 7357 7359 "src/ext/zrapp/availexps.ml" 306 7357 7399
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 305 7337 7339 "src/ext/zrapp/availexps.ml" 306 7357 7399
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 313 7447 7451 "src/ext/zrapp/availexps.ml" 313 7447 7461
+type(
+  Cil.fundec -> unit
+)
+ident(
+  def computeAEs "src/ext/zrapp/availexps.ml" 325 7909 7909 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 313 7447 7462 "src/ext/zrapp/availexps.ml" 313 7447 7464
+type(
+  Cil.fundec
+)
+ident(
+  def fd "src/ext/zrapp/availexps.ml" 314 7467 7469 "src/ext/zrapp/availexps.ml" 321 7796 7868
+)
+"src/ext/zrapp/availexps.ml" 314 7467 7477 "src/ext/zrapp/availexps.ml" 314 7467 7481
+type(
+  Cil.stmt list
+)
+ident(
+  def slst "src/ext/zrapp/availexps.ml" 315 7503 7505 "src/ext/zrapp/availexps.ml" 319 7684 7723
+)
+"src/ext/zrapp/availexps.ml" 314 7467 7484 "src/ext/zrapp/availexps.ml" 314 7467 7486
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fd "src/ext/zrapp/availexps.ml" 313 7447 7462 "src/ext/zrapp/availexps.ml" 313 7447 7464
+)
+"src/ext/zrapp/availexps.ml" 314 7467 7484 "src/ext/zrapp/availexps.ml" 314 7467 7492
+type(
+  Cil.block
+)
+"src/ext/zrapp/availexps.ml" 314 7467 7484 "src/ext/zrapp/availexps.ml" 314 7467 7499
+type(
+  Cil.stmt list
+)
+"src/ext/zrapp/availexps.ml" 315 7503 7509 "src/ext/zrapp/availexps.ml" 315 7503 7518
+type(
+  Cil.stmt
+)
+ident(
+  def first_stm "src/ext/zrapp/availexps.ml" 316 7537 7539 "src/ext/zrapp/availexps.ml" 319 7684 7723
+)
+"src/ext/zrapp/availexps.ml" 315 7503 7521 "src/ext/zrapp/availexps.ml" 315 7503 7528
+type(
+  Cil.stmt list -> Cil.stmt
+)
+ident(
+  ext_ref List.hd
+)
+"src/ext/zrapp/availexps.ml" 315 7503 7529 "src/ext/zrapp/availexps.ml" 315 7503 7533
+type(
+  Cil.stmt list
+)
+ident(
+  int_ref slst "src/ext/zrapp/availexps.ml" 314 7467 7477 "src/ext/zrapp/availexps.ml" 314 7467 7481
+)
+"src/ext/zrapp/availexps.ml" 315 7503 7521 "src/ext/zrapp/availexps.ml" 315 7503 7533
+call(
+  stack
+)
+type(
+  Cil.stmt
+)
+"src/ext/zrapp/availexps.ml" 316 7537 7539 "src/ext/zrapp/availexps.ml" 316 7537 7543
+type(
+  string -> (Cil.fundec -> unit) -> Cil.fundec -> unit
+)
+ident(
+  int_ref time "src/ext/zrapp/availexps.ml" 21 390 394 "src/ext/zrapp/availexps.ml" 21 390 398
+)
+"src/ext/zrapp/availexps.ml" 316 7537 7544 "src/ext/zrapp/availexps.ml" 316 7537 7559
+type(
+  string
+)
+"src/ext/zrapp/availexps.ml" 316 7537 7560 "src/ext/zrapp/availexps.ml" 316 7537 7573
+type(
+  Cil.fundec -> unit
+)
+ident(
+  int_ref make_var_hash "src/ext/zrapp/availexps.ml" 304 7314 7318 "src/ext/zrapp/availexps.ml" 304 7314 7331
+)
+"src/ext/zrapp/availexps.ml" 316 7537 7574 "src/ext/zrapp/availexps.ml" 316 7537 7576
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fd "src/ext/zrapp/availexps.ml" 313 7447 7462 "src/ext/zrapp/availexps.ml" 313 7447 7464
+)
+"src/ext/zrapp/availexps.ml" 316 7537 7539 "src/ext/zrapp/availexps.ml" 316 7537 7576
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 317 7578 7580 "src/ext/zrapp/availexps.ml" 317 7578 7588
+type(
+  Cil.exp IH.t IH.t -> unit
+)
+ident(
+  ext_ref IH.clear
+)
+"src/ext/zrapp/availexps.ml" 317 7578 7589 "src/ext/zrapp/availexps.ml" 317 7578 7616
+type(
+  Cil.exp IH.t IH.t
+)
+ident(
+  int_ref AvailableExps.stmtStartData "src/ext/zrapp/availexps.ml" 262 6306 6314 "src/ext/zrapp/availexps.ml" 262 6306 6327
+)
+"src/ext/zrapp/availexps.ml" 317 7578 7580 "src/ext/zrapp/availexps.ml" 317 7578 7616
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 318 7618 7620 "src/ext/zrapp/availexps.ml" 318 7618 7626
+type(
+  Cil.exp IH.t IH.t -> int -> Cil.exp IH.t -> unit
+)
+ident(
+  ext_ref IH.add
+)
+"src/ext/zrapp/availexps.ml" 318 7618 7627 "src/ext/zrapp/availexps.ml" 318 7618 7654
+type(
+  Cil.exp IH.t IH.t
+)
+ident(
+  int_ref AvailableExps.stmtStartData "src/ext/zrapp/availexps.ml" 262 6306 6314 "src/ext/zrapp/availexps.ml" 262 6306 6327
+)
+"src/ext/zrapp/availexps.ml" 318 7618 7655 "src/ext/zrapp/availexps.ml" 318 7618 7664
+type(
+  Cil.stmt
+)
+ident(
+  int_ref first_stm "src/ext/zrapp/availexps.ml" 315 7503 7509 "src/ext/zrapp/availexps.ml" 315 7503 7518
+)
+"src/ext/zrapp/availexps.ml" 318 7618 7655 "src/ext/zrapp/availexps.ml" 318 7618 7668
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 318 7618 7670 "src/ext/zrapp/availexps.ml" 318 7618 7679
+type(
+  int -> Cil.exp IH.t
+)
+ident(
+  ext_ref IH.create
+)
+"src/ext/zrapp/availexps.ml" 318 7618 7680 "src/ext/zrapp/availexps.ml" 318 7618 7681
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 318 7618 7669 "src/ext/zrapp/availexps.ml" 318 7618 7682
+call(
+  stack
+)
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 318 7618 7620 "src/ext/zrapp/availexps.ml" 318 7618 7682
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 319 7684 7686 "src/ext/zrapp/availexps.ml" 319 7684 7690
+type(
+  string -> (Cil.stmt list -> unit) -> Cil.stmt list -> unit
+)
+ident(
+  int_ref time "src/ext/zrapp/availexps.ml" 21 390 394 "src/ext/zrapp/availexps.ml" 21 390 398
+)
+"src/ext/zrapp/availexps.ml" 319 7684 7691 "src/ext/zrapp/availexps.ml" 319 7684 7700
+type(
+  string
+)
+"src/ext/zrapp/availexps.ml" 319 7684 7701 "src/ext/zrapp/availexps.ml" 319 7684 7711
+type(
+  Cil.stmt list -> unit
+)
+ident(
+  ext_ref AE.compute
+)
+"src/ext/zrapp/availexps.ml" 319 7684 7713 "src/ext/zrapp/availexps.ml" 319 7684 7722
+type(
+  Cil.stmt
+)
+ident(
+  int_ref first_stm "src/ext/zrapp/availexps.ml" 315 7503 7509 "src/ext/zrapp/availexps.ml" 315 7503 7518
+)
+"src/ext/zrapp/availexps.ml" 319 7684 7712 "src/ext/zrapp/availexps.ml" 319 7684 7723
+type(
+  Cil.stmt list
+)
+"src/ext/zrapp/availexps.ml" 319 7684 7686 "src/ext/zrapp/availexps.ml" 319 7684 7723
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 318 7618 7620 "src/ext/zrapp/availexps.ml" 319 7684 7723
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 317 7578 7580 "src/ext/zrapp/availexps.ml" 319 7684 7723
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 316 7537 7539 "src/ext/zrapp/availexps.ml" 319 7684 7723
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 315 7503 7505 "src/ext/zrapp/availexps.ml" 319 7684 7723
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 314 7467 7473 "src/ext/zrapp/availexps.ml" 319 7684 7723
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 320 7724 7739 "src/ext/zrapp/availexps.ml" 320 7724 7743
+type(
+  string
+)
+"src/ext/zrapp/availexps.ml" 320 7724 7731 "src/ext/zrapp/availexps.ml" 320 7724 7743
+type(
+  exn
+)
+"src/ext/zrapp/availexps.ml" 320 7724 7750 "src/ext/zrapp/availexps.ml" 320 7724 7751
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 320 7724 7751 "src/ext/zrapp/availexps.ml" 320 7724 7756
+type(
+  bool ref
+)
+ident(
+  int_ref debug "src/ext/zrapp/availexps.ml" 17 343 347 "src/ext/zrapp/availexps.ml" 17 343 352
+)
+"src/ext/zrapp/availexps.ml" 320 7724 7750 "src/ext/zrapp/availexps.ml" 320 7724 7756
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 320 7724 7762 "src/ext/zrapp/availexps.ml" 320 7724 7768
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 320 7724 7769 "src/ext/zrapp/availexps.ml" 320 7724 7774
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/zrapp/availexps.ml" 320 7724 7775 "src/ext/zrapp/availexps.ml" 320 7724 7794
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/zrapp/availexps.ml" 320 7724 7768 "src/ext/zrapp/availexps.ml" 320 7724 7795
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 320 7724 7762 "src/ext/zrapp/availexps.ml" 320 7724 7795
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 320 7724 7747 "src/ext/zrapp/availexps.ml" 320 7724 7795
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 321 7796 7800 "src/ext/zrapp/availexps.ml" 321 7796 7809
+type(
+  exn
+)
+"src/ext/zrapp/availexps.ml" 321 7796 7816 "src/ext/zrapp/availexps.ml" 321 7796 7817
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 321 7796 7817 "src/ext/zrapp/availexps.ml" 321 7796 7822
+type(
+  bool ref
+)
+ident(
+  int_ref debug "src/ext/zrapp/availexps.ml" 17 343 347 "src/ext/zrapp/availexps.ml" 17 343 352
+)
+"src/ext/zrapp/availexps.ml" 321 7796 7816 "src/ext/zrapp/availexps.ml" 321 7796 7822
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 321 7796 7828 "src/ext/zrapp/availexps.ml" 321 7796 7834
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 321 7796 7835 "src/ext/zrapp/availexps.ml" 321 7796 7840
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/zrapp/availexps.ml" 321 7796 7841 "src/ext/zrapp/availexps.ml" 321 7796 7867
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/zrapp/availexps.ml" 321 7796 7834 "src/ext/zrapp/availexps.ml" 321 7796 7868
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 321 7796 7828 "src/ext/zrapp/availexps.ml" 321 7796 7868
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 321 7796 7813 "src/ext/zrapp/availexps.ml" 321 7796 7868
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 314 7467 7469 "src/ext/zrapp/availexps.ml" 321 7796 7868
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 325 7909 7913 "src/ext/zrapp/availexps.ml" 325 7909 7919
+type(
+  int -> Cil.exp IH.t option
+)
+ident(
+  def getAEs "src/ext/zrapp/availexps.ml" 330 8050 8050 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 325 7909 7920 "src/ext/zrapp/availexps.ml" 325 7909 7923
+type(
+  int
+)
+ident(
+  def sid "src/ext/zrapp/availexps.ml" 326 7926 7928 "src/ext/zrapp/availexps.ml" 327 7978 8002
+)
+"src/ext/zrapp/availexps.ml" 326 7926 7937 "src/ext/zrapp/availexps.ml" 326 7926 7944
+type(
+  Cil.exp IH.t IH.t -> int -> Cil.exp IH.t
+)
+ident(
+  ext_ref IH.find
+)
+"src/ext/zrapp/availexps.ml" 326 7926 7945 "src/ext/zrapp/availexps.ml" 326 7926 7972
+type(
+  Cil.exp IH.t IH.t
+)
+ident(
+  int_ref AvailableExps.stmtStartData "src/ext/zrapp/availexps.ml" 262 6306 6314 "src/ext/zrapp/availexps.ml" 262 6306 6327
+)
+"src/ext/zrapp/availexps.ml" 326 7926 7973 "src/ext/zrapp/availexps.ml" 326 7926 7976
+type(
+  int
+)
+ident(
+  int_ref sid "src/ext/zrapp/availexps.ml" 325 7909 7920 "src/ext/zrapp/availexps.ml" 325 7909 7923
+)
+"src/ext/zrapp/availexps.ml" 326 7926 7936 "src/ext/zrapp/availexps.ml" 326 7926 7977
+call(
+  stack
+)
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 326 7926 7932 "src/ext/zrapp/availexps.ml" 326 7926 7977
+type(
+  Cil.exp IH.t option
+)
+"src/ext/zrapp/availexps.ml" 327 7978 7985 "src/ext/zrapp/availexps.ml" 327 7978 7994
+type(
+  exn
+)
+"src/ext/zrapp/availexps.ml" 327 7978 7998 "src/ext/zrapp/availexps.ml" 327 7978 8002
+type(
+  Cil.exp IH.t option
+)
+"src/ext/zrapp/availexps.ml" 326 7926 7928 "src/ext/zrapp/availexps.ml" 327 7978 8002
+type(
+  Cil.exp IH.t option
+)
+"src/ext/zrapp/availexps.ml" 330 8050 8054 "src/ext/zrapp/availexps.ml" 330 8050 8062
+type(
+  Cil.instr list -> 'a -> Cil.exp IH.t -> 'b -> Cil.exp IH.t list
+)
+ident(
+  def instrAEs "src/ext/zrapp/availexps.ml" 345 8432 8432 "src/ext/zrapp/availexps.ml" 1 0 -1
+)
+"src/ext/zrapp/availexps.ml" 330 8050 8063 "src/ext/zrapp/availexps.ml" 330 8050 8065
+type(
+  Cil.instr list
+)
+ident(
+  def il "src/ext/zrapp/availexps.ml" 330 8050 8066 "src/ext/zrapp/availexps.ml" 343 8416 8430
+)
+"src/ext/zrapp/availexps.ml" 330 8050 8066 "src/ext/zrapp/availexps.ml" 330 8050 8069
+type(
+  'a
+)
+ident(
+  def sid "src/ext/zrapp/availexps.ml" 330 8050 8070 "src/ext/zrapp/availexps.ml" 343 8416 8430
+)
+"src/ext/zrapp/availexps.ml" 330 8050 8070 "src/ext/zrapp/availexps.ml" 330 8050 8072
+type(
+  Cil.exp IH.t
+)
+ident(
+  def eh "src/ext/zrapp/availexps.ml" 330 8050 8073 "src/ext/zrapp/availexps.ml" 343 8416 8430
+)
+"src/ext/zrapp/availexps.ml" 330 8050 8073 "src/ext/zrapp/availexps.ml" 330 8050 8076
+type(
+  'b
+)
+ident(
+  def out "src/ext/zrapp/availexps.ml" 331 8079 8081 "src/ext/zrapp/availexps.ml" 343 8416 8430
+)
+"src/ext/zrapp/availexps.ml" 331 8079 8085 "src/ext/zrapp/availexps.ml" 331 8079 8093
+type(
+  Cil.exp IH.t list -> Cil.instr -> Cil.exp IH.t list
+)
+ident(
+  def proc_one "src/ext/zrapp/availexps.ml" 341 8316 8318 "src/ext/zrapp/availexps.ml" 343 8416 8430
+)
+"src/ext/zrapp/availexps.ml" 331 8079 8094 "src/ext/zrapp/availexps.ml" 331 8079 8097
+type(
+  Cil.exp IH.t list
+)
+ident(
+  def hil "src/ext/zrapp/availexps.ml" 331 8079 8098 "src/ext/zrapp/availexps.ml" 339 8302 8310
+)
+"src/ext/zrapp/availexps.ml" 331 8079 8098 "src/ext/zrapp/availexps.ml" 331 8079 8099
+type(
+  Cil.instr
+)
+ident(
+  def i "src/ext/zrapp/availexps.ml" 332 8102 8106 "src/ext/zrapp/availexps.ml" 339 8302 8310
+)
+"src/ext/zrapp/availexps.ml" 332 8102 8112 "src/ext/zrapp/availexps.ml" 332 8102 8115
+type(
+  Cil.exp IH.t list
+)
+ident(
+  int_ref hil "src/ext/zrapp/availexps.ml" 331 8079 8094 "src/ext/zrapp/availexps.ml" 331 8079 8097
+)
+"src/ext/zrapp/availexps.ml" 333 8121 8127 "src/ext/zrapp/availexps.ml" 333 8121 8129
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 333 8121 8137 "src/ext/zrapp/availexps.ml" 333 8121 8140
+type(
+  Cil.exp IH.t
+)
+ident(
+  def eh' "src/ext/zrapp/availexps.ml" 334 8157 8163 "src/ext/zrapp/availexps.ml" 335 8198 8214
+)
+"src/ext/zrapp/availexps.ml" 333 8121 8143 "src/ext/zrapp/availexps.ml" 333 8121 8150
+type(
+  Cil.exp IH.t -> Cil.exp IH.t
+)
+ident(
+  ext_ref IH.copy
+)
+"src/ext/zrapp/availexps.ml" 333 8121 8151 "src/ext/zrapp/availexps.ml" 333 8121 8153
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 330 8050 8070 "src/ext/zrapp/availexps.ml" 330 8050 8072
+)
+"src/ext/zrapp/availexps.ml" 333 8121 8143 "src/ext/zrapp/availexps.ml" 333 8121 8153
+call(
+  stack
+)
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 334 8157 8167 "src/ext/zrapp/availexps.ml" 334 8157 8171
+type(
+  Cil.exp IH.t
+)
+ident(
+  def eh'' "src/ext/zrapp/availexps.ml" 335 8198 8205 "src/ext/zrapp/availexps.ml" 335 8198 8214
+)
+"src/ext/zrapp/availexps.ml" 334 8157 8174 "src/ext/zrapp/availexps.ml" 334 8157 8188
+type(
+  Cil.instr -> Cil.exp IH.t -> Cil.exp IH.t
+)
+ident(
+  int_ref eh_handle_inst "src/ext/zrapp/availexps.ml" 203 4880 4884 "src/ext/zrapp/availexps.ml" 203 4880 4898
+)
+"src/ext/zrapp/availexps.ml" 334 8157 8189 "src/ext/zrapp/availexps.ml" 334 8157 8190
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/zrapp/availexps.ml" 331 8079 8098 "src/ext/zrapp/availexps.ml" 331 8079 8099
+)
+"src/ext/zrapp/availexps.ml" 334 8157 8191 "src/ext/zrapp/availexps.ml" 334 8157 8194
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh' "src/ext/zrapp/availexps.ml" 333 8121 8137 "src/ext/zrapp/availexps.ml" 333 8121 8140
+)
+"src/ext/zrapp/availexps.ml" 334 8157 8174 "src/ext/zrapp/availexps.ml" 334 8157 8194
+call(
+  stack
+)
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 335 8198 8205 "src/ext/zrapp/availexps.ml" 335 8198 8209
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh'' "src/ext/zrapp/availexps.ml" 334 8157 8167 "src/ext/zrapp/availexps.ml" 334 8157 8171
+)
+"src/ext/zrapp/availexps.ml" 335 8198 8211 "src/ext/zrapp/availexps.ml" 335 8198 8214
+type(
+  Cil.exp IH.t list
+)
+ident(
+  int_ref hil "src/ext/zrapp/availexps.ml" 331 8079 8094 "src/ext/zrapp/availexps.ml" 331 8079 8097
+)
+"src/ext/zrapp/availexps.ml" 335 8198 8205 "src/ext/zrapp/availexps.ml" 335 8198 8214
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 334 8157 8163 "src/ext/zrapp/availexps.ml" 335 8198 8214
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 333 8121 8133 "src/ext/zrapp/availexps.ml" 335 8198 8214
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 336 8215 8221 "src/ext/zrapp/availexps.ml" 336 8215 8224
+type(
+  Cil.exp IH.t
+)
+ident(
+  def eh' "src/ext/zrapp/availexps.ml" 337 8240 8241 "src/ext/zrapp/availexps.ml" 339 8302 8310
+)
+"src/ext/zrapp/availexps.ml" 336 8215 8226 "src/ext/zrapp/availexps.ml" 336 8215 8231
+type(
+  Cil.exp IH.t list
+)
+ident(
+  def ehrst "src/ext/zrapp/availexps.ml" 337 8240 8241 "src/ext/zrapp/availexps.ml" 339 8302 8310
+)
+"src/ext/zrapp/availexps.ml" 336 8215 8221 "src/ext/zrapp/availexps.ml" 336 8215 8231
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 336 8215 8235 "src/ext/zrapp/availexps.ml" 336 8215 8236
+ident(
+  def l "src/ext/zrapp/availexps.ml" 337 8240 8241 "src/ext/zrapp/availexps.ml" 339 8302 8310
+)
+"src/ext/zrapp/availexps.ml" 336 8215 8221 "src/ext/zrapp/availexps.ml" 336 8215 8236
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 337 8240 8245 "src/ext/zrapp/availexps.ml" 337 8240 8248
+type(
+  Cil.exp IH.t
+)
+ident(
+  def eh' "src/ext/zrapp/availexps.ml" 338 8266 8267 "src/ext/zrapp/availexps.ml" 339 8302 8310
+)
+"src/ext/zrapp/availexps.ml" 337 8240 8251 "src/ext/zrapp/availexps.ml" 337 8240 8258
+type(
+  Cil.exp IH.t -> Cil.exp IH.t
+)
+ident(
+  ext_ref IH.copy
+)
+"src/ext/zrapp/availexps.ml" 337 8240 8259 "src/ext/zrapp/availexps.ml" 337 8240 8262
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh' "src/ext/zrapp/availexps.ml" 336 8215 8221 "src/ext/zrapp/availexps.ml" 336 8215 8224
+)
+"src/ext/zrapp/availexps.ml" 337 8240 8251 "src/ext/zrapp/availexps.ml" 337 8240 8262
+call(
+  stack
+)
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 338 8266 8271 "src/ext/zrapp/availexps.ml" 338 8266 8275
+type(
+  Cil.exp IH.t
+)
+ident(
+  def eh'' "src/ext/zrapp/availexps.ml" 339 8302 8303 "src/ext/zrapp/availexps.ml" 339 8302 8310
+)
+"src/ext/zrapp/availexps.ml" 338 8266 8278 "src/ext/zrapp/availexps.ml" 338 8266 8292
+type(
+  Cil.instr -> Cil.exp IH.t -> Cil.exp IH.t
+)
+ident(
+  int_ref eh_handle_inst "src/ext/zrapp/availexps.ml" 203 4880 4884 "src/ext/zrapp/availexps.ml" 203 4880 4898
+)
+"src/ext/zrapp/availexps.ml" 338 8266 8293 "src/ext/zrapp/availexps.ml" 338 8266 8294
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/zrapp/availexps.ml" 331 8079 8098 "src/ext/zrapp/availexps.ml" 331 8079 8099
+)
+"src/ext/zrapp/availexps.ml" 338 8266 8295 "src/ext/zrapp/availexps.ml" 338 8266 8298
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh' "src/ext/zrapp/availexps.ml" 337 8240 8245 "src/ext/zrapp/availexps.ml" 337 8240 8248
+)
+"src/ext/zrapp/availexps.ml" 338 8266 8278 "src/ext/zrapp/availexps.ml" 338 8266 8298
+call(
+  stack
+)
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 339 8302 8303 "src/ext/zrapp/availexps.ml" 339 8302 8307
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh'' "src/ext/zrapp/availexps.ml" 338 8266 8271 "src/ext/zrapp/availexps.ml" 338 8266 8275
+)
+"src/ext/zrapp/availexps.ml" 339 8302 8309 "src/ext/zrapp/availexps.ml" 339 8302 8310
+type(
+  Cil.exp IH.t list
+)
+ident(
+  int_ref l "src/ext/zrapp/availexps.ml" 336 8215 8221 "src/ext/zrapp/availexps.ml" 336 8215 8236
+)
+"src/ext/zrapp/availexps.ml" 339 8302 8303 "src/ext/zrapp/availexps.ml" 339 8302 8310
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 338 8266 8267 "src/ext/zrapp/availexps.ml" 339 8302 8310
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 337 8240 8241 "src/ext/zrapp/availexps.ml" 339 8302 8310
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 332 8102 8106 "src/ext/zrapp/availexps.ml" 339 8302 8310
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 341 8316 8322 "src/ext/zrapp/availexps.ml" 341 8316 8328
+type(
+  Cil.exp IH.t list
+)
+ident(
+  def folded "src/ext/zrapp/availexps.ml" 342 8366 8368 "src/ext/zrapp/availexps.ml" 343 8416 8430
+)
+"src/ext/zrapp/availexps.ml" 341 8316 8331 "src/ext/zrapp/availexps.ml" 341 8316 8345
+type(
+  (Cil.exp IH.t list -> Cil.instr -> Cil.exp IH.t list) ->
+  Cil.exp IH.t list -> Cil.instr list -> Cil.exp IH.t list
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/ext/zrapp/availexps.ml" 341 8316 8346 "src/ext/zrapp/availexps.ml" 341 8316 8354
+type(
+  Cil.exp IH.t list -> Cil.instr -> Cil.exp IH.t list
+)
+ident(
+  int_ref proc_one "src/ext/zrapp/availexps.ml" 331 8079 8085 "src/ext/zrapp/availexps.ml" 331 8079 8093
+)
+"src/ext/zrapp/availexps.ml" 341 8316 8356 "src/ext/zrapp/availexps.ml" 341 8316 8358
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 330 8050 8070 "src/ext/zrapp/availexps.ml" 330 8050 8072
+)
+"src/ext/zrapp/availexps.ml" 341 8316 8355 "src/ext/zrapp/availexps.ml" 341 8316 8359
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 341 8316 8360 "src/ext/zrapp/availexps.ml" 341 8316 8362
+type(
+  Cil.instr list
+)
+ident(
+  int_ref il "src/ext/zrapp/availexps.ml" 330 8050 8063 "src/ext/zrapp/availexps.ml" 330 8050 8065
+)
+"src/ext/zrapp/availexps.ml" 341 8316 8331 "src/ext/zrapp/availexps.ml" 341 8316 8362
+call(
+  stack
+)
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 342 8366 8372 "src/ext/zrapp/availexps.ml" 342 8366 8384
+type(
+  Cil.exp IH.t list
+)
+ident(
+  def foldednotout "src/ext/zrapp/availexps.ml" 343 8416 8418 "src/ext/zrapp/availexps.ml" 343 8416 8430
+)
+"src/ext/zrapp/availexps.ml" 342 8366 8387 "src/ext/zrapp/availexps.ml" 342 8366 8395
+type(
+  Cil.exp IH.t list -> Cil.exp IH.t list
+)
+ident(
+  ext_ref List.rev
+)
+"src/ext/zrapp/availexps.ml" 342 8366 8397 "src/ext/zrapp/availexps.ml" 342 8366 8404
+type(
+  Cil.exp IH.t list -> Cil.exp IH.t list
+)
+ident(
+  ext_ref List.tl
+)
+"src/ext/zrapp/availexps.ml" 342 8366 8405 "src/ext/zrapp/availexps.ml" 342 8366 8411
+type(
+  Cil.exp IH.t list
+)
+ident(
+  int_ref folded "src/ext/zrapp/availexps.ml" 341 8316 8322 "src/ext/zrapp/availexps.ml" 341 8316 8328
+)
+"src/ext/zrapp/availexps.ml" 342 8366 8396 "src/ext/zrapp/availexps.ml" 342 8366 8412
+call(
+  stack
+)
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 342 8366 8387 "src/ext/zrapp/availexps.ml" 342 8366 8412
+call(
+  tail
+)
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 343 8416 8418 "src/ext/zrapp/availexps.ml" 343 8416 8430
+type(
+  Cil.exp IH.t list
+)
+ident(
+  int_ref foldednotout "src/ext/zrapp/availexps.ml" 342 8366 8372 "src/ext/zrapp/availexps.ml" 342 8366 8384
+)
+"src/ext/zrapp/availexps.ml" 342 8366 8368 "src/ext/zrapp/availexps.ml" 343 8416 8430
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 341 8316 8318 "src/ext/zrapp/availexps.ml" 343 8416 8430
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 331 8079 8081 "src/ext/zrapp/availexps.ml" 343 8416 8430
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 345 8432 8461 "src/ext/zrapp/availexps.ml" 345 8432 8467
+type(
+  < get_cur_eh : unit -> Cil.exp IH.t option;
+    queueInstr : Cil.instr list -> unit;
+    unqueueInstr : unit -> Cil.instr list;
+    vattr : Cil.attribute -> Cil.attribute list Cil.visitAction;
+    vattrparam : Cil.attrparam -> Cil.attrparam Cil.visitAction;
+    vblock : Cil.block -> Cil.block Cil.visitAction;
+    vexpr : Cil.exp -> Cil.exp Cil.visitAction;
+    vfunc : Cil.fundec -> Cil.fundec Cil.visitAction;
+    vglob : Cil.global -> Cil.global list Cil.visitAction;
+    vinit : Cil.varinfo -> Cil.offset -> Cil.init -> Cil.init Cil.visitAction;
+    vinitoffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vinst : Cil.instr -> Cil.instr list Cil.visitAction;
+    vlval : Cil.lval -> Cil.lval Cil.visitAction;
+    voffs : Cil.offset -> Cil.offset Cil.visitAction;
+    vstmt : Cil.stmt -> Cil.stmt Cil.visitAction;
+    vtype : Cil.typ -> Cil.typ Cil.visitAction;
+    vvdec : Cil.varinfo -> Cil.varinfo Cil.visitAction;
+    vvrbl : Cil.varinfo -> Cil.varinfo Cil.visitAction; .. >
+)
+"src/ext/zrapp/availexps.ml" 348 8493 8513 "src/ext/zrapp/availexps.ml" 348 8493 8515
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 350 8517 8544 "src/ext/zrapp/availexps.ml" 350 8517 8546
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 352 8548 8575 "src/ext/zrapp/availexps.ml" 352 8548 8579
+type(
+  Cil.exp IH.t option
+)
+"src/ext/zrapp/availexps.ml" 354 8581 8596 "src/ext/zrapp/availexps.ml" 354 8581 8599
+type(
+  Cil.stmt
+)
+ident(
+  def stm "src/ext/zrapp/availexps.ml" 355 8602 8606 "src/ext/zrapp/availexps.ml" 370 9047 9062
+)
+"src/ext/zrapp/availexps.ml" 355 8602 8613 "src/ext/zrapp/availexps.ml" 355 8602 8616
+type(
+  Cil.stmt
+)
+ident(
+  int_ref stm "src/ext/zrapp/availexps.ml" 354 8581 8596 "src/ext/zrapp/availexps.ml" 354 8581 8599
+)
+"src/ext/zrapp/availexps.ml" 355 8602 8613 "src/ext/zrapp/availexps.ml" 355 8602 8620
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 355 8602 8606 "src/ext/zrapp/availexps.ml" 355 8602 8620
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 356 8622 8632 "src/ext/zrapp/availexps.ml" 356 8622 8638
+type(
+  int -> Cil.exp IH.t option
+)
+ident(
+  int_ref getAEs "src/ext/zrapp/availexps.ml" 325 7909 7913 "src/ext/zrapp/availexps.ml" 325 7909 7919
+)
+"src/ext/zrapp/availexps.ml" 356 8622 8639 "src/ext/zrapp/availexps.ml" 356 8622 8642
+type(
+  int
+)
+ident(
+  ext_ref sid
+)
+"src/ext/zrapp/availexps.ml" 356 8622 8632 "src/ext/zrapp/availexps.ml" 356 8622 8642
+call(
+  stack
+)
+type(
+  Cil.exp IH.t option
+)
+"src/ext/zrapp/availexps.ml" 357 8648 8654 "src/ext/zrapp/availexps.ml" 357 8648 8658
+type(
+  Cil.exp IH.t option
+)
+"src/ext/zrapp/availexps.ml" 358 8662 8666 "src/ext/zrapp/availexps.ml" 358 8662 8667
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 358 8662 8667 "src/ext/zrapp/availexps.ml" 358 8662 8672
+type(
+  bool ref
+)
+ident(
+  int_ref debug "src/ext/zrapp/availexps.ml" 17 343 347 "src/ext/zrapp/availexps.ml" 17 343 352
+)
+"src/ext/zrapp/availexps.ml" 358 8662 8666 "src/ext/zrapp/availexps.ml" 358 8662 8672
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 358 8662 8678 "src/ext/zrapp/availexps.ml" 358 8662 8684
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 358 8662 8685 "src/ext/zrapp/availexps.ml" 358 8662 8690
+type(
+  (int -> unit, unit, Pretty.doc, unit) format4 -> int -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/zrapp/availexps.ml" 358 8662 8691 "src/ext/zrapp/availexps.ml" 358 8662 8720
+type(
+  (int -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/zrapp/availexps.ml" 358 8662 8721 "src/ext/zrapp/availexps.ml" 358 8662 8724
+type(
+  int
+)
+ident(
+  ext_ref sid
+)
+"src/ext/zrapp/availexps.ml" 358 8662 8684 "src/ext/zrapp/availexps.ml" 358 8662 8725
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 358 8662 8678 "src/ext/zrapp/availexps.ml" 358 8662 8725
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 358 8662 8663 "src/ext/zrapp/availexps.ml" 358 8662 8725
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 359 8727 8742 "src/ext/zrapp/availexps.ml" 359 8727 8746
+type(
+  Cil.exp IH.t option
+)
+"src/ext/zrapp/availexps.ml" 359 8727 8728 "src/ext/zrapp/availexps.ml" 359 8727 8746
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 360 8748 8749 "src/ext/zrapp/availexps.ml" 360 8748 8759
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 359 8727 8728 "src/ext/zrapp/availexps.ml" 360 8748 8759
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 358 8662 8663 "src/ext/zrapp/availexps.ml" 360 8748 8759
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 361 8760 8771 "src/ext/zrapp/availexps.ml" 361 8760 8773
+type(
+  Cil.exp IH.t
+)
+ident(
+  def eh "src/ext/zrapp/availexps.ml" 362 8777 8778 "src/ext/zrapp/availexps.ml" 370 9047 9062
+)
+"src/ext/zrapp/availexps.ml" 361 8760 8766 "src/ext/zrapp/availexps.ml" 361 8760 8773
+type(
+  Cil.exp IH.t option
+)
+"src/ext/zrapp/availexps.ml" 362 8777 8784 "src/ext/zrapp/availexps.ml" 362 8777 8787
+type(
+  Cil.stmt
+)
+ident(
+  int_ref stm "src/ext/zrapp/availexps.ml" 354 8581 8596 "src/ext/zrapp/availexps.ml" 354 8581 8599
+)
+"src/ext/zrapp/availexps.ml" 362 8777 8784 "src/ext/zrapp/availexps.ml" 362 8777 8793
+type(
+  Cil.stmtkind
+)
+"src/ext/zrapp/availexps.ml" 363 8799 8808 "src/ext/zrapp/availexps.ml" 363 8799 8810
+type(
+  Cil.instr list
+)
+ident(
+  def il "src/ext/zrapp/availexps.ml" 364 8814 8819 "src/ext/zrapp/availexps.ml" 366 8937 8952
+)
+"src/ext/zrapp/availexps.ml" 363 8799 8802 "src/ext/zrapp/availexps.ml" 363 8799 8810
+type(
+  Cil.stmtkind
+)
+"src/ext/zrapp/availexps.ml" 364 8814 8822 "src/ext/zrapp/availexps.ml" 364 8814 8823
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 364 8814 8823 "src/ext/zrapp/availexps.ml" 364 8814 8828
+type(
+  bool ref
+)
+ident(
+  int_ref debug "src/ext/zrapp/availexps.ml" 17 343 347 "src/ext/zrapp/availexps.ml" 17 343 352
+)
+"src/ext/zrapp/availexps.ml" 364 8814 8822 "src/ext/zrapp/availexps.ml" 364 8814 8828
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 364 8814 8834 "src/ext/zrapp/availexps.ml" 364 8814 8840
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 364 8814 8841 "src/ext/zrapp/availexps.ml" 364 8814 8846
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/zrapp/availexps.ml" 364 8814 8847 "src/ext/zrapp/availexps.ml" 364 8814 8867
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/zrapp/availexps.ml" 364 8814 8840 "src/ext/zrapp/availexps.ml" 364 8814 8868
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 364 8814 8834 "src/ext/zrapp/availexps.ml" 364 8814 8868
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 364 8814 8819 "src/ext/zrapp/availexps.ml" 364 8814 8868
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 365 8870 8889 "src/ext/zrapp/availexps.ml" 365 8870 8893
+type(
+  string -> (bool -> Cil.exp IH.t list) -> bool -> Cil.exp IH.t list
+)
+ident(
+  int_ref time "src/ext/zrapp/availexps.ml" 21 390 394 "src/ext/zrapp/availexps.ml" 21 390 398
+)
+"src/ext/zrapp/availexps.ml" 365 8870 8894 "src/ext/zrapp/availexps.ml" 365 8870 8904
+type(
+  string
+)
+"src/ext/zrapp/availexps.ml" 365 8870 8906 "src/ext/zrapp/availexps.ml" 365 8870 8914
+type(
+  Cil.instr list -> int -> Cil.exp IH.t -> bool -> Cil.exp IH.t list
+)
+ident(
+  int_ref instrAEs "src/ext/zrapp/availexps.ml" 330 8050 8054 "src/ext/zrapp/availexps.ml" 330 8050 8062
+)
+"src/ext/zrapp/availexps.ml" 365 8870 8915 "src/ext/zrapp/availexps.ml" 365 8870 8917
+type(
+  Cil.instr list
+)
+ident(
+  int_ref il "src/ext/zrapp/availexps.ml" 363 8799 8808 "src/ext/zrapp/availexps.ml" 363 8799 8810
+)
+"src/ext/zrapp/availexps.ml" 365 8870 8918 "src/ext/zrapp/availexps.ml" 365 8870 8921
+type(
+  Cil.stmt
+)
+ident(
+  int_ref stm "src/ext/zrapp/availexps.ml" 354 8581 8596 "src/ext/zrapp/availexps.ml" 354 8581 8599
+)
+"src/ext/zrapp/availexps.ml" 365 8870 8918 "src/ext/zrapp/availexps.ml" 365 8870 8925
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 365 8870 8926 "src/ext/zrapp/availexps.ml" 365 8870 8928
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 361 8760 8771 "src/ext/zrapp/availexps.ml" 361 8760 8773
+)
+"src/ext/zrapp/availexps.ml" 365 8870 8905 "src/ext/zrapp/availexps.ml" 365 8870 8929
+call(
+  stack
+)
+type(
+  bool -> Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 365 8870 8930 "src/ext/zrapp/availexps.ml" 365 8870 8935
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 365 8870 8889 "src/ext/zrapp/availexps.ml" 365 8870 8935
+call(
+  stack
+)
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 365 8870 8875 "src/ext/zrapp/availexps.ml" 365 8870 8935
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 366 8937 8942 "src/ext/zrapp/availexps.ml" 366 8937 8952
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 365 8870 8875 "src/ext/zrapp/availexps.ml" 366 8937 8952
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 364 8814 8819 "src/ext/zrapp/availexps.ml" 366 8937 8952
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 367 8953 8956 "src/ext/zrapp/availexps.ml" 367 8953 8957
+type(
+  Cil.stmtkind
+)
+"src/ext/zrapp/availexps.ml" 368 8961 8969 "src/ext/zrapp/availexps.ml" 368 8961 8970
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 368 8961 8970 "src/ext/zrapp/availexps.ml" 368 8961 8975
+type(
+  bool ref
+)
+ident(
+  int_ref debug "src/ext/zrapp/availexps.ml" 17 343 347 "src/ext/zrapp/availexps.ml" 17 343 352
+)
+"src/ext/zrapp/availexps.ml" 368 8961 8969 "src/ext/zrapp/availexps.ml" 368 8961 8975
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 368 8961 8981 "src/ext/zrapp/availexps.ml" 368 8961 8987
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 368 8961 8988 "src/ext/zrapp/availexps.ml" 368 8961 8993
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/zrapp/availexps.ml" 368 8961 8994 "src/ext/zrapp/availexps.ml" 368 8961 9019
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/zrapp/availexps.ml" 368 8961 8987 "src/ext/zrapp/availexps.ml" 368 8961 9020
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 368 8961 8981 "src/ext/zrapp/availexps.ml" 368 8961 9020
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 368 8961 8966 "src/ext/zrapp/availexps.ml" 368 8961 9020
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 369 9022 9041 "src/ext/zrapp/availexps.ml" 369 9022 9045
+type(
+  Cil.exp IH.t option
+)
+"src/ext/zrapp/availexps.ml" 369 9022 9027 "src/ext/zrapp/availexps.ml" 369 9022 9045
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 370 9047 9052 "src/ext/zrapp/availexps.ml" 370 9047 9062
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 369 9022 9027 "src/ext/zrapp/availexps.ml" 370 9047 9062
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 368 8961 8966 "src/ext/zrapp/availexps.ml" 370 9047 9062
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 362 8777 8778 "src/ext/zrapp/availexps.ml" 370 9047 9062
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 356 8622 8626 "src/ext/zrapp/availexps.ml" 370 9047 9062
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 355 8602 8606 "src/ext/zrapp/availexps.ml" 370 9047 9062
+type(
+  Cil.stmt Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 372 9064 9079 "src/ext/zrapp/availexps.ml" 372 9064 9080
+type(
+  Cil.instr
+)
+ident(
+  def i "src/ext/zrapp/availexps.ml" 373 9083 9087 "src/ext/zrapp/availexps.ml" 383 9510 9526
+)
+"src/ext/zrapp/availexps.ml" 373 9083 9090 "src/ext/zrapp/availexps.ml" 373 9083 9091
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 373 9083 9091 "src/ext/zrapp/availexps.ml" 373 9083 9096
+type(
+  bool ref
+)
+ident(
+  int_ref debug "src/ext/zrapp/availexps.ml" 17 343 347 "src/ext/zrapp/availexps.ml" 17 343 352
+)
+"src/ext/zrapp/availexps.ml" 373 9083 9090 "src/ext/zrapp/availexps.ml" 373 9083 9096
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 373 9083 9102 "src/ext/zrapp/availexps.ml" 373 9083 9108
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 373 9083 9109 "src/ext/zrapp/availexps.ml" 373 9083 9114
+type(
+  ((unit -> Cil.instr -> Pretty.doc) -> Cil.instr -> int -> unit, unit,
+   Pretty.doc, unit)
+  format4 -> (unit -> Cil.instr -> Pretty.doc) -> Cil.instr -> int -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/zrapp/availexps.ml" 373 9083 9115 "src/ext/zrapp/availexps.ml" 373 9083 9159
+type(
+  ((unit -> Cil.instr -> Pretty.doc) -> Cil.instr -> int -> unit, unit,
+   Pretty.doc, unit)
+  format4
+)
+"src/ext/zrapp/availexps.ml" 374 9160 9167 "src/ext/zrapp/availexps.ml" 374 9160 9174
+type(
+  unit -> Cil.instr -> Pretty.doc
+)
+ident(
+  ext_ref Cil.d_instr
+)
+"src/ext/zrapp/availexps.ml" 374 9160 9175 "src/ext/zrapp/availexps.ml" 374 9160 9176
+type(
+  Cil.instr
+)
+ident(
+  int_ref i "src/ext/zrapp/availexps.ml" 372 9064 9079 "src/ext/zrapp/availexps.ml" 372 9064 9080
+)
+"src/ext/zrapp/availexps.ml" 374 9160 9178 "src/ext/zrapp/availexps.ml" 374 9160 9189
+type(
+  Cil.exp IH.t list -> int
+)
+ident(
+  ext_ref List.length
+)
+"src/ext/zrapp/availexps.ml" 374 9160 9190 "src/ext/zrapp/availexps.ml" 374 9160 9200
+type(
+  Cil.exp IH.t list
+)
+ident(
+  ext_ref ae_dat_lst
+)
+"src/ext/zrapp/availexps.ml" 374 9160 9177 "src/ext/zrapp/availexps.ml" 374 9160 9201
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/zrapp/availexps.ml" 373 9083 9108 "src/ext/zrapp/availexps.ml" 374 9160 9202
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 373 9083 9102 "src/ext/zrapp/availexps.ml" 374 9160 9202
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 373 9083 9087 "src/ext/zrapp/availexps.ml" 374 9160 9202
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 376 9212 9222 "src/ext/zrapp/availexps.ml" 376 9212 9226
+type(
+  Cil.exp IH.t
+)
+ident(
+  def data "src/ext/zrapp/availexps.ml" 377 9251 9257 "src/ext/zrapp/availexps.ml" 380 9398 9414
+)
+"src/ext/zrapp/availexps.ml" 376 9212 9229 "src/ext/zrapp/availexps.ml" 376 9212 9236
+type(
+  Cil.exp IH.t list -> Cil.exp IH.t
+)
+ident(
+  ext_ref List.hd
+)
+"src/ext/zrapp/availexps.ml" 376 9212 9237 "src/ext/zrapp/availexps.ml" 376 9212 9247
+type(
+  Cil.exp IH.t list
+)
+ident(
+  ext_ref ae_dat_lst
+)
+"src/ext/zrapp/availexps.ml" 376 9212 9229 "src/ext/zrapp/availexps.ml" 376 9212 9247
+call(
+  stack
+)
+type(
+  Cil.exp IH.t
+)
+"src/ext/zrapp/availexps.ml" 377 9251 9275 "src/ext/zrapp/availexps.ml" 377 9251 9281
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref data "src/ext/zrapp/availexps.ml" 376 9212 9222 "src/ext/zrapp/availexps.ml" 376 9212 9226
+)
+"src/ext/zrapp/availexps.ml" 377 9251 9271 "src/ext/zrapp/availexps.ml" 377 9251 9281
+type(
+  Cil.exp IH.t option
+)
+"src/ext/zrapp/availexps.ml" 377 9251 9257 "src/ext/zrapp/availexps.ml" 377 9251 9281
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 378 9283 9303 "src/ext/zrapp/availexps.ml" 378 9283 9310
+type(
+  Cil.exp IH.t list -> Cil.exp IH.t list
+)
+ident(
+  ext_ref List.tl
+)
+"src/ext/zrapp/availexps.ml" 378 9283 9311 "src/ext/zrapp/availexps.ml" 378 9283 9321
+type(
+  Cil.exp IH.t list
+)
+ident(
+  ext_ref ae_dat_lst
+)
+"src/ext/zrapp/availexps.ml" 378 9283 9303 "src/ext/zrapp/availexps.ml" 378 9283 9321
+call(
+  stack
+)
+type(
+  Cil.exp IH.t list
+)
+"src/ext/zrapp/availexps.ml" 378 9283 9289 "src/ext/zrapp/availexps.ml" 378 9283 9321
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 379 9323 9332 "src/ext/zrapp/availexps.ml" 379 9323 9333
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 379 9323 9333 "src/ext/zrapp/availexps.ml" 379 9323 9338
+type(
+  bool ref
+)
+ident(
+  int_ref debug "src/ext/zrapp/availexps.ml" 17 343 347 "src/ext/zrapp/availexps.ml" 17 343 352
+)
+"src/ext/zrapp/availexps.ml" 379 9323 9332 "src/ext/zrapp/availexps.ml" 379 9323 9338
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 379 9323 9344 "src/ext/zrapp/availexps.ml" 379 9323 9350
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 379 9323 9351 "src/ext/zrapp/availexps.ml" 379 9323 9356
+type(
+  ((unit -> Cil.exp IH.t -> Pretty.doc) -> Cil.exp IH.t -> unit, unit,
+   Pretty.doc, unit)
+  format4 -> (unit -> Cil.exp IH.t -> Pretty.doc) -> Cil.exp IH.t -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/zrapp/availexps.ml" 379 9323 9357 "src/ext/zrapp/availexps.ml" 379 9323 9380
+type(
+  ((unit -> Cil.exp IH.t -> Pretty.doc) -> Cil.exp IH.t -> unit, unit,
+   Pretty.doc, unit)
+  format4
+)
+"src/ext/zrapp/availexps.ml" 379 9323 9381 "src/ext/zrapp/availexps.ml" 379 9323 9390
+type(
+  unit -> Cil.exp IH.t -> Pretty.doc
+)
+ident(
+  int_ref eh_pretty "src/ext/zrapp/availexps.ml" 59 1337 1341 "src/ext/zrapp/availexps.ml" 59 1337 1350
+)
+"src/ext/zrapp/availexps.ml" 379 9323 9391 "src/ext/zrapp/availexps.ml" 379 9323 9395
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref data "src/ext/zrapp/availexps.ml" 376 9212 9222 "src/ext/zrapp/availexps.ml" 376 9212 9226
+)
+"src/ext/zrapp/availexps.ml" 379 9323 9350 "src/ext/zrapp/availexps.ml" 379 9323 9396
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 379 9323 9344 "src/ext/zrapp/availexps.ml" 379 9323 9396
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 379 9323 9329 "src/ext/zrapp/availexps.ml" 379 9323 9396
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 380 9398 9404 "src/ext/zrapp/availexps.ml" 380 9398 9414
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 379 9323 9329 "src/ext/zrapp/availexps.ml" 380 9398 9414
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 378 9283 9289 "src/ext/zrapp/availexps.ml" 380 9398 9414
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 377 9251 9257 "src/ext/zrapp/availexps.ml" 380 9398 9414
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 376 9212 9218 "src/ext/zrapp/availexps.ml" 380 9398 9414
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 381 9415 9432 "src/ext/zrapp/availexps.ml" 381 9415 9436
+type(
+  string
+)
+"src/ext/zrapp/availexps.ml" 381 9415 9424 "src/ext/zrapp/availexps.ml" 381 9415 9436
+type(
+  exn
+)
+"src/ext/zrapp/availexps.ml" 382 9440 9449 "src/ext/zrapp/availexps.ml" 382 9440 9450
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ext/zrapp/availexps.ml" 382 9440 9450 "src/ext/zrapp/availexps.ml" 382 9440 9455
+type(
+  bool ref
+)
+ident(
+  int_ref debug "src/ext/zrapp/availexps.ml" 17 343 347 "src/ext/zrapp/availexps.ml" 17 343 352
+)
+"src/ext/zrapp/availexps.ml" 382 9440 9449 "src/ext/zrapp/availexps.ml" 382 9440 9455
+type(
+  bool
+)
+"src/ext/zrapp/availexps.ml" 382 9440 9461 "src/ext/zrapp/availexps.ml" 382 9440 9467
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/ext/zrapp/availexps.ml" 382 9440 9468 "src/ext/zrapp/availexps.ml" 382 9440 9473
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/zrapp/availexps.ml" 382 9440 9474 "src/ext/zrapp/availexps.ml" 382 9440 9507
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/zrapp/availexps.ml" 382 9440 9467 "src/ext/zrapp/availexps.ml" 382 9440 9508
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 382 9440 9461 "src/ext/zrapp/availexps.ml" 382 9440 9508
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 382 9440 9446 "src/ext/zrapp/availexps.ml" 382 9440 9508
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 383 9510 9516 "src/ext/zrapp/availexps.ml" 383 9510 9526
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 382 9440 9446 "src/ext/zrapp/availexps.ml" 383 9510 9526
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 375 9204 9208 "src/ext/zrapp/availexps.ml" 383 9510 9526
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 373 9083 9087 "src/ext/zrapp/availexps.ml" 383 9510 9526
+type(
+  Cil.instr list Cil.visitAction
+)
+"src/ext/zrapp/availexps.ml" 385 9528 9548 "src/ext/zrapp/availexps.ml" 385 9528 9550
+type(
+  unit
+)
+"src/ext/zrapp/availexps.ml" 386 9553 9563 "src/ext/zrapp/availexps.ml" 386 9553 9573
+type(
+  Cil.exp IH.t option
+)
+ident(
+  ext_ref cur_ae_dat
+)
+"src/ext/zrapp/availexps.ml" 387 9579 9585 "src/ext/zrapp/availexps.ml" 387 9579 9589
+type(
+  Cil.exp IH.t option
+)
+"src/ext/zrapp/availexps.ml" 387 9579 9593 "src/ext/zrapp/availexps.ml" 387 9579 9599
+type(
+  int -> Cil.exp IH.t option
+)
+ident(
+  int_ref getAEs "src/ext/zrapp/availexps.ml" 325 7909 7913 "src/ext/zrapp/availexps.ml" 325 7909 7919
+)
+"src/ext/zrapp/availexps.ml" 387 9579 9600 "src/ext/zrapp/availexps.ml" 387 9579 9603
+type(
+  int
+)
+ident(
+  ext_ref sid
+)
+"src/ext/zrapp/availexps.ml" 387 9579 9593 "src/ext/zrapp/availexps.ml" 387 9579 9603
+call(
+  tail
+)
+type(
+  Cil.exp IH.t option
+)
+"src/ext/zrapp/availexps.ml" 388 9604 9615 "src/ext/zrapp/availexps.ml" 388 9604 9617
+type(
+  Cil.exp IH.t
+)
+ident(
+  def eh "src/ext/zrapp/availexps.ml" 388 9604 9621 "src/ext/zrapp/availexps.ml" 388 9604 9628
+)
+"src/ext/zrapp/availexps.ml" 388 9604 9610 "src/ext/zrapp/availexps.ml" 388 9604 9617
+type(
+  Cil.exp IH.t option
+)
+"src/ext/zrapp/availexps.ml" 388 9604 9626 "src/ext/zrapp/availexps.ml" 388 9604 9628
+type(
+  Cil.exp IH.t
+)
+ident(
+  int_ref eh "src/ext/zrapp/availexps.ml" 388 9604 9615 "src/ext/zrapp/availexps.ml" 388 9604 9617
+)
+"src/ext/zrapp/availexps.ml" 388 9604 9621 "src/ext/zrapp/availexps.ml" 388 9604 9628
+type(
+  Cil.exp IH.t option
+)
+"src/ext/zrapp/availexps.ml" 386 9553 9557 "src/ext/zrapp/availexps.ml" 388 9604 9628
+type(
+  Cil.exp IH.t option
+)

@@ -1,0 +1,204 @@
+"machdep.ml" 39 2050 2054 "machdep.ml" 39 2050 2057
+type(
+  mach
+)
+ident(
+  def gcc "machdep.ml" 77 3155 3155 "machdep.ml" 1 0 -1
+)
+"machdep.ml" 41 2106 2127 "machdep.ml" 41 2106 2128
+type(
+  int
+)
+"machdep.ml" 42 2130 2151 "machdep.ml" 42 2130 2152
+type(
+  int
+)
+"machdep.ml" 43 2154 2175 "machdep.ml" 43 2154 2182
+type(
+  string
+)
+"machdep.ml" 44 2184 2210 "machdep.ml" 44 2184 2211
+type(
+  int
+)
+"machdep.ml" 45 2213 2239 "machdep.ml" 45 2213 2240
+type(
+  int
+)
+"machdep.ml" 46 2242 2268 "machdep.ml" 46 2242 2269
+type(
+  int
+)
+"machdep.ml" 47 2271 2297 "machdep.ml" 47 2271 2298
+type(
+  int
+)
+"machdep.ml" 48 2300 2326 "machdep.ml" 48 2300 2327
+type(
+  int
+)
+"machdep.ml" 49 2329 2355 "machdep.ml" 49 2329 2356
+type(
+  int
+)
+"machdep.ml" 50 2358 2384 "machdep.ml" 50 2358 2385
+type(
+  int
+)
+"machdep.ml" 51 2387 2413 "machdep.ml" 51 2387 2414
+type(
+  int
+)
+"machdep.ml" 52 2416 2442 "machdep.ml" 52 2416 2444
+type(
+  int
+)
+"machdep.ml" 53 2446 2472 "machdep.ml" 53 2446 2473
+type(
+  int
+)
+"machdep.ml" 54 2475 2501 "machdep.ml" 54 2475 2502
+type(
+  int
+)
+"machdep.ml" 55 2504 2530 "machdep.ml" 55 2504 2545
+type(
+  string
+)
+"machdep.ml" 56 2547 2573 "machdep.ml" 56 2547 2578
+type(
+  string
+)
+"machdep.ml" 57 2580 2606 "machdep.ml" 57 2580 2607
+type(
+  int
+)
+"machdep.ml" 58 2609 2635 "machdep.ml" 58 2609 2636
+type(
+  int
+)
+"machdep.ml" 59 2638 2664 "machdep.ml" 59 2638 2665
+type(
+  int
+)
+"machdep.ml" 60 2667 2693 "machdep.ml" 60 2667 2694
+type(
+  int
+)
+"machdep.ml" 61 2696 2722 "machdep.ml" 61 2696 2723
+type(
+  int
+)
+"machdep.ml" 62 2725 2751 "machdep.ml" 62 2725 2752
+type(
+  int
+)
+"machdep.ml" 63 2754 2780 "machdep.ml" 63 2754 2781
+type(
+  int
+)
+"machdep.ml" 64 2783 2809 "machdep.ml" 64 2783 2810
+type(
+  int
+)
+"machdep.ml" 65 2812 2838 "machdep.ml" 65 2812 2839
+type(
+  int
+)
+"machdep.ml" 66 2841 2867 "machdep.ml" 66 2841 2869
+type(
+  int
+)
+"machdep.ml" 67 2871 2897 "machdep.ml" 67 2871 2898
+type(
+  int
+)
+"machdep.ml" 68 2900 2926 "machdep.ml" 68 2900 2927
+type(
+  int
+)
+"machdep.ml" 69 2929 2955 "machdep.ml" 69 2929 2957
+type(
+  int
+)
+"machdep.ml" 70 2959 2985 "machdep.ml" 70 2959 2990
+type(
+  bool
+)
+"machdep.ml" 71 2992 3018 "machdep.ml" 71 2992 3022
+type(
+  bool
+)
+"machdep.ml" 72 3024 3050 "machdep.ml" 72 3024 3055
+type(
+  bool
+)
+"machdep.ml" 73 3057 3083 "machdep.ml" 73 3057 3087
+type(
+  bool
+)
+"machdep.ml" 74 3089 3115 "machdep.ml" 74 3089 3119
+type(
+  bool
+)
+"machdep.ml" 75 3121 3147 "machdep.ml" 75 3121 3151
+type(
+  bool
+)
+"machdep.ml" 39 2050 2060 "machdep.ml" 76 3153 3154
+type(
+  mach
+)
+"machdep.ml" 77 3155 3159 "machdep.ml" 77 3155 3166
+type(
+  bool
+)
+ident(
+  def hasMSVC "machdep.ml" 78 3175 3175 "machdep.ml" 1 0 -1
+)
+"machdep.ml" 77 3155 3169 "machdep.ml" 77 3155 3174
+type(
+  bool
+)
+"machdep.ml" 78 3175 3179 "machdep.ml" 78 3175 3183
+type(
+  mach
+)
+ident(
+  def msvc "machdep.ml" 79 3190 3190 "machdep.ml" 1 0 -1
+)
+"machdep.ml" 78 3175 3186 "machdep.ml" 78 3175 3189
+type(
+  mach
+)
+ident(
+  int_ref gcc "machdep.ml" 39 2050 2054 "machdep.ml" 39 2050 2057
+)
+"machdep.ml" 79 3190 3194 "machdep.ml" 79 3190 3204
+type(
+  mach ref
+)
+ident(
+  def theMachine "machdep.ml" 79 3190 3225 "machdep.ml" 1 0 -1
+)
+"machdep.ml" 79 3190 3218 "machdep.ml" 79 3190 3221
+type(
+  mach -> mach ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"machdep.ml" 79 3190 3222 "machdep.ml" 79 3190 3225
+type(
+  mach
+)
+ident(
+  int_ref gcc "machdep.ml" 39 2050 2054 "machdep.ml" 39 2050 2057
+)
+"machdep.ml" 79 3190 3218 "machdep.ml" 79 3190 3225
+type(
+  mach ref
+)
+type(
+  mach ref
+)

@@ -1,0 +1,357 @@
+
+/tmp/biped_robot:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00008000 l    d  .text	00000000 .text
+00008368 l    d  .rodata	00000000 .rodata
+00018618 l    d  .bss	00000000 .bss
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .wcet_annot	00000000 .wcet_annot
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    df *ABS*	00000000 biped_robot.c
+00018618 l       .bss	00000000 motionCmd
+00008528 g     O .rodata	000000c6 PRM_LEFT_TURN
+000080c8 g     F .text	00000008 __aeabi_dcmpun
+00008058 g     F .text	00000008 __aeabi_dcmple
+00008368 g     O .rodata	00000016 PRM_NEUTRAL
+000080d8 g     F .text	00000008 TaskMainTask_Init
+0001861c g       .bss	00000000 _bss_end__
+000080b0 g     F .text	00000008 __aeabi_fadd
+00008080 g     F .text	00000008 __aeabi_fcmpgt
+00008020 g     F .text	00000008 __aeabi_i2f
+00018618 g       .bss	00000000 __bss_start__
+000080c0 g     F .text	00000008 __aeabi_ui2d
+000080d0 g     F .text	00000008 __aeabi_dcmplt
+00008028 g     F .text	00000008 __aeabi_ddiv
+000085f0 g     O .rodata	00000028 motionTable
+00008038 g     F .text	00000008 __aeabi_dmul
+00008380 g     O .rodata	00000016 PRM_STAND_UP
+00008060 g     F .text	00000008 __aeabi_d2f
+000080a0 g     F .text	00000008 __aeabi_fsub
+00008018 g     F .text	00000008 __aeabi_fcmpge
+00008460 g     O .rodata	000000c6 PRM_RIGHT_TURN
+00008068 g     F .text	00000008 __aeabi_dadd
+00008000 g     F .text	00000008 __aeabi_idiv
+00008050 g     F .text	00000008 __aeabi_dcmpgt
+0001861c g       .bss	00000000 __bss_end__
+00008040 g     F .text	00000008 __aeabi_dcmpge
+00008030 g     F .text	00000008 __aeabi_dsub
+0000827c g     F .text	00000020 Task_Display_blk
+00008088 g     F .text	00000008 __aeabi_fdiv
+00008008 g     F .text	00000008 __aeabi_i2d
+00018618 g       .bss	00000000 __bss_start
+00008354 g     F .text	00000014 main
+0001861c g       .bss	00000000 __end__
+000080e0 g     F .text	000000d0 TaskMainTask_Commander
+000080b8 g     F .text	00000008 __aeabi_ui2
+00008090 g     F .text	00000008 __aeabi_fcmpeq
+00008098 g     F .text	00000008 __aeabi_fmul
+000081c8 g     F .text	000000b4 TaskMainTask_MotionControl
+0000829c g     F .text	000000b8 Task_Commander_blk
+00008078 g     F .text	00000008 __aeabi_fcmplt
+00008010 g     F .text	00000008 __aeabi_uidivmod
+00008048 g     F .text	00000008 __aeabi_dcmpeq
+00018618 g       .rodata	00000000 _edata
+0001861c g       .bss	00000000 _end
+00008070 g     F .text	00000008 __aeabi_d2iz
+00080000 g       .ARM.attributes	00000000 _stack
+000081b0 g     F .text	00000018 TaskMainTask_Display
+000080a8 g     F .text	00000008 __aeabi_f2d
+00018618 g       .rodata	00000000 __data_start
+00008398 g     O .rodata	000000c6 PRM_FORWARD
+
+
+
+Disassembly of section .text:
+
+00008000 <__aeabi_idiv>:
+    8000:	e1a00000 	nop			; (mov r0, r0)
+    8004:	e12fff1e 	bx	lr
+
+00008008 <__aeabi_i2d>:
+    8008:	e1a00000 	nop			; (mov r0, r0)
+    800c:	e12fff1e 	bx	lr
+
+00008010 <__aeabi_uidivmod>:
+    8010:	e1a00000 	nop			; (mov r0, r0)
+    8014:	e12fff1e 	bx	lr
+
+00008018 <__aeabi_fcmpge>:
+    8018:	e1a00000 	nop			; (mov r0, r0)
+    801c:	e12fff1e 	bx	lr
+
+00008020 <__aeabi_i2f>:
+    8020:	e1a00000 	nop			; (mov r0, r0)
+    8024:	e12fff1e 	bx	lr
+
+00008028 <__aeabi_ddiv>:
+    8028:	e1a00000 	nop			; (mov r0, r0)
+    802c:	e12fff1e 	bx	lr
+
+00008030 <__aeabi_dsub>:
+    8030:	e1a00000 	nop			; (mov r0, r0)
+    8034:	e12fff1e 	bx	lr
+
+00008038 <__aeabi_dmul>:
+    8038:	e1a00000 	nop			; (mov r0, r0)
+    803c:	e12fff1e 	bx	lr
+
+00008040 <__aeabi_dcmpge>:
+    8040:	e1a00000 	nop			; (mov r0, r0)
+    8044:	e12fff1e 	bx	lr
+
+00008048 <__aeabi_dcmpeq>:
+    8048:	e1a00000 	nop			; (mov r0, r0)
+    804c:	e12fff1e 	bx	lr
+
+00008050 <__aeabi_dcmpgt>:
+    8050:	e1a00000 	nop			; (mov r0, r0)
+    8054:	e12fff1e 	bx	lr
+
+00008058 <__aeabi_dcmple>:
+    8058:	e1a00000 	nop			; (mov r0, r0)
+    805c:	e12fff1e 	bx	lr
+
+00008060 <__aeabi_d2f>:
+    8060:	e1a00000 	nop			; (mov r0, r0)
+    8064:	e12fff1e 	bx	lr
+
+00008068 <__aeabi_dadd>:
+    8068:	e1a00000 	nop			; (mov r0, r0)
+    806c:	e12fff1e 	bx	lr
+
+00008070 <__aeabi_d2iz>:
+    8070:	e1a00000 	nop			; (mov r0, r0)
+    8074:	e12fff1e 	bx	lr
+
+00008078 <__aeabi_fcmplt>:
+    8078:	e1a00000 	nop			; (mov r0, r0)
+    807c:	e12fff1e 	bx	lr
+
+00008080 <__aeabi_fcmpgt>:
+    8080:	e1a00000 	nop			; (mov r0, r0)
+    8084:	e12fff1e 	bx	lr
+
+00008088 <__aeabi_fdiv>:
+    8088:	e1a00000 	nop			; (mov r0, r0)
+    808c:	e12fff1e 	bx	lr
+
+00008090 <__aeabi_fcmpeq>:
+    8090:	e1a00000 	nop			; (mov r0, r0)
+    8094:	e12fff1e 	bx	lr
+
+00008098 <__aeabi_fmul>:
+    8098:	e1a00000 	nop			; (mov r0, r0)
+    809c:	e12fff1e 	bx	lr
+
+000080a0 <__aeabi_fsub>:
+    80a0:	e1a00000 	nop			; (mov r0, r0)
+    80a4:	e12fff1e 	bx	lr
+
+000080a8 <__aeabi_f2d>:
+    80a8:	e1a00000 	nop			; (mov r0, r0)
+    80ac:	e12fff1e 	bx	lr
+
+000080b0 <__aeabi_fadd>:
+    80b0:	e1a00000 	nop			; (mov r0, r0)
+    80b4:	e12fff1e 	bx	lr
+
+000080b8 <__aeabi_ui2>:
+    80b8:	e1a00000 	nop			; (mov r0, r0)
+    80bc:	e12fff1e 	bx	lr
+
+000080c0 <__aeabi_ui2d>:
+    80c0:	e1a00000 	nop			; (mov r0, r0)
+    80c4:	e12fff1e 	bx	lr
+
+000080c8 <__aeabi_dcmpun>:
+    80c8:	e1a00000 	nop			; (mov r0, r0)
+    80cc:	e12fff1e 	bx	lr
+
+000080d0 <__aeabi_dcmplt>:
+    80d0:	e1a00000 	nop			; (mov r0, r0)
+    80d4:	e12fff1e 	bx	lr
+
+000080d8 <TaskMainTask_Init>:
+    80d8:	e1a00000 	nop			; (mov r0, r0)
+    80dc:	e12fff1e 	bx	lr
+
+000080e0 <TaskMainTask_Commander>:
+    80e0:	e24dd030 	sub	sp, sp, #48	; 0x30
+    80e4:	e3a03001 	mov	r3, #1
+    80e8:	e58d3028 	str	r3, [sp, #40]	; 0x28
+    80ec:	e59d3028 	ldr	r3, [sp, #40]	; 0x28
+    80f0:	e3530000 	cmp	r3, #0
+    80f4:	0a000029 	beq	81a0 <TaskMainTask_Commander+0xc0>
+    80f8:	e28d3004 	add	r3, sp, #4
+    80fc:	e1d330d0 	ldrsb	r3, [r3]
+    8100:	e20330ff 	and	r3, r3, #255	; 0xff
+    8104:	e2633000 	rsb	r3, r3, #0
+    8108:	e20330ff 	and	r3, r3, #255	; 0xff
+    810c:	e5cd3027 	strb	r3, [sp, #39]	; 0x27
+    8110:	e28d3004 	add	r3, sp, #4
+    8114:	e2833001 	add	r3, r3, #1
+    8118:	e5d33000 	ldrb	r3, [r3]
+    811c:	e5cd3026 	strb	r3, [sp, #38]	; 0x26
+    8120:	e3a03001 	mov	r3, #1
+    8124:	e5cd302f 	strb	r3, [sp, #47]	; 0x2f
+    8128:	e1dd32d7 	ldrsb	r3, [sp, #39]	; 0x27
+    812c:	e3530000 	cmp	r3, #0
+    8130:	1a00000b 	bne	8164 <TaskMainTask_Commander+0x84>
+    8134:	e1dd32d6 	ldrsb	r3, [sp, #38]	; 0x26
+    8138:	e3530000 	cmp	r3, #0
+    813c:	da000002 	ble	814c <TaskMainTask_Commander+0x6c>
+    8140:	e3a03003 	mov	r3, #3
+    8144:	e5cd302f 	strb	r3, [sp, #47]	; 0x2f
+    8148:	ea00000d 	b	8184 <TaskMainTask_Commander+0xa4>
+    814c:	e1dd32d6 	ldrsb	r3, [sp, #38]	; 0x26
+    8150:	e3530000 	cmp	r3, #0
+    8154:	aa00000a 	bge	8184 <TaskMainTask_Commander+0xa4>
+    8158:	e3a03004 	mov	r3, #4
+    815c:	e5cd302f 	strb	r3, [sp, #47]	; 0x2f
+    8160:	ea000007 	b	8184 <TaskMainTask_Commander+0xa4>
+    8164:	e1dd32d7 	ldrsb	r3, [sp, #39]	; 0x27
+    8168:	e3530000 	cmp	r3, #0
+    816c:	da000004 	ble	8184 <TaskMainTask_Commander+0xa4>
+    8170:	e1dd32d6 	ldrsb	r3, [sp, #38]	; 0x26
+    8174:	e3530000 	cmp	r3, #0
+    8178:	1a000001 	bne	8184 <TaskMainTask_Commander+0xa4>
+    817c:	e3a03002 	mov	r3, #2
+    8180:	e5cd302f 	strb	r3, [sp, #47]	; 0x2f
+    8184:	e5dd302f 	ldrb	r3, [sp, #47]	; 0x2f
+    8188:	e5cd3025 	strb	r3, [sp, #37]	; 0x25
+    818c:	e1a00000 	nop			; (mov r0, r0)
+    8190:	e59f2014 	ldr	r2, [pc, #20]	; 81ac <TaskMainTask_Commander+0xcc>
+    8194:	e5dd3025 	ldrb	r3, [sp, #37]	; 0x25
+    8198:	e5c23000 	strb	r3, [r2]
+    819c:	e1a00000 	nop			; (mov r0, r0)
+    81a0:	e1a00000 	nop			; (mov r0, r0)
+    81a4:	e28dd030 	add	sp, sp, #48	; 0x30
+    81a8:	e12fff1e 	bx	lr
+    81ac:	00018618 	.word	0x00018618
+
+000081b0 <TaskMainTask_Display>:
+    81b0:	e24dd008 	sub	sp, sp, #8
+    81b4:	e3a03001 	mov	r3, #1
+    81b8:	e58d3004 	str	r3, [sp, #4]
+    81bc:	e1a00000 	nop			; (mov r0, r0)
+    81c0:	e28dd008 	add	sp, sp, #8
+    81c4:	e12fff1e 	bx	lr
+
+000081c8 <TaskMainTask_MotionControl>:
+    81c8:	e24dd010 	sub	sp, sp, #16
+    81cc:	e59f30a0 	ldr	r3, [pc, #160]	; 8274 <TaskMainTask_MotionControl+0xac>
+    81d0:	e5d33000 	ldrb	r3, [r3]
+    81d4:	e5cd300b 	strb	r3, [sp, #11]
+    81d8:	e3a03002 	mov	r3, #2
+    81dc:	e5cd300a 	strb	r3, [sp, #10]
+    81e0:	e5dd300b 	ldrb	r3, [sp, #11]
+    81e4:	e5cd3009 	strb	r3, [sp, #9]
+    81e8:	e5dd3009 	ldrb	r3, [sp, #9]
+    81ec:	e3530027 	cmp	r3, #39	; 0x27
+    81f0:	8a00001b 	bhi	8264 <TaskMainTask_MotionControl+0x9c>
+    81f4:	e3a03000 	mov	r3, #0
+    81f8:	e58d300c 	str	r3, [sp, #12]
+    81fc:	ea00000f 	b	8240 <TaskMainTask_MotionControl+0x78>
+    8200:	e3a03001 	mov	r3, #1
+    8204:	e58d3004 	str	r3, [sp, #4]
+    8208:	e59d3004 	ldr	r3, [sp, #4]
+    820c:	e3530000 	cmp	r3, #0
+    8210:	1a000007 	bne	8234 <TaskMainTask_MotionControl+0x6c>
+    8214:	e59d300c 	ldr	r3, [sp, #12]
+    8218:	e2433001 	sub	r3, r3, #1
+    821c:	e58d300c 	str	r3, [sp, #12]
+    8220:	e59d300c 	ldr	r3, [sp, #12]
+    8224:	e3530000 	cmp	r3, #0
+    8228:	aa000001 	bge	8234 <TaskMainTask_MotionControl+0x6c>
+    822c:	e3a03000 	mov	r3, #0
+    8230:	e58d300c 	str	r3, [sp, #12]
+    8234:	e59d300c 	ldr	r3, [sp, #12]
+    8238:	e2833001 	add	r3, r3, #1
+    823c:	e58d300c 	str	r3, [sp, #12]
+    8240:	e5dd3009 	ldrb	r3, [sp, #9]
+    8244:	e59f202c 	ldr	r2, [pc, #44]	; 8278 <TaskMainTask_MotionControl+0xb0>
+    8248:	e1a03183 	lsl	r3, r3, #3
+    824c:	e0823003 	add	r3, r2, r3
+    8250:	e5932004 	ldr	r2, [r3, #4]
+    8254:	e59d300c 	ldr	r3, [sp, #12]
+    8258:	e1520003 	cmp	r2, r3
+    825c:	caffffe7 	bgt	8200 <TaskMainTask_MotionControl+0x38>
+    8260:	ea000000 	b	8268 <TaskMainTask_MotionControl+0xa0>
+    8264:	e1a00000 	nop			; (mov r0, r0)
+    8268:	e1a00000 	nop			; (mov r0, r0)
+    826c:	e28dd010 	add	sp, sp, #16
+    8270:	e12fff1e 	bx	lr
+    8274:	00018618 	.word	0x00018618
+    8278:	000085f0 	.word	0x000085f0
+
+0000827c <Task_Display_blk>:
+    827c:	e24dd008 	sub	sp, sp, #8
+    8280:	e59f3010 	ldr	r3, [pc, #16]	; 8298 <Task_Display_blk+0x1c>
+    8284:	e5d33000 	ldrb	r3, [r3]
+    8288:	e5cd3007 	strb	r3, [sp, #7]
+    828c:	e1a00000 	nop			; (mov r0, r0)
+    8290:	e28dd008 	add	sp, sp, #8
+    8294:	e12fff1e 	bx	lr
+    8298:	00018618 	.word	0x00018618
+
+0000829c <Task_Commander_blk>:
+    829c:	e24dd028 	sub	sp, sp, #40	; 0x28
+    82a0:	e28d3004 	add	r3, sp, #4
+    82a4:	e1d330d0 	ldrsb	r3, [r3]
+    82a8:	e20330ff 	and	r3, r3, #255	; 0xff
+    82ac:	e2633000 	rsb	r3, r3, #0
+    82b0:	e20330ff 	and	r3, r3, #255	; 0xff
+    82b4:	e5cd3026 	strb	r3, [sp, #38]	; 0x26
+    82b8:	e28d3004 	add	r3, sp, #4
+    82bc:	e2833001 	add	r3, r3, #1
+    82c0:	e5d33000 	ldrb	r3, [r3]
+    82c4:	e5cd3025 	strb	r3, [sp, #37]	; 0x25
+    82c8:	e3a03001 	mov	r3, #1
+    82cc:	e5cd3027 	strb	r3, [sp, #39]	; 0x27
+    82d0:	e1dd32d6 	ldrsb	r3, [sp, #38]	; 0x26
+    82d4:	e3530000 	cmp	r3, #0
+    82d8:	1a00000b 	bne	830c <Task_Commander_blk+0x70>
+    82dc:	e1dd32d5 	ldrsb	r3, [sp, #37]	; 0x25
+    82e0:	e3530000 	cmp	r3, #0
+    82e4:	da000002 	ble	82f4 <Task_Commander_blk+0x58>
+    82e8:	e3a03003 	mov	r3, #3
+    82ec:	e5cd3027 	strb	r3, [sp, #39]	; 0x27
+    82f0:	ea00000d 	b	832c <Task_Commander_blk+0x90>
+    82f4:	e1dd32d5 	ldrsb	r3, [sp, #37]	; 0x25
+    82f8:	e3530000 	cmp	r3, #0
+    82fc:	aa00000a 	bge	832c <Task_Commander_blk+0x90>
+    8300:	e3a03004 	mov	r3, #4
+    8304:	e5cd3027 	strb	r3, [sp, #39]	; 0x27
+    8308:	ea000007 	b	832c <Task_Commander_blk+0x90>
+    830c:	e1dd32d6 	ldrsb	r3, [sp, #38]	; 0x26
+    8310:	e3530000 	cmp	r3, #0
+    8314:	da000004 	ble	832c <Task_Commander_blk+0x90>
+    8318:	e1dd32d5 	ldrsb	r3, [sp, #37]	; 0x25
+    831c:	e3530000 	cmp	r3, #0
+    8320:	1a000001 	bne	832c <Task_Commander_blk+0x90>
+    8324:	e3a03002 	mov	r3, #2
+    8328:	e5cd3027 	strb	r3, [sp, #39]	; 0x27
+    832c:	e5dd3027 	ldrb	r3, [sp, #39]	; 0x27
+    8330:	e5cd3024 	strb	r3, [sp, #36]	; 0x24
+    8334:	e1a00000 	nop			; (mov r0, r0)
+    8338:	e59f2010 	ldr	r2, [pc, #16]	; 8350 <Task_Commander_blk+0xb4>
+    833c:	e5dd3024 	ldrb	r3, [sp, #36]	; 0x24
+    8340:	e5c23000 	strb	r3, [r2]
+    8344:	e1a00000 	nop			; (mov r0, r0)
+    8348:	e28dd028 	add	sp, sp, #40	; 0x28
+    834c:	e12fff1e 	bx	lr
+    8350:	00018618 	.word	0x00018618
+
+00008354 <main>:
+    8354:	e92d4010 	push	{r4, lr}
+    8358:	ebffffcf 	bl	829c <Task_Commander_blk>
+    835c:	e1a00000 	nop			; (mov r0, r0)
+    8360:	e8bd4010 	pop	{r4, lr}
+    8364:	e12fff1e 	bx	lr

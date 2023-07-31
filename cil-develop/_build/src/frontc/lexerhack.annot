@@ -1,0 +1,266 @@
+"src/frontc/lexerhack.ml" 7 219 223 "src/frontc/lexerhack.ml" 7 219 237
+type(
+  (string -> unit) ref
+)
+ident(
+  def add_identifier "src/frontc/lexerhack.ml" 10 339 339 "src/frontc/lexerhack.ml" 1 0 -1
+)
+"src/frontc/lexerhack.ml" 8 263 265 "src/frontc/lexerhack.ml" 8 263 268
+type(
+  (string -> unit) -> (string -> unit) ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/lexerhack.ml" 8 263 274 "src/frontc/lexerhack.ml" 8 263 275
+type(
+  string
+)
+"src/frontc/lexerhack.ml" 8 263 279 "src/frontc/lexerhack.ml" 8 263 282
+type(
+  unit -> unit
+)
+ident(
+  ext_ref E.s
+)
+"src/frontc/lexerhack.ml" 8 263 284 "src/frontc/lexerhack.ml" 8 263 289
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.bug
+)
+"src/frontc/lexerhack.ml" 8 263 290 "src/frontc/lexerhack.ml" 8 263 334
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/frontc/lexerhack.ml" 8 263 283 "src/frontc/lexerhack.ml" 8 263 335
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/lexerhack.ml" 8 263 279 "src/frontc/lexerhack.ml" 8 263 335
+call(
+  tail
+)
+type(
+  unit
+)
+"src/frontc/lexerhack.ml" 8 263 269 "src/frontc/lexerhack.ml" 8 263 336
+type(
+  string -> unit
+)
+"src/frontc/lexerhack.ml" 8 263 265 "src/frontc/lexerhack.ml" 8 263 336
+type(
+  (string -> unit) ref
+)
+type(
+  (string -> unit) ref
+)
+"src/frontc/lexerhack.ml" 10 339 343 "src/frontc/lexerhack.ml" 10 339 351
+type(
+  (string -> unit) ref
+)
+ident(
+  def add_type "src/frontc/lexerhack.ml" 13 447 447 "src/frontc/lexerhack.ml" 1 0 -1
+)
+"src/frontc/lexerhack.ml" 11 377 379 "src/frontc/lexerhack.ml" 11 377 382
+type(
+  (string -> unit) -> (string -> unit) ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/lexerhack.ml" 11 377 388 "src/frontc/lexerhack.ml" 11 377 389
+type(
+  string
+)
+"src/frontc/lexerhack.ml" 11 377 393 "src/frontc/lexerhack.ml" 11 377 396
+type(
+  unit -> unit
+)
+ident(
+  ext_ref E.s
+)
+"src/frontc/lexerhack.ml" 11 377 398 "src/frontc/lexerhack.ml" 11 377 403
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.bug
+)
+"src/frontc/lexerhack.ml" 11 377 404 "src/frontc/lexerhack.ml" 11 377 442
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/frontc/lexerhack.ml" 11 377 397 "src/frontc/lexerhack.ml" 11 377 443
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/lexerhack.ml" 11 377 393 "src/frontc/lexerhack.ml" 11 377 443
+call(
+  tail
+)
+type(
+  unit
+)
+"src/frontc/lexerhack.ml" 11 377 383 "src/frontc/lexerhack.ml" 11 377 444
+type(
+  string -> unit
+)
+"src/frontc/lexerhack.ml" 11 377 379 "src/frontc/lexerhack.ml" 11 377 444
+type(
+  (string -> unit) ref
+)
+type(
+  (string -> unit) ref
+)
+"src/frontc/lexerhack.ml" 13 447 451 "src/frontc/lexerhack.ml" 13 447 463
+type(
+  (unit -> unit) ref
+)
+ident(
+  def push_context "src/frontc/lexerhack.ml" 16 561 561 "src/frontc/lexerhack.ml" 1 0 -1
+)
+"src/frontc/lexerhack.ml" 14 487 489 "src/frontc/lexerhack.ml" 14 487 492
+type(
+  (unit -> unit) -> (unit -> unit) ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/lexerhack.ml" 14 487 498 "src/frontc/lexerhack.ml" 14 487 499
+type(
+  unit
+)
+"src/frontc/lexerhack.ml" 14 487 503 "src/frontc/lexerhack.ml" 14 487 506
+type(
+  unit -> unit
+)
+ident(
+  ext_ref E.s
+)
+"src/frontc/lexerhack.ml" 14 487 508 "src/frontc/lexerhack.ml" 14 487 513
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.bug
+)
+"src/frontc/lexerhack.ml" 14 487 514 "src/frontc/lexerhack.ml" 14 487 556
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/frontc/lexerhack.ml" 14 487 507 "src/frontc/lexerhack.ml" 14 487 557
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/lexerhack.ml" 14 487 503 "src/frontc/lexerhack.ml" 14 487 557
+call(
+  tail
+)
+type(
+  unit
+)
+"src/frontc/lexerhack.ml" 14 487 493 "src/frontc/lexerhack.ml" 14 487 558
+type(
+  unit -> unit
+)
+"src/frontc/lexerhack.ml" 14 487 489 "src/frontc/lexerhack.ml" 14 487 558
+type(
+  (unit -> unit) ref
+)
+type(
+  (unit -> unit) ref
+)
+"src/frontc/lexerhack.ml" 16 561 565 "src/frontc/lexerhack.ml" 16 561 576
+type(
+  (unit -> unit) ref
+)
+ident(
+  def pop_context "src/frontc/lexerhack.ml" 21 726 726 "src/frontc/lexerhack.ml" 1 0 -1
+)
+"src/frontc/lexerhack.ml" 17 600 602 "src/frontc/lexerhack.ml" 17 600 605
+type(
+  (unit -> unit) -> (unit -> unit) ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/lexerhack.ml" 17 600 611 "src/frontc/lexerhack.ml" 17 600 612
+type(
+  unit
+)
+"src/frontc/lexerhack.ml" 17 600 616 "src/frontc/lexerhack.ml" 17 600 619
+type(
+  unit -> unit
+)
+ident(
+  ext_ref E.s
+)
+"src/frontc/lexerhack.ml" 17 600 621 "src/frontc/lexerhack.ml" 17 600 626
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.bug
+)
+"src/frontc/lexerhack.ml" 17 600 627 "src/frontc/lexerhack.ml" 17 600 668
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/frontc/lexerhack.ml" 17 600 620 "src/frontc/lexerhack.ml" 17 600 669
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/lexerhack.ml" 17 600 616 "src/frontc/lexerhack.ml" 17 600 669
+call(
+  tail
+)
+type(
+  unit
+)
+"src/frontc/lexerhack.ml" 17 600 606 "src/frontc/lexerhack.ml" 17 600 670
+type(
+  unit -> unit
+)
+"src/frontc/lexerhack.ml" 17 600 602 "src/frontc/lexerhack.ml" 17 600 670
+type(
+  (unit -> unit) ref
+)
+type(
+  (unit -> unit) ref
+)
+"src/frontc/lexerhack.ml" 21 726 730 "src/frontc/lexerhack.ml" 21 726 744
+type(
+  string ref
+)
+ident(
+  def currentPattern "src/frontc/lexerhack.ml" 21 726 753 "src/frontc/lexerhack.ml" 1 0 -1
+)
+"src/frontc/lexerhack.ml" 21 726 747 "src/frontc/lexerhack.ml" 21 726 750
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/lexerhack.ml" 21 726 751 "src/frontc/lexerhack.ml" 21 726 753
+type(
+  string
+)
+"src/frontc/lexerhack.ml" 21 726 747 "src/frontc/lexerhack.ml" 21 726 753
+type(
+  string ref
+)

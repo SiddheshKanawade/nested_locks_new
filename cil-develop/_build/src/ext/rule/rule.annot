@@ -1,0 +1,242 @@
+"src/ext/rule/rule.ml" 13 341 345 "src/ext/rule/rule.ml" 13 341 357
+type(
+  Cil.nopCilVisitor
+)
+ident(
+  def dummyVisitor "src/ext/rule/rule.ml" 15 379 379 "src/ext/rule/rule.ml" 1 0 -1
+)
+"src/ext/rule/rule.ml" 13 341 364 "src/ext/rule/rule.ml" 13 341 377
+call(
+  stack
+)
+"src/ext/rule/rule.ml" 13 341 360 "src/ext/rule/rule.ml" 13 341 377
+type(
+  Cil.nopCilVisitor
+)
+"src/ext/rule/rule.ml" 15 379 383 "src/ext/rule/rule.ml" 15 379 387
+type(
+  Cil.fundec -> unit
+)
+ident(
+  def rule "src/ext/rule/rule.ml" 21 516 516 "src/ext/rule/rule.ml" 1 0 -1
+)
+"src/ext/rule/rule.ml" 15 379 389 "src/ext/rule/rule.ml" 15 379 390
+type(
+  Cil.fundec
+)
+ident(
+  def f "src/ext/rule/rule.ml" 16 407 409 "src/ext/rule/rule.ml" 18 469 499
+)
+"src/ext/rule/rule.ml" 16 407 413 "src/ext/rule/rule.ml" 16 407 418
+type(
+  string
+)
+ident(
+  def fname "src/ext/rule/rule.ml" 17 437 440 "src/ext/rule/rule.ml" 18 469 499
+)
+"src/ext/rule/rule.ml" 16 407 421 "src/ext/rule/rule.ml" 16 407 422
+type(
+  Cil.fundec
+)
+ident(
+  int_ref f "src/ext/rule/rule.ml" 15 379 389 "src/ext/rule/rule.ml" 15 379 390
+)
+"src/ext/rule/rule.ml" 16 407 421 "src/ext/rule/rule.ml" 16 407 427
+type(
+  Cil.varinfo
+)
+"src/ext/rule/rule.ml" 16 407 421 "src/ext/rule/rule.ml" 16 407 433
+type(
+  string
+)
+"src/ext/rule/rule.ml" 17 437 440 "src/ext/rule/rule.ml" 17 437 445
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/rule/rule.ml" 17 437 446 "src/ext/rule/rule.ml" 17 437 467
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/rule/rule.ml" 18 469 487 "src/ext/rule/rule.ml" 18 469 488
+type(
+  Cil.fundec
+)
+ident(
+  int_ref f "src/ext/rule/rule.ml" 15 379 389 "src/ext/rule/rule.ml" 15 379 390
+)
+"src/ext/rule/rule.ml" 18 469 487 "src/ext/rule/rule.ml" 18 469 493
+type(
+  Cil.varinfo
+)
+"src/ext/rule/rule.ml" 18 469 487 "src/ext/rule/rule.ml" 18 469 499
+type(
+  string
+)
+"src/ext/rule/rule.ml" 17 437 440 "src/ext/rule/rule.ml" 18 469 499
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/rule/rule.ml" 16 407 409 "src/ext/rule/rule.ml" 18 469 499
+type(
+  unit
+)
+"src/ext/rule/rule.ml" 21 516 520 "src/ext/rule/rule.ml" 21 516 527
+type(
+  Feature.t
+)
+ident(
+  def feature "src/ext/rule/rule.ml" 33 823 823 "src/ext/rule/rule.ml" 1 0 -1
+)
+"src/ext/rule/rule.ml" 22 531 545 "src/ext/rule/rule.ml" 22 531 551
+type(
+  string
+)
+"src/ext/rule/rule.ml" 23 553 570 "src/ext/rule/rule.ml" 23 553 575
+type(
+  bool
+)
+"src/ext/rule/rule.ml" 24 577 598 "src/ext/rule/rule.ml" 24 577 620
+type(
+  string
+)
+"src/ext/rule/rule.ml" 25 623 641 "src/ext/rule/rule.ml" 25 623 643
+type(
+  (string * Arg.spec * string) list
+)
+"src/ext/rule/rule.ml" 26 645 670 "src/ext/rule/rule.ml" 26 645 671
+type(
+  Cil.file
+)
+ident(
+  def f "src/ext/rule/rule.ml" 27 683 689 "src/ext/rule/rule.ml" 29 772 788
+)
+"src/ext/rule/rule.ml" 27 683 689 "src/ext/rule/rule.ml" 27 683 704
+type(
+  Cil.file -> (Cil.global -> unit) -> unit
+)
+ident(
+  ext_ref Cil.iterGlobals
+)
+"src/ext/rule/rule.ml" 27 683 705 "src/ext/rule/rule.ml" 27 683 706
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/rule/rule.ml" 26 645 670 "src/ext/rule/rule.ml" 26 645 671
+)
+"src/ext/rule/rule.ml" 27 683 712 "src/ext/rule/rule.ml" 27 683 716
+type(
+  Cil.global
+)
+ident(
+  def glob "src/ext/rule/rule.ml" 27 683 720 "src/ext/rule/rule.ml" 29 772 787
+)
+"src/ext/rule/rule.ml" 27 683 726 "src/ext/rule/rule.ml" 27 683 730
+type(
+  Cil.global
+)
+ident(
+  int_ref glob "src/ext/rule/rule.ml" 27 683 712 "src/ext/rule/rule.ml" 27 683 716
+)
+"src/ext/rule/rule.ml" 28 736 753 "src/ext/rule/rule.ml" 28 736 755
+type(
+  Cil.fundec
+)
+ident(
+  def fd "src/ext/rule/rule.ml" 28 736 762 "src/ext/rule/rule.ml" 28 736 770
+)
+"src/ext/rule/rule.ml" 28 736 756 "src/ext/rule/rule.ml" 28 736 757
+type(
+  Cil.location
+)
+"src/ext/rule/rule.ml" 28 736 744 "src/ext/rule/rule.ml" 28 736 758
+type(
+  Cil.global
+)
+"src/ext/rule/rule.ml" 28 736 762 "src/ext/rule/rule.ml" 28 736 766
+type(
+  Cil.fundec -> unit
+)
+ident(
+  int_ref rule "src/ext/rule/rule.ml" 15 379 383 "src/ext/rule/rule.ml" 15 379 387
+)
+"src/ext/rule/rule.ml" 28 736 767 "src/ext/rule/rule.ml" 28 736 769
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fd "src/ext/rule/rule.ml" 28 736 753 "src/ext/rule/rule.ml" 28 736 755
+)
+"src/ext/rule/rule.ml" 28 736 762 "src/ext/rule/rule.ml" 28 736 770
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/rule/rule.ml" 29 772 780 "src/ext/rule/rule.ml" 29 772 781
+type(
+  Cil.global
+)
+"src/ext/rule/rule.ml" 29 772 785 "src/ext/rule/rule.ml" 29 772 787
+type(
+  unit
+)
+"src/ext/rule/rule.ml" 27 683 720 "src/ext/rule/rule.ml" 29 772 787
+type(
+  unit
+)
+"src/ext/rule/rule.ml" 27 683 707 "src/ext/rule/rule.ml" 29 772 788
+type(
+  Cil.global -> unit
+)
+"src/ext/rule/rule.ml" 27 683 689 "src/ext/rule/rule.ml" 29 772 788
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/rule/rule.ml" 26 645 659 "src/ext/rule/rule.ml" 29 772 789
+type(
+  Cil.file -> unit
+)
+"src/ext/rule/rule.ml" 30 791 811 "src/ext/rule/rule.ml" 30 791 815
+type(
+  bool
+)
+"src/ext/rule/rule.ml" 22 531 533 "src/ext/rule/rule.ml" 31 817 820
+type(
+  Feature.t
+)
+"src/ext/rule/rule.ml" 33 823 827 "src/ext/rule/rule.ml" 33 823 829
+type(
+  unit
+)
+"src/ext/rule/rule.ml" 33 823 832 "src/ext/rule/rule.ml" 33 823 848
+type(
+  Feature.t -> unit
+)
+ident(
+  ext_ref Feature.register
+)
+"src/ext/rule/rule.ml" 33 823 849 "src/ext/rule/rule.ml" 33 823 856
+type(
+  Feature.t
+)
+ident(
+  int_ref feature "src/ext/rule/rule.ml" 21 516 520 "src/ext/rule/rule.ml" 21 516 527
+)
+"src/ext/rule/rule.ml" 33 823 832 "src/ext/rule/rule.ml" 33 823 856
+call(
+  stack
+)
+type(
+  unit
+)

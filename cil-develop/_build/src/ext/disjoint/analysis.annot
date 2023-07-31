@@ -1,0 +1,6148 @@
+"src/ext/disjoint/analysis.ml" 33 733 741 "src/ext/disjoint/analysis.ml" 33 733 757
+type(
+  task list -> unit
+)
+ident(
+  def display_taskList "src/ext/disjoint/analysis.ml" 33 733 733 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 33 733 758 "src/ext/disjoint/analysis.ml" 33 733 759
+type(
+  task list
+)
+ident(
+  def l "src/ext/disjoint/analysis.ml" 34 762 764 "src/ext/disjoint/analysis.ml" 39 935 972
+)
+"src/ext/disjoint/analysis.ml" 34 762 768 "src/ext/disjoint/analysis.ml" 34 762 775
+type(
+  task -> unit
+)
+ident(
+  def display "src/ext/disjoint/analysis.ml" 39 935 940 "src/ext/disjoint/analysis.ml" 39 935 972
+)
+"src/ext/disjoint/analysis.ml" 34 762 776 "src/ext/disjoint/analysis.ml" 34 762 777
+type(
+  task
+)
+ident(
+  def i "src/ext/disjoint/analysis.ml" 35 780 784 "src/ext/disjoint/analysis.ml" 35 780 802
+)
+"src/ext/disjoint/analysis.ml" 35 780 784 "src/ext/disjoint/analysis.ml" 35 780 789
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/disjoint/analysis.ml" 35 780 790 "src/ext/disjoint/analysis.ml" 35 780 794
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/disjoint/analysis.ml" 35 780 795 "src/ext/disjoint/analysis.ml" 35 780 796
+type(
+  task
+)
+ident(
+  int_ref i "src/ext/disjoint/analysis.ml" 34 762 776 "src/ext/disjoint/analysis.ml" 34 762 777
+)
+"src/ext/disjoint/analysis.ml" 35 780 795 "src/ext/disjoint/analysis.ml" 35 780 802
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 35 780 784 "src/ext/disjoint/analysis.ml" 35 780 802
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 39 935 940 "src/ext/disjoint/analysis.ml" 39 935 949
+type(
+  (task -> unit) -> task list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/ext/disjoint/analysis.ml" 39 935 955 "src/ext/disjoint/analysis.ml" 39 935 956
+type(
+  task
+)
+ident(
+  def x "src/ext/disjoint/analysis.ml" 39 935 960 "src/ext/disjoint/analysis.ml" 39 935 969
+)
+"src/ext/disjoint/analysis.ml" 39 935 960 "src/ext/disjoint/analysis.ml" 39 935 967
+type(
+  task -> unit
+)
+ident(
+  int_ref display "src/ext/disjoint/analysis.ml" 34 762 768 "src/ext/disjoint/analysis.ml" 34 762 775
+)
+"src/ext/disjoint/analysis.ml" 39 935 968 "src/ext/disjoint/analysis.ml" 39 935 969
+type(
+  task
+)
+ident(
+  int_ref x "src/ext/disjoint/analysis.ml" 39 935 955 "src/ext/disjoint/analysis.ml" 39 935 956
+)
+"src/ext/disjoint/analysis.ml" 39 935 960 "src/ext/disjoint/analysis.ml" 39 935 969
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 39 935 950 "src/ext/disjoint/analysis.ml" 39 935 970
+type(
+  task -> unit
+)
+"src/ext/disjoint/analysis.ml" 39 935 971 "src/ext/disjoint/analysis.ml" 39 935 972
+type(
+  task list
+)
+ident(
+  int_ref l "src/ext/disjoint/analysis.ml" 33 733 758 "src/ext/disjoint/analysis.ml" 33 733 759
+)
+"src/ext/disjoint/analysis.ml" 39 935 940 "src/ext/disjoint/analysis.ml" 39 935 972
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 34 762 764 "src/ext/disjoint/analysis.ml" 39 935 972
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 41 974 978 "src/ext/disjoint/analysis.ml" 41 974 998
+type(
+  ((string * string * int * int * float) *
+   (string * string * int * int * float))
+  list -> unit
+)
+ident(
+  def display_taskpairList "src/ext/disjoint/analysis.ml" 52 1248 1248 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 41 974 999 "src/ext/disjoint/analysis.ml" 41 974 1000
+type(
+  ((string * string * int * int * float) *
+   (string * string * int * int * float))
+  list
+)
+ident(
+  def l "src/ext/disjoint/analysis.ml" 42 1003 1005 "src/ext/disjoint/analysis.ml" 46 1200 1237
+)
+"src/ext/disjoint/analysis.ml" 42 1003 1009 "src/ext/disjoint/analysis.ml" 42 1003 1016
+type(
+  (string * string * int * int * float) *
+  (string * string * int * int * float) -> unit
+)
+ident(
+  def display "src/ext/disjoint/analysis.ml" 46 1200 1205 "src/ext/disjoint/analysis.ml" 46 1200 1237
+)
+"src/ext/disjoint/analysis.ml" 42 1003 1017 "src/ext/disjoint/analysis.ml" 42 1003 1018
+type(
+  (string * string * int * int * float) *
+  (string * string * int * int * float)
+)
+ident(
+  def i "src/ext/disjoint/analysis.ml" 43 1021 1028 "src/ext/disjoint/analysis.ml" 44 1041 1196
+)
+"src/ext/disjoint/analysis.ml" 43 1021 1034 "src/ext/disjoint/analysis.ml" 43 1021 1035
+type(
+  (string * string * int * int * float) *
+  (string * string * int * int * float)
+)
+ident(
+  int_ref i "src/ext/disjoint/analysis.ml" 42 1003 1017 "src/ext/disjoint/analysis.ml" 42 1003 1018
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1045 "src/ext/disjoint/analysis.ml" 44 1041 1050
+type(
+  string
+)
+ident(
+  def tname "src/ext/disjoint/analysis.ml" 44 1041 1100 "src/ext/disjoint/analysis.ml" 44 1041 1196
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1051 "src/ext/disjoint/analysis.ml" 44 1041 1056
+type(
+  string
+)
+ident(
+  def fname "src/ext/disjoint/analysis.ml" 44 1041 1100 "src/ext/disjoint/analysis.ml" 44 1041 1196
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1057 "src/ext/disjoint/analysis.ml" 44 1041 1059
+type(
+  int
+)
+ident(
+  def pr "src/ext/disjoint/analysis.ml" 44 1041 1100 "src/ext/disjoint/analysis.ml" 44 1041 1196
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1060 "src/ext/disjoint/analysis.ml" 44 1041 1061
+type(
+  int
+)
+ident(
+  def p "src/ext/disjoint/analysis.ml" 44 1041 1100 "src/ext/disjoint/analysis.ml" 44 1041 1196
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1062 "src/ext/disjoint/analysis.ml" 44 1041 1066
+type(
+  float
+)
+ident(
+  def wcet "src/ext/disjoint/analysis.ml" 44 1041 1100 "src/ext/disjoint/analysis.ml" 44 1041 1196
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1044 "src/ext/disjoint/analysis.ml" 44 1041 1067
+type(
+  string * string * int * int * float
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1069 "src/ext/disjoint/analysis.ml" 44 1041 1075
+type(
+  string
+)
+ident(
+  def tname' "src/ext/disjoint/analysis.ml" 44 1041 1100 "src/ext/disjoint/analysis.ml" 44 1041 1196
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1076 "src/ext/disjoint/analysis.ml" 44 1041 1082
+type(
+  string
+)
+ident(
+  def fname' "src/ext/disjoint/analysis.ml" 44 1041 1100 "src/ext/disjoint/analysis.ml" 44 1041 1196
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1083 "src/ext/disjoint/analysis.ml" 44 1041 1086
+type(
+  int
+)
+ident(
+  def pr' "src/ext/disjoint/analysis.ml" 44 1041 1100 "src/ext/disjoint/analysis.ml" 44 1041 1196
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1087 "src/ext/disjoint/analysis.ml" 44 1041 1089
+type(
+  int
+)
+ident(
+  def p' "src/ext/disjoint/analysis.ml" 44 1041 1100 "src/ext/disjoint/analysis.ml" 44 1041 1196
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1090 "src/ext/disjoint/analysis.ml" 44 1041 1095
+type(
+  float
+)
+ident(
+  def wcet' "src/ext/disjoint/analysis.ml" 44 1041 1100 "src/ext/disjoint/analysis.ml" 44 1041 1196
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1068 "src/ext/disjoint/analysis.ml" 44 1041 1096
+type(
+  string * string * int * int * float
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1044 "src/ext/disjoint/analysis.ml" 44 1041 1096
+type(
+  (string * string * int * int * float) *
+  (string * string * int * int * float)
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1100 "src/ext/disjoint/analysis.ml" 44 1041 1105
+type(
+  (string ->
+   string ->
+   int -> int -> float -> string -> string -> int -> int -> float -> unit,
+   unit, Pretty.doc, unit)
+  format4 ->
+  string ->
+  string ->
+  int -> int -> float -> string -> string -> int -> int -> float -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1106 "src/ext/disjoint/analysis.ml" 44 1041 1147
+type(
+  (string ->
+   string ->
+   int -> int -> float -> string -> string -> int -> int -> float -> unit,
+   unit, Pretty.doc, unit)
+  format4
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1148 "src/ext/disjoint/analysis.ml" 44 1041 1153
+type(
+  string
+)
+ident(
+  int_ref tname "src/ext/disjoint/analysis.ml" 44 1041 1045 "src/ext/disjoint/analysis.ml" 44 1041 1050
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1154 "src/ext/disjoint/analysis.ml" 44 1041 1159
+type(
+  string
+)
+ident(
+  int_ref fname "src/ext/disjoint/analysis.ml" 44 1041 1051 "src/ext/disjoint/analysis.ml" 44 1041 1056
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1160 "src/ext/disjoint/analysis.ml" 44 1041 1162
+type(
+  int
+)
+ident(
+  int_ref pr "src/ext/disjoint/analysis.ml" 44 1041 1057 "src/ext/disjoint/analysis.ml" 44 1041 1059
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1163 "src/ext/disjoint/analysis.ml" 44 1041 1164
+type(
+  int
+)
+ident(
+  int_ref p "src/ext/disjoint/analysis.ml" 44 1041 1060 "src/ext/disjoint/analysis.ml" 44 1041 1061
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1165 "src/ext/disjoint/analysis.ml" 44 1041 1169
+type(
+  float
+)
+ident(
+  int_ref wcet "src/ext/disjoint/analysis.ml" 44 1041 1062 "src/ext/disjoint/analysis.ml" 44 1041 1066
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1170 "src/ext/disjoint/analysis.ml" 44 1041 1176
+type(
+  string
+)
+ident(
+  int_ref tname' "src/ext/disjoint/analysis.ml" 44 1041 1069 "src/ext/disjoint/analysis.ml" 44 1041 1075
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1177 "src/ext/disjoint/analysis.ml" 44 1041 1183
+type(
+  string
+)
+ident(
+  int_ref fname' "src/ext/disjoint/analysis.ml" 44 1041 1076 "src/ext/disjoint/analysis.ml" 44 1041 1082
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1184 "src/ext/disjoint/analysis.ml" 44 1041 1187
+type(
+  int
+)
+ident(
+  int_ref pr' "src/ext/disjoint/analysis.ml" 44 1041 1083 "src/ext/disjoint/analysis.ml" 44 1041 1086
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1188 "src/ext/disjoint/analysis.ml" 44 1041 1190
+type(
+  int
+)
+ident(
+  int_ref p' "src/ext/disjoint/analysis.ml" 44 1041 1087 "src/ext/disjoint/analysis.ml" 44 1041 1089
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1191 "src/ext/disjoint/analysis.ml" 44 1041 1196
+type(
+  float
+)
+ident(
+  int_ref wcet' "src/ext/disjoint/analysis.ml" 44 1041 1090 "src/ext/disjoint/analysis.ml" 44 1041 1095
+)
+"src/ext/disjoint/analysis.ml" 44 1041 1100 "src/ext/disjoint/analysis.ml" 44 1041 1196
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 43 1021 1028 "src/ext/disjoint/analysis.ml" 44 1041 1196
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 46 1200 1205 "src/ext/disjoint/analysis.ml" 46 1200 1214
+type(
+  ((string * string * int * int * float) *
+   (string * string * int * int * float) -> unit) ->
+  ((string * string * int * int * float) *
+   (string * string * int * int * float))
+  list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/ext/disjoint/analysis.ml" 46 1200 1220 "src/ext/disjoint/analysis.ml" 46 1200 1221
+type(
+  (string * string * int * int * float) *
+  (string * string * int * int * float)
+)
+ident(
+  def x "src/ext/disjoint/analysis.ml" 46 1200 1225 "src/ext/disjoint/analysis.ml" 46 1200 1234
+)
+"src/ext/disjoint/analysis.ml" 46 1200 1225 "src/ext/disjoint/analysis.ml" 46 1200 1232
+type(
+  (string * string * int * int * float) *
+  (string * string * int * int * float) -> unit
+)
+ident(
+  int_ref display "src/ext/disjoint/analysis.ml" 42 1003 1009 "src/ext/disjoint/analysis.ml" 42 1003 1016
+)
+"src/ext/disjoint/analysis.ml" 46 1200 1233 "src/ext/disjoint/analysis.ml" 46 1200 1234
+type(
+  (string * string * int * int * float) *
+  (string * string * int * int * float)
+)
+ident(
+  int_ref x "src/ext/disjoint/analysis.ml" 46 1200 1220 "src/ext/disjoint/analysis.ml" 46 1200 1221
+)
+"src/ext/disjoint/analysis.ml" 46 1200 1225 "src/ext/disjoint/analysis.ml" 46 1200 1234
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 46 1200 1215 "src/ext/disjoint/analysis.ml" 46 1200 1235
+type(
+  (string * string * int * int * float) *
+  (string * string * int * int * float) -> unit
+)
+"src/ext/disjoint/analysis.ml" 46 1200 1236 "src/ext/disjoint/analysis.ml" 46 1200 1237
+type(
+  ((string * string * int * int * float) *
+   (string * string * int * int * float))
+  list
+)
+ident(
+  int_ref l "src/ext/disjoint/analysis.ml" 41 974 999 "src/ext/disjoint/analysis.ml" 41 974 1000
+)
+"src/ext/disjoint/analysis.ml" 46 1200 1205 "src/ext/disjoint/analysis.ml" 46 1200 1237
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 42 1003 1005 "src/ext/disjoint/analysis.ml" 46 1200 1237
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 52 1248 1252 "src/ext/disjoint/analysis.ml" 52 1248 1260
+type(
+  Cil.file -> Cil.global list
+)
+ident(
+  def getFuncs "src/ext/disjoint/analysis.ml" 59 1389 1389 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 52 1248 1262 "src/ext/disjoint/analysis.ml" 52 1248 1263
+type(
+  Cil.file
+)
+ident(
+  def f "src/ext/disjoint/analysis.ml" 53 1277 1279 "src/ext/disjoint/analysis.ml" 57 1373 1386
+)
+"src/ext/disjoint/analysis.ml" 53 1277 1279 "src/ext/disjoint/analysis.ml" 53 1277 1290
+type(
+  (Cil.global -> bool) -> Cil.global list -> Cil.global list
+)
+ident(
+  ext_ref List.filter
+)
+"src/ext/disjoint/analysis.ml" 53 1277 1296 "src/ext/disjoint/analysis.ml" 53 1277 1297
+type(
+  Cil.global
+)
+ident(
+  def g "src/ext/disjoint/analysis.ml" 54 1301 1307 "src/ext/disjoint/analysis.ml" 56 1352 1370
+)
+"src/ext/disjoint/analysis.ml" 54 1301 1313 "src/ext/disjoint/analysis.ml" 54 1301 1314
+type(
+  Cil.global
+)
+ident(
+  int_ref g "src/ext/disjoint/analysis.ml" 53 1277 1296 "src/ext/disjoint/analysis.ml" 53 1277 1297
+)
+"src/ext/disjoint/analysis.ml" 55 1320 1334 "src/ext/disjoint/analysis.ml" 55 1320 1336
+type(
+  Cil.fundec
+)
+ident(
+  def fd "src/ext/disjoint/analysis.ml" 55 1320 1346 "src/ext/disjoint/analysis.ml" 55 1320 1350
+)
+"src/ext/disjoint/analysis.ml" 55 1320 1338 "src/ext/disjoint/analysis.ml" 55 1320 1341
+type(
+  Cil.location
+)
+ident(
+  def loc "src/ext/disjoint/analysis.ml" 55 1320 1346 "src/ext/disjoint/analysis.ml" 55 1320 1350
+)
+"src/ext/disjoint/analysis.ml" 55 1320 1328 "src/ext/disjoint/analysis.ml" 55 1320 1342
+type(
+  Cil.global
+)
+"src/ext/disjoint/analysis.ml" 55 1320 1346 "src/ext/disjoint/analysis.ml" 55 1320 1350
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 56 1352 1360 "src/ext/disjoint/analysis.ml" 56 1352 1361
+type(
+  Cil.global
+)
+"src/ext/disjoint/analysis.ml" 56 1352 1365 "src/ext/disjoint/analysis.ml" 56 1352 1370
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 54 1301 1307 "src/ext/disjoint/analysis.ml" 56 1352 1370
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 53 1277 1291 "src/ext/disjoint/analysis.ml" 56 1352 1372
+type(
+  Cil.global -> bool
+)
+"src/ext/disjoint/analysis.ml" 57 1373 1377 "src/ext/disjoint/analysis.ml" 57 1373 1378
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/disjoint/analysis.ml" 52 1248 1262 "src/ext/disjoint/analysis.ml" 52 1248 1263
+)
+"src/ext/disjoint/analysis.ml" 57 1373 1377 "src/ext/disjoint/analysis.ml" 57 1373 1386
+type(
+  Cil.global list
+)
+"src/ext/disjoint/analysis.ml" 53 1277 1279 "src/ext/disjoint/analysis.ml" 57 1373 1386
+call(
+  tail
+)
+type(
+  Cil.global list
+)
+"src/ext/disjoint/analysis.ml" 59 1389 1397 "src/ext/disjoint/analysis.ml" 59 1389 1409
+type(
+  Cil.global list -> Cil.fundec list
+)
+ident(
+  def convertFuncs "src/ext/disjoint/analysis.ml" 59 1389 1389 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 59 1389 1410 "src/ext/disjoint/analysis.ml" 59 1389 1413
+type(
+  Cil.global list
+)
+ident(
+  def lst "src/ext/disjoint/analysis.ml" 60 1416 1418 "src/ext/disjoint/analysis.ml" 65 1531 1540
+)
+"src/ext/disjoint/analysis.ml" 60 1416 1424 "src/ext/disjoint/analysis.ml" 60 1416 1427
+type(
+  Cil.global list
+)
+ident(
+  int_ref lst "src/ext/disjoint/analysis.ml" 59 1389 1410 "src/ext/disjoint/analysis.ml" 59 1389 1413
+)
+"src/ext/disjoint/analysis.ml" 61 1433 1437 "src/ext/disjoint/analysis.ml" 61 1433 1439
+type(
+  Cil.global list
+)
+"src/ext/disjoint/analysis.ml" 61 1433 1443 "src/ext/disjoint/analysis.ml" 61 1433 1445
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 62 1446 1452 "src/ext/disjoint/analysis.ml" 62 1446 1453
+type(
+  Cil.global
+)
+ident(
+  def h "src/ext/disjoint/analysis.ml" 63 1463 1469 "src/ext/disjoint/analysis.ml" 65 1531 1540
+)
+"src/ext/disjoint/analysis.ml" 62 1446 1457 "src/ext/disjoint/analysis.ml" 62 1446 1458
+type(
+  Cil.global list
+)
+ident(
+  def t "src/ext/disjoint/analysis.ml" 63 1463 1469 "src/ext/disjoint/analysis.ml" 65 1531 1540
+)
+"src/ext/disjoint/analysis.ml" 62 1446 1452 "src/ext/disjoint/analysis.ml" 62 1446 1458
+type(
+  Cil.global list
+)
+"src/ext/disjoint/analysis.ml" 63 1463 1475 "src/ext/disjoint/analysis.ml" 63 1463 1476
+type(
+  Cil.global
+)
+ident(
+  int_ref h "src/ext/disjoint/analysis.ml" 62 1446 1452 "src/ext/disjoint/analysis.ml" 62 1446 1453
+)
+"src/ext/disjoint/analysis.ml" 64 1482 1495 "src/ext/disjoint/analysis.ml" 64 1482 1497
+type(
+  Cil.fundec
+)
+ident(
+  def fd "src/ext/disjoint/analysis.ml" 64 1482 1507 "src/ext/disjoint/analysis.ml" 64 1482 1530
+)
+"src/ext/disjoint/analysis.ml" 64 1482 1498 "src/ext/disjoint/analysis.ml" 64 1482 1501
+type(
+  Cil.location
+)
+ident(
+  def loc "src/ext/disjoint/analysis.ml" 64 1482 1507 "src/ext/disjoint/analysis.ml" 64 1482 1530
+)
+"src/ext/disjoint/analysis.ml" 64 1482 1490 "src/ext/disjoint/analysis.ml" 64 1482 1502
+type(
+  Cil.global
+)
+"src/ext/disjoint/analysis.ml" 64 1482 1508 "src/ext/disjoint/analysis.ml" 64 1482 1510
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fd "src/ext/disjoint/analysis.ml" 64 1482 1495 "src/ext/disjoint/analysis.ml" 64 1482 1497
+)
+"src/ext/disjoint/analysis.ml" 64 1482 1507 "src/ext/disjoint/analysis.ml" 64 1482 1511
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 64 1482 1512 "src/ext/disjoint/analysis.ml" 64 1482 1513
+type(
+  Cil.fundec list -> Cil.fundec list -> Cil.fundec list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/disjoint/analysis.ml" 64 1482 1515 "src/ext/disjoint/analysis.ml" 64 1482 1527
+type(
+  Cil.global list -> Cil.fundec list
+)
+ident(
+  int_ref convertFuncs "src/ext/disjoint/analysis.ml" 59 1389 1397 "src/ext/disjoint/analysis.ml" 59 1389 1409
+)
+"src/ext/disjoint/analysis.ml" 64 1482 1528 "src/ext/disjoint/analysis.ml" 64 1482 1529
+type(
+  Cil.global list
+)
+ident(
+  int_ref t "src/ext/disjoint/analysis.ml" 62 1446 1457 "src/ext/disjoint/analysis.ml" 62 1446 1458
+)
+"src/ext/disjoint/analysis.ml" 64 1482 1514 "src/ext/disjoint/analysis.ml" 64 1482 1530
+call(
+  stack
+)
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 64 1482 1507 "src/ext/disjoint/analysis.ml" 64 1482 1530
+call(
+  tail
+)
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 65 1531 1533 "src/ext/disjoint/analysis.ml" 65 1531 1534
+type(
+  Cil.global
+)
+"src/ext/disjoint/analysis.ml" 65 1531 1538 "src/ext/disjoint/analysis.ml" 65 1531 1540
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 63 1463 1469 "src/ext/disjoint/analysis.ml" 65 1531 1540
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 60 1416 1418 "src/ext/disjoint/analysis.ml" 65 1531 1540
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 67 1542 1546 "src/ext/disjoint/analysis.ml" 67 1542 1550
+type(
+  'a list -> int
+)
+ident(
+  def size "src/ext/disjoint/analysis.ml" 70 1601 1601 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 67 1542 1551 "src/ext/disjoint/analysis.ml" 67 1542 1552
+type(
+  'a list
+)
+ident(
+  def l "src/ext/disjoint/analysis.ml" 68 1556 1558 "src/ext/disjoint/analysis.ml" 68 1556 1599
+)
+"src/ext/disjoint/analysis.ml" 68 1556 1558 "src/ext/disjoint/analysis.ml" 68 1556 1572
+type(
+  (int -> 'a -> int) -> int -> 'a list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/ext/disjoint/analysis.ml" 68 1556 1578 "src/ext/disjoint/analysis.ml" 68 1556 1581
+type(
+  int
+)
+ident(
+  def acc "src/ext/disjoint/analysis.ml" 68 1556 1582 "src/ext/disjoint/analysis.ml" 68 1556 1594
+)
+"src/ext/disjoint/analysis.ml" 68 1556 1582 "src/ext/disjoint/analysis.ml" 68 1556 1583
+type(
+  'a
+)
+"src/ext/disjoint/analysis.ml" 68 1556 1587 "src/ext/disjoint/analysis.ml" 68 1556 1590
+type(
+  int
+)
+ident(
+  int_ref acc "src/ext/disjoint/analysis.ml" 68 1556 1578 "src/ext/disjoint/analysis.ml" 68 1556 1581
+)
+"src/ext/disjoint/analysis.ml" 68 1556 1591 "src/ext/disjoint/analysis.ml" 68 1556 1592
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/disjoint/analysis.ml" 68 1556 1593 "src/ext/disjoint/analysis.ml" 68 1556 1594
+type(
+  int
+)
+"src/ext/disjoint/analysis.ml" 68 1556 1587 "src/ext/disjoint/analysis.ml" 68 1556 1594
+type(
+  int
+)
+"src/ext/disjoint/analysis.ml" 68 1556 1573 "src/ext/disjoint/analysis.ml" 68 1556 1595
+type(
+  int -> 'a -> int
+)
+"src/ext/disjoint/analysis.ml" 68 1556 1596 "src/ext/disjoint/analysis.ml" 68 1556 1597
+type(
+  int
+)
+"src/ext/disjoint/analysis.ml" 68 1556 1598 "src/ext/disjoint/analysis.ml" 68 1556 1599
+type(
+  'a list
+)
+ident(
+  int_ref l "src/ext/disjoint/analysis.ml" 67 1542 1551 "src/ext/disjoint/analysis.ml" 67 1542 1552
+)
+"src/ext/disjoint/analysis.ml" 68 1556 1558 "src/ext/disjoint/analysis.ml" 68 1556 1599
+call(
+  tail
+)
+type(
+  int
+)
+"src/ext/disjoint/analysis.ml" 70 1601 1605 "src/ext/disjoint/analysis.ml" 70 1601 1616
+type(
+  Cil.exp -> string
+)
+ident(
+  def getstrConst "src/ext/disjoint/analysis.ml" 77 1700 1700 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 70 1601 1617 "src/ext/disjoint/analysis.ml" 70 1601 1621
+type(
+  Cil.exp
+)
+ident(
+  def elem "src/ext/disjoint/analysis.ml" 71 1624 1626 "src/ext/disjoint/analysis.ml" 74 1675 1694
+)
+"src/ext/disjoint/analysis.ml" 71 1624 1632 "src/ext/disjoint/analysis.ml" 71 1624 1636
+type(
+  Cil.exp
+)
+ident(
+  int_ref elem "src/ext/disjoint/analysis.ml" 70 1601 1617 "src/ext/disjoint/analysis.ml" 70 1601 1621
+)
+"src/ext/disjoint/analysis.ml" 72 1642 1650 "src/ext/disjoint/analysis.ml" 72 1642 1651
+ident(
+  def c "src/ext/disjoint/analysis.ml" 73 1657 1661 "src/ext/disjoint/analysis.ml" 74 1675 1694
+)
+"src/ext/disjoint/analysis.ml" 72 1642 1649 "src/ext/disjoint/analysis.ml" 72 1642 1652
+type(
+  Cil.constant
+)
+"src/ext/disjoint/analysis.ml" 72 1642 1644 "src/ext/disjoint/analysis.ml" 72 1642 1652
+type(
+  Cil.exp
+)
+"src/ext/disjoint/analysis.ml" 73 1657 1667 "src/ext/disjoint/analysis.ml" 73 1657 1668
+type(
+  Cil.constant
+)
+ident(
+  int_ref c "src/ext/disjoint/analysis.ml" 72 1642 1649 "src/ext/disjoint/analysis.ml" 72 1642 1652
+)
+"src/ext/disjoint/analysis.ml" 74 1675 1685 "src/ext/disjoint/analysis.ml" 74 1675 1687
+ident(
+  def st "src/ext/disjoint/analysis.ml" 74 1675 1692 "src/ext/disjoint/analysis.ml" 74 1675 1694
+)
+"src/ext/disjoint/analysis.ml" 74 1675 1684 "src/ext/disjoint/analysis.ml" 74 1675 1688
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 74 1675 1680 "src/ext/disjoint/analysis.ml" 74 1675 1688
+type(
+  Cil.constant
+)
+"src/ext/disjoint/analysis.ml" 74 1675 1692 "src/ext/disjoint/analysis.ml" 74 1675 1694
+type(
+  string
+)
+ident(
+  int_ref st "src/ext/disjoint/analysis.ml" 74 1675 1684 "src/ext/disjoint/analysis.ml" 74 1675 1688
+)
+"src/ext/disjoint/analysis.ml" 73 1657 1661 "src/ext/disjoint/analysis.ml" 74 1675 1694
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 71 1624 1626 "src/ext/disjoint/analysis.ml" 74 1675 1694
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 77 1700 1704 "src/ext/disjoint/analysis.ml" 77 1700 1715
+type(
+  Cil.exp -> int
+)
+ident(
+  def getintConst "src/ext/disjoint/analysis.ml" 84 1818 1818 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 77 1700 1716 "src/ext/disjoint/analysis.ml" 77 1700 1720
+type(
+  Cil.exp
+)
+ident(
+  def elem "src/ext/disjoint/analysis.ml" 78 1723 1725 "src/ext/disjoint/analysis.ml" 81 1774 1812
+)
+"src/ext/disjoint/analysis.ml" 78 1723 1731 "src/ext/disjoint/analysis.ml" 78 1723 1735
+type(
+  Cil.exp
+)
+ident(
+  int_ref elem "src/ext/disjoint/analysis.ml" 77 1700 1716 "src/ext/disjoint/analysis.ml" 77 1700 1720
+)
+"src/ext/disjoint/analysis.ml" 79 1741 1749 "src/ext/disjoint/analysis.ml" 79 1741 1750
+ident(
+  def c "src/ext/disjoint/analysis.ml" 80 1756 1760 "src/ext/disjoint/analysis.ml" 81 1774 1812
+)
+"src/ext/disjoint/analysis.ml" 79 1741 1748 "src/ext/disjoint/analysis.ml" 79 1741 1751
+type(
+  Cil.constant
+)
+"src/ext/disjoint/analysis.ml" 79 1741 1743 "src/ext/disjoint/analysis.ml" 79 1741 1751
+type(
+  Cil.exp
+)
+"src/ext/disjoint/analysis.ml" 80 1756 1766 "src/ext/disjoint/analysis.ml" 80 1756 1767
+type(
+  Cil.constant
+)
+ident(
+  int_ref c "src/ext/disjoint/analysis.ml" 79 1741 1748 "src/ext/disjoint/analysis.ml" 79 1741 1751
+)
+"src/ext/disjoint/analysis.ml" 81 1774 1786 "src/ext/disjoint/analysis.ml" 81 1774 1787
+type(
+  int64
+)
+ident(
+  def i "src/ext/disjoint/analysis.ml" 81 1774 1798 "src/ext/disjoint/analysis.ml" 81 1774 1812
+)
+"src/ext/disjoint/analysis.ml" 81 1774 1788 "src/ext/disjoint/analysis.ml" 81 1774 1790
+type(
+  Cil.ikind
+)
+ident(
+  def ik "src/ext/disjoint/analysis.ml" 81 1774 1798 "src/ext/disjoint/analysis.ml" 81 1774 1812
+)
+"src/ext/disjoint/analysis.ml" 81 1774 1791 "src/ext/disjoint/analysis.ml" 81 1774 1793
+type(
+  string option
+)
+ident(
+  def st "src/ext/disjoint/analysis.ml" 81 1774 1798 "src/ext/disjoint/analysis.ml" 81 1774 1812
+)
+"src/ext/disjoint/analysis.ml" 81 1774 1779 "src/ext/disjoint/analysis.ml" 81 1774 1794
+type(
+  Cil.constant
+)
+"src/ext/disjoint/analysis.ml" 81 1774 1799 "src/ext/disjoint/analysis.ml" 81 1774 1809
+type(
+  int64 -> int
+)
+ident(
+  ext_ref Cil.i64_to_int
+)
+"src/ext/disjoint/analysis.ml" 81 1774 1810 "src/ext/disjoint/analysis.ml" 81 1774 1811
+type(
+  int64
+)
+ident(
+  int_ref i "src/ext/disjoint/analysis.ml" 81 1774 1786 "src/ext/disjoint/analysis.ml" 81 1774 1787
+)
+"src/ext/disjoint/analysis.ml" 81 1774 1798 "src/ext/disjoint/analysis.ml" 81 1774 1812
+call(
+  tail
+)
+type(
+  int
+)
+"src/ext/disjoint/analysis.ml" 80 1756 1760 "src/ext/disjoint/analysis.ml" 81 1774 1812
+type(
+  int
+)
+"src/ext/disjoint/analysis.ml" 78 1723 1725 "src/ext/disjoint/analysis.ml" 81 1774 1812
+type(
+  int
+)
+"src/ext/disjoint/analysis.ml" 84 1818 1822 "src/ext/disjoint/analysis.ml" 84 1818 1835
+type(
+  Cil.exp list -> float
+)
+ident(
+  def getfloatConst "src/ext/disjoint/analysis.ml" 94 1971 1971 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 84 1818 1836 "src/ext/disjoint/analysis.ml" 84 1818 1840
+type(
+  Cil.exp list
+)
+ident(
+  def elem "src/ext/disjoint/analysis.ml" 85 1843 1845 "src/ext/disjoint/analysis.ml" 91 1938 1964
+)
+"src/ext/disjoint/analysis.ml" 85 1843 1851 "src/ext/disjoint/analysis.ml" 85 1843 1855
+type(
+  Cil.exp list
+)
+ident(
+  int_ref elem "src/ext/disjoint/analysis.ml" 84 1818 1836 "src/ext/disjoint/analysis.ml" 84 1818 1840
+)
+"src/ext/disjoint/analysis.ml" 86 1861 1863 "src/ext/disjoint/analysis.ml" 86 1861 1865
+type(
+  Cil.exp list
+)
+"src/ext/disjoint/analysis.ml" 86 1861 1869 "src/ext/disjoint/analysis.ml" 86 1861 1872
+type(
+  float
+)
+"src/ext/disjoint/analysis.ml" 87 1873 1877 "src/ext/disjoint/analysis.ml" 87 1873 1878
+type(
+  Cil.exp
+)
+ident(
+  def h "src/ext/disjoint/analysis.ml" 88 1885 1888 "src/ext/disjoint/analysis.ml" 91 1938 1964
+)
+"src/ext/disjoint/analysis.ml" 87 1873 1880 "src/ext/disjoint/analysis.ml" 87 1873 1881
+type(
+  Cil.exp list
+)
+ident(
+  def t "src/ext/disjoint/analysis.ml" 88 1885 1888 "src/ext/disjoint/analysis.ml" 91 1938 1964
+)
+"src/ext/disjoint/analysis.ml" 87 1873 1877 "src/ext/disjoint/analysis.ml" 87 1873 1881
+type(
+  Cil.exp list
+)
+"src/ext/disjoint/analysis.ml" 88 1885 1894 "src/ext/disjoint/analysis.ml" 88 1885 1895
+type(
+  Cil.exp
+)
+ident(
+  int_ref h "src/ext/disjoint/analysis.ml" 87 1873 1877 "src/ext/disjoint/analysis.ml" 87 1873 1878
+)
+"src/ext/disjoint/analysis.ml" 89 1901 1911 "src/ext/disjoint/analysis.ml" 89 1901 1912
+ident(
+  def c "src/ext/disjoint/analysis.ml" 90 1918 1924 "src/ext/disjoint/analysis.ml" 91 1938 1964
+)
+"src/ext/disjoint/analysis.ml" 89 1901 1910 "src/ext/disjoint/analysis.ml" 89 1901 1913
+type(
+  Cil.constant
+)
+"src/ext/disjoint/analysis.ml" 89 1901 1905 "src/ext/disjoint/analysis.ml" 89 1901 1913
+type(
+  Cil.exp
+)
+"src/ext/disjoint/analysis.ml" 90 1918 1930 "src/ext/disjoint/analysis.ml" 90 1918 1931
+type(
+  Cil.constant
+)
+ident(
+  int_ref c "src/ext/disjoint/analysis.ml" 89 1901 1910 "src/ext/disjoint/analysis.ml" 89 1901 1913
+)
+"src/ext/disjoint/analysis.ml" 91 1938 1951 "src/ext/disjoint/analysis.ml" 91 1938 1952
+type(
+  float
+)
+ident(
+  def f "src/ext/disjoint/analysis.ml" 91 1938 1963 "src/ext/disjoint/analysis.ml" 91 1938 1964
+)
+"src/ext/disjoint/analysis.ml" 91 1938 1953 "src/ext/disjoint/analysis.ml" 91 1938 1955
+type(
+  Cil.fkind
+)
+ident(
+  def fk "src/ext/disjoint/analysis.ml" 91 1938 1963 "src/ext/disjoint/analysis.ml" 91 1938 1964
+)
+"src/ext/disjoint/analysis.ml" 91 1938 1956 "src/ext/disjoint/analysis.ml" 91 1938 1958
+type(
+  string option
+)
+ident(
+  def st "src/ext/disjoint/analysis.ml" 91 1938 1963 "src/ext/disjoint/analysis.ml" 91 1938 1964
+)
+"src/ext/disjoint/analysis.ml" 91 1938 1945 "src/ext/disjoint/analysis.ml" 91 1938 1959
+type(
+  Cil.constant
+)
+"src/ext/disjoint/analysis.ml" 91 1938 1963 "src/ext/disjoint/analysis.ml" 91 1938 1964
+type(
+  float
+)
+ident(
+  int_ref f "src/ext/disjoint/analysis.ml" 91 1938 1951 "src/ext/disjoint/analysis.ml" 91 1938 1952
+)
+"src/ext/disjoint/analysis.ml" 90 1918 1924 "src/ext/disjoint/analysis.ml" 91 1938 1964
+type(
+  float
+)
+"src/ext/disjoint/analysis.ml" 88 1885 1888 "src/ext/disjoint/analysis.ml" 91 1938 1964
+type(
+  float
+)
+"src/ext/disjoint/analysis.ml" 85 1843 1845 "src/ext/disjoint/analysis.ml" 91 1938 1964
+type(
+  float
+)
+"src/ext/disjoint/analysis.ml" 94 1971 1979 "src/ext/disjoint/analysis.ml" 94 1971 1989
+type(
+  Cil.exp list -> task
+)
+ident(
+  def findArgVar "src/ext/disjoint/analysis.ml" 94 1971 1971 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 94 1971 1990 "src/ext/disjoint/analysis.ml" 94 1971 1991
+type(
+  Cil.exp list
+)
+ident(
+  def l "src/ext/disjoint/analysis.ml" 95 1994 1996 "src/ext/disjoint/analysis.ml" 96 2009 2155
+)
+"src/ext/disjoint/analysis.ml" 95 1994 2002 "src/ext/disjoint/analysis.ml" 95 1994 2003
+type(
+  Cil.exp list
+)
+ident(
+  int_ref l "src/ext/disjoint/analysis.ml" 94 1971 1990 "src/ext/disjoint/analysis.ml" 94 1971 1991
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2012 "src/ext/disjoint/analysis.ml" 96 2009 2014
+type(
+  Cil.exp
+)
+ident(
+  def tn "src/ext/disjoint/analysis.ml" 96 2009 2033 "src/ext/disjoint/analysis.ml" 96 2009 2155
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2016 "src/ext/disjoint/analysis.ml" 96 2009 2018
+type(
+  Cil.exp
+)
+ident(
+  def fn "src/ext/disjoint/analysis.ml" 96 2009 2033 "src/ext/disjoint/analysis.ml" 96 2009 2155
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2020 "src/ext/disjoint/analysis.ml" 96 2009 2022
+type(
+  Cil.exp
+)
+ident(
+  def pr "src/ext/disjoint/analysis.ml" 96 2009 2033 "src/ext/disjoint/analysis.ml" 96 2009 2155
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2024 "src/ext/disjoint/analysis.ml" 96 2009 2025
+type(
+  Cil.exp
+)
+ident(
+  def p "src/ext/disjoint/analysis.ml" 96 2009 2033 "src/ext/disjoint/analysis.ml" 96 2009 2155
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2027 "src/ext/disjoint/analysis.ml" 96 2009 2029
+type(
+  Cil.exp list
+)
+ident(
+  def et "src/ext/disjoint/analysis.ml" 96 2009 2033 "src/ext/disjoint/analysis.ml" 96 2009 2155
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2024 "src/ext/disjoint/analysis.ml" 96 2009 2029
+type(
+  Cil.exp list
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2020 "src/ext/disjoint/analysis.ml" 96 2009 2029
+type(
+  Cil.exp list
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2016 "src/ext/disjoint/analysis.ml" 96 2009 2029
+type(
+  Cil.exp list
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2012 "src/ext/disjoint/analysis.ml" 96 2009 2029
+type(
+  Cil.exp list
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2042 "src/ext/disjoint/analysis.ml" 96 2009 2053
+type(
+  Cil.exp -> string
+)
+ident(
+  int_ref getstrConst "src/ext/disjoint/analysis.ml" 70 1601 1605 "src/ext/disjoint/analysis.ml" 70 1601 1616
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2054 "src/ext/disjoint/analysis.ml" 96 2009 2056
+type(
+  Cil.exp
+)
+ident(
+  int_ref tn "src/ext/disjoint/analysis.ml" 96 2009 2012 "src/ext/disjoint/analysis.ml" 96 2009 2014
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2042 "src/ext/disjoint/analysis.ml" 96 2009 2056
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2065 "src/ext/disjoint/analysis.ml" 96 2009 2076
+type(
+  Cil.exp -> string
+)
+ident(
+  int_ref getstrConst "src/ext/disjoint/analysis.ml" 70 1601 1605 "src/ext/disjoint/analysis.ml" 70 1601 1616
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2077 "src/ext/disjoint/analysis.ml" 96 2009 2079
+type(
+  Cil.exp
+)
+ident(
+  int_ref fn "src/ext/disjoint/analysis.ml" 96 2009 2016 "src/ext/disjoint/analysis.ml" 96 2009 2018
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2065 "src/ext/disjoint/analysis.ml" 96 2009 2079
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2091 "src/ext/disjoint/analysis.ml" 96 2009 2102
+type(
+  Cil.exp -> int
+)
+ident(
+  int_ref getintConst "src/ext/disjoint/analysis.ml" 77 1700 1704 "src/ext/disjoint/analysis.ml" 77 1700 1715
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2103 "src/ext/disjoint/analysis.ml" 96 2009 2105
+type(
+  Cil.exp
+)
+ident(
+  int_ref pr "src/ext/disjoint/analysis.ml" 96 2009 2020 "src/ext/disjoint/analysis.ml" 96 2009 2022
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2091 "src/ext/disjoint/analysis.ml" 96 2009 2105
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2116 "src/ext/disjoint/analysis.ml" 96 2009 2127
+type(
+  Cil.exp -> int
+)
+ident(
+  int_ref getintConst "src/ext/disjoint/analysis.ml" 77 1700 1704 "src/ext/disjoint/analysis.ml" 77 1700 1715
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2128 "src/ext/disjoint/analysis.ml" 96 2009 2129
+type(
+  Cil.exp
+)
+ident(
+  int_ref p "src/ext/disjoint/analysis.ml" 96 2009 2024 "src/ext/disjoint/analysis.ml" 96 2009 2025
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2116 "src/ext/disjoint/analysis.ml" 96 2009 2129
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2138 "src/ext/disjoint/analysis.ml" 96 2009 2151
+type(
+  Cil.exp list -> float
+)
+ident(
+  int_ref getfloatConst "src/ext/disjoint/analysis.ml" 84 1818 1822 "src/ext/disjoint/analysis.ml" 84 1818 1835
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2152 "src/ext/disjoint/analysis.ml" 96 2009 2154
+type(
+  Cil.exp list
+)
+ident(
+  int_ref et "src/ext/disjoint/analysis.ml" 96 2009 2027 "src/ext/disjoint/analysis.ml" 96 2009 2029
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2138 "src/ext/disjoint/analysis.ml" 96 2009 2154
+call(
+  stack
+)
+type(
+  float
+)
+"src/ext/disjoint/analysis.ml" 96 2009 2033 "src/ext/disjoint/analysis.ml" 96 2009 2155
+type(
+  task
+)
+"src/ext/disjoint/analysis.ml" 95 1994 1996 "src/ext/disjoint/analysis.ml" 96 2009 2155
+type(
+  task
+)
+"src/ext/disjoint/analysis.ml" 100 2236 2240 "src/ext/disjoint/analysis.ml" 100 2236 2248
+type(
+  Cil.fundec list -> task list list list
+)
+ident(
+  def getTasks "src/ext/disjoint/analysis.ml" 118 2630 2630 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 100 2236 2249 "src/ext/disjoint/analysis.ml" 100 2236 2251
+type(
+  Cil.fundec list
+)
+ident(
+  def fd "src/ext/disjoint/analysis.ml" 101 2254 2256 "src/ext/disjoint/analysis.ml" 115 2554 2625
+)
+"src/ext/disjoint/analysis.ml" 101 2254 2260 "src/ext/disjoint/analysis.ml" 101 2254 2267
+type(
+  Cil.stmt -> task list
+)
+ident(
+  def getPars "src/ext/disjoint/analysis.ml" 115 2554 2556 "src/ext/disjoint/analysis.ml" 115 2554 2625
+)
+"src/ext/disjoint/analysis.ml" 101 2254 2268 "src/ext/disjoint/analysis.ml" 101 2254 2270
+type(
+  Cil.stmt
+)
+ident(
+  def st "src/ext/disjoint/analysis.ml" 102 2273 2277 "src/ext/disjoint/analysis.ml" 113 2537 2549
+)
+"src/ext/disjoint/analysis.ml" 102 2273 2283 "src/ext/disjoint/analysis.ml" 102 2273 2285
+type(
+  Cil.stmt
+)
+ident(
+  int_ref st "src/ext/disjoint/analysis.ml" 101 2254 2268 "src/ext/disjoint/analysis.ml" 101 2254 2270
+)
+"src/ext/disjoint/analysis.ml" 102 2273 2283 "src/ext/disjoint/analysis.ml" 102 2273 2291
+type(
+  Cil.stmtkind
+)
+"src/ext/disjoint/analysis.ml" 103 2298 2310 "src/ext/disjoint/analysis.ml" 103 2298 2314
+ident(
+  def ilst "src/ext/disjoint/analysis.ml" 104 2320 2321 "src/ext/disjoint/analysis.ml" 112 2531 2535
+)
+"src/ext/disjoint/analysis.ml" 103 2298 2309 "src/ext/disjoint/analysis.ml" 103 2298 2315
+type(
+  Cil.instr list
+)
+"src/ext/disjoint/analysis.ml" 103 2298 2304 "src/ext/disjoint/analysis.ml" 103 2298 2315
+type(
+  Cil.stmtkind
+)
+"src/ext/disjoint/analysis.ml" 105 2327 2338 "src/ext/disjoint/analysis.ml" 105 2327 2343
+type(
+  Cil.instr list -> task list
+)
+ident(
+  def loop1 "src/ext/disjoint/analysis.ml" 104 2320 2321 "src/ext/disjoint/analysis.ml" 112 2531 2535
+)
+"src/ext/disjoint/analysis.ml" 105 2327 2344 "src/ext/disjoint/analysis.ml" 105 2327 2349
+type(
+  Cil.instr list
+)
+ident(
+  def ilist "src/ext/disjoint/analysis.ml" 106 2352 2359 "src/ext/disjoint/analysis.ml" 110 2444 2511
+)
+"src/ext/disjoint/analysis.ml" 106 2352 2365 "src/ext/disjoint/analysis.ml" 106 2352 2370
+type(
+  Cil.instr list
+)
+ident(
+  int_ref ilist "src/ext/disjoint/analysis.ml" 105 2327 2344 "src/ext/disjoint/analysis.ml" 105 2327 2349
+)
+"src/ext/disjoint/analysis.ml" 107 2376 2383 "src/ext/disjoint/analysis.ml" 107 2376 2385
+type(
+  Cil.instr list
+)
+"src/ext/disjoint/analysis.ml" 107 2376 2389 "src/ext/disjoint/analysis.ml" 107 2376 2391
+type(
+  task list
+)
+"src/ext/disjoint/analysis.ml" 108 2392 2401 "src/ext/disjoint/analysis.ml" 108 2392 2405
+type(
+  Cil.instr
+)
+ident(
+  def inst "src/ext/disjoint/analysis.ml" 109 2417 2427 "src/ext/disjoint/analysis.ml" 110 2444 2511
+)
+"src/ext/disjoint/analysis.ml" 108 2392 2407 "src/ext/disjoint/analysis.ml" 108 2392 2412
+type(
+  Cil.instr list
+)
+ident(
+  def insts "src/ext/disjoint/analysis.ml" 109 2417 2427 "src/ext/disjoint/analysis.ml" 110 2444 2511
+)
+"src/ext/disjoint/analysis.ml" 108 2392 2401 "src/ext/disjoint/analysis.ml" 108 2392 2412
+type(
+  Cil.instr list
+)
+"src/ext/disjoint/analysis.ml" 109 2417 2433 "src/ext/disjoint/analysis.ml" 109 2417 2437
+type(
+  Cil.instr
+)
+ident(
+  int_ref inst "src/ext/disjoint/analysis.ml" 108 2392 2401 "src/ext/disjoint/analysis.ml" 108 2392 2405
+)
+"src/ext/disjoint/analysis.ml" 110 2444 2462 "src/ext/disjoint/analysis.ml" 110 2444 2464
+type(
+  Cil.lval option
+)
+ident(
+  def lv "src/ext/disjoint/analysis.ml" 110 2444 2478 "src/ext/disjoint/analysis.ml" 110 2444 2511
+)
+"src/ext/disjoint/analysis.ml" 110 2444 2465 "src/ext/disjoint/analysis.ml" 110 2444 2466
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/disjoint/analysis.ml" 110 2444 2478 "src/ext/disjoint/analysis.ml" 110 2444 2511
+)
+"src/ext/disjoint/analysis.ml" 110 2444 2467 "src/ext/disjoint/analysis.ml" 110 2444 2469
+type(
+  Cil.exp list
+)
+ident(
+  def el "src/ext/disjoint/analysis.ml" 110 2444 2478 "src/ext/disjoint/analysis.ml" 110 2444 2511
+)
+"src/ext/disjoint/analysis.ml" 110 2444 2470 "src/ext/disjoint/analysis.ml" 110 2444 2473
+type(
+  Cil.location
+)
+ident(
+  def loc "src/ext/disjoint/analysis.ml" 110 2444 2478 "src/ext/disjoint/analysis.ml" 110 2444 2511
+)
+"src/ext/disjoint/analysis.ml" 110 2444 2457 "src/ext/disjoint/analysis.ml" 110 2444 2474
+type(
+  Cil.instr
+)
+"src/ext/disjoint/analysis.ml" 110 2444 2480 "src/ext/disjoint/analysis.ml" 110 2444 2490
+type(
+  Cil.exp list -> task
+)
+ident(
+  int_ref findArgVar "src/ext/disjoint/analysis.ml" 94 1971 1979 "src/ext/disjoint/analysis.ml" 94 1971 1989
+)
+"src/ext/disjoint/analysis.ml" 110 2444 2491 "src/ext/disjoint/analysis.ml" 110 2444 2493
+type(
+  Cil.exp list
+)
+ident(
+  int_ref el "src/ext/disjoint/analysis.ml" 110 2444 2467 "src/ext/disjoint/analysis.ml" 110 2444 2469
+)
+"src/ext/disjoint/analysis.ml" 110 2444 2479 "src/ext/disjoint/analysis.ml" 110 2444 2494
+call(
+  stack
+)
+type(
+  task
+)
+"src/ext/disjoint/analysis.ml" 110 2444 2478 "src/ext/disjoint/analysis.ml" 110 2444 2495
+type(
+  task list
+)
+"src/ext/disjoint/analysis.ml" 110 2444 2496 "src/ext/disjoint/analysis.ml" 110 2444 2497
+type(
+  task list -> task list -> task list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/disjoint/analysis.ml" 110 2444 2499 "src/ext/disjoint/analysis.ml" 110 2444 2504
+type(
+  Cil.instr list -> task list
+)
+ident(
+  int_ref loop1 "src/ext/disjoint/analysis.ml" 105 2327 2338 "src/ext/disjoint/analysis.ml" 105 2327 2343
+)
+"src/ext/disjoint/analysis.ml" 110 2444 2505 "src/ext/disjoint/analysis.ml" 110 2444 2510
+type(
+  Cil.instr list
+)
+ident(
+  int_ref insts "src/ext/disjoint/analysis.ml" 108 2392 2407 "src/ext/disjoint/analysis.ml" 108 2392 2412
+)
+"src/ext/disjoint/analysis.ml" 110 2444 2498 "src/ext/disjoint/analysis.ml" 110 2444 2511
+call(
+  stack
+)
+type(
+  task list
+)
+"src/ext/disjoint/analysis.ml" 110 2444 2478 "src/ext/disjoint/analysis.ml" 110 2444 2511
+call(
+  tail
+)
+type(
+  task list
+)
+"src/ext/disjoint/analysis.ml" 109 2417 2427 "src/ext/disjoint/analysis.ml" 110 2444 2511
+type(
+  task list
+)
+"src/ext/disjoint/analysis.ml" 106 2352 2359 "src/ext/disjoint/analysis.ml" 110 2444 2511
+type(
+  task list
+)
+"src/ext/disjoint/analysis.ml" 111 2512 2520 "src/ext/disjoint/analysis.ml" 111 2512 2525
+type(
+  Cil.instr list -> task list
+)
+ident(
+  int_ref loop1 "src/ext/disjoint/analysis.ml" 105 2327 2338 "src/ext/disjoint/analysis.ml" 105 2327 2343
+)
+"src/ext/disjoint/analysis.ml" 111 2512 2526 "src/ext/disjoint/analysis.ml" 111 2512 2530
+type(
+  Cil.instr list
+)
+ident(
+  int_ref ilst "src/ext/disjoint/analysis.ml" 103 2298 2309 "src/ext/disjoint/analysis.ml" 103 2298 2315
+)
+"src/ext/disjoint/analysis.ml" 111 2512 2520 "src/ext/disjoint/analysis.ml" 111 2512 2530
+call(
+  tail
+)
+type(
+  task list
+)
+"src/ext/disjoint/analysis.ml" 104 2320 2321 "src/ext/disjoint/analysis.ml" 112 2531 2535
+type(
+  task list
+)
+"src/ext/disjoint/analysis.ml" 113 2537 2543 "src/ext/disjoint/analysis.ml" 113 2537 2544
+type(
+  Cil.stmtkind
+)
+"src/ext/disjoint/analysis.ml" 113 2537 2547 "src/ext/disjoint/analysis.ml" 113 2537 2549
+type(
+  task list
+)
+"src/ext/disjoint/analysis.ml" 102 2273 2277 "src/ext/disjoint/analysis.ml" 113 2537 2549
+type(
+  task list
+)
+"src/ext/disjoint/analysis.ml" 115 2554 2556 "src/ext/disjoint/analysis.ml" 115 2554 2564
+type(
+  (Cil.fundec -> task list list) -> Cil.fundec list -> task list list list
+)
+ident(
+  ext_ref List.map
+)
+"src/ext/disjoint/analysis.ml" 115 2554 2570 "src/ext/disjoint/analysis.ml" 115 2554 2571
+type(
+  Cil.fundec
+)
+ident(
+  def x "src/ext/disjoint/analysis.ml" 115 2554 2575 "src/ext/disjoint/analysis.ml" 115 2554 2621
+)
+"src/ext/disjoint/analysis.ml" 115 2554 2576 "src/ext/disjoint/analysis.ml" 115 2554 2584
+type(
+  (Cil.stmt -> task list) -> Cil.stmt list -> task list list
+)
+ident(
+  ext_ref List.map
+)
+"src/ext/disjoint/analysis.ml" 115 2554 2590 "src/ext/disjoint/analysis.ml" 115 2554 2591
+type(
+  Cil.stmt
+)
+ident(
+  def y "src/ext/disjoint/analysis.ml" 115 2554 2595 "src/ext/disjoint/analysis.ml" 115 2554 2604
+)
+"src/ext/disjoint/analysis.ml" 115 2554 2595 "src/ext/disjoint/analysis.ml" 115 2554 2602
+type(
+  Cil.stmt -> task list
+)
+ident(
+  int_ref getPars "src/ext/disjoint/analysis.ml" 101 2254 2260 "src/ext/disjoint/analysis.ml" 101 2254 2267
+)
+"src/ext/disjoint/analysis.ml" 115 2554 2603 "src/ext/disjoint/analysis.ml" 115 2554 2604
+type(
+  Cil.stmt
+)
+ident(
+  int_ref y "src/ext/disjoint/analysis.ml" 115 2554 2590 "src/ext/disjoint/analysis.ml" 115 2554 2591
+)
+"src/ext/disjoint/analysis.ml" 115 2554 2595 "src/ext/disjoint/analysis.ml" 115 2554 2604
+call(
+  tail
+)
+type(
+  task list
+)
+"src/ext/disjoint/analysis.ml" 115 2554 2585 "src/ext/disjoint/analysis.ml" 115 2554 2605
+type(
+  Cil.stmt -> task list
+)
+"src/ext/disjoint/analysis.ml" 115 2554 2606 "src/ext/disjoint/analysis.ml" 115 2554 2607
+type(
+  Cil.fundec
+)
+ident(
+  int_ref x "src/ext/disjoint/analysis.ml" 115 2554 2570 "src/ext/disjoint/analysis.ml" 115 2554 2571
+)
+"src/ext/disjoint/analysis.ml" 115 2554 2606 "src/ext/disjoint/analysis.ml" 115 2554 2613
+type(
+  Cil.block
+)
+"src/ext/disjoint/analysis.ml" 115 2554 2606 "src/ext/disjoint/analysis.ml" 115 2554 2620
+type(
+  Cil.stmt list
+)
+"src/ext/disjoint/analysis.ml" 115 2554 2575 "src/ext/disjoint/analysis.ml" 115 2554 2621
+call(
+  tail
+)
+type(
+  task list list
+)
+"src/ext/disjoint/analysis.ml" 115 2554 2565 "src/ext/disjoint/analysis.ml" 115 2554 2622
+type(
+  Cil.fundec -> task list list
+)
+"src/ext/disjoint/analysis.ml" 115 2554 2623 "src/ext/disjoint/analysis.ml" 115 2554 2625
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fd "src/ext/disjoint/analysis.ml" 100 2236 2249 "src/ext/disjoint/analysis.ml" 100 2236 2251
+)
+"src/ext/disjoint/analysis.ml" 115 2554 2556 "src/ext/disjoint/analysis.ml" 115 2554 2625
+call(
+  tail
+)
+type(
+  task list list list
+)
+"src/ext/disjoint/analysis.ml" 101 2254 2256 "src/ext/disjoint/analysis.ml" 115 2554 2625
+type(
+  task list list list
+)
+"src/ext/disjoint/analysis.ml" 118 2630 2634 "src/ext/disjoint/analysis.ml" 118 2630 2645
+type(
+  Cil.file -> task list
+)
+ident(
+  def getTaskList "src/ext/disjoint/analysis.ml" 129 2862 2862 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 118 2630 2646 "src/ext/disjoint/analysis.ml" 118 2630 2647
+type(
+  Cil.file
+)
+ident(
+  def f "src/ext/disjoint/analysis.ml" 119 2650 2652 "src/ext/disjoint/analysis.ml" 127 2823 2860
+)
+"src/ext/disjoint/analysis.ml" 119 2650 2656 "src/ext/disjoint/analysis.ml" 119 2650 2660
+type(
+  Cil.global list
+)
+ident(
+  def funs "src/ext/disjoint/analysis.ml" 121 2678 2680 "src/ext/disjoint/analysis.ml" 127 2823 2860
+)
+"src/ext/disjoint/analysis.ml" 119 2650 2663 "src/ext/disjoint/analysis.ml" 119 2650 2671
+type(
+  Cil.file -> Cil.global list
+)
+ident(
+  int_ref getFuncs "src/ext/disjoint/analysis.ml" 52 1248 1252 "src/ext/disjoint/analysis.ml" 52 1248 1260
+)
+"src/ext/disjoint/analysis.ml" 119 2650 2672 "src/ext/disjoint/analysis.ml" 119 2650 2673
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/disjoint/analysis.ml" 118 2630 2646 "src/ext/disjoint/analysis.ml" 118 2630 2647
+)
+"src/ext/disjoint/analysis.ml" 119 2650 2663 "src/ext/disjoint/analysis.ml" 119 2650 2673
+call(
+  stack
+)
+type(
+  Cil.global list
+)
+"src/ext/disjoint/analysis.ml" 121 2678 2684 "src/ext/disjoint/analysis.ml" 121 2678 2691
+type(
+  Cil.fundec list
+)
+ident(
+  def fundefs "src/ext/disjoint/analysis.ml" 123 2715 2717 "src/ext/disjoint/analysis.ml" 127 2823 2860
+)
+"src/ext/disjoint/analysis.ml" 121 2678 2694 "src/ext/disjoint/analysis.ml" 121 2678 2706
+type(
+  Cil.global list -> Cil.fundec list
+)
+ident(
+  int_ref convertFuncs "src/ext/disjoint/analysis.ml" 59 1389 1397 "src/ext/disjoint/analysis.ml" 59 1389 1409
+)
+"src/ext/disjoint/analysis.ml" 121 2678 2707 "src/ext/disjoint/analysis.ml" 121 2678 2711
+type(
+  Cil.global list
+)
+ident(
+  int_ref funs "src/ext/disjoint/analysis.ml" 119 2650 2656 "src/ext/disjoint/analysis.ml" 119 2650 2660
+)
+"src/ext/disjoint/analysis.ml" 121 2678 2694 "src/ext/disjoint/analysis.ml" 121 2678 2711
+call(
+  stack
+)
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 123 2715 2721 "src/ext/disjoint/analysis.ml" 123 2715 2728
+type(
+  Cil.fundec list
+)
+ident(
+  def fd_main "src/ext/disjoint/analysis.ml" 125 2789 2791 "src/ext/disjoint/analysis.ml" 127 2823 2860
+)
+"src/ext/disjoint/analysis.ml" 123 2715 2731 "src/ext/disjoint/analysis.ml" 123 2715 2742
+type(
+  (Cil.fundec -> bool) -> Cil.fundec list -> Cil.fundec list
+)
+ident(
+  ext_ref List.filter
+)
+"src/ext/disjoint/analysis.ml" 123 2715 2747 "src/ext/disjoint/analysis.ml" 123 2715 2748
+type(
+  Cil.fundec
+)
+ident(
+  def x "src/ext/disjoint/analysis.ml" 123 2715 2752 "src/ext/disjoint/analysis.ml" 123 2715 2775
+)
+"src/ext/disjoint/analysis.ml" 123 2715 2753 "src/ext/disjoint/analysis.ml" 123 2715 2754
+type(
+  Cil.fundec
+)
+ident(
+  int_ref x "src/ext/disjoint/analysis.ml" 123 2715 2747 "src/ext/disjoint/analysis.ml" 123 2715 2748
+)
+"src/ext/disjoint/analysis.ml" 123 2715 2753 "src/ext/disjoint/analysis.ml" 123 2715 2759
+type(
+  Cil.varinfo
+)
+"src/ext/disjoint/analysis.ml" 123 2715 2753 "src/ext/disjoint/analysis.ml" 123 2715 2765
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 123 2715 2766 "src/ext/disjoint/analysis.ml" 123 2715 2767
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/disjoint/analysis.ml" 123 2715 2768 "src/ext/disjoint/analysis.ml" 123 2715 2774
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 123 2715 2752 "src/ext/disjoint/analysis.ml" 123 2715 2775
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 123 2715 2742 "src/ext/disjoint/analysis.ml" 123 2715 2776
+type(
+  Cil.fundec -> bool
+)
+"src/ext/disjoint/analysis.ml" 123 2715 2777 "src/ext/disjoint/analysis.ml" 123 2715 2784
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fundefs "src/ext/disjoint/analysis.ml" 121 2678 2684 "src/ext/disjoint/analysis.ml" 121 2678 2691
+)
+"src/ext/disjoint/analysis.ml" 123 2715 2731 "src/ext/disjoint/analysis.ml" 123 2715 2784
+call(
+  stack
+)
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 125 2789 2795 "src/ext/disjoint/analysis.ml" 125 2789 2800
+type(
+  task list list list
+)
+ident(
+  def tasks "src/ext/disjoint/analysis.ml" 127 2823 2825 "src/ext/disjoint/analysis.ml" 127 2823 2860
+)
+"src/ext/disjoint/analysis.ml" 125 2789 2803 "src/ext/disjoint/analysis.ml" 125 2789 2811
+type(
+  Cil.fundec list -> task list list list
+)
+ident(
+  int_ref getTasks "src/ext/disjoint/analysis.ml" 100 2236 2240 "src/ext/disjoint/analysis.ml" 100 2236 2248
+)
+"src/ext/disjoint/analysis.ml" 125 2789 2812 "src/ext/disjoint/analysis.ml" 125 2789 2819
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fd_main "src/ext/disjoint/analysis.ml" 123 2715 2721 "src/ext/disjoint/analysis.ml" 123 2715 2728
+)
+"src/ext/disjoint/analysis.ml" 125 2789 2803 "src/ext/disjoint/analysis.ml" 125 2789 2819
+call(
+  stack
+)
+type(
+  task list list list
+)
+"src/ext/disjoint/analysis.ml" 127 2823 2826 "src/ext/disjoint/analysis.ml" 127 2823 2838
+type(
+  task list list -> task list
+)
+ident(
+  ext_ref List.flatten
+)
+"src/ext/disjoint/analysis.ml" 127 2823 2839 "src/ext/disjoint/analysis.ml" 127 2823 2851
+type(
+  task list list list -> task list list
+)
+ident(
+  ext_ref List.flatten
+)
+"src/ext/disjoint/analysis.ml" 127 2823 2851 "src/ext/disjoint/analysis.ml" 127 2823 2858
+type(
+  task list list list
+)
+ident(
+  int_ref tasks "src/ext/disjoint/analysis.ml" 125 2789 2795 "src/ext/disjoint/analysis.ml" 125 2789 2800
+)
+"src/ext/disjoint/analysis.ml" 127 2823 2838 "src/ext/disjoint/analysis.ml" 127 2823 2859
+call(
+  stack
+)
+type(
+  task list list
+)
+"src/ext/disjoint/analysis.ml" 127 2823 2825 "src/ext/disjoint/analysis.ml" 127 2823 2860
+call(
+  tail
+)
+type(
+  task list
+)
+"src/ext/disjoint/analysis.ml" 125 2789 2791 "src/ext/disjoint/analysis.ml" 127 2823 2860
+type(
+  task list
+)
+"src/ext/disjoint/analysis.ml" 123 2715 2717 "src/ext/disjoint/analysis.ml" 127 2823 2860
+type(
+  task list
+)
+"src/ext/disjoint/analysis.ml" 121 2678 2680 "src/ext/disjoint/analysis.ml" 127 2823 2860
+type(
+  task list
+)
+"src/ext/disjoint/analysis.ml" 119 2650 2652 "src/ext/disjoint/analysis.ml" 127 2823 2860
+type(
+  task list
+)
+"src/ext/disjoint/analysis.ml" 129 2862 2866 "src/ext/disjoint/analysis.ml" 129 2862 2874
+type(
+  'a list -> ('a * 'a) list
+)
+ident(
+  def getPairs "src/ext/disjoint/analysis.ml" 150 3233 3233 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 129 2862 2875 "src/ext/disjoint/analysis.ml" 129 2862 2878
+type(
+  'a list
+)
+ident(
+  def lst "src/ext/disjoint/analysis.ml" 130 2881 2885 "src/ext/disjoint/analysis.ml" 135 3003 3016
+)
+"src/ext/disjoint/analysis.ml" 130 2881 2893 "src/ext/disjoint/analysis.ml" 130 2881 2898
+type(
+  'b list -> ('b * 'b) list
+)
+ident(
+  def loop1 "src/ext/disjoint/analysis.ml" 130 2881 2885 "src/ext/disjoint/analysis.ml" 135 3003 3016
+)
+"src/ext/disjoint/analysis.ml" 131 2910 2918 "src/ext/disjoint/analysis.ml" 131 2910 2920
+type(
+  'b list
+)
+"src/ext/disjoint/analysis.ml" 131 2910 2924 "src/ext/disjoint/analysis.ml" 131 2910 2926
+type(
+  ('b * 'b) list
+)
+"src/ext/disjoint/analysis.ml" 132 2927 2935 "src/ext/disjoint/analysis.ml" 132 2927 2936
+type(
+  'b
+)
+ident(
+  def h "src/ext/disjoint/analysis.ml" 133 2945 2953 "src/ext/disjoint/analysis.ml" 133 2945 2995
+)
+"src/ext/disjoint/analysis.ml" 132 2927 2940 "src/ext/disjoint/analysis.ml" 132 2927 2941
+type(
+  'b list
+)
+ident(
+  def t "src/ext/disjoint/analysis.ml" 133 2945 2953 "src/ext/disjoint/analysis.ml" 133 2945 2995
+)
+"src/ext/disjoint/analysis.ml" 132 2927 2935 "src/ext/disjoint/analysis.ml" 132 2927 2941
+type(
+  'b list
+)
+"src/ext/disjoint/analysis.ml" 133 2945 2954 "src/ext/disjoint/analysis.ml" 133 2945 2962
+type(
+  ('b -> 'b * 'b) -> 'b list -> ('b * 'b) list
+)
+ident(
+  ext_ref List.map
+)
+"src/ext/disjoint/analysis.ml" 133 2945 2968 "src/ext/disjoint/analysis.ml" 133 2945 2969
+type(
+  'b
+)
+ident(
+  def f "src/ext/disjoint/analysis.ml" 133 2945 2973 "src/ext/disjoint/analysis.ml" 133 2945 2979
+)
+"src/ext/disjoint/analysis.ml" 133 2945 2974 "src/ext/disjoint/analysis.ml" 133 2945 2975
+type(
+  'b
+)
+ident(
+  int_ref h "src/ext/disjoint/analysis.ml" 132 2927 2935 "src/ext/disjoint/analysis.ml" 132 2927 2936
+)
+"src/ext/disjoint/analysis.ml" 133 2945 2977 "src/ext/disjoint/analysis.ml" 133 2945 2978
+type(
+  'b
+)
+ident(
+  int_ref f "src/ext/disjoint/analysis.ml" 133 2945 2968 "src/ext/disjoint/analysis.ml" 133 2945 2969
+)
+"src/ext/disjoint/analysis.ml" 133 2945 2973 "src/ext/disjoint/analysis.ml" 133 2945 2979
+type(
+  'b * 'b
+)
+"src/ext/disjoint/analysis.ml" 133 2945 2963 "src/ext/disjoint/analysis.ml" 133 2945 2980
+type(
+  'b -> 'b * 'b
+)
+"src/ext/disjoint/analysis.ml" 133 2945 2981 "src/ext/disjoint/analysis.ml" 133 2945 2982
+type(
+  'b list
+)
+ident(
+  int_ref t "src/ext/disjoint/analysis.ml" 132 2927 2940 "src/ext/disjoint/analysis.ml" 132 2927 2941
+)
+"src/ext/disjoint/analysis.ml" 133 2945 2953 "src/ext/disjoint/analysis.ml" 133 2945 2983
+call(
+  stack
+)
+type(
+  ('b * 'b) list
+)
+"src/ext/disjoint/analysis.ml" 133 2945 2984 "src/ext/disjoint/analysis.ml" 133 2945 2985
+type(
+  ('b * 'b) list -> ('b * 'b) list -> ('b * 'b) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/disjoint/analysis.ml" 133 2945 2987 "src/ext/disjoint/analysis.ml" 133 2945 2992
+type(
+  'b list -> ('b * 'b) list
+)
+ident(
+  int_ref loop1 "src/ext/disjoint/analysis.ml" 130 2881 2893 "src/ext/disjoint/analysis.ml" 130 2881 2898
+)
+"src/ext/disjoint/analysis.ml" 133 2945 2993 "src/ext/disjoint/analysis.ml" 133 2945 2994
+type(
+  'b list
+)
+ident(
+  int_ref t "src/ext/disjoint/analysis.ml" 132 2927 2940 "src/ext/disjoint/analysis.ml" 132 2927 2941
+)
+"src/ext/disjoint/analysis.ml" 133 2945 2986 "src/ext/disjoint/analysis.ml" 133 2945 2995
+call(
+  stack
+)
+type(
+  ('b * 'b) list
+)
+"src/ext/disjoint/analysis.ml" 133 2945 2953 "src/ext/disjoint/analysis.ml" 133 2945 2995
+call(
+  tail
+)
+type(
+  ('b * 'b) list
+)
+"src/ext/disjoint/analysis.ml" 130 2881 2901 "src/ext/disjoint/analysis.ml" 133 2945 2995
+type(
+  'b list -> ('b * 'b) list
+)
+"src/ext/disjoint/analysis.ml" 135 3003 3007 "src/ext/disjoint/analysis.ml" 135 3003 3012
+type(
+  'a list -> ('a * 'a) list
+)
+ident(
+  int_ref loop1 "src/ext/disjoint/analysis.ml" 130 2881 2893 "src/ext/disjoint/analysis.ml" 130 2881 2898
+)
+"src/ext/disjoint/analysis.ml" 135 3003 3013 "src/ext/disjoint/analysis.ml" 135 3003 3016
+type(
+  'a list
+)
+ident(
+  int_ref lst "src/ext/disjoint/analysis.ml" 129 2862 2875 "src/ext/disjoint/analysis.ml" 129 2862 2878
+)
+"src/ext/disjoint/analysis.ml" 135 3003 3007 "src/ext/disjoint/analysis.ml" 135 3003 3016
+call(
+  tail
+)
+type(
+  ('a * 'a) list
+)
+"src/ext/disjoint/analysis.ml" 130 2881 2885 "src/ext/disjoint/analysis.ml" 135 3003 3016
+type(
+  ('a * 'a) list
+)
+"src/ext/disjoint/analysis.ml" 150 3233 3237 "src/ext/disjoint/analysis.ml" 150 3233 3245
+type(
+  Cil.file -> Cil.global list
+)
+ident(
+  def getFuncs "src/ext/disjoint/analysis.ml" 157 3375 3375 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 150 3233 3247 "src/ext/disjoint/analysis.ml" 150 3233 3248
+type(
+  Cil.file
+)
+ident(
+  def f "src/ext/disjoint/analysis.ml" 151 3260 3264 "src/ext/disjoint/analysis.ml" 155 3358 3371
+)
+"src/ext/disjoint/analysis.ml" 151 3260 3264 "src/ext/disjoint/analysis.ml" 151 3260 3275
+type(
+  (Cil.global -> bool) -> Cil.global list -> Cil.global list
+)
+ident(
+  ext_ref List.filter
+)
+"src/ext/disjoint/analysis.ml" 151 3260 3281 "src/ext/disjoint/analysis.ml" 151 3260 3282
+type(
+  Cil.global
+)
+ident(
+  def g "src/ext/disjoint/analysis.ml" 152 3286 3292 "src/ext/disjoint/analysis.ml" 154 3337 3355
+)
+"src/ext/disjoint/analysis.ml" 152 3286 3298 "src/ext/disjoint/analysis.ml" 152 3286 3299
+type(
+  Cil.global
+)
+ident(
+  int_ref g "src/ext/disjoint/analysis.ml" 151 3260 3281 "src/ext/disjoint/analysis.ml" 151 3260 3282
+)
+"src/ext/disjoint/analysis.ml" 153 3305 3319 "src/ext/disjoint/analysis.ml" 153 3305 3321
+type(
+  Cil.fundec
+)
+ident(
+  def fd "src/ext/disjoint/analysis.ml" 153 3305 3331 "src/ext/disjoint/analysis.ml" 153 3305 3335
+)
+"src/ext/disjoint/analysis.ml" 153 3305 3323 "src/ext/disjoint/analysis.ml" 153 3305 3326
+type(
+  Cil.location
+)
+ident(
+  def loc "src/ext/disjoint/analysis.ml" 153 3305 3331 "src/ext/disjoint/analysis.ml" 153 3305 3335
+)
+"src/ext/disjoint/analysis.ml" 153 3305 3313 "src/ext/disjoint/analysis.ml" 153 3305 3327
+type(
+  Cil.global
+)
+"src/ext/disjoint/analysis.ml" 153 3305 3331 "src/ext/disjoint/analysis.ml" 153 3305 3335
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 154 3337 3345 "src/ext/disjoint/analysis.ml" 154 3337 3346
+type(
+  Cil.global
+)
+"src/ext/disjoint/analysis.ml" 154 3337 3350 "src/ext/disjoint/analysis.ml" 154 3337 3355
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 152 3286 3292 "src/ext/disjoint/analysis.ml" 154 3337 3355
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 151 3260 3276 "src/ext/disjoint/analysis.ml" 154 3337 3357
+type(
+  Cil.global -> bool
+)
+"src/ext/disjoint/analysis.ml" 155 3358 3362 "src/ext/disjoint/analysis.ml" 155 3358 3363
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/disjoint/analysis.ml" 150 3233 3247 "src/ext/disjoint/analysis.ml" 150 3233 3248
+)
+"src/ext/disjoint/analysis.ml" 155 3358 3362 "src/ext/disjoint/analysis.ml" 155 3358 3371
+type(
+  Cil.global list
+)
+"src/ext/disjoint/analysis.ml" 151 3260 3264 "src/ext/disjoint/analysis.ml" 155 3358 3371
+call(
+  tail
+)
+type(
+  Cil.global list
+)
+"src/ext/disjoint/analysis.ml" 157 3375 3383 "src/ext/disjoint/analysis.ml" 157 3375 3395
+type(
+  Cil.global list -> Cil.fundec list
+)
+ident(
+  def convertFuncs "src/ext/disjoint/analysis.ml" 157 3375 3375 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 157 3375 3396 "src/ext/disjoint/analysis.ml" 157 3375 3399
+type(
+  Cil.global list
+)
+ident(
+  def lst "src/ext/disjoint/analysis.ml" 158 3402 3404 "src/ext/disjoint/analysis.ml" 163 3517 3526
+)
+"src/ext/disjoint/analysis.ml" 158 3402 3410 "src/ext/disjoint/analysis.ml" 158 3402 3413
+type(
+  Cil.global list
+)
+ident(
+  int_ref lst "src/ext/disjoint/analysis.ml" 157 3375 3396 "src/ext/disjoint/analysis.ml" 157 3375 3399
+)
+"src/ext/disjoint/analysis.ml" 159 3419 3423 "src/ext/disjoint/analysis.ml" 159 3419 3425
+type(
+  Cil.global list
+)
+"src/ext/disjoint/analysis.ml" 159 3419 3429 "src/ext/disjoint/analysis.ml" 159 3419 3431
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 160 3432 3438 "src/ext/disjoint/analysis.ml" 160 3432 3439
+type(
+  Cil.global
+)
+ident(
+  def h "src/ext/disjoint/analysis.ml" 161 3449 3455 "src/ext/disjoint/analysis.ml" 163 3517 3526
+)
+"src/ext/disjoint/analysis.ml" 160 3432 3443 "src/ext/disjoint/analysis.ml" 160 3432 3444
+type(
+  Cil.global list
+)
+ident(
+  def t "src/ext/disjoint/analysis.ml" 161 3449 3455 "src/ext/disjoint/analysis.ml" 163 3517 3526
+)
+"src/ext/disjoint/analysis.ml" 160 3432 3438 "src/ext/disjoint/analysis.ml" 160 3432 3444
+type(
+  Cil.global list
+)
+"src/ext/disjoint/analysis.ml" 161 3449 3461 "src/ext/disjoint/analysis.ml" 161 3449 3462
+type(
+  Cil.global
+)
+ident(
+  int_ref h "src/ext/disjoint/analysis.ml" 160 3432 3438 "src/ext/disjoint/analysis.ml" 160 3432 3439
+)
+"src/ext/disjoint/analysis.ml" 162 3468 3481 "src/ext/disjoint/analysis.ml" 162 3468 3483
+type(
+  Cil.fundec
+)
+ident(
+  def fd "src/ext/disjoint/analysis.ml" 162 3468 3493 "src/ext/disjoint/analysis.ml" 162 3468 3516
+)
+"src/ext/disjoint/analysis.ml" 162 3468 3484 "src/ext/disjoint/analysis.ml" 162 3468 3487
+type(
+  Cil.location
+)
+ident(
+  def loc "src/ext/disjoint/analysis.ml" 162 3468 3493 "src/ext/disjoint/analysis.ml" 162 3468 3516
+)
+"src/ext/disjoint/analysis.ml" 162 3468 3476 "src/ext/disjoint/analysis.ml" 162 3468 3488
+type(
+  Cil.global
+)
+"src/ext/disjoint/analysis.ml" 162 3468 3494 "src/ext/disjoint/analysis.ml" 162 3468 3496
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fd "src/ext/disjoint/analysis.ml" 162 3468 3481 "src/ext/disjoint/analysis.ml" 162 3468 3483
+)
+"src/ext/disjoint/analysis.ml" 162 3468 3493 "src/ext/disjoint/analysis.ml" 162 3468 3497
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 162 3468 3498 "src/ext/disjoint/analysis.ml" 162 3468 3499
+type(
+  Cil.fundec list -> Cil.fundec list -> Cil.fundec list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/disjoint/analysis.ml" 162 3468 3501 "src/ext/disjoint/analysis.ml" 162 3468 3513
+type(
+  Cil.global list -> Cil.fundec list
+)
+ident(
+  int_ref convertFuncs "src/ext/disjoint/analysis.ml" 157 3375 3383 "src/ext/disjoint/analysis.ml" 157 3375 3395
+)
+"src/ext/disjoint/analysis.ml" 162 3468 3514 "src/ext/disjoint/analysis.ml" 162 3468 3515
+type(
+  Cil.global list
+)
+ident(
+  int_ref t "src/ext/disjoint/analysis.ml" 160 3432 3443 "src/ext/disjoint/analysis.ml" 160 3432 3444
+)
+"src/ext/disjoint/analysis.ml" 162 3468 3500 "src/ext/disjoint/analysis.ml" 162 3468 3516
+call(
+  stack
+)
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 162 3468 3493 "src/ext/disjoint/analysis.ml" 162 3468 3516
+call(
+  tail
+)
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 163 3517 3519 "src/ext/disjoint/analysis.ml" 163 3517 3520
+type(
+  Cil.global
+)
+"src/ext/disjoint/analysis.ml" 163 3517 3524 "src/ext/disjoint/analysis.ml" 163 3517 3526
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 161 3449 3455 "src/ext/disjoint/analysis.ml" 163 3517 3526
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 158 3402 3404 "src/ext/disjoint/analysis.ml" 163 3517 3526
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 165 3528 3532 "src/ext/disjoint/analysis.ml" 165 3528 3539
+type(
+  Cil.file -> Cil.global list
+)
+ident(
+  def getVars "src/ext/disjoint/analysis.ml" 174 3674 3674 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 165 3528 3541 "src/ext/disjoint/analysis.ml" 165 3528 3542
+type(
+  Cil.file
+)
+ident(
+  def f "src/ext/disjoint/analysis.ml" 167 3557 3561 "src/ext/disjoint/analysis.ml" 171 3656 3669
+)
+"src/ext/disjoint/analysis.ml" 167 3557 3561 "src/ext/disjoint/analysis.ml" 167 3557 3572
+type(
+  (Cil.global -> bool) -> Cil.global list -> Cil.global list
+)
+ident(
+  ext_ref List.filter
+)
+"src/ext/disjoint/analysis.ml" 167 3557 3578 "src/ext/disjoint/analysis.ml" 167 3557 3579
+type(
+  Cil.global
+)
+ident(
+  def g "src/ext/disjoint/analysis.ml" 168 3583 3589 "src/ext/disjoint/analysis.ml" 170 3635 3653
+)
+"src/ext/disjoint/analysis.ml" 168 3583 3595 "src/ext/disjoint/analysis.ml" 168 3583 3596
+type(
+  Cil.global
+)
+ident(
+  int_ref g "src/ext/disjoint/analysis.ml" 167 3557 3578 "src/ext/disjoint/analysis.ml" 167 3557 3579
+)
+"src/ext/disjoint/analysis.ml" 169 3602 3615 "src/ext/disjoint/analysis.ml" 169 3602 3617
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/disjoint/analysis.ml" 169 3602 3629 "src/ext/disjoint/analysis.ml" 169 3602 3633
+)
+"src/ext/disjoint/analysis.ml" 169 3602 3618 "src/ext/disjoint/analysis.ml" 169 3602 3619
+type(
+  Cil.initinfo
+)
+ident(
+  def i "src/ext/disjoint/analysis.ml" 169 3602 3629 "src/ext/disjoint/analysis.ml" 169 3602 3633
+)
+"src/ext/disjoint/analysis.ml" 169 3602 3621 "src/ext/disjoint/analysis.ml" 169 3602 3624
+type(
+  Cil.location
+)
+ident(
+  def loc "src/ext/disjoint/analysis.ml" 169 3602 3629 "src/ext/disjoint/analysis.ml" 169 3602 3633
+)
+"src/ext/disjoint/analysis.ml" 169 3602 3610 "src/ext/disjoint/analysis.ml" 169 3602 3625
+type(
+  Cil.global
+)
+"src/ext/disjoint/analysis.ml" 169 3602 3629 "src/ext/disjoint/analysis.ml" 169 3602 3633
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 170 3635 3643 "src/ext/disjoint/analysis.ml" 170 3635 3644
+type(
+  Cil.global
+)
+"src/ext/disjoint/analysis.ml" 170 3635 3648 "src/ext/disjoint/analysis.ml" 170 3635 3653
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 168 3583 3589 "src/ext/disjoint/analysis.ml" 170 3635 3653
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 167 3557 3573 "src/ext/disjoint/analysis.ml" 170 3635 3655
+type(
+  Cil.global -> bool
+)
+"src/ext/disjoint/analysis.ml" 171 3656 3660 "src/ext/disjoint/analysis.ml" 171 3656 3661
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/disjoint/analysis.ml" 165 3528 3541 "src/ext/disjoint/analysis.ml" 165 3528 3542
+)
+"src/ext/disjoint/analysis.ml" 171 3656 3660 "src/ext/disjoint/analysis.ml" 171 3656 3669
+type(
+  Cil.global list
+)
+"src/ext/disjoint/analysis.ml" 167 3557 3561 "src/ext/disjoint/analysis.ml" 171 3656 3669
+call(
+  tail
+)
+type(
+  Cil.global list
+)
+"src/ext/disjoint/analysis.ml" 174 3674 3682 "src/ext/disjoint/analysis.ml" 174 3674 3693
+type(
+  Cil.global list -> Cil.varinfo list
+)
+ident(
+  def convertVars "src/ext/disjoint/analysis.ml" 174 3674 3674 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 174 3674 3694 "src/ext/disjoint/analysis.ml" 174 3674 3697
+type(
+  Cil.global list
+)
+ident(
+  def lst "src/ext/disjoint/analysis.ml" 175 3700 3702 "src/ext/disjoint/analysis.ml" 180 3817 3826
+)
+"src/ext/disjoint/analysis.ml" 175 3700 3708 "src/ext/disjoint/analysis.ml" 175 3700 3711
+type(
+  Cil.global list
+)
+ident(
+  int_ref lst "src/ext/disjoint/analysis.ml" 174 3674 3694 "src/ext/disjoint/analysis.ml" 174 3674 3697
+)
+"src/ext/disjoint/analysis.ml" 176 3717 3721 "src/ext/disjoint/analysis.ml" 176 3717 3723
+type(
+  Cil.global list
+)
+"src/ext/disjoint/analysis.ml" 176 3717 3727 "src/ext/disjoint/analysis.ml" 176 3717 3729
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 177 3730 3736 "src/ext/disjoint/analysis.ml" 177 3730 3737
+type(
+  Cil.global
+)
+ident(
+  def h "src/ext/disjoint/analysis.ml" 178 3747 3753 "src/ext/disjoint/analysis.ml" 180 3817 3826
+)
+"src/ext/disjoint/analysis.ml" 177 3730 3741 "src/ext/disjoint/analysis.ml" 177 3730 3742
+type(
+  Cil.global list
+)
+ident(
+  def t "src/ext/disjoint/analysis.ml" 178 3747 3753 "src/ext/disjoint/analysis.ml" 180 3817 3826
+)
+"src/ext/disjoint/analysis.ml" 177 3730 3736 "src/ext/disjoint/analysis.ml" 177 3730 3742
+type(
+  Cil.global list
+)
+"src/ext/disjoint/analysis.ml" 178 3747 3759 "src/ext/disjoint/analysis.ml" 178 3747 3760
+type(
+  Cil.global
+)
+ident(
+  int_ref h "src/ext/disjoint/analysis.ml" 177 3730 3736 "src/ext/disjoint/analysis.ml" 177 3730 3737
+)
+"src/ext/disjoint/analysis.ml" 179 3766 3779 "src/ext/disjoint/analysis.ml" 179 3766 3781
+type(
+  Cil.varinfo
+)
+ident(
+  def vi "src/ext/disjoint/analysis.ml" 179 3766 3794 "src/ext/disjoint/analysis.ml" 179 3766 3816
+)
+"src/ext/disjoint/analysis.ml" 179 3766 3782 "src/ext/disjoint/analysis.ml" 179 3766 3783
+type(
+  Cil.initinfo
+)
+ident(
+  def i "src/ext/disjoint/analysis.ml" 179 3766 3794 "src/ext/disjoint/analysis.ml" 179 3766 3816
+)
+"src/ext/disjoint/analysis.ml" 179 3766 3785 "src/ext/disjoint/analysis.ml" 179 3766 3788
+type(
+  Cil.location
+)
+ident(
+  def loc "src/ext/disjoint/analysis.ml" 179 3766 3794 "src/ext/disjoint/analysis.ml" 179 3766 3816
+)
+"src/ext/disjoint/analysis.ml" 179 3766 3774 "src/ext/disjoint/analysis.ml" 179 3766 3789
+type(
+  Cil.global
+)
+"src/ext/disjoint/analysis.ml" 179 3766 3795 "src/ext/disjoint/analysis.ml" 179 3766 3797
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/disjoint/analysis.ml" 179 3766 3779 "src/ext/disjoint/analysis.ml" 179 3766 3781
+)
+"src/ext/disjoint/analysis.ml" 179 3766 3794 "src/ext/disjoint/analysis.ml" 179 3766 3798
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 179 3766 3799 "src/ext/disjoint/analysis.ml" 179 3766 3800
+type(
+  Cil.varinfo list -> Cil.varinfo list -> Cil.varinfo list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/disjoint/analysis.ml" 179 3766 3802 "src/ext/disjoint/analysis.ml" 179 3766 3813
+type(
+  Cil.global list -> Cil.varinfo list
+)
+ident(
+  int_ref convertVars "src/ext/disjoint/analysis.ml" 174 3674 3682 "src/ext/disjoint/analysis.ml" 174 3674 3693
+)
+"src/ext/disjoint/analysis.ml" 179 3766 3814 "src/ext/disjoint/analysis.ml" 179 3766 3815
+type(
+  Cil.global list
+)
+ident(
+  int_ref t "src/ext/disjoint/analysis.ml" 177 3730 3741 "src/ext/disjoint/analysis.ml" 177 3730 3742
+)
+"src/ext/disjoint/analysis.ml" 179 3766 3801 "src/ext/disjoint/analysis.ml" 179 3766 3816
+call(
+  stack
+)
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 179 3766 3794 "src/ext/disjoint/analysis.ml" 179 3766 3816
+call(
+  tail
+)
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 180 3817 3819 "src/ext/disjoint/analysis.ml" 180 3817 3820
+type(
+  Cil.global
+)
+"src/ext/disjoint/analysis.ml" 180 3817 3824 "src/ext/disjoint/analysis.ml" 180 3817 3826
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 178 3747 3753 "src/ext/disjoint/analysis.ml" 180 3817 3826
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 175 3700 3702 "src/ext/disjoint/analysis.ml" 180 3817 3826
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 182 3828 3836 "src/ext/disjoint/analysis.ml" 182 3828 3840
+type(
+  'a list -> 'a -> bool
+)
+ident(
+  def isin "src/ext/disjoint/analysis.ml" 182 3828 3828 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 182 3828 3841 "src/ext/disjoint/analysis.ml" 182 3828 3843
+type(
+  'a list
+)
+ident(
+  def ll "src/ext/disjoint/analysis.ml" 182 3828 3844 "src/ext/disjoint/analysis.ml" 186 3908 3928
+)
+"src/ext/disjoint/analysis.ml" 182 3828 3844 "src/ext/disjoint/analysis.ml" 182 3828 3845
+type(
+  'a
+)
+ident(
+  def a "src/ext/disjoint/analysis.ml" 183 3848 3850 "src/ext/disjoint/analysis.ml" 186 3908 3928
+)
+"src/ext/disjoint/analysis.ml" 183 3848 3856 "src/ext/disjoint/analysis.ml" 183 3848 3858
+type(
+  'a list
+)
+ident(
+  int_ref ll "src/ext/disjoint/analysis.ml" 182 3828 3841 "src/ext/disjoint/analysis.ml" 182 3828 3843
+)
+"src/ext/disjoint/analysis.ml" 184 3864 3868 "src/ext/disjoint/analysis.ml" 184 3864 3870
+type(
+  'a list
+)
+"src/ext/disjoint/analysis.ml" 184 3864 3874 "src/ext/disjoint/analysis.ml" 184 3864 3879
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 185 3880 3884 "src/ext/disjoint/analysis.ml" 185 3880 3885
+type(
+  'a
+)
+ident(
+  def h "src/ext/disjoint/analysis.ml" 185 3880 3894 "src/ext/disjoint/analysis.ml" 185 3880 3907
+)
+"src/ext/disjoint/analysis.ml" 185 3880 3887 "src/ext/disjoint/analysis.ml" 185 3880 3888
+type(
+  'a list
+)
+ident(
+  def t "src/ext/disjoint/analysis.ml" 185 3880 3894 "src/ext/disjoint/analysis.ml" 185 3880 3907
+)
+"src/ext/disjoint/analysis.ml" 185 3880 3884 "src/ext/disjoint/analysis.ml" 185 3880 3888
+type(
+  'a list
+)
+"src/ext/disjoint/analysis.ml" 185 3880 3894 "src/ext/disjoint/analysis.ml" 185 3880 3895
+type(
+  'a
+)
+ident(
+  int_ref h "src/ext/disjoint/analysis.ml" 185 3880 3884 "src/ext/disjoint/analysis.ml" 185 3880 3885
+)
+"src/ext/disjoint/analysis.ml" 185 3880 3896 "src/ext/disjoint/analysis.ml" 185 3880 3897
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/disjoint/analysis.ml" 185 3880 3898 "src/ext/disjoint/analysis.ml" 185 3880 3899
+type(
+  'a
+)
+ident(
+  int_ref a "src/ext/disjoint/analysis.ml" 182 3828 3844 "src/ext/disjoint/analysis.ml" 182 3828 3845
+)
+"src/ext/disjoint/analysis.ml" 185 3880 3894 "src/ext/disjoint/analysis.ml" 185 3880 3899
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 185 3880 3903 "src/ext/disjoint/analysis.ml" 185 3880 3907
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 186 3908 3912 "src/ext/disjoint/analysis.ml" 186 3908 3913
+type(
+  'a
+)
+ident(
+  def h "src/ext/disjoint/analysis.ml" 186 3908 3920 "src/ext/disjoint/analysis.ml" 186 3908 3928
+)
+"src/ext/disjoint/analysis.ml" 186 3908 3915 "src/ext/disjoint/analysis.ml" 186 3908 3916
+type(
+  'a list
+)
+ident(
+  def t "src/ext/disjoint/analysis.ml" 186 3908 3920 "src/ext/disjoint/analysis.ml" 186 3908 3928
+)
+"src/ext/disjoint/analysis.ml" 186 3908 3912 "src/ext/disjoint/analysis.ml" 186 3908 3916
+type(
+  'a list
+)
+"src/ext/disjoint/analysis.ml" 186 3908 3920 "src/ext/disjoint/analysis.ml" 186 3908 3924
+type(
+  'a list -> 'a -> bool
+)
+ident(
+  int_ref isin "src/ext/disjoint/analysis.ml" 182 3828 3836 "src/ext/disjoint/analysis.ml" 182 3828 3840
+)
+"src/ext/disjoint/analysis.ml" 186 3908 3925 "src/ext/disjoint/analysis.ml" 186 3908 3926
+type(
+  'a list
+)
+ident(
+  int_ref t "src/ext/disjoint/analysis.ml" 186 3908 3915 "src/ext/disjoint/analysis.ml" 186 3908 3916
+)
+"src/ext/disjoint/analysis.ml" 186 3908 3927 "src/ext/disjoint/analysis.ml" 186 3908 3928
+type(
+  'a
+)
+ident(
+  int_ref a "src/ext/disjoint/analysis.ml" 182 3828 3844 "src/ext/disjoint/analysis.ml" 182 3828 3845
+)
+"src/ext/disjoint/analysis.ml" 186 3908 3920 "src/ext/disjoint/analysis.ml" 186 3908 3928
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 183 3848 3850 "src/ext/disjoint/analysis.ml" 186 3908 3928
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 188 3931 3939 "src/ext/disjoint/analysis.ml" 188 3931 3949
+type(
+  Cil.varinfo list -> Cil.exp -> Cil.varinfo list
+)
+ident(
+  def findFunVar "src/ext/disjoint/analysis.ml" 188 3931 3931 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 188 3931 3950 "src/ext/disjoint/analysis.ml" 188 3931 3952
+type(
+  Cil.varinfo list
+)
+ident(
+  def lt "src/ext/disjoint/analysis.ml" 188 3931 3953 "src/ext/disjoint/analysis.ml" 196 4194 4207
+)
+"src/ext/disjoint/analysis.ml" 188 3931 3953 "src/ext/disjoint/analysis.ml" 188 3931 3954
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/disjoint/analysis.ml" 189 3957 3961 "src/ext/disjoint/analysis.ml" 196 4194 4207
+)
+"src/ext/disjoint/analysis.ml" 189 3957 3967 "src/ext/disjoint/analysis.ml" 189 3957 3968
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/disjoint/analysis.ml" 188 3931 3953 "src/ext/disjoint/analysis.ml" 188 3931 3954
+)
+"src/ext/disjoint/analysis.ml" 190 3974 3986 "src/ext/disjoint/analysis.ml" 190 3974 3987
+ident(
+  def c "src/ext/disjoint/analysis.ml" 190 3974 3992 "src/ext/disjoint/analysis.ml" 190 3974 3994
+)
+"src/ext/disjoint/analysis.ml" 190 3974 3985 "src/ext/disjoint/analysis.ml" 190 3974 3988
+type(
+  Cil.constant
+)
+"src/ext/disjoint/analysis.ml" 190 3974 3980 "src/ext/disjoint/analysis.ml" 190 3974 3988
+type(
+  Cil.exp
+)
+"src/ext/disjoint/analysis.ml" 190 3974 3992 "src/ext/disjoint/analysis.ml" 190 3974 3994
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 191 3995 4006 "src/ext/disjoint/analysis.ml" 191 3995 4007
+ident(
+  def v "src/ext/disjoint/analysis.ml" 191 3995 4012 "src/ext/disjoint/analysis.ml" 194 4103 4125
+)
+"src/ext/disjoint/analysis.ml" 191 3995 4005 "src/ext/disjoint/analysis.ml" 191 3995 4008
+type(
+  Cil.lval
+)
+"src/ext/disjoint/analysis.ml" 191 3995 4001 "src/ext/disjoint/analysis.ml" 191 3995 4008
+type(
+  Cil.exp
+)
+"src/ext/disjoint/analysis.ml" 191 3995 4019 "src/ext/disjoint/analysis.ml" 191 3995 4020
+type(
+  Cil.lval
+)
+ident(
+  int_ref v "src/ext/disjoint/analysis.ml" 191 3995 4005 "src/ext/disjoint/analysis.ml" 191 3995 4008
+)
+"src/ext/disjoint/analysis.ml" 192 4026 4032 "src/ext/disjoint/analysis.ml" 192 4026 4034
+type(
+  Cil.lhost
+)
+ident(
+  def lh "src/ext/disjoint/analysis.ml" 192 4026 4043 "src/ext/disjoint/analysis.ml" 194 4103 4124
+)
+"src/ext/disjoint/analysis.ml" 192 4026 4035 "src/ext/disjoint/analysis.ml" 192 4026 4038
+type(
+  Cil.offset
+)
+ident(
+  def off "src/ext/disjoint/analysis.ml" 192 4026 4043 "src/ext/disjoint/analysis.ml" 194 4103 4124
+)
+"src/ext/disjoint/analysis.ml" 192 4026 4031 "src/ext/disjoint/analysis.ml" 192 4026 4039
+type(
+  Cil.lval
+)
+"src/ext/disjoint/analysis.ml" 192 4026 4049 "src/ext/disjoint/analysis.ml" 192 4026 4051
+type(
+  Cil.lhost
+)
+ident(
+  int_ref lh "src/ext/disjoint/analysis.ml" 192 4026 4032 "src/ext/disjoint/analysis.ml" 192 4026 4034
+)
+"src/ext/disjoint/analysis.ml" 193 4057 4069 "src/ext/disjoint/analysis.ml" 193 4057 4071
+ident(
+  def vi "src/ext/disjoint/analysis.ml" 193 4057 4076 "src/ext/disjoint/analysis.ml" 194 4103 4124
+)
+"src/ext/disjoint/analysis.ml" 193 4057 4068 "src/ext/disjoint/analysis.ml" 193 4057 4072
+type(
+  Cil.varinfo
+)
+"src/ext/disjoint/analysis.ml" 193 4057 4065 "src/ext/disjoint/analysis.ml" 193 4057 4072
+type(
+  Cil.lhost
+)
+"src/ext/disjoint/analysis.ml" 193 4057 4080 "src/ext/disjoint/analysis.ml" 193 4057 4084
+type(
+  Cil.varinfo list -> Cil.varinfo -> bool
+)
+ident(
+  int_ref isin "src/ext/disjoint/analysis.ml" 182 3828 3836 "src/ext/disjoint/analysis.ml" 182 3828 3840
+)
+"src/ext/disjoint/analysis.ml" 193 4057 4085 "src/ext/disjoint/analysis.ml" 193 4057 4087
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref lt "src/ext/disjoint/analysis.ml" 188 3931 3950 "src/ext/disjoint/analysis.ml" 188 3931 3952
+)
+"src/ext/disjoint/analysis.ml" 193 4057 4088 "src/ext/disjoint/analysis.ml" 193 4057 4090
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/disjoint/analysis.ml" 193 4057 4068 "src/ext/disjoint/analysis.ml" 193 4057 4072
+)
+"src/ext/disjoint/analysis.ml" 193 4057 4079 "src/ext/disjoint/analysis.ml" 193 4057 4091
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 193 4057 4098 "src/ext/disjoint/analysis.ml" 193 4057 4100
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/disjoint/analysis.ml" 193 4057 4068 "src/ext/disjoint/analysis.ml" 193 4057 4072
+)
+"src/ext/disjoint/analysis.ml" 193 4057 4097 "src/ext/disjoint/analysis.ml" 193 4057 4101
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 194 4103 4122 "src/ext/disjoint/analysis.ml" 194 4103 4124
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 193 4057 4076 "src/ext/disjoint/analysis.ml" 194 4103 4124
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 192 4026 4043 "src/ext/disjoint/analysis.ml" 194 4103 4124
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 191 3995 4012 "src/ext/disjoint/analysis.ml" 194 4103 4125
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 195 4126 4138 "src/ext/disjoint/analysis.ml" 195 4126 4140
+type(
+  Cil.binop
+)
+ident(
+  def op "src/ext/disjoint/analysis.ml" 195 4126 4154 "src/ext/disjoint/analysis.ml" 195 4126 4193
+)
+"src/ext/disjoint/analysis.ml" 195 4126 4141 "src/ext/disjoint/analysis.ml" 195 4126 4143
+type(
+  Cil.exp
+)
+ident(
+  def e1 "src/ext/disjoint/analysis.ml" 195 4126 4154 "src/ext/disjoint/analysis.ml" 195 4126 4193
+)
+"src/ext/disjoint/analysis.ml" 195 4126 4145 "src/ext/disjoint/analysis.ml" 195 4126 4147
+type(
+  Cil.exp
+)
+ident(
+  def e2 "src/ext/disjoint/analysis.ml" 195 4126 4154 "src/ext/disjoint/analysis.ml" 195 4126 4193
+)
+"src/ext/disjoint/analysis.ml" 195 4126 4148 "src/ext/disjoint/analysis.ml" 195 4126 4149
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/disjoint/analysis.ml" 195 4126 4154 "src/ext/disjoint/analysis.ml" 195 4126 4193
+)
+"src/ext/disjoint/analysis.ml" 195 4126 4132 "src/ext/disjoint/analysis.ml" 195 4126 4150
+type(
+  Cil.exp
+)
+"src/ext/disjoint/analysis.ml" 195 4126 4155 "src/ext/disjoint/analysis.ml" 195 4126 4165
+type(
+  Cil.varinfo list -> Cil.exp -> Cil.varinfo list
+)
+ident(
+  int_ref findFunVar "src/ext/disjoint/analysis.ml" 188 3931 3939 "src/ext/disjoint/analysis.ml" 188 3931 3949
+)
+"src/ext/disjoint/analysis.ml" 195 4126 4166 "src/ext/disjoint/analysis.ml" 195 4126 4168
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref lt "src/ext/disjoint/analysis.ml" 188 3931 3950 "src/ext/disjoint/analysis.ml" 188 3931 3952
+)
+"src/ext/disjoint/analysis.ml" 195 4126 4169 "src/ext/disjoint/analysis.ml" 195 4126 4171
+type(
+  Cil.exp
+)
+ident(
+  int_ref e1 "src/ext/disjoint/analysis.ml" 195 4126 4141 "src/ext/disjoint/analysis.ml" 195 4126 4143
+)
+"src/ext/disjoint/analysis.ml" 195 4126 4154 "src/ext/disjoint/analysis.ml" 195 4126 4172
+call(
+  stack
+)
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 195 4126 4173 "src/ext/disjoint/analysis.ml" 195 4126 4174
+type(
+  Cil.varinfo list -> Cil.varinfo list -> Cil.varinfo list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/disjoint/analysis.ml" 195 4126 4176 "src/ext/disjoint/analysis.ml" 195 4126 4186
+type(
+  Cil.varinfo list -> Cil.exp -> Cil.varinfo list
+)
+ident(
+  int_ref findFunVar "src/ext/disjoint/analysis.ml" 188 3931 3939 "src/ext/disjoint/analysis.ml" 188 3931 3949
+)
+"src/ext/disjoint/analysis.ml" 195 4126 4187 "src/ext/disjoint/analysis.ml" 195 4126 4189
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref lt "src/ext/disjoint/analysis.ml" 188 3931 3950 "src/ext/disjoint/analysis.ml" 188 3931 3952
+)
+"src/ext/disjoint/analysis.ml" 195 4126 4190 "src/ext/disjoint/analysis.ml" 195 4126 4192
+type(
+  Cil.exp
+)
+ident(
+  int_ref e2 "src/ext/disjoint/analysis.ml" 195 4126 4145 "src/ext/disjoint/analysis.ml" 195 4126 4147
+)
+"src/ext/disjoint/analysis.ml" 195 4126 4175 "src/ext/disjoint/analysis.ml" 195 4126 4193
+call(
+  stack
+)
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 195 4126 4154 "src/ext/disjoint/analysis.ml" 195 4126 4193
+call(
+  tail
+)
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 196 4194 4200 "src/ext/disjoint/analysis.ml" 196 4194 4201
+type(
+  Cil.exp
+)
+"src/ext/disjoint/analysis.ml" 196 4194 4205 "src/ext/disjoint/analysis.ml" 196 4194 4207
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 189 3957 3961 "src/ext/disjoint/analysis.ml" 196 4194 4207
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 198 4209 4217 "src/ext/disjoint/analysis.ml" 198 4209 4228
+type(
+  Cil.exp -> Cil.varinfo list
+)
+ident(
+  def findExprVar "src/ext/disjoint/analysis.ml" 198 4209 4209 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 198 4209 4229 "src/ext/disjoint/analysis.ml" 198 4209 4230
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/disjoint/analysis.ml" 199 4233 4236 "src/ext/disjoint/analysis.ml" 207 4476 4489
+)
+"src/ext/disjoint/analysis.ml" 199 4233 4242 "src/ext/disjoint/analysis.ml" 199 4233 4243
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/disjoint/analysis.ml" 198 4209 4229 "src/ext/disjoint/analysis.ml" 198 4209 4230
+)
+"src/ext/disjoint/analysis.ml" 200 4249 4261 "src/ext/disjoint/analysis.ml" 200 4249 4262
+ident(
+  def c "src/ext/disjoint/analysis.ml" 200 4249 4267 "src/ext/disjoint/analysis.ml" 200 4249 4269
+)
+"src/ext/disjoint/analysis.ml" 200 4249 4260 "src/ext/disjoint/analysis.ml" 200 4249 4263
+type(
+  Cil.constant
+)
+"src/ext/disjoint/analysis.ml" 200 4249 4255 "src/ext/disjoint/analysis.ml" 200 4249 4263
+type(
+  Cil.exp
+)
+"src/ext/disjoint/analysis.ml" 200 4249 4267 "src/ext/disjoint/analysis.ml" 200 4249 4269
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 201 4270 4281 "src/ext/disjoint/analysis.ml" 201 4270 4282
+ident(
+  def v "src/ext/disjoint/analysis.ml" 201 4270 4287 "src/ext/disjoint/analysis.ml" 204 4357 4376
+)
+"src/ext/disjoint/analysis.ml" 201 4270 4280 "src/ext/disjoint/analysis.ml" 201 4270 4283
+type(
+  Cil.lval
+)
+"src/ext/disjoint/analysis.ml" 201 4270 4276 "src/ext/disjoint/analysis.ml" 201 4270 4283
+type(
+  Cil.exp
+)
+"src/ext/disjoint/analysis.ml" 201 4270 4294 "src/ext/disjoint/analysis.ml" 201 4270 4295
+type(
+  Cil.lval
+)
+ident(
+  int_ref v "src/ext/disjoint/analysis.ml" 201 4270 4280 "src/ext/disjoint/analysis.ml" 201 4270 4283
+)
+"src/ext/disjoint/analysis.ml" 202 4301 4307 "src/ext/disjoint/analysis.ml" 202 4301 4309
+type(
+  Cil.lhost
+)
+ident(
+  def lh "src/ext/disjoint/analysis.ml" 202 4301 4318 "src/ext/disjoint/analysis.ml" 204 4357 4375
+)
+"src/ext/disjoint/analysis.ml" 202 4301 4310 "src/ext/disjoint/analysis.ml" 202 4301 4313
+type(
+  Cil.offset
+)
+ident(
+  def off "src/ext/disjoint/analysis.ml" 202 4301 4318 "src/ext/disjoint/analysis.ml" 204 4357 4375
+)
+"src/ext/disjoint/analysis.ml" 202 4301 4306 "src/ext/disjoint/analysis.ml" 202 4301 4314
+type(
+  Cil.lval
+)
+"src/ext/disjoint/analysis.ml" 202 4301 4324 "src/ext/disjoint/analysis.ml" 202 4301 4326
+type(
+  Cil.lhost
+)
+ident(
+  int_ref lh "src/ext/disjoint/analysis.ml" 202 4301 4307 "src/ext/disjoint/analysis.ml" 202 4301 4309
+)
+"src/ext/disjoint/analysis.ml" 203 4332 4344 "src/ext/disjoint/analysis.ml" 203 4332 4346
+ident(
+  def vi "src/ext/disjoint/analysis.ml" 203 4332 4351 "src/ext/disjoint/analysis.ml" 203 4332 4355
+)
+"src/ext/disjoint/analysis.ml" 203 4332 4343 "src/ext/disjoint/analysis.ml" 203 4332 4347
+type(
+  Cil.varinfo
+)
+"src/ext/disjoint/analysis.ml" 203 4332 4340 "src/ext/disjoint/analysis.ml" 203 4332 4347
+type(
+  Cil.lhost
+)
+"src/ext/disjoint/analysis.ml" 203 4332 4352 "src/ext/disjoint/analysis.ml" 203 4332 4354
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/disjoint/analysis.ml" 203 4332 4343 "src/ext/disjoint/analysis.ml" 203 4332 4347
+)
+"src/ext/disjoint/analysis.ml" 203 4332 4351 "src/ext/disjoint/analysis.ml" 203 4332 4355
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 204 4357 4368 "src/ext/disjoint/analysis.ml" 204 4357 4369
+type(
+  Cil.lhost
+)
+"src/ext/disjoint/analysis.ml" 204 4357 4373 "src/ext/disjoint/analysis.ml" 204 4357 4375
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 202 4301 4318 "src/ext/disjoint/analysis.ml" 204 4357 4375
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 201 4270 4287 "src/ext/disjoint/analysis.ml" 204 4357 4376
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 205 4377 4389 "src/ext/disjoint/analysis.ml" 205 4377 4391
+type(
+  Cil.binop
+)
+ident(
+  def op "src/ext/disjoint/analysis.ml" 205 4377 4405 "src/ext/disjoint/analysis.ml" 205 4377 4440
+)
+"src/ext/disjoint/analysis.ml" 205 4377 4392 "src/ext/disjoint/analysis.ml" 205 4377 4394
+type(
+  Cil.exp
+)
+ident(
+  def e1 "src/ext/disjoint/analysis.ml" 205 4377 4405 "src/ext/disjoint/analysis.ml" 205 4377 4440
+)
+"src/ext/disjoint/analysis.ml" 205 4377 4396 "src/ext/disjoint/analysis.ml" 205 4377 4398
+type(
+  Cil.exp
+)
+ident(
+  def e2 "src/ext/disjoint/analysis.ml" 205 4377 4405 "src/ext/disjoint/analysis.ml" 205 4377 4440
+)
+"src/ext/disjoint/analysis.ml" 205 4377 4399 "src/ext/disjoint/analysis.ml" 205 4377 4400
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/disjoint/analysis.ml" 205 4377 4405 "src/ext/disjoint/analysis.ml" 205 4377 4440
+)
+"src/ext/disjoint/analysis.ml" 205 4377 4383 "src/ext/disjoint/analysis.ml" 205 4377 4401
+type(
+  Cil.exp
+)
+"src/ext/disjoint/analysis.ml" 205 4377 4406 "src/ext/disjoint/analysis.ml" 205 4377 4417
+type(
+  Cil.exp -> Cil.varinfo list
+)
+ident(
+  int_ref findExprVar "src/ext/disjoint/analysis.ml" 198 4209 4217 "src/ext/disjoint/analysis.ml" 198 4209 4228
+)
+"src/ext/disjoint/analysis.ml" 205 4377 4418 "src/ext/disjoint/analysis.ml" 205 4377 4420
+type(
+  Cil.exp
+)
+ident(
+  int_ref e1 "src/ext/disjoint/analysis.ml" 205 4377 4392 "src/ext/disjoint/analysis.ml" 205 4377 4394
+)
+"src/ext/disjoint/analysis.ml" 205 4377 4405 "src/ext/disjoint/analysis.ml" 205 4377 4421
+call(
+  stack
+)
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 205 4377 4422 "src/ext/disjoint/analysis.ml" 205 4377 4423
+type(
+  Cil.varinfo list -> Cil.varinfo list -> Cil.varinfo list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/disjoint/analysis.ml" 205 4377 4425 "src/ext/disjoint/analysis.ml" 205 4377 4436
+type(
+  Cil.exp -> Cil.varinfo list
+)
+ident(
+  int_ref findExprVar "src/ext/disjoint/analysis.ml" 198 4209 4217 "src/ext/disjoint/analysis.ml" 198 4209 4228
+)
+"src/ext/disjoint/analysis.ml" 205 4377 4437 "src/ext/disjoint/analysis.ml" 205 4377 4439
+type(
+  Cil.exp
+)
+ident(
+  int_ref e2 "src/ext/disjoint/analysis.ml" 205 4377 4396 "src/ext/disjoint/analysis.ml" 205 4377 4398
+)
+"src/ext/disjoint/analysis.ml" 205 4377 4424 "src/ext/disjoint/analysis.ml" 205 4377 4440
+call(
+  stack
+)
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 205 4377 4405 "src/ext/disjoint/analysis.ml" 205 4377 4440
+call(
+  tail
+)
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 206 4441 4451 "src/ext/disjoint/analysis.ml" 206 4441 4453
+type(
+  Cil.unop
+)
+ident(
+  def op "src/ext/disjoint/analysis.ml" 206 4441 4462 "src/ext/disjoint/analysis.ml" 206 4441 4475
+)
+"src/ext/disjoint/analysis.ml" 206 4441 4454 "src/ext/disjoint/analysis.ml" 206 4441 4455
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/disjoint/analysis.ml" 206 4441 4462 "src/ext/disjoint/analysis.ml" 206 4441 4475
+)
+"src/ext/disjoint/analysis.ml" 206 4441 4456 "src/ext/disjoint/analysis.ml" 206 4441 4457
+type(
+  Cil.typ
+)
+ident(
+  def t "src/ext/disjoint/analysis.ml" 206 4441 4462 "src/ext/disjoint/analysis.ml" 206 4441 4475
+)
+"src/ext/disjoint/analysis.ml" 206 4441 4446 "src/ext/disjoint/analysis.ml" 206 4441 4458
+type(
+  Cil.exp
+)
+"src/ext/disjoint/analysis.ml" 206 4441 4462 "src/ext/disjoint/analysis.ml" 206 4441 4473
+type(
+  Cil.exp -> Cil.varinfo list
+)
+ident(
+  int_ref findExprVar "src/ext/disjoint/analysis.ml" 198 4209 4217 "src/ext/disjoint/analysis.ml" 198 4209 4228
+)
+"src/ext/disjoint/analysis.ml" 206 4441 4474 "src/ext/disjoint/analysis.ml" 206 4441 4475
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/disjoint/analysis.ml" 206 4441 4454 "src/ext/disjoint/analysis.ml" 206 4441 4455
+)
+"src/ext/disjoint/analysis.ml" 206 4441 4462 "src/ext/disjoint/analysis.ml" 206 4441 4475
+call(
+  tail
+)
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 207 4476 4482 "src/ext/disjoint/analysis.ml" 207 4476 4483
+type(
+  Cil.exp
+)
+"src/ext/disjoint/analysis.ml" 207 4476 4487 "src/ext/disjoint/analysis.ml" 207 4476 4489
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 199 4233 4236 "src/ext/disjoint/analysis.ml" 207 4476 4489
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 209 4491 4495 "src/ext/disjoint/analysis.ml" 209 4491 4502
+type(
+  Cil.instr -> Cil.varinfo list -> (int * string * bool * bool) list
+)
+ident(
+  def contain "src/ext/disjoint/analysis.ml" 237 5225 5225 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 209 4491 4503 "src/ext/disjoint/analysis.ml" 209 4491 4507
+type(
+  Cil.instr
+)
+ident(
+  def inst "src/ext/disjoint/analysis.ml" 209 4491 4508 "src/ext/disjoint/analysis.ml" 233 5187 5221
+)
+"src/ext/disjoint/analysis.ml" 209 4491 4508 "src/ext/disjoint/analysis.ml" 209 4491 4513
+type(
+  Cil.varinfo list
+)
+ident(
+  def vlist "src/ext/disjoint/analysis.ml" 210 4516 4523 "src/ext/disjoint/analysis.ml" 233 5187 5221
+)
+"src/ext/disjoint/analysis.ml" 210 4516 4529 "src/ext/disjoint/analysis.ml" 210 4516 4533
+type(
+  Cil.instr
+)
+ident(
+  int_ref inst "src/ext/disjoint/analysis.ml" 209 4491 4503 "src/ext/disjoint/analysis.ml" 209 4491 4507
+)
+"src/ext/disjoint/analysis.ml" 211 4539 4552 "src/ext/disjoint/analysis.ml" 211 4539 4554
+type(
+  Cil.lval
+)
+ident(
+  def lv "src/ext/disjoint/analysis.ml" 211 4539 4565 "src/ext/disjoint/analysis.ml" 231 5126 5131
+)
+"src/ext/disjoint/analysis.ml" 211 4539 4555 "src/ext/disjoint/analysis.ml" 211 4539 4556
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/disjoint/analysis.ml" 211 4539 4565 "src/ext/disjoint/analysis.ml" 231 5126 5131
+)
+"src/ext/disjoint/analysis.ml" 211 4539 4557 "src/ext/disjoint/analysis.ml" 211 4539 4560
+type(
+  Cil.location
+)
+ident(
+  def loc "src/ext/disjoint/analysis.ml" 211 4539 4565 "src/ext/disjoint/analysis.ml" 231 5126 5131
+)
+"src/ext/disjoint/analysis.ml" 211 4539 4548 "src/ext/disjoint/analysis.ml" 211 4539 4561
+type(
+  Cil.instr
+)
+"src/ext/disjoint/analysis.ml" 213 4617 4629 "src/ext/disjoint/analysis.ml" 213 4617 4631
+type(
+  Cil.lval
+)
+ident(
+  int_ref lv "src/ext/disjoint/analysis.ml" 211 4539 4552 "src/ext/disjoint/analysis.ml" 211 4539 4554
+)
+"src/ext/disjoint/analysis.ml" 214 4637 4652 "src/ext/disjoint/analysis.ml" 214 4637 4654
+type(
+  Cil.lhost
+)
+ident(
+  def lh "src/ext/disjoint/analysis.ml" 214 4637 4663 "src/ext/disjoint/analysis.ml" 229 5111 5120
+)
+"src/ext/disjoint/analysis.ml" 214 4637 4655 "src/ext/disjoint/analysis.ml" 214 4637 4658
+type(
+  Cil.offset
+)
+ident(
+  def off "src/ext/disjoint/analysis.ml" 214 4637 4663 "src/ext/disjoint/analysis.ml" 229 5111 5120
+)
+"src/ext/disjoint/analysis.ml" 214 4637 4651 "src/ext/disjoint/analysis.ml" 214 4637 4659
+type(
+  Cil.lval
+)
+"src/ext/disjoint/analysis.ml" 215 4669 4686 "src/ext/disjoint/analysis.ml" 215 4669 4688
+type(
+  Cil.lhost
+)
+ident(
+  int_ref lh "src/ext/disjoint/analysis.ml" 214 4637 4652 "src/ext/disjoint/analysis.ml" 214 4637 4654
+)
+"src/ext/disjoint/analysis.ml" 216 4694 4709 "src/ext/disjoint/analysis.ml" 216 4694 4711
+ident(
+  def vi "src/ext/disjoint/analysis.ml" 216 4694 4717 "src/ext/disjoint/analysis.ml" 228 5104 5110
+)
+"src/ext/disjoint/analysis.ml" 216 4694 4708 "src/ext/disjoint/analysis.ml" 216 4694 4712
+type(
+  Cil.varinfo
+)
+"src/ext/disjoint/analysis.ml" 216 4694 4705 "src/ext/disjoint/analysis.ml" 216 4694 4712
+type(
+  Cil.lhost
+)
+"src/ext/disjoint/analysis.ml" 216 4694 4727 "src/ext/disjoint/analysis.ml" 216 4694 4731
+type(
+  Cil.varinfo list -> Cil.varinfo -> bool
+)
+ident(
+  int_ref isin "src/ext/disjoint/analysis.ml" 182 3828 3836 "src/ext/disjoint/analysis.ml" 182 3828 3840
+)
+"src/ext/disjoint/analysis.ml" 216 4694 4732 "src/ext/disjoint/analysis.ml" 216 4694 4737
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref vlist "src/ext/disjoint/analysis.ml" 209 4491 4508 "src/ext/disjoint/analysis.ml" 209 4491 4513
+)
+"src/ext/disjoint/analysis.ml" 216 4694 4738 "src/ext/disjoint/analysis.ml" 216 4694 4740
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/disjoint/analysis.ml" 216 4694 4708 "src/ext/disjoint/analysis.ml" 216 4694 4712
+)
+"src/ext/disjoint/analysis.ml" 216 4694 4726 "src/ext/disjoint/analysis.ml" 216 4694 4741
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 219 4803 4812 "src/ext/disjoint/analysis.ml" 219 4803 4818
+type(
+  Cil.varinfo list
+)
+ident(
+  def e_uses "src/ext/disjoint/analysis.ml" 220 4845 4850 "src/ext/disjoint/analysis.ml" 221 4886 4949
+)
+"src/ext/disjoint/analysis.ml" 219 4803 4822 "src/ext/disjoint/analysis.ml" 219 4803 4832
+type(
+  Cil.varinfo list -> Cil.exp -> Cil.varinfo list
+)
+ident(
+  int_ref findFunVar "src/ext/disjoint/analysis.ml" 188 3931 3939 "src/ext/disjoint/analysis.ml" 188 3931 3949
+)
+"src/ext/disjoint/analysis.ml" 219 4803 4833 "src/ext/disjoint/analysis.ml" 219 4803 4838
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref vlist "src/ext/disjoint/analysis.ml" 209 4491 4508 "src/ext/disjoint/analysis.ml" 209 4491 4513
+)
+"src/ext/disjoint/analysis.ml" 219 4803 4839 "src/ext/disjoint/analysis.ml" 219 4803 4840
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/disjoint/analysis.ml" 211 4539 4555 "src/ext/disjoint/analysis.ml" 211 4539 4556
+)
+"src/ext/disjoint/analysis.ml" 219 4803 4821 "src/ext/disjoint/analysis.ml" 219 4803 4841
+call(
+  stack
+)
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 220 4845 4852 "src/ext/disjoint/analysis.ml" 220 4845 4855
+type(
+  Cil.location
+)
+ident(
+  int_ref loc "src/ext/disjoint/analysis.ml" 211 4539 4557 "src/ext/disjoint/analysis.ml" 211 4539 4560
+)
+"src/ext/disjoint/analysis.ml" 220 4845 4852 "src/ext/disjoint/analysis.ml" 220 4845 4860
+type(
+  int
+)
+"src/ext/disjoint/analysis.ml" 220 4845 4861 "src/ext/disjoint/analysis.ml" 220 4845 4863
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref vi "src/ext/disjoint/analysis.ml" 216 4694 4708 "src/ext/disjoint/analysis.ml" 216 4694 4712
+)
+"src/ext/disjoint/analysis.ml" 220 4845 4861 "src/ext/disjoint/analysis.ml" 220 4845 4869
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 220 4845 4870 "src/ext/disjoint/analysis.ml" 220 4845 4874
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 220 4845 4875 "src/ext/disjoint/analysis.ml" 220 4845 4880
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 220 4845 4851 "src/ext/disjoint/analysis.ml" 220 4845 4881
+type(
+  int * string * bool * bool
+)
+"src/ext/disjoint/analysis.ml" 220 4845 4850 "src/ext/disjoint/analysis.ml" 220 4845 4882
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 220 4845 4883 "src/ext/disjoint/analysis.ml" 220 4845 4884
+type(
+  (int * string * bool * bool) list ->
+  (int * string * bool * bool) list -> (int * string * bool * bool) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/disjoint/analysis.ml" 221 4886 4892 "src/ext/disjoint/analysis.ml" 221 4886 4900
+type(
+  (Cil.varinfo -> int * string * bool * bool) ->
+  Cil.varinfo list -> (int * string * bool * bool) list
+)
+ident(
+  ext_ref List.map
+)
+"src/ext/disjoint/analysis.ml" 221 4886 4906 "src/ext/disjoint/analysis.ml" 221 4886 4907
+type(
+  Cil.varinfo
+)
+ident(
+  def x "src/ext/disjoint/analysis.ml" 221 4886 4911 "src/ext/disjoint/analysis.ml" 221 4886 4940
+)
+"src/ext/disjoint/analysis.ml" 221 4886 4912 "src/ext/disjoint/analysis.ml" 221 4886 4915
+type(
+  Cil.location
+)
+ident(
+  int_ref loc "src/ext/disjoint/analysis.ml" 211 4539 4557 "src/ext/disjoint/analysis.ml" 211 4539 4560
+)
+"src/ext/disjoint/analysis.ml" 221 4886 4912 "src/ext/disjoint/analysis.ml" 221 4886 4920
+type(
+  int
+)
+"src/ext/disjoint/analysis.ml" 221 4886 4921 "src/ext/disjoint/analysis.ml" 221 4886 4922
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref x "src/ext/disjoint/analysis.ml" 221 4886 4906 "src/ext/disjoint/analysis.ml" 221 4886 4907
+)
+"src/ext/disjoint/analysis.ml" 221 4886 4921 "src/ext/disjoint/analysis.ml" 221 4886 4928
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 221 4886 4929 "src/ext/disjoint/analysis.ml" 221 4886 4934
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 221 4886 4935 "src/ext/disjoint/analysis.ml" 221 4886 4939
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 221 4886 4911 "src/ext/disjoint/analysis.ml" 221 4886 4940
+type(
+  int * string * bool * bool
+)
+"src/ext/disjoint/analysis.ml" 221 4886 4901 "src/ext/disjoint/analysis.ml" 221 4886 4941
+type(
+  Cil.varinfo -> int * string * bool * bool
+)
+"src/ext/disjoint/analysis.ml" 221 4886 4942 "src/ext/disjoint/analysis.ml" 221 4886 4948
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref e_uses "src/ext/disjoint/analysis.ml" 219 4803 4812 "src/ext/disjoint/analysis.ml" 219 4803 4818
+)
+"src/ext/disjoint/analysis.ml" 221 4886 4891 "src/ext/disjoint/analysis.ml" 221 4886 4949
+call(
+  stack
+)
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 220 4845 4850 "src/ext/disjoint/analysis.ml" 221 4886 4949
+call(
+  tail
+)
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 217 4748 4753 "src/ext/disjoint/analysis.ml" 222 4951 4959
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 225 4982 4992 "src/ext/disjoint/analysis.ml" 225 4982 4998
+type(
+  Cil.varinfo list
+)
+ident(
+  def e_uses "src/ext/disjoint/analysis.ml" 226 5025 5030 "src/ext/disjoint/analysis.ml" 226 5025 5093
+)
+"src/ext/disjoint/analysis.ml" 225 4982 5002 "src/ext/disjoint/analysis.ml" 225 4982 5012
+type(
+  Cil.varinfo list -> Cil.exp -> Cil.varinfo list
+)
+ident(
+  int_ref findFunVar "src/ext/disjoint/analysis.ml" 188 3931 3939 "src/ext/disjoint/analysis.ml" 188 3931 3949
+)
+"src/ext/disjoint/analysis.ml" 225 4982 5013 "src/ext/disjoint/analysis.ml" 225 4982 5018
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref vlist "src/ext/disjoint/analysis.ml" 209 4491 4508 "src/ext/disjoint/analysis.ml" 209 4491 4513
+)
+"src/ext/disjoint/analysis.ml" 225 4982 5019 "src/ext/disjoint/analysis.ml" 225 4982 5020
+type(
+  Cil.exp
+)
+ident(
+  int_ref e "src/ext/disjoint/analysis.ml" 211 4539 4555 "src/ext/disjoint/analysis.ml" 211 4539 4556
+)
+"src/ext/disjoint/analysis.ml" 225 4982 5001 "src/ext/disjoint/analysis.ml" 225 4982 5021
+call(
+  stack
+)
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 226 5025 5030 "src/ext/disjoint/analysis.ml" 226 5025 5032
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 226 5025 5033 "src/ext/disjoint/analysis.ml" 226 5025 5034
+type(
+  (int * string * bool * bool) list ->
+  (int * string * bool * bool) list -> (int * string * bool * bool) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/disjoint/analysis.ml" 226 5025 5036 "src/ext/disjoint/analysis.ml" 226 5025 5044
+type(
+  (Cil.varinfo -> int * string * bool * bool) ->
+  Cil.varinfo list -> (int * string * bool * bool) list
+)
+ident(
+  ext_ref List.map
+)
+"src/ext/disjoint/analysis.ml" 226 5025 5050 "src/ext/disjoint/analysis.ml" 226 5025 5051
+type(
+  Cil.varinfo
+)
+ident(
+  def x "src/ext/disjoint/analysis.ml" 226 5025 5055 "src/ext/disjoint/analysis.ml" 226 5025 5084
+)
+"src/ext/disjoint/analysis.ml" 226 5025 5056 "src/ext/disjoint/analysis.ml" 226 5025 5059
+type(
+  Cil.location
+)
+ident(
+  int_ref loc "src/ext/disjoint/analysis.ml" 211 4539 4557 "src/ext/disjoint/analysis.ml" 211 4539 4560
+)
+"src/ext/disjoint/analysis.ml" 226 5025 5056 "src/ext/disjoint/analysis.ml" 226 5025 5064
+type(
+  int
+)
+"src/ext/disjoint/analysis.ml" 226 5025 5065 "src/ext/disjoint/analysis.ml" 226 5025 5066
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref x "src/ext/disjoint/analysis.ml" 226 5025 5050 "src/ext/disjoint/analysis.ml" 226 5025 5051
+)
+"src/ext/disjoint/analysis.ml" 226 5025 5065 "src/ext/disjoint/analysis.ml" 226 5025 5072
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 226 5025 5073 "src/ext/disjoint/analysis.ml" 226 5025 5078
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 226 5025 5079 "src/ext/disjoint/analysis.ml" 226 5025 5083
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 226 5025 5055 "src/ext/disjoint/analysis.ml" 226 5025 5084
+type(
+  int * string * bool * bool
+)
+"src/ext/disjoint/analysis.ml" 226 5025 5045 "src/ext/disjoint/analysis.ml" 226 5025 5085
+type(
+  Cil.varinfo -> int * string * bool * bool
+)
+"src/ext/disjoint/analysis.ml" 226 5025 5086 "src/ext/disjoint/analysis.ml" 226 5025 5092
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref e_uses "src/ext/disjoint/analysis.ml" 225 4982 4992 "src/ext/disjoint/analysis.ml" 225 4982 4998
+)
+"src/ext/disjoint/analysis.ml" 226 5025 5035 "src/ext/disjoint/analysis.ml" 226 5025 5093
+call(
+  stack
+)
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 226 5025 5030 "src/ext/disjoint/analysis.ml" 226 5025 5093
+call(
+  tail
+)
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 224 4971 4976 "src/ext/disjoint/analysis.ml" 227 5095 5103
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 216 4694 4717 "src/ext/disjoint/analysis.ml" 228 5104 5110
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 214 4637 4663 "src/ext/disjoint/analysis.ml" 229 5111 5120
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 211 4539 4565 "src/ext/disjoint/analysis.ml" 231 5126 5131
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 232 5132 5139 "src/ext/disjoint/analysis.ml" 232 5132 5141
+type(
+  Cil.lval option
+)
+ident(
+  def lv "src/ext/disjoint/analysis.ml" 232 5132 5155 "src/ext/disjoint/analysis.ml" 232 5132 5186
+)
+"src/ext/disjoint/analysis.ml" 232 5132 5142 "src/ext/disjoint/analysis.ml" 232 5132 5143
+type(
+  Cil.exp
+)
+ident(
+  def e "src/ext/disjoint/analysis.ml" 232 5132 5155 "src/ext/disjoint/analysis.ml" 232 5132 5186
+)
+"src/ext/disjoint/analysis.ml" 232 5132 5144 "src/ext/disjoint/analysis.ml" 232 5132 5146
+type(
+  Cil.exp list
+)
+ident(
+  def el "src/ext/disjoint/analysis.ml" 232 5132 5155 "src/ext/disjoint/analysis.ml" 232 5132 5186
+)
+"src/ext/disjoint/analysis.ml" 232 5132 5147 "src/ext/disjoint/analysis.ml" 232 5132 5150
+type(
+  Cil.location
+)
+ident(
+  def loc "src/ext/disjoint/analysis.ml" 232 5132 5155 "src/ext/disjoint/analysis.ml" 232 5132 5186
+)
+"src/ext/disjoint/analysis.ml" 232 5132 5134 "src/ext/disjoint/analysis.ml" 232 5132 5151
+type(
+  Cil.instr
+)
+"src/ext/disjoint/analysis.ml" 232 5132 5155 "src/ext/disjoint/analysis.ml" 232 5132 5160
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/disjoint/analysis.ml" 232 5132 5161 "src/ext/disjoint/analysis.ml" 232 5132 5183
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/disjoint/analysis.ml" 232 5132 5155 "src/ext/disjoint/analysis.ml" 232 5132 5183
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 232 5132 5184 "src/ext/disjoint/analysis.ml" 232 5132 5186
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 232 5132 5155 "src/ext/disjoint/analysis.ml" 232 5132 5186
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 233 5187 5190 "src/ext/disjoint/analysis.ml" 233 5187 5191
+type(
+  Cil.instr
+)
+"src/ext/disjoint/analysis.ml" 233 5187 5195 "src/ext/disjoint/analysis.ml" 233 5187 5200
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/disjoint/analysis.ml" 233 5187 5201 "src/ext/disjoint/analysis.ml" 233 5187 5217
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/disjoint/analysis.ml" 233 5187 5195 "src/ext/disjoint/analysis.ml" 233 5187 5217
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 233 5187 5219 "src/ext/disjoint/analysis.ml" 233 5187 5221
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 233 5187 5195 "src/ext/disjoint/analysis.ml" 233 5187 5221
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 210 4516 4523 "src/ext/disjoint/analysis.ml" 233 5187 5221
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 237 5225 5233 "src/ext/disjoint/analysis.ml" 237 5225 5247
+type(
+  Cil.stmt -> Cil.varinfo list -> (int * string * bool * bool) list list
+)
+ident(
+  def isPresent_stmt "src/ext/disjoint/analysis.ml" 237 5225 5225 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 237 5225 5248 "src/ext/disjoint/analysis.ml" 237 5225 5252
+type(
+  Cil.stmt
+)
+ident(
+  def stmt "src/ext/disjoint/analysis.ml" 237 5225 5253 "src/ext/disjoint/analysis.ml" 245 5650 5690
+)
+"src/ext/disjoint/analysis.ml" 237 5225 5253 "src/ext/disjoint/analysis.ml" 237 5225 5258
+type(
+  Cil.varinfo list
+)
+ident(
+  def vlist "src/ext/disjoint/analysis.ml" 238 5261 5263 "src/ext/disjoint/analysis.ml" 245 5650 5690
+)
+"src/ext/disjoint/analysis.ml" 238 5261 5269 "src/ext/disjoint/analysis.ml" 238 5261 5273
+type(
+  Cil.stmt
+)
+ident(
+  int_ref stmt "src/ext/disjoint/analysis.ml" 237 5225 5248 "src/ext/disjoint/analysis.ml" 237 5225 5252
+)
+"src/ext/disjoint/analysis.ml" 238 5261 5269 "src/ext/disjoint/analysis.ml" 238 5261 5279
+type(
+  Cil.stmtkind
+)
+"src/ext/disjoint/analysis.ml" 239 5285 5300 "src/ext/disjoint/analysis.ml" 239 5285 5304
+ident(
+  def ilst "src/ext/disjoint/analysis.ml" 239 5285 5309 "src/ext/disjoint/analysis.ml" 239 5285 5349
+)
+"src/ext/disjoint/analysis.ml" 239 5285 5299 "src/ext/disjoint/analysis.ml" 239 5285 5305
+type(
+  Cil.instr list
+)
+"src/ext/disjoint/analysis.ml" 239 5285 5294 "src/ext/disjoint/analysis.ml" 239 5285 5305
+type(
+  Cil.stmtkind
+)
+"src/ext/disjoint/analysis.ml" 239 5285 5309 "src/ext/disjoint/analysis.ml" 239 5285 5317
+type(
+  (Cil.instr -> (int * string * bool * bool) list) ->
+  Cil.instr list -> (int * string * bool * bool) list list
+)
+ident(
+  ext_ref List.map
+)
+"src/ext/disjoint/analysis.ml" 239 5285 5323 "src/ext/disjoint/analysis.ml" 239 5285 5324
+type(
+  Cil.instr
+)
+ident(
+  def x "src/ext/disjoint/analysis.ml" 239 5285 5328 "src/ext/disjoint/analysis.ml" 239 5285 5343
+)
+"src/ext/disjoint/analysis.ml" 239 5285 5328 "src/ext/disjoint/analysis.ml" 239 5285 5335
+type(
+  Cil.instr -> Cil.varinfo list -> (int * string * bool * bool) list
+)
+ident(
+  int_ref contain "src/ext/disjoint/analysis.ml" 209 4491 4495 "src/ext/disjoint/analysis.ml" 209 4491 4502
+)
+"src/ext/disjoint/analysis.ml" 239 5285 5336 "src/ext/disjoint/analysis.ml" 239 5285 5337
+type(
+  Cil.instr
+)
+ident(
+  int_ref x "src/ext/disjoint/analysis.ml" 239 5285 5323 "src/ext/disjoint/analysis.ml" 239 5285 5324
+)
+"src/ext/disjoint/analysis.ml" 239 5285 5338 "src/ext/disjoint/analysis.ml" 239 5285 5343
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref vlist "src/ext/disjoint/analysis.ml" 237 5225 5253 "src/ext/disjoint/analysis.ml" 237 5225 5258
+)
+"src/ext/disjoint/analysis.ml" 239 5285 5328 "src/ext/disjoint/analysis.ml" 239 5285 5343
+call(
+  tail
+)
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 239 5285 5318 "src/ext/disjoint/analysis.ml" 239 5285 5344
+type(
+  Cil.instr -> (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 239 5285 5345 "src/ext/disjoint/analysis.ml" 239 5285 5349
+type(
+  Cil.instr list
+)
+ident(
+  int_ref ilst "src/ext/disjoint/analysis.ml" 239 5285 5299 "src/ext/disjoint/analysis.ml" 239 5285 5305
+)
+"src/ext/disjoint/analysis.ml" 239 5285 5309 "src/ext/disjoint/analysis.ml" 239 5285 5349
+call(
+  tail
+)
+type(
+  (int * string * bool * bool) list list
+)
+"src/ext/disjoint/analysis.ml" 240 5350 5362 "src/ext/disjoint/analysis.ml" 240 5350 5365
+type(
+  Cil.exp
+)
+ident(
+  def exp "src/ext/disjoint/analysis.ml" 240 5350 5384 "src/ext/disjoint/analysis.ml" 243 5640 5647
+)
+"src/ext/disjoint/analysis.ml" 240 5350 5366 "src/ext/disjoint/analysis.ml" 240 5350 5370
+type(
+  Cil.block
+)
+ident(
+  def blk1 "src/ext/disjoint/analysis.ml" 240 5350 5384 "src/ext/disjoint/analysis.ml" 243 5640 5647
+)
+"src/ext/disjoint/analysis.ml" 240 5350 5371 "src/ext/disjoint/analysis.ml" 240 5350 5375
+type(
+  Cil.block
+)
+ident(
+  def blk2 "src/ext/disjoint/analysis.ml" 240 5350 5384 "src/ext/disjoint/analysis.ml" 243 5640 5647
+)
+"src/ext/disjoint/analysis.ml" 240 5350 5376 "src/ext/disjoint/analysis.ml" 240 5350 5379
+type(
+  Cil.location
+)
+ident(
+  def loc "src/ext/disjoint/analysis.ml" 240 5350 5384 "src/ext/disjoint/analysis.ml" 243 5640 5647
+)
+"src/ext/disjoint/analysis.ml" 240 5350 5359 "src/ext/disjoint/analysis.ml" 240 5350 5380
+type(
+  Cil.stmtkind
+)
+"src/ext/disjoint/analysis.ml" 241 5391 5399 "src/ext/disjoint/analysis.ml" 241 5391 5405
+type(
+  Cil.varinfo list
+)
+ident(
+  def e_uses "src/ext/disjoint/analysis.ml" 242 5427 5431 "src/ext/disjoint/analysis.ml" 242 5427 5639
+)
+"src/ext/disjoint/analysis.ml" 241 5391 5408 "src/ext/disjoint/analysis.ml" 241 5391 5419
+type(
+  Cil.exp -> Cil.varinfo list
+)
+ident(
+  int_ref findExprVar "src/ext/disjoint/analysis.ml" 198 4209 4217 "src/ext/disjoint/analysis.ml" 198 4209 4228
+)
+"src/ext/disjoint/analysis.ml" 241 5391 5420 "src/ext/disjoint/analysis.ml" 241 5391 5423
+type(
+  Cil.exp
+)
+ident(
+  int_ref exp "src/ext/disjoint/analysis.ml" 240 5350 5362 "src/ext/disjoint/analysis.ml" 240 5350 5365
+)
+"src/ext/disjoint/analysis.ml" 241 5391 5408 "src/ext/disjoint/analysis.ml" 241 5391 5423
+call(
+  stack
+)
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5433 "src/ext/disjoint/analysis.ml" 242 5427 5441
+type(
+  (Cil.varinfo -> int * string * bool * bool) ->
+  Cil.varinfo list -> (int * string * bool * bool) list
+)
+ident(
+  ext_ref List.map
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5447 "src/ext/disjoint/analysis.ml" 242 5427 5448
+type(
+  Cil.varinfo
+)
+ident(
+  def y "src/ext/disjoint/analysis.ml" 242 5427 5452 "src/ext/disjoint/analysis.ml" 242 5427 5481
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5453 "src/ext/disjoint/analysis.ml" 242 5427 5456
+type(
+  Cil.location
+)
+ident(
+  int_ref loc "src/ext/disjoint/analysis.ml" 240 5350 5376 "src/ext/disjoint/analysis.ml" 240 5350 5379
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5453 "src/ext/disjoint/analysis.ml" 242 5427 5461
+type(
+  int
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5462 "src/ext/disjoint/analysis.ml" 242 5427 5463
+type(
+  Cil.varinfo
+)
+ident(
+  int_ref y "src/ext/disjoint/analysis.ml" 242 5427 5447 "src/ext/disjoint/analysis.ml" 242 5427 5448
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5462 "src/ext/disjoint/analysis.ml" 242 5427 5469
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5470 "src/ext/disjoint/analysis.ml" 242 5427 5475
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5476 "src/ext/disjoint/analysis.ml" 242 5427 5480
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5452 "src/ext/disjoint/analysis.ml" 242 5427 5481
+type(
+  int * string * bool * bool
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5442 "src/ext/disjoint/analysis.ml" 242 5427 5482
+type(
+  Cil.varinfo -> int * string * bool * bool
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5483 "src/ext/disjoint/analysis.ml" 242 5427 5489
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref e_uses "src/ext/disjoint/analysis.ml" 241 5391 5399 "src/ext/disjoint/analysis.ml" 241 5391 5405
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5432 "src/ext/disjoint/analysis.ml" 242 5427 5490
+call(
+  stack
+)
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5431 "src/ext/disjoint/analysis.ml" 242 5427 5491
+type(
+  (int * string * bool * bool) list list
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5492 "src/ext/disjoint/analysis.ml" 242 5427 5493
+type(
+  (int * string * bool * bool) list list ->
+  (int * string * bool * bool) list list ->
+  (int * string * bool * bool) list list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5497 "src/ext/disjoint/analysis.ml" 242 5427 5509
+type(
+  (int * string * bool * bool) list list list ->
+  (int * string * bool * bool) list list
+)
+ident(
+  ext_ref List.flatten
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5510 "src/ext/disjoint/analysis.ml" 242 5427 5518
+type(
+  (Cil.stmt -> (int * string * bool * bool) list list) ->
+  Cil.stmt list -> (int * string * bool * bool) list list list
+)
+ident(
+  ext_ref List.map
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5524 "src/ext/disjoint/analysis.ml" 242 5427 5525
+type(
+  Cil.stmt
+)
+ident(
+  def z "src/ext/disjoint/analysis.ml" 242 5427 5529 "src/ext/disjoint/analysis.ml" 242 5427 5553
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5530 "src/ext/disjoint/analysis.ml" 242 5427 5544
+type(
+  Cil.stmt -> Cil.varinfo list -> (int * string * bool * bool) list list
+)
+ident(
+  int_ref isPresent_stmt "src/ext/disjoint/analysis.ml" 237 5225 5233 "src/ext/disjoint/analysis.ml" 237 5225 5247
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5545 "src/ext/disjoint/analysis.ml" 242 5427 5546
+type(
+  Cil.stmt
+)
+ident(
+  int_ref z "src/ext/disjoint/analysis.ml" 242 5427 5524 "src/ext/disjoint/analysis.ml" 242 5427 5525
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5547 "src/ext/disjoint/analysis.ml" 242 5427 5552
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref vlist "src/ext/disjoint/analysis.ml" 237 5225 5253 "src/ext/disjoint/analysis.ml" 237 5225 5258
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5529 "src/ext/disjoint/analysis.ml" 242 5427 5553
+call(
+  tail
+)
+type(
+  (int * string * bool * bool) list list
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5519 "src/ext/disjoint/analysis.ml" 242 5427 5554
+type(
+  Cil.stmt -> (int * string * bool * bool) list list
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5555 "src/ext/disjoint/analysis.ml" 242 5427 5559
+type(
+  Cil.block
+)
+ident(
+  int_ref blk1 "src/ext/disjoint/analysis.ml" 240 5350 5366 "src/ext/disjoint/analysis.ml" 240 5350 5370
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5555 "src/ext/disjoint/analysis.ml" 242 5427 5566
+type(
+  Cil.stmt list
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5509 "src/ext/disjoint/analysis.ml" 242 5427 5567
+call(
+  stack
+)
+type(
+  (int * string * bool * bool) list list list
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5497 "src/ext/disjoint/analysis.ml" 242 5427 5567
+call(
+  stack
+)
+type(
+  (int * string * bool * bool) list list
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5567 "src/ext/disjoint/analysis.ml" 242 5427 5568
+type(
+  (int * string * bool * bool) list list ->
+  (int * string * bool * bool) list list ->
+  (int * string * bool * bool) list list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5569 "src/ext/disjoint/analysis.ml" 242 5427 5581
+type(
+  (int * string * bool * bool) list list list ->
+  (int * string * bool * bool) list list
+)
+ident(
+  ext_ref List.flatten
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5582 "src/ext/disjoint/analysis.ml" 242 5427 5590
+type(
+  (Cil.stmt -> (int * string * bool * bool) list list) ->
+  Cil.stmt list -> (int * string * bool * bool) list list list
+)
+ident(
+  ext_ref List.map
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5596 "src/ext/disjoint/analysis.ml" 242 5427 5597
+type(
+  Cil.stmt
+)
+ident(
+  def z "src/ext/disjoint/analysis.ml" 242 5427 5601 "src/ext/disjoint/analysis.ml" 242 5427 5625
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5602 "src/ext/disjoint/analysis.ml" 242 5427 5616
+type(
+  Cil.stmt -> Cil.varinfo list -> (int * string * bool * bool) list list
+)
+ident(
+  int_ref isPresent_stmt "src/ext/disjoint/analysis.ml" 237 5225 5233 "src/ext/disjoint/analysis.ml" 237 5225 5247
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5617 "src/ext/disjoint/analysis.ml" 242 5427 5618
+type(
+  Cil.stmt
+)
+ident(
+  int_ref z "src/ext/disjoint/analysis.ml" 242 5427 5596 "src/ext/disjoint/analysis.ml" 242 5427 5597
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5619 "src/ext/disjoint/analysis.ml" 242 5427 5624
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref vlist "src/ext/disjoint/analysis.ml" 237 5225 5253 "src/ext/disjoint/analysis.ml" 237 5225 5258
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5601 "src/ext/disjoint/analysis.ml" 242 5427 5625
+call(
+  tail
+)
+type(
+  (int * string * bool * bool) list list
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5591 "src/ext/disjoint/analysis.ml" 242 5427 5626
+type(
+  Cil.stmt -> (int * string * bool * bool) list list
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5627 "src/ext/disjoint/analysis.ml" 242 5427 5631
+type(
+  Cil.block
+)
+ident(
+  int_ref blk2 "src/ext/disjoint/analysis.ml" 240 5350 5371 "src/ext/disjoint/analysis.ml" 240 5350 5375
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5627 "src/ext/disjoint/analysis.ml" 242 5427 5638
+type(
+  Cil.stmt list
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5581 "src/ext/disjoint/analysis.ml" 242 5427 5639
+call(
+  stack
+)
+type(
+  (int * string * bool * bool) list list list
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5569 "src/ext/disjoint/analysis.ml" 242 5427 5639
+call(
+  stack
+)
+type(
+  (int * string * bool * bool) list list
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5497 "src/ext/disjoint/analysis.ml" 242 5427 5639
+call(
+  stack
+)
+type(
+  (int * string * bool * bool) list list
+)
+"src/ext/disjoint/analysis.ml" 242 5427 5431 "src/ext/disjoint/analysis.ml" 242 5427 5639
+call(
+  tail
+)
+type(
+  (int * string * bool * bool) list list
+)
+"src/ext/disjoint/analysis.ml" 240 5350 5384 "src/ext/disjoint/analysis.ml" 243 5640 5647
+type(
+  (int * string * bool * bool) list list
+)
+"src/ext/disjoint/analysis.ml" 245 5650 5654 "src/ext/disjoint/analysis.ml" 245 5650 5655
+type(
+  Cil.stmtkind
+)
+"src/ext/disjoint/analysis.ml" 245 5650 5688 "src/ext/disjoint/analysis.ml" 245 5650 5690
+type(
+  (int * string * bool * bool) list list
+)
+"src/ext/disjoint/analysis.ml" 238 5261 5263 "src/ext/disjoint/analysis.ml" 245 5650 5690
+type(
+  (int * string * bool * bool) list list
+)
+"src/ext/disjoint/analysis.ml" 247 5692 5696 "src/ext/disjoint/analysis.ml" 247 5692 5705
+type(
+  Cil.varinfo list ->
+  Cil.fundec -> (int * string * bool * bool) list list list
+)
+ident(
+  def findstmts "src/ext/disjoint/analysis.ml" 251 5861 5861 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 247 5692 5706 "src/ext/disjoint/analysis.ml" 247 5692 5711
+type(
+  Cil.varinfo list
+)
+ident(
+  def vlist "src/ext/disjoint/analysis.ml" 247 5692 5712 "src/ext/disjoint/analysis.ml" 249 5797 5859
+)
+"src/ext/disjoint/analysis.ml" 247 5692 5712 "src/ext/disjoint/analysis.ml" 247 5692 5714
+type(
+  Cil.fundec
+)
+ident(
+  def fd "src/ext/disjoint/analysis.ml" 249 5797 5799 "src/ext/disjoint/analysis.ml" 249 5797 5859
+)
+"src/ext/disjoint/analysis.ml" 249 5797 5799 "src/ext/disjoint/analysis.ml" 249 5797 5807
+type(
+  (Cil.stmt -> (int * string * bool * bool) list list) ->
+  Cil.stmt list -> (int * string * bool * bool) list list list
+)
+ident(
+  ext_ref List.map
+)
+"src/ext/disjoint/analysis.ml" 249 5797 5813 "src/ext/disjoint/analysis.ml" 249 5797 5814
+type(
+  Cil.stmt
+)
+ident(
+  def x "src/ext/disjoint/analysis.ml" 249 5797 5818 "src/ext/disjoint/analysis.ml" 249 5797 5842
+)
+"src/ext/disjoint/analysis.ml" 249 5797 5819 "src/ext/disjoint/analysis.ml" 249 5797 5833
+type(
+  Cil.stmt -> Cil.varinfo list -> (int * string * bool * bool) list list
+)
+ident(
+  int_ref isPresent_stmt "src/ext/disjoint/analysis.ml" 237 5225 5233 "src/ext/disjoint/analysis.ml" 237 5225 5247
+)
+"src/ext/disjoint/analysis.ml" 249 5797 5834 "src/ext/disjoint/analysis.ml" 249 5797 5835
+type(
+  Cil.stmt
+)
+ident(
+  int_ref x "src/ext/disjoint/analysis.ml" 249 5797 5813 "src/ext/disjoint/analysis.ml" 249 5797 5814
+)
+"src/ext/disjoint/analysis.ml" 249 5797 5836 "src/ext/disjoint/analysis.ml" 249 5797 5841
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref vlist "src/ext/disjoint/analysis.ml" 247 5692 5706 "src/ext/disjoint/analysis.ml" 247 5692 5711
+)
+"src/ext/disjoint/analysis.ml" 249 5797 5818 "src/ext/disjoint/analysis.ml" 249 5797 5842
+call(
+  tail
+)
+type(
+  (int * string * bool * bool) list list
+)
+"src/ext/disjoint/analysis.ml" 249 5797 5808 "src/ext/disjoint/analysis.ml" 249 5797 5843
+type(
+  Cil.stmt -> (int * string * bool * bool) list list
+)
+"src/ext/disjoint/analysis.ml" 249 5797 5844 "src/ext/disjoint/analysis.ml" 249 5797 5846
+type(
+  Cil.fundec
+)
+ident(
+  int_ref fd "src/ext/disjoint/analysis.ml" 247 5692 5712 "src/ext/disjoint/analysis.ml" 247 5692 5714
+)
+"src/ext/disjoint/analysis.ml" 249 5797 5844 "src/ext/disjoint/analysis.ml" 249 5797 5852
+type(
+  Cil.block
+)
+"src/ext/disjoint/analysis.ml" 249 5797 5844 "src/ext/disjoint/analysis.ml" 249 5797 5859
+type(
+  Cil.stmt list
+)
+"src/ext/disjoint/analysis.ml" 249 5797 5799 "src/ext/disjoint/analysis.ml" 249 5797 5859
+call(
+  tail
+)
+type(
+  (int * string * bool * bool) list list list
+)
+"src/ext/disjoint/analysis.ml" 251 5861 5869 "src/ext/disjoint/analysis.ml" 251 5861 5874
+type(
+  string -> Cil.fundec list -> unit
+)
+ident(
+  def getFd "src/ext/disjoint/analysis.ml" 251 5861 5861 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 251 5861 5875 "src/ext/disjoint/analysis.ml" 251 5861 5880
+type(
+  string
+)
+ident(
+  def fname "src/ext/disjoint/analysis.ml" 251 5861 5881 "src/ext/disjoint/analysis.ml" 255 5998 6025
+)
+"src/ext/disjoint/analysis.ml" 251 5861 5881 "src/ext/disjoint/analysis.ml" 251 5861 5883
+type(
+  Cil.fundec list
+)
+ident(
+  def fl "src/ext/disjoint/analysis.ml" 252 5886 5888 "src/ext/disjoint/analysis.ml" 255 5998 6025
+)
+"src/ext/disjoint/analysis.ml" 252 5886 5894 "src/ext/disjoint/analysis.ml" 252 5886 5896
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fl "src/ext/disjoint/analysis.ml" 251 5861 5881 "src/ext/disjoint/analysis.ml" 251 5861 5883
+)
+"src/ext/disjoint/analysis.ml" 253 5902 5904 "src/ext/disjoint/analysis.ml" 253 5902 5906
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 253 5902 5910 "src/ext/disjoint/analysis.ml" 253 5902 5915
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/disjoint/analysis.ml" 253 5902 5916 "src/ext/disjoint/analysis.ml" 253 5902 5953
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/disjoint/analysis.ml" 253 5902 5954 "src/ext/disjoint/analysis.ml" 253 5902 5959
+type(
+  string
+)
+ident(
+  int_ref fname "src/ext/disjoint/analysis.ml" 251 5861 5875 "src/ext/disjoint/analysis.ml" 251 5861 5880
+)
+"src/ext/disjoint/analysis.ml" 253 5902 5910 "src/ext/disjoint/analysis.ml" 253 5902 5959
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 254 5960 5964 "src/ext/disjoint/analysis.ml" 254 5960 5965
+type(
+  Cil.fundec
+)
+ident(
+  def h "src/ext/disjoint/analysis.ml" 254 5960 5972 "src/ext/disjoint/analysis.ml" 255 5998 6025
+)
+"src/ext/disjoint/analysis.ml" 254 5960 5967 "src/ext/disjoint/analysis.ml" 254 5960 5968
+type(
+  Cil.fundec list
+)
+ident(
+  def t "src/ext/disjoint/analysis.ml" 254 5960 5972 "src/ext/disjoint/analysis.ml" 255 5998 6025
+)
+"src/ext/disjoint/analysis.ml" 254 5960 5964 "src/ext/disjoint/analysis.ml" 254 5960 5968
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 254 5960 5979 "src/ext/disjoint/analysis.ml" 254 5960 5980
+type(
+  Cil.fundec
+)
+ident(
+  int_ref h "src/ext/disjoint/analysis.ml" 254 5960 5964 "src/ext/disjoint/analysis.ml" 254 5960 5965
+)
+"src/ext/disjoint/analysis.ml" 254 5960 5979 "src/ext/disjoint/analysis.ml" 254 5960 5985
+type(
+  Cil.varinfo
+)
+"src/ext/disjoint/analysis.ml" 254 5960 5978 "src/ext/disjoint/analysis.ml" 254 5960 5992
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 255 5998 6000 "src/ext/disjoint/analysis.ml" 255 5998 6005
+type(
+  string
+)
+ident(
+  def fname "src/ext/disjoint/analysis.ml" 255 5998 6009 "src/ext/disjoint/analysis.ml" 255 5998 6025
+)
+"src/ext/disjoint/analysis.ml" 255 5998 6009 "src/ext/disjoint/analysis.ml" 255 5998 6010
+type(
+  Cil.fundec
+)
+ident(
+  int_ref h "src/ext/disjoint/analysis.ml" 254 5960 5964 "src/ext/disjoint/analysis.ml" 254 5960 5965
+)
+"src/ext/disjoint/analysis.ml" 255 5998 6012 "src/ext/disjoint/analysis.ml" 255 5998 6017
+type(
+  string -> Cil.fundec list -> unit
+)
+ident(
+  int_ref getFd "src/ext/disjoint/analysis.ml" 251 5861 5869 "src/ext/disjoint/analysis.ml" 251 5861 5874
+)
+"src/ext/disjoint/analysis.ml" 255 5998 6018 "src/ext/disjoint/analysis.ml" 255 5998 6023
+type(
+  string
+)
+ident(
+  int_ref fname "src/ext/disjoint/analysis.ml" 255 5998 6000 "src/ext/disjoint/analysis.ml" 255 5998 6005
+)
+"src/ext/disjoint/analysis.ml" 255 5998 6024 "src/ext/disjoint/analysis.ml" 255 5998 6025
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref t "src/ext/disjoint/analysis.ml" 254 5960 5967 "src/ext/disjoint/analysis.ml" 254 5960 5968
+)
+"src/ext/disjoint/analysis.ml" 255 5998 6012 "src/ext/disjoint/analysis.ml" 255 5998 6025
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 255 5998 6009 "src/ext/disjoint/analysis.ml" 255 5998 6025
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 254 5960 5972 "src/ext/disjoint/analysis.ml" 255 5998 6025
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 252 5886 5888 "src/ext/disjoint/analysis.ml" 255 5998 6025
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 257 6027 6031 "src/ext/disjoint/analysis.ml" 257 6027 6039
+type(
+  'a * string * 'b * 'c * 'd ->
+  Cil.fundec list ->
+  Cil.varinfo list ->
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list
+)
+ident(
+  def getStmts "src/ext/disjoint/analysis.ml" 268 6397 6399 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 257 6027 6040 "src/ext/disjoint/analysis.ml" 257 6027 6044
+type(
+  'a * string * 'b * 'c * 'd
+)
+ident(
+  def elem "src/ext/disjoint/analysis.ml" 257 6027 6045 "src/ext/disjoint/analysis.ml" 266 6380 6393
+)
+"src/ext/disjoint/analysis.ml" 257 6027 6045 "src/ext/disjoint/analysis.ml" 257 6027 6047
+type(
+  Cil.fundec list
+)
+ident(
+  def fl "src/ext/disjoint/analysis.ml" 257 6027 6048 "src/ext/disjoint/analysis.ml" 266 6380 6393
+)
+"src/ext/disjoint/analysis.ml" 257 6027 6048 "src/ext/disjoint/analysis.ml" 257 6027 6050
+type(
+  Cil.varinfo list
+)
+ident(
+  def vl "src/ext/disjoint/analysis.ml" 258 6053 6055 "src/ext/disjoint/analysis.ml" 266 6380 6393
+)
+"src/ext/disjoint/analysis.ml" 258 6053 6061 "src/ext/disjoint/analysis.ml" 258 6053 6065
+type(
+  'a * string * 'b * 'c * 'd
+)
+ident(
+  int_ref elem "src/ext/disjoint/analysis.ml" 257 6027 6040 "src/ext/disjoint/analysis.ml" 257 6027 6044
+)
+"src/ext/disjoint/analysis.ml" 259 6071 6074 "src/ext/disjoint/analysis.ml" 259 6071 6079
+type(
+  'a
+)
+ident(
+  def tname "src/ext/disjoint/analysis.ml" 260 6101 6106 "src/ext/disjoint/analysis.ml" 266 6380 6393
+)
+"src/ext/disjoint/analysis.ml" 259 6071 6080 "src/ext/disjoint/analysis.ml" 259 6071 6085
+type(
+  string
+)
+ident(
+  def fname "src/ext/disjoint/analysis.ml" 260 6101 6106 "src/ext/disjoint/analysis.ml" 266 6380 6393
+)
+"src/ext/disjoint/analysis.ml" 259 6071 6086 "src/ext/disjoint/analysis.ml" 259 6071 6088
+type(
+  'b
+)
+ident(
+  def pr "src/ext/disjoint/analysis.ml" 260 6101 6106 "src/ext/disjoint/analysis.ml" 266 6380 6393
+)
+"src/ext/disjoint/analysis.ml" 259 6071 6089 "src/ext/disjoint/analysis.ml" 259 6071 6090
+type(
+  'c
+)
+ident(
+  def p "src/ext/disjoint/analysis.ml" 260 6101 6106 "src/ext/disjoint/analysis.ml" 266 6380 6393
+)
+"src/ext/disjoint/analysis.ml" 259 6071 6091 "src/ext/disjoint/analysis.ml" 259 6071 6095
+type(
+  'd
+)
+ident(
+  def wcet "src/ext/disjoint/analysis.ml" 260 6101 6106 "src/ext/disjoint/analysis.ml" 266 6380 6393
+)
+"src/ext/disjoint/analysis.ml" 259 6071 6073 "src/ext/disjoint/analysis.ml" 259 6071 6096
+type(
+  'a * string * 'b * 'c * 'd
+)
+"src/ext/disjoint/analysis.ml" 260 6101 6110 "src/ext/disjoint/analysis.ml" 260 6101 6120
+type(
+  Cil.fundec list
+)
+ident(
+  def current_fd "src/ext/disjoint/analysis.ml" 262 6177 6177 "src/ext/disjoint/analysis.ml" 266 6380 6393
+)
+"src/ext/disjoint/analysis.ml" 260 6101 6123 "src/ext/disjoint/analysis.ml" 260 6101 6134
+type(
+  (Cil.fundec -> bool) -> Cil.fundec list -> Cil.fundec list
+)
+ident(
+  ext_ref List.filter
+)
+"src/ext/disjoint/analysis.ml" 260 6101 6139 "src/ext/disjoint/analysis.ml" 260 6101 6140
+type(
+  Cil.fundec
+)
+ident(
+  def x "src/ext/disjoint/analysis.ml" 260 6101 6144 "src/ext/disjoint/analysis.ml" 260 6101 6166
+)
+"src/ext/disjoint/analysis.ml" 260 6101 6145 "src/ext/disjoint/analysis.ml" 260 6101 6146
+type(
+  Cil.fundec
+)
+ident(
+  int_ref x "src/ext/disjoint/analysis.ml" 260 6101 6139 "src/ext/disjoint/analysis.ml" 260 6101 6140
+)
+"src/ext/disjoint/analysis.ml" 260 6101 6145 "src/ext/disjoint/analysis.ml" 260 6101 6151
+type(
+  Cil.varinfo
+)
+"src/ext/disjoint/analysis.ml" 260 6101 6145 "src/ext/disjoint/analysis.ml" 260 6101 6157
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 260 6101 6158 "src/ext/disjoint/analysis.ml" 260 6101 6159
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/disjoint/analysis.ml" 260 6101 6160 "src/ext/disjoint/analysis.ml" 260 6101 6165
+type(
+  string
+)
+ident(
+  int_ref fname "src/ext/disjoint/analysis.ml" 259 6071 6080 "src/ext/disjoint/analysis.ml" 259 6071 6085
+)
+"src/ext/disjoint/analysis.ml" 260 6101 6144 "src/ext/disjoint/analysis.ml" 260 6101 6166
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 260 6101 6134 "src/ext/disjoint/analysis.ml" 260 6101 6167
+type(
+  Cil.fundec -> bool
+)
+"src/ext/disjoint/analysis.ml" 260 6101 6168 "src/ext/disjoint/analysis.ml" 260 6101 6170
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fl "src/ext/disjoint/analysis.ml" 257 6027 6045 "src/ext/disjoint/analysis.ml" 257 6027 6047
+)
+"src/ext/disjoint/analysis.ml" 260 6101 6123 "src/ext/disjoint/analysis.ml" 260 6101 6170
+call(
+  stack
+)
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 262 6177 6181 "src/ext/disjoint/analysis.ml" 262 6177 6187
+type(
+  (int * string * bool * bool) list list list list
+)
+ident(
+  def result "src/ext/disjoint/analysis.ml" 263 6239 6243 "src/ext/disjoint/analysis.ml" 266 6380 6393
+)
+"src/ext/disjoint/analysis.ml" 262 6177 6190 "src/ext/disjoint/analysis.ml" 262 6177 6198
+type(
+  (Cil.fundec -> (int * string * bool * bool) list list list) ->
+  Cil.fundec list -> (int * string * bool * bool) list list list list
+)
+ident(
+  ext_ref List.map
+)
+"src/ext/disjoint/analysis.ml" 262 6177 6204 "src/ext/disjoint/analysis.ml" 262 6177 6205
+type(
+  Cil.fundec
+)
+ident(
+  def x "src/ext/disjoint/analysis.ml" 262 6177 6209 "src/ext/disjoint/analysis.ml" 262 6177 6223
+)
+"src/ext/disjoint/analysis.ml" 262 6177 6209 "src/ext/disjoint/analysis.ml" 262 6177 6218
+type(
+  Cil.varinfo list ->
+  Cil.fundec -> (int * string * bool * bool) list list list
+)
+ident(
+  int_ref findstmts "src/ext/disjoint/analysis.ml" 247 5692 5696 "src/ext/disjoint/analysis.ml" 247 5692 5705
+)
+"src/ext/disjoint/analysis.ml" 262 6177 6219 "src/ext/disjoint/analysis.ml" 262 6177 6221
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref vl "src/ext/disjoint/analysis.ml" 257 6027 6048 "src/ext/disjoint/analysis.ml" 257 6027 6050
+)
+"src/ext/disjoint/analysis.ml" 262 6177 6222 "src/ext/disjoint/analysis.ml" 262 6177 6223
+type(
+  Cil.fundec
+)
+ident(
+  int_ref x "src/ext/disjoint/analysis.ml" 262 6177 6204 "src/ext/disjoint/analysis.ml" 262 6177 6205
+)
+"src/ext/disjoint/analysis.ml" 262 6177 6209 "src/ext/disjoint/analysis.ml" 262 6177 6223
+call(
+  tail
+)
+type(
+  (int * string * bool * bool) list list list
+)
+"src/ext/disjoint/analysis.ml" 262 6177 6199 "src/ext/disjoint/analysis.ml" 262 6177 6224
+type(
+  Cil.fundec -> (int * string * bool * bool) list list list
+)
+"src/ext/disjoint/analysis.ml" 262 6177 6225 "src/ext/disjoint/analysis.ml" 262 6177 6235
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref current_fd "src/ext/disjoint/analysis.ml" 260 6101 6110 "src/ext/disjoint/analysis.ml" 260 6101 6120
+)
+"src/ext/disjoint/analysis.ml" 262 6177 6190 "src/ext/disjoint/analysis.ml" 262 6177 6235
+call(
+  stack
+)
+type(
+  (int * string * bool * bool) list list list list
+)
+"src/ext/disjoint/analysis.ml" 263 6239 6247 "src/ext/disjoint/analysis.ml" 263 6239 6255
+type(
+  (int * string * bool * bool) list
+)
+ident(
+  def stmtList "src/ext/disjoint/analysis.ml" 265 6317 6322 "src/ext/disjoint/analysis.ml" 266 6380 6393
+)
+"src/ext/disjoint/analysis.ml" 263 6239 6259 "src/ext/disjoint/analysis.ml" 263 6239 6271
+type(
+  (int * string * bool * bool) list list -> (int * string * bool * bool) list
+)
+ident(
+  ext_ref List.flatten
+)
+"src/ext/disjoint/analysis.ml" 263 6239 6272 "src/ext/disjoint/analysis.ml" 263 6239 6284
+type(
+  (int * string * bool * bool) list list list ->
+  (int * string * bool * bool) list list
+)
+ident(
+  ext_ref List.flatten
+)
+"src/ext/disjoint/analysis.ml" 263 6239 6286 "src/ext/disjoint/analysis.ml" 263 6239 6298
+type(
+  (int * string * bool * bool) list list list list ->
+  (int * string * bool * bool) list list list
+)
+ident(
+  ext_ref List.flatten
+)
+"src/ext/disjoint/analysis.ml" 263 6239 6299 "src/ext/disjoint/analysis.ml" 263 6239 6307
+type(
+  (int * string * bool * bool) list list list list
+)
+ident(
+  int_ref result "src/ext/disjoint/analysis.ml" 262 6177 6181 "src/ext/disjoint/analysis.ml" 262 6177 6187
+)
+"src/ext/disjoint/analysis.ml" 263 6239 6285 "src/ext/disjoint/analysis.ml" 263 6239 6308
+call(
+  stack
+)
+type(
+  (int * string * bool * bool) list list list
+)
+"src/ext/disjoint/analysis.ml" 263 6239 6271 "src/ext/disjoint/analysis.ml" 263 6239 6309
+call(
+  stack
+)
+type(
+  (int * string * bool * bool) list list
+)
+"src/ext/disjoint/analysis.ml" 263 6239 6259 "src/ext/disjoint/analysis.ml" 263 6239 6309
+call(
+  stack
+)
+type(
+  (int * string * bool * bool) list
+)
+"src/ext/disjoint/analysis.ml" 265 6317 6326 "src/ext/disjoint/analysis.ml" 265 6317 6337
+type(
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list
+)
+ident(
+  def fd_accesses "src/ext/disjoint/analysis.ml" 266 6380 6382 "src/ext/disjoint/analysis.ml" 266 6380 6393
+)
+"src/ext/disjoint/analysis.ml" 265 6317 6340 "src/ext/disjoint/analysis.ml" 265 6317 6348
+type(
+  (int * string * bool * bool ->
+   ('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) ->
+  (int * string * bool * bool) list ->
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list
+)
+ident(
+  ext_ref List.map
+)
+"src/ext/disjoint/analysis.ml" 265 6317 6353 "src/ext/disjoint/analysis.ml" 265 6317 6354
+type(
+  int * string * bool * bool
+)
+ident(
+  def y "src/ext/disjoint/analysis.ml" 265 6317 6358 "src/ext/disjoint/analysis.ml" 265 6317 6366
+)
+"src/ext/disjoint/analysis.ml" 265 6317 6359 "src/ext/disjoint/analysis.ml" 265 6317 6363
+type(
+  'a * string * 'b * 'c * 'd
+)
+ident(
+  int_ref elem "src/ext/disjoint/analysis.ml" 257 6027 6040 "src/ext/disjoint/analysis.ml" 257 6027 6044
+)
+"src/ext/disjoint/analysis.ml" 265 6317 6364 "src/ext/disjoint/analysis.ml" 265 6317 6365
+type(
+  int * string * bool * bool
+)
+ident(
+  int_ref y "src/ext/disjoint/analysis.ml" 265 6317 6353 "src/ext/disjoint/analysis.ml" 265 6317 6354
+)
+"src/ext/disjoint/analysis.ml" 265 6317 6358 "src/ext/disjoint/analysis.ml" 265 6317 6366
+type(
+  ('a * string * 'b * 'c * 'd) * (int * string * bool * bool)
+)
+"src/ext/disjoint/analysis.ml" 265 6317 6348 "src/ext/disjoint/analysis.ml" 265 6317 6367
+type(
+  int * string * bool * bool ->
+  ('a * string * 'b * 'c * 'd) * (int * string * bool * bool)
+)
+"src/ext/disjoint/analysis.ml" 265 6317 6368 "src/ext/disjoint/analysis.ml" 265 6317 6376
+type(
+  (int * string * bool * bool) list
+)
+ident(
+  int_ref stmtList "src/ext/disjoint/analysis.ml" 263 6239 6247 "src/ext/disjoint/analysis.ml" 263 6239 6255
+)
+"src/ext/disjoint/analysis.ml" 265 6317 6340 "src/ext/disjoint/analysis.ml" 265 6317 6376
+call(
+  tail
+)
+type(
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list
+)
+"src/ext/disjoint/analysis.ml" 266 6380 6382 "src/ext/disjoint/analysis.ml" 266 6380 6393
+type(
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list
+)
+ident(
+  int_ref fd_accesses "src/ext/disjoint/analysis.ml" 265 6317 6326 "src/ext/disjoint/analysis.ml" 265 6317 6337
+)
+"src/ext/disjoint/analysis.ml" 265 6317 6322 "src/ext/disjoint/analysis.ml" 266 6380 6393
+type(
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list
+)
+"src/ext/disjoint/analysis.ml" 263 6239 6243 "src/ext/disjoint/analysis.ml" 266 6380 6393
+type(
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list
+)
+"src/ext/disjoint/analysis.ml" 262 6177 6177 "src/ext/disjoint/analysis.ml" 266 6380 6393
+type(
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list
+)
+"src/ext/disjoint/analysis.ml" 260 6101 6106 "src/ext/disjoint/analysis.ml" 266 6380 6393
+type(
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list
+)
+"src/ext/disjoint/analysis.ml" 258 6053 6055 "src/ext/disjoint/analysis.ml" 266 6380 6393
+type(
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list
+)
+"src/ext/disjoint/analysis.ml" 268 6397 6403 "src/ext/disjoint/analysis.ml" 268 6397 6416
+type(
+  ('a * string * 'b * 'c * 'd) list ->
+  Cil.fundec list ->
+  Cil.varinfo list ->
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list
+)
+ident(
+  def getAccessList "src/ext/disjoint/analysis.ml" 273 6522 6522 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 268 6397 6417 "src/ext/disjoint/analysis.ml" 268 6397 6419
+type(
+  ('a * string * 'b * 'c * 'd) list
+)
+ident(
+  def tl "src/ext/disjoint/analysis.ml" 268 6397 6420 "src/ext/disjoint/analysis.ml" 271 6493 6520
+)
+"src/ext/disjoint/analysis.ml" 268 6397 6420 "src/ext/disjoint/analysis.ml" 268 6397 6422
+type(
+  Cil.fundec list
+)
+ident(
+  def fl "src/ext/disjoint/analysis.ml" 268 6397 6423 "src/ext/disjoint/analysis.ml" 271 6493 6520
+)
+"src/ext/disjoint/analysis.ml" 268 6397 6423 "src/ext/disjoint/analysis.ml" 268 6397 6425
+type(
+  Cil.varinfo list
+)
+ident(
+  def vl "src/ext/disjoint/analysis.ml" 269 6429 6431 "src/ext/disjoint/analysis.ml" 271 6493 6520
+)
+"src/ext/disjoint/analysis.ml" 269 6429 6435 "src/ext/disjoint/analysis.ml" 269 6429 6445
+type(
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list list
+)
+ident(
+  def accessList "src/ext/disjoint/analysis.ml" 271 6493 6496 "src/ext/disjoint/analysis.ml" 271 6493 6520
+)
+"src/ext/disjoint/analysis.ml" 269 6429 6448 "src/ext/disjoint/analysis.ml" 269 6429 6456
+type(
+  ('a * string * 'b * 'c * 'd ->
+   (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list) ->
+  ('a * string * 'b * 'c * 'd) list ->
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list list
+)
+ident(
+  ext_ref List.map
+)
+"src/ext/disjoint/analysis.ml" 269 6429 6462 "src/ext/disjoint/analysis.ml" 269 6429 6463
+type(
+  'a * string * 'b * 'c * 'd
+)
+ident(
+  def x "src/ext/disjoint/analysis.ml" 269 6429 6467 "src/ext/disjoint/analysis.ml" 269 6429 6483
+)
+"src/ext/disjoint/analysis.ml" 269 6429 6467 "src/ext/disjoint/analysis.ml" 269 6429 6475
+type(
+  'a * string * 'b * 'c * 'd ->
+  Cil.fundec list ->
+  Cil.varinfo list ->
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list
+)
+ident(
+  int_ref getStmts "src/ext/disjoint/analysis.ml" 257 6027 6031 "src/ext/disjoint/analysis.ml" 257 6027 6039
+)
+"src/ext/disjoint/analysis.ml" 269 6429 6476 "src/ext/disjoint/analysis.ml" 269 6429 6477
+type(
+  'a * string * 'b * 'c * 'd
+)
+ident(
+  int_ref x "src/ext/disjoint/analysis.ml" 269 6429 6462 "src/ext/disjoint/analysis.ml" 269 6429 6463
+)
+"src/ext/disjoint/analysis.ml" 269 6429 6478 "src/ext/disjoint/analysis.ml" 269 6429 6480
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fl "src/ext/disjoint/analysis.ml" 268 6397 6420 "src/ext/disjoint/analysis.ml" 268 6397 6422
+)
+"src/ext/disjoint/analysis.ml" 269 6429 6481 "src/ext/disjoint/analysis.ml" 269 6429 6483
+type(
+  Cil.varinfo list
+)
+ident(
+  int_ref vl "src/ext/disjoint/analysis.ml" 268 6397 6423 "src/ext/disjoint/analysis.ml" 268 6397 6425
+)
+"src/ext/disjoint/analysis.ml" 269 6429 6467 "src/ext/disjoint/analysis.ml" 269 6429 6483
+call(
+  tail
+)
+type(
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list
+)
+"src/ext/disjoint/analysis.ml" 269 6429 6457 "src/ext/disjoint/analysis.ml" 269 6429 6484
+type(
+  'a * string * 'b * 'c * 'd ->
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list
+)
+"src/ext/disjoint/analysis.ml" 269 6429 6485 "src/ext/disjoint/analysis.ml" 269 6429 6487
+type(
+  ('a * string * 'b * 'c * 'd) list
+)
+ident(
+  int_ref tl "src/ext/disjoint/analysis.ml" 268 6397 6417 "src/ext/disjoint/analysis.ml" 268 6397 6419
+)
+"src/ext/disjoint/analysis.ml" 269 6429 6448 "src/ext/disjoint/analysis.ml" 269 6429 6487
+call(
+  stack
+)
+type(
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list list
+)
+"src/ext/disjoint/analysis.ml" 271 6493 6496 "src/ext/disjoint/analysis.ml" 271 6493 6508
+type(
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list list ->
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list
+)
+ident(
+  ext_ref List.flatten
+)
+"src/ext/disjoint/analysis.ml" 271 6493 6508 "src/ext/disjoint/analysis.ml" 271 6493 6520
+type(
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list list
+)
+ident(
+  int_ref accessList "src/ext/disjoint/analysis.ml" 269 6429 6435 "src/ext/disjoint/analysis.ml" 269 6429 6445
+)
+"src/ext/disjoint/analysis.ml" 271 6493 6496 "src/ext/disjoint/analysis.ml" 271 6493 6520
+call(
+  tail
+)
+type(
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list
+)
+"src/ext/disjoint/analysis.ml" 269 6429 6431 "src/ext/disjoint/analysis.ml" 271 6493 6520
+type(
+  (('a * string * 'b * 'c * 'd) * (int * string * bool * bool)) list
+)
+"src/ext/disjoint/analysis.ml" 273 6522 6530 "src/ext/disjoint/analysis.ml" 273 6522 6548
+type(
+  ((string * string * 'a * 'b * 'c) * (int * string * 'd * 'e)) list -> unit
+)
+ident(
+  def display_AccessList "src/ext/disjoint/analysis.ml" 273 6522 6522 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 273 6522 6549 "src/ext/disjoint/analysis.ml" 273 6522 6552
+type(
+  ((string * string * 'a * 'b * 'c) * (int * string * 'd * 'e)) list
+)
+ident(
+  def lst "src/ext/disjoint/analysis.ml" 274 6555 6557 "src/ext/disjoint/analysis.ml" 278 6690 6717
+)
+"src/ext/disjoint/analysis.ml" 274 6555 6563 "src/ext/disjoint/analysis.ml" 274 6555 6566
+type(
+  ((string * string * 'a * 'b * 'c) * (int * string * 'd * 'e)) list
+)
+ident(
+  int_ref lst "src/ext/disjoint/analysis.ml" 273 6522 6549 "src/ext/disjoint/analysis.ml" 273 6522 6552
+)
+"src/ext/disjoint/analysis.ml" 275 6572 6576 "src/ext/disjoint/analysis.ml" 275 6572 6578
+type(
+  ((string * string * 'a * 'b * 'c) * (int * string * 'd * 'e)) list
+)
+"src/ext/disjoint/analysis.ml" 275 6572 6582 "src/ext/disjoint/analysis.ml" 275 6572 6584
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 276 6585 6591 "src/ext/disjoint/analysis.ml" 276 6585 6596
+type(
+  string
+)
+ident(
+  def tname "src/ext/disjoint/analysis.ml" 277 6640 6644 "src/ext/disjoint/analysis.ml" 278 6690 6717
+)
+"src/ext/disjoint/analysis.ml" 276 6585 6597 "src/ext/disjoint/analysis.ml" 276 6585 6602
+type(
+  string
+)
+ident(
+  def fname "src/ext/disjoint/analysis.ml" 277 6640 6644 "src/ext/disjoint/analysis.ml" 278 6690 6717
+)
+"src/ext/disjoint/analysis.ml" 276 6585 6603 "src/ext/disjoint/analysis.ml" 276 6585 6605
+type(
+  'a
+)
+ident(
+  def pr "src/ext/disjoint/analysis.ml" 277 6640 6644 "src/ext/disjoint/analysis.ml" 278 6690 6717
+)
+"src/ext/disjoint/analysis.ml" 276 6585 6606 "src/ext/disjoint/analysis.ml" 276 6585 6607
+type(
+  'b
+)
+ident(
+  def p "src/ext/disjoint/analysis.ml" 277 6640 6644 "src/ext/disjoint/analysis.ml" 278 6690 6717
+)
+"src/ext/disjoint/analysis.ml" 276 6585 6608 "src/ext/disjoint/analysis.ml" 276 6585 6612
+type(
+  'c
+)
+ident(
+  def wcet "src/ext/disjoint/analysis.ml" 277 6640 6644 "src/ext/disjoint/analysis.ml" 278 6690 6717
+)
+"src/ext/disjoint/analysis.ml" 276 6585 6590 "src/ext/disjoint/analysis.ml" 276 6585 6613
+type(
+  string * string * 'a * 'b * 'c
+)
+"src/ext/disjoint/analysis.ml" 276 6585 6616 "src/ext/disjoint/analysis.ml" 276 6585 6618
+type(
+  int
+)
+ident(
+  def ln "src/ext/disjoint/analysis.ml" 277 6640 6644 "src/ext/disjoint/analysis.ml" 278 6690 6717
+)
+"src/ext/disjoint/analysis.ml" 276 6585 6619 "src/ext/disjoint/analysis.ml" 276 6585 6622
+type(
+  string
+)
+ident(
+  def var "src/ext/disjoint/analysis.ml" 277 6640 6644 "src/ext/disjoint/analysis.ml" 278 6690 6717
+)
+"src/ext/disjoint/analysis.ml" 276 6585 6623 "src/ext/disjoint/analysis.ml" 276 6585 6624
+type(
+  'd
+)
+ident(
+  def w "src/ext/disjoint/analysis.ml" 277 6640 6644 "src/ext/disjoint/analysis.ml" 278 6690 6717
+)
+"src/ext/disjoint/analysis.ml" 276 6585 6625 "src/ext/disjoint/analysis.ml" 276 6585 6626
+type(
+  'e
+)
+ident(
+  def r "src/ext/disjoint/analysis.ml" 277 6640 6644 "src/ext/disjoint/analysis.ml" 278 6690 6717
+)
+"src/ext/disjoint/analysis.ml" 276 6585 6615 "src/ext/disjoint/analysis.ml" 276 6585 6627
+type(
+  int * string * 'd * 'e
+)
+"src/ext/disjoint/analysis.ml" 276 6585 6589 "src/ext/disjoint/analysis.ml" 276 6585 6628
+type(
+  (string * string * 'a * 'b * 'c) * (int * string * 'd * 'e)
+)
+"src/ext/disjoint/analysis.ml" 276 6585 6632 "src/ext/disjoint/analysis.ml" 276 6585 6636
+type(
+  ((string * string * 'a * 'b * 'c) * (int * string * 'd * 'e)) list
+)
+ident(
+  def rest "src/ext/disjoint/analysis.ml" 277 6640 6644 "src/ext/disjoint/analysis.ml" 278 6690 6717
+)
+"src/ext/disjoint/analysis.ml" 276 6585 6589 "src/ext/disjoint/analysis.ml" 276 6585 6636
+type(
+  ((string * string * 'a * 'b * 'c) * (int * string * 'd * 'e)) list
+)
+"src/ext/disjoint/analysis.ml" 277 6640 6644 "src/ext/disjoint/analysis.ml" 277 6640 6649
+type(
+  (string -> string -> int -> string -> unit, unit, Pretty.doc, unit) format4 ->
+  string -> string -> int -> string -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/disjoint/analysis.ml" 277 6640 6650 "src/ext/disjoint/analysis.ml" 277 6640 6669
+type(
+  (string -> string -> int -> string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/disjoint/analysis.ml" 277 6640 6670 "src/ext/disjoint/analysis.ml" 277 6640 6675
+type(
+  string
+)
+ident(
+  int_ref tname "src/ext/disjoint/analysis.ml" 276 6585 6591 "src/ext/disjoint/analysis.ml" 276 6585 6596
+)
+"src/ext/disjoint/analysis.ml" 277 6640 6676 "src/ext/disjoint/analysis.ml" 277 6640 6681
+type(
+  string
+)
+ident(
+  int_ref fname "src/ext/disjoint/analysis.ml" 276 6585 6597 "src/ext/disjoint/analysis.ml" 276 6585 6602
+)
+"src/ext/disjoint/analysis.ml" 277 6640 6682 "src/ext/disjoint/analysis.ml" 277 6640 6684
+type(
+  int
+)
+ident(
+  int_ref ln "src/ext/disjoint/analysis.ml" 276 6585 6616 "src/ext/disjoint/analysis.ml" 276 6585 6618
+)
+"src/ext/disjoint/analysis.ml" 277 6640 6685 "src/ext/disjoint/analysis.ml" 277 6640 6688
+type(
+  string
+)
+ident(
+  int_ref var "src/ext/disjoint/analysis.ml" 276 6585 6619 "src/ext/disjoint/analysis.ml" 276 6585 6622
+)
+"src/ext/disjoint/analysis.ml" 277 6640 6644 "src/ext/disjoint/analysis.ml" 277 6640 6688
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 278 6690 6694 "src/ext/disjoint/analysis.ml" 278 6690 6712
+type(
+  ((string * string * 'a * 'b * 'c) * (int * string * 'd * 'e)) list -> unit
+)
+ident(
+  int_ref display_AccessList "src/ext/disjoint/analysis.ml" 273 6522 6530 "src/ext/disjoint/analysis.ml" 273 6522 6548
+)
+"src/ext/disjoint/analysis.ml" 278 6690 6713 "src/ext/disjoint/analysis.ml" 278 6690 6717
+type(
+  ((string * string * 'a * 'b * 'c) * (int * string * 'd * 'e)) list
+)
+ident(
+  int_ref rest "src/ext/disjoint/analysis.ml" 276 6585 6632 "src/ext/disjoint/analysis.ml" 276 6585 6636
+)
+"src/ext/disjoint/analysis.ml" 278 6690 6694 "src/ext/disjoint/analysis.ml" 278 6690 6717
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 277 6640 6644 "src/ext/disjoint/analysis.ml" 278 6690 6717
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 274 6555 6557 "src/ext/disjoint/analysis.ml" 278 6690 6717
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 280 6719 6723 "src/ext/disjoint/analysis.ml" 280 6719 6734
+type(
+  (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) *
+  (('a * 'i * 'j * 'k * 'l) * ('m * 'g * bool * 'n)) -> bool
+)
+ident(
+  def getConflict "src/ext/disjoint/analysis.ml" 286 6942 6944 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 280 6719 6735 "src/ext/disjoint/analysis.ml" 280 6719 6736
+type(
+  (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) *
+  (('a * 'i * 'j * 'k * 'l) * ('m * 'g * bool * 'n))
+)
+ident(
+  def x "src/ext/disjoint/analysis.ml" 281 6739 6739 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 281 6739 6745 "src/ext/disjoint/analysis.ml" 281 6739 6746
+type(
+  (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) *
+  (('a * 'i * 'j * 'k * 'l) * ('m * 'g * bool * 'n))
+)
+ident(
+  int_ref x "src/ext/disjoint/analysis.ml" 280 6719 6735 "src/ext/disjoint/analysis.ml" 280 6719 6736
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6760 "src/ext/disjoint/analysis.ml" 282 6752 6765
+type(
+  'a
+)
+ident(
+  def tname "src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6766 "src/ext/disjoint/analysis.ml" 282 6752 6771
+type(
+  'b
+)
+ident(
+  def fname "src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6772 "src/ext/disjoint/analysis.ml" 282 6752 6774
+type(
+  'c
+)
+ident(
+  def pr "src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6775 "src/ext/disjoint/analysis.ml" 282 6752 6776
+type(
+  'd
+)
+ident(
+  def p "src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6777 "src/ext/disjoint/analysis.ml" 282 6752 6781
+type(
+  'e
+)
+ident(
+  def wcet "src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6759 "src/ext/disjoint/analysis.ml" 282 6752 6782
+type(
+  'a * 'b * 'c * 'd * 'e
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6785 "src/ext/disjoint/analysis.ml" 282 6752 6787
+type(
+  'f
+)
+ident(
+  def ln "src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6788 "src/ext/disjoint/analysis.ml" 282 6752 6791
+type(
+  'g
+)
+ident(
+  def var "src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6792 "src/ext/disjoint/analysis.ml" 282 6752 6793
+type(
+  bool
+)
+ident(
+  def w "src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6794 "src/ext/disjoint/analysis.ml" 282 6752 6795
+type(
+  'h
+)
+ident(
+  def r "src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6784 "src/ext/disjoint/analysis.ml" 282 6752 6796
+type(
+  'f * 'g * bool * 'h
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6758 "src/ext/disjoint/analysis.ml" 282 6752 6797
+type(
+  ('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6800 "src/ext/disjoint/analysis.ml" 282 6752 6806
+type(
+  'a
+)
+ident(
+  def tname' "src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6807 "src/ext/disjoint/analysis.ml" 282 6752 6813
+type(
+  'i
+)
+ident(
+  def fname' "src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6814 "src/ext/disjoint/analysis.ml" 282 6752 6817
+type(
+  'j
+)
+ident(
+  def pr' "src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6818 "src/ext/disjoint/analysis.ml" 282 6752 6820
+type(
+  'k
+)
+ident(
+  def p' "src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6821 "src/ext/disjoint/analysis.ml" 282 6752 6826
+type(
+  'l
+)
+ident(
+  def wcet' "src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6799 "src/ext/disjoint/analysis.ml" 282 6752 6827
+type(
+  'a * 'i * 'j * 'k * 'l
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6830 "src/ext/disjoint/analysis.ml" 282 6752 6833
+type(
+  'm
+)
+ident(
+  def ln' "src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6834 "src/ext/disjoint/analysis.ml" 282 6752 6838
+type(
+  'g
+)
+ident(
+  def var' "src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6839 "src/ext/disjoint/analysis.ml" 282 6752 6841
+type(
+  bool
+)
+ident(
+  def w' "src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6842 "src/ext/disjoint/analysis.ml" 282 6752 6844
+type(
+  'n
+)
+ident(
+  def r' "src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6829 "src/ext/disjoint/analysis.ml" 282 6752 6845
+type(
+  'm * 'g * bool * 'n
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6798 "src/ext/disjoint/analysis.ml" 282 6752 6846
+type(
+  ('a * 'i * 'j * 'k * 'l) * ('m * 'g * bool * 'n)
+)
+"src/ext/disjoint/analysis.ml" 282 6752 6757 "src/ext/disjoint/analysis.ml" 282 6752 6847
+type(
+  (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) *
+  (('a * 'i * 'j * 'k * 'l) * ('m * 'g * bool * 'n))
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6861 "src/ext/disjoint/analysis.ml" 283 6848 6864
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6865 "src/ext/disjoint/analysis.ml" 283 6848 6870
+type(
+  'a
+)
+ident(
+  int_ref tname "src/ext/disjoint/analysis.ml" 282 6752 6760 "src/ext/disjoint/analysis.ml" 282 6752 6765
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6870 "src/ext/disjoint/analysis.ml" 283 6848 6871
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6871 "src/ext/disjoint/analysis.ml" 283 6848 6877
+type(
+  'a
+)
+ident(
+  int_ref tname' "src/ext/disjoint/analysis.ml" 282 6752 6800 "src/ext/disjoint/analysis.ml" 282 6752 6806
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6864 "src/ext/disjoint/analysis.ml" 283 6848 6878
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6860 "src/ext/disjoint/analysis.ml" 283 6848 6879
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6879 "src/ext/disjoint/analysis.ml" 283 6848 6881
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6882 "src/ext/disjoint/analysis.ml" 283 6848 6885
+type(
+  'g
+)
+ident(
+  int_ref var "src/ext/disjoint/analysis.ml" 282 6752 6788 "src/ext/disjoint/analysis.ml" 282 6752 6791
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6885 "src/ext/disjoint/analysis.ml" 283 6848 6886
+type(
+  'g -> 'g -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6886 "src/ext/disjoint/analysis.ml" 283 6848 6890
+type(
+  'g
+)
+ident(
+  int_ref var' "src/ext/disjoint/analysis.ml" 282 6752 6834 "src/ext/disjoint/analysis.ml" 282 6752 6838
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6881 "src/ext/disjoint/analysis.ml" 283 6848 6891
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6891 "src/ext/disjoint/analysis.ml" 283 6848 6893
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6895 "src/ext/disjoint/analysis.ml" 283 6848 6896
+type(
+  bool
+)
+ident(
+  int_ref w "src/ext/disjoint/analysis.ml" 282 6752 6792 "src/ext/disjoint/analysis.ml" 282 6752 6793
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6896 "src/ext/disjoint/analysis.ml" 283 6848 6897
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6897 "src/ext/disjoint/analysis.ml" 283 6848 6901
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6894 "src/ext/disjoint/analysis.ml" 283 6848 6902
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6902 "src/ext/disjoint/analysis.ml" 283 6848 6904
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6905 "src/ext/disjoint/analysis.ml" 283 6848 6907
+type(
+  bool
+)
+ident(
+  int_ref w' "src/ext/disjoint/analysis.ml" 282 6752 6839 "src/ext/disjoint/analysis.ml" 282 6752 6841
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6907 "src/ext/disjoint/analysis.ml" 283 6848 6908
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6908 "src/ext/disjoint/analysis.ml" 283 6848 6912
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6904 "src/ext/disjoint/analysis.ml" 283 6848 6913
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6893 "src/ext/disjoint/analysis.ml" 283 6848 6914
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6881 "src/ext/disjoint/analysis.ml" 283 6848 6914
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6859 "src/ext/disjoint/analysis.ml" 283 6848 6915
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6921 "src/ext/disjoint/analysis.ml" 283 6848 6925
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 284 6926 6933 "src/ext/disjoint/analysis.ml" 284 6926 6938
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 283 6848 6856 "src/ext/disjoint/analysis.ml" 284 6926 6938
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 281 6739 6739 "src/ext/disjoint/analysis.ml" 284 6926 6938
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 286 6942 6948 "src/ext/disjoint/analysis.ml" 286 6942 6958
+type(
+  (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) list ->
+  ((('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) *
+   (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)))
+  list
+)
+ident(
+  def getCAPairs "src/ext/disjoint/analysis.ml" 290 7041 7041 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 286 6942 6959 "src/ext/disjoint/analysis.ml" 286 6942 6961
+type(
+  (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) list
+)
+ident(
+  def al "src/ext/disjoint/analysis.ml" 287 6964 6967 "src/ext/disjoint/analysis.ml" 288 6991 7039
+)
+"src/ext/disjoint/analysis.ml" 287 6964 6971 "src/ext/disjoint/analysis.ml" 287 6964 6976
+type(
+  ((('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) *
+   (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)))
+  list
+)
+ident(
+  def pairs "src/ext/disjoint/analysis.ml" 288 6991 6997 "src/ext/disjoint/analysis.ml" 288 6991 7039
+)
+"src/ext/disjoint/analysis.ml" 287 6964 6979 "src/ext/disjoint/analysis.ml" 287 6964 6987
+type(
+  (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) list ->
+  ((('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) *
+   (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)))
+  list
+)
+ident(
+  int_ref getPairs "src/ext/disjoint/analysis.ml" 129 2862 2866 "src/ext/disjoint/analysis.ml" 129 2862 2874
+)
+"src/ext/disjoint/analysis.ml" 287 6964 6988 "src/ext/disjoint/analysis.ml" 287 6964 6990
+type(
+  (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) list
+)
+ident(
+  int_ref al "src/ext/disjoint/analysis.ml" 286 6942 6959 "src/ext/disjoint/analysis.ml" 286 6942 6961
+)
+"src/ext/disjoint/analysis.ml" 287 6964 6979 "src/ext/disjoint/analysis.ml" 287 6964 6990
+call(
+  stack
+)
+type(
+  ((('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) *
+   (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)))
+  list
+)
+"src/ext/disjoint/analysis.ml" 288 6991 6997 "src/ext/disjoint/analysis.ml" 288 6991 7008
+type(
+  ((('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) *
+   (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) -> bool) ->
+  ((('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) *
+   (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)))
+  list ->
+  ((('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) *
+   (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)))
+  list
+)
+ident(
+  ext_ref List.filter
+)
+"src/ext/disjoint/analysis.ml" 288 6991 7014 "src/ext/disjoint/analysis.ml" 288 6991 7015
+type(
+  (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) *
+  (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h))
+)
+ident(
+  def x "src/ext/disjoint/analysis.ml" 288 6991 7019 "src/ext/disjoint/analysis.ml" 288 6991 7032
+)
+"src/ext/disjoint/analysis.ml" 288 6991 7019 "src/ext/disjoint/analysis.ml" 288 6991 7030
+type(
+  (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) *
+  (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) -> bool
+)
+ident(
+  int_ref getConflict "src/ext/disjoint/analysis.ml" 280 6719 6723 "src/ext/disjoint/analysis.ml" 280 6719 6734
+)
+"src/ext/disjoint/analysis.ml" 288 6991 7031 "src/ext/disjoint/analysis.ml" 288 6991 7032
+type(
+  (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) *
+  (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h))
+)
+ident(
+  int_ref x "src/ext/disjoint/analysis.ml" 288 6991 7014 "src/ext/disjoint/analysis.ml" 288 6991 7015
+)
+"src/ext/disjoint/analysis.ml" 288 6991 7019 "src/ext/disjoint/analysis.ml" 288 6991 7032
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 288 6991 7009 "src/ext/disjoint/analysis.ml" 288 6991 7033
+type(
+  (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) *
+  (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) -> bool
+)
+"src/ext/disjoint/analysis.ml" 288 6991 7034 "src/ext/disjoint/analysis.ml" 288 6991 7039
+type(
+  ((('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) *
+   (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)))
+  list
+)
+ident(
+  int_ref pairs "src/ext/disjoint/analysis.ml" 287 6964 6971 "src/ext/disjoint/analysis.ml" 287 6964 6976
+)
+"src/ext/disjoint/analysis.ml" 288 6991 6997 "src/ext/disjoint/analysis.ml" 288 6991 7039
+call(
+  tail
+)
+type(
+  ((('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) *
+   (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)))
+  list
+)
+"src/ext/disjoint/analysis.ml" 287 6964 6967 "src/ext/disjoint/analysis.ml" 288 6991 7039
+type(
+  ((('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)) *
+   (('a * 'b * 'c * 'd * 'e) * ('f * 'g * bool * 'h)))
+  list
+)
+"src/ext/disjoint/analysis.ml" 290 7041 7045 "src/ext/disjoint/analysis.ml" 290 7041 7055
+type(
+  bool -> string
+)
+ident(
+  def get_access "src/ext/disjoint/analysis.ml" 294 7105 7107 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 290 7041 7056 "src/ext/disjoint/analysis.ml" 290 7041 7057
+type(
+  bool
+)
+ident(
+  def b "src/ext/disjoint/analysis.ml" 291 7060 7062 "src/ext/disjoint/analysis.ml" 292 7088 7100
+)
+"src/ext/disjoint/analysis.ml" 291 7060 7066 "src/ext/disjoint/analysis.ml" 291 7060 7067
+type(
+  bool
+)
+ident(
+  int_ref b "src/ext/disjoint/analysis.ml" 290 7041 7056 "src/ext/disjoint/analysis.ml" 290 7041 7057
+)
+"src/ext/disjoint/analysis.ml" 291 7060 7067 "src/ext/disjoint/analysis.ml" 291 7060 7068
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/disjoint/analysis.ml" 291 7060 7068 "src/ext/disjoint/analysis.ml" 291 7060 7072
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 291 7060 7065 "src/ext/disjoint/analysis.ml" 291 7060 7073
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 291 7060 7079 "src/ext/disjoint/analysis.ml" 291 7060 7086
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 292 7088 7094 "src/ext/disjoint/analysis.ml" 292 7088 7100
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 291 7060 7062 "src/ext/disjoint/analysis.ml" 292 7088 7100
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 294 7105 7111 "src/ext/disjoint/analysis.ml" 294 7105 7121
+type(
+  ((string * string * 'a * 'b * 'c) * (int * string * bool * 'd)) *
+  ((string * string * 'e * 'f * 'g) * (int * string * bool * 'h)) -> 
+  unit
+)
+ident(
+  def display_CA "src/ext/disjoint/analysis.ml" 305 7432 7432 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 294 7105 7122 "src/ext/disjoint/analysis.ml" 294 7105 7126
+type(
+  ((string * string * 'a * 'b * 'c) * (int * string * bool * 'd)) *
+  ((string * string * 'e * 'f * 'g) * (int * string * bool * 'h))
+)
+ident(
+  def elem "src/ext/disjoint/analysis.ml" 295 7129 7133 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 295 7129 7139 "src/ext/disjoint/analysis.ml" 295 7129 7143
+type(
+  ((string * string * 'a * 'b * 'c) * (int * string * bool * 'd)) *
+  ((string * string * 'e * 'f * 'g) * (int * string * bool * 'h))
+)
+ident(
+  int_ref elem "src/ext/disjoint/analysis.ml" 294 7105 7122 "src/ext/disjoint/analysis.ml" 294 7105 7126
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7157 "src/ext/disjoint/analysis.ml" 296 7149 7162
+type(
+  string
+)
+ident(
+  def tname "src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7163 "src/ext/disjoint/analysis.ml" 296 7149 7168
+type(
+  string
+)
+ident(
+  def fname "src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7169 "src/ext/disjoint/analysis.ml" 296 7149 7171
+type(
+  'a
+)
+ident(
+  def pr "src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7172 "src/ext/disjoint/analysis.ml" 296 7149 7173
+type(
+  'b
+)
+ident(
+  def p "src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7174 "src/ext/disjoint/analysis.ml" 296 7149 7178
+type(
+  'c
+)
+ident(
+  def wcet "src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7156 "src/ext/disjoint/analysis.ml" 296 7149 7179
+type(
+  string * string * 'a * 'b * 'c
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7182 "src/ext/disjoint/analysis.ml" 296 7149 7184
+type(
+  int
+)
+ident(
+  def ln "src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7185 "src/ext/disjoint/analysis.ml" 296 7149 7188
+type(
+  string
+)
+ident(
+  def var "src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7189 "src/ext/disjoint/analysis.ml" 296 7149 7190
+type(
+  bool
+)
+ident(
+  def w "src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7191 "src/ext/disjoint/analysis.ml" 296 7149 7192
+type(
+  'd
+)
+ident(
+  def r "src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7181 "src/ext/disjoint/analysis.ml" 296 7149 7193
+type(
+  int * string * bool * 'd
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7155 "src/ext/disjoint/analysis.ml" 296 7149 7194
+type(
+  (string * string * 'a * 'b * 'c) * (int * string * bool * 'd)
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7197 "src/ext/disjoint/analysis.ml" 296 7149 7203
+type(
+  string
+)
+ident(
+  def tname' "src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7204 "src/ext/disjoint/analysis.ml" 296 7149 7210
+type(
+  string
+)
+ident(
+  def fname' "src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7211 "src/ext/disjoint/analysis.ml" 296 7149 7214
+type(
+  'e
+)
+ident(
+  def pr' "src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7215 "src/ext/disjoint/analysis.ml" 296 7149 7217
+type(
+  'f
+)
+ident(
+  def p' "src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7218 "src/ext/disjoint/analysis.ml" 296 7149 7223
+type(
+  'g
+)
+ident(
+  def wcet' "src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7196 "src/ext/disjoint/analysis.ml" 296 7149 7224
+type(
+  string * string * 'e * 'f * 'g
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7227 "src/ext/disjoint/analysis.ml" 296 7149 7230
+type(
+  int
+)
+ident(
+  def ln' "src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7231 "src/ext/disjoint/analysis.ml" 296 7149 7235
+type(
+  string
+)
+ident(
+  def var' "src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7236 "src/ext/disjoint/analysis.ml" 296 7149 7238
+type(
+  bool
+)
+ident(
+  def w' "src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7239 "src/ext/disjoint/analysis.ml" 296 7149 7241
+type(
+  'h
+)
+ident(
+  def r' "src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7226 "src/ext/disjoint/analysis.ml" 296 7149 7242
+type(
+  int * string * bool * 'h
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7195 "src/ext/disjoint/analysis.ml" 296 7149 7243
+type(
+  (string * string * 'e * 'f * 'g) * (int * string * bool * 'h)
+)
+"src/ext/disjoint/analysis.ml" 296 7149 7154 "src/ext/disjoint/analysis.ml" 296 7149 7244
+type(
+  ((string * string * 'a * 'b * 'c) * (int * string * bool * 'd)) *
+  ((string * string * 'e * 'f * 'g) * (int * string * bool * 'h))
+)
+"src/ext/disjoint/analysis.ml" 297 7245 7257 "src/ext/disjoint/analysis.ml" 297 7245 7263
+type(
+  string
+)
+ident(
+  def access "src/ext/disjoint/analysis.ml" 299 7315 7322 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 297 7245 7266 "src/ext/disjoint/analysis.ml" 297 7245 7276
+type(
+  bool -> string
+)
+ident(
+  int_ref get_access "src/ext/disjoint/analysis.ml" 290 7041 7045 "src/ext/disjoint/analysis.ml" 290 7041 7055
+)
+"src/ext/disjoint/analysis.ml" 297 7245 7277 "src/ext/disjoint/analysis.ml" 297 7245 7278
+type(
+  bool
+)
+ident(
+  int_ref w "src/ext/disjoint/analysis.ml" 296 7149 7189 "src/ext/disjoint/analysis.ml" 296 7149 7190
+)
+"src/ext/disjoint/analysis.ml" 297 7245 7266 "src/ext/disjoint/analysis.ml" 297 7245 7278
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 297 7245 7283 "src/ext/disjoint/analysis.ml" 297 7245 7290
+type(
+  string
+)
+ident(
+  def access' "src/ext/disjoint/analysis.ml" 299 7315 7322 "src/ext/disjoint/analysis.ml" 299 7315 7424
+)
+"src/ext/disjoint/analysis.ml" 297 7245 7293 "src/ext/disjoint/analysis.ml" 297 7245 7303
+type(
+  bool -> string
+)
+ident(
+  int_ref get_access "src/ext/disjoint/analysis.ml" 290 7041 7045 "src/ext/disjoint/analysis.ml" 290 7041 7055
+)
+"src/ext/disjoint/analysis.ml" 297 7245 7304 "src/ext/disjoint/analysis.ml" 297 7245 7306
+type(
+  bool
+)
+ident(
+  int_ref w' "src/ext/disjoint/analysis.ml" 296 7149 7236 "src/ext/disjoint/analysis.ml" 296 7149 7238
+)
+"src/ext/disjoint/analysis.ml" 297 7245 7293 "src/ext/disjoint/analysis.ml" 297 7245 7306
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 299 7315 7322 "src/ext/disjoint/analysis.ml" 299 7315 7327
+type(
+  (string ->
+   string ->
+   int ->
+   string -> string -> string -> string -> int -> string -> string -> unit,
+   unit, Pretty.doc, unit)
+  format4 ->
+  string ->
+  string ->
+  int ->
+  string -> string -> string -> string -> int -> string -> string -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/disjoint/analysis.ml" 299 7315 7328 "src/ext/disjoint/analysis.ml" 299 7315 7367
+type(
+  (string ->
+   string ->
+   int ->
+   string -> string -> string -> string -> int -> string -> string -> unit,
+   unit, Pretty.doc, unit)
+  format4
+)
+"src/ext/disjoint/analysis.ml" 299 7315 7368 "src/ext/disjoint/analysis.ml" 299 7315 7373
+type(
+  string
+)
+ident(
+  int_ref tname "src/ext/disjoint/analysis.ml" 296 7149 7157 "src/ext/disjoint/analysis.ml" 296 7149 7162
+)
+"src/ext/disjoint/analysis.ml" 299 7315 7374 "src/ext/disjoint/analysis.ml" 299 7315 7379
+type(
+  string
+)
+ident(
+  int_ref fname "src/ext/disjoint/analysis.ml" 296 7149 7163 "src/ext/disjoint/analysis.ml" 296 7149 7168
+)
+"src/ext/disjoint/analysis.ml" 299 7315 7380 "src/ext/disjoint/analysis.ml" 299 7315 7382
+type(
+  int
+)
+ident(
+  int_ref ln "src/ext/disjoint/analysis.ml" 296 7149 7182 "src/ext/disjoint/analysis.ml" 296 7149 7184
+)
+"src/ext/disjoint/analysis.ml" 299 7315 7383 "src/ext/disjoint/analysis.ml" 299 7315 7386
+type(
+  string
+)
+ident(
+  int_ref var "src/ext/disjoint/analysis.ml" 296 7149 7185 "src/ext/disjoint/analysis.ml" 296 7149 7188
+)
+"src/ext/disjoint/analysis.ml" 299 7315 7387 "src/ext/disjoint/analysis.ml" 299 7315 7393
+type(
+  string
+)
+ident(
+  int_ref access "src/ext/disjoint/analysis.ml" 297 7245 7257 "src/ext/disjoint/analysis.ml" 297 7245 7263
+)
+"src/ext/disjoint/analysis.ml" 299 7315 7394 "src/ext/disjoint/analysis.ml" 299 7315 7400
+type(
+  string
+)
+ident(
+  int_ref tname' "src/ext/disjoint/analysis.ml" 296 7149 7197 "src/ext/disjoint/analysis.ml" 296 7149 7203
+)
+"src/ext/disjoint/analysis.ml" 299 7315 7401 "src/ext/disjoint/analysis.ml" 299 7315 7407
+type(
+  string
+)
+ident(
+  int_ref fname' "src/ext/disjoint/analysis.ml" 296 7149 7204 "src/ext/disjoint/analysis.ml" 296 7149 7210
+)
+"src/ext/disjoint/analysis.ml" 299 7315 7408 "src/ext/disjoint/analysis.ml" 299 7315 7411
+type(
+  int
+)
+ident(
+  int_ref ln' "src/ext/disjoint/analysis.ml" 296 7149 7227 "src/ext/disjoint/analysis.ml" 296 7149 7230
+)
+"src/ext/disjoint/analysis.ml" 299 7315 7412 "src/ext/disjoint/analysis.ml" 299 7315 7416
+type(
+  string
+)
+ident(
+  int_ref var' "src/ext/disjoint/analysis.ml" 296 7149 7231 "src/ext/disjoint/analysis.ml" 296 7149 7235
+)
+"src/ext/disjoint/analysis.ml" 299 7315 7417 "src/ext/disjoint/analysis.ml" 299 7315 7424
+type(
+  string
+)
+ident(
+  int_ref access' "src/ext/disjoint/analysis.ml" 297 7245 7283 "src/ext/disjoint/analysis.ml" 297 7245 7290
+)
+"src/ext/disjoint/analysis.ml" 299 7315 7322 "src/ext/disjoint/analysis.ml" 299 7315 7424
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 297 7245 7253 "src/ext/disjoint/analysis.ml" 299 7315 7424
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 295 7129 7133 "src/ext/disjoint/analysis.ml" 299 7315 7424
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 305 7432 7436 "src/ext/disjoint/analysis.ml" 305 7432 7443
+type(
+  Cil.file -> unit
+)
+ident(
+  def analyse "src/ext/disjoint/analysis.ml" 324 7974 7974 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 305 7432 7444 "src/ext/disjoint/analysis.ml" 305 7432 7445
+type(
+  Cil.file
+)
+ident(
+  def f "src/ext/disjoint/analysis.ml" 306 7448 7450 "src/ext/disjoint/analysis.ml" 314 7715 7735
+)
+"src/ext/disjoint/analysis.ml" 306 7448 7454 "src/ext/disjoint/analysis.ml" 306 7448 7458
+type(
+  Cil.global list
+)
+ident(
+  def funs "src/ext/disjoint/analysis.ml" 308 7499 7501 "src/ext/disjoint/analysis.ml" 314 7715 7735
+)
+"src/ext/disjoint/analysis.ml" 306 7448 7461 "src/ext/disjoint/analysis.ml" 306 7448 7469
+type(
+  Cil.file -> Cil.global list
+)
+ident(
+  int_ref getFuncs "src/ext/disjoint/analysis.ml" 150 3233 3237 "src/ext/disjoint/analysis.ml" 150 3233 3245
+)
+"src/ext/disjoint/analysis.ml" 306 7448 7470 "src/ext/disjoint/analysis.ml" 306 7448 7471
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/disjoint/analysis.ml" 305 7432 7444 "src/ext/disjoint/analysis.ml" 305 7432 7445
+)
+"src/ext/disjoint/analysis.ml" 306 7448 7461 "src/ext/disjoint/analysis.ml" 306 7448 7471
+call(
+  stack
+)
+type(
+  Cil.global list
+)
+"src/ext/disjoint/analysis.ml" 306 7448 7476 "src/ext/disjoint/analysis.ml" 306 7448 7481
+type(
+  Cil.global list
+)
+ident(
+  def svars "src/ext/disjoint/analysis.ml" 308 7499 7501 "src/ext/disjoint/analysis.ml" 314 7715 7735
+)
+"src/ext/disjoint/analysis.ml" 306 7448 7484 "src/ext/disjoint/analysis.ml" 306 7448 7491
+type(
+  Cil.file -> Cil.global list
+)
+ident(
+  int_ref getVars "src/ext/disjoint/analysis.ml" 165 3528 3532 "src/ext/disjoint/analysis.ml" 165 3528 3539
+)
+"src/ext/disjoint/analysis.ml" 306 7448 7492 "src/ext/disjoint/analysis.ml" 306 7448 7493
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/disjoint/analysis.ml" 305 7432 7444 "src/ext/disjoint/analysis.ml" 305 7432 7445
+)
+"src/ext/disjoint/analysis.ml" 306 7448 7484 "src/ext/disjoint/analysis.ml" 306 7448 7493
+call(
+  stack
+)
+type(
+  Cil.global list
+)
+"src/ext/disjoint/analysis.ml" 308 7499 7505 "src/ext/disjoint/analysis.ml" 308 7499 7512
+type(
+  Cil.fundec list
+)
+ident(
+  def fundecs "src/ext/disjoint/analysis.ml" 310 7570 7572 "src/ext/disjoint/analysis.ml" 314 7715 7735
+)
+"src/ext/disjoint/analysis.ml" 308 7499 7515 "src/ext/disjoint/analysis.ml" 308 7499 7527
+type(
+  Cil.global list -> Cil.fundec list
+)
+ident(
+  int_ref convertFuncs "src/ext/disjoint/analysis.ml" 157 3375 3383 "src/ext/disjoint/analysis.ml" 157 3375 3395
+)
+"src/ext/disjoint/analysis.ml" 308 7499 7528 "src/ext/disjoint/analysis.ml" 308 7499 7532
+type(
+  Cil.global list
+)
+ident(
+  int_ref funs "src/ext/disjoint/analysis.ml" 306 7448 7454 "src/ext/disjoint/analysis.ml" 306 7448 7458
+)
+"src/ext/disjoint/analysis.ml" 308 7499 7515 "src/ext/disjoint/analysis.ml" 308 7499 7532
+call(
+  stack
+)
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 308 7499 7537 "src/ext/disjoint/analysis.ml" 308 7499 7542
+type(
+  Cil.varinfo list
+)
+ident(
+  def gVars "src/ext/disjoint/analysis.ml" 310 7570 7572 "src/ext/disjoint/analysis.ml" 314 7715 7735
+)
+"src/ext/disjoint/analysis.ml" 308 7499 7545 "src/ext/disjoint/analysis.ml" 308 7499 7556
+type(
+  Cil.global list -> Cil.varinfo list
+)
+ident(
+  int_ref convertVars "src/ext/disjoint/analysis.ml" 174 3674 3682 "src/ext/disjoint/analysis.ml" 174 3674 3693
+)
+"src/ext/disjoint/analysis.ml" 308 7499 7557 "src/ext/disjoint/analysis.ml" 308 7499 7562
+type(
+  Cil.global list
+)
+ident(
+  int_ref svars "src/ext/disjoint/analysis.ml" 306 7448 7476 "src/ext/disjoint/analysis.ml" 306 7448 7481
+)
+"src/ext/disjoint/analysis.ml" 308 7499 7545 "src/ext/disjoint/analysis.ml" 308 7499 7562
+call(
+  stack
+)
+type(
+  Cil.varinfo list
+)
+"src/ext/disjoint/analysis.ml" 310 7570 7576 "src/ext/disjoint/analysis.ml" 310 7570 7590
+type(
+  Cil.fundec list
+)
+ident(
+  def fundecs_filter "src/ext/disjoint/analysis.ml" 313 7686 7688 "src/ext/disjoint/analysis.ml" 314 7715 7735
+)
+"src/ext/disjoint/analysis.ml" 310 7570 7593 "src/ext/disjoint/analysis.ml" 310 7570 7604
+type(
+  (Cil.fundec -> bool) -> Cil.fundec list -> Cil.fundec list
+)
+ident(
+  ext_ref List.filter
+)
+"src/ext/disjoint/analysis.ml" 310 7570 7609 "src/ext/disjoint/analysis.ml" 310 7570 7610
+type(
+  Cil.fundec
+)
+ident(
+  def x "src/ext/disjoint/analysis.ml" 310 7570 7614 "src/ext/disjoint/analysis.ml" 310 7570 7640
+)
+"src/ext/disjoint/analysis.ml" 310 7570 7614 "src/ext/disjoint/analysis.ml" 310 7570 7617
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/disjoint/analysis.ml" 310 7570 7618 "src/ext/disjoint/analysis.ml" 310 7570 7619
+type(
+  Cil.fundec
+)
+ident(
+  int_ref x "src/ext/disjoint/analysis.ml" 310 7570 7609 "src/ext/disjoint/analysis.ml" 310 7570 7610
+)
+"src/ext/disjoint/analysis.ml" 310 7570 7618 "src/ext/disjoint/analysis.ml" 310 7570 7624
+type(
+  Cil.varinfo
+)
+"src/ext/disjoint/analysis.ml" 310 7570 7618 "src/ext/disjoint/analysis.ml" 310 7570 7630
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 310 7570 7631 "src/ext/disjoint/analysis.ml" 310 7570 7632
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/disjoint/analysis.ml" 310 7570 7633 "src/ext/disjoint/analysis.ml" 310 7570 7639
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 310 7570 7617 "src/ext/disjoint/analysis.ml" 310 7570 7640
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 310 7570 7614 "src/ext/disjoint/analysis.ml" 310 7570 7640
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 310 7570 7604 "src/ext/disjoint/analysis.ml" 310 7570 7641
+type(
+  Cil.fundec -> bool
+)
+"src/ext/disjoint/analysis.ml" 310 7570 7642 "src/ext/disjoint/analysis.ml" 310 7570 7649
+type(
+  Cil.fundec list
+)
+ident(
+  int_ref fundecs "src/ext/disjoint/analysis.ml" 308 7499 7505 "src/ext/disjoint/analysis.ml" 308 7499 7512
+)
+"src/ext/disjoint/analysis.ml" 310 7570 7593 "src/ext/disjoint/analysis.ml" 310 7570 7649
+call(
+  stack
+)
+type(
+  Cil.fundec list
+)
+"src/ext/disjoint/analysis.ml" 311 7650 7656 "src/ext/disjoint/analysis.ml" 311 7650 7664
+type(
+  task list
+)
+ident(
+  def taskList "src/ext/disjoint/analysis.ml" 313 7686 7688 "src/ext/disjoint/analysis.ml" 314 7715 7735
+)
+"src/ext/disjoint/analysis.ml" 311 7650 7667 "src/ext/disjoint/analysis.ml" 311 7650 7678
+type(
+  Cil.file -> task list
+)
+ident(
+  int_ref getTaskList "src/ext/disjoint/analysis.ml" 118 2630 2634 "src/ext/disjoint/analysis.ml" 118 2630 2645
+)
+"src/ext/disjoint/analysis.ml" 311 7650 7679 "src/ext/disjoint/analysis.ml" 311 7650 7680
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/disjoint/analysis.ml" 305 7432 7444 "src/ext/disjoint/analysis.ml" 305 7432 7445
+)
+"src/ext/disjoint/analysis.ml" 311 7650 7667 "src/ext/disjoint/analysis.ml" 311 7650 7680
+call(
+  stack
+)
+type(
+  task list
+)
+"src/ext/disjoint/analysis.ml" 313 7686 7688 "src/ext/disjoint/analysis.ml" 313 7686 7704
+type(
+  task list -> unit
+)
+ident(
+  int_ref display_taskList "src/ext/disjoint/analysis.ml" 33 733 741 "src/ext/disjoint/analysis.ml" 33 733 757
+)
+"src/ext/disjoint/analysis.ml" 313 7686 7705 "src/ext/disjoint/analysis.ml" 313 7686 7713
+type(
+  task list
+)
+ident(
+  int_ref taskList "src/ext/disjoint/analysis.ml" 311 7650 7656 "src/ext/disjoint/analysis.ml" 311 7650 7664
+)
+"src/ext/disjoint/analysis.ml" 313 7686 7688 "src/ext/disjoint/analysis.ml" 313 7686 7713
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 314 7715 7717 "src/ext/disjoint/analysis.ml" 314 7715 7722
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.log
+)
+"src/ext/disjoint/analysis.ml" 314 7715 7723 "src/ext/disjoint/analysis.ml" 314 7715 7735
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/ext/disjoint/analysis.ml" 314 7715 7717 "src/ext/disjoint/analysis.ml" 314 7715 7735
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 313 7686 7688 "src/ext/disjoint/analysis.ml" 314 7715 7735
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 310 7570 7572 "src/ext/disjoint/analysis.ml" 314 7715 7735
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 308 7499 7501 "src/ext/disjoint/analysis.ml" 314 7715 7735
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 306 7448 7450 "src/ext/disjoint/analysis.ml" 314 7715 7735
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 324 7974 7978 "src/ext/disjoint/analysis.ml" 324 7974 7984
+type(
+  Cil.file -> unit
+)
+ident(
+  def mainls "src/ext/disjoint/analysis.ml" 327 8012 8012 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 324 7974 7986 "src/ext/disjoint/analysis.ml" 324 7974 7987
+type(
+  Cil.file
+)
+ident(
+  def f "src/ext/disjoint/analysis.ml" 325 7998 8000 "src/ext/disjoint/analysis.ml" 325 7998 8009
+)
+"src/ext/disjoint/analysis.ml" 325 7998 8000 "src/ext/disjoint/analysis.ml" 325 7998 8007
+type(
+  Cil.file -> unit
+)
+ident(
+  int_ref analyse "src/ext/disjoint/analysis.ml" 305 7432 7436 "src/ext/disjoint/analysis.ml" 305 7432 7443
+)
+"src/ext/disjoint/analysis.ml" 325 7998 8008 "src/ext/disjoint/analysis.ml" 325 7998 8009
+type(
+  Cil.file
+)
+ident(
+  int_ref f "src/ext/disjoint/analysis.ml" 324 7974 7986 "src/ext/disjoint/analysis.ml" 324 7974 7987
+)
+"src/ext/disjoint/analysis.ml" 325 7998 8000 "src/ext/disjoint/analysis.ml" 325 7998 8009
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 327 8012 8016 "src/ext/disjoint/analysis.ml" 327 8012 8023
+type(
+  Feature.t
+)
+ident(
+  def feature "src/ext/disjoint/analysis.ml" 336 8160 8160 "src/ext/disjoint/analysis.ml" 1 0 -1
+)
+"src/ext/disjoint/analysis.ml" 328 8027 8039 "src/ext/disjoint/analysis.ml" 328 8027 8049
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 329 8051 8064 "src/ext/disjoint/analysis.ml" 329 8051 8069
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 330 8071 8088 "src/ext/disjoint/analysis.ml" 330 8071 8098
+type(
+  string
+)
+"src/ext/disjoint/analysis.ml" 331 8100 8114 "src/ext/disjoint/analysis.ml" 331 8100 8116
+type(
+  (string * Arg.spec * string) list
+)
+"src/ext/disjoint/analysis.ml" 332 8118 8128 "src/ext/disjoint/analysis.ml" 332 8118 8134
+type(
+  Cil.file -> unit
+)
+ident(
+  int_ref mainls "src/ext/disjoint/analysis.ml" 324 7974 7978 "src/ext/disjoint/analysis.ml" 324 7974 7984
+)
+"src/ext/disjoint/analysis.ml" 333 8136 8152 "src/ext/disjoint/analysis.ml" 333 8136 8156
+type(
+  bool
+)
+"src/ext/disjoint/analysis.ml" 328 8027 8027 "src/ext/disjoint/analysis.ml" 334 8157 8158
+type(
+  Feature.t
+)
+"src/ext/disjoint/analysis.ml" 336 8160 8164 "src/ext/disjoint/analysis.ml" 336 8160 8166
+type(
+  unit
+)
+"src/ext/disjoint/analysis.ml" 336 8160 8169 "src/ext/disjoint/analysis.ml" 336 8160 8185
+type(
+  Feature.t -> unit
+)
+ident(
+  ext_ref Feature.register
+)
+"src/ext/disjoint/analysis.ml" 336 8160 8186 "src/ext/disjoint/analysis.ml" 336 8160 8193
+type(
+  Feature.t
+)
+ident(
+  int_ref feature "src/ext/disjoint/analysis.ml" 327 8012 8016 "src/ext/disjoint/analysis.ml" 327 8012 8023
+)
+"src/ext/disjoint/analysis.ml" 336 8160 8169 "src/ext/disjoint/analysis.ml" 336 8160 8193
+call(
+  stack
+)
+type(
+  unit
+)

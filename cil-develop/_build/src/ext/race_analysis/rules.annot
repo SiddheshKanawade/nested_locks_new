@@ -1,0 +1,3593 @@
+"src/ext/race_analysis/rules.ml" 8 80 84 "src/ext/race_analysis/rules.ml" 8 80 100
+type(
+  result -> string
+)
+ident(
+  def string_of_result "src/ext/race_analysis/rules.ml" 14 177 177 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 8 80 101 "src/ext/race_analysis/rules.ml" 8 80 102
+type(
+  result
+)
+ident(
+  def r "src/ext/race_analysis/rules.ml" 9 105 107 "src/ext/race_analysis/rules.ml" 11 146 172
+)
+"src/ext/race_analysis/rules.ml" 9 105 113 "src/ext/race_analysis/rules.ml" 9 105 114
+type(
+  result
+)
+ident(
+  int_ref r "src/ext/race_analysis/rules.ml" 8 80 101 "src/ext/race_analysis/rules.ml" 8 80 102
+)
+"src/ext/race_analysis/rules.ml" 10 120 124 "src/ext/race_analysis/rules.ml" 10 120 135
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 10 120 139 "src/ext/race_analysis/rules.ml" 10 120 145
+type(
+  string
+)
+"src/ext/race_analysis/rules.ml" 11 146 150 "src/ext/race_analysis/rules.ml" 11 146 158
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 11 146 162 "src/ext/race_analysis/rules.ml" 11 146 172
+type(
+  string
+)
+"src/ext/race_analysis/rules.ml" 9 105 107 "src/ext/race_analysis/rules.ml" 11 146 172
+type(
+  string
+)
+"src/ext/race_analysis/rules.ml" 27 432 440 "src/ext/race_analysis/rules.ml" 27 432 445
+type(
+  task list -> task -> bool
+)
+ident(
+  def check "src/ext/race_analysis/rules.ml" 27 432 432 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 27 432 446 "src/ext/race_analysis/rules.ml" 27 432 451
+type(
+  task list
+)
+ident(
+  def tlist "src/ext/race_analysis/rules.ml" 27 432 452 "src/ext/race_analysis/rules.ml" 31 558 591
+)
+"src/ext/race_analysis/rules.ml" 27 432 452 "src/ext/race_analysis/rules.ml" 27 432 454
+type(
+  task
+)
+ident(
+  def tk "src/ext/race_analysis/rules.ml" 28 457 463 "src/ext/race_analysis/rules.ml" 31 558 591
+)
+"src/ext/race_analysis/rules.ml" 28 457 469 "src/ext/race_analysis/rules.ml" 28 457 474
+type(
+  task list
+)
+ident(
+  int_ref tlist "src/ext/race_analysis/rules.ml" 27 432 446 "src/ext/race_analysis/rules.ml" 27 432 451
+)
+"src/ext/race_analysis/rules.ml" 29 480 488 "src/ext/race_analysis/rules.ml" 29 480 490
+type(
+  task list
+)
+"src/ext/race_analysis/rules.ml" 29 480 494 "src/ext/race_analysis/rules.ml" 29 480 499
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 30 500 508 "src/ext/race_analysis/rules.ml" 30 500 509
+type(
+  task
+)
+ident(
+  def h "src/ext/race_analysis/rules.ml" 30 500 518 "src/ext/race_analysis/rules.ml" 31 558 591
+)
+"src/ext/race_analysis/rules.ml" 30 500 513 "src/ext/race_analysis/rules.ml" 30 500 514
+type(
+  task list
+)
+ident(
+  def t "src/ext/race_analysis/rules.ml" 30 500 518 "src/ext/race_analysis/rules.ml" 31 558 591
+)
+"src/ext/race_analysis/rules.ml" 30 500 508 "src/ext/race_analysis/rules.ml" 30 500 514
+type(
+  task list
+)
+"src/ext/race_analysis/rules.ml" 30 500 522 "src/ext/race_analysis/rules.ml" 30 500 523
+type(
+  task
+)
+ident(
+  int_ref h "src/ext/race_analysis/rules.ml" 30 500 508 "src/ext/race_analysis/rules.ml" 30 500 509
+)
+"src/ext/race_analysis/rules.ml" 30 500 522 "src/ext/race_analysis/rules.ml" 30 500 532
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 30 500 533 "src/ext/race_analysis/rules.ml" 30 500 534
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ext/race_analysis/rules.ml" 30 500 535 "src/ext/race_analysis/rules.ml" 30 500 537
+type(
+  task
+)
+ident(
+  int_ref tk "src/ext/race_analysis/rules.ml" 27 432 452 "src/ext/race_analysis/rules.ml" 27 432 454
+)
+"src/ext/race_analysis/rules.ml" 30 500 535 "src/ext/race_analysis/rules.ml" 30 500 546
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 30 500 521 "src/ext/race_analysis/rules.ml" 30 500 547
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 30 500 553 "src/ext/race_analysis/rules.ml" 30 500 557
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 31 558 581 "src/ext/race_analysis/rules.ml" 31 558 586
+type(
+  task list -> task -> bool
+)
+ident(
+  int_ref check "src/ext/race_analysis/rules.ml" 27 432 440 "src/ext/race_analysis/rules.ml" 27 432 445
+)
+"src/ext/race_analysis/rules.ml" 31 558 587 "src/ext/race_analysis/rules.ml" 31 558 588
+type(
+  task list
+)
+ident(
+  int_ref t "src/ext/race_analysis/rules.ml" 30 500 513 "src/ext/race_analysis/rules.ml" 30 500 514
+)
+"src/ext/race_analysis/rules.ml" 31 558 589 "src/ext/race_analysis/rules.ml" 31 558 591
+type(
+  task
+)
+ident(
+  int_ref tk "src/ext/race_analysis/rules.ml" 27 432 452 "src/ext/race_analysis/rules.ml" 27 432 454
+)
+"src/ext/race_analysis/rules.ml" 31 558 581 "src/ext/race_analysis/rules.ml" 31 558 591
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 30 500 518 "src/ext/race_analysis/rules.ml" 31 558 591
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 28 457 463 "src/ext/race_analysis/rules.ml" 31 558 591
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 33 593 597 "src/ext/race_analysis/rules.ml" 33 593 602
+type(
+  task -> task -> task list -> result
+)
+ident(
+  def rule1 "src/ext/race_analysis/rules.ml" 43 893 893 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 33 593 604 "src/ext/race_analysis/rules.ml" 33 593 606
+type(
+  task
+)
+ident(
+  def t1 "src/ext/race_analysis/rules.ml" 33 593 615 "src/ext/race_analysis/rules.ml" 36 770 788
+)
+"src/ext/race_analysis/rules.ml" 33 593 616 "src/ext/race_analysis/rules.ml" 33 593 618
+type(
+  task
+)
+ident(
+  def t2 "src/ext/race_analysis/rules.ml" 33 593 627 "src/ext/race_analysis/rules.ml" 36 770 788
+)
+"src/ext/race_analysis/rules.ml" 33 593 628 "src/ext/race_analysis/rules.ml" 33 593 633
+type(
+  task list
+)
+ident(
+  def tasks "src/ext/race_analysis/rules.ml" 33 593 647 "src/ext/race_analysis/rules.ml" 36 770 788
+)
+"src/ext/race_analysis/rules.ml" 34 658 660 "src/ext/race_analysis/rules.ml" 34 658 673
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/ext/race_analysis/rules.ml" 34 658 674 "src/ext/race_analysis/rules.ml" 34 658 695
+type(
+  string
+)
+"src/ext/race_analysis/rules.ml" 34 658 660 "src/ext/race_analysis/rules.ml" 34 658 695
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/race_analysis/rules.ml" 35 697 703 "src/ext/race_analysis/rules.ml" 35 697 705
+type(
+  task
+)
+ident(
+  int_ref t1 "src/ext/race_analysis/rules.ml" 33 593 604 "src/ext/race_analysis/rules.ml" 33 593 606
+)
+"src/ext/race_analysis/rules.ml" 35 697 703 "src/ext/race_analysis/rules.ml" 35 697 714
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 35 697 715 "src/ext/race_analysis/rules.ml" 35 697 716
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/race_analysis/rules.ml" 35 697 717 "src/ext/race_analysis/rules.ml" 35 697 719
+type(
+  task
+)
+ident(
+  int_ref t2 "src/ext/race_analysis/rules.ml" 33 593 616 "src/ext/race_analysis/rules.ml" 33 593 618
+)
+"src/ext/race_analysis/rules.ml" 35 697 717 "src/ext/race_analysis/rules.ml" 35 697 728
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 35 697 702 "src/ext/race_analysis/rules.ml" 35 697 729
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 35 697 730 "src/ext/race_analysis/rules.ml" 35 697 732
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/race_analysis/rules.ml" 35 697 734 "src/ext/race_analysis/rules.ml" 35 697 737
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/race_analysis/rules.ml" 35 697 739 "src/ext/race_analysis/rules.ml" 35 697 744
+type(
+  task list -> task -> bool
+)
+ident(
+  int_ref check "src/ext/race_analysis/rules.ml" 27 432 440 "src/ext/race_analysis/rules.ml" 27 432 445
+)
+"src/ext/race_analysis/rules.ml" 35 697 745 "src/ext/race_analysis/rules.ml" 35 697 750
+type(
+  task list
+)
+ident(
+  int_ref tasks "src/ext/race_analysis/rules.ml" 33 593 628 "src/ext/race_analysis/rules.ml" 33 593 633
+)
+"src/ext/race_analysis/rules.ml" 35 697 751 "src/ext/race_analysis/rules.ml" 35 697 753
+type(
+  task
+)
+ident(
+  int_ref t1 "src/ext/race_analysis/rules.ml" 33 593 604 "src/ext/race_analysis/rules.ml" 33 593 606
+)
+"src/ext/race_analysis/rules.ml" 35 697 738 "src/ext/race_analysis/rules.ml" 35 697 754
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 35 697 733 "src/ext/race_analysis/rules.ml" 35 697 755
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 35 697 702 "src/ext/race_analysis/rules.ml" 35 697 755
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 35 697 761 "src/ext/race_analysis/rules.ml" 35 697 769
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 36 770 777 "src/ext/race_analysis/rules.ml" 36 770 788
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 35 697 699 "src/ext/race_analysis/rules.ml" 36 770 788
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 34 658 660 "src/ext/race_analysis/rules.ml" 36 770 788
+type(
+  result
+)
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 43 893 897 "src/ext/race_analysis/rules.ml" 43 893 902
+type(
+  task -> task -> task list -> result
+)
+ident(
+  def rule2 "src/ext/race_analysis/rules.ml" 49 1107 1107 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 43 893 904 "src/ext/race_analysis/rules.ml" 43 893 906
+type(
+  task
+)
+ident(
+  def t1 "src/ext/race_analysis/rules.ml" 43 893 915 "src/ext/race_analysis/rules.ml" 46 1050 1068
+)
+"src/ext/race_analysis/rules.ml" 43 893 916 "src/ext/race_analysis/rules.ml" 43 893 918
+type(
+  task
+)
+ident(
+  def t2 "src/ext/race_analysis/rules.ml" 43 893 927 "src/ext/race_analysis/rules.ml" 46 1050 1068
+)
+"src/ext/race_analysis/rules.ml" 43 893 928 "src/ext/race_analysis/rules.ml" 43 893 933
+type(
+  task list
+)
+ident(
+  def tasks "src/ext/race_analysis/rules.ml" 43 893 947 "src/ext/race_analysis/rules.ml" 46 1050 1068
+)
+"src/ext/race_analysis/rules.ml" 44 958 960 "src/ext/race_analysis/rules.ml" 44 958 973
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/ext/race_analysis/rules.ml" 44 958 974 "src/ext/race_analysis/rules.ml" 44 958 995
+type(
+  string
+)
+"src/ext/race_analysis/rules.ml" 44 958 960 "src/ext/race_analysis/rules.ml" 44 958 995
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/race_analysis/rules.ml" 45 997 1003 "src/ext/race_analysis/rules.ml" 45 997 1005
+type(
+  task
+)
+ident(
+  int_ref t1 "src/ext/race_analysis/rules.ml" 43 893 904 "src/ext/race_analysis/rules.ml" 43 893 906
+)
+"src/ext/race_analysis/rules.ml" 45 997 1003 "src/ext/race_analysis/rules.ml" 45 997 1017
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 45 997 1018 "src/ext/race_analysis/rules.ml" 45 997 1019
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/race_analysis/rules.ml" 45 997 1020 "src/ext/race_analysis/rules.ml" 45 997 1022
+type(
+  task
+)
+ident(
+  int_ref t2 "src/ext/race_analysis/rules.ml" 43 893 916 "src/ext/race_analysis/rules.ml" 43 893 918
+)
+"src/ext/race_analysis/rules.ml" 45 997 1020 "src/ext/race_analysis/rules.ml" 45 997 1034
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 45 997 1002 "src/ext/race_analysis/rules.ml" 45 997 1035
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 45 997 1041 "src/ext/race_analysis/rules.ml" 45 997 1049
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 46 1050 1057 "src/ext/race_analysis/rules.ml" 46 1050 1068
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 45 997 999 "src/ext/race_analysis/rules.ml" 46 1050 1068
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 44 958 960 "src/ext/race_analysis/rules.ml" 46 1050 1068
+type(
+  result
+)
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 49 1107 1111 "src/ext/race_analysis/rules.ml" 49 1107 1121
+type(
+  int -> int -> bool
+)
+ident(
+  def isMultiple "src/ext/race_analysis/rules.ml" 54 1278 1278 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 49 1107 1122 "src/ext/race_analysis/rules.ml" 49 1107 1124
+type(
+  int
+)
+ident(
+  def a1 "src/ext/race_analysis/rules.ml" 49 1107 1125 "src/ext/race_analysis/rules.ml" 51 1189 1234
+)
+"src/ext/race_analysis/rules.ml" 49 1107 1125 "src/ext/race_analysis/rules.ml" 49 1107 1127
+type(
+  int
+)
+ident(
+  def a2 "src/ext/race_analysis/rules.ml" 50 1130 1131 "src/ext/race_analysis/rules.ml" 51 1189 1234
+)
+"src/ext/race_analysis/rules.ml" 50 1130 1135 "src/ext/race_analysis/rules.ml" 50 1130 1137
+type(
+  int
+)
+ident(
+  int_ref a1 "src/ext/race_analysis/rules.ml" 49 1107 1122 "src/ext/race_analysis/rules.ml" 49 1107 1124
+)
+"src/ext/race_analysis/rules.ml" 50 1130 1138 "src/ext/race_analysis/rules.ml" 50 1130 1139
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ext/race_analysis/rules.ml" 50 1130 1140 "src/ext/race_analysis/rules.ml" 50 1130 1142
+type(
+  int
+)
+ident(
+  int_ref a2 "src/ext/race_analysis/rules.ml" 49 1107 1125 "src/ext/race_analysis/rules.ml" 49 1107 1127
+)
+"src/ext/race_analysis/rules.ml" 50 1130 1134 "src/ext/race_analysis/rules.ml" 50 1130 1143
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 50 1130 1153 "src/ext/race_analysis/rules.ml" 50 1130 1155
+type(
+  int
+)
+ident(
+  int_ref a1 "src/ext/race_analysis/rules.ml" 49 1107 1122 "src/ext/race_analysis/rules.ml" 49 1107 1124
+)
+"src/ext/race_analysis/rules.ml" 50 1130 1156 "src/ext/race_analysis/rules.ml" 50 1130 1159
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/ext/race_analysis/rules.ml" 50 1130 1160 "src/ext/race_analysis/rules.ml" 50 1130 1162
+type(
+  int
+)
+ident(
+  int_ref a2 "src/ext/race_analysis/rules.ml" 49 1107 1125 "src/ext/race_analysis/rules.ml" 49 1107 1127
+)
+"src/ext/race_analysis/rules.ml" 50 1130 1153 "src/ext/race_analysis/rules.ml" 50 1130 1162
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 50 1130 1163 "src/ext/race_analysis/rules.ml" 50 1130 1164
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/race_analysis/rules.ml" 50 1130 1165 "src/ext/race_analysis/rules.ml" 50 1130 1166
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 50 1130 1152 "src/ext/race_analysis/rules.ml" 50 1130 1167
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 50 1130 1173 "src/ext/race_analysis/rules.ml" 50 1130 1177
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 50 1130 1183 "src/ext/race_analysis/rules.ml" 50 1130 1188
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 50 1130 1149 "src/ext/race_analysis/rules.ml" 50 1130 1188
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 51 1189 1199 "src/ext/race_analysis/rules.ml" 51 1189 1201
+type(
+  int
+)
+ident(
+  int_ref a2 "src/ext/race_analysis/rules.ml" 49 1107 1125 "src/ext/race_analysis/rules.ml" 49 1107 1127
+)
+"src/ext/race_analysis/rules.ml" 51 1189 1202 "src/ext/race_analysis/rules.ml" 51 1189 1205
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/ext/race_analysis/rules.ml" 51 1189 1206 "src/ext/race_analysis/rules.ml" 51 1189 1208
+type(
+  int
+)
+ident(
+  int_ref a1 "src/ext/race_analysis/rules.ml" 49 1107 1122 "src/ext/race_analysis/rules.ml" 49 1107 1124
+)
+"src/ext/race_analysis/rules.ml" 51 1189 1199 "src/ext/race_analysis/rules.ml" 51 1189 1208
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 51 1189 1209 "src/ext/race_analysis/rules.ml" 51 1189 1210
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/race_analysis/rules.ml" 51 1189 1211 "src/ext/race_analysis/rules.ml" 51 1189 1212
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 51 1189 1198 "src/ext/race_analysis/rules.ml" 51 1189 1213
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 51 1189 1219 "src/ext/race_analysis/rules.ml" 51 1189 1223
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 51 1189 1229 "src/ext/race_analysis/rules.ml" 51 1189 1234
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 51 1189 1195 "src/ext/race_analysis/rules.ml" 51 1189 1234
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 50 1130 1131 "src/ext/race_analysis/rules.ml" 51 1189 1234
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 54 1278 1286 "src/ext/race_analysis/rules.ml" 54 1278 1289
+type(
+  task list -> int
+)
+ident(
+  def sum "src/ext/race_analysis/rules.ml" 54 1278 1278 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 54 1278 1290 "src/ext/race_analysis/rules.ml" 54 1278 1292
+type(
+  task list
+)
+ident(
+  def lt "src/ext/race_analysis/rules.ml" 55 1295 1297 "src/ext/race_analysis/rules.ml" 57 1323 1351
+)
+"src/ext/race_analysis/rules.ml" 55 1295 1303 "src/ext/race_analysis/rules.ml" 55 1295 1305
+type(
+  task list
+)
+ident(
+  int_ref lt "src/ext/race_analysis/rules.ml" 54 1278 1290 "src/ext/race_analysis/rules.ml" 54 1278 1292
+)
+"src/ext/race_analysis/rules.ml" 56 1311 1315 "src/ext/race_analysis/rules.ml" 56 1311 1317
+type(
+  task list
+)
+"src/ext/race_analysis/rules.ml" 56 1311 1321 "src/ext/race_analysis/rules.ml" 56 1311 1322
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 57 1323 1327 "src/ext/race_analysis/rules.ml" 57 1323 1328
+type(
+  task
+)
+ident(
+  def h "src/ext/race_analysis/rules.ml" 57 1323 1335 "src/ext/race_analysis/rules.ml" 57 1323 1351
+)
+"src/ext/race_analysis/rules.ml" 57 1323 1330 "src/ext/race_analysis/rules.ml" 57 1323 1331
+type(
+  task list
+)
+ident(
+  def t "src/ext/race_analysis/rules.ml" 57 1323 1335 "src/ext/race_analysis/rules.ml" 57 1323 1351
+)
+"src/ext/race_analysis/rules.ml" 57 1323 1327 "src/ext/race_analysis/rules.ml" 57 1323 1331
+type(
+  task list
+)
+"src/ext/race_analysis/rules.ml" 57 1323 1335 "src/ext/race_analysis/rules.ml" 57 1323 1336
+type(
+  task
+)
+ident(
+  int_ref h "src/ext/race_analysis/rules.ml" 57 1323 1327 "src/ext/race_analysis/rules.ml" 57 1323 1328
+)
+"src/ext/race_analysis/rules.ml" 57 1323 1335 "src/ext/race_analysis/rules.ml" 57 1323 1341
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 57 1323 1342 "src/ext/race_analysis/rules.ml" 57 1323 1343
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/race_analysis/rules.ml" 57 1323 1345 "src/ext/race_analysis/rules.ml" 57 1323 1348
+type(
+  task list -> int
+)
+ident(
+  int_ref sum "src/ext/race_analysis/rules.ml" 54 1278 1286 "src/ext/race_analysis/rules.ml" 54 1278 1289
+)
+"src/ext/race_analysis/rules.ml" 57 1323 1349 "src/ext/race_analysis/rules.ml" 57 1323 1350
+type(
+  task list
+)
+ident(
+  int_ref t "src/ext/race_analysis/rules.ml" 57 1323 1330 "src/ext/race_analysis/rules.ml" 57 1323 1331
+)
+"src/ext/race_analysis/rules.ml" 57 1323 1344 "src/ext/race_analysis/rules.ml" 57 1323 1351
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 57 1323 1335 "src/ext/race_analysis/rules.ml" 57 1323 1351
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 55 1295 1297 "src/ext/race_analysis/rules.ml" 57 1323 1351
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 60 1406 1414 "src/ext/race_analysis/rules.ml" 60 1406 1426
+type(
+  int -> task list -> int
+)
+ident(
+  def interference "src/ext/race_analysis/rules.ml" 60 1406 1406 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 60 1406 1427 "src/ext/race_analysis/rules.ml" 60 1406 1434
+type(
+  int
+)
+ident(
+  def prev_rt "src/ext/race_analysis/rules.ml" 60 1406 1435 "src/ext/race_analysis/rules.ml" 63 1465 1599
+)
+"src/ext/race_analysis/rules.ml" 60 1406 1435 "src/ext/race_analysis/rules.ml" 60 1406 1437
+type(
+  task list
+)
+ident(
+  def lt "src/ext/race_analysis/rules.ml" 61 1439 1440 "src/ext/race_analysis/rules.ml" 63 1465 1599
+)
+"src/ext/race_analysis/rules.ml" 61 1439 1446 "src/ext/race_analysis/rules.ml" 61 1439 1448
+type(
+  task list
+)
+ident(
+  int_ref lt "src/ext/race_analysis/rules.ml" 60 1406 1435 "src/ext/race_analysis/rules.ml" 60 1406 1437
+)
+"src/ext/race_analysis/rules.ml" 62 1454 1457 "src/ext/race_analysis/rules.ml" 62 1454 1459
+type(
+  task list
+)
+"src/ext/race_analysis/rules.ml" 62 1454 1463 "src/ext/race_analysis/rules.ml" 62 1454 1464
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1468 "src/ext/race_analysis/rules.ml" 63 1465 1469
+type(
+  task
+)
+ident(
+  def h "src/ext/race_analysis/rules.ml" 63 1465 1478 "src/ext/race_analysis/rules.ml" 63 1465 1599
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1473 "src/ext/race_analysis/rules.ml" 63 1465 1474
+type(
+  task list
+)
+ident(
+  def t "src/ext/race_analysis/rules.ml" 63 1465 1478 "src/ext/race_analysis/rules.ml" 63 1465 1599
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1468 "src/ext/race_analysis/rules.ml" 63 1465 1474
+type(
+  task list
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1482 "src/ext/race_analysis/rules.ml" 63 1465 1486
+type(
+  int
+)
+ident(
+  def curr "src/ext/race_analysis/rules.ml" 63 1465 1573 "src/ext/race_analysis/rules.ml" 63 1465 1599
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1490 "src/ext/race_analysis/rules.ml" 63 1465 1502
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1504 "src/ext/race_analysis/rules.ml" 63 1465 1508
+type(
+  float -> float
+)
+ident(
+  ext_ref Pervasives.ceil
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1509 "src/ext/race_analysis/rules.ml" 63 1465 1521
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1522 "src/ext/race_analysis/rules.ml" 63 1465 1529
+type(
+  int
+)
+ident(
+  int_ref prev_rt "src/ext/race_analysis/rules.ml" 60 1406 1427 "src/ext/race_analysis/rules.ml" 60 1406 1434
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1509 "src/ext/race_analysis/rules.ml" 63 1465 1529
+type(
+  float
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1530 "src/ext/race_analysis/rules.ml" 63 1465 1532
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( /. )
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1533 "src/ext/race_analysis/rules.ml" 63 1465 1545
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1546 "src/ext/race_analysis/rules.ml" 63 1465 1547
+type(
+  task
+)
+ident(
+  int_ref h "src/ext/race_analysis/rules.ml" 63 1465 1468 "src/ext/race_analysis/rules.ml" 63 1465 1469
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1546 "src/ext/race_analysis/rules.ml" 63 1465 1559
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1533 "src/ext/race_analysis/rules.ml" 63 1465 1559
+type(
+  float
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1508 "src/ext/race_analysis/rules.ml" 63 1465 1560
+type(
+  float
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1503 "src/ext/race_analysis/rules.ml" 63 1465 1561
+type(
+  float
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1490 "src/ext/race_analysis/rules.ml" 63 1465 1561
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1561 "src/ext/race_analysis/rules.ml" 63 1465 1562
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1562 "src/ext/race_analysis/rules.ml" 63 1465 1563
+type(
+  task
+)
+ident(
+  int_ref h "src/ext/race_analysis/rules.ml" 63 1465 1468 "src/ext/race_analysis/rules.ml" 63 1465 1469
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1562 "src/ext/race_analysis/rules.ml" 63 1465 1568
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1489 "src/ext/race_analysis/rules.ml" 63 1465 1569
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1573 "src/ext/race_analysis/rules.ml" 63 1465 1577
+type(
+  int
+)
+ident(
+  int_ref curr "src/ext/race_analysis/rules.ml" 63 1465 1482 "src/ext/race_analysis/rules.ml" 63 1465 1486
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1578 "src/ext/race_analysis/rules.ml" 63 1465 1579
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1580 "src/ext/race_analysis/rules.ml" 63 1465 1592
+type(
+  int -> task list -> int
+)
+ident(
+  int_ref interference "src/ext/race_analysis/rules.ml" 60 1406 1414 "src/ext/race_analysis/rules.ml" 60 1406 1426
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1593 "src/ext/race_analysis/rules.ml" 63 1465 1597
+type(
+  int
+)
+ident(
+  int_ref curr "src/ext/race_analysis/rules.ml" 63 1465 1482 "src/ext/race_analysis/rules.ml" 63 1465 1486
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1598 "src/ext/race_analysis/rules.ml" 63 1465 1599
+type(
+  task list
+)
+ident(
+  int_ref t "src/ext/race_analysis/rules.ml" 63 1465 1473 "src/ext/race_analysis/rules.ml" 63 1465 1474
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1580 "src/ext/race_analysis/rules.ml" 63 1465 1599
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1573 "src/ext/race_analysis/rules.ml" 63 1465 1599
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 63 1465 1478 "src/ext/race_analysis/rules.ml" 63 1465 1599
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 61 1439 1440 "src/ext/race_analysis/rules.ml" 63 1465 1599
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 66 1679 1687 "src/ext/race_analysis/rules.ml" 66 1679 1692
+type(
+  task -> int -> int -> task list -> int
+)
+ident(
+  def check "src/ext/race_analysis/rules.ml" 66 1679 1679 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 66 1679 1693 "src/ext/race_analysis/rules.ml" 66 1679 1697
+type(
+  task
+)
+ident(
+  def task "src/ext/race_analysis/rules.ml" 66 1679 1698 "src/ext/race_analysis/rules.ml" 68 1737 1796
+)
+"src/ext/race_analysis/rules.ml" 66 1679 1698 "src/ext/race_analysis/rules.ml" 66 1679 1702
+type(
+  int
+)
+ident(
+  def prev "src/ext/race_analysis/rules.ml" 66 1679 1703 "src/ext/race_analysis/rules.ml" 68 1737 1796
+)
+"src/ext/race_analysis/rules.ml" 66 1679 1703 "src/ext/race_analysis/rules.ml" 66 1679 1706
+type(
+  int
+)
+ident(
+  def cur "src/ext/race_analysis/rules.ml" 66 1679 1707 "src/ext/race_analysis/rules.ml" 68 1737 1796
+)
+"src/ext/race_analysis/rules.ml" 66 1679 1707 "src/ext/race_analysis/rules.ml" 66 1679 1709
+type(
+  task list
+)
+ident(
+  def lt "src/ext/race_analysis/rules.ml" 67 1712 1713 "src/ext/race_analysis/rules.ml" 68 1737 1796
+)
+"src/ext/race_analysis/rules.ml" 67 1712 1716 "src/ext/race_analysis/rules.ml" 67 1712 1720
+type(
+  int
+)
+ident(
+  int_ref prev "src/ext/race_analysis/rules.ml" 66 1679 1698 "src/ext/race_analysis/rules.ml" 66 1679 1702
+)
+"src/ext/race_analysis/rules.ml" 67 1712 1721 "src/ext/race_analysis/rules.ml" 67 1712 1722
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/race_analysis/rules.ml" 67 1712 1723 "src/ext/race_analysis/rules.ml" 67 1712 1726
+type(
+  int
+)
+ident(
+  int_ref cur "src/ext/race_analysis/rules.ml" 66 1679 1703 "src/ext/race_analysis/rules.ml" 66 1679 1706
+)
+"src/ext/race_analysis/rules.ml" 67 1712 1716 "src/ext/race_analysis/rules.ml" 67 1712 1726
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 67 1712 1732 "src/ext/race_analysis/rules.ml" 67 1712 1736
+type(
+  int
+)
+ident(
+  int_ref prev "src/ext/race_analysis/rules.ml" 66 1679 1698 "src/ext/race_analysis/rules.ml" 66 1679 1702
+)
+"src/ext/race_analysis/rules.ml" 68 1737 1744 "src/ext/race_analysis/rules.ml" 68 1737 1749
+type(
+  task -> int -> int -> task list -> int
+)
+ident(
+  int_ref check "src/ext/race_analysis/rules.ml" 66 1679 1687 "src/ext/race_analysis/rules.ml" 66 1679 1692
+)
+"src/ext/race_analysis/rules.ml" 68 1737 1750 "src/ext/race_analysis/rules.ml" 68 1737 1754
+type(
+  task
+)
+ident(
+  int_ref task "src/ext/race_analysis/rules.ml" 66 1679 1693 "src/ext/race_analysis/rules.ml" 66 1679 1697
+)
+"src/ext/race_analysis/rules.ml" 68 1737 1755 "src/ext/race_analysis/rules.ml" 68 1737 1758
+type(
+  int
+)
+ident(
+  int_ref cur "src/ext/race_analysis/rules.ml" 66 1679 1703 "src/ext/race_analysis/rules.ml" 66 1679 1706
+)
+"src/ext/race_analysis/rules.ml" 68 1737 1760 "src/ext/race_analysis/rules.ml" 68 1737 1764
+type(
+  task
+)
+ident(
+  int_ref task "src/ext/race_analysis/rules.ml" 66 1679 1693 "src/ext/race_analysis/rules.ml" 66 1679 1697
+)
+"src/ext/race_analysis/rules.ml" 68 1737 1760 "src/ext/race_analysis/rules.ml" 68 1737 1769
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 68 1737 1770 "src/ext/race_analysis/rules.ml" 68 1737 1771
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/race_analysis/rules.ml" 68 1737 1772 "src/ext/race_analysis/rules.ml" 68 1737 1784
+type(
+  int -> task list -> int
+)
+ident(
+  int_ref interference "src/ext/race_analysis/rules.ml" 60 1406 1414 "src/ext/race_analysis/rules.ml" 60 1406 1426
+)
+"src/ext/race_analysis/rules.ml" 68 1737 1785 "src/ext/race_analysis/rules.ml" 68 1737 1788
+type(
+  int
+)
+ident(
+  int_ref cur "src/ext/race_analysis/rules.ml" 66 1679 1703 "src/ext/race_analysis/rules.ml" 66 1679 1706
+)
+"src/ext/race_analysis/rules.ml" 68 1737 1789 "src/ext/race_analysis/rules.ml" 68 1737 1791
+type(
+  task list
+)
+ident(
+  int_ref lt "src/ext/race_analysis/rules.ml" 66 1679 1707 "src/ext/race_analysis/rules.ml" 66 1679 1709
+)
+"src/ext/race_analysis/rules.ml" 68 1737 1772 "src/ext/race_analysis/rules.ml" 68 1737 1791
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 68 1737 1759 "src/ext/race_analysis/rules.ml" 68 1737 1792
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 68 1737 1793 "src/ext/race_analysis/rules.ml" 68 1737 1795
+type(
+  task list
+)
+ident(
+  int_ref lt "src/ext/race_analysis/rules.ml" 66 1679 1707 "src/ext/race_analysis/rules.ml" 66 1679 1709
+)
+"src/ext/race_analysis/rules.ml" 68 1737 1743 "src/ext/race_analysis/rules.ml" 68 1737 1796
+call(
+  tail
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 67 1712 1713 "src/ext/race_analysis/rules.ml" 68 1737 1796
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 71 1830 1834 "src/ext/race_analysis/rules.ml" 71 1830 1838
+type(
+  task -> task list -> int
+)
+ident(
+  def wcrt "src/ext/race_analysis/rules.ml" 81 2190 2190 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 71 1830 1839 "src/ext/race_analysis/rules.ml" 71 1830 1843
+type(
+  task
+)
+ident(
+  def task "src/ext/race_analysis/rules.ml" 71 1830 1844 "src/ext/race_analysis/rules.ml" 74 2028 2058
+)
+"src/ext/race_analysis/rules.ml" 71 1830 1844 "src/ext/race_analysis/rules.ml" 71 1830 1852
+type(
+  task list
+)
+ident(
+  def tasklist "src/ext/race_analysis/rules.ml" 72 1855 1857 "src/ext/race_analysis/rules.ml" 74 2028 2058
+)
+"src/ext/race_analysis/rules.ml" 72 1855 1861 "src/ext/race_analysis/rules.ml" 72 1855 1869
+type(
+  task list
+)
+ident(
+  def hp_tlist "src/ext/race_analysis/rules.ml" 73 1936 1940 "src/ext/race_analysis/rules.ml" 74 2028 2058
+)
+"src/ext/race_analysis/rules.ml" 72 1855 1872 "src/ext/race_analysis/rules.ml" 72 1855 1883
+type(
+  (task -> bool) -> task list -> task list
+)
+ident(
+  ext_ref List.filter
+)
+"src/ext/race_analysis/rules.ml" 72 1855 1889 "src/ext/race_analysis/rules.ml" 72 1855 1890
+type(
+  task
+)
+ident(
+  def x "src/ext/race_analysis/rules.ml" 72 1855 1894 "src/ext/race_analysis/rules.ml" 72 1855 1922
+)
+"src/ext/race_analysis/rules.ml" 72 1855 1895 "src/ext/race_analysis/rules.ml" 72 1855 1896
+type(
+  task
+)
+ident(
+  int_ref x "src/ext/race_analysis/rules.ml" 72 1855 1889 "src/ext/race_analysis/rules.ml" 72 1855 1890
+)
+"src/ext/race_analysis/rules.ml" 72 1855 1895 "src/ext/race_analysis/rules.ml" 72 1855 1905
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 72 1855 1906 "src/ext/race_analysis/rules.ml" 72 1855 1907
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ext/race_analysis/rules.ml" 72 1855 1908 "src/ext/race_analysis/rules.ml" 72 1855 1912
+type(
+  task
+)
+ident(
+  int_ref task "src/ext/race_analysis/rules.ml" 71 1830 1839 "src/ext/race_analysis/rules.ml" 71 1830 1843
+)
+"src/ext/race_analysis/rules.ml" 72 1855 1908 "src/ext/race_analysis/rules.ml" 72 1855 1921
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 72 1855 1894 "src/ext/race_analysis/rules.ml" 72 1855 1922
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 72 1855 1884 "src/ext/race_analysis/rules.ml" 72 1855 1923
+type(
+  task -> bool
+)
+"src/ext/race_analysis/rules.ml" 72 1855 1924 "src/ext/race_analysis/rules.ml" 72 1855 1932
+type(
+  task list
+)
+ident(
+  int_ref tasklist "src/ext/race_analysis/rules.ml" 71 1830 1844 "src/ext/race_analysis/rules.ml" 71 1830 1852
+)
+"src/ext/race_analysis/rules.ml" 72 1855 1872 "src/ext/race_analysis/rules.ml" 72 1855 1932
+call(
+  stack
+)
+type(
+  task list
+)
+"src/ext/race_analysis/rules.ml" 73 1936 1944 "src/ext/race_analysis/rules.ml" 73 1936 1946
+type(
+  int
+)
+ident(
+  def r0 "src/ext/race_analysis/rules.ml" 73 1936 1979 "src/ext/race_analysis/rules.ml" 74 2028 2058
+)
+"src/ext/race_analysis/rules.ml" 73 1936 1950 "src/ext/race_analysis/rules.ml" 73 1936 1954
+type(
+  task
+)
+ident(
+  int_ref task "src/ext/race_analysis/rules.ml" 71 1830 1839 "src/ext/race_analysis/rules.ml" 71 1830 1843
+)
+"src/ext/race_analysis/rules.ml" 73 1936 1950 "src/ext/race_analysis/rules.ml" 73 1936 1959
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 73 1936 1960 "src/ext/race_analysis/rules.ml" 73 1936 1961
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/race_analysis/rules.ml" 73 1936 1962 "src/ext/race_analysis/rules.ml" 73 1936 1965
+type(
+  task list -> int
+)
+ident(
+  int_ref sum "src/ext/race_analysis/rules.ml" 54 1278 1286 "src/ext/race_analysis/rules.ml" 54 1278 1289
+)
+"src/ext/race_analysis/rules.ml" 73 1936 1966 "src/ext/race_analysis/rules.ml" 73 1936 1974
+type(
+  task list
+)
+ident(
+  int_ref hp_tlist "src/ext/race_analysis/rules.ml" 72 1855 1861 "src/ext/race_analysis/rules.ml" 72 1855 1869
+)
+"src/ext/race_analysis/rules.ml" 73 1936 1962 "src/ext/race_analysis/rules.ml" 73 1936 1974
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 73 1936 1949 "src/ext/race_analysis/rules.ml" 73 1936 1975
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 73 1936 1983 "src/ext/race_analysis/rules.ml" 73 1936 1985
+type(
+  int
+)
+ident(
+  def r1 "src/ext/race_analysis/rules.ml" 74 2028 2033 "src/ext/race_analysis/rules.ml" 74 2028 2058
+)
+"src/ext/race_analysis/rules.ml" 73 1936 1988 "src/ext/race_analysis/rules.ml" 73 1936 1992
+type(
+  task
+)
+ident(
+  int_ref task "src/ext/race_analysis/rules.ml" 71 1830 1839 "src/ext/race_analysis/rules.ml" 71 1830 1843
+)
+"src/ext/race_analysis/rules.ml" 73 1936 1988 "src/ext/race_analysis/rules.ml" 73 1936 1997
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 73 1936 1998 "src/ext/race_analysis/rules.ml" 73 1936 1999
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/race_analysis/rules.ml" 73 1936 2000 "src/ext/race_analysis/rules.ml" 73 1936 2012
+type(
+  int -> task list -> int
+)
+ident(
+  int_ref interference "src/ext/race_analysis/rules.ml" 60 1406 1414 "src/ext/race_analysis/rules.ml" 60 1406 1426
+)
+"src/ext/race_analysis/rules.ml" 73 1936 2013 "src/ext/race_analysis/rules.ml" 73 1936 2015
+type(
+  int
+)
+ident(
+  int_ref r0 "src/ext/race_analysis/rules.ml" 73 1936 1944 "src/ext/race_analysis/rules.ml" 73 1936 1946
+)
+"src/ext/race_analysis/rules.ml" 73 1936 2016 "src/ext/race_analysis/rules.ml" 73 1936 2024
+type(
+  task list
+)
+ident(
+  int_ref hp_tlist "src/ext/race_analysis/rules.ml" 72 1855 1861 "src/ext/race_analysis/rules.ml" 72 1855 1869
+)
+"src/ext/race_analysis/rules.ml" 73 1936 2000 "src/ext/race_analysis/rules.ml" 73 1936 2024
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 73 1936 1988 "src/ext/race_analysis/rules.ml" 73 1936 2024
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 74 2028 2033 "src/ext/race_analysis/rules.ml" 74 2028 2038
+type(
+  task -> int -> int -> task list -> int
+)
+ident(
+  int_ref check "src/ext/race_analysis/rules.ml" 66 1679 1687 "src/ext/race_analysis/rules.ml" 66 1679 1692
+)
+"src/ext/race_analysis/rules.ml" 74 2028 2039 "src/ext/race_analysis/rules.ml" 74 2028 2043
+type(
+  task
+)
+ident(
+  int_ref task "src/ext/race_analysis/rules.ml" 71 1830 1839 "src/ext/race_analysis/rules.ml" 71 1830 1843
+)
+"src/ext/race_analysis/rules.ml" 74 2028 2044 "src/ext/race_analysis/rules.ml" 74 2028 2046
+type(
+  int
+)
+ident(
+  int_ref r0 "src/ext/race_analysis/rules.ml" 73 1936 1944 "src/ext/race_analysis/rules.ml" 73 1936 1946
+)
+"src/ext/race_analysis/rules.ml" 74 2028 2047 "src/ext/race_analysis/rules.ml" 74 2028 2049
+type(
+  int
+)
+ident(
+  int_ref r1 "src/ext/race_analysis/rules.ml" 73 1936 1983 "src/ext/race_analysis/rules.ml" 73 1936 1985
+)
+"src/ext/race_analysis/rules.ml" 74 2028 2050 "src/ext/race_analysis/rules.ml" 74 2028 2058
+type(
+  task list
+)
+ident(
+  int_ref hp_tlist "src/ext/race_analysis/rules.ml" 72 1855 1861 "src/ext/race_analysis/rules.ml" 72 1855 1869
+)
+"src/ext/race_analysis/rules.ml" 74 2028 2033 "src/ext/race_analysis/rules.ml" 74 2028 2058
+call(
+  tail
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 73 1936 1979 "src/ext/race_analysis/rules.ml" 74 2028 2058
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 73 1936 1940 "src/ext/race_analysis/rules.ml" 74 2028 2058
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 72 1855 1857 "src/ext/race_analysis/rules.ml" 74 2028 2058
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 81 2190 2194 "src/ext/race_analysis/rules.ml" 81 2190 2206
+type(
+  task -> task -> task * task
+)
+ident(
+  def get_low_high "src/ext/race_analysis/rules.ml" 90 2346 2346 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 81 2190 2207 "src/ext/race_analysis/rules.ml" 81 2190 2209
+type(
+  task
+)
+ident(
+  def t1 "src/ext/race_analysis/rules.ml" 81 2190 2210 "src/ext/race_analysis/rules.ml" 85 2300 2339
+)
+"src/ext/race_analysis/rules.ml" 81 2190 2210 "src/ext/race_analysis/rules.ml" 81 2190 2212
+type(
+  task
+)
+ident(
+  def t2 "src/ext/race_analysis/rules.ml" 82 2215 2217 "src/ext/race_analysis/rules.ml" 85 2300 2339
+)
+"src/ext/race_analysis/rules.ml" 82 2215 2221 "src/ext/race_analysis/rules.ml" 82 2215 2223
+type(
+  task
+)
+ident(
+  int_ref t1 "src/ext/race_analysis/rules.ml" 81 2190 2207 "src/ext/race_analysis/rules.ml" 81 2190 2209
+)
+"src/ext/race_analysis/rules.ml" 82 2215 2221 "src/ext/race_analysis/rules.ml" 82 2215 2232
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 82 2215 2233 "src/ext/race_analysis/rules.ml" 82 2215 2234
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ext/race_analysis/rules.ml" 82 2215 2235 "src/ext/race_analysis/rules.ml" 82 2215 2237
+type(
+  task
+)
+ident(
+  int_ref t2 "src/ext/race_analysis/rules.ml" 81 2190 2210 "src/ext/race_analysis/rules.ml" 81 2190 2212
+)
+"src/ext/race_analysis/rules.ml" 82 2215 2235 "src/ext/race_analysis/rules.ml" 82 2215 2246
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 82 2215 2220 "src/ext/race_analysis/rules.ml" 82 2215 2247
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 83 2253 2258 "src/ext/race_analysis/rules.ml" 83 2253 2261
+type(
+  task
+)
+ident(
+  def low "src/ext/race_analysis/rules.ml" 83 2253 2284 "src/ext/race_analysis/rules.ml" 83 2253 2292
+)
+"src/ext/race_analysis/rules.ml" 83 2253 2264 "src/ext/race_analysis/rules.ml" 83 2253 2266
+type(
+  task
+)
+ident(
+  int_ref t2 "src/ext/race_analysis/rules.ml" 81 2190 2210 "src/ext/race_analysis/rules.ml" 81 2190 2212
+)
+"src/ext/race_analysis/rules.ml" 83 2253 2271 "src/ext/race_analysis/rules.ml" 83 2253 2275
+type(
+  task
+)
+ident(
+  def high "src/ext/race_analysis/rules.ml" 83 2253 2284 "src/ext/race_analysis/rules.ml" 83 2253 2292
+)
+"src/ext/race_analysis/rules.ml" 83 2253 2278 "src/ext/race_analysis/rules.ml" 83 2253 2280
+type(
+  task
+)
+ident(
+  int_ref t1 "src/ext/race_analysis/rules.ml" 81 2190 2207 "src/ext/race_analysis/rules.ml" 81 2190 2209
+)
+"src/ext/race_analysis/rules.ml" 83 2253 2284 "src/ext/race_analysis/rules.ml" 83 2253 2287
+type(
+  task
+)
+ident(
+  int_ref low "src/ext/race_analysis/rules.ml" 83 2253 2258 "src/ext/race_analysis/rules.ml" 83 2253 2261
+)
+"src/ext/race_analysis/rules.ml" 83 2253 2288 "src/ext/race_analysis/rules.ml" 83 2253 2292
+type(
+  task
+)
+ident(
+  int_ref high "src/ext/race_analysis/rules.ml" 83 2253 2271 "src/ext/race_analysis/rules.ml" 83 2253 2275
+)
+"src/ext/race_analysis/rules.ml" 83 2253 2284 "src/ext/race_analysis/rules.ml" 83 2253 2292
+type(
+  task * task
+)
+"src/ext/race_analysis/rules.ml" 83 2253 2254 "src/ext/race_analysis/rules.ml" 83 2253 2292
+type(
+  task * task
+)
+"src/ext/race_analysis/rules.ml" 85 2300 2305 "src/ext/race_analysis/rules.ml" 85 2300 2308
+type(
+  task
+)
+ident(
+  def low "src/ext/race_analysis/rules.ml" 85 2300 2331 "src/ext/race_analysis/rules.ml" 85 2300 2339
+)
+"src/ext/race_analysis/rules.ml" 85 2300 2311 "src/ext/race_analysis/rules.ml" 85 2300 2313
+type(
+  task
+)
+ident(
+  int_ref t1 "src/ext/race_analysis/rules.ml" 81 2190 2207 "src/ext/race_analysis/rules.ml" 81 2190 2209
+)
+"src/ext/race_analysis/rules.ml" 85 2300 2318 "src/ext/race_analysis/rules.ml" 85 2300 2322
+type(
+  task
+)
+ident(
+  def high "src/ext/race_analysis/rules.ml" 85 2300 2331 "src/ext/race_analysis/rules.ml" 85 2300 2339
+)
+"src/ext/race_analysis/rules.ml" 85 2300 2325 "src/ext/race_analysis/rules.ml" 85 2300 2327
+type(
+  task
+)
+ident(
+  int_ref t2 "src/ext/race_analysis/rules.ml" 81 2190 2210 "src/ext/race_analysis/rules.ml" 81 2190 2212
+)
+"src/ext/race_analysis/rules.ml" 85 2300 2331 "src/ext/race_analysis/rules.ml" 85 2300 2334
+type(
+  task
+)
+ident(
+  int_ref low "src/ext/race_analysis/rules.ml" 85 2300 2305 "src/ext/race_analysis/rules.ml" 85 2300 2308
+)
+"src/ext/race_analysis/rules.ml" 85 2300 2335 "src/ext/race_analysis/rules.ml" 85 2300 2339
+type(
+  task
+)
+ident(
+  int_ref high "src/ext/race_analysis/rules.ml" 85 2300 2318 "src/ext/race_analysis/rules.ml" 85 2300 2322
+)
+"src/ext/race_analysis/rules.ml" 85 2300 2331 "src/ext/race_analysis/rules.ml" 85 2300 2339
+type(
+  task * task
+)
+"src/ext/race_analysis/rules.ml" 85 2300 2301 "src/ext/race_analysis/rules.ml" 85 2300 2339
+type(
+  task * task
+)
+"src/ext/race_analysis/rules.ml" 82 2215 2217 "src/ext/race_analysis/rules.ml" 85 2300 2339
+type(
+  task * task
+)
+"src/ext/race_analysis/rules.ml" 90 2346 2350 "src/ext/race_analysis/rules.ml" 90 2346 2355
+type(
+  task -> task -> task list -> result
+)
+ident(
+  def rule3 "src/ext/race_analysis/rules.ml" 103 2822 2822 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 90 2346 2357 "src/ext/race_analysis/rules.ml" 90 2346 2359
+type(
+  task
+)
+ident(
+  def t1 "src/ext/race_analysis/rules.ml" 90 2346 2368 "src/ext/race_analysis/rules.ml" 95 2604 2621
+)
+"src/ext/race_analysis/rules.ml" 90 2346 2369 "src/ext/race_analysis/rules.ml" 90 2346 2371
+type(
+  task
+)
+ident(
+  def t2 "src/ext/race_analysis/rules.ml" 90 2346 2380 "src/ext/race_analysis/rules.ml" 95 2604 2621
+)
+"src/ext/race_analysis/rules.ml" 90 2346 2381 "src/ext/race_analysis/rules.ml" 90 2346 2386
+type(
+  task list
+)
+ident(
+  def tasks "src/ext/race_analysis/rules.ml" 90 2346 2400 "src/ext/race_analysis/rules.ml" 95 2604 2621
+)
+"src/ext/race_analysis/rules.ml" 91 2411 2413 "src/ext/race_analysis/rules.ml" 91 2411 2426
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/ext/race_analysis/rules.ml" 91 2411 2427 "src/ext/race_analysis/rules.ml" 91 2411 2448
+type(
+  string
+)
+"src/ext/race_analysis/rules.ml" 91 2411 2413 "src/ext/race_analysis/rules.ml" 91 2411 2448
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/race_analysis/rules.ml" 92 2450 2456 "src/ext/race_analysis/rules.ml" 92 2450 2459
+type(
+  task
+)
+ident(
+  def low "src/ext/race_analysis/rules.ml" 93 2490 2494 "src/ext/race_analysis/rules.ml" 95 2604 2621
+)
+"src/ext/race_analysis/rules.ml" 92 2450 2461 "src/ext/race_analysis/rules.ml" 92 2450 2465
+type(
+  task
+)
+ident(
+  def high "src/ext/race_analysis/rules.ml" 93 2490 2494 "src/ext/race_analysis/rules.ml" 95 2604 2621
+)
+"src/ext/race_analysis/rules.ml" 92 2450 2456 "src/ext/race_analysis/rules.ml" 92 2450 2465
+type(
+  task * task
+)
+"src/ext/race_analysis/rules.ml" 92 2450 2468 "src/ext/race_analysis/rules.ml" 92 2450 2480
+type(
+  task -> task -> task * task
+)
+ident(
+  int_ref get_low_high "src/ext/race_analysis/rules.ml" 81 2190 2194 "src/ext/race_analysis/rules.ml" 81 2190 2206
+)
+"src/ext/race_analysis/rules.ml" 92 2450 2481 "src/ext/race_analysis/rules.ml" 92 2450 2483
+type(
+  task
+)
+ident(
+  int_ref t1 "src/ext/race_analysis/rules.ml" 90 2346 2357 "src/ext/race_analysis/rules.ml" 90 2346 2359
+)
+"src/ext/race_analysis/rules.ml" 92 2450 2484 "src/ext/race_analysis/rules.ml" 92 2450 2486
+type(
+  task
+)
+ident(
+  int_ref t2 "src/ext/race_analysis/rules.ml" 90 2346 2369 "src/ext/race_analysis/rules.ml" 90 2346 2371
+)
+"src/ext/race_analysis/rules.ml" 92 2450 2468 "src/ext/race_analysis/rules.ml" 92 2450 2486
+call(
+  stack
+)
+type(
+  task * task
+)
+"src/ext/race_analysis/rules.ml" 93 2490 2499 "src/ext/race_analysis/rules.ml" 93 2490 2509
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref isMultiple "src/ext/race_analysis/rules.ml" 49 1107 1111 "src/ext/race_analysis/rules.ml" 49 1107 1121
+)
+"src/ext/race_analysis/rules.ml" 93 2490 2510 "src/ext/race_analysis/rules.ml" 93 2490 2513
+type(
+  task
+)
+ident(
+  int_ref low "src/ext/race_analysis/rules.ml" 92 2450 2456 "src/ext/race_analysis/rules.ml" 92 2450 2459
+)
+"src/ext/race_analysis/rules.ml" 93 2490 2510 "src/ext/race_analysis/rules.ml" 93 2490 2525
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 93 2490 2526 "src/ext/race_analysis/rules.ml" 93 2490 2530
+type(
+  task
+)
+ident(
+  int_ref high "src/ext/race_analysis/rules.ml" 92 2450 2461 "src/ext/race_analysis/rules.ml" 92 2450 2465
+)
+"src/ext/race_analysis/rules.ml" 93 2490 2526 "src/ext/race_analysis/rules.ml" 93 2490 2542
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 93 2490 2498 "src/ext/race_analysis/rules.ml" 93 2490 2543
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 93 2490 2544 "src/ext/race_analysis/rules.ml" 93 2490 2546
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/race_analysis/rules.ml" 93 2490 2549 "src/ext/race_analysis/rules.ml" 93 2490 2553
+type(
+  task -> task list -> int
+)
+ident(
+  int_ref wcrt "src/ext/race_analysis/rules.ml" 71 1830 1834 "src/ext/race_analysis/rules.ml" 71 1830 1838
+)
+"src/ext/race_analysis/rules.ml" 93 2490 2554 "src/ext/race_analysis/rules.ml" 93 2490 2557
+type(
+  task
+)
+ident(
+  int_ref low "src/ext/race_analysis/rules.ml" 92 2450 2456 "src/ext/race_analysis/rules.ml" 92 2450 2459
+)
+"src/ext/race_analysis/rules.ml" 93 2490 2558 "src/ext/race_analysis/rules.ml" 93 2490 2563
+type(
+  task list
+)
+ident(
+  int_ref tasks "src/ext/race_analysis/rules.ml" 90 2346 2381 "src/ext/race_analysis/rules.ml" 90 2346 2386
+)
+"src/ext/race_analysis/rules.ml" 93 2490 2548 "src/ext/race_analysis/rules.ml" 93 2490 2564
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 93 2490 2565 "src/ext/race_analysis/rules.ml" 93 2490 2567
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/ext/race_analysis/rules.ml" 93 2490 2568 "src/ext/race_analysis/rules.ml" 93 2490 2572
+type(
+  task
+)
+ident(
+  int_ref high "src/ext/race_analysis/rules.ml" 92 2450 2461 "src/ext/race_analysis/rules.ml" 92 2450 2465
+)
+"src/ext/race_analysis/rules.ml" 93 2490 2568 "src/ext/race_analysis/rules.ml" 93 2490 2584
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 93 2490 2547 "src/ext/race_analysis/rules.ml" 93 2490 2585
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 93 2490 2497 "src/ext/race_analysis/rules.ml" 93 2490 2586
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 94 2592 2594 "src/ext/race_analysis/rules.ml" 94 2592 2602
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 95 2604 2610 "src/ext/race_analysis/rules.ml" 95 2604 2621
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 93 2490 2494 "src/ext/race_analysis/rules.ml" 95 2604 2621
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 92 2450 2452 "src/ext/race_analysis/rules.ml" 95 2604 2621
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 91 2411 2413 "src/ext/race_analysis/rules.ml" 95 2604 2621
+type(
+  result
+)
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 103 2822 2830 "src/ext/race_analysis/rules.ml" 103 2822 2833
+type(
+  int -> int -> int
+)
+ident(
+  def gcd "src/ext/race_analysis/rules.ml" 103 2822 2822 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 103 2822 2834 "src/ext/race_analysis/rules.ml" 103 2822 2835
+type(
+  int
+)
+ident(
+  def u "src/ext/race_analysis/rules.ml" 103 2822 2836 "src/ext/race_analysis/rules.ml" 105 2875 2889
+)
+"src/ext/race_analysis/rules.ml" 103 2822 2836 "src/ext/race_analysis/rules.ml" 103 2822 2837
+type(
+  int
+)
+ident(
+  def v "src/ext/race_analysis/rules.ml" 104 2840 2842 "src/ext/race_analysis/rules.ml" 105 2875 2889
+)
+"src/ext/race_analysis/rules.ml" 104 2840 2845 "src/ext/race_analysis/rules.ml" 104 2840 2846
+type(
+  int
+)
+ident(
+  int_ref v "src/ext/race_analysis/rules.ml" 103 2822 2836 "src/ext/race_analysis/rules.ml" 103 2822 2837
+)
+"src/ext/race_analysis/rules.ml" 104 2840 2847 "src/ext/race_analysis/rules.ml" 104 2840 2849
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ext/race_analysis/rules.ml" 104 2840 2850 "src/ext/race_analysis/rules.ml" 104 2840 2851
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 104 2840 2845 "src/ext/race_analysis/rules.ml" 104 2840 2851
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 104 2840 2858 "src/ext/race_analysis/rules.ml" 104 2840 2861
+type(
+  int -> int -> int
+)
+ident(
+  int_ref gcd "src/ext/race_analysis/rules.ml" 103 2822 2830 "src/ext/race_analysis/rules.ml" 103 2822 2833
+)
+"src/ext/race_analysis/rules.ml" 104 2840 2862 "src/ext/race_analysis/rules.ml" 104 2840 2863
+type(
+  int
+)
+ident(
+  int_ref v "src/ext/race_analysis/rules.ml" 103 2822 2836 "src/ext/race_analysis/rules.ml" 103 2822 2837
+)
+"src/ext/race_analysis/rules.ml" 104 2840 2865 "src/ext/race_analysis/rules.ml" 104 2840 2866
+type(
+  int
+)
+ident(
+  int_ref u "src/ext/race_analysis/rules.ml" 103 2822 2834 "src/ext/race_analysis/rules.ml" 103 2822 2835
+)
+"src/ext/race_analysis/rules.ml" 104 2840 2867 "src/ext/race_analysis/rules.ml" 104 2840 2870
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/ext/race_analysis/rules.ml" 104 2840 2871 "src/ext/race_analysis/rules.ml" 104 2840 2872
+type(
+  int
+)
+ident(
+  int_ref v "src/ext/race_analysis/rules.ml" 103 2822 2836 "src/ext/race_analysis/rules.ml" 103 2822 2837
+)
+"src/ext/race_analysis/rules.ml" 104 2840 2864 "src/ext/race_analysis/rules.ml" 104 2840 2873
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 104 2840 2857 "src/ext/race_analysis/rules.ml" 104 2840 2874
+call(
+  tail
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 105 2875 2883 "src/ext/race_analysis/rules.ml" 105 2875 2886
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"src/ext/race_analysis/rules.ml" 105 2875 2887 "src/ext/race_analysis/rules.ml" 105 2875 2888
+type(
+  int
+)
+ident(
+  int_ref u "src/ext/race_analysis/rules.ml" 103 2822 2834 "src/ext/race_analysis/rules.ml" 103 2822 2835
+)
+"src/ext/race_analysis/rules.ml" 105 2875 2882 "src/ext/race_analysis/rules.ml" 105 2875 2889
+call(
+  tail
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 104 2840 2842 "src/ext/race_analysis/rules.ml" 105 2875 2889
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 108 2917 2921 "src/ext/race_analysis/rules.ml" 108 2917 2924
+type(
+  int -> int -> int
+)
+ident(
+  def lcm "src/ext/race_analysis/rules.ml" 114 3042 3042 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 108 2917 2925 "src/ext/race_analysis/rules.ml" 108 2917 2926
+type(
+  int
+)
+ident(
+  def m "src/ext/race_analysis/rules.ml" 108 2917 2927 "src/ext/race_analysis/rules.ml" 111 2970 3005
+)
+"src/ext/race_analysis/rules.ml" 108 2917 2927 "src/ext/race_analysis/rules.ml" 108 2917 2928
+type(
+  int
+)
+ident(
+  def n "src/ext/race_analysis/rules.ml" 109 2931 2933 "src/ext/race_analysis/rules.ml" 111 2970 3005
+)
+"src/ext/race_analysis/rules.ml" 109 2931 2939 "src/ext/race_analysis/rules.ml" 109 2931 2940
+type(
+  int
+)
+ident(
+  int_ref m "src/ext/race_analysis/rules.ml" 108 2917 2925 "src/ext/race_analysis/rules.ml" 108 2917 2926
+)
+"src/ext/race_analysis/rules.ml" 109 2931 2942 "src/ext/race_analysis/rules.ml" 109 2931 2943
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/race_analysis/rules.ml" 108 2917 2927 "src/ext/race_analysis/rules.ml" 108 2917 2928
+)
+"src/ext/race_analysis/rules.ml" 109 2931 2939 "src/ext/race_analysis/rules.ml" 109 2931 2943
+type(
+  int * int
+)
+"src/ext/race_analysis/rules.ml" 110 2949 2953 "src/ext/race_analysis/rules.ml" 110 2949 2954
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 110 2949 2956 "src/ext/race_analysis/rules.ml" 110 2949 2957
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 110 2949 2953 "src/ext/race_analysis/rules.ml" 110 2949 2957
+type(
+  int * int
+)
+"src/ext/race_analysis/rules.ml" 110 2949 2960 "src/ext/race_analysis/rules.ml" 110 2949 2961
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 110 2949 2963 "src/ext/race_analysis/rules.ml" 110 2949 2964
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 110 2949 2960 "src/ext/race_analysis/rules.ml" 110 2949 2964
+type(
+  int * int
+)
+"src/ext/race_analysis/rules.ml" 110 2949 2953 "src/ext/race_analysis/rules.ml" 110 2949 2964
+type(
+  int * int
+)
+"src/ext/race_analysis/rules.ml" 110 2949 2968 "src/ext/race_analysis/rules.ml" 110 2949 2969
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 111 2970 2974 "src/ext/race_analysis/rules.ml" 111 2970 2975
+type(
+  int
+)
+ident(
+  def m "src/ext/race_analysis/rules.ml" 111 2970 2982 "src/ext/race_analysis/rules.ml" 111 2970 3005
+)
+"src/ext/race_analysis/rules.ml" 111 2970 2977 "src/ext/race_analysis/rules.ml" 111 2970 2978
+type(
+  int
+)
+ident(
+  def n "src/ext/race_analysis/rules.ml" 111 2970 2982 "src/ext/race_analysis/rules.ml" 111 2970 3005
+)
+"src/ext/race_analysis/rules.ml" 111 2970 2974 "src/ext/race_analysis/rules.ml" 111 2970 2978
+type(
+  int * int
+)
+"src/ext/race_analysis/rules.ml" 111 2970 2982 "src/ext/race_analysis/rules.ml" 111 2970 2985
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"src/ext/race_analysis/rules.ml" 111 2970 2987 "src/ext/race_analysis/rules.ml" 111 2970 2988
+type(
+  int
+)
+ident(
+  int_ref m "src/ext/race_analysis/rules.ml" 111 2970 2974 "src/ext/race_analysis/rules.ml" 111 2970 2975
+)
+"src/ext/race_analysis/rules.ml" 111 2970 2989 "src/ext/race_analysis/rules.ml" 111 2970 2990
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"src/ext/race_analysis/rules.ml" 111 2970 2991 "src/ext/race_analysis/rules.ml" 111 2970 2992
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/race_analysis/rules.ml" 111 2970 2977 "src/ext/race_analysis/rules.ml" 111 2970 2978
+)
+"src/ext/race_analysis/rules.ml" 111 2970 2986 "src/ext/race_analysis/rules.ml" 111 2970 2993
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 111 2970 2982 "src/ext/race_analysis/rules.ml" 111 2970 2993
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 111 2970 2994 "src/ext/race_analysis/rules.ml" 111 2970 2995
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"src/ext/race_analysis/rules.ml" 111 2970 2997 "src/ext/race_analysis/rules.ml" 111 2970 3000
+type(
+  int -> int -> int
+)
+ident(
+  int_ref gcd "src/ext/race_analysis/rules.ml" 103 2822 2830 "src/ext/race_analysis/rules.ml" 103 2822 2833
+)
+"src/ext/race_analysis/rules.ml" 111 2970 3001 "src/ext/race_analysis/rules.ml" 111 2970 3002
+type(
+  int
+)
+ident(
+  int_ref m "src/ext/race_analysis/rules.ml" 111 2970 2974 "src/ext/race_analysis/rules.ml" 111 2970 2975
+)
+"src/ext/race_analysis/rules.ml" 111 2970 3003 "src/ext/race_analysis/rules.ml" 111 2970 3004
+type(
+  int
+)
+ident(
+  int_ref n "src/ext/race_analysis/rules.ml" 111 2970 2977 "src/ext/race_analysis/rules.ml" 111 2970 2978
+)
+"src/ext/race_analysis/rules.ml" 111 2970 2996 "src/ext/race_analysis/rules.ml" 111 2970 3005
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 111 2970 2982 "src/ext/race_analysis/rules.ml" 111 2970 3005
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 109 2931 2933 "src/ext/race_analysis/rules.ml" 111 2970 3005
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 114 3042 3050 "src/ext/race_analysis/rules.ml" 114 3042 3056
+type(
+  'a list -> 'a -> 'a list
+)
+ident(
+  def remove "src/ext/race_analysis/rules.ml" 114 3042 3042 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 114 3042 3057 "src/ext/race_analysis/rules.ml" 114 3042 3059
+type(
+  'a list
+)
+ident(
+  def ll "src/ext/race_analysis/rules.ml" 114 3042 3060 "src/ext/race_analysis/rules.ml" 118 3121 3148
+)
+"src/ext/race_analysis/rules.ml" 114 3042 3060 "src/ext/race_analysis/rules.ml" 114 3042 3061
+type(
+  'a
+)
+ident(
+  def a "src/ext/race_analysis/rules.ml" 115 3067 3069 "src/ext/race_analysis/rules.ml" 118 3121 3148
+)
+"src/ext/race_analysis/rules.ml" 115 3067 3075 "src/ext/race_analysis/rules.ml" 115 3067 3077
+type(
+  'a list
+)
+ident(
+  int_ref ll "src/ext/race_analysis/rules.ml" 114 3042 3057 "src/ext/race_analysis/rules.ml" 114 3042 3059
+)
+"src/ext/race_analysis/rules.ml" 116 3083 3087 "src/ext/race_analysis/rules.ml" 116 3083 3089
+type(
+  'a list
+)
+"src/ext/race_analysis/rules.ml" 116 3083 3093 "src/ext/race_analysis/rules.ml" 116 3083 3095
+type(
+  'a list
+)
+"src/ext/race_analysis/rules.ml" 117 3096 3100 "src/ext/race_analysis/rules.ml" 117 3096 3101
+type(
+  'a
+)
+ident(
+  def h "src/ext/race_analysis/rules.ml" 117 3096 3110 "src/ext/race_analysis/rules.ml" 117 3096 3120
+)
+"src/ext/race_analysis/rules.ml" 117 3096 3103 "src/ext/race_analysis/rules.ml" 117 3096 3104
+type(
+  'a list
+)
+ident(
+  def t "src/ext/race_analysis/rules.ml" 117 3096 3110 "src/ext/race_analysis/rules.ml" 117 3096 3120
+)
+"src/ext/race_analysis/rules.ml" 117 3096 3100 "src/ext/race_analysis/rules.ml" 117 3096 3104
+type(
+  'a list
+)
+"src/ext/race_analysis/rules.ml" 117 3096 3110 "src/ext/race_analysis/rules.ml" 117 3096 3111
+type(
+  'a
+)
+ident(
+  int_ref h "src/ext/race_analysis/rules.ml" 117 3096 3100 "src/ext/race_analysis/rules.ml" 117 3096 3101
+)
+"src/ext/race_analysis/rules.ml" 117 3096 3112 "src/ext/race_analysis/rules.ml" 117 3096 3113
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/race_analysis/rules.ml" 117 3096 3114 "src/ext/race_analysis/rules.ml" 117 3096 3115
+type(
+  'a
+)
+ident(
+  int_ref a "src/ext/race_analysis/rules.ml" 114 3042 3060 "src/ext/race_analysis/rules.ml" 114 3042 3061
+)
+"src/ext/race_analysis/rules.ml" 117 3096 3110 "src/ext/race_analysis/rules.ml" 117 3096 3115
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 117 3096 3119 "src/ext/race_analysis/rules.ml" 117 3096 3120
+type(
+  'a list
+)
+ident(
+  int_ref t "src/ext/race_analysis/rules.ml" 117 3096 3103 "src/ext/race_analysis/rules.ml" 117 3096 3104
+)
+"src/ext/race_analysis/rules.ml" 118 3121 3125 "src/ext/race_analysis/rules.ml" 118 3121 3126
+type(
+  'a
+)
+ident(
+  def h "src/ext/race_analysis/rules.ml" 118 3121 3133 "src/ext/race_analysis/rules.ml" 118 3121 3148
+)
+"src/ext/race_analysis/rules.ml" 118 3121 3128 "src/ext/race_analysis/rules.ml" 118 3121 3129
+type(
+  'a list
+)
+ident(
+  def t "src/ext/race_analysis/rules.ml" 118 3121 3133 "src/ext/race_analysis/rules.ml" 118 3121 3148
+)
+"src/ext/race_analysis/rules.ml" 118 3121 3125 "src/ext/race_analysis/rules.ml" 118 3121 3129
+type(
+  'a list
+)
+"src/ext/race_analysis/rules.ml" 118 3121 3133 "src/ext/race_analysis/rules.ml" 118 3121 3134
+type(
+  'a
+)
+ident(
+  int_ref h "src/ext/race_analysis/rules.ml" 118 3121 3125 "src/ext/race_analysis/rules.ml" 118 3121 3126
+)
+"src/ext/race_analysis/rules.ml" 118 3121 3137 "src/ext/race_analysis/rules.ml" 118 3121 3143
+type(
+  'a list -> 'a -> 'a list
+)
+ident(
+  int_ref remove "src/ext/race_analysis/rules.ml" 114 3042 3050 "src/ext/race_analysis/rules.ml" 114 3042 3056
+)
+"src/ext/race_analysis/rules.ml" 118 3121 3144 "src/ext/race_analysis/rules.ml" 118 3121 3145
+type(
+  'a list
+)
+ident(
+  int_ref t "src/ext/race_analysis/rules.ml" 118 3121 3128 "src/ext/race_analysis/rules.ml" 118 3121 3129
+)
+"src/ext/race_analysis/rules.ml" 118 3121 3146 "src/ext/race_analysis/rules.ml" 118 3121 3147
+type(
+  'a
+)
+ident(
+  int_ref a "src/ext/race_analysis/rules.ml" 114 3042 3060 "src/ext/race_analysis/rules.ml" 114 3042 3061
+)
+"src/ext/race_analysis/rules.ml" 118 3121 3136 "src/ext/race_analysis/rules.ml" 118 3121 3148
+call(
+  stack
+)
+type(
+  'a list
+)
+"src/ext/race_analysis/rules.ml" 118 3121 3133 "src/ext/race_analysis/rules.ml" 118 3121 3148
+type(
+  'a list
+)
+"src/ext/race_analysis/rules.ml" 115 3067 3069 "src/ext/race_analysis/rules.ml" 118 3121 3148
+type(
+  'a list
+)
+"src/ext/race_analysis/rules.ml" 120 3150 3154 "src/ext/race_analysis/rules.ml" 120 3150 3160
+type(
+  'a list -> 'a
+)
+ident(
+  def my_min "src/ext/race_analysis/rules.ml" 125 3270 3270 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 121 3172 3176 "src/ext/race_analysis/rules.ml" 121 3172 3178
+type(
+  'a list
+)
+"src/ext/race_analysis/rules.ml" 121 3172 3182 "src/ext/race_analysis/rules.ml" 121 3172 3193
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Pervasives.invalid_arg
+)
+"src/ext/race_analysis/rules.ml" 121 3172 3194 "src/ext/race_analysis/rules.ml" 121 3172 3206
+type(
+  string
+)
+"src/ext/race_analysis/rules.ml" 121 3172 3182 "src/ext/race_analysis/rules.ml" 121 3172 3206
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ext/race_analysis/rules.ml" 122 3207 3211 "src/ext/race_analysis/rules.ml" 122 3207 3212
+type(
+  'a
+)
+ident(
+  def x "src/ext/race_analysis/rules.ml" 122 3207 3220 "src/ext/race_analysis/rules.ml" 122 3207 3243
+)
+"src/ext/race_analysis/rules.ml" 122 3207 3214 "src/ext/race_analysis/rules.ml" 122 3207 3216
+type(
+  'a list
+)
+ident(
+  def xs "src/ext/race_analysis/rules.ml" 122 3207 3220 "src/ext/race_analysis/rules.ml" 122 3207 3243
+)
+"src/ext/race_analysis/rules.ml" 122 3207 3211 "src/ext/race_analysis/rules.ml" 122 3207 3216
+type(
+  'a list
+)
+"src/ext/race_analysis/rules.ml" 122 3207 3220 "src/ext/race_analysis/rules.ml" 122 3207 3234
+type(
+  ('a -> 'a -> 'a) -> 'a -> 'a list -> 'a
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/ext/race_analysis/rules.ml" 122 3207 3235 "src/ext/race_analysis/rules.ml" 122 3207 3238
+type(
+  'a -> 'a -> 'a
+)
+ident(
+  ext_ref Pervasives.min
+)
+"src/ext/race_analysis/rules.ml" 122 3207 3239 "src/ext/race_analysis/rules.ml" 122 3207 3240
+type(
+  'a
+)
+ident(
+  int_ref x "src/ext/race_analysis/rules.ml" 122 3207 3211 "src/ext/race_analysis/rules.ml" 122 3207 3212
+)
+"src/ext/race_analysis/rules.ml" 122 3207 3241 "src/ext/race_analysis/rules.ml" 122 3207 3243
+type(
+  'a list
+)
+ident(
+  int_ref xs "src/ext/race_analysis/rules.ml" 122 3207 3214 "src/ext/race_analysis/rules.ml" 122 3207 3216
+)
+"src/ext/race_analysis/rules.ml" 122 3207 3220 "src/ext/race_analysis/rules.ml" 122 3207 3243
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ext/race_analysis/rules.ml" 120 3150 3163 "src/ext/race_analysis/rules.ml" 122 3207 3243
+type(
+  'a list -> 'a
+)
+"src/ext/race_analysis/rules.ml" 125 3270 3278 "src/ext/race_analysis/rules.ml" 125 3270 3290
+type(
+  task -> task -> int -> int -> int list -> int
+)
+ident(
+  def min_non_zero "src/ext/race_analysis/rules.ml" 125 3270 3270 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 125 3270 3291 "src/ext/race_analysis/rules.ml" 125 3270 3293
+type(
+  task
+)
+ident(
+  def t1 "src/ext/race_analysis/rules.ml" 125 3270 3294 "src/ext/race_analysis/rules.ml" 133 3667 3687
+)
+"src/ext/race_analysis/rules.ml" 125 3270 3294 "src/ext/race_analysis/rules.ml" 125 3270 3296
+type(
+  task
+)
+ident(
+  def t2 "src/ext/race_analysis/rules.ml" 125 3270 3297 "src/ext/race_analysis/rules.ml" 133 3667 3687
+)
+"src/ext/race_analysis/rules.ml" 125 3270 3297 "src/ext/race_analysis/rules.ml" 125 3270 3298
+type(
+  int
+)
+ident(
+  def k "src/ext/race_analysis/rules.ml" 125 3270 3299 "src/ext/race_analysis/rules.ml" 133 3667 3687
+)
+"src/ext/race_analysis/rules.ml" 125 3270 3299 "src/ext/race_analysis/rules.ml" 125 3270 3302
+type(
+  int
+)
+ident(
+  def cur "src/ext/race_analysis/rules.ml" 125 3270 3303 "src/ext/race_analysis/rules.ml" 133 3667 3687
+)
+"src/ext/race_analysis/rules.ml" 125 3270 3303 "src/ext/race_analysis/rules.ml" 125 3270 3305
+type(
+  int list
+)
+ident(
+  def lt "src/ext/race_analysis/rules.ml" 126 3308 3310 "src/ext/race_analysis/rules.ml" 133 3667 3687
+)
+"src/ext/race_analysis/rules.ml" 126 3308 3314 "src/ext/race_analysis/rules.ml" 126 3308 3321
+type(
+  int list
+)
+ident(
+  def vallist "src/ext/race_analysis/rules.ml" 127 3337 3339 "src/ext/race_analysis/rules.ml" 133 3667 3687
+)
+"src/ext/race_analysis/rules.ml" 126 3308 3324 "src/ext/race_analysis/rules.ml" 126 3308 3327
+type(
+  int
+)
+ident(
+  int_ref cur "src/ext/race_analysis/rules.ml" 125 3270 3299 "src/ext/race_analysis/rules.ml" 125 3270 3302
+)
+"src/ext/race_analysis/rules.ml" 126 3308 3331 "src/ext/race_analysis/rules.ml" 126 3308 3333
+type(
+  int list
+)
+ident(
+  int_ref lt "src/ext/race_analysis/rules.ml" 125 3270 3303 "src/ext/race_analysis/rules.ml" 125 3270 3305
+)
+"src/ext/race_analysis/rules.ml" 126 3308 3324 "src/ext/race_analysis/rules.ml" 126 3308 3333
+type(
+  int list
+)
+"src/ext/race_analysis/rules.ml" 127 3337 3343 "src/ext/race_analysis/rules.ml" 127 3337 3344
+type(
+  int
+)
+ident(
+  int_ref k "src/ext/race_analysis/rules.ml" 125 3270 3297 "src/ext/race_analysis/rules.ml" 125 3270 3298
+)
+"src/ext/race_analysis/rules.ml" 127 3337 3344 "src/ext/race_analysis/rules.ml" 127 3337 3345
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"src/ext/race_analysis/rules.ml" 127 3337 3345 "src/ext/race_analysis/rules.ml" 127 3337 3347
+type(
+  task
+)
+ident(
+  int_ref t1 "src/ext/race_analysis/rules.ml" 125 3270 3291 "src/ext/race_analysis/rules.ml" 125 3270 3293
+)
+"src/ext/race_analysis/rules.ml" 127 3337 3345 "src/ext/race_analysis/rules.ml" 127 3337 3359
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 127 3337 3343 "src/ext/race_analysis/rules.ml" 127 3337 3359
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 127 3337 3360 "src/ext/race_analysis/rules.ml" 127 3337 3362
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/ext/race_analysis/rules.ml" 127 3337 3364 "src/ext/race_analysis/rules.ml" 127 3337 3367
+type(
+  int -> int -> int
+)
+ident(
+  int_ref lcm "src/ext/race_analysis/rules.ml" 108 2917 2921 "src/ext/race_analysis/rules.ml" 108 2917 2924
+)
+"src/ext/race_analysis/rules.ml" 127 3337 3368 "src/ext/race_analysis/rules.ml" 127 3337 3370
+type(
+  task
+)
+ident(
+  int_ref t1 "src/ext/race_analysis/rules.ml" 125 3270 3291 "src/ext/race_analysis/rules.ml" 125 3270 3293
+)
+"src/ext/race_analysis/rules.ml" 127 3337 3368 "src/ext/race_analysis/rules.ml" 127 3337 3382
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 127 3337 3383 "src/ext/race_analysis/rules.ml" 127 3337 3385
+type(
+  task
+)
+ident(
+  int_ref t2 "src/ext/race_analysis/rules.ml" 125 3270 3294 "src/ext/race_analysis/rules.ml" 125 3270 3296
+)
+"src/ext/race_analysis/rules.ml" 127 3337 3383 "src/ext/race_analysis/rules.ml" 127 3337 3397
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 127 3337 3363 "src/ext/race_analysis/rules.ml" 127 3337 3398
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 127 3337 3342 "src/ext/race_analysis/rules.ml" 127 3337 3400
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 128 3407 3415 "src/ext/race_analysis/rules.ml" 128 3407 3418
+type(
+  int
+)
+ident(
+  def nxt "src/ext/race_analysis/rules.ml" 129 3467 3473 "src/ext/race_analysis/rules.ml" 130 3542 3603
+)
+"src/ext/race_analysis/rules.ml" 128 3407 3424 "src/ext/race_analysis/rules.ml" 128 3407 3425
+type(
+  int
+)
+ident(
+  int_ref k "src/ext/race_analysis/rules.ml" 125 3270 3297 "src/ext/race_analysis/rules.ml" 125 3270 3298
+)
+"src/ext/race_analysis/rules.ml" 128 3407 3425 "src/ext/race_analysis/rules.ml" 128 3407 3426
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/race_analysis/rules.ml" 128 3407 3426 "src/ext/race_analysis/rules.ml" 128 3407 3427
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 128 3407 3423 "src/ext/race_analysis/rules.ml" 128 3407 3428
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 128 3407 3428 "src/ext/race_analysis/rules.ml" 128 3407 3429
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"src/ext/race_analysis/rules.ml" 128 3407 3429 "src/ext/race_analysis/rules.ml" 128 3407 3431
+type(
+  task
+)
+ident(
+  int_ref t1 "src/ext/race_analysis/rules.ml" 125 3270 3291 "src/ext/race_analysis/rules.ml" 125 3270 3293
+)
+"src/ext/race_analysis/rules.ml" 128 3407 3429 "src/ext/race_analysis/rules.ml" 128 3407 3443
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 128 3407 3422 "src/ext/race_analysis/rules.ml" 128 3407 3444
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 128 3407 3444 "src/ext/race_analysis/rules.ml" 128 3407 3447
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/ext/race_analysis/rules.ml" 128 3407 3448 "src/ext/race_analysis/rules.ml" 128 3407 3450
+type(
+  task
+)
+ident(
+  int_ref t2 "src/ext/race_analysis/rules.ml" 125 3270 3294 "src/ext/race_analysis/rules.ml" 125 3270 3296
+)
+"src/ext/race_analysis/rules.ml" 128 3407 3448 "src/ext/race_analysis/rules.ml" 128 3407 3462
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 128 3407 3421 "src/ext/race_analysis/rules.ml" 128 3407 3463
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 129 3467 3477 "src/ext/race_analysis/rules.ml" 129 3467 3480
+type(
+  int
+)
+ident(
+  int_ref cur "src/ext/race_analysis/rules.ml" 125 3270 3299 "src/ext/race_analysis/rules.ml" 125 3270 3302
+)
+"src/ext/race_analysis/rules.ml" 129 3467 3481 "src/ext/race_analysis/rules.ml" 129 3467 3482
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/ext/race_analysis/rules.ml" 129 3467 3483 "src/ext/race_analysis/rules.ml" 129 3467 3486
+type(
+  int
+)
+ident(
+  int_ref nxt "src/ext/race_analysis/rules.ml" 128 3407 3415 "src/ext/race_analysis/rules.ml" 128 3407 3418
+)
+"src/ext/race_analysis/rules.ml" 129 3467 3476 "src/ext/race_analysis/rules.ml" 129 3467 3487
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 129 3467 3500 "src/ext/race_analysis/rules.ml" 129 3467 3512
+type(
+  task -> task -> int -> int -> int list -> int
+)
+ident(
+  int_ref min_non_zero "src/ext/race_analysis/rules.ml" 125 3270 3278 "src/ext/race_analysis/rules.ml" 125 3270 3290
+)
+"src/ext/race_analysis/rules.ml" 129 3467 3513 "src/ext/race_analysis/rules.ml" 129 3467 3515
+type(
+  task
+)
+ident(
+  int_ref t1 "src/ext/race_analysis/rules.ml" 125 3270 3291 "src/ext/race_analysis/rules.ml" 125 3270 3293
+)
+"src/ext/race_analysis/rules.ml" 129 3467 3516 "src/ext/race_analysis/rules.ml" 129 3467 3518
+type(
+  task
+)
+ident(
+  int_ref t2 "src/ext/race_analysis/rules.ml" 125 3270 3294 "src/ext/race_analysis/rules.ml" 125 3270 3296
+)
+"src/ext/race_analysis/rules.ml" 129 3467 3520 "src/ext/race_analysis/rules.ml" 129 3467 3521
+type(
+  int
+)
+ident(
+  int_ref k "src/ext/race_analysis/rules.ml" 125 3270 3297 "src/ext/race_analysis/rules.ml" 125 3270 3298
+)
+"src/ext/race_analysis/rules.ml" 129 3467 3521 "src/ext/race_analysis/rules.ml" 129 3467 3522
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/race_analysis/rules.ml" 129 3467 3522 "src/ext/race_analysis/rules.ml" 129 3467 3523
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 129 3467 3519 "src/ext/race_analysis/rules.ml" 129 3467 3524
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 129 3467 3525 "src/ext/race_analysis/rules.ml" 129 3467 3528
+type(
+  int
+)
+ident(
+  int_ref cur "src/ext/race_analysis/rules.ml" 125 3270 3299 "src/ext/race_analysis/rules.ml" 125 3270 3302
+)
+"src/ext/race_analysis/rules.ml" 129 3467 3529 "src/ext/race_analysis/rules.ml" 129 3467 3536
+type(
+  int list
+)
+ident(
+  int_ref vallist "src/ext/race_analysis/rules.ml" 126 3308 3314 "src/ext/race_analysis/rules.ml" 126 3308 3321
+)
+"src/ext/race_analysis/rules.ml" 129 3467 3493 "src/ext/race_analysis/rules.ml" 129 3467 3541
+call(
+  tail
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 130 3542 3560 "src/ext/race_analysis/rules.ml" 130 3542 3572
+type(
+  task -> task -> int -> int -> int list -> int
+)
+ident(
+  int_ref min_non_zero "src/ext/race_analysis/rules.ml" 125 3270 3278 "src/ext/race_analysis/rules.ml" 125 3270 3290
+)
+"src/ext/race_analysis/rules.ml" 130 3542 3573 "src/ext/race_analysis/rules.ml" 130 3542 3575
+type(
+  task
+)
+ident(
+  int_ref t1 "src/ext/race_analysis/rules.ml" 125 3270 3291 "src/ext/race_analysis/rules.ml" 125 3270 3293
+)
+"src/ext/race_analysis/rules.ml" 130 3542 3576 "src/ext/race_analysis/rules.ml" 130 3542 3578
+type(
+  task
+)
+ident(
+  int_ref t2 "src/ext/race_analysis/rules.ml" 125 3270 3294 "src/ext/race_analysis/rules.ml" 125 3270 3296
+)
+"src/ext/race_analysis/rules.ml" 130 3542 3580 "src/ext/race_analysis/rules.ml" 130 3542 3581
+type(
+  int
+)
+ident(
+  int_ref k "src/ext/race_analysis/rules.ml" 125 3270 3297 "src/ext/race_analysis/rules.ml" 125 3270 3298
+)
+"src/ext/race_analysis/rules.ml" 130 3542 3581 "src/ext/race_analysis/rules.ml" 130 3542 3582
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/race_analysis/rules.ml" 130 3542 3582 "src/ext/race_analysis/rules.ml" 130 3542 3583
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 130 3542 3580 "src/ext/race_analysis/rules.ml" 130 3542 3583
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 130 3542 3583 "src/ext/race_analysis/rules.ml" 130 3542 3584
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ext/race_analysis/rules.ml" 130 3542 3584 "src/ext/race_analysis/rules.ml" 130 3542 3585
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 130 3542 3579 "src/ext/race_analysis/rules.ml" 130 3542 3586
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 130 3542 3587 "src/ext/race_analysis/rules.ml" 130 3542 3590
+type(
+  int
+)
+ident(
+  int_ref nxt "src/ext/race_analysis/rules.ml" 128 3407 3415 "src/ext/race_analysis/rules.ml" 128 3407 3418
+)
+"src/ext/race_analysis/rules.ml" 130 3542 3591 "src/ext/race_analysis/rules.ml" 130 3542 3598
+type(
+  int list
+)
+ident(
+  int_ref vallist "src/ext/race_analysis/rules.ml" 126 3308 3314 "src/ext/race_analysis/rules.ml" 126 3308 3321
+)
+"src/ext/race_analysis/rules.ml" 130 3542 3553 "src/ext/race_analysis/rules.ml" 130 3542 3603
+call(
+  tail
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 129 3467 3473 "src/ext/race_analysis/rules.ml" 130 3542 3603
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 128 3407 3411 "src/ext/race_analysis/rules.ml" 130 3542 3603
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 132 3612 3616 "src/ext/race_analysis/rules.ml" 132 3612 3622
+type(
+  int list -> int
+)
+ident(
+  int_ref my_min "src/ext/race_analysis/rules.ml" 120 3150 3154 "src/ext/race_analysis/rules.ml" 120 3150 3160
+)
+"src/ext/race_analysis/rules.ml" 132 3612 3623 "src/ext/race_analysis/rules.ml" 132 3612 3630
+type(
+  int list
+)
+ident(
+  int_ref vallist "src/ext/race_analysis/rules.ml" 126 3308 3314 "src/ext/race_analysis/rules.ml" 126 3308 3321
+)
+"src/ext/race_analysis/rules.ml" 132 3612 3616 "src/ext/race_analysis/rules.ml" 132 3612 3630
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 132 3612 3631 "src/ext/race_analysis/rules.ml" 132 3612 3632
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/race_analysis/rules.ml" 132 3612 3633 "src/ext/race_analysis/rules.ml" 132 3612 3634
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 132 3612 3615 "src/ext/race_analysis/rules.ml" 132 3612 3635
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 132 3612 3641 "src/ext/race_analysis/rules.ml" 132 3612 3647
+type(
+  int list -> int
+)
+ident(
+  int_ref my_min "src/ext/race_analysis/rules.ml" 120 3150 3154 "src/ext/race_analysis/rules.ml" 120 3150 3160
+)
+"src/ext/race_analysis/rules.ml" 132 3612 3649 "src/ext/race_analysis/rules.ml" 132 3612 3655
+type(
+  int list -> int -> int list
+)
+ident(
+  int_ref remove "src/ext/race_analysis/rules.ml" 114 3042 3050 "src/ext/race_analysis/rules.ml" 114 3042 3056
+)
+"src/ext/race_analysis/rules.ml" 132 3612 3656 "src/ext/race_analysis/rules.ml" 132 3612 3663
+type(
+  int list
+)
+ident(
+  int_ref vallist "src/ext/race_analysis/rules.ml" 126 3308 3314 "src/ext/race_analysis/rules.ml" 126 3308 3321
+)
+"src/ext/race_analysis/rules.ml" 132 3612 3664 "src/ext/race_analysis/rules.ml" 132 3612 3665
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 132 3612 3648 "src/ext/race_analysis/rules.ml" 132 3612 3666
+call(
+  stack
+)
+type(
+  int list
+)
+"src/ext/race_analysis/rules.ml" 132 3612 3641 "src/ext/race_analysis/rules.ml" 132 3612 3666
+call(
+  tail
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 133 3667 3673 "src/ext/race_analysis/rules.ml" 133 3667 3679
+type(
+  int list -> int
+)
+ident(
+  int_ref my_min "src/ext/race_analysis/rules.ml" 120 3150 3154 "src/ext/race_analysis/rules.ml" 120 3150 3160
+)
+"src/ext/race_analysis/rules.ml" 133 3667 3680 "src/ext/race_analysis/rules.ml" 133 3667 3687
+type(
+  int list
+)
+ident(
+  int_ref vallist "src/ext/race_analysis/rules.ml" 126 3308 3314 "src/ext/race_analysis/rules.ml" 126 3308 3321
+)
+"src/ext/race_analysis/rules.ml" 133 3667 3673 "src/ext/race_analysis/rules.ml" 133 3667 3687
+call(
+  tail
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 132 3612 3613 "src/ext/race_analysis/rules.ml" 133 3667 3687
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 127 3337 3339 "src/ext/race_analysis/rules.ml" 133 3667 3687
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 126 3308 3310 "src/ext/race_analysis/rules.ml" 133 3667 3687
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 139 3867 3871 "src/ext/race_analysis/rules.ml" 139 3867 3876
+type(
+  task -> task -> task list -> result
+)
+ident(
+  def rule4 "src/ext/race_analysis/rules.ml" 160 4711 4711 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 139 3867 3878 "src/ext/race_analysis/rules.ml" 139 3867 3880
+type(
+  task
+)
+ident(
+  def t1 "src/ext/race_analysis/rules.ml" 139 3867 3889 "src/ext/race_analysis/rules.ml" 147 4230 4244
+)
+"src/ext/race_analysis/rules.ml" 139 3867 3890 "src/ext/race_analysis/rules.ml" 139 3867 3892
+type(
+  task
+)
+ident(
+  def t2 "src/ext/race_analysis/rules.ml" 139 3867 3901 "src/ext/race_analysis/rules.ml" 147 4230 4244
+)
+"src/ext/race_analysis/rules.ml" 139 3867 3902 "src/ext/race_analysis/rules.ml" 139 3867 3907
+type(
+  task list
+)
+ident(
+  def tasks "src/ext/race_analysis/rules.ml" 139 3867 3921 "src/ext/race_analysis/rules.ml" 147 4230 4244
+)
+"src/ext/race_analysis/rules.ml" 140 3932 3934 "src/ext/race_analysis/rules.ml" 140 3932 3947
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/ext/race_analysis/rules.ml" 140 3932 3948 "src/ext/race_analysis/rules.ml" 140 3932 3969
+type(
+  string
+)
+"src/ext/race_analysis/rules.ml" 140 3932 3934 "src/ext/race_analysis/rules.ml" 140 3932 3969
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/race_analysis/rules.ml" 141 3971 3977 "src/ext/race_analysis/rules.ml" 141 3971 3980
+type(
+  task
+)
+ident(
+  def low "src/ext/race_analysis/rules.ml" 142 4010 4014 "src/ext/race_analysis/rules.ml" 147 4230 4244
+)
+"src/ext/race_analysis/rules.ml" 141 3971 3981 "src/ext/race_analysis/rules.ml" 141 3971 3985
+type(
+  task
+)
+ident(
+  def high "src/ext/race_analysis/rules.ml" 142 4010 4014 "src/ext/race_analysis/rules.ml" 147 4230 4244
+)
+"src/ext/race_analysis/rules.ml" 141 3971 3977 "src/ext/race_analysis/rules.ml" 141 3971 3985
+type(
+  task * task
+)
+"src/ext/race_analysis/rules.ml" 141 3971 3988 "src/ext/race_analysis/rules.ml" 141 3971 4000
+type(
+  task -> task -> task * task
+)
+ident(
+  int_ref get_low_high "src/ext/race_analysis/rules.ml" 81 2190 2194 "src/ext/race_analysis/rules.ml" 81 2190 2206
+)
+"src/ext/race_analysis/rules.ml" 141 3971 4001 "src/ext/race_analysis/rules.ml" 141 3971 4003
+type(
+  task
+)
+ident(
+  int_ref t1 "src/ext/race_analysis/rules.ml" 139 3867 3878 "src/ext/race_analysis/rules.ml" 139 3867 3880
+)
+"src/ext/race_analysis/rules.ml" 141 3971 4004 "src/ext/race_analysis/rules.ml" 141 3971 4006
+type(
+  task
+)
+ident(
+  int_ref t2 "src/ext/race_analysis/rules.ml" 139 3867 3890 "src/ext/race_analysis/rules.ml" 139 3867 3892
+)
+"src/ext/race_analysis/rules.ml" 141 3971 3988 "src/ext/race_analysis/rules.ml" 141 3971 4006
+call(
+  stack
+)
+type(
+  task * task
+)
+"src/ext/race_analysis/rules.ml" 142 4010 4018 "src/ext/race_analysis/rules.ml" 142 4010 4021
+type(
+  int
+)
+ident(
+  def cur "src/ext/race_analysis/rules.ml" 143 4067 4073 "src/ext/race_analysis/rules.ml" 147 4230 4244
+)
+"src/ext/race_analysis/rules.ml" 142 4010 4025 "src/ext/race_analysis/rules.ml" 142 4010 4029
+type(
+  task
+)
+ident(
+  int_ref high "src/ext/race_analysis/rules.ml" 141 3971 3981 "src/ext/race_analysis/rules.ml" 141 3971 3985
+)
+"src/ext/race_analysis/rules.ml" 142 4010 4025 "src/ext/race_analysis/rules.ml" 142 4010 4041
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 142 4010 4042 "src/ext/race_analysis/rules.ml" 142 4010 4045
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/ext/race_analysis/rules.ml" 142 4010 4046 "src/ext/race_analysis/rules.ml" 142 4010 4049
+type(
+  task
+)
+ident(
+  int_ref low "src/ext/race_analysis/rules.ml" 141 3971 3977 "src/ext/race_analysis/rules.ml" 141 3971 3980
+)
+"src/ext/race_analysis/rules.ml" 142 4010 4046 "src/ext/race_analysis/rules.ml" 142 4010 4061
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 142 4010 4024 "src/ext/race_analysis/rules.ml" 142 4010 4062
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 143 4067 4077 "src/ext/race_analysis/rules.ml" 143 4067 4084
+type(
+  int
+)
+ident(
+  def low_val "src/ext/race_analysis/rules.ml" 144 4121 4122 "src/ext/race_analysis/rules.ml" 147 4230 4244
+)
+"src/ext/race_analysis/rules.ml" 143 4067 4087 "src/ext/race_analysis/rules.ml" 143 4067 4099
+type(
+  task -> task -> int -> int -> int list -> int
+)
+ident(
+  int_ref min_non_zero "src/ext/race_analysis/rules.ml" 125 3270 3278 "src/ext/race_analysis/rules.ml" 125 3270 3290
+)
+"src/ext/race_analysis/rules.ml" 143 4067 4100 "src/ext/race_analysis/rules.ml" 143 4067 4104
+type(
+  task
+)
+ident(
+  int_ref high "src/ext/race_analysis/rules.ml" 141 3971 3981 "src/ext/race_analysis/rules.ml" 141 3971 3985
+)
+"src/ext/race_analysis/rules.ml" 143 4067 4105 "src/ext/race_analysis/rules.ml" 143 4067 4108
+type(
+  task
+)
+ident(
+  int_ref low "src/ext/race_analysis/rules.ml" 141 3971 3977 "src/ext/race_analysis/rules.ml" 141 3971 3980
+)
+"src/ext/race_analysis/rules.ml" 143 4067 4109 "src/ext/race_analysis/rules.ml" 143 4067 4110
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 143 4067 4111 "src/ext/race_analysis/rules.ml" 143 4067 4114
+type(
+  int
+)
+ident(
+  int_ref cur "src/ext/race_analysis/rules.ml" 142 4010 4018 "src/ext/race_analysis/rules.ml" 142 4010 4021
+)
+"src/ext/race_analysis/rules.ml" 143 4067 4115 "src/ext/race_analysis/rules.ml" 143 4067 4117
+type(
+  int list
+)
+"src/ext/race_analysis/rules.ml" 143 4067 4087 "src/ext/race_analysis/rules.ml" 143 4067 4117
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 144 4121 4126 "src/ext/race_analysis/rules.ml" 144 4121 4129
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/ext/race_analysis/rules.ml" 144 4121 4131 "src/ext/race_analysis/rules.ml" 144 4121 4141
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref isMultiple "src/ext/race_analysis/rules.ml" 49 1107 1111 "src/ext/race_analysis/rules.ml" 49 1107 1121
+)
+"src/ext/race_analysis/rules.ml" 144 4121 4142 "src/ext/race_analysis/rules.ml" 144 4121 4144
+type(
+  task
+)
+ident(
+  int_ref t1 "src/ext/race_analysis/rules.ml" 139 3867 3878 "src/ext/race_analysis/rules.ml" 139 3867 3880
+)
+"src/ext/race_analysis/rules.ml" 144 4121 4142 "src/ext/race_analysis/rules.ml" 144 4121 4156
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 144 4121 4157 "src/ext/race_analysis/rules.ml" 144 4121 4159
+type(
+  task
+)
+ident(
+  int_ref t2 "src/ext/race_analysis/rules.ml" 139 3867 3890 "src/ext/race_analysis/rules.ml" 139 3867 3892
+)
+"src/ext/race_analysis/rules.ml" 144 4121 4157 "src/ext/race_analysis/rules.ml" 144 4121 4171
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 144 4121 4130 "src/ext/race_analysis/rules.ml" 144 4121 4172
+call(
+  stack
+)
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 144 4121 4125 "src/ext/race_analysis/rules.ml" 144 4121 4173
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 144 4121 4173 "src/ext/race_analysis/rules.ml" 144 4121 4175
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/ext/race_analysis/rules.ml" 144 4121 4176 "src/ext/race_analysis/rules.ml" 144 4121 4183
+type(
+  int
+)
+ident(
+  int_ref low_val "src/ext/race_analysis/rules.ml" 143 4067 4077 "src/ext/race_analysis/rules.ml" 143 4067 4084
+)
+"src/ext/race_analysis/rules.ml" 144 4121 4184 "src/ext/race_analysis/rules.ml" 144 4121 4186
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/ext/race_analysis/rules.ml" 144 4121 4187 "src/ext/race_analysis/rules.ml" 144 4121 4191
+type(
+  task -> task list -> int
+)
+ident(
+  int_ref wcrt "src/ext/race_analysis/rules.ml" 71 1830 1834 "src/ext/race_analysis/rules.ml" 71 1830 1838
+)
+"src/ext/race_analysis/rules.ml" 144 4121 4192 "src/ext/race_analysis/rules.ml" 144 4121 4195
+type(
+  task
+)
+ident(
+  int_ref low "src/ext/race_analysis/rules.ml" 141 3971 3977 "src/ext/race_analysis/rules.ml" 141 3971 3980
+)
+"src/ext/race_analysis/rules.ml" 144 4121 4196 "src/ext/race_analysis/rules.ml" 144 4121 4201
+type(
+  task list
+)
+ident(
+  int_ref tasks "src/ext/race_analysis/rules.ml" 139 3867 3902 "src/ext/race_analysis/rules.ml" 139 3867 3907
+)
+"src/ext/race_analysis/rules.ml" 144 4121 4187 "src/ext/race_analysis/rules.ml" 144 4121 4201
+call(
+  stack
+)
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 144 4121 4175 "src/ext/race_analysis/rules.ml" 144 4121 4202
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 144 4121 4124 "src/ext/race_analysis/rules.ml" 144 4121 4203
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 145 4210 4213 "src/ext/race_analysis/rules.ml" 145 4210 4221
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 147 4230 4233 "src/ext/race_analysis/rules.ml" 147 4230 4244
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 144 4121 4122 "src/ext/race_analysis/rules.ml" 147 4230 4244
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 143 4067 4073 "src/ext/race_analysis/rules.ml" 147 4230 4244
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 142 4010 4014 "src/ext/race_analysis/rules.ml" 147 4230 4244
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 141 3971 3973 "src/ext/race_analysis/rules.ml" 147 4230 4244
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 140 3932 3934 "src/ext/race_analysis/rules.ml" 147 4230 4244
+type(
+  result
+)
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 160 4711 4715 "src/ext/race_analysis/rules.ml" 160 4711 4720
+type(
+  (task -> task -> task list -> result) list
+)
+ident(
+  def rules "src/ext/race_analysis/rules.ml" 162 4747 4747 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 160 4711 4725 "src/ext/race_analysis/rules.ml" 160 4711 4730
+type(
+  task -> task -> task list -> result
+)
+ident(
+  int_ref rule1 "src/ext/race_analysis/rules.ml" 33 593 597 "src/ext/race_analysis/rules.ml" 33 593 602
+)
+"src/ext/race_analysis/rules.ml" 160 4711 4732 "src/ext/race_analysis/rules.ml" 160 4711 4737
+type(
+  task -> task -> task list -> result
+)
+ident(
+  int_ref rule2 "src/ext/race_analysis/rules.ml" 43 893 897 "src/ext/race_analysis/rules.ml" 43 893 902
+)
+"src/ext/race_analysis/rules.ml" 160 4711 4739 "src/ext/race_analysis/rules.ml" 160 4711 4744
+type(
+  task -> task -> task list -> result
+)
+ident(
+  int_ref rule3 "src/ext/race_analysis/rules.ml" 90 2346 2350 "src/ext/race_analysis/rules.ml" 90 2346 2355
+)
+"src/ext/race_analysis/rules.ml" 160 4711 4723 "src/ext/race_analysis/rules.ml" 160 4711 4745
+type(
+  (task -> task -> task list -> result) list
+)
+"src/ext/race_analysis/rules.ml" 162 4747 4751 "src/ext/race_analysis/rules.ml" 162 4747 4760
+type(
+  task -> task -> task list -> result
+)
+ident(
+  def top_level "src/ext/race_analysis/rules.ml" 177 5031 5031 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 162 4747 4761 "src/ext/race_analysis/rules.ml" 162 4747 4763
+type(
+  task
+)
+ident(
+  def t1 "src/ext/race_analysis/rules.ml" 162 4747 4764 "src/ext/race_analysis/rules.ml" 171 4998 5010
+)
+"src/ext/race_analysis/rules.ml" 162 4747 4764 "src/ext/race_analysis/rules.ml" 162 4747 4766
+type(
+  task
+)
+ident(
+  def t2 "src/ext/race_analysis/rules.ml" 162 4747 4767 "src/ext/race_analysis/rules.ml" 171 4998 5010
+)
+"src/ext/race_analysis/rules.ml" 162 4747 4767 "src/ext/race_analysis/rules.ml" 162 4747 4772
+type(
+  task list
+)
+ident(
+  def tasks "src/ext/race_analysis/rules.ml" 163 4775 4777 "src/ext/race_analysis/rules.ml" 171 4998 5010
+)
+"src/ext/race_analysis/rules.ml" 163 4775 4785 "src/ext/race_analysis/rules.ml" 163 4775 4789
+type(
+  (task -> task -> task list -> result) list -> result
+)
+ident(
+  def loop "src/ext/race_analysis/rules.ml" 163 4775 4777 "src/ext/race_analysis/rules.ml" 171 4998 5010
+)
+"src/ext/race_analysis/rules.ml" 163 4775 4790 "src/ext/race_analysis/rules.ml" 163 4775 4795
+type(
+  (task -> task -> task list -> result) list
+)
+ident(
+  def rules "src/ext/race_analysis/rules.ml" 164 4798 4802 "src/ext/race_analysis/rules.ml" 169 4959 4992
+)
+"src/ext/race_analysis/rules.ml" 164 4798 4808 "src/ext/race_analysis/rules.ml" 164 4798 4813
+type(
+  (task -> task -> task list -> result) list
+)
+ident(
+  int_ref rules "src/ext/race_analysis/rules.ml" 163 4775 4790 "src/ext/race_analysis/rules.ml" 163 4775 4795
+)
+"src/ext/race_analysis/rules.ml" 165 4819 4825 "src/ext/race_analysis/rules.ml" 165 4819 4827
+type(
+  (task -> task -> task list -> result) list
+)
+"src/ext/race_analysis/rules.ml" 165 4819 4831 "src/ext/race_analysis/rules.ml" 165 4819 4842
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 167 4844 4850 "src/ext/race_analysis/rules.ml" 167 4844 4855
+type(
+  task -> task -> task list -> result
+)
+ident(
+  def hrule "src/ext/race_analysis/rules.ml" 167 4844 4864 "src/ext/race_analysis/rules.ml" 169 4959 4992
+)
+"src/ext/race_analysis/rules.ml" 167 4844 4859 "src/ext/race_analysis/rules.ml" 167 4844 4860
+type(
+  (task -> task -> task list -> result) list
+)
+ident(
+  def t "src/ext/race_analysis/rules.ml" 167 4844 4864 "src/ext/race_analysis/rules.ml" 169 4959 4992
+)
+"src/ext/race_analysis/rules.ml" 167 4844 4850 "src/ext/race_analysis/rules.ml" 167 4844 4860
+type(
+  (task -> task -> task list -> result) list
+)
+"src/ext/race_analysis/rules.ml" 167 4844 4868 "src/ext/race_analysis/rules.ml" 167 4844 4869
+type(
+  result
+)
+ident(
+  def r "src/ext/race_analysis/rules.ml" 168 4895 4917 "src/ext/race_analysis/rules.ml" 169 4959 4992
+)
+"src/ext/race_analysis/rules.ml" 167 4844 4873 "src/ext/race_analysis/rules.ml" 167 4844 4878
+type(
+  task -> task -> task list -> result
+)
+ident(
+  int_ref hrule "src/ext/race_analysis/rules.ml" 167 4844 4850 "src/ext/race_analysis/rules.ml" 167 4844 4855
+)
+"src/ext/race_analysis/rules.ml" 167 4844 4879 "src/ext/race_analysis/rules.ml" 167 4844 4881
+type(
+  task
+)
+ident(
+  int_ref t1 "src/ext/race_analysis/rules.ml" 162 4747 4761 "src/ext/race_analysis/rules.ml" 162 4747 4763
+)
+"src/ext/race_analysis/rules.ml" 167 4844 4882 "src/ext/race_analysis/rules.ml" 167 4844 4884
+type(
+  task
+)
+ident(
+  int_ref t2 "src/ext/race_analysis/rules.ml" 162 4747 4764 "src/ext/race_analysis/rules.ml" 162 4747 4766
+)
+"src/ext/race_analysis/rules.ml" 167 4844 4885 "src/ext/race_analysis/rules.ml" 167 4844 4890
+type(
+  task list
+)
+ident(
+  int_ref tasks "src/ext/race_analysis/rules.ml" 162 4747 4767 "src/ext/race_analysis/rules.ml" 162 4747 4772
+)
+"src/ext/race_analysis/rules.ml" 167 4844 4872 "src/ext/race_analysis/rules.ml" 167 4844 4891
+call(
+  stack
+)
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 168 4895 4920 "src/ext/race_analysis/rules.ml" 168 4895 4921
+type(
+  result
+)
+ident(
+  int_ref r "src/ext/race_analysis/rules.ml" 167 4844 4868 "src/ext/race_analysis/rules.ml" 167 4844 4869
+)
+"src/ext/race_analysis/rules.ml" 168 4895 4922 "src/ext/race_analysis/rules.ml" 168 4895 4923
+type(
+  result -> result -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/race_analysis/rules.ml" 168 4895 4924 "src/ext/race_analysis/rules.ml" 168 4895 4935
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 168 4895 4920 "src/ext/race_analysis/rules.ml" 168 4895 4935
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 168 4895 4936 "src/ext/race_analysis/rules.ml" 168 4895 4938
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ext/race_analysis/rules.ml" 168 4895 4939 "src/ext/race_analysis/rules.ml" 168 4895 4940
+type(
+  result
+)
+ident(
+  int_ref r "src/ext/race_analysis/rules.ml" 167 4844 4868 "src/ext/race_analysis/rules.ml" 167 4844 4869
+)
+"src/ext/race_analysis/rules.ml" 168 4895 4941 "src/ext/race_analysis/rules.ml" 168 4895 4942
+type(
+  result -> result -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ext/race_analysis/rules.ml" 168 4895 4943 "src/ext/race_analysis/rules.ml" 168 4895 4951
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 168 4895 4939 "src/ext/race_analysis/rules.ml" 168 4895 4951
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 168 4895 4920 "src/ext/race_analysis/rules.ml" 168 4895 4951
+type(
+  bool
+)
+"src/ext/race_analysis/rules.ml" 168 4895 4957 "src/ext/race_analysis/rules.ml" 168 4895 4958
+type(
+  result
+)
+ident(
+  int_ref r "src/ext/race_analysis/rules.ml" 167 4844 4868 "src/ext/race_analysis/rules.ml" 167 4844 4869
+)
+"src/ext/race_analysis/rules.ml" 169 4959 4986 "src/ext/race_analysis/rules.ml" 169 4959 4990
+type(
+  (task -> task -> task list -> result) list -> result
+)
+ident(
+  int_ref loop "src/ext/race_analysis/rules.ml" 163 4775 4785 "src/ext/race_analysis/rules.ml" 163 4775 4789
+)
+"src/ext/race_analysis/rules.ml" 169 4959 4991 "src/ext/race_analysis/rules.ml" 169 4959 4992
+type(
+  (task -> task -> task list -> result) list
+)
+ident(
+  int_ref t "src/ext/race_analysis/rules.ml" 167 4844 4859 "src/ext/race_analysis/rules.ml" 167 4844 4860
+)
+"src/ext/race_analysis/rules.ml" 169 4959 4986 "src/ext/race_analysis/rules.ml" 169 4959 4992
+call(
+  tail
+)
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 168 4895 4917 "src/ext/race_analysis/rules.ml" 169 4959 4992
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 167 4844 4864 "src/ext/race_analysis/rules.ml" 169 4959 4992
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 164 4798 4802 "src/ext/race_analysis/rules.ml" 169 4959 4992
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 171 4998 5000 "src/ext/race_analysis/rules.ml" 171 4998 5004
+type(
+  (task -> task -> task list -> result) list -> result
+)
+ident(
+  int_ref loop "src/ext/race_analysis/rules.ml" 163 4775 4785 "src/ext/race_analysis/rules.ml" 163 4775 4789
+)
+"src/ext/race_analysis/rules.ml" 171 4998 5005 "src/ext/race_analysis/rules.ml" 171 4998 5010
+type(
+  (task -> task -> task list -> result) list
+)
+ident(
+  int_ref rules "src/ext/race_analysis/rules.ml" 160 4711 4715 "src/ext/race_analysis/rules.ml" 160 4711 4720
+)
+"src/ext/race_analysis/rules.ml" 171 4998 5000 "src/ext/race_analysis/rules.ml" 171 4998 5010
+call(
+  tail
+)
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 163 4775 4777 "src/ext/race_analysis/rules.ml" 171 4998 5010
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 177 5031 5035 "src/ext/race_analysis/rules.ml" 177 5031 5037
+type(
+  task
+)
+ident(
+  def t1 "src/ext/race_analysis/rules.ml" 178 5085 5085 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 177 5031 5053 "src/ext/race_analysis/rules.ml" 177 5031 5054
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 177 5031 5070 "src/ext/race_analysis/rules.ml" 177 5031 5072
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 177 5031 5081 "src/ext/race_analysis/rules.ml" 177 5031 5082
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 177 5031 5040 "src/ext/race_analysis/rules.ml" 177 5031 5084
+type(
+  task
+)
+"src/ext/race_analysis/rules.ml" 178 5085 5089 "src/ext/race_analysis/rules.ml" 178 5085 5091
+type(
+  task
+)
+ident(
+  def t2 "src/ext/race_analysis/rules.ml" 179 5140 5140 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 178 5085 5107 "src/ext/race_analysis/rules.ml" 178 5085 5108
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 178 5085 5124 "src/ext/race_analysis/rules.ml" 178 5085 5126
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 178 5085 5135 "src/ext/race_analysis/rules.ml" 178 5085 5137
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 178 5085 5094 "src/ext/race_analysis/rules.ml" 178 5085 5139
+type(
+  task
+)
+"src/ext/race_analysis/rules.ml" 179 5140 5144 "src/ext/race_analysis/rules.ml" 179 5140 5146
+type(
+  task
+)
+ident(
+  def t3 "src/ext/race_analysis/rules.ml" 180 5194 5194 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 179 5140 5162 "src/ext/race_analysis/rules.ml" 179 5140 5163
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 179 5140 5179 "src/ext/race_analysis/rules.ml" 179 5140 5181
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 179 5140 5190 "src/ext/race_analysis/rules.ml" 179 5140 5191
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 179 5140 5149 "src/ext/race_analysis/rules.ml" 179 5140 5193
+type(
+  task
+)
+"src/ext/race_analysis/rules.ml" 180 5194 5198 "src/ext/race_analysis/rules.ml" 180 5194 5200
+type(
+  task
+)
+ident(
+  def t4 "src/ext/race_analysis/rules.ml" 181 5248 5248 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 180 5194 5216 "src/ext/race_analysis/rules.ml" 180 5194 5217
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 180 5194 5233 "src/ext/race_analysis/rules.ml" 180 5194 5235
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 180 5194 5244 "src/ext/race_analysis/rules.ml" 180 5194 5245
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 180 5194 5203 "src/ext/race_analysis/rules.ml" 180 5194 5247
+type(
+  task
+)
+"src/ext/race_analysis/rules.ml" 181 5248 5252 "src/ext/race_analysis/rules.ml" 181 5248 5254
+type(
+  task
+)
+ident(
+  def t5 "src/ext/race_analysis/rules.ml" 182 5302 5302 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 181 5248 5270 "src/ext/race_analysis/rules.ml" 181 5248 5271
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 181 5248 5287 "src/ext/race_analysis/rules.ml" 181 5248 5289
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 181 5248 5298 "src/ext/race_analysis/rules.ml" 181 5248 5299
+type(
+  int
+)
+"src/ext/race_analysis/rules.ml" 181 5248 5257 "src/ext/race_analysis/rules.ml" 181 5248 5301
+type(
+  task
+)
+"src/ext/race_analysis/rules.ml" 182 5302 5306 "src/ext/race_analysis/rules.ml" 182 5302 5311
+type(
+  task list
+)
+ident(
+  def tasks "src/ext/race_analysis/rules.ml" 183 5337 5337 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 182 5302 5316 "src/ext/race_analysis/rules.ml" 182 5302 5318
+type(
+  task
+)
+ident(
+  int_ref t1 "src/ext/race_analysis/rules.ml" 177 5031 5035 "src/ext/race_analysis/rules.ml" 177 5031 5037
+)
+"src/ext/race_analysis/rules.ml" 182 5302 5320 "src/ext/race_analysis/rules.ml" 182 5302 5322
+type(
+  task
+)
+ident(
+  int_ref t2 "src/ext/race_analysis/rules.ml" 178 5085 5089 "src/ext/race_analysis/rules.ml" 178 5085 5091
+)
+"src/ext/race_analysis/rules.ml" 182 5302 5324 "src/ext/race_analysis/rules.ml" 182 5302 5326
+type(
+  task
+)
+ident(
+  int_ref t3 "src/ext/race_analysis/rules.ml" 179 5140 5144 "src/ext/race_analysis/rules.ml" 179 5140 5146
+)
+"src/ext/race_analysis/rules.ml" 182 5302 5328 "src/ext/race_analysis/rules.ml" 182 5302 5330
+type(
+  task
+)
+ident(
+  int_ref t4 "src/ext/race_analysis/rules.ml" 180 5194 5198 "src/ext/race_analysis/rules.ml" 180 5194 5200
+)
+"src/ext/race_analysis/rules.ml" 182 5302 5332 "src/ext/race_analysis/rules.ml" 182 5302 5334
+type(
+  task
+)
+ident(
+  int_ref t5 "src/ext/race_analysis/rules.ml" 181 5248 5252 "src/ext/race_analysis/rules.ml" 181 5248 5254
+)
+"src/ext/race_analysis/rules.ml" 182 5302 5314 "src/ext/race_analysis/rules.ml" 182 5302 5336
+type(
+  task list
+)
+"src/ext/race_analysis/rules.ml" 183 5337 5341 "src/ext/race_analysis/rules.ml" 183 5337 5347
+type(
+  task list
+)
+ident(
+  def tasks3 "src/ext/race_analysis/rules.ml" 261 8269 8269 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 183 5337 5352 "src/ext/race_analysis/rules.ml" 183 5337 5354
+type(
+  task
+)
+ident(
+  int_ref t1 "src/ext/race_analysis/rules.ml" 177 5031 5035 "src/ext/race_analysis/rules.ml" 177 5031 5037
+)
+"src/ext/race_analysis/rules.ml" 183 5337 5356 "src/ext/race_analysis/rules.ml" 183 5337 5358
+type(
+  task
+)
+ident(
+  int_ref t3 "src/ext/race_analysis/rules.ml" 179 5140 5144 "src/ext/race_analysis/rules.ml" 179 5140 5146
+)
+"src/ext/race_analysis/rules.ml" 183 5337 5350 "src/ext/race_analysis/rules.ml" 183 5337 5361
+type(
+  task list
+)
+"src/ext/race_analysis/rules.ml" 261 8269 8273 "src/ext/race_analysis/rules.ml" 261 8269 8284
+type(
+  unit -> unit
+)
+ident(
+  def toplevel_t1 "src/ext/race_analysis/rules.ml" 319 10413 10413 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 261 8269 8285 "src/ext/race_analysis/rules.ml" 261 8269 8287
+type(
+  unit
+)
+"src/ext/race_analysis/rules.ml" 262 8290 8292 "src/ext/race_analysis/rules.ml" 262 8290 8298
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"src/ext/race_analysis/rules.ml" 262 8290 8299 "src/ext/race_analysis/rules.ml" 262 8290 8303
+type(
+  (string -> unit, out_channel, unit) format
+)
+"src/ext/race_analysis/rules.ml" 262 8290 8304 "src/ext/race_analysis/rules.ml" 262 8290 8343
+type(
+  string
+)
+"src/ext/race_analysis/rules.ml" 262 8290 8292 "src/ext/race_analysis/rules.ml" 262 8290 8343
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ext/race_analysis/rules.ml" 263 8345 8347 "src/ext/race_analysis/rules.ml" 263 8345 8360
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/ext/race_analysis/rules.ml" 263 8345 8362 "src/ext/race_analysis/rules.ml" 263 8345 8378
+type(
+  result -> string
+)
+ident(
+  int_ref string_of_result "src/ext/race_analysis/rules.ml" 8 80 84 "src/ext/race_analysis/rules.ml" 8 80 100
+)
+"src/ext/race_analysis/rules.ml" 263 8345 8380 "src/ext/race_analysis/rules.ml" 263 8345 8389
+type(
+  task -> task -> task list -> result
+)
+ident(
+  int_ref top_level "src/ext/race_analysis/rules.ml" 162 4747 4751 "src/ext/race_analysis/rules.ml" 162 4747 4760
+)
+"src/ext/race_analysis/rules.ml" 263 8345 8390 "src/ext/race_analysis/rules.ml" 263 8345 8392
+type(
+  task
+)
+ident(
+  int_ref t1 "src/ext/race_analysis/rules.ml" 177 5031 5035 "src/ext/race_analysis/rules.ml" 177 5031 5037
+)
+"src/ext/race_analysis/rules.ml" 263 8345 8393 "src/ext/race_analysis/rules.ml" 263 8345 8395
+type(
+  task
+)
+ident(
+  int_ref t3 "src/ext/race_analysis/rules.ml" 179 5140 5144 "src/ext/race_analysis/rules.ml" 179 5140 5146
+)
+"src/ext/race_analysis/rules.ml" 263 8345 8396 "src/ext/race_analysis/rules.ml" 263 8345 8402
+type(
+  task list
+)
+ident(
+  int_ref tasks3 "src/ext/race_analysis/rules.ml" 183 5337 5341 "src/ext/race_analysis/rules.ml" 183 5337 5347
+)
+"src/ext/race_analysis/rules.ml" 263 8345 8379 "src/ext/race_analysis/rules.ml" 263 8345 8403
+call(
+  stack
+)
+type(
+  result
+)
+"src/ext/race_analysis/rules.ml" 263 8345 8361 "src/ext/race_analysis/rules.ml" 263 8345 8404
+call(
+  stack
+)
+type(
+  string
+)
+"src/ext/race_analysis/rules.ml" 263 8345 8347 "src/ext/race_analysis/rules.ml" 263 8345 8404
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/race_analysis/rules.ml" 262 8290 8292 "src/ext/race_analysis/rules.ml" 263 8345 8404
+type(
+  unit
+)
+"src/ext/race_analysis/rules.ml" 319 10413 10417 "src/ext/race_analysis/rules.ml" 319 10413 10425
+type(
+  unit -> unit
+)
+ident(
+  def test_all "src/ext/race_analysis/rules.ml" 322 10448 10448 "src/ext/race_analysis/rules.ml" 1 0 -1
+)
+"src/ext/race_analysis/rules.ml" 319 10413 10426 "src/ext/race_analysis/rules.ml" 319 10413 10428
+type(
+  unit
+)
+"src/ext/race_analysis/rules.ml" 320 10431 10433 "src/ext/race_analysis/rules.ml" 320 10431 10444
+type(
+  unit -> unit
+)
+ident(
+  int_ref toplevel_t1 "src/ext/race_analysis/rules.ml" 261 8269 8273 "src/ext/race_analysis/rules.ml" 261 8269 8284
+)
+"src/ext/race_analysis/rules.ml" 320 10431 10444 "src/ext/race_analysis/rules.ml" 320 10431 10446
+type(
+  unit
+)
+"src/ext/race_analysis/rules.ml" 320 10431 10433 "src/ext/race_analysis/rules.ml" 320 10431 10446
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ext/race_analysis/rules.ml" 322 10448 10452 "src/ext/race_analysis/rules.ml" 322 10448 10453
+type(
+  unit
+)
+"src/ext/race_analysis/rules.ml" 322 10448 10456 "src/ext/race_analysis/rules.ml" 322 10448 10464
+type(
+  unit -> unit
+)
+ident(
+  int_ref test_all "src/ext/race_analysis/rules.ml" 319 10413 10417 "src/ext/race_analysis/rules.ml" 319 10413 10425
+)
+"src/ext/race_analysis/rules.ml" 322 10448 10465 "src/ext/race_analysis/rules.ml" 322 10448 10467
+type(
+  unit
+)
+"src/ext/race_analysis/rules.ml" 322 10448 10456 "src/ext/race_analysis/rules.ml" 322 10448 10467
+call(
+  stack
+)
+type(
+  unit
+)

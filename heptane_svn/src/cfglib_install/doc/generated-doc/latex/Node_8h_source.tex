@@ -1,0 +1,128 @@
+\hypertarget{Node_8h_source}{}\doxysection{Node.\+h}
+\label{Node_8h_source}\index{include/Node.h@{include/Node.h}}
+\mbox{\hyperlink{Node_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{/* -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{2 \textcolor{comment}{}}
+\DoxyCodeLine{3 \textcolor{comment}{Copyright IRISA, 2003-\/2017}}
+\DoxyCodeLine{4 \textcolor{comment}{}}
+\DoxyCodeLine{5 \textcolor{comment}{This file is part of Heptane, a tool for Worst-\/Case Execution Time (WCET)}}
+\DoxyCodeLine{6 \textcolor{comment}{estimation.}}
+\DoxyCodeLine{7 \textcolor{comment}{APP deposit IDDN.FR.001.510039.000.S.P.2003.000.10600}}
+\DoxyCodeLine{8 \textcolor{comment}{}}
+\DoxyCodeLine{9 \textcolor{comment}{Heptane is free software: you can redistribute it and/or modify}}
+\DoxyCodeLine{10 \textcolor{comment}{it under the terms of the GNU General Public License as published by}}
+\DoxyCodeLine{11 \textcolor{comment}{the Free Software Foundation, either version 3 of the License, or}}
+\DoxyCodeLine{12 \textcolor{comment}{(at your option) any later version.}}
+\DoxyCodeLine{13 \textcolor{comment}{}}
+\DoxyCodeLine{14 \textcolor{comment}{Heptane is distributed in the hope that it will be useful,}}
+\DoxyCodeLine{15 \textcolor{comment}{but WITHOUT ANY WARRANTY; without even the implied warranty of}}
+\DoxyCodeLine{16 \textcolor{comment}{MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the}}
+\DoxyCodeLine{17 \textcolor{comment}{GNU General Public License for more details (COPYING.txt).}}
+\DoxyCodeLine{18 \textcolor{comment}{}}
+\DoxyCodeLine{19 \textcolor{comment}{See CREDITS.txt for credits of authorship}}
+\DoxyCodeLine{20 \textcolor{comment}{}}
+\DoxyCodeLine{21 \textcolor{comment}{-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/ */}}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 \textcolor{preprocessor}{\#ifndef \_IRISA\_CFGLIB\_NODE\_H}}
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#define \_IRISA\_CFGLIB\_NODE\_H}}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{28 \textcolor{comment}{/* \#includes and forward declarations : */}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include <libxml/tree.h>}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{Attributed_8h}{Attributed.h}}"{}}}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{CloneHandle_8h}{CloneHandle.h}}"{}}}
+\DoxyCodeLine{32 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{Instruction_8h}{Instruction.h}}"{}}}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34 \textcolor{comment}{/* Debug of node management methods */}}
+\DoxyCodeLine{35 \textcolor{comment}{// Uncomment one of these two lines to enter/leave debug mode}}
+\DoxyCodeLine{36 \textcolor{comment}{//\#define dbg\_node(x) x}}
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#define dbg\_node(x)}}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{40 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespacecfglib}{cfglib}} }
+\DoxyCodeLine{41 \{}
+\DoxyCodeLine{42   \textcolor{comment}{/* \#includes and forward declarations : */}}
+\DoxyCodeLine{43   \textcolor{keyword}{class }Cfg ; \textcolor{comment}{// cf. cfg/cfg.h}}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{46   \textcolor{keyword}{enum} \mbox{\hyperlink{namespacecfglib_a44952a45d827aaa271f7e7dac5bf7752}{node\_type}} \{ \mbox{\hyperlink{namespacecfglib_a44952a45d827aaa271f7e7dac5bf7752a161e598b1ef5f29fc67972d96fbc784d}{BB}}, \mbox{\hyperlink{namespacecfglib_a44952a45d827aaa271f7e7dac5bf7752a149dfeb27580a7821420112c9a02a05e}{Call}} \} ;}
+\DoxyCodeLine{47   }
+\DoxyCodeLine{52   \textcolor{keyword}{class }\mbox{\hyperlink{classcfglib_1_1Node}{Node}} : \textcolor{keyword}{public} \mbox{\hyperlink{classcfglib_1_1Attributed}{Attributed}} \{}
+\DoxyCodeLine{53   \textcolor{keyword}{public}: }
+\DoxyCodeLine{54     }
+\DoxyCodeLine{55   \textcolor{keyword}{private}:}
+\DoxyCodeLine{57     \textcolor{comment}{//TP}}
+\DoxyCodeLine{58     \mbox{\hyperlink{classcfglib_1_1Cfg}{Cfg}}* cfg ;}
+\DoxyCodeLine{59 }
+\DoxyCodeLine{61     \mbox{\hyperlink{namespacecfglib_a44952a45d827aaa271f7e7dac5bf7752}{node\_type}} type ;}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{64     \textcolor{keywordtype}{bool} is\_return ;}
+\DoxyCodeLine{65 }
+\DoxyCodeLine{67     std::string callee\_name;}
+\DoxyCodeLine{68 }
+\DoxyCodeLine{70     \mbox{\hyperlink{classcfglib_1_1Cfg}{Cfg}}* callee\_cfg;}
+\DoxyCodeLine{71 }
+\DoxyCodeLine{72   \textcolor{keyword}{public}:}
+\DoxyCodeLine{74     \mbox{\hyperlink{classcfglib_1_1Cfg}{Cfg}}* \mbox{\hyperlink{classcfglib_1_1Node_ada9870d51b1594048a1c2f1495c8d220}{GetCfg}}();}
+\DoxyCodeLine{75 }
+\DoxyCodeLine{77     \textcolor{keyword}{friend} \textcolor{keyword}{class }\mbox{\hyperlink{classcfglib_1_1Cfg}{Cfg}};}
+\DoxyCodeLine{78     \textcolor{comment}{//TP}}
+\DoxyCodeLine{79     \textcolor{keyword}{friend} \textcolor{keyword}{class }\mbox{\hyperlink{classcfglib_1_1Loop}{Loop}};}
+\DoxyCodeLine{80 }
+\DoxyCodeLine{81   \textcolor{keyword}{private}:}
+\DoxyCodeLine{83     std::vector<Instruction*> instructions ;}
+\DoxyCodeLine{84 }
+\DoxyCodeLine{88     \mbox{\hyperlink{classcfglib_1_1Node}{Node}}(\mbox{\hyperlink{classcfglib_1_1Cfg}{Cfg}}* cfg);}
+\DoxyCodeLine{89 }
+\DoxyCodeLine{93     \mbox{\hyperlink{classcfglib_1_1Node}{Node}}(\mbox{\hyperlink{classcfglib_1_1Cfg}{Cfg}}* cfg, \mbox{\hyperlink{namespacecfglib_a44952a45d827aaa271f7e7dac5bf7752}{node\_type}} type);}
+\DoxyCodeLine{94 }
+\DoxyCodeLine{95     \textcolor{comment}{//TP}}
+\DoxyCodeLine{97 \textcolor{comment}{}    \mbox{\hyperlink{classcfglib_1_1Node}{Node}}();}
+\DoxyCodeLine{98 }
+\DoxyCodeLine{100     \textcolor{keyword}{virtual} \mbox{\hyperlink{classcfglib_1_1Node}{Node}}* create(\mbox{\hyperlink{classcfglib_1_1Cfg}{Cfg}}* cfg, \mbox{\hyperlink{namespacecfglib_a44952a45d827aaa271f7e7dac5bf7752}{node\_type}} type) \textcolor{keyword}{const};}
+\DoxyCodeLine{101     }
+\DoxyCodeLine{102   \textcolor{keyword}{public}:}
+\DoxyCodeLine{104     \textcolor{keyword}{virtual} \mbox{\hyperlink{classcfglib_1_1Node_a3ff420dfcc34125601765f1ab3444d66}{\string~Node}} () ;}
+\DoxyCodeLine{105 }
+\DoxyCodeLine{106     \textcolor{comment}{//TP}}
+\DoxyCodeLine{108 \textcolor{comment}{}    \mbox{\hyperlink{classcfglib_1_1Node}{Node}}* \mbox{\hyperlink{classcfglib_1_1Node_a2fbebb16663f31071156344adc63100f}{Clone}}(\mbox{\hyperlink{classcfglib_1_1CloneHandle}{CloneHandle}}\&);}
+\DoxyCodeLine{109 }
+\DoxyCodeLine{112     \textcolor{keyword}{virtual} std::ostream\& \mbox{\hyperlink{classcfglib_1_1Node_a2662c18ec3c66a0e9fde891651043a79}{WriteXml}}(std::ostream\& os, \mbox{\hyperlink{classcfglib_1_1Handle}{Handle}}\& hand) ;}
+\DoxyCodeLine{113 }
+\DoxyCodeLine{115     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{classcfglib_1_1Node_aaab769075e5d02c61411d58fc94e2070}{ReadXml}}( \mbox{\hyperlink{classXmlTag}{XmlTag}} \textcolor{keyword}{const}* tag, \mbox{\hyperlink{classcfglib_1_1Handle}{Handle}}\& hand); }
+\DoxyCodeLine{116 }
+\DoxyCodeLine{118     \mbox{\hyperlink{namespacecfglib_a44952a45d827aaa271f7e7dac5bf7752}{node\_type}} \mbox{\hyperlink{classcfglib_1_1Node_a92716d47e55c6808c641ac2fab7e26e2}{GetType}}() \{\textcolor{keywordflow}{return} type;\}}
+\DoxyCodeLine{119 }
+\DoxyCodeLine{121     \textcolor{keywordtype}{bool} \mbox{\hyperlink{classcfglib_1_1Node_a544488e1ba481dae0d55f2b826ac84a9}{IsCall}}();}
+\DoxyCodeLine{122 }
+\DoxyCodeLine{124     \textcolor{keywordtype}{bool} \mbox{\hyperlink{classcfglib_1_1Node_a2813d33e1f4b848f6f14f2744cb17dfe}{IsBB}}();}
+\DoxyCodeLine{125 }
+\DoxyCodeLine{127     std::vector<Instruction*> \mbox{\hyperlink{classcfglib_1_1Node_a0e53e7c6932ecfc651f3ffe22e77e9d5}{GetInstructions}}();}
+\DoxyCodeLine{128 }
+\DoxyCodeLine{131     \textcolor{keywordtype}{int} \mbox{\hyperlink{classcfglib_1_1Node_a305a0c9ac27d6840536be1ccbcea29d3}{GetNbInstructions}}() \{\textcolor{keywordflow}{return} instructions.size();\}}
+\DoxyCodeLine{132 }
+\DoxyCodeLine{134     std::vector <Instruction *>\mbox{\hyperlink{classcfglib_1_1Node_a1fbb48f6972aa583109d81dfb5bf50d0}{GetAsm}}();}
+\DoxyCodeLine{135 }
+\DoxyCodeLine{138     \mbox{\hyperlink{classcfglib_1_1Instruction}{Instruction}}* \mbox{\hyperlink{classcfglib_1_1Node_aedd3f8a4a37e6b6cb30421a62be4e202}{CreateNewInstruction}}(}
+\DoxyCodeLine{139                    std::string \textcolor{keyword}{const}\& code, }
+\DoxyCodeLine{140                    \mbox{\hyperlink{namespacecfglib_a5ae32d51cf4ff1db5485367eab63a500}{asm\_type}} \mbox{\hyperlink{namespacecfglib_a5ae32d51cf4ff1db5485367eab63a500}{asm\_type}},}
+\DoxyCodeLine{141                    \textcolor{keywordtype}{bool} ret);}
+\DoxyCodeLine{142     }
+\DoxyCodeLine{144     \textcolor{keywordtype}{bool} \mbox{\hyperlink{classcfglib_1_1Node_a879a88114917dcc1084aeab10bd83732}{IsReturn}}() ;}
+\DoxyCodeLine{145 }
+\DoxyCodeLine{148     \mbox{\hyperlink{classcfglib_1_1Cfg}{Cfg}}* \mbox{\hyperlink{classcfglib_1_1Node_a6797f52831363865297963f18efbf422}{GetCallee}}() ;}
+\DoxyCodeLine{149     }
+\DoxyCodeLine{152     std::string \mbox{\hyperlink{classcfglib_1_1Node_af50258a896a1960fe337ce9bfb4c038e}{GetCalleeName}}();}
+\DoxyCodeLine{153 }
+\DoxyCodeLine{159     \textcolor{keywordtype}{void} \mbox{\hyperlink{classcfglib_1_1Node_a1ffbf02ce392ebbed1e56f75c3bb268d}{SetCall}}(\textcolor{keywordtype}{string} called, \textcolor{keywordtype}{bool} emit\_warning) ;}
+\DoxyCodeLine{160 }
+\DoxyCodeLine{167     \textcolor{keywordtype}{bool} \mbox{\hyperlink{classcfglib_1_1Node_a52c4537c5aac77699ab900b8b60a14eb}{isIsolatedNopNode}}();}
+\DoxyCodeLine{168 }
+\DoxyCodeLine{169     \textcolor{keywordtype}{bool} \mbox{\hyperlink{classcfglib_1_1Node_a9063f79cf7bf36717b23a71c4027142e}{isIsolatedNopNodeLB}}();}
+\DoxyCodeLine{170     \textcolor{keywordtype}{string} \mbox{\hyperlink{classcfglib_1_1Node_a42c979a43fa0e2314076fbecd3993514}{getIdentifier}}();}
+\DoxyCodeLine{171   \} ;}
+\DoxyCodeLine{172 }
+\DoxyCodeLine{173 \} \textcolor{comment}{// cfglib::}}
+\DoxyCodeLine{174 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_IRISA\_CFGLIB\_NODE\_H}}
+
+\end{DoxyCode}

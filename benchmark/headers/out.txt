@@ -1,0 +1,7 @@
+In file included from /home/se-lab/osek_inline/ardupilot_map_impl/process_ardupilot/request.h:3:0,
+                 from /home/se-lab/osek_inline/ardupilot_map_impl/process_ardupilot/activity.h:3,
+                 from main.c:1:
+/home/se-lab/osek_inline/ardupilot_map_impl/process_ardupilot/types.h:3:10: fatal error: po_hi_types.h: No such file or directory
+ #include <po_hi_types.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.

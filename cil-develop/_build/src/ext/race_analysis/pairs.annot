@@ -1,0 +1,243 @@
+"src/ext/race_analysis/pairs.ml" 1 0 4 "src/ext/race_analysis/pairs.ml" 1 0 12
+type(
+  'a list -> ('a * 'a) list
+)
+ident(
+  def getPairs "src/ext/race_analysis/pairs.ml" 14 234 234 "src/ext/race_analysis/pairs.ml" 1 0 -1
+)
+"src/ext/race_analysis/pairs.ml" 1 0 13 "src/ext/race_analysis/pairs.ml" 1 0 16
+type(
+  'a list
+)
+ident(
+  def lst "src/ext/race_analysis/pairs.ml" 2 19 21 "src/ext/race_analysis/pairs.ml" 12 221 232
+)
+"src/ext/race_analysis/pairs.ml" 2 19 29 "src/ext/race_analysis/pairs.ml" 2 19 34
+type(
+  'b list -> ('b * 'b) list
+)
+ident(
+  def loop1 "src/ext/race_analysis/pairs.ml" 2 19 21 "src/ext/race_analysis/pairs.ml" 12 221 232
+)
+"src/ext/race_analysis/pairs.ml" 2 19 35 "src/ext/race_analysis/pairs.ml" 2 19 37
+type(
+  'b list
+)
+ident(
+  def l1 "src/ext/race_analysis/pairs.ml" 3 40 44 "src/ext/race_analysis/pairs.ml" 10 188 215
+)
+"src/ext/race_analysis/pairs.ml" 3 40 50 "src/ext/race_analysis/pairs.ml" 3 40 52
+type(
+  'b list
+)
+ident(
+  int_ref l1 "src/ext/race_analysis/pairs.ml" 2 19 35 "src/ext/race_analysis/pairs.ml" 2 19 37
+)
+"src/ext/race_analysis/pairs.ml" 4 58 64 "src/ext/race_analysis/pairs.ml" 4 58 66
+type(
+  'b list
+)
+"src/ext/race_analysis/pairs.ml" 4 58 70 "src/ext/race_analysis/pairs.ml" 4 58 72
+type(
+  ('b * 'b) list
+)
+"src/ext/race_analysis/pairs.ml" 5 73 79 "src/ext/race_analysis/pairs.ml" 5 73 80
+type(
+  'b
+)
+ident(
+  def h "src/ext/race_analysis/pairs.ml" 6 89 95 "src/ext/race_analysis/pairs.ml" 10 188 215
+)
+"src/ext/race_analysis/pairs.ml" 5 73 84 "src/ext/race_analysis/pairs.ml" 5 73 85
+type(
+  'b list
+)
+ident(
+  def t "src/ext/race_analysis/pairs.ml" 6 89 95 "src/ext/race_analysis/pairs.ml" 10 188 215
+)
+"src/ext/race_analysis/pairs.ml" 5 73 79 "src/ext/race_analysis/pairs.ml" 5 73 85
+type(
+  'b list
+)
+"src/ext/race_analysis/pairs.ml" 6 89 103 "src/ext/race_analysis/pairs.ml" 6 89 108
+type(
+  'c list -> ('b * 'c) list
+)
+ident(
+  def loop2 "src/ext/race_analysis/pairs.ml" 6 89 95 "src/ext/race_analysis/pairs.ml" 10 188 215
+)
+"src/ext/race_analysis/pairs.ml" 7 120 128 "src/ext/race_analysis/pairs.ml" 7 120 130
+type(
+  'c list
+)
+"src/ext/race_analysis/pairs.ml" 7 120 134 "src/ext/race_analysis/pairs.ml" 7 120 136
+type(
+  ('b * 'c) list
+)
+"src/ext/race_analysis/pairs.ml" 8 137 145 "src/ext/race_analysis/pairs.ml" 8 137 147
+type(
+  'c
+)
+ident(
+  def h' "src/ext/race_analysis/pairs.ml" 8 137 157 "src/ext/race_analysis/pairs.ml" 8 137 178
+)
+"src/ext/race_analysis/pairs.ml" 8 137 151 "src/ext/race_analysis/pairs.ml" 8 137 153
+type(
+  'c list
+)
+ident(
+  def t' "src/ext/race_analysis/pairs.ml" 8 137 157 "src/ext/race_analysis/pairs.ml" 8 137 178
+)
+"src/ext/race_analysis/pairs.ml" 8 137 145 "src/ext/race_analysis/pairs.ml" 8 137 153
+type(
+  'c list
+)
+"src/ext/race_analysis/pairs.ml" 8 137 158 "src/ext/race_analysis/pairs.ml" 8 137 159
+type(
+  'b
+)
+ident(
+  int_ref h "src/ext/race_analysis/pairs.ml" 5 73 79 "src/ext/race_analysis/pairs.ml" 5 73 80
+)
+"src/ext/race_analysis/pairs.ml" 8 137 161 "src/ext/race_analysis/pairs.ml" 8 137 163
+type(
+  'c
+)
+ident(
+  int_ref h' "src/ext/race_analysis/pairs.ml" 8 137 145 "src/ext/race_analysis/pairs.ml" 8 137 147
+)
+"src/ext/race_analysis/pairs.ml" 8 137 157 "src/ext/race_analysis/pairs.ml" 8 137 164
+type(
+  'b * 'c
+)
+"src/ext/race_analysis/pairs.ml" 8 137 169 "src/ext/race_analysis/pairs.ml" 8 137 174
+type(
+  'c list -> ('b * 'c) list
+)
+ident(
+  int_ref loop2 "src/ext/race_analysis/pairs.ml" 6 89 103 "src/ext/race_analysis/pairs.ml" 6 89 108
+)
+"src/ext/race_analysis/pairs.ml" 8 137 175 "src/ext/race_analysis/pairs.ml" 8 137 177
+type(
+  'c list
+)
+ident(
+  int_ref t' "src/ext/race_analysis/pairs.ml" 8 137 151 "src/ext/race_analysis/pairs.ml" 8 137 153
+)
+"src/ext/race_analysis/pairs.ml" 8 137 168 "src/ext/race_analysis/pairs.ml" 8 137 178
+type(
+  ('b * 'c) list
+)
+"src/ext/race_analysis/pairs.ml" 8 137 157 "src/ext/race_analysis/pairs.ml" 8 137 178
+type(
+  ('b * 'c) list
+)
+"src/ext/race_analysis/pairs.ml" 6 89 111 "src/ext/race_analysis/pairs.ml" 8 137 178
+type(
+  'c list -> ('b * 'c) list
+)
+"src/ext/race_analysis/pairs.ml" 10 188 195 "src/ext/race_analysis/pairs.ml" 10 188 200
+type(
+  'b list -> ('b * 'b) list
+)
+ident(
+  int_ref loop2 "src/ext/race_analysis/pairs.ml" 6 89 103 "src/ext/race_analysis/pairs.ml" 6 89 108
+)
+"src/ext/race_analysis/pairs.ml" 10 188 201 "src/ext/race_analysis/pairs.ml" 10 188 202
+type(
+  'b list
+)
+ident(
+  int_ref t "src/ext/race_analysis/pairs.ml" 5 73 84 "src/ext/race_analysis/pairs.ml" 5 73 85
+)
+"src/ext/race_analysis/pairs.ml" 10 188 194 "src/ext/race_analysis/pairs.ml" 10 188 203
+type(
+  ('b * 'b) list
+)
+"src/ext/race_analysis/pairs.ml" 10 188 204 "src/ext/race_analysis/pairs.ml" 10 188 205
+type(
+  ('b * 'b) list -> ('b * 'b) list -> ('b * 'b) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/ext/race_analysis/pairs.ml" 10 188 207 "src/ext/race_analysis/pairs.ml" 10 188 212
+type(
+  'b list -> ('b * 'b) list
+)
+ident(
+  int_ref loop1 "src/ext/race_analysis/pairs.ml" 2 19 29 "src/ext/race_analysis/pairs.ml" 2 19 34
+)
+"src/ext/race_analysis/pairs.ml" 10 188 213 "src/ext/race_analysis/pairs.ml" 10 188 214
+type(
+  'b list
+)
+ident(
+  int_ref t "src/ext/race_analysis/pairs.ml" 5 73 84 "src/ext/race_analysis/pairs.ml" 5 73 85
+)
+"src/ext/race_analysis/pairs.ml" 10 188 206 "src/ext/race_analysis/pairs.ml" 10 188 215
+type(
+  ('b * 'b) list
+)
+"src/ext/race_analysis/pairs.ml" 10 188 194 "src/ext/race_analysis/pairs.ml" 10 188 215
+type(
+  ('b * 'b) list
+)
+"src/ext/race_analysis/pairs.ml" 6 89 95 "src/ext/race_analysis/pairs.ml" 10 188 215
+type(
+  ('b * 'b) list
+)
+"src/ext/race_analysis/pairs.ml" 3 40 44 "src/ext/race_analysis/pairs.ml" 10 188 215
+type(
+  ('b * 'b) list
+)
+"src/ext/race_analysis/pairs.ml" 12 221 223 "src/ext/race_analysis/pairs.ml" 12 221 228
+type(
+  'a list -> ('a * 'a) list
+)
+ident(
+  int_ref loop1 "src/ext/race_analysis/pairs.ml" 2 19 29 "src/ext/race_analysis/pairs.ml" 2 19 34
+)
+"src/ext/race_analysis/pairs.ml" 12 221 229 "src/ext/race_analysis/pairs.ml" 12 221 232
+type(
+  'a list
+)
+ident(
+  int_ref lst "src/ext/race_analysis/pairs.ml" 1 0 13 "src/ext/race_analysis/pairs.ml" 1 0 16
+)
+"src/ext/race_analysis/pairs.ml" 12 221 223 "src/ext/race_analysis/pairs.ml" 12 221 232
+type(
+  ('a * 'a) list
+)
+"src/ext/race_analysis/pairs.ml" 2 19 21 "src/ext/race_analysis/pairs.ml" 12 221 232
+type(
+  ('a * 'a) list
+)
+"src/ext/race_analysis/pairs.ml" 14 234 238 "src/ext/race_analysis/pairs.ml" 14 234 247
+type(
+  '_a -> '_b
+)
+ident(
+  def printlist "src/ext/race_analysis/pairs.ml" 16 284 284 "src/ext/race_analysis/pairs.ml" 1 0 -1
+)
+"src/ext/race_analysis/pairs.ml" 14 234 248 "src/ext/race_analysis/pairs.ml" 14 234 249
+type(
+  '_a
+)
+ident(
+  def l "src/ext/race_analysis/pairs.ml" 14 234 252 "src/ext/race_analysis/pairs.ml" 14 234 282
+)
+"src/ext/race_analysis/pairs.ml" 14 234 252 "src/ext/race_analysis/pairs.ml" 14 234 261
+type(
+  ('_c -> unit) -> '_c list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/ext/race_analysis/pairs.ml" 14 234 267 "src/ext/race_analysis/pairs.ml" 14 234 268
+type(
+  '_c
+)
+ident(
+  def x "src/ext/race_analysis/pairs.ml" 14 234 272 "src/ext/race_analysis/pairs.ml" 14 234 279
+)

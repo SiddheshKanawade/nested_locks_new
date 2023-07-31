@@ -1,0 +1,2260 @@
+"src/feature.ml" 50 1840 1844 "src/feature.ml" 50 1840 1852
+type(
+  t list ref
+)
+ident(
+  def features "src/feature.ml" 52 1863 1863 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 50 1840 1855 "src/feature.ml" 50 1840 1858
+type(
+  t list -> t list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/feature.ml" 50 1840 1859 "src/feature.ml" 50 1840 1861
+type(
+  t list
+)
+"src/feature.ml" 50 1840 1855 "src/feature.ml" 50 1840 1861
+type(
+  t list ref
+)
+"src/feature.ml" 52 1863 1867 "src/feature.ml" 52 1863 1876
+type(
+  string -> t -> bool
+)
+ident(
+  def same_name "src/feature.ml" 54 1898 1898 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 52 1863 1877 "src/feature.ml" 52 1863 1878
+type(
+  string
+)
+ident(
+  def s "src/feature.ml" 52 1863 1879 "src/feature.ml" 52 1863 1896
+)
+"src/feature.ml" 52 1863 1879 "src/feature.ml" 52 1863 1880
+type(
+  t
+)
+ident(
+  def f "src/feature.ml" 52 1863 1883 "src/feature.ml" 52 1863 1896
+)
+"src/feature.ml" 52 1863 1883 "src/feature.ml" 52 1863 1884
+type(
+  string
+)
+ident(
+  int_ref s "src/feature.ml" 52 1863 1877 "src/feature.ml" 52 1863 1878
+)
+"src/feature.ml" 52 1863 1885 "src/feature.ml" 52 1863 1886
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/feature.ml" 52 1863 1887 "src/feature.ml" 52 1863 1888
+type(
+  t
+)
+ident(
+  int_ref f "src/feature.ml" 52 1863 1879 "src/feature.ml" 52 1863 1880
+)
+"src/feature.ml" 52 1863 1887 "src/feature.ml" 52 1863 1896
+type(
+  string
+)
+"src/feature.ml" 52 1863 1883 "src/feature.ml" 52 1863 1896
+type(
+  bool
+)
+"src/feature.ml" 54 1898 1902 "src/feature.ml" 54 1898 1910
+type(
+  t -> unit
+)
+ident(
+  def register "src/feature.ml" 59 2066 2066 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 54 1898 1911 "src/feature.ml" 54 1898 1912
+type(
+  t
+)
+ident(
+  def f "src/feature.ml" 55 1915 1917 "src/feature.ml" 57 2030 2064
+)
+"src/feature.ml" 55 1915 1920 "src/feature.ml" 55 1915 1931
+type(
+  (t -> bool) -> t list -> bool
+)
+ident(
+  ext_ref List.exists
+)
+"src/feature.ml" 55 1915 1933 "src/feature.ml" 55 1915 1942
+type(
+  string -> t -> bool
+)
+ident(
+  int_ref same_name "src/feature.ml" 52 1863 1867 "src/feature.ml" 52 1863 1876
+)
+"src/feature.ml" 55 1915 1943 "src/feature.ml" 55 1915 1944
+type(
+  t
+)
+ident(
+  int_ref f "src/feature.ml" 54 1898 1911 "src/feature.ml" 54 1898 1912
+)
+"src/feature.ml" 55 1915 1943 "src/feature.ml" 55 1915 1952
+type(
+  string
+)
+"src/feature.ml" 55 1915 1932 "src/feature.ml" 55 1915 1953
+call(
+  stack
+)
+type(
+  t -> bool
+)
+"src/feature.ml" 55 1915 1954 "src/feature.ml" 55 1915 1955
+type(
+  t list ref -> t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/feature.ml" 55 1915 1955 "src/feature.ml" 55 1915 1963
+type(
+  t list ref
+)
+ident(
+  int_ref features "src/feature.ml" 50 1840 1844 "src/feature.ml" 50 1840 1852
+)
+"src/feature.ml" 55 1915 1954 "src/feature.ml" 55 1915 1963
+type(
+  t list
+)
+"src/feature.ml" 55 1915 1920 "src/feature.ml" 55 1915 1963
+call(
+  stack
+)
+type(
+  bool
+)
+"src/feature.ml" 56 1964 1971 "src/feature.ml" 56 1964 1974
+type(
+  unit -> unit
+)
+ident(
+  ext_ref E.s
+)
+"src/feature.ml" 56 1964 1976 "src/feature.ml" 56 1964 1983
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.error
+)
+"src/feature.ml" 56 1964 1984 "src/feature.ml" 56 1964 2018
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/feature.ml" 56 1964 2019 "src/feature.ml" 56 1964 2020
+type(
+  t
+)
+ident(
+  int_ref f "src/feature.ml" 54 1898 1911 "src/feature.ml" 54 1898 1912
+)
+"src/feature.ml" 56 1964 2019 "src/feature.ml" 56 1964 2028
+type(
+  string
+)
+"src/feature.ml" 56 1964 1975 "src/feature.ml" 56 1964 2029
+call(
+  stack
+)
+type(
+  unit
+)
+"src/feature.ml" 56 1964 1971 "src/feature.ml" 56 1964 2029
+call(
+  tail
+)
+type(
+  unit
+)
+"src/feature.ml" 57 2030 2037 "src/feature.ml" 57 2030 2045
+type(
+  t list ref
+)
+ident(
+  int_ref features "src/feature.ml" 50 1840 1844 "src/feature.ml" 50 1840 1852
+)
+"src/feature.ml" 57 2030 2046 "src/feature.ml" 57 2030 2048
+type(
+  t list ref -> t list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/feature.ml" 57 2030 2049 "src/feature.ml" 57 2030 2050
+type(
+  t list ref -> t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/feature.ml" 57 2030 2050 "src/feature.ml" 57 2030 2058
+type(
+  t list ref
+)
+ident(
+  int_ref features "src/feature.ml" 50 1840 1844 "src/feature.ml" 50 1840 1852
+)
+"src/feature.ml" 57 2030 2049 "src/feature.ml" 57 2030 2058
+type(
+  t list
+)
+"src/feature.ml" 57 2030 2059 "src/feature.ml" 57 2030 2060
+type(
+  t list -> t list -> t list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/feature.ml" 57 2030 2062 "src/feature.ml" 57 2030 2063
+type(
+  t
+)
+ident(
+  int_ref f "src/feature.ml" 54 1898 1911 "src/feature.ml" 54 1898 1912
+)
+"src/feature.ml" 57 2030 2061 "src/feature.ml" 57 2030 2064
+type(
+  t list
+)
+"src/feature.ml" 57 2030 2049 "src/feature.ml" 57 2030 2064
+call(
+  stack
+)
+type(
+  t list
+)
+"src/feature.ml" 57 2030 2037 "src/feature.ml" 57 2030 2064
+type(
+  unit
+)
+"src/feature.ml" 55 1915 1917 "src/feature.ml" 57 2030 2064
+type(
+  unit
+)
+"src/feature.ml" 59 2066 2070 "src/feature.ml" 59 2066 2085
+type(
+  unit -> t list
+)
+ident(
+  def list_registered "src/feature.ml" 61 2102 2102 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 59 2066 2086 "src/feature.ml" 59 2066 2088
+type(
+  unit
+)
+"src/feature.ml" 59 2066 2091 "src/feature.ml" 59 2066 2092
+type(
+  t list ref -> t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/feature.ml" 59 2066 2092 "src/feature.ml" 59 2066 2100
+type(
+  t list ref
+)
+ident(
+  int_ref features "src/feature.ml" 50 1840 1844 "src/feature.ml" 50 1840 1852
+)
+"src/feature.ml" 59 2066 2091 "src/feature.ml" 59 2066 2100
+type(
+  t list
+)
+"src/feature.ml" 61 2102 2106 "src/feature.ml" 61 2102 2110
+type(
+  string -> t
+)
+ident(
+  def find "src/feature.ml" 63 2150 2150 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 61 2102 2111 "src/feature.ml" 61 2102 2112
+type(
+  string
+)
+ident(
+  def s "src/feature.ml" 61 2102 2115 "src/feature.ml" 61 2102 2148
+)
+"src/feature.ml" 61 2102 2115 "src/feature.ml" 61 2102 2124
+type(
+  (t -> bool) -> t list -> t
+)
+ident(
+  ext_ref List.find
+)
+"src/feature.ml" 61 2102 2126 "src/feature.ml" 61 2102 2135
+type(
+  string -> t -> bool
+)
+ident(
+  int_ref same_name "src/feature.ml" 52 1863 1867 "src/feature.ml" 52 1863 1876
+)
+"src/feature.ml" 61 2102 2136 "src/feature.ml" 61 2102 2137
+type(
+  string
+)
+ident(
+  int_ref s "src/feature.ml" 61 2102 2111 "src/feature.ml" 61 2102 2112
+)
+"src/feature.ml" 61 2102 2125 "src/feature.ml" 61 2102 2138
+call(
+  stack
+)
+type(
+  t -> bool
+)
+"src/feature.ml" 61 2102 2139 "src/feature.ml" 61 2102 2140
+type(
+  t list ref -> t list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/feature.ml" 61 2102 2140 "src/feature.ml" 61 2102 2148
+type(
+  t list ref
+)
+ident(
+  int_ref features "src/feature.ml" 50 1840 1844 "src/feature.ml" 50 1840 1852
+)
+"src/feature.ml" 61 2102 2139 "src/feature.ml" 61 2102 2148
+type(
+  t list
+)
+"src/feature.ml" 61 2102 2115 "src/feature.ml" 61 2102 2148
+call(
+  tail
+)
+type(
+  t
+)
+"src/feature.ml" 63 2150 2154 "src/feature.ml" 63 2150 2164
+type(
+  string -> bool
+)
+ident(
+  def registered "src/feature.ml" 67 2223 2223 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 63 2150 2165 "src/feature.ml" 63 2150 2166
+type(
+  string
+)
+ident(
+  def s "src/feature.ml" 64 2169 2171 "src/feature.ml" 65 2196 2221
+)
+"src/feature.ml" 64 2169 2175 "src/feature.ml" 64 2169 2181
+type(
+  t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/feature.ml" 64 2169 2182 "src/feature.ml" 64 2169 2186
+type(
+  string -> t
+)
+ident(
+  int_ref find "src/feature.ml" 61 2102 2106 "src/feature.ml" 61 2102 2110
+)
+"src/feature.ml" 64 2169 2187 "src/feature.ml" 64 2169 2188
+type(
+  string
+)
+ident(
+  int_ref s "src/feature.ml" 63 2150 2165 "src/feature.ml" 63 2150 2166
+)
+"src/feature.ml" 64 2169 2181 "src/feature.ml" 64 2169 2189
+call(
+  stack
+)
+type(
+  t
+)
+"src/feature.ml" 64 2169 2175 "src/feature.ml" 64 2169 2189
+type(
+  unit
+)
+"src/feature.ml" 64 2169 2191 "src/feature.ml" 64 2169 2195
+type(
+  bool
+)
+"src/feature.ml" 64 2169 2175 "src/feature.ml" 64 2169 2195
+type(
+  bool
+)
+"src/feature.ml" 65 2196 2203 "src/feature.ml" 65 2196 2212
+type(
+  exn
+)
+"src/feature.ml" 65 2196 2216 "src/feature.ml" 65 2196 2221
+type(
+  bool
+)
+"src/feature.ml" 64 2169 2171 "src/feature.ml" 65 2196 2221
+type(
+  bool
+)
+"src/feature.ml" 67 2223 2227 "src/feature.ml" 67 2223 2234
+type(
+  string -> bool
+)
+ident(
+  def enabled "src/feature.ml" 69 2288 2288 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 67 2223 2235 "src/feature.ml" 67 2223 2236
+type(
+  string
+)
+ident(
+  def s "src/feature.ml" 67 2223 2239 "src/feature.ml" 67 2223 2286
+)
+"src/feature.ml" 67 2223 2244 "src/feature.ml" 67 2223 2248
+type(
+  string -> t
+)
+ident(
+  int_ref find "src/feature.ml" 61 2102 2106 "src/feature.ml" 61 2102 2110
+)
+"src/feature.ml" 67 2223 2249 "src/feature.ml" 67 2223 2250
+type(
+  string
+)
+ident(
+  int_ref s "src/feature.ml" 67 2223 2235 "src/feature.ml" 67 2223 2236
+)
+"src/feature.ml" 67 2223 2243 "src/feature.ml" 67 2223 2251
+call(
+  stack
+)
+type(
+  t
+)
+"src/feature.ml" 67 2223 2243 "src/feature.ml" 67 2223 2262
+type(
+  bool
+)
+"src/feature.ml" 67 2223 2268 "src/feature.ml" 67 2223 2277
+type(
+  exn
+)
+"src/feature.ml" 67 2223 2281 "src/feature.ml" 67 2223 2286
+type(
+  bool
+)
+"src/feature.ml" 67 2223 2239 "src/feature.ml" 67 2223 2286
+type(
+  bool
+)
+"src/feature.ml" 69 2288 2292 "src/feature.ml" 69 2288 2298
+type(
+  string -> unit
+)
+ident(
+  def enable "src/feature.ml" 75 2431 2431 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 69 2288 2299 "src/feature.ml" 69 2288 2300
+type(
+  string
+)
+ident(
+  def s "src/feature.ml" 70 2303 2305 "src/feature.ml" 73 2372 2429
+)
+"src/feature.ml" 71 2309 2317 "src/feature.ml" 71 2309 2318
+type(
+  t
+)
+ident(
+  def f "src/feature.ml" 71 2309 2331 "src/feature.ml" 71 2309 2351
+)
+"src/feature.ml" 71 2309 2321 "src/feature.ml" 71 2309 2325
+type(
+  string -> t
+)
+ident(
+  int_ref find "src/feature.ml" 61 2102 2106 "src/feature.ml" 61 2102 2110
+)
+"src/feature.ml" 71 2309 2326 "src/feature.ml" 71 2309 2327
+type(
+  string
+)
+ident(
+  int_ref s "src/feature.ml" 69 2288 2299 "src/feature.ml" 69 2288 2300
+)
+"src/feature.ml" 71 2309 2321 "src/feature.ml" 71 2309 2327
+call(
+  stack
+)
+type(
+  t
+)
+"src/feature.ml" 71 2309 2331 "src/feature.ml" 71 2309 2332
+type(
+  t
+)
+ident(
+  int_ref f "src/feature.ml" 71 2309 2317 "src/feature.ml" 71 2309 2318
+)
+"src/feature.ml" 71 2309 2347 "src/feature.ml" 71 2309 2351
+type(
+  bool
+)
+"src/feature.ml" 71 2309 2331 "src/feature.ml" 71 2309 2351
+type(
+  unit
+)
+"src/feature.ml" 71 2309 2313 "src/feature.ml" 71 2309 2351
+type(
+  unit
+)
+"src/feature.ml" 72 2352 2359 "src/feature.ml" 72 2352 2368
+type(
+  exn
+)
+"src/feature.ml" 73 2372 2376 "src/feature.ml" 73 2372 2379
+type(
+  unit -> unit
+)
+ident(
+  ext_ref E.s
+)
+"src/feature.ml" 73 2372 2381 "src/feature.ml" 73 2372 2388
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.error
+)
+"src/feature.ml" 73 2372 2389 "src/feature.ml" 73 2372 2426
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/feature.ml" 73 2372 2427 "src/feature.ml" 73 2372 2428
+type(
+  string
+)
+ident(
+  int_ref s "src/feature.ml" 69 2288 2299 "src/feature.ml" 69 2288 2300
+)
+"src/feature.ml" 73 2372 2380 "src/feature.ml" 73 2372 2429
+call(
+  stack
+)
+type(
+  unit
+)
+"src/feature.ml" 73 2372 2376 "src/feature.ml" 73 2372 2429
+call(
+  tail
+)
+type(
+  unit
+)
+"src/feature.ml" 70 2303 2305 "src/feature.ml" 73 2372 2429
+type(
+  unit
+)
+"src/feature.ml" 77 2455 2459 "src/feature.ml" 77 2455 2463
+type(
+  string -> unit
+)
+ident(
+  def load "src/feature.ml" 83 2584 2584 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 77 2455 2464 "src/feature.ml" 77 2455 2465
+type(
+  string
+)
+ident(
+  def s "src/feature.ml" 78 2468 2470 "src/feature.ml" 81 2524 2582
+)
+"src/feature.ml" 79 2474 2478 "src/feature.ml" 79 2474 2500
+type(
+  bool -> unit
+)
+ident(
+  ext_ref D.allow_unsafe_modules
+)
+"src/feature.ml" 79 2474 2501 "src/feature.ml" 79 2474 2505
+type(
+  bool
+)
+"src/feature.ml" 79 2474 2478 "src/feature.ml" 79 2474 2505
+call(
+  stack
+)
+type(
+  unit
+)
+"src/feature.ml" 80 2507 2511 "src/feature.ml" 80 2507 2521
+type(
+  string -> unit
+)
+ident(
+  ext_ref D.loadfile
+)
+"src/feature.ml" 80 2507 2522 "src/feature.ml" 80 2507 2523
+type(
+  string
+)
+ident(
+  int_ref s "src/feature.ml" 77 2455 2464 "src/feature.ml" 77 2455 2465
+)
+"src/feature.ml" 80 2507 2511 "src/feature.ml" 80 2507 2523
+call(
+  stack
+)
+type(
+  unit
+)
+"src/feature.ml" 79 2474 2478 "src/feature.ml" 80 2507 2523
+type(
+  unit
+)
+"src/feature.ml" 81 2524 2539 "src/feature.ml" 81 2524 2540
+type(
+  D.error
+)
+ident(
+  def e "src/feature.ml" 81 2524 2544 "src/feature.ml" 81 2524 2582
+)
+"src/feature.ml" 81 2524 2531 "src/feature.ml" 81 2524 2540
+type(
+  exn
+)
+"src/feature.ml" 81 2524 2544 "src/feature.ml" 81 2524 2547
+type(
+  unit -> unit
+)
+ident(
+  ext_ref E.s
+)
+"src/feature.ml" 81 2524 2549 "src/feature.ml" 81 2524 2556
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.error
+)
+"src/feature.ml" 81 2524 2557 "src/feature.ml" 81 2524 2561
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/feature.ml" 81 2524 2563 "src/feature.ml" 81 2524 2578
+type(
+  D.error -> string
+)
+ident(
+  ext_ref D.error_message
+)
+"src/feature.ml" 81 2524 2579 "src/feature.ml" 81 2524 2580
+type(
+  D.error
+)
+ident(
+  int_ref e "src/feature.ml" 81 2524 2539 "src/feature.ml" 81 2524 2540
+)
+"src/feature.ml" 81 2524 2562 "src/feature.ml" 81 2524 2581
+call(
+  stack
+)
+type(
+  string
+)
+"src/feature.ml" 81 2524 2548 "src/feature.ml" 81 2524 2582
+call(
+  stack
+)
+type(
+  unit
+)
+"src/feature.ml" 81 2524 2544 "src/feature.ml" 81 2524 2582
+call(
+  tail
+)
+type(
+  unit
+)
+"src/feature.ml" 78 2468 2470 "src/feature.ml" 81 2524 2582
+type(
+  unit
+)
+"src/feature.ml" 85 2606 2610 "src/feature.ml" 85 2606 2621
+type(
+  bool ref
+)
+ident(
+  def initialized "src/feature.ml" 86 2634 2634 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 85 2606 2624 "src/feature.ml" 85 2606 2627
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/feature.ml" 85 2606 2628 "src/feature.ml" 85 2606 2633
+type(
+  bool
+)
+"src/feature.ml" 85 2606 2624 "src/feature.ml" 85 2606 2633
+type(
+  bool ref
+)
+"src/feature.ml" 86 2634 2638 "src/feature.ml" 86 2634 2642
+type(
+  unit -> unit
+)
+ident(
+  def init "src/feature.ml" 92 2727 2727 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 86 2634 2643 "src/feature.ml" 86 2634 2645
+type(
+  unit
+)
+"src/feature.ml" 87 2648 2653 "src/feature.ml" 87 2648 2656
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/feature.ml" 87 2648 2657 "src/feature.ml" 87 2648 2658
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/feature.ml" 87 2648 2658 "src/feature.ml" 87 2648 2669
+type(
+  bool ref
+)
+ident(
+  int_ref initialized "src/feature.ml" 85 2606 2610 "src/feature.ml" 85 2606 2621
+)
+"src/feature.ml" 87 2648 2657 "src/feature.ml" 87 2648 2669
+type(
+  bool
+)
+"src/feature.ml" 87 2648 2653 "src/feature.ml" 87 2648 2669
+type(
+  bool
+)
+"src/feature.ml" 88 2681 2685 "src/feature.ml" 88 2681 2691
+type(
+  ?env_ocamlpath:string ->
+  ?env_ocamlfind_destdir:string ->
+  ?env_ocamlfind_metadir:string ->
+  ?env_ocamlfind_commands:string ->
+  ?env_ocamlfind_ignore_dups_in:string ->
+  ?env_ocamlfind_ignore_dups_in_list:string list ->
+  ?env_camllib:string ->
+  ?env_ldconf:string -> ?config:string -> ?toolchain:string -> unit -> unit
+)
+ident(
+  ext_ref F.init
+)
+"src/feature.ml" 88 2681 2692 "src/feature.ml" 88 2681 2694
+type(
+  unit
+)
+"src/feature.ml" 88 2681 2685 "src/feature.ml" 88 2681 2694
+call(
+  stack
+)
+type(
+  unit
+)
+"src/feature.ml" 89 2696 2700 "src/feature.ml" 89 2696 2711
+type(
+  bool ref
+)
+ident(
+  int_ref initialized "src/feature.ml" 85 2606 2610 "src/feature.ml" 85 2606 2621
+)
+"src/feature.ml" 89 2696 2712 "src/feature.ml" 89 2696 2714
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/feature.ml" 89 2696 2715 "src/feature.ml" 89 2696 2719
+type(
+  bool
+)
+"src/feature.ml" 89 2696 2700 "src/feature.ml" 89 2696 2719
+type(
+  unit
+)
+"src/feature.ml" 87 2648 2675 "src/feature.ml" 90 2720 2725
+type(
+  unit
+)
+"src/feature.ml" 87 2648 2650 "src/feature.ml" 90 2720 2725
+type(
+  unit
+)
+"src/feature.ml" 92 2727 2731 "src/feature.ml" 92 2727 2745
+type(
+  string -> string
+)
+ident(
+  def adapt_filename "src/feature.ml" 96 2790 2790 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 92 2727 2746 "src/feature.ml" 92 2727 2747
+type(
+  string
+)
+ident(
+  def f "src/feature.ml" 92 2727 2750 "src/feature.ml" 94 2775 2788
+)
+"src/feature.ml" 93 2754 2756 "src/feature.ml" 93 2754 2772
+type(
+  string -> string
+)
+ident(
+  ext_ref D.adapt_filename
+)
+"src/feature.ml" 93 2754 2773 "src/feature.ml" 93 2754 2774
+type(
+  string
+)
+ident(
+  int_ref f "src/feature.ml" 92 2727 2746 "src/feature.ml" 92 2727 2747
+)
+"src/feature.ml" 93 2754 2756 "src/feature.ml" 93 2754 2774
+call(
+  stack
+)
+type(
+  string
+)
+"src/feature.ml" 94 2775 2782 "src/feature.ml" 94 2775 2783
+type(
+  exn
+)
+"src/feature.ml" 94 2775 2787 "src/feature.ml" 94 2775 2788
+type(
+  string
+)
+ident(
+  int_ref f "src/feature.ml" 92 2727 2746 "src/feature.ml" 92 2727 2747
+)
+"src/feature.ml" 92 2727 2750 "src/feature.ml" 94 2775 2788
+type(
+  string
+)
+"src/feature.ml" 96 2790 2794 "src/feature.ml" 96 2790 2808
+type(
+  string -> string list
+)
+ident(
+  def findlib_lookup "src/feature.ml" 116 3608 3608 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 96 2790 2809 "src/feature.ml" 96 2790 2812
+type(
+  string
+)
+ident(
+  def pkg "src/feature.ml" 97 2815 2817 "src/feature.ml" 114 3551 3606
+)
+"src/feature.ml" 98 2821 2829 "src/feature.ml" 98 2821 2834
+type(
+  string list
+)
+ident(
+  def preds "src/feature.ml" 99 2895 2899 "src/feature.ml" 109 3396 3418
+)
+"src/feature.ml" 98 2821 2842 "src/feature.ml" 98 2821 2853
+type(
+  bool
+)
+ident(
+  ext_ref D.is_native
+)
+"src/feature.ml" 98 2821 2859 "src/feature.ml" 98 2821 2867
+type(
+  string
+)
+"src/feature.ml" 98 2821 2873 "src/feature.ml" 98 2821 2879
+type(
+  string
+)
+"src/feature.ml" 98 2821 2839 "src/feature.ml" 98 2821 2879
+type(
+  string
+)
+"src/feature.ml" 98 2821 2881 "src/feature.ml" 98 2821 2889
+type(
+  string
+)
+"src/feature.ml" 98 2821 2837 "src/feature.ml" 98 2821 2891
+type(
+  string list
+)
+"src/feature.ml" 99 2895 2903 "src/feature.ml" 99 2895 2907
+type(
+  string list
+)
+ident(
+  def deps "src/feature.ml" 100 2950 2954 "src/feature.ml" 109 3396 3418
+)
+"src/feature.ml" 99 2895 2910 "src/feature.ml" 99 2895 2934
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref F.package_deep_ancestors
+)
+"src/feature.ml" 99 2895 2935 "src/feature.ml" 99 2895 2940
+type(
+  string list
+)
+ident(
+  int_ref preds "src/feature.ml" 98 2821 2829 "src/feature.ml" 98 2821 2834
+)
+"src/feature.ml" 99 2895 2942 "src/feature.ml" 99 2895 2945
+type(
+  string
+)
+ident(
+  int_ref pkg "src/feature.ml" 96 2790 2809 "src/feature.ml" 96 2790 2812
+)
+"src/feature.ml" 99 2895 2941 "src/feature.ml" 99 2895 2946
+type(
+  string list
+)
+"src/feature.ml" 99 2895 2910 "src/feature.ml" 99 2895 2946
+call(
+  stack
+)
+type(
+  string list
+)
+"src/feature.ml" 100 2950 2958 "src/feature.ml" 100 2950 2970
+type(
+  string -> string list
+)
+ident(
+  def find_modules "src/feature.ml" 108 3350 3354 "src/feature.ml" 109 3396 3418
+)
+"src/feature.ml" 100 2950 2971 "src/feature.ml" 100 2950 2974
+type(
+  string
+)
+ident(
+  def pkg "src/feature.ml" 101 2977 2983 "src/feature.ml" 107 3273 3346
+)
+"src/feature.ml" 101 2977 2987 "src/feature.ml" 101 2977 2991
+type(
+  string
+)
+ident(
+  def base "src/feature.ml" 102 3021 3027 "src/feature.ml" 107 3273 3346
+)
+"src/feature.ml" 101 2977 2994 "src/feature.ml" 101 2977 3013
+type(
+  string -> string
+)
+ident(
+  ext_ref F.package_directory
+)
+"src/feature.ml" 101 2977 3014 "src/feature.ml" 101 2977 3017
+type(
+  string
+)
+ident(
+  int_ref pkg "src/feature.ml" 100 2950 2971 "src/feature.ml" 100 2950 2974
+)
+"src/feature.ml" 101 2977 2994 "src/feature.ml" 101 2977 3017
+call(
+  stack
+)
+type(
+  string
+)
+"src/feature.ml" 102 3021 3031 "src/feature.ml" 102 3021 3039
+type(
+  string
+)
+ident(
+  def archives "src/feature.ml" 106 3186 3192 "src/feature.ml" 107 3273 3346
+)
+"src/feature.ml" 103 3042 3054 "src/feature.ml" 103 3042 3072
+type(
+  string list -> string -> string -> string
+)
+ident(
+  ext_ref F.package_property
+)
+"src/feature.ml" 103 3042 3073 "src/feature.ml" 103 3042 3078
+type(
+  string list
+)
+ident(
+  int_ref preds "src/feature.ml" 98 2821 2829 "src/feature.ml" 98 2821 2834
+)
+"src/feature.ml" 103 3042 3079 "src/feature.ml" 103 3042 3082
+type(
+  string
+)
+ident(
+  int_ref pkg "src/feature.ml" 100 2950 2971 "src/feature.ml" 100 2950 2974
+)
+"src/feature.ml" 103 3042 3083 "src/feature.ml" 103 3042 3092
+type(
+  string
+)
+"src/feature.ml" 103 3042 3054 "src/feature.ml" 103 3042 3092
+call(
+  stack
+)
+type(
+  string
+)
+"src/feature.ml" 105 3154 3167 "src/feature.ml" 105 3154 3176
+type(
+  exn
+)
+"src/feature.ml" 105 3154 3180 "src/feature.ml" 105 3154 3182
+type(
+  string
+)
+"src/feature.ml" 103 3042 3050 "src/feature.ml" 105 3154 3182
+type(
+  string
+)
+"src/feature.ml" 106 3186 3196 "src/feature.ml" 106 3186 3203
+type(
+  string list
+)
+ident(
+  def modules "src/feature.ml" 107 3273 3279 "src/feature.ml" 107 3273 3346
+)
+"src/feature.ml" 106 3186 3206 "src/feature.ml" 106 3186 3217
+type(
+  (string -> bool) -> string list -> string list
+)
+ident(
+  ext_ref List.filter
+)
+"src/feature.ml" 106 3186 3219 "src/feature.ml" 106 3186 3223
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/feature.ml" 106 3186 3224 "src/feature.ml" 106 3186 3226
+type(
+  string
+)
+"src/feature.ml" 106 3186 3218 "src/feature.ml" 106 3186 3227
+call(
+  stack
+)
+type(
+  string -> bool
+)
+"src/feature.ml" 106 3186 3229 "src/feature.ml" 106 3186 3238
+type(
+  Str.regexp -> string -> string list
+)
+ident(
+  ext_ref Str.split
+)
+"src/feature.ml" 106 3186 3240 "src/feature.ml" 106 3186 3250
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"src/feature.ml" 106 3186 3251 "src/feature.ml" 106 3186 3258
+type(
+  string
+)
+"src/feature.ml" 106 3186 3239 "src/feature.ml" 106 3186 3259
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"src/feature.ml" 106 3186 3260 "src/feature.ml" 106 3186 3268
+type(
+  string
+)
+ident(
+  int_ref archives "src/feature.ml" 102 3021 3031 "src/feature.ml" 102 3021 3039
+)
+"src/feature.ml" 106 3186 3228 "src/feature.ml" 106 3186 3269
+call(
+  stack
+)
+type(
+  string list
+)
+"src/feature.ml" 106 3186 3206 "src/feature.ml" 106 3186 3269
+call(
+  stack
+)
+type(
+  string list
+)
+"src/feature.ml" 107 3273 3279 "src/feature.ml" 107 3273 3287
+type(
+  (string -> string) -> string list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/feature.ml" 107 3273 3293 "src/feature.ml" 107 3273 3294
+type(
+  string
+)
+ident(
+  def m "src/feature.ml" 107 3273 3298 "src/feature.ml" 107 3273 3337
+)
+"src/feature.ml" 107 3273 3298 "src/feature.ml" 107 3273 3312
+type(
+  ?base:string -> ?explicit:bool -> string -> string
+)
+ident(
+  ext_ref F.resolve_path
+)
+"src/feature.ml" 107 3273 3314 "src/feature.ml" 107 3273 3318
+type(
+  string
+)
+ident(
+  int_ref base "src/feature.ml" 101 2977 2987 "src/feature.ml" 101 2977 2991
+)
+"src/feature.ml" 107 3273 3320 "src/feature.ml" 107 3273 3334
+type(
+  string -> string
+)
+ident(
+  int_ref adapt_filename "src/feature.ml" 92 2727 2731 "src/feature.ml" 92 2727 2745
+)
+"src/feature.ml" 107 3273 3335 "src/feature.ml" 107 3273 3336
+type(
+  string
+)
+ident(
+  int_ref m "src/feature.ml" 107 3273 3293 "src/feature.ml" 107 3273 3294
+)
+"src/feature.ml" 107 3273 3319 "src/feature.ml" 107 3273 3337
+call(
+  stack
+)
+type(
+  string
+)
+"src/feature.ml" 107 3273 3298 "src/feature.ml" 107 3273 3337
+call(
+  tail
+)
+type(
+  string
+)
+"src/feature.ml" 107 3273 3288 "src/feature.ml" 107 3273 3338
+type(
+  string -> string
+)
+"src/feature.ml" 107 3273 3339 "src/feature.ml" 107 3273 3346
+type(
+  string list
+)
+ident(
+  int_ref modules "src/feature.ml" 106 3186 3196 "src/feature.ml" 106 3186 3203
+)
+"src/feature.ml" 107 3273 3279 "src/feature.ml" 107 3273 3346
+call(
+  tail
+)
+type(
+  string list
+)
+"src/feature.ml" 106 3186 3192 "src/feature.ml" 107 3273 3346
+type(
+  string list
+)
+"src/feature.ml" 102 3021 3027 "src/feature.ml" 107 3273 3346
+type(
+  string list
+)
+"src/feature.ml" 101 2977 2983 "src/feature.ml" 107 3273 3346
+type(
+  string list
+)
+"src/feature.ml" 108 3350 3358 "src/feature.ml" 108 3350 3363
+type(
+  string list list
+)
+ident(
+  def files "src/feature.ml" 109 3396 3400 "src/feature.ml" 109 3396 3418
+)
+"src/feature.ml" 108 3350 3366 "src/feature.ml" 108 3350 3374
+type(
+  (string -> string list) -> string list -> string list list
+)
+ident(
+  ext_ref List.map
+)
+"src/feature.ml" 108 3350 3375 "src/feature.ml" 108 3350 3387
+type(
+  string -> string list
+)
+ident(
+  int_ref find_modules "src/feature.ml" 100 2950 2958 "src/feature.ml" 100 2950 2970
+)
+"src/feature.ml" 108 3350 3388 "src/feature.ml" 108 3350 3392
+type(
+  string list
+)
+ident(
+  int_ref deps "src/feature.ml" 99 2895 2903 "src/feature.ml" 99 2895 2907
+)
+"src/feature.ml" 108 3350 3366 "src/feature.ml" 108 3350 3392
+call(
+  stack
+)
+type(
+  string list list
+)
+"src/feature.ml" 109 3396 3400 "src/feature.ml" 109 3396 3412
+type(
+  string list list -> string list
+)
+ident(
+  ext_ref List.flatten
+)
+"src/feature.ml" 109 3396 3413 "src/feature.ml" 109 3396 3418
+type(
+  string list list
+)
+ident(
+  int_ref files "src/feature.ml" 108 3350 3358 "src/feature.ml" 108 3350 3363
+)
+"src/feature.ml" 109 3396 3400 "src/feature.ml" 109 3396 3418
+call(
+  stack
+)
+type(
+  string list
+)
+"src/feature.ml" 108 3350 3354 "src/feature.ml" 109 3396 3418
+type(
+  string list
+)
+"src/feature.ml" 100 2950 2954 "src/feature.ml" 109 3396 3418
+type(
+  string list
+)
+"src/feature.ml" 99 2895 2899 "src/feature.ml" 109 3396 3418
+type(
+  string list
+)
+"src/feature.ml" 98 2821 2825 "src/feature.ml" 109 3396 3418
+type(
+  string list
+)
+"src/feature.ml" 111 3426 3449 "src/feature.ml" 111 3426 3452
+type(
+  string
+)
+ident(
+  def pkg "src/feature.ml" 112 3462 3468 "src/feature.ml" 112 3462 3524
+)
+"src/feature.ml" 111 3426 3454 "src/feature.ml" 111 3426 3457
+type(
+  string
+)
+ident(
+  def msg "src/feature.ml" 112 3462 3468 "src/feature.ml" 112 3462 3524
+)
+"src/feature.ml" 111 3426 3430 "src/feature.ml" 111 3426 3458
+type(
+  exn
+)
+"src/feature.ml" 112 3462 3468 "src/feature.ml" 112 3462 3471
+type(
+  unit -> string list
+)
+ident(
+  ext_ref E.s
+)
+"src/feature.ml" 112 3462 3473 "src/feature.ml" 112 3462 3480
+type(
+  (string -> string -> unit, unit, Pretty.doc, unit) format4 ->
+  string -> string -> unit
+)
+ident(
+  ext_ref E.error
+)
+"src/feature.ml" 112 3462 3481 "src/feature.ml" 112 3462 3515
+type(
+  (string -> string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/feature.ml" 112 3462 3516 "src/feature.ml" 112 3462 3519
+type(
+  string
+)
+ident(
+  int_ref pkg "src/feature.ml" 111 3426 3449 "src/feature.ml" 111 3426 3452
+)
+"src/feature.ml" 112 3462 3520 "src/feature.ml" 112 3462 3523
+type(
+  string
+)
+ident(
+  int_ref msg "src/feature.ml" 111 3426 3454 "src/feature.ml" 111 3426 3457
+)
+"src/feature.ml" 112 3462 3472 "src/feature.ml" 112 3462 3524
+call(
+  stack
+)
+type(
+  unit
+)
+"src/feature.ml" 112 3462 3468 "src/feature.ml" 112 3462 3524
+call(
+  tail
+)
+type(
+  string list
+)
+"src/feature.ml" 113 3525 3544 "src/feature.ml" 113 3525 3547
+type(
+  string
+)
+ident(
+  def pkg "src/feature.ml" 114 3551 3557 "src/feature.ml" 114 3551 3606
+)
+"src/feature.ml" 113 3525 3529 "src/feature.ml" 113 3525 3547
+type(
+  exn
+)
+"src/feature.ml" 114 3551 3557 "src/feature.ml" 114 3551 3560
+type(
+  unit -> string list
+)
+ident(
+  ext_ref E.s
+)
+"src/feature.ml" 114 3551 3562 "src/feature.ml" 114 3551 3569
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4 -> string -> unit
+)
+ident(
+  ext_ref E.error
+)
+"src/feature.ml" 114 3551 3570 "src/feature.ml" 114 3551 3601
+type(
+  (string -> unit, unit, Pretty.doc, unit) format4
+)
+"src/feature.ml" 114 3551 3602 "src/feature.ml" 114 3551 3605
+type(
+  string
+)
+ident(
+  int_ref pkg "src/feature.ml" 113 3525 3544 "src/feature.ml" 113 3525 3547
+)
+"src/feature.ml" 114 3551 3561 "src/feature.ml" 114 3551 3606
+call(
+  stack
+)
+type(
+  unit
+)
+"src/feature.ml" 114 3551 3557 "src/feature.ml" 114 3551 3606
+call(
+  tail
+)
+type(
+  string list
+)
+"src/feature.ml" 97 2815 2817 "src/feature.ml" 114 3551 3606
+type(
+  string list
+)
+"src/feature.ml" 116 3608 3612 "src/feature.ml" 116 3608 3623
+type(
+  string -> string list
+)
+ident(
+  def find_plugin "src/feature.ml" 123 3896 3896 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 116 3608 3624 "src/feature.ml" 116 3608 3625
+type(
+  string
+)
+ident(
+  def s "src/feature.ml" 117 3628 3630 "src/feature.ml" 120 3841 3864
+)
+"src/feature.ml" 117 3628 3633 "src/feature.ml" 117 3628 3634
+type(
+  string
+)
+ident(
+  int_ref s "src/feature.ml" 116 3608 3624 "src/feature.ml" 116 3608 3625
+)
+"src/feature.ml" 117 3628 3635 "src/feature.ml" 117 3628 3636
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/feature.ml" 117 3628 3637 "src/feature.ml" 117 3628 3639
+type(
+  string
+)
+"src/feature.ml" 117 3628 3633 "src/feature.ml" 117 3628 3639
+type(
+  bool
+)
+"src/feature.ml" 117 3628 3645 "src/feature.ml" 117 3628 3648
+type(
+  unit -> string list
+)
+ident(
+  ext_ref E.s
+)
+"src/feature.ml" 117 3628 3650 "src/feature.ml" 117 3628 3657
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref E.error
+)
+"src/feature.ml" 117 3628 3658 "src/feature.ml" 117 3628 3679
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/feature.ml" 117 3628 3649 "src/feature.ml" 117 3628 3680
+call(
+  stack
+)
+type(
+  unit
+)
+"src/feature.ml" 117 3628 3645 "src/feature.ml" 117 3628 3680
+call(
+  tail
+)
+type(
+  string list
+)
+"src/feature.ml" 118 3686 3692 "src/feature.ml" 118 3686 3701
+type(
+  string
+)
+ident(
+  def s_resolve "src/feature.ml" 119 3757 3759 "src/feature.ml" 120 3841 3864
+)
+"src/feature.ml" 118 3686 3704 "src/feature.ml" 118 3686 3718
+type(
+  string -> string
+)
+ident(
+  int_ref adapt_filename "src/feature.ml" 92 2727 2731 "src/feature.ml" 92 2727 2745
+)
+"src/feature.ml" 118 3686 3724 "src/feature.ml" 118 3686 3738
+type(
+  ?base:string -> ?explicit:bool -> string -> string
+)
+ident(
+  ext_ref F.resolve_path
+)
+"src/feature.ml" 118 3686 3739 "src/feature.ml" 118 3686 3740
+type(
+  string
+)
+ident(
+  int_ref s "src/feature.ml" 116 3608 3624 "src/feature.ml" 116 3608 3625
+)
+"src/feature.ml" 118 3686 3724 "src/feature.ml" 118 3686 3740
+call(
+  stack
+)
+type(
+  string
+)
+"src/feature.ml" 118 3686 3746 "src/feature.ml" 118 3686 3747
+type(
+  exn
+)
+"src/feature.ml" 118 3686 3751 "src/feature.ml" 118 3686 3752
+type(
+  string
+)
+ident(
+  int_ref s "src/feature.ml" 116 3608 3624 "src/feature.ml" 116 3608 3625
+)
+"src/feature.ml" 118 3686 3719 "src/feature.ml" 118 3686 3753
+type(
+  string
+)
+"src/feature.ml" 118 3686 3704 "src/feature.ml" 118 3686 3753
+call(
+  stack
+)
+type(
+  string
+)
+"src/feature.ml" 119 3757 3762 "src/feature.ml" 119 3757 3777
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.file_exists
+)
+"src/feature.ml" 119 3757 3778 "src/feature.ml" 119 3757 3787
+type(
+  string
+)
+ident(
+  int_ref s_resolve "src/feature.ml" 118 3686 3692 "src/feature.ml" 118 3686 3701
+)
+"src/feature.ml" 119 3757 3762 "src/feature.ml" 119 3757 3787
+type(
+  bool
+)
+"src/feature.ml" 119 3757 3788 "src/feature.ml" 119 3757 3790
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/feature.ml" 119 3757 3791 "src/feature.ml" 119 3757 3794
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/feature.ml" 119 3757 3796 "src/feature.ml" 119 3757 3812
+type(
+  string -> bool
+)
+ident(
+  ext_ref Sys.is_directory
+)
+"src/feature.ml" 119 3757 3813 "src/feature.ml" 119 3757 3822
+type(
+  string
+)
+ident(
+  int_ref s_resolve "src/feature.ml" 118 3686 3692 "src/feature.ml" 118 3686 3701
+)
+"src/feature.ml" 119 3757 3795 "src/feature.ml" 119 3757 3823
+type(
+  bool
+)
+"src/feature.ml" 119 3757 3791 "src/feature.ml" 119 3757 3823
+type(
+  bool
+)
+"src/feature.ml" 119 3757 3762 "src/feature.ml" 119 3757 3823
+type(
+  bool
+)
+"src/feature.ml" 119 3757 3830 "src/feature.ml" 119 3757 3839
+type(
+  string
+)
+ident(
+  int_ref s_resolve "src/feature.ml" 118 3686 3692 "src/feature.ml" 118 3686 3701
+)
+"src/feature.ml" 119 3757 3829 "src/feature.ml" 119 3757 3840
+type(
+  string list
+)
+"src/feature.ml" 120 3841 3848 "src/feature.ml" 120 3841 3862
+type(
+  string -> string list
+)
+ident(
+  int_ref findlib_lookup "src/feature.ml" 96 2790 2794 "src/feature.ml" 96 2790 2808
+)
+"src/feature.ml" 120 3841 3863 "src/feature.ml" 120 3841 3864
+type(
+  string
+)
+ident(
+  int_ref s "src/feature.ml" 116 3608 3624 "src/feature.ml" 116 3608 3625
+)
+"src/feature.ml" 120 3841 3848 "src/feature.ml" 120 3841 3864
+call(
+  tail
+)
+type(
+  string list
+)
+"src/feature.ml" 119 3757 3759 "src/feature.ml" 120 3841 3864
+type(
+  string list
+)
+"src/feature.ml" 118 3686 3688 "src/feature.ml" 120 3841 3864
+type(
+  string list
+)
+"src/feature.ml" 117 3628 3630 "src/feature.ml" 120 3841 3864
+type(
+  string list
+)
+"src/feature.ml" 123 3896 3900 "src/feature.ml" 123 3896 3907
+type(
+  string list ref
+)
+ident(
+  def plugins "src/feature.ml" 126 3981 3981 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 123 3896 3910 "src/feature.ml" 123 3896 3913
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/feature.ml" 123 3896 3914 "src/feature.ml" 123 3896 3916
+type(
+  string list
+)
+"src/feature.ml" 123 3896 3910 "src/feature.ml" 123 3896 3916
+type(
+  string list ref
+)
+"src/feature.ml" 126 3981 3985 "src/feature.ml" 126 3981 3995
+type(
+  string -> unit
+)
+ident(
+  def add_plugin "src/feature.ml" 132 4136 4136 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 126 3981 3996 "src/feature.ml" 126 3981 4000
+type(
+  string
+)
+ident(
+  def path "src/feature.ml" 127 4003 4005 "src/feature.ml" 129 4055 4084
+)
+"src/feature.ml" 127 4003 4008 "src/feature.ml" 127 4003 4011
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/feature.ml" 127 4003 4013 "src/feature.ml" 127 4003 4021
+type(
+  string -> string list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+"src/feature.ml" 127 4003 4022 "src/feature.ml" 127 4003 4026
+type(
+  string
+)
+ident(
+  int_ref path "src/feature.ml" 126 3981 3996 "src/feature.ml" 126 3981 4000
+)
+"src/feature.ml" 127 4003 4027 "src/feature.ml" 127 4003 4028
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/feature.ml" 127 4003 4028 "src/feature.ml" 127 4003 4035
+type(
+  string list ref
+)
+ident(
+  int_ref plugins "src/feature.ml" 123 3896 3900 "src/feature.ml" 123 3896 3907
+)
+"src/feature.ml" 127 4003 4027 "src/feature.ml" 127 4003 4035
+type(
+  string list
+)
+"src/feature.ml" 127 4003 4012 "src/feature.ml" 127 4003 4036
+call(
+  stack
+)
+type(
+  bool
+)
+"src/feature.ml" 127 4003 4008 "src/feature.ml" 127 4003 4036
+type(
+  bool
+)
+"src/feature.ml" 128 4042 4044 "src/feature.ml" 128 4042 4048
+type(
+  string -> unit
+)
+ident(
+  int_ref load "src/feature.ml" 77 2455 2459 "src/feature.ml" 77 2455 2463
+)
+"src/feature.ml" 128 4042 4049 "src/feature.ml" 128 4042 4053
+type(
+  string
+)
+ident(
+  int_ref path "src/feature.ml" 126 3981 3996 "src/feature.ml" 126 3981 4000
+)
+"src/feature.ml" 128 4042 4044 "src/feature.ml" 128 4042 4053
+call(
+  stack
+)
+type(
+  unit
+)
+"src/feature.ml" 127 4003 4005 "src/feature.ml" 128 4042 4053
+type(
+  unit
+)
+"src/feature.ml" 129 4055 4057 "src/feature.ml" 129 4055 4064
+type(
+  string list ref
+)
+ident(
+  int_ref plugins "src/feature.ml" 123 3896 3900 "src/feature.ml" 123 3896 3907
+)
+"src/feature.ml" 129 4055 4065 "src/feature.ml" 129 4055 4067
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/feature.ml" 129 4055 4068 "src/feature.ml" 129 4055 4072
+type(
+  string
+)
+ident(
+  int_ref path "src/feature.ml" 126 3981 3996 "src/feature.ml" 126 3981 4000
+)
+"src/feature.ml" 129 4055 4076 "src/feature.ml" 129 4055 4077
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/feature.ml" 129 4055 4077 "src/feature.ml" 129 4055 4084
+type(
+  string list ref
+)
+ident(
+  int_ref plugins "src/feature.ml" 123 3896 3900 "src/feature.ml" 123 3896 3907
+)
+"src/feature.ml" 129 4055 4076 "src/feature.ml" 129 4055 4084
+type(
+  string list
+)
+"src/feature.ml" 129 4055 4068 "src/feature.ml" 129 4055 4084
+type(
+  string list
+)
+"src/feature.ml" 129 4055 4057 "src/feature.ml" 129 4055 4084
+type(
+  unit
+)
+"src/feature.ml" 127 4003 4005 "src/feature.ml" 129 4055 4084
+type(
+  unit
+)
+"src/feature.ml" 132 4136 4140 "src/feature.ml" 132 4136 4152
+type(
+  string -> unit
+)
+ident(
+  def loadWithDeps "src/feature.ml" 138 4361 4361 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 132 4136 4153 "src/feature.ml" 132 4136 4154
+type(
+  string
+)
+ident(
+  def s "src/feature.ml" 133 4157 4159 "src/feature.ml" 134 4188 4216
+)
+"src/feature.ml" 133 4157 4163 "src/feature.ml" 133 4157 4168
+type(
+  string list
+)
+ident(
+  def paths "src/feature.ml" 134 4188 4190 "src/feature.ml" 134 4188 4216
+)
+"src/feature.ml" 133 4157 4171 "src/feature.ml" 133 4157 4182
+type(
+  string -> string list
+)
+ident(
+  int_ref find_plugin "src/feature.ml" 116 3608 3612 "src/feature.ml" 116 3608 3623
+)
+"src/feature.ml" 133 4157 4183 "src/feature.ml" 133 4157 4184
+type(
+  string
+)
+ident(
+  int_ref s "src/feature.ml" 132 4136 4153 "src/feature.ml" 132 4136 4154
+)
+"src/feature.ml" 133 4157 4171 "src/feature.ml" 133 4157 4184
+call(
+  stack
+)
+type(
+  string list
+)
+"src/feature.ml" 134 4188 4190 "src/feature.ml" 134 4188 4199
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/feature.ml" 134 4188 4200 "src/feature.ml" 134 4188 4210
+type(
+  string -> unit
+)
+ident(
+  int_ref add_plugin "src/feature.ml" 126 3981 3985 "src/feature.ml" 126 3981 3995
+)
+"src/feature.ml" 134 4188 4211 "src/feature.ml" 134 4188 4216
+type(
+  string list
+)
+ident(
+  int_ref paths "src/feature.ml" 133 4157 4163 "src/feature.ml" 133 4157 4168
+)
+"src/feature.ml" 134 4188 4190 "src/feature.ml" 134 4188 4216
+call(
+  tail
+)
+type(
+  unit
+)
+"src/feature.ml" 133 4157 4159 "src/feature.ml" 134 4188 4216
+type(
+  unit
+)
+"src/feature.ml" 138 4361 4365 "src/feature.ml" 138 4361 4377
+type(
+  Arg.key -> unit
+)
+ident(
+  def loadFromArgv "src/feature.ml" 150 4720 4720 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 138 4361 4378 "src/feature.ml" 138 4361 4384
+type(
+  Arg.key
+)
+ident(
+  def switch "src/feature.ml" 139 4387 4389 "src/feature.ml" 148 4698 4718
+)
+"src/feature.ml" 139 4387 4393 "src/feature.ml" 139 4387 4397
+type(
+  (Arg.key * Arg.spec * string) list
+)
+ident(
+  def spec "src/feature.ml" 143 4550 4552 "src/feature.ml" 148 4698 4718
+)
+"src/feature.ml" 140 4402 4406 "src/feature.ml" 140 4402 4412
+type(
+  Arg.key
+)
+ident(
+  int_ref switch "src/feature.ml" 138 4361 4378 "src/feature.ml" 138 4361 4384
+)
+"src/feature.ml" 140 4402 4425 "src/feature.ml" 140 4402 4437
+type(
+  string -> unit
+)
+ident(
+  int_ref loadWithDeps "src/feature.ml" 132 4136 4140 "src/feature.ml" 132 4136 4152
+)
+"src/feature.ml" 140 4402 4414 "src/feature.ml" 140 4402 4437
+type(
+  Arg.spec
+)
+"src/feature.ml" 140 4402 4439 "src/feature.ml" 140 4402 4441
+type(
+  string
+)
+"src/feature.ml" 140 4402 4406 "src/feature.ml" 140 4402 4441
+type(
+  Arg.key * Arg.spec * string
+)
+"src/feature.ml" 142 4481 4485 "src/feature.ml" 142 4481 4493
+type(
+  Arg.key
+)
+"src/feature.ml" 142 4481 4504 "src/feature.ml" 142 4481 4510
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/feature.ml" 142 4481 4495 "src/feature.ml" 142 4481 4510
+type(
+  Arg.spec
+)
+"src/feature.ml" 142 4481 4512 "src/feature.ml" 142 4481 4514
+type(
+  string
+)
+"src/feature.ml" 142 4481 4485 "src/feature.ml" 142 4481 4514
+type(
+  Arg.key * Arg.spec * string
+)
+"src/feature.ml" 142 4481 4516 "src/feature.ml" 142 4481 4523
+type(
+  Arg.key
+)
+"src/feature.ml" 142 4481 4534 "src/feature.ml" 142 4481 4540
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/feature.ml" 142 4481 4525 "src/feature.ml" 142 4481 4540
+type(
+  Arg.spec
+)
+"src/feature.ml" 142 4481 4542 "src/feature.ml" 142 4481 4544
+type(
+  string
+)
+"src/feature.ml" 142 4481 4516 "src/feature.ml" 142 4481 4544
+type(
+  Arg.key * Arg.spec * string
+)
+"src/feature.ml" 139 4387 4400 "src/feature.ml" 142 4481 4546
+type(
+  (Arg.key * Arg.spec * string) list
+)
+"src/feature.ml" 143 4550 4556 "src/feature.ml" 143 4550 4559
+type(
+  int ref
+)
+ident(
+  def idx "src/feature.ml" 144 4571 4573 "src/feature.ml" 148 4698 4718
+)
+"src/feature.ml" 143 4550 4562 "src/feature.ml" 143 4550 4565
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/feature.ml" 143 4550 4566 "src/feature.ml" 143 4550 4567
+type(
+  int
+)
+"src/feature.ml" 143 4550 4562 "src/feature.ml" 143 4550 4567
+type(
+  int ref
+)
+"src/feature.ml" 144 4571 4581 "src/feature.ml" 144 4571 4584
+type(
+  unit -> unit
+)
+ident(
+  def aux "src/feature.ml" 144 4571 4573 "src/feature.ml" 148 4698 4718
+)
+"src/feature.ml" 144 4571 4585 "src/feature.ml" 144 4571 4587
+type(
+  unit
+)
+"src/feature.ml" 146 4598 4604 "src/feature.ml" 146 4598 4618
+type(
+  ?current:int ref ->
+  string array ->
+  (Arg.key * Arg.spec * Arg.doc) list ->
+  Arg.anon_fun -> Arg.usage_msg -> unit
+)
+ident(
+  ext_ref Arg.parse_argv
+)
+"src/feature.ml" 146 4598 4628 "src/feature.ml" 146 4598 4631
+type(
+  int ref
+)
+ident(
+  int_ref idx "src/feature.ml" 143 4550 4556 "src/feature.ml" 143 4550 4559
+)
+"src/feature.ml" 146 4598 4632 "src/feature.ml" 146 4598 4640
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"src/feature.ml" 146 4598 4641 "src/feature.ml" 146 4598 4645
+type(
+  (Arg.key * Arg.spec * Arg.doc) list
+)
+ident(
+  int_ref spec "src/feature.ml" 139 4387 4393 "src/feature.ml" 139 4387 4397
+)
+"src/feature.ml" 146 4598 4646 "src/feature.ml" 146 4598 4652
+type(
+  Arg.anon_fun
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/feature.ml" 146 4598 4653 "src/feature.ml" 146 4598 4655
+type(
+  Arg.usage_msg
+)
+"src/feature.ml" 146 4598 4604 "src/feature.ml" 146 4598 4655
+call(
+  stack
+)
+type(
+  unit
+)
+"src/feature.ml" 147 4656 4673 "src/feature.ml" 147 4656 4674
+type(
+  string
+)
+"src/feature.ml" 147 4656 4665 "src/feature.ml" 147 4656 4674
+type(
+  exn
+)
+"src/feature.ml" 147 4656 4686 "src/feature.ml" 147 4656 4687
+type(
+  string
+)
+"src/feature.ml" 147 4656 4677 "src/feature.ml" 147 4656 4687
+type(
+  exn
+)
+"src/feature.ml" 147 4656 4665 "src/feature.ml" 147 4656 4687
+type(
+  exn
+)
+"src/feature.ml" 147 4656 4691 "src/feature.ml" 147 4656 4694
+type(
+  unit -> unit
+)
+ident(
+  int_ref aux "src/feature.ml" 144 4571 4581 "src/feature.ml" 144 4571 4584
+)
+"src/feature.ml" 147 4656 4695 "src/feature.ml" 147 4656 4697
+type(
+  unit
+)
+"src/feature.ml" 147 4656 4691 "src/feature.ml" 147 4656 4697
+call(
+  tail
+)
+type(
+  unit
+)
+"src/feature.ml" 145 4590 4594 "src/feature.ml" 147 4656 4697
+type(
+  unit
+)
+"src/feature.ml" 148 4698 4703 "src/feature.ml" 148 4698 4707
+type(
+  unit -> unit
+)
+ident(
+  int_ref init "src/feature.ml" 86 2634 2638 "src/feature.ml" 86 2634 2642
+)
+"src/feature.ml" 148 4698 4708 "src/feature.ml" 148 4698 4710
+type(
+  unit
+)
+"src/feature.ml" 148 4698 4703 "src/feature.ml" 148 4698 4710
+call(
+  stack
+)
+type(
+  unit
+)
+"src/feature.ml" 148 4698 4712 "src/feature.ml" 148 4698 4715
+type(
+  unit -> unit
+)
+ident(
+  int_ref aux "src/feature.ml" 144 4571 4581 "src/feature.ml" 144 4571 4584
+)
+"src/feature.ml" 148 4698 4716 "src/feature.ml" 148 4698 4718
+type(
+  unit
+)
+"src/feature.ml" 148 4698 4712 "src/feature.ml" 148 4698 4718
+call(
+  tail
+)
+type(
+  unit
+)
+"src/feature.ml" 148 4698 4703 "src/feature.ml" 148 4698 4718
+type(
+  unit
+)
+"src/feature.ml" 144 4571 4573 "src/feature.ml" 148 4698 4718
+type(
+  unit
+)
+"src/feature.ml" 143 4550 4552 "src/feature.ml" 148 4698 4718
+type(
+  unit
+)
+"src/feature.ml" 139 4387 4389 "src/feature.ml" 148 4698 4718
+type(
+  unit
+)
+"src/feature.ml" 150 4720 4724 "src/feature.ml" 150 4720 4735
+type(
+  string -> string list -> unit
+)
+ident(
+  def loadFromEnv "src/feature.ml" 154 4857 4889 "src/feature.ml" 1 0 -1
+)
+"src/feature.ml" 150 4720 4736 "src/feature.ml" 150 4720 4740
+type(
+  string
+)
+ident(
+  def name "src/feature.ml" 150 4720 4741 "src/feature.ml" 154 4857 4889
+)
+"src/feature.ml" 150 4720 4741 "src/feature.ml" 150 4720 4748
+type(
+  string list
+)
+ident(
+  def default "src/feature.ml" 151 4751 4753 "src/feature.ml" 154 4857 4889
+)
+"src/feature.ml" 151 4751 4757 "src/feature.ml" 151 4751 4764
+type(
+  string list
+)
+ident(
+  def plugins "src/feature.ml" 154 4857 4859 "src/feature.ml" 154 4857 4889
+)
+"src/feature.ml" 152 4767 4775 "src/feature.ml" 152 4767 4784
+type(
+  Str.regexp -> string -> string list
+)
+ident(
+  ext_ref Str.split
+)
+"src/feature.ml" 152 4767 4786 "src/feature.ml" 152 4767 4796
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"src/feature.ml" 152 4767 4797 "src/feature.ml" 152 4767 4804
+type(
+  string
+)
+"src/feature.ml" 152 4767 4785 "src/feature.ml" 152 4767 4805
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"src/feature.ml" 152 4767 4807 "src/feature.ml" 152 4767 4817
+type(
+  string -> string
+)
+ident(
+  ext_ref Sys.getenv
+)
+"src/feature.ml" 152 4767 4818 "src/feature.ml" 152 4767 4822
+type(
+  string
+)
+ident(
+  int_ref name "src/feature.ml" 150 4720 4736 "src/feature.ml" 150 4720 4740
+)
+"src/feature.ml" 152 4767 4806 "src/feature.ml" 152 4767 4823
+type(
+  string
+)
+"src/feature.ml" 152 4767 4775 "src/feature.ml" 152 4767 4823
+call(
+  stack
+)
+type(
+  string list
+)
+"src/feature.ml" 153 4824 4833 "src/feature.ml" 153 4824 4842
+type(
+  exn
+)
+"src/feature.ml" 153 4824 4846 "src/feature.ml" 153 4824 4853
+type(
+  string list
+)
+ident(
+  int_ref default "src/feature.ml" 150 4720 4741 "src/feature.ml" 150 4720 4748
+)
+"src/feature.ml" 152 4767 4771 "src/feature.ml" 153 4824 4853
+type(
+  string list
+)
+"src/feature.ml" 154 4857 4859 "src/feature.ml" 154 4857 4868
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/feature.ml" 154 4857 4869 "src/feature.ml" 154 4857 4881
+type(
+  string -> unit
+)
+ident(
+  int_ref loadWithDeps "src/feature.ml" 132 4136 4140 "src/feature.ml" 132 4136 4152
+)
+"src/feature.ml" 154 4857 4882 "src/feature.ml" 154 4857 4889
+type(
+  string list
+)
+ident(
+  int_ref plugins "src/feature.ml" 151 4751 4757 "src/feature.ml" 151 4751 4764
+)
+"src/feature.ml" 154 4857 4859 "src/feature.ml" 154 4857 4889
+call(
+  tail
+)
+type(
+  unit
+)
+"src/feature.ml" 151 4751 4753 "src/feature.ml" 154 4857 4889
+type(
+  unit
+)

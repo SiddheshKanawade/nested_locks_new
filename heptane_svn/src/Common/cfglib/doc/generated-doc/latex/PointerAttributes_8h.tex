@@ -1,0 +1,82 @@
+\hypertarget{PointerAttributes_8h}{}\doxysection{include/\+Pointer\+Attributes.h File Reference}
+\label{PointerAttributes_8h}\index{include/PointerAttributes.h@{include/PointerAttributes.h}}
+{\ttfamily \#include $<$cassert$>$}\newline
+{\ttfamily \#include \char`\"{}Attributes.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Clone\+Handle.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Handle.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Serialisable\+Attributes.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Xml\+Extra.\+h\char`\"{}}\newline
+\doxysubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespacecfglib}{cfglib}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{PointerAttributes_8h_a8d710e0bc46a1c7cf9da255d048bc8c6}{REGISTER\+\_\+\+POINTER\+\_\+\+ATTRIBUTE}}(TYPE,  ATTR\+\_\+\+NAME)~Set\+Attribute\+Type(\#TYPE, new ATTR\+\_\+\+NAME())
+\item 
+\#define \mbox{\hyperlink{PointerAttributes_8h_a502d28e7062c3413b0f27304339b5f51}{DECLARE\+\_\+\+POINTER\+\_\+\+ATTRIBUTE}}(TYPE,  ATTR\+\_\+\+NAME)
+\item 
+\#define \mbox{\hyperlink{PointerAttributes_8h_ab34a72b99cc40e759c1bdf92d7e36b19}{IMPLEMENT\+\_\+\+POINTER\+\_\+\+ATTRIBUTE}}(TYPE,  ATTR\+\_\+\+NAME)
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacecfglib_a674d879c9644754a4e9820440641977b}{cfglib\+::\+DECLARE\+\_\+\+POINTER\+\_\+\+ATTRIBUTE}} (Cfg, Serialisable\+Cfg\+Attribute)
+\item 
+\mbox{\hyperlink{namespacecfglib_a038b2798913adc88f5623acf2261207c}{cfglib\+::\+DECLARE\+\_\+\+POINTER\+\_\+\+ATTRIBUTE}} (Node, Serialisable\+Node\+Attribute)
+\item 
+\mbox{\hyperlink{namespacecfglib_ae1d9aa724c879eb22db67a293ba5ecff}{cfglib\+::\+DECLARE\+\_\+\+POINTER\+\_\+\+ATTRIBUTE}} (Instruction, Serialisable\+Instruction\+Attribute)
+\item 
+\mbox{\hyperlink{namespacecfglib_a622bb8d82c94f225ccedeab63dbe0ad2}{cfglib\+::\+DECLARE\+\_\+\+POINTER\+\_\+\+ATTRIBUTE}} (Loop, Serialisable\+Loop\+Attribute)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{PointerAttributes_8h_a502d28e7062c3413b0f27304339b5f51}\label{PointerAttributes_8h_a502d28e7062c3413b0f27304339b5f51}} 
+\index{PointerAttributes.h@{PointerAttributes.h}!DECLARE\_POINTER\_ATTRIBUTE@{DECLARE\_POINTER\_ATTRIBUTE}}
+\index{DECLARE\_POINTER\_ATTRIBUTE@{DECLARE\_POINTER\_ATTRIBUTE}!PointerAttributes.h@{PointerAttributes.h}}
+\doxysubsubsection{\texorpdfstring{DECLARE\_POINTER\_ATTRIBUTE}{DECLARE\_POINTER\_ATTRIBUTE}}
+{\footnotesize\ttfamily \#define DECLARE\+\_\+\+POINTER\+\_\+\+ATTRIBUTE(\begin{DoxyParamCaption}\item[{}]{TYPE,  }\item[{}]{ATTR\+\_\+\+NAME }\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{  \textcolor{keyword}{class }TYPE;                       \(\backslash\)}
+\DoxyCodeLine{  class ATTR\_NAME : \textcolor{keyword}{public} SerialisableAttribute \{  \(\backslash\)}
+\DoxyCodeLine{  private:                      \(\backslash\)}
+\DoxyCodeLine{    TYPE** ptr;                     \(\backslash\)}
+\DoxyCodeLine{  public:                       \(\backslash\)}
+\DoxyCodeLine{    ATTR\_NAME();                    \(\backslash\)}
+\DoxyCodeLine{    ATTR\_NAME(TYPE* ptr);               \(\backslash\)}
+\DoxyCodeLine{    \string~ATTR\_NAME();                   \(\backslash\)}
+\DoxyCodeLine{                            \(\backslash\)}
+\DoxyCodeLine{    ATTR\_NAME* clone();                 \(\backslash\)}
+\DoxyCodeLine{    ATTR\_NAME* clone(CloneHandle\&);         \(\backslash\)}
+\DoxyCodeLine{                            \(\backslash\)}
+\DoxyCodeLine{    void Print(std::ostream\&);              \(\backslash\)}
+\DoxyCodeLine{                            \(\backslash\)}
+\DoxyCodeLine{    std::ostream\& WriteXml(std::ostream\&,Handle\&);  \(\backslash\)}
+\DoxyCodeLine{                            \(\backslash\)}
+\DoxyCodeLine{    void ReadXml(\mbox{\hyperlink{classXmlTag}{XmlTag}} \textcolor{keyword}{const}*, Handle\&);     \(\backslash\)}
+\DoxyCodeLine{                            \(\backslash\)}
+\DoxyCodeLine{    TYPE* GetValue() \textcolor{keyword}{const};             \(\backslash\)}
+\DoxyCodeLine{                            \(\backslash\)}
+\DoxyCodeLine{    void SetValue(TYPE* ptr);               \(\backslash\)}
+\DoxyCodeLine{                            \(\backslash\)}
+\DoxyCodeLine{    ATTR\_NAME* create();                \(\backslash\)}
+\DoxyCodeLine{  \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{PointerAttributes_8h_ab34a72b99cc40e759c1bdf92d7e36b19}\label{PointerAttributes_8h_ab34a72b99cc40e759c1bdf92d7e36b19}} 
+\index{PointerAttributes.h@{PointerAttributes.h}!IMPLEMENT\_POINTER\_ATTRIBUTE@{IMPLEMENT\_POINTER\_ATTRIBUTE}}
+\index{IMPLEMENT\_POINTER\_ATTRIBUTE@{IMPLEMENT\_POINTER\_ATTRIBUTE}!PointerAttributes.h@{PointerAttributes.h}}
+\doxysubsubsection{\texorpdfstring{IMPLEMENT\_POINTER\_ATTRIBUTE}{IMPLEMENT\_POINTER\_ATTRIBUTE}}
+{\footnotesize\ttfamily \#define IMPLEMENT\+\_\+\+POINTER\+\_\+\+ATTRIBUTE(\begin{DoxyParamCaption}\item[{}]{TYPE,  }\item[{}]{ATTR\+\_\+\+NAME }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{PointerAttributes_8h_a8d710e0bc46a1c7cf9da255d048bc8c6}\label{PointerAttributes_8h_a8d710e0bc46a1c7cf9da255d048bc8c6}} 
+\index{PointerAttributes.h@{PointerAttributes.h}!REGISTER\_POINTER\_ATTRIBUTE@{REGISTER\_POINTER\_ATTRIBUTE}}
+\index{REGISTER\_POINTER\_ATTRIBUTE@{REGISTER\_POINTER\_ATTRIBUTE}!PointerAttributes.h@{PointerAttributes.h}}
+\doxysubsubsection{\texorpdfstring{REGISTER\_POINTER\_ATTRIBUTE}{REGISTER\_POINTER\_ATTRIBUTE}}
+{\footnotesize\ttfamily \#define REGISTER\+\_\+\+POINTER\+\_\+\+ATTRIBUTE(\begin{DoxyParamCaption}\item[{}]{TYPE,  }\item[{}]{ATTR\+\_\+\+NAME }\end{DoxyParamCaption})~Set\+Attribute\+Type(\#TYPE, new ATTR\+\_\+\+NAME())}
+

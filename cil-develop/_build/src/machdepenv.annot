@@ -1,0 +1,2024 @@
+"src/machdepenv.ml" 6 64 68 "src/machdepenv.ml" 6 64 76
+type(
+  string -> (string, string list) H.t
+)
+ident(
+  def preparse "src/machdepenv.ml" 24 674 674 "src/machdepenv.ml" 1 0 -1
+)
+"src/machdepenv.ml" 6 64 78 "src/machdepenv.ml" 6 64 79
+type(
+  string
+)
+ident(
+  def s "src/machdepenv.ml" 6 64 88 "src/machdepenv.ml" 22 661 672
+)
+"src/machdepenv.ml" 7 118 124 "src/machdepenv.ml" 7 118 133
+type(
+  (string, string list) H.t
+)
+ident(
+  def specTable "src/machdepenv.ml" 8 151 153 "src/machdepenv.ml" 22 661 672
+)
+"src/machdepenv.ml" 7 118 136 "src/machdepenv.ml" 7 118 144
+type(
+  ?random:bool -> int -> (string, string list) H.t
+)
+ident(
+  ext_ref H.create
+)
+"src/machdepenv.ml" 7 118 145 "src/machdepenv.ml" 7 118 147
+type(
+  int
+)
+"src/machdepenv.ml" 7 118 136 "src/machdepenv.ml" 7 118 147
+call(
+  stack
+)
+type(
+  (string, string list) H.t
+)
+"src/machdepenv.ml" 8 151 157 "src/machdepenv.ml" 8 151 168
+type(
+  R.regexp
+)
+ident(
+  def commaRegexp "src/machdepenv.ml" 9 187 189 "src/machdepenv.ml" 22 661 672
+)
+"src/machdepenv.ml" 8 151 171 "src/machdepenv.ml" 8 151 179
+type(
+  string -> R.regexp
+)
+ident(
+  ext_ref R.regexp
+)
+"src/machdepenv.ml" 8 151 180 "src/machdepenv.ml" 8 151 183
+type(
+  string
+)
+"src/machdepenv.ml" 8 151 171 "src/machdepenv.ml" 8 151 183
+call(
+  stack
+)
+type(
+  R.regexp
+)
+"src/machdepenv.ml" 9 187 193 "src/machdepenv.ml" 9 187 204
+type(
+  R.regexp
+)
+ident(
+  def spaceRegexp "src/machdepenv.ml" 10 228 230 "src/machdepenv.ml" 22 661 672
+)
+"src/machdepenv.ml" 9 187 207 "src/machdepenv.ml" 9 187 215
+type(
+  string -> R.regexp
+)
+ident(
+  ext_ref R.regexp
+)
+"src/machdepenv.ml" 9 187 216 "src/machdepenv.ml" 9 187 224
+type(
+  string
+)
+"src/machdepenv.ml" 9 187 207 "src/machdepenv.ml" 9 187 224
+call(
+  stack
+)
+type(
+  R.regexp
+)
+"src/machdepenv.ml" 10 228 234 "src/machdepenv.ml" 10 228 244
+type(
+  R.regexp
+)
+ident(
+  def specRegexp "src/machdepenv.ml" 11 298 300 "src/machdepenv.ml" 22 661 672
+)
+"src/machdepenv.ml" 10 228 247 "src/machdepenv.ml" 10 228 255
+type(
+  string -> R.regexp
+)
+ident(
+  ext_ref R.regexp
+)
+"src/machdepenv.ml" 10 228 256 "src/machdepenv.ml" 10 228 294
+type(
+  string
+)
+"src/machdepenv.ml" 10 228 247 "src/machdepenv.ml" 10 228 294
+call(
+  stack
+)
+type(
+  R.regexp
+)
+"src/machdepenv.ml" 11 298 304 "src/machdepenv.ml" 11 298 309
+type(
+  string list
+)
+ident(
+  def specs "src/machdepenv.ml" 12 337 339 "src/machdepenv.ml" 22 661 672
+)
+"src/machdepenv.ml" 11 298 312 "src/machdepenv.ml" 11 298 319
+type(
+  R.regexp -> string -> string list
+)
+ident(
+  ext_ref R.split
+)
+"src/machdepenv.ml" 11 298 320 "src/machdepenv.ml" 11 298 331
+type(
+  R.regexp
+)
+ident(
+  int_ref spaceRegexp "src/machdepenv.ml" 9 187 193 "src/machdepenv.ml" 9 187 204
+)
+"src/machdepenv.ml" 11 298 332 "src/machdepenv.ml" 11 298 333
+type(
+  string
+)
+ident(
+  int_ref s "src/machdepenv.ml" 6 64 78 "src/machdepenv.ml" 6 64 79
+)
+"src/machdepenv.ml" 11 298 312 "src/machdepenv.ml" 11 298 333
+call(
+  stack
+)
+type(
+  string list
+)
+"src/machdepenv.ml" 12 337 343 "src/machdepenv.ml" 12 337 350
+type(
+  string -> unit
+)
+ident(
+  def addSpec "src/machdepenv.ml" 21 637 639 "src/machdepenv.ml" 22 661 672
+)
+"src/machdepenv.ml" 12 337 351 "src/machdepenv.ml" 12 337 355
+type(
+  string
+)
+ident(
+  def spec "src/machdepenv.ml" 13 359 363 "src/machdepenv.ml" 19 569 631
+)
+"src/machdepenv.ml" 13 359 366 "src/machdepenv.ml" 13 359 380
+type(
+  R.regexp -> string -> int -> bool
+)
+ident(
+  ext_ref R.string_match
+)
+"src/machdepenv.ml" 13 359 381 "src/machdepenv.ml" 13 359 391
+type(
+  R.regexp
+)
+ident(
+  int_ref specRegexp "src/machdepenv.ml" 10 228 234 "src/machdepenv.ml" 10 228 244
+)
+"src/machdepenv.ml" 13 359 392 "src/machdepenv.ml" 13 359 396
+type(
+  string
+)
+ident(
+  int_ref spec "src/machdepenv.ml" 12 337 351 "src/machdepenv.ml" 12 337 355
+)
+"src/machdepenv.ml" 13 359 397 "src/machdepenv.ml" 13 359 398
+type(
+  int
+)
+"src/machdepenv.ml" 13 359 366 "src/machdepenv.ml" 13 359 398
+call(
+  stack
+)
+type(
+  bool
+)
+"src/machdepenv.ml" 14 410 420 "src/machdepenv.ml" 14 410 424
+type(
+  string
+)
+ident(
+  def name "src/machdepenv.ml" 15 453 459 "src/machdepenv.ml" 16 497 551
+)
+"src/machdepenv.ml" 14 410 427 "src/machdepenv.ml" 14 410 442
+type(
+  int -> string -> string
+)
+ident(
+  ext_ref R.matched_group
+)
+"src/machdepenv.ml" 14 410 443 "src/machdepenv.ml" 14 410 444
+type(
+  int
+)
+"src/machdepenv.ml" 14 410 445 "src/machdepenv.ml" 14 410 449
+type(
+  string
+)
+ident(
+  int_ref spec "src/machdepenv.ml" 12 337 351 "src/machdepenv.ml" 12 337 355
+)
+"src/machdepenv.ml" 14 410 427 "src/machdepenv.ml" 14 410 449
+call(
+  stack
+)
+type(
+  string
+)
+"src/machdepenv.ml" 15 453 463 "src/machdepenv.ml" 15 453 468
+type(
+  string
+)
+ident(
+  def value "src/machdepenv.ml" 16 497 503 "src/machdepenv.ml" 16 497 551
+)
+"src/machdepenv.ml" 15 453 471 "src/machdepenv.ml" 15 453 486
+type(
+  int -> string -> string
+)
+ident(
+  ext_ref R.matched_group
+)
+"src/machdepenv.ml" 15 453 487 "src/machdepenv.ml" 15 453 488
+type(
+  int
+)
+"src/machdepenv.ml" 15 453 489 "src/machdepenv.ml" 15 453 493
+type(
+  string
+)
+ident(
+  int_ref spec "src/machdepenv.ml" 12 337 351 "src/machdepenv.ml" 12 337 355
+)
+"src/machdepenv.ml" 15 453 471 "src/machdepenv.ml" 15 453 493
+call(
+  stack
+)
+type(
+  string
+)
+"src/machdepenv.ml" 16 497 503 "src/machdepenv.ml" 16 497 508
+type(
+  (string, string list) H.t -> string -> string list -> unit
+)
+ident(
+  ext_ref H.add
+)
+"src/machdepenv.ml" 16 497 509 "src/machdepenv.ml" 16 497 518
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref specTable "src/machdepenv.ml" 7 118 124 "src/machdepenv.ml" 7 118 133
+)
+"src/machdepenv.ml" 16 497 519 "src/machdepenv.ml" 16 497 523
+type(
+  string
+)
+ident(
+  int_ref name "src/machdepenv.ml" 14 410 420 "src/machdepenv.ml" 14 410 424
+)
+"src/machdepenv.ml" 16 497 525 "src/machdepenv.ml" 16 497 532
+type(
+  R.regexp -> string -> string list
+)
+ident(
+  ext_ref R.split
+)
+"src/machdepenv.ml" 16 497 533 "src/machdepenv.ml" 16 497 544
+type(
+  R.regexp
+)
+ident(
+  int_ref commaRegexp "src/machdepenv.ml" 8 151 157 "src/machdepenv.ml" 8 151 168
+)
+"src/machdepenv.ml" 16 497 545 "src/machdepenv.ml" 16 497 550
+type(
+  string
+)
+ident(
+  int_ref value "src/machdepenv.ml" 15 453 463 "src/machdepenv.ml" 15 453 468
+)
+"src/machdepenv.ml" 16 497 524 "src/machdepenv.ml" 16 497 551
+call(
+  stack
+)
+type(
+  string list
+)
+"src/machdepenv.ml" 16 497 503 "src/machdepenv.ml" 16 497 551
+call(
+  tail
+)
+type(
+  unit
+)
+"src/machdepenv.ml" 15 453 459 "src/machdepenv.ml" 16 497 551
+type(
+  unit
+)
+"src/machdepenv.ml" 13 359 404 "src/machdepenv.ml" 17 552 559
+type(
+  unit
+)
+"src/machdepenv.ml" 19 569 575 "src/machdepenv.ml" 19 569 580
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/machdepenv.ml" 19 569 591 "src/machdepenv.ml" 19 569 622
+type(
+  string
+)
+"src/machdepenv.ml" 19 569 623 "src/machdepenv.ml" 19 569 624
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/machdepenv.ml" 19 569 625 "src/machdepenv.ml" 19 569 629
+type(
+  string
+)
+ident(
+  int_ref spec "src/machdepenv.ml" 12 337 351 "src/machdepenv.ml" 12 337 355
+)
+"src/machdepenv.ml" 19 569 590 "src/machdepenv.ml" 19 569 630
+call(
+  stack
+)
+type(
+  string
+)
+"src/machdepenv.ml" 19 569 581 "src/machdepenv.ml" 19 569 631
+type(
+  exn
+)
+"src/machdepenv.ml" 19 569 575 "src/machdepenv.ml" 19 569 631
+type(
+  unit
+)
+"src/machdepenv.ml" 13 359 363 "src/machdepenv.ml" 19 569 631
+type(
+  unit
+)
+"src/machdepenv.ml" 21 637 639 "src/machdepenv.ml" 21 637 645
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref L.iter
+)
+"src/machdepenv.ml" 21 637 646 "src/machdepenv.ml" 21 637 653
+type(
+  string -> unit
+)
+ident(
+  int_ref addSpec "src/machdepenv.ml" 12 337 343 "src/machdepenv.ml" 12 337 350
+)
+"src/machdepenv.ml" 21 637 654 "src/machdepenv.ml" 21 637 659
+type(
+  string list
+)
+ident(
+  int_ref specs "src/machdepenv.ml" 11 298 304 "src/machdepenv.ml" 11 298 309
+)
+"src/machdepenv.ml" 21 637 639 "src/machdepenv.ml" 21 637 659
+call(
+  stack
+)
+type(
+  unit
+)
+"src/machdepenv.ml" 22 661 663 "src/machdepenv.ml" 22 661 672
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref specTable "src/machdepenv.ml" 7 118 124 "src/machdepenv.ml" 7 118 133
+)
+"src/machdepenv.ml" 21 637 639 "src/machdepenv.ml" 22 661 672
+type(
+  (string, string list) H.t
+)
+"src/machdepenv.ml" 12 337 339 "src/machdepenv.ml" 22 661 672
+type(
+  (string, string list) H.t
+)
+"src/machdepenv.ml" 11 298 300 "src/machdepenv.ml" 22 661 672
+type(
+  (string, string list) H.t
+)
+"src/machdepenv.ml" 10 228 230 "src/machdepenv.ml" 22 661 672
+type(
+  (string, string list) H.t
+)
+"src/machdepenv.ml" 9 187 189 "src/machdepenv.ml" 22 661 672
+type(
+  (string, string list) H.t
+)
+"src/machdepenv.ml" 8 151 153 "src/machdepenv.ml" 22 661 672
+type(
+  (string, string list) H.t
+)
+"src/machdepenv.ml" 7 118 120 "src/machdepenv.ml" 22 661 672
+type(
+  (string, string list) H.t
+)
+type(
+  (string, string list) H.t
+)
+"src/machdepenv.ml" 24 674 678 "src/machdepenv.ml" 24 674 687
+type(
+  string -> (string -> 'a) -> 'a
+)
+ident(
+  def errorWrap "src/machdepenv.ml" 30 834 834 "src/machdepenv.ml" 1 0 -1
+)
+"src/machdepenv.ml" 24 674 688 "src/machdepenv.ml" 24 674 692
+type(
+  string
+)
+ident(
+  def name "src/machdepenv.ml" 24 674 693 "src/machdepenv.ml" 28 777 832
+)
+"src/machdepenv.ml" 24 674 693 "src/machdepenv.ml" 24 674 694
+type(
+  string -> 'a
+)
+ident(
+  def f "src/machdepenv.ml" 25 697 699 "src/machdepenv.ml" 28 777 832
+)
+"src/machdepenv.ml" 26 704 708 "src/machdepenv.ml" 26 704 709
+type(
+  string -> 'a
+)
+ident(
+  int_ref f "src/machdepenv.ml" 24 674 693 "src/machdepenv.ml" 24 674 694
+)
+"src/machdepenv.ml" 26 704 710 "src/machdepenv.ml" 26 704 714
+type(
+  string
+)
+ident(
+  int_ref name "src/machdepenv.ml" 24 674 688 "src/machdepenv.ml" 24 674 692
+)
+"src/machdepenv.ml" 26 704 708 "src/machdepenv.ml" 26 704 714
+call(
+  stack
+)
+type(
+  'a
+)
+"src/machdepenv.ml" 27 715 722 "src/machdepenv.ml" 27 715 731
+type(
+  exn
+)
+"src/machdepenv.ml" 27 715 735 "src/machdepenv.ml" 27 715 740
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/machdepenv.ml" 27 715 751 "src/machdepenv.ml" 27 715 755
+type(
+  string
+)
+ident(
+  int_ref name "src/machdepenv.ml" 24 674 688 "src/machdepenv.ml" 24 674 692
+)
+"src/machdepenv.ml" 27 715 756 "src/machdepenv.ml" 27 715 757
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/machdepenv.ml" 27 715 758 "src/machdepenv.ml" 27 715 774
+type(
+  string
+)
+"src/machdepenv.ml" 27 715 750 "src/machdepenv.ml" 27 715 775
+call(
+  stack
+)
+type(
+  string
+)
+"src/machdepenv.ml" 27 715 741 "src/machdepenv.ml" 27 715 776
+type(
+  exn
+)
+"src/machdepenv.ml" 27 715 735 "src/machdepenv.ml" 27 715 776
+type(
+  'a
+)
+"src/machdepenv.ml" 28 777 781 "src/machdepenv.ml" 28 777 782
+type(
+  exn
+)
+"src/machdepenv.ml" 28 777 786 "src/machdepenv.ml" 28 777 791
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/machdepenv.ml" 28 777 802 "src/machdepenv.ml" 28 777 823
+type(
+  string
+)
+"src/machdepenv.ml" 28 777 824 "src/machdepenv.ml" 28 777 825
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/machdepenv.ml" 28 777 826 "src/machdepenv.ml" 28 777 830
+type(
+  string
+)
+ident(
+  int_ref name "src/machdepenv.ml" 24 674 688 "src/machdepenv.ml" 24 674 692
+)
+"src/machdepenv.ml" 28 777 801 "src/machdepenv.ml" 28 777 831
+call(
+  stack
+)
+type(
+  string
+)
+"src/machdepenv.ml" 28 777 792 "src/machdepenv.ml" 28 777 832
+type(
+  exn
+)
+"src/machdepenv.ml" 28 777 786 "src/machdepenv.ml" 28 777 832
+type(
+  'a
+)
+"src/machdepenv.ml" 25 697 699 "src/machdepenv.ml" 28 777 832
+type(
+  'a
+)
+"src/machdepenv.ml" 30 834 838 "src/machdepenv.ml" 30 834 850
+type(
+  int -> ('a, 'b list) H.t -> 'a -> 'b
+)
+ident(
+  def getNthString "src/machdepenv.ml" 34 919 919 "src/machdepenv.ml" 1 0 -1
+)
+"src/machdepenv.ml" 30 834 851 "src/machdepenv.ml" 30 834 852
+type(
+  int
+)
+ident(
+  def n "src/machdepenv.ml" 30 834 853 "src/machdepenv.ml" 32 906 917
+)
+"src/machdepenv.ml" 30 834 853 "src/machdepenv.ml" 30 834 862
+type(
+  ('a, 'b list) H.t
+)
+ident(
+  def specTable "src/machdepenv.ml" 30 834 863 "src/machdepenv.ml" 32 906 917
+)
+"src/machdepenv.ml" 30 834 863 "src/machdepenv.ml" 30 834 867
+type(
+  'a
+)
+ident(
+  def name "src/machdepenv.ml" 31 871 873 "src/machdepenv.ml" 32 906 917
+)
+"src/machdepenv.ml" 31 871 877 "src/machdepenv.ml" 31 871 878
+type(
+  'b list
+)
+ident(
+  def l "src/machdepenv.ml" 32 906 908 "src/machdepenv.ml" 32 906 917
+)
+"src/machdepenv.ml" 31 871 881 "src/machdepenv.ml" 31 871 887
+type(
+  ('a, 'b list) H.t -> 'a -> 'b list
+)
+ident(
+  ext_ref H.find
+)
+"src/machdepenv.ml" 31 871 888 "src/machdepenv.ml" 31 871 897
+type(
+  ('a, 'b list) H.t
+)
+ident(
+  int_ref specTable "src/machdepenv.ml" 30 834 853 "src/machdepenv.ml" 30 834 862
+)
+"src/machdepenv.ml" 31 871 898 "src/machdepenv.ml" 31 871 902
+type(
+  'a
+)
+ident(
+  int_ref name "src/machdepenv.ml" 30 834 863 "src/machdepenv.ml" 30 834 867
+)
+"src/machdepenv.ml" 31 871 881 "src/machdepenv.ml" 31 871 902
+call(
+  stack
+)
+type(
+  'b list
+)
+"src/machdepenv.ml" 32 906 908 "src/machdepenv.ml" 32 906 913
+type(
+  'b list -> int -> 'b
+)
+ident(
+  ext_ref L.nth
+)
+"src/machdepenv.ml" 32 906 914 "src/machdepenv.ml" 32 906 915
+type(
+  'b list
+)
+ident(
+  int_ref l "src/machdepenv.ml" 31 871 877 "src/machdepenv.ml" 31 871 878
+)
+"src/machdepenv.ml" 32 906 916 "src/machdepenv.ml" 32 906 917
+type(
+  int
+)
+ident(
+  int_ref n "src/machdepenv.ml" 30 834 851 "src/machdepenv.ml" 30 834 852
+)
+"src/machdepenv.ml" 32 906 908 "src/machdepenv.ml" 32 906 917
+call(
+  tail
+)
+type(
+  'b
+)
+"src/machdepenv.ml" 31 871 873 "src/machdepenv.ml" 32 906 917
+type(
+  'b
+)
+"src/machdepenv.ml" 34 919 923 "src/machdepenv.ml" 34 919 932
+type(
+  int -> (string, string list) H.t -> string -> int
+)
+ident(
+  def getNthInt "src/machdepenv.ml" 37 1030 1030 "src/machdepenv.ml" 1 0 -1
+)
+"src/machdepenv.ml" 34 919 933 "src/machdepenv.ml" 34 919 934
+type(
+  int
+)
+ident(
+  def n "src/machdepenv.ml" 34 919 935 "src/machdepenv.ml" 35 952 1028
+)
+"src/machdepenv.ml" 34 919 935 "src/machdepenv.ml" 34 919 944
+type(
+  (string, string list) H.t
+)
+ident(
+  def specTable "src/machdepenv.ml" 34 919 945 "src/machdepenv.ml" 35 952 1028
+)
+"src/machdepenv.ml" 34 919 945 "src/machdepenv.ml" 34 919 949
+type(
+  string
+)
+ident(
+  def name "src/machdepenv.ml" 35 952 954 "src/machdepenv.ml" 35 952 1028
+)
+"src/machdepenv.ml" 35 952 954 "src/machdepenv.ml" 35 952 963
+type(
+  string -> (string -> int) -> int
+)
+ident(
+  int_ref errorWrap "src/machdepenv.ml" 24 674 678 "src/machdepenv.ml" 24 674 687
+)
+"src/machdepenv.ml" 35 952 964 "src/machdepenv.ml" 35 952 968
+type(
+  string
+)
+ident(
+  int_ref name "src/machdepenv.ml" 34 919 945 "src/machdepenv.ml" 34 919 949
+)
+"src/machdepenv.ml" 35 952 974 "src/machdepenv.ml" 35 952 978
+type(
+  string
+)
+ident(
+  def name "src/machdepenv.ml" 35 952 982 "src/machdepenv.ml" 35 952 1027
+)
+"src/machdepenv.ml" 35 952 982 "src/machdepenv.ml" 35 952 995
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/machdepenv.ml" 35 952 997 "src/machdepenv.ml" 35 952 1009
+type(
+  int -> (string, string list) H.t -> string -> string
+)
+ident(
+  int_ref getNthString "src/machdepenv.ml" 30 834 838 "src/machdepenv.ml" 30 834 850
+)
+"src/machdepenv.ml" 35 952 1010 "src/machdepenv.ml" 35 952 1011
+type(
+  int
+)
+ident(
+  int_ref n "src/machdepenv.ml" 34 919 933 "src/machdepenv.ml" 34 919 934
+)
+"src/machdepenv.ml" 35 952 1012 "src/machdepenv.ml" 35 952 1021
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref specTable "src/machdepenv.ml" 34 919 935 "src/machdepenv.ml" 34 919 944
+)
+"src/machdepenv.ml" 35 952 1022 "src/machdepenv.ml" 35 952 1026
+type(
+  string
+)
+ident(
+  int_ref name "src/machdepenv.ml" 35 952 974 "src/machdepenv.ml" 35 952 978
+)
+"src/machdepenv.ml" 35 952 996 "src/machdepenv.ml" 35 952 1027
+call(
+  stack
+)
+type(
+  string
+)
+"src/machdepenv.ml" 35 952 982 "src/machdepenv.ml" 35 952 1027
+type(
+  int
+)
+"src/machdepenv.ml" 35 952 969 "src/machdepenv.ml" 35 952 1028
+type(
+  string -> int
+)
+"src/machdepenv.ml" 35 952 954 "src/machdepenv.ml" 35 952 1028
+call(
+  tail
+)
+type(
+  int
+)
+"src/machdepenv.ml" 37 1030 1034 "src/machdepenv.ml" 37 1030 1044
+type(
+  int -> (string, string list) H.t -> string -> bool
+)
+ident(
+  def getNthBool "src/machdepenv.ml" 40 1144 1144 "src/machdepenv.ml" 1 0 -1
+)
+"src/machdepenv.ml" 37 1030 1045 "src/machdepenv.ml" 37 1030 1046
+type(
+  int
+)
+ident(
+  def n "src/machdepenv.ml" 37 1030 1047 "src/machdepenv.ml" 38 1065 1142
+)
+"src/machdepenv.ml" 37 1030 1047 "src/machdepenv.ml" 37 1030 1056
+type(
+  (string, string list) H.t
+)
+ident(
+  def specTable "src/machdepenv.ml" 37 1030 1057 "src/machdepenv.ml" 38 1065 1142
+)
+"src/machdepenv.ml" 37 1030 1057 "src/machdepenv.ml" 37 1030 1061
+type(
+  string
+)
+ident(
+  def name "src/machdepenv.ml" 38 1065 1067 "src/machdepenv.ml" 38 1065 1142
+)
+"src/machdepenv.ml" 38 1065 1067 "src/machdepenv.ml" 38 1065 1076
+type(
+  string -> (string -> bool) -> bool
+)
+ident(
+  int_ref errorWrap "src/machdepenv.ml" 24 674 678 "src/machdepenv.ml" 24 674 687
+)
+"src/machdepenv.ml" 38 1065 1077 "src/machdepenv.ml" 38 1065 1081
+type(
+  string
+)
+ident(
+  int_ref name "src/machdepenv.ml" 37 1030 1057 "src/machdepenv.ml" 37 1030 1061
+)
+"src/machdepenv.ml" 38 1065 1087 "src/machdepenv.ml" 38 1065 1091
+type(
+  string
+)
+ident(
+  def name "src/machdepenv.ml" 38 1065 1095 "src/machdepenv.ml" 38 1065 1141
+)
+"src/machdepenv.ml" 38 1065 1095 "src/machdepenv.ml" 38 1065 1109
+type(
+  string -> bool
+)
+ident(
+  ext_ref Pervasives.bool_of_string
+)
+"src/machdepenv.ml" 38 1065 1111 "src/machdepenv.ml" 38 1065 1123
+type(
+  int -> (string, string list) H.t -> string -> string
+)
+ident(
+  int_ref getNthString "src/machdepenv.ml" 30 834 838 "src/machdepenv.ml" 30 834 850
+)
+"src/machdepenv.ml" 38 1065 1124 "src/machdepenv.ml" 38 1065 1125
+type(
+  int
+)
+ident(
+  int_ref n "src/machdepenv.ml" 37 1030 1045 "src/machdepenv.ml" 37 1030 1046
+)
+"src/machdepenv.ml" 38 1065 1126 "src/machdepenv.ml" 38 1065 1135
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref specTable "src/machdepenv.ml" 37 1030 1047 "src/machdepenv.ml" 37 1030 1056
+)
+"src/machdepenv.ml" 38 1065 1136 "src/machdepenv.ml" 38 1065 1140
+type(
+  string
+)
+ident(
+  int_ref name "src/machdepenv.ml" 38 1065 1087 "src/machdepenv.ml" 38 1065 1091
+)
+"src/machdepenv.ml" 38 1065 1110 "src/machdepenv.ml" 38 1065 1141
+call(
+  stack
+)
+type(
+  string
+)
+"src/machdepenv.ml" 38 1065 1095 "src/machdepenv.ml" 38 1065 1141
+call(
+  tail
+)
+type(
+  bool
+)
+"src/machdepenv.ml" 38 1065 1082 "src/machdepenv.ml" 38 1065 1142
+type(
+  string -> bool
+)
+"src/machdepenv.ml" 38 1065 1067 "src/machdepenv.ml" 38 1065 1142
+call(
+  tail
+)
+type(
+  bool
+)
+"src/machdepenv.ml" 40 1144 1148 "src/machdepenv.ml" 40 1144 1155
+type(
+  (string, string list) H.t -> string -> bool
+)
+ident(
+  def getBool "src/machdepenv.ml" 41 1171 1171 "src/machdepenv.ml" 1 0 -1
+)
+"src/machdepenv.ml" 40 1144 1158 "src/machdepenv.ml" 40 1144 1168
+type(
+  int -> (string, string list) H.t -> string -> bool
+)
+ident(
+  int_ref getNthBool "src/machdepenv.ml" 37 1030 1034 "src/machdepenv.ml" 37 1030 1044
+)
+"src/machdepenv.ml" 40 1144 1169 "src/machdepenv.ml" 40 1144 1170
+type(
+  int
+)
+"src/machdepenv.ml" 40 1144 1158 "src/machdepenv.ml" 40 1144 1170
+call(
+  stack
+)
+type(
+  (string, string list) H.t -> string -> bool
+)
+"src/machdepenv.ml" 41 1171 1175 "src/machdepenv.ml" 41 1171 1181
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  def getInt "src/machdepenv.ml" 42 1196 1196 "src/machdepenv.ml" 1 0 -1
+)
+"src/machdepenv.ml" 41 1171 1184 "src/machdepenv.ml" 41 1171 1193
+type(
+  int -> (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getNthInt "src/machdepenv.ml" 34 919 923 "src/machdepenv.ml" 34 919 932
+)
+"src/machdepenv.ml" 41 1171 1194 "src/machdepenv.ml" 41 1171 1195
+type(
+  int
+)
+"src/machdepenv.ml" 41 1171 1184 "src/machdepenv.ml" 41 1171 1195
+call(
+  stack
+)
+type(
+  (string, string list) H.t -> string -> int
+)
+"src/machdepenv.ml" 42 1196 1200 "src/machdepenv.ml" 42 1196 1209
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  def getSizeof "src/machdepenv.ml" 43 1224 1224 "src/machdepenv.ml" 1 0 -1
+)
+"src/machdepenv.ml" 42 1196 1212 "src/machdepenv.ml" 42 1196 1221
+type(
+  int -> (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getNthInt "src/machdepenv.ml" 34 919 923 "src/machdepenv.ml" 34 919 932
+)
+"src/machdepenv.ml" 42 1196 1222 "src/machdepenv.ml" 42 1196 1223
+type(
+  int
+)
+"src/machdepenv.ml" 42 1196 1212 "src/machdepenv.ml" 42 1196 1223
+call(
+  stack
+)
+type(
+  (string, string list) H.t -> string -> int
+)
+"src/machdepenv.ml" 43 1224 1228 "src/machdepenv.ml" 43 1224 1238
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  def getAlignof "src/machdepenv.ml" 45 1254 1254 "src/machdepenv.ml" 1 0 -1
+)
+"src/machdepenv.ml" 43 1224 1241 "src/machdepenv.ml" 43 1224 1250
+type(
+  int -> (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getNthInt "src/machdepenv.ml" 34 919 923 "src/machdepenv.ml" 34 919 932
+)
+"src/machdepenv.ml" 43 1224 1251 "src/machdepenv.ml" 43 1224 1252
+type(
+  int
+)
+"src/machdepenv.ml" 43 1224 1241 "src/machdepenv.ml" 43 1224 1252
+call(
+  stack
+)
+type(
+  (string, string list) H.t -> string -> int
+)
+"src/machdepenv.ml" 45 1254 1258 "src/machdepenv.ml" 45 1254 1265
+type(
+  string -> string
+)
+ident(
+  def respace "src/machdepenv.ml" 47 1309 1309 "src/machdepenv.ml" 1 0 -1
+)
+"src/machdepenv.ml" 45 1254 1268 "src/machdepenv.ml" 45 1254 1286
+type(
+  Str.regexp -> string -> string -> string
+)
+ident(
+  ext_ref Str.global_replace
+)
+"src/machdepenv.ml" 45 1254 1288 "src/machdepenv.ml" 45 1254 1298
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"src/machdepenv.ml" 45 1254 1299 "src/machdepenv.ml" 45 1254 1302
+type(
+  string
+)
+"src/machdepenv.ml" 45 1254 1287 "src/machdepenv.ml" 45 1254 1303
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"src/machdepenv.ml" 45 1254 1304 "src/machdepenv.ml" 45 1254 1307
+type(
+  string
+)
+"src/machdepenv.ml" 45 1254 1268 "src/machdepenv.ml" 45 1254 1307
+call(
+  stack
+)
+type(
+  string -> string
+)
+"src/machdepenv.ml" 47 1309 1313 "src/machdepenv.ml" 47 1309 1323
+type(
+  string -> Machdep.mach
+)
+ident(
+  def modelParse "src/machdepenv.ml" 90 3218 3221 "src/machdepenv.ml" 1 0 -1
+)
+"src/machdepenv.ml" 47 1309 1325 "src/machdepenv.ml" 47 1309 1326
+type(
+  string
+)
+ident(
+  def s "src/machdepenv.ml" 47 1309 1335 "src/machdepenv.ml" 90 3218 3221
+)
+"src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+type(
+  (string, string list) H.t
+)
+ident(
+  def entries "src/machdepenv.ml" 54 1495 1497 "src/machdepenv.ml" 90 3218 3221
+)
+"src/machdepenv.ml" 50 1369 1375 "src/machdepenv.ml" 50 1369 1383
+type(
+  string -> (string, string list) H.t
+)
+ident(
+  int_ref preparse "src/machdepenv.ml" 6 64 68 "src/machdepenv.ml" 6 64 76
+)
+"src/machdepenv.ml" 50 1369 1384 "src/machdepenv.ml" 50 1369 1385
+type(
+  string
+)
+ident(
+  int_ref s "src/machdepenv.ml" 47 1309 1325 "src/machdepenv.ml" 47 1309 1326
+)
+"src/machdepenv.ml" 50 1369 1375 "src/machdepenv.ml" 50 1369 1385
+call(
+  stack
+)
+type(
+  (string, string list) H.t
+)
+"src/machdepenv.ml" 51 1387 1404 "src/machdepenv.ml" 51 1387 1407
+type(
+  string
+)
+ident(
+  def msg "src/machdepenv.ml" 51 1387 1411 "src/machdepenv.ml" 51 1387 1430
+)
+"src/machdepenv.ml" 51 1387 1396 "src/machdepenv.ml" 51 1387 1407
+type(
+  exn
+)
+"src/machdepenv.ml" 51 1387 1411 "src/machdepenv.ml" 51 1387 1416
+type(
+  exn -> (string, string list) H.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/machdepenv.ml" 51 1387 1426 "src/machdepenv.ml" 51 1387 1429
+type(
+  string
+)
+ident(
+  int_ref msg "src/machdepenv.ml" 51 1387 1404 "src/machdepenv.ml" 51 1387 1407
+)
+"src/machdepenv.ml" 51 1387 1417 "src/machdepenv.ml" 51 1387 1430
+type(
+  exn
+)
+"src/machdepenv.ml" 51 1387 1411 "src/machdepenv.ml" 51 1387 1430
+type(
+  (string, string list) H.t
+)
+"src/machdepenv.ml" 52 1431 1437 "src/machdepenv.ml" 52 1431 1438
+type(
+  exn
+)
+"src/machdepenv.ml" 52 1431 1442 "src/machdepenv.ml" 52 1431 1447
+type(
+  exn -> (string, string list) H.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/machdepenv.ml" 52 1431 1457 "src/machdepenv.ml" 52 1431 1488
+type(
+  string
+)
+"src/machdepenv.ml" 52 1431 1448 "src/machdepenv.ml" 52 1431 1489
+type(
+  exn
+)
+"src/machdepenv.ml" 52 1431 1442 "src/machdepenv.ml" 52 1431 1489
+type(
+  (string, string list) H.t
+)
+"src/machdepenv.ml" 49 1361 1365 "src/machdepenv.ml" 52 1431 1489
+type(
+  (string, string list) H.t
+)
+"src/machdepenv.ml" 55 1499 1519 "src/machdepenv.ml" 55 1499 1520
+type(
+  int
+)
+"src/machdepenv.ml" 56 1522 1542 "src/machdepenv.ml" 56 1522 1543
+type(
+  int
+)
+"src/machdepenv.ml" 57 1545 1559 "src/machdepenv.ml" 57 1545 1575
+type(
+  string
+)
+"src/machdepenv.ml" 57 1545 1576 "src/machdepenv.ml" 57 1545 1577
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/machdepenv.ml" 57 1545 1578 "src/machdepenv.ml" 57 1545 1579
+type(
+  string
+)
+ident(
+  int_ref s "src/machdepenv.ml" 47 1309 1325 "src/machdepenv.ml" 47 1309 1326
+)
+"src/machdepenv.ml" 57 1545 1559 "src/machdepenv.ml" 57 1545 1579
+call(
+  stack
+)
+type(
+  string
+)
+"src/machdepenv.ml" 58 1581 1603 "src/machdepenv.ml" 58 1581 1610
+type(
+  (string, string list) H.t -> string -> bool
+)
+ident(
+  int_ref getBool "src/machdepenv.ml" 40 1144 1148 "src/machdepenv.ml" 40 1144 1155
+)
+"src/machdepenv.ml" 58 1581 1611 "src/machdepenv.ml" 58 1581 1618
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 58 1581 1619 "src/machdepenv.ml" 58 1581 1636
+type(
+  string
+)
+"src/machdepenv.ml" 58 1581 1603 "src/machdepenv.ml" 58 1581 1636
+call(
+  stack
+)
+type(
+  bool
+)
+"src/machdepenv.ml" 59 1638 1657 "src/machdepenv.ml" 59 1638 1666
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getSizeof "src/machdepenv.ml" 42 1196 1200 "src/machdepenv.ml" 42 1196 1209
+)
+"src/machdepenv.ml" 59 1638 1667 "src/machdepenv.ml" 59 1638 1674
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 59 1638 1675 "src/machdepenv.ml" 59 1638 1682
+type(
+  string
+)
+"src/machdepenv.ml" 59 1638 1657 "src/machdepenv.ml" 59 1638 1682
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 60 1684 1704 "src/machdepenv.ml" 60 1684 1714
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getAlignof "src/machdepenv.ml" 43 1224 1228 "src/machdepenv.ml" 43 1224 1238
+)
+"src/machdepenv.ml" 60 1684 1715 "src/machdepenv.ml" 60 1684 1722
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 60 1684 1723 "src/machdepenv.ml" 60 1684 1730
+type(
+  string
+)
+"src/machdepenv.ml" 60 1684 1704 "src/machdepenv.ml" 60 1684 1730
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 61 1732 1750 "src/machdepenv.ml" 61 1732 1759
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getSizeof "src/machdepenv.ml" 42 1196 1200 "src/machdepenv.ml" 42 1196 1209
+)
+"src/machdepenv.ml" 61 1732 1760 "src/machdepenv.ml" 61 1732 1767
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 61 1732 1768 "src/machdepenv.ml" 61 1732 1774
+type(
+  string
+)
+"src/machdepenv.ml" 61 1732 1750 "src/machdepenv.ml" 61 1732 1774
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 62 1776 1795 "src/machdepenv.ml" 62 1776 1805
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getAlignof "src/machdepenv.ml" 43 1224 1228 "src/machdepenv.ml" 43 1224 1238
+)
+"src/machdepenv.ml" 62 1776 1806 "src/machdepenv.ml" 62 1776 1813
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 62 1776 1814 "src/machdepenv.ml" 62 1776 1820
+type(
+  string
+)
+"src/machdepenv.ml" 62 1776 1795 "src/machdepenv.ml" 62 1776 1820
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 63 1822 1839 "src/machdepenv.ml" 63 1822 1848
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getSizeof "src/machdepenv.ml" 42 1196 1200 "src/machdepenv.ml" 42 1196 1209
+)
+"src/machdepenv.ml" 63 1822 1849 "src/machdepenv.ml" 63 1822 1856
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 63 1822 1857 "src/machdepenv.ml" 63 1822 1862
+type(
+  string
+)
+"src/machdepenv.ml" 63 1822 1839 "src/machdepenv.ml" 63 1822 1862
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 64 1864 1882 "src/machdepenv.ml" 64 1864 1892
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getAlignof "src/machdepenv.ml" 43 1224 1228 "src/machdepenv.ml" 43 1224 1238
+)
+"src/machdepenv.ml" 64 1864 1893 "src/machdepenv.ml" 64 1864 1900
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 64 1864 1901 "src/machdepenv.ml" 64 1864 1906
+type(
+  string
+)
+"src/machdepenv.ml" 64 1864 1882 "src/machdepenv.ml" 64 1864 1906
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 65 1908 1926 "src/machdepenv.ml" 65 1908 1935
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getSizeof "src/machdepenv.ml" 42 1196 1200 "src/machdepenv.ml" 42 1196 1209
+)
+"src/machdepenv.ml" 65 1908 1936 "src/machdepenv.ml" 65 1908 1943
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 65 1908 1944 "src/machdepenv.ml" 65 1908 1950
+type(
+  string
+)
+"src/machdepenv.ml" 65 1908 1926 "src/machdepenv.ml" 65 1908 1950
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 66 1952 1971 "src/machdepenv.ml" 66 1952 1981
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getAlignof "src/machdepenv.ml" 43 1224 1228 "src/machdepenv.ml" 43 1224 1238
+)
+"src/machdepenv.ml" 66 1952 1982 "src/machdepenv.ml" 66 1952 1989
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 66 1952 1990 "src/machdepenv.ml" 66 1952 1996
+type(
+  string
+)
+"src/machdepenv.ml" 66 1952 1971 "src/machdepenv.ml" 66 1952 1996
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 67 1998 2020 "src/machdepenv.ml" 67 1998 2029
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getSizeof "src/machdepenv.ml" 42 1196 1200 "src/machdepenv.ml" 42 1196 1209
+)
+"src/machdepenv.ml" 67 1998 2030 "src/machdepenv.ml" 67 1998 2037
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 67 1998 2038 "src/machdepenv.ml" 67 1998 2049
+type(
+  string
+)
+"src/machdepenv.ml" 67 1998 2020 "src/machdepenv.ml" 67 1998 2049
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 68 2051 2074 "src/machdepenv.ml" 68 2051 2084
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getAlignof "src/machdepenv.ml" 43 1224 1228 "src/machdepenv.ml" 43 1224 1238
+)
+"src/machdepenv.ml" 68 2051 2085 "src/machdepenv.ml" 68 2051 2092
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 68 2051 2093 "src/machdepenv.ml" 68 2051 2104
+type(
+  string
+)
+"src/machdepenv.ml" 68 2051 2074 "src/machdepenv.ml" 68 2051 2104
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 69 2106 2123 "src/machdepenv.ml" 69 2106 2132
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getSizeof "src/machdepenv.ml" 42 1196 1200 "src/machdepenv.ml" 42 1196 1209
+)
+"src/machdepenv.ml" 69 2106 2133 "src/machdepenv.ml" 69 2106 2140
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 69 2106 2141 "src/machdepenv.ml" 69 2106 2150
+type(
+  string
+)
+"src/machdepenv.ml" 69 2106 2123 "src/machdepenv.ml" 69 2106 2150
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 70 2152 2170 "src/machdepenv.ml" 70 2152 2180
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getAlignof "src/machdepenv.ml" 43 1224 1228 "src/machdepenv.ml" 43 1224 1238
+)
+"src/machdepenv.ml" 70 2152 2181 "src/machdepenv.ml" 70 2152 2188
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 70 2152 2189 "src/machdepenv.ml" 70 2152 2198
+type(
+  string
+)
+"src/machdepenv.ml" 70 2152 2170 "src/machdepenv.ml" 70 2152 2198
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 71 2200 2219 "src/machdepenv.ml" 71 2200 2225
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getInt "src/machdepenv.ml" 41 1171 1175 "src/machdepenv.ml" 41 1171 1181
+)
+"src/machdepenv.ml" 71 2200 2226 "src/machdepenv.ml" 71 2200 2233
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 71 2200 2234 "src/machdepenv.ml" 71 2200 2248
+type(
+  string
+)
+"src/machdepenv.ml" 71 2200 2219 "src/machdepenv.ml" 71 2200 2248
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 72 2250 2269 "src/machdepenv.ml" 72 2250 2278
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getSizeof "src/machdepenv.ml" 42 1196 1200 "src/machdepenv.ml" 42 1196 1209
+)
+"src/machdepenv.ml" 72 2250 2279 "src/machdepenv.ml" 72 2250 2286
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 72 2250 2287 "src/machdepenv.ml" 72 2250 2294
+type(
+  string
+)
+"src/machdepenv.ml" 72 2250 2269 "src/machdepenv.ml" 72 2250 2294
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 73 2296 2316 "src/machdepenv.ml" 73 2296 2326
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getAlignof "src/machdepenv.ml" 43 1224 1228 "src/machdepenv.ml" 43 1224 1238
+)
+"src/machdepenv.ml" 73 2296 2327 "src/machdepenv.ml" 73 2296 2334
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 73 2296 2335 "src/machdepenv.ml" 73 2296 2342
+type(
+  string
+)
+"src/machdepenv.ml" 73 2296 2316 "src/machdepenv.ml" 73 2296 2342
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 74 2344 2364 "src/machdepenv.ml" 74 2344 2373
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getSizeof "src/machdepenv.ml" 42 1196 1200 "src/machdepenv.ml" 42 1196 1209
+)
+"src/machdepenv.ml" 74 2344 2374 "src/machdepenv.ml" 74 2344 2381
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 74 2344 2382 "src/machdepenv.ml" 74 2344 2390
+type(
+  string
+)
+"src/machdepenv.ml" 74 2344 2364 "src/machdepenv.ml" 74 2344 2390
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 75 2392 2413 "src/machdepenv.ml" 75 2392 2423
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getAlignof "src/machdepenv.ml" 43 1224 1228 "src/machdepenv.ml" 43 1224 1238
+)
+"src/machdepenv.ml" 75 2392 2424 "src/machdepenv.ml" 75 2392 2431
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 75 2392 2432 "src/machdepenv.ml" 75 2392 2440
+type(
+  string
+)
+"src/machdepenv.ml" 75 2392 2413 "src/machdepenv.ml" 75 2392 2440
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 76 2442 2466 "src/machdepenv.ml" 76 2442 2475
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getSizeof "src/machdepenv.ml" 42 1196 1200 "src/machdepenv.ml" 42 1196 1209
+)
+"src/machdepenv.ml" 76 2442 2476 "src/machdepenv.ml" 76 2442 2483
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 76 2442 2484 "src/machdepenv.ml" 76 2442 2497
+type(
+  string
+)
+"src/machdepenv.ml" 76 2442 2466 "src/machdepenv.ml" 76 2442 2497
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 77 2499 2524 "src/machdepenv.ml" 77 2499 2534
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getAlignof "src/machdepenv.ml" 43 1224 1228 "src/machdepenv.ml" 43 1224 1238
+)
+"src/machdepenv.ml" 77 2499 2535 "src/machdepenv.ml" 77 2499 2542
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 77 2499 2543 "src/machdepenv.ml" 77 2499 2556
+type(
+  string
+)
+"src/machdepenv.ml" 77 2499 2524 "src/machdepenv.ml" 77 2499 2556
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 78 2558 2576 "src/machdepenv.ml" 78 2558 2585
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getSizeof "src/machdepenv.ml" 42 1196 1200 "src/machdepenv.ml" 42 1196 1209
+)
+"src/machdepenv.ml" 78 2558 2586 "src/machdepenv.ml" 78 2558 2593
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 78 2558 2594 "src/machdepenv.ml" 78 2558 2600
+type(
+  string
+)
+"src/machdepenv.ml" 78 2558 2576 "src/machdepenv.ml" 78 2558 2600
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 79 2602 2619 "src/machdepenv.ml" 79 2602 2628
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getSizeof "src/machdepenv.ml" 42 1196 1200 "src/machdepenv.ml" 42 1196 1209
+)
+"src/machdepenv.ml" 79 2602 2629 "src/machdepenv.ml" 79 2602 2636
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 79 2602 2637 "src/machdepenv.ml" 79 2602 2642
+type(
+  string
+)
+"src/machdepenv.ml" 79 2602 2619 "src/machdepenv.ml" 79 2602 2642
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 80 2644 2662 "src/machdepenv.ml" 80 2644 2672
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getAlignof "src/machdepenv.ml" 43 1224 1228 "src/machdepenv.ml" 43 1224 1238
+)
+"src/machdepenv.ml" 80 2644 2673 "src/machdepenv.ml" 80 2644 2680
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 80 2644 2681 "src/machdepenv.ml" 80 2644 2686
+type(
+  string
+)
+"src/machdepenv.ml" 80 2644 2662 "src/machdepenv.ml" 80 2644 2686
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 81 2688 2706 "src/machdepenv.ml" 81 2688 2712
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getInt "src/machdepenv.ml" 41 1171 1175 "src/machdepenv.ml" 41 1171 1181
+)
+"src/machdepenv.ml" 81 2688 2713 "src/machdepenv.ml" 81 2688 2720
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 81 2688 2721 "src/machdepenv.ml" 81 2688 2737
+type(
+  string
+)
+"src/machdepenv.ml" 81 2688 2706 "src/machdepenv.ml" 81 2688 2737
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 82 2739 2761 "src/machdepenv.ml" 82 2739 2767
+type(
+  (string, string list) H.t -> string -> int
+)
+ident(
+  int_ref getInt "src/machdepenv.ml" 41 1171 1175 "src/machdepenv.ml" 41 1171 1181
+)
+"src/machdepenv.ml" 82 2739 2768 "src/machdepenv.ml" 82 2739 2775
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 82 2739 2776 "src/machdepenv.ml" 82 2739 2791
+type(
+  string
+)
+"src/machdepenv.ml" 82 2739 2761 "src/machdepenv.ml" 82 2739 2791
+call(
+  stack
+)
+type(
+  int
+)
+"src/machdepenv.ml" 83 2793 2806 "src/machdepenv.ml" 83 2793 2813
+type(
+  string -> string
+)
+ident(
+  int_ref respace "src/machdepenv.ml" 45 1254 1258 "src/machdepenv.ml" 45 1254 1265
+)
+"src/machdepenv.ml" 83 2793 2815 "src/machdepenv.ml" 83 2793 2827
+type(
+  int -> (string, string list) H.t -> string -> string
+)
+ident(
+  int_ref getNthString "src/machdepenv.ml" 30 834 838 "src/machdepenv.ml" 30 834 850
+)
+"src/machdepenv.ml" 83 2793 2828 "src/machdepenv.ml" 83 2793 2829
+type(
+  int
+)
+"src/machdepenv.ml" 83 2793 2830 "src/machdepenv.ml" 83 2793 2837
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 83 2793 2838 "src/machdepenv.ml" 83 2793 2846
+type(
+  string
+)
+"src/machdepenv.ml" 83 2793 2814 "src/machdepenv.ml" 83 2793 2847
+call(
+  stack
+)
+type(
+  string
+)
+"src/machdepenv.ml" 83 2793 2806 "src/machdepenv.ml" 83 2793 2847
+call(
+  stack
+)
+type(
+  string
+)
+"src/machdepenv.ml" 84 2849 2863 "src/machdepenv.ml" 84 2849 2870
+type(
+  string -> string
+)
+ident(
+  int_ref respace "src/machdepenv.ml" 45 1254 1258 "src/machdepenv.ml" 45 1254 1265
+)
+"src/machdepenv.ml" 84 2849 2872 "src/machdepenv.ml" 84 2849 2884
+type(
+  int -> (string, string list) H.t -> string -> string
+)
+ident(
+  int_ref getNthString "src/machdepenv.ml" 30 834 838 "src/machdepenv.ml" 30 834 850
+)
+"src/machdepenv.ml" 84 2849 2885 "src/machdepenv.ml" 84 2849 2886
+type(
+  int
+)
+"src/machdepenv.ml" 84 2849 2887 "src/machdepenv.ml" 84 2849 2894
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 84 2849 2895 "src/machdepenv.ml" 84 2849 2904
+type(
+  string
+)
+"src/machdepenv.ml" 84 2849 2871 "src/machdepenv.ml" 84 2849 2905
+call(
+  stack
+)
+type(
+  string
+)
+"src/machdepenv.ml" 84 2849 2863 "src/machdepenv.ml" 84 2849 2905
+call(
+  stack
+)
+type(
+  string
+)
+"src/machdepenv.ml" 85 2907 2930 "src/machdepenv.ml" 85 2907 2933
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/machdepenv.ml" 85 2907 2935 "src/machdepenv.ml" 85 2907 2942
+type(
+  (string, string list) H.t -> string -> bool
+)
+ident(
+  int_ref getBool "src/machdepenv.ml" 40 1144 1148 "src/machdepenv.ml" 40 1144 1155
+)
+"src/machdepenv.ml" 85 2907 2943 "src/machdepenv.ml" 85 2907 2950
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 85 2907 2951 "src/machdepenv.ml" 85 2907 2964
+type(
+  string
+)
+"src/machdepenv.ml" 85 2907 2934 "src/machdepenv.ml" 85 2907 2965
+call(
+  stack
+)
+type(
+  bool
+)
+"src/machdepenv.ml" 85 2907 2930 "src/machdepenv.ml" 85 2907 2965
+type(
+  bool
+)
+"src/machdepenv.ml" 86 2967 2995 "src/machdepenv.ml" 86 2967 3002
+type(
+  (string, string list) H.t -> string -> bool
+)
+ident(
+  int_ref getBool "src/machdepenv.ml" 40 1144 1148 "src/machdepenv.ml" 40 1144 1155
+)
+"src/machdepenv.ml" 86 2967 3003 "src/machdepenv.ml" 86 2967 3010
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 86 2967 3011 "src/machdepenv.ml" 86 2967 3034
+type(
+  string
+)
+"src/machdepenv.ml" 86 2967 2995 "src/machdepenv.ml" 86 2967 3034
+call(
+  stack
+)
+type(
+  bool
+)
+"src/machdepenv.ml" 87 3036 3056 "src/machdepenv.ml" 87 3036 3059
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/machdepenv.ml" 87 3036 3061 "src/machdepenv.ml" 87 3036 3068
+type(
+  (string, string list) H.t -> string -> bool
+)
+ident(
+  int_ref getBool "src/machdepenv.ml" 40 1144 1148 "src/machdepenv.ml" 40 1144 1155
+)
+"src/machdepenv.ml" 87 3036 3069 "src/machdepenv.ml" 87 3036 3076
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 87 3036 3077 "src/machdepenv.ml" 87 3036 3089
+type(
+  string
+)
+"src/machdepenv.ml" 87 3036 3060 "src/machdepenv.ml" 87 3036 3090
+call(
+  stack
+)
+type(
+  bool
+)
+"src/machdepenv.ml" 87 3036 3056 "src/machdepenv.ml" 87 3036 3090
+type(
+  bool
+)
+"src/machdepenv.ml" 88 3092 3118 "src/machdepenv.ml" 88 3092 3125
+type(
+  (string, string list) H.t -> string -> bool
+)
+ident(
+  int_ref getBool "src/machdepenv.ml" 40 1144 1148 "src/machdepenv.ml" 40 1144 1155
+)
+"src/machdepenv.ml" 88 3092 3126 "src/machdepenv.ml" 88 3092 3133
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 88 3092 3134 "src/machdepenv.ml" 88 3092 3155
+type(
+  string
+)
+"src/machdepenv.ml" 88 3092 3118 "src/machdepenv.ml" 88 3092 3155
+call(
+  stack
+)
+type(
+  bool
+)
+"src/machdepenv.ml" 89 3157 3181 "src/machdepenv.ml" 89 3157 3188
+type(
+  (string, string list) H.t -> string -> bool
+)
+ident(
+  int_ref getBool "src/machdepenv.ml" 40 1144 1148 "src/machdepenv.ml" 40 1144 1155
+)
+"src/machdepenv.ml" 89 3157 3189 "src/machdepenv.ml" 89 3157 3196
+type(
+  (string, string list) H.t
+)
+ident(
+  int_ref entries "src/machdepenv.ml" 48 1345 1351 "src/machdepenv.ml" 48 1345 1358
+)
+"src/machdepenv.ml" 89 3157 3197 "src/machdepenv.ml" 89 3157 3216
+type(
+  string
+)
+"src/machdepenv.ml" 89 3157 3181 "src/machdepenv.ml" 89 3157 3216
+call(
+  stack
+)
+type(
+  bool
+)
+"src/machdepenv.ml" 54 1495 1497 "src/machdepenv.ml" 90 3218 3221
+type(
+  Machdep.mach
+)
+"src/machdepenv.ml" 48 1345 1347 "src/machdepenv.ml" 90 3218 3221
+type(
+  Machdep.mach
+)
+type(
+  Machdep.mach
+)

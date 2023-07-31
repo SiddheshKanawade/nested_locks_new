@@ -1,0 +1,44 @@
+"src/cilversion.ml" 3 73 77 "src/cilversion.ml" 3 73 92
+type(
+  int
+)
+ident(
+  def cilVersionMajor "src/cilversion.ml" 4 97 97 "src/cilversion.ml" 1 0 -1
+)
+"src/cilversion.ml" 3 73 95 "src/cilversion.ml" 3 73 96
+type(
+  int
+)
+"src/cilversion.ml" 4 97 101 "src/cilversion.ml" 4 97 116
+type(
+  int
+)
+ident(
+  def cilVersionMinor "src/cilversion.ml" 5 121 121 "src/cilversion.ml" 1 0 -1
+)
+"src/cilversion.ml" 4 97 119 "src/cilversion.ml" 4 97 120
+type(
+  int
+)
+"src/cilversion.ml" 5 121 125 "src/cilversion.ml" 5 121 138
+type(
+  int
+)
+ident(
+  def cilVersionRev "src/cilversion.ml" 6 145 145 "src/cilversion.ml" 1 0 -1
+)
+"src/cilversion.ml" 5 121 143 "src/cilversion.ml" 5 121 144
+type(
+  int
+)
+"src/cilversion.ml" 6 145 149 "src/cilversion.ml" 6 145 159
+type(
+  string
+)
+ident(
+  def cilVersion "src/cilversion.ml" 6 145 174 "src/cilversion.ml" 1 0 -1
+)
+"src/cilversion.ml" 6 145 167 "src/cilversion.ml" 6 145 174
+type(
+  string
+)

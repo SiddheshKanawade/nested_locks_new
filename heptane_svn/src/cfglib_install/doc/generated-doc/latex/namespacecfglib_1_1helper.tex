@@ -1,0 +1,93 @@
+\hypertarget{namespacecfglib_1_1helper}{}\doxysection{cfglib\+::helper Namespace Reference}
+\label{namespacecfglib_1_1helper}\index{cfglib::helper@{cfglib::helper}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class K , class T $>$ }\\std\+::vector$<$ T $>$ \mbox{\hyperlink{namespacecfglib_1_1helper_a19a9a96e2983d6757fce8c6843f37b89}{get\+\_\+values\+\_\+of\+\_\+map}} (std\+::map$<$ K, T $>$ mymap)
+\item 
+{\footnotesize template$<$typename K , typename T $>$ }\\std\+::vector$<$ K $>$ \mbox{\hyperlink{namespacecfglib_1_1helper_aa5d61c32fe5ae5e7595953d8a9f6084b}{get\+\_\+keys\+\_\+of\+\_\+map}} (std\+::map$<$ K, T $>$ mymap)
+\item 
+std\+::string \mbox{\hyperlink{namespacecfglib_1_1helper_ae880d04f2f8ac3fecbda16531db992b5}{int\+\_\+to\+\_\+string}} (int const \&i)
+\item 
+void \mbox{\hyperlink{namespacecfglib_1_1helper_a881befb2313de589fc1f352316fa139f}{substitute\+\_\+all\+\_\+substrings}} (std\+::string \&cp, std\+::string const \&for\+\_\+this, std\+::string const \&sub\+\_\+this)
+\item 
+std\+::string \mbox{\hyperlink{namespacecfglib_1_1helper_aba2387b203342db23a47897b59779631}{escape\+\_\+xml}} (std\+::string const \&str)
+\item 
+std\+::string \mbox{\hyperlink{namespacecfglib_1_1helper_a4bde730048efc8d68682f368b010f18d}{unescape\+\_\+xml}} (std\+::string const \&str)
+\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{namespacecfglib_1_1helper_aa9f3622699838e68e86d7539f6d23fb4}{split\+\_\+string}} (std\+::string const \&input, std\+::string const \&delimiter, bool empty\+\_\+fields=false)
+\item 
+std\+::string \mbox{\hyperlink{namespacecfglib_1_1helper_a7cf8c4c7057fb03857f0f9844ffcca62}{get\+Base\+Name}} (std\+::string file)
+\item 
+std\+::string \mbox{\hyperlink{namespacecfglib_1_1helper_ab650f4d56d31c95fb20f656b620fecae}{get\+Dir\+Name}} (std\+::string file)
+\item 
+std\+::string \mbox{\hyperlink{namespacecfglib_1_1helper_a6fa2db3729eb85015591dea07b7f0b69}{extract\+Base}} (std\+::string file)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+functions in this namespace are reserved for internal use only 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacecfglib_1_1helper_aba2387b203342db23a47897b59779631}\label{namespacecfglib_1_1helper_aba2387b203342db23a47897b59779631}} 
+\index{cfglib::helper@{cfglib::helper}!escape\_xml@{escape\_xml}}
+\index{escape\_xml@{escape\_xml}!cfglib::helper@{cfglib::helper}}
+\doxysubsubsection{\texorpdfstring{escape\_xml()}{escape\_xml()}}
+{\footnotesize\ttfamily std\+::string cfglib\+::helper\+::escape\+\_\+xml (\begin{DoxyParamCaption}\item[{std\+::string const \&}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{namespacecfglib_1_1helper_a6fa2db3729eb85015591dea07b7f0b69}\label{namespacecfglib_1_1helper_a6fa2db3729eb85015591dea07b7f0b69}} 
+\index{cfglib::helper@{cfglib::helper}!extractBase@{extractBase}}
+\index{extractBase@{extractBase}!cfglib::helper@{cfglib::helper}}
+\doxysubsubsection{\texorpdfstring{extractBase()}{extractBase()}}
+{\footnotesize\ttfamily std\+::string cfglib\+::helper\+::extract\+Base (\begin{DoxyParamCaption}\item[{std\+::string}]{file }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Remove the suffix of a file name ex\+: extract\+Base(\char`\"{}/tmp/toto/x.\+c\char`\"{}) -\/\texorpdfstring{$>$}{>} \char`\"{}/tmp/toto/x\char`\"{} ex\+: extract\+Base(\char`\"{}x.\+c\char`\"{}) -\/\texorpdfstring{$>$}{>} \char`\"{}x\char`\"{} \mbox{\Hypertarget{namespacecfglib_1_1helper_aa5d61c32fe5ae5e7595953d8a9f6084b}\label{namespacecfglib_1_1helper_aa5d61c32fe5ae5e7595953d8a9f6084b}} 
+\index{cfglib::helper@{cfglib::helper}!get\_keys\_of\_map@{get\_keys\_of\_map}}
+\index{get\_keys\_of\_map@{get\_keys\_of\_map}!cfglib::helper@{cfglib::helper}}
+\doxysubsubsection{\texorpdfstring{get\_keys\_of\_map()}{get\_keys\_of\_map()}}
+{\footnotesize\ttfamily template$<$typename K , typename T $>$ \\
+std\+::vector$<$ K $>$ cfglib\+::helper\+::get\+\_\+keys\+\_\+of\+\_\+map (\begin{DoxyParamCaption}\item[{std\+::map$<$ K, T $>$}]{mymap }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{namespacecfglib_1_1helper_a19a9a96e2983d6757fce8c6843f37b89}\label{namespacecfglib_1_1helper_a19a9a96e2983d6757fce8c6843f37b89}} 
+\index{cfglib::helper@{cfglib::helper}!get\_values\_of\_map@{get\_values\_of\_map}}
+\index{get\_values\_of\_map@{get\_values\_of\_map}!cfglib::helper@{cfglib::helper}}
+\doxysubsubsection{\texorpdfstring{get\_values\_of\_map()}{get\_values\_of\_map()}}
+{\footnotesize\ttfamily template$<$class K , class T $>$ \\
+std\+::vector$<$ T $>$ cfglib\+::helper\+::get\+\_\+values\+\_\+of\+\_\+map (\begin{DoxyParamCaption}\item[{std\+::map$<$ K, T $>$}]{mymap }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{namespacecfglib_1_1helper_a7cf8c4c7057fb03857f0f9844ffcca62}\label{namespacecfglib_1_1helper_a7cf8c4c7057fb03857f0f9844ffcca62}} 
+\index{cfglib::helper@{cfglib::helper}!getBaseName@{getBaseName}}
+\index{getBaseName@{getBaseName}!cfglib::helper@{cfglib::helper}}
+\doxysubsubsection{\texorpdfstring{getBaseName()}{getBaseName()}}
+{\footnotesize\ttfamily std\+::string cfglib\+::helper\+::get\+Base\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{file }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get the base name of a file, including suffix (if any) ex\+: get\+Base\+Name(\char`\"{}/tmp/toto/x.\+c\char`\"{}) -\/\texorpdfstring{$>$}{>} \char`\"{}x.\+c\char`\"{} ex\+: get\+Base\+Name(\char`\"{}x.\+c\char`\"{}) -\/\texorpdfstring{$>$}{>} \char`\"{}x.\+c\char`\"{} \mbox{\Hypertarget{namespacecfglib_1_1helper_ab650f4d56d31c95fb20f656b620fecae}\label{namespacecfglib_1_1helper_ab650f4d56d31c95fb20f656b620fecae}} 
+\index{cfglib::helper@{cfglib::helper}!getDirName@{getDirName}}
+\index{getDirName@{getDirName}!cfglib::helper@{cfglib::helper}}
+\doxysubsubsection{\texorpdfstring{getDirName()}{getDirName()}}
+{\footnotesize\ttfamily std\+::string cfglib\+::helper\+::get\+Dir\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{file }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Get the directory where a file is stored ex\+: get\+Dir\+Name(\char`\"{}/tmp/toto/x.\+c\char`\"{}) -\/\texorpdfstring{$>$}{>} \char`\"{}/tmp/toto/\char`\"{} ex\+: get\+Dir\+Name(\char`\"{}x.\+c\char`\"{}) -\/\texorpdfstring{$>$}{>} \char`\"{}\char`\"{} \mbox{\Hypertarget{namespacecfglib_1_1helper_ae880d04f2f8ac3fecbda16531db992b5}\label{namespacecfglib_1_1helper_ae880d04f2f8ac3fecbda16531db992b5}} 
+\index{cfglib::helper@{cfglib::helper}!int\_to\_string@{int\_to\_string}}
+\index{int\_to\_string@{int\_to\_string}!cfglib::helper@{cfglib::helper}}
+\doxysubsubsection{\texorpdfstring{int\_to\_string()}{int\_to\_string()}}
+{\footnotesize\ttfamily std\+::string cfglib\+::helper\+::int\+\_\+to\+\_\+string (\begin{DoxyParamCaption}\item[{int const \&}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{namespacecfglib_1_1helper_aa9f3622699838e68e86d7539f6d23fb4}\label{namespacecfglib_1_1helper_aa9f3622699838e68e86d7539f6d23fb4}} 
+\index{cfglib::helper@{cfglib::helper}!split\_string@{split\_string}}
+\index{split\_string@{split\_string}!cfglib::helper@{cfglib::helper}}
+\doxysubsubsection{\texorpdfstring{split\_string()}{split\_string()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ cfglib\+::helper\+::split\+\_\+string (\begin{DoxyParamCaption}\item[{std\+::string const \&}]{input,  }\item[{std\+::string const \&}]{delimiter,  }\item[{bool}]{empty\+\_\+fields = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{namespacecfglib_1_1helper_a881befb2313de589fc1f352316fa139f}\label{namespacecfglib_1_1helper_a881befb2313de589fc1f352316fa139f}} 
+\index{cfglib::helper@{cfglib::helper}!substitute\_all\_substrings@{substitute\_all\_substrings}}
+\index{substitute\_all\_substrings@{substitute\_all\_substrings}!cfglib::helper@{cfglib::helper}}
+\doxysubsubsection{\texorpdfstring{substitute\_all\_substrings()}{substitute\_all\_substrings()}}
+{\footnotesize\ttfamily void cfglib\+::helper\+::substitute\+\_\+all\+\_\+substrings (\begin{DoxyParamCaption}\item[{std\+::string \&}]{cp,  }\item[{std\+::string const \&}]{for\+\_\+this,  }\item[{std\+::string const \&}]{sub\+\_\+this }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{namespacecfglib_1_1helper_a4bde730048efc8d68682f368b010f18d}\label{namespacecfglib_1_1helper_a4bde730048efc8d68682f368b010f18d}} 
+\index{cfglib::helper@{cfglib::helper}!unescape\_xml@{unescape\_xml}}
+\index{unescape\_xml@{unescape\_xml}!cfglib::helper@{cfglib::helper}}
+\doxysubsubsection{\texorpdfstring{unescape\_xml()}{unescape\_xml()}}
+{\footnotesize\ttfamily std\+::string cfglib\+::helper\+::unescape\+\_\+xml (\begin{DoxyParamCaption}\item[{std\+::string const \&}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+

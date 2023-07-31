@@ -1,0 +1,106 @@
+\hypertarget{classcfglib_1_1Edge}{}\doxysection{cfglib\+::Edge Class Reference}
+\label{classcfglib_1_1Edge}\index{cfglib::Edge@{cfglib::Edge}}
+
+
+{\ttfamily \#include $<$Edge.\+h$>$}
+
+Inheritance diagram for cfglib\+::Edge\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classcfglib_1_1Edge}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcfglib_1_1Node}{Node}} $\ast$ \mbox{\hyperlink{classcfglib_1_1Edge_a26b8f7e11e4a2ffe3719ddd18b0f9be3}{Get\+Source}} ()
+\item 
+\mbox{\hyperlink{classcfglib_1_1Node}{Node}} $\ast$ \mbox{\hyperlink{classcfglib_1_1Edge_aed3949d333cd882c2b37ac7f9de59791}{Get\+Target}} ()
+\item 
+\mbox{\hyperlink{classcfglib_1_1Edge}{Edge}} $\ast$ \mbox{\hyperlink{classcfglib_1_1Edge_aa657b3d4e9428dc3680b48c054d9b0eb}{Clone}} (\mbox{\hyperlink{classcfglib_1_1CloneHandle}{Clone\+Handle}} \&)
+\item 
+\mbox{\hyperlink{classcfglib_1_1Cfg}{Cfg}} $\ast$ \mbox{\hyperlink{classcfglib_1_1Edge_a08fce8f5c7972faf0c93d87c3824c249}{Get\+Cfg}} ()
+\item 
+virtual std\+::ostream \& \mbox{\hyperlink{classcfglib_1_1Edge_aeec58ebf47c8642c2a665fb5b1c9e3ed}{Write\+Xml}} (std\+::ostream \&os, \mbox{\hyperlink{classcfglib_1_1Handle}{Handle}} \&hand)
+\item 
+virtual void \mbox{\hyperlink{classcfglib_1_1Edge_af7eb95612c30e993771c519a2240cd77}{Read\+Xml}} (\mbox{\hyperlink{classXmlTag}{Xml\+Tag}} const $\ast$tag, \mbox{\hyperlink{classcfglib_1_1Handle}{Handle}} \&handle)
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classcfglib_1_1Edge_aad28e913031e836a51d46ca3a1a3b68b}{Cfg}}
+\item 
+class \mbox{\hyperlink{classcfglib_1_1Edge_a6f7095d721dd1dbd490d97c028eb676f}{Loop}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents an \mbox{\hyperlink{classcfglib_1_1Edge}{Edge}}. TODO\+: I do not know if this class implements yet the {\ttfamily \mbox{\hyperlink{classcfglib_1_1Attributed}{Attributed}}} interface. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcfglib_1_1Edge_aa657b3d4e9428dc3680b48c054d9b0eb}\label{classcfglib_1_1Edge_aa657b3d4e9428dc3680b48c054d9b0eb}} 
+\index{cfglib::Edge@{cfglib::Edge}!Clone@{Clone}}
+\index{Clone@{Clone}!cfglib::Edge@{cfglib::Edge}}
+\doxysubsubsection{\texorpdfstring{Clone()}{Clone()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcfglib_1_1Edge}{Edge}} $\ast$ cfglib\+::\+Edge\+::\+Clone (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcfglib_1_1CloneHandle}{Clone\+Handle}} \&}]{ }\end{DoxyParamCaption})}
+
+cloning function \mbox{\Hypertarget{classcfglib_1_1Edge_a08fce8f5c7972faf0c93d87c3824c249}\label{classcfglib_1_1Edge_a08fce8f5c7972faf0c93d87c3824c249}} 
+\index{cfglib::Edge@{cfglib::Edge}!GetCfg@{GetCfg}}
+\index{GetCfg@{GetCfg}!cfglib::Edge@{cfglib::Edge}}
+\doxysubsubsection{\texorpdfstring{GetCfg()}{GetCfg()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcfglib_1_1Cfg}{Cfg}} $\ast$ cfglib\+::\+Edge\+::\+Get\+Cfg (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+give the cfg of this \mbox{\hyperlink{classcfglib_1_1Edge}{Edge}}. \mbox{\Hypertarget{classcfglib_1_1Edge_a26b8f7e11e4a2ffe3719ddd18b0f9be3}\label{classcfglib_1_1Edge_a26b8f7e11e4a2ffe3719ddd18b0f9be3}} 
+\index{cfglib::Edge@{cfglib::Edge}!GetSource@{GetSource}}
+\index{GetSource@{GetSource}!cfglib::Edge@{cfglib::Edge}}
+\doxysubsubsection{\texorpdfstring{GetSource()}{GetSource()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcfglib_1_1Node}{Node}} $\ast$ cfglib\+::\+Edge\+::\+Get\+Source (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+return a pointer on the origin \mbox{\hyperlink{classcfglib_1_1Node}{Node}} . Internal helper function used by \mbox{\hyperlink{classcfglib_1_1Cfg}{Cfg}}. \mbox{\Hypertarget{classcfglib_1_1Edge_aed3949d333cd882c2b37ac7f9de59791}\label{classcfglib_1_1Edge_aed3949d333cd882c2b37ac7f9de59791}} 
+\index{cfglib::Edge@{cfglib::Edge}!GetTarget@{GetTarget}}
+\index{GetTarget@{GetTarget}!cfglib::Edge@{cfglib::Edge}}
+\doxysubsubsection{\texorpdfstring{GetTarget()}{GetTarget()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcfglib_1_1Node}{Node}} $\ast$ cfglib\+::\+Edge\+::\+Get\+Target (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+return a pointer on the destination \mbox{\hyperlink{classcfglib_1_1Node}{Node}}. Internal helper function used by \mbox{\hyperlink{classcfglib_1_1Cfg}{Cfg}}. \mbox{\Hypertarget{classcfglib_1_1Edge_af7eb95612c30e993771c519a2240cd77}\label{classcfglib_1_1Edge_af7eb95612c30e993771c519a2240cd77}} 
+\index{cfglib::Edge@{cfglib::Edge}!ReadXml@{ReadXml}}
+\index{ReadXml@{ReadXml}!cfglib::Edge@{cfglib::Edge}}
+\doxysubsubsection{\texorpdfstring{ReadXml()}{ReadXml()}}
+{\footnotesize\ttfamily virtual void cfglib\+::\+Edge\+::\+Read\+Xml (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classXmlTag}{Xml\+Tag}} const $\ast$}]{tag,  }\item[{\mbox{\hyperlink{classcfglib_1_1Handle}{Handle}} \&}]{handle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Deserialisation function.
+
+The deserialisation is in two phase \+: first the creation of the object (in several ways depending on the object) and second call to O-\/\texorpdfstring{$>$}{>}\mbox{\hyperlink{classcfglib_1_1Edge_af7eb95612c30e993771c519a2240cd77}{Read\+Xml()}} which initialize the object with correct values. 
+
+Implements \mbox{\hyperlink{classcfglib_1_1Serialisable_a876d530446317872259356af9b016e13}{cfglib\+::\+Serialisable}}.
+
+\mbox{\Hypertarget{classcfglib_1_1Edge_aeec58ebf47c8642c2a665fb5b1c9e3ed}\label{classcfglib_1_1Edge_aeec58ebf47c8642c2a665fb5b1c9e3ed}} 
+\index{cfglib::Edge@{cfglib::Edge}!WriteXml@{WriteXml}}
+\index{WriteXml@{WriteXml}!cfglib::Edge@{cfglib::Edge}}
+\doxysubsubsection{\texorpdfstring{WriteXml()}{WriteXml()}}
+{\footnotesize\ttfamily virtual std\+::ostream \& cfglib\+::\+Edge\+::\+Write\+Xml (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{\mbox{\hyperlink{classcfglib_1_1Handle}{Handle}} \&}]{hand }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Serialisation function. 
+
+Implements \mbox{\hyperlink{classcfglib_1_1Serialisable_aa46c0daf93c3416320973ec4d3157421}{cfglib\+::\+Serialisable}}.
+
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classcfglib_1_1Edge_aad28e913031e836a51d46ca3a1a3b68b}\label{classcfglib_1_1Edge_aad28e913031e836a51d46ca3a1a3b68b}} 
+\index{cfglib::Edge@{cfglib::Edge}!Cfg@{Cfg}}
+\index{Cfg@{Cfg}!cfglib::Edge@{cfglib::Edge}}
+\doxysubsubsection{\texorpdfstring{Cfg}{Cfg}}
+{\footnotesize\ttfamily friend class \mbox{\hyperlink{classcfglib_1_1Cfg}{Cfg}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+\mbox{\Hypertarget{classcfglib_1_1Edge_a6f7095d721dd1dbd490d97c028eb676f}\label{classcfglib_1_1Edge_a6f7095d721dd1dbd490d97c028eb676f}} 
+\index{cfglib::Edge@{cfglib::Edge}!Loop@{Loop}}
+\index{Loop@{Loop}!cfglib::Edge@{cfglib::Edge}}
+\doxysubsubsection{\texorpdfstring{Loop}{Loop}}
+{\footnotesize\ttfamily friend class \mbox{\hyperlink{classcfglib_1_1Loop}{Loop}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{Edge_8h}{Edge.\+h}}\end{DoxyCompactItemize}

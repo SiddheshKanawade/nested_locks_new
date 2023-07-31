@@ -1,0 +1,2035 @@
+"src/frontc/cabshelper.ml" 4 12 16 "src/frontc/cabshelper.ml" 4 12 25
+type(
+  int ref
+)
+ident(
+  def nextident "src/frontc/cabshelper.ml" 5 34 34 "src/frontc/cabshelper.ml" 1 0 -1
+)
+"src/frontc/cabshelper.ml" 4 12 28 "src/frontc/cabshelper.ml" 4 12 31
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/frontc/cabshelper.ml" 4 12 32 "src/frontc/cabshelper.ml" 4 12 33
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 4 12 28 "src/frontc/cabshelper.ml" 4 12 33
+type(
+  int ref
+)
+"src/frontc/cabshelper.ml" 5 34 38 "src/frontc/cabshelper.ml" 5 34 46
+type(
+  unit -> int
+)
+ident(
+  def getident "src/frontc/cabshelper.ml" 9 101 101 "src/frontc/cabshelper.ml" 1 0 -1
+)
+"src/frontc/cabshelper.ml" 5 34 47 "src/frontc/cabshelper.ml" 5 34 49
+type(
+  unit
+)
+"src/frontc/cabshelper.ml" 6 52 56 "src/frontc/cabshelper.ml" 6 52 65
+type(
+  int ref
+)
+ident(
+  int_ref nextident "src/frontc/cabshelper.ml" 4 12 16 "src/frontc/cabshelper.ml" 4 12 25
+)
+"src/frontc/cabshelper.ml" 6 52 66 "src/frontc/cabshelper.ml" 6 52 68
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/frontc/cabshelper.ml" 6 52 69 "src/frontc/cabshelper.ml" 6 52 70
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/cabshelper.ml" 6 52 70 "src/frontc/cabshelper.ml" 6 52 79
+type(
+  int ref
+)
+ident(
+  int_ref nextident "src/frontc/cabshelper.ml" 4 12 16 "src/frontc/cabshelper.ml" 4 12 25
+)
+"src/frontc/cabshelper.ml" 6 52 69 "src/frontc/cabshelper.ml" 6 52 79
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 6 52 80 "src/frontc/cabshelper.ml" 6 52 81
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/frontc/cabshelper.ml" 6 52 82 "src/frontc/cabshelper.ml" 6 52 83
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 6 52 69 "src/frontc/cabshelper.ml" 6 52 83
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 6 52 56 "src/frontc/cabshelper.ml" 6 52 83
+type(
+  unit
+)
+"src/frontc/cabshelper.ml" 7 85 89 "src/frontc/cabshelper.ml" 7 85 90
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/frontc/cabshelper.ml" 7 85 90 "src/frontc/cabshelper.ml" 7 85 99
+type(
+  int ref
+)
+ident(
+  int_ref nextident "src/frontc/cabshelper.ml" 4 12 16 "src/frontc/cabshelper.ml" 4 12 25
+)
+"src/frontc/cabshelper.ml" 7 85 89 "src/frontc/cabshelper.ml" 7 85 99
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 6 52 56 "src/frontc/cabshelper.ml" 7 85 99
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 9 101 105 "src/frontc/cabshelper.ml" 9 101 115
+type(
+  unit -> Cabs.cabsloc
+)
+ident(
+  def currentLoc "src/frontc/cabshelper.ml" 16 251 251 "src/frontc/cabshelper.ml" 1 0 -1
+)
+"src/frontc/cabshelper.ml" 9 101 116 "src/frontc/cabshelper.ml" 9 101 118
+type(
+  unit
+)
+"src/frontc/cabshelper.ml" 10 122 128 "src/frontc/cabshelper.ml" 10 122 129
+type(
+  int
+)
+ident(
+  def l "src/frontc/cabshelper.ml" 11 165 167 "src/frontc/cabshelper.ml" 14 221 249
+)
+"src/frontc/cabshelper.ml" 10 122 131 "src/frontc/cabshelper.ml" 10 122 132
+type(
+  string
+)
+ident(
+  def f "src/frontc/cabshelper.ml" 11 165 167 "src/frontc/cabshelper.ml" 14 221 249
+)
+"src/frontc/cabshelper.ml" 10 122 134 "src/frontc/cabshelper.ml" 10 122 135
+type(
+  int
+)
+ident(
+  def c "src/frontc/cabshelper.ml" 11 165 167 "src/frontc/cabshelper.ml" 14 221 249
+)
+"src/frontc/cabshelper.ml" 10 122 128 "src/frontc/cabshelper.ml" 10 122 135
+type(
+  int * string * int
+)
+"src/frontc/cabshelper.ml" 10 122 138 "src/frontc/cabshelper.ml" 10 122 158
+type(
+  unit -> int * string * int
+)
+ident(
+  ext_ref Errormsg.getPosition
+)
+"src/frontc/cabshelper.ml" 10 122 159 "src/frontc/cabshelper.ml" 10 122 161
+type(
+  unit
+)
+"src/frontc/cabshelper.ml" 10 122 138 "src/frontc/cabshelper.ml" 10 122 161
+call(
+  stack
+)
+type(
+  int * string * int
+)
+"src/frontc/cabshelper.ml" 11 165 180 "src/frontc/cabshelper.ml" 11 165 181
+type(
+  int
+)
+ident(
+  int_ref l "src/frontc/cabshelper.ml" 10 122 128 "src/frontc/cabshelper.ml" 10 122 129
+)
+"src/frontc/cabshelper.ml" 12 184 199 "src/frontc/cabshelper.ml" 12 184 200
+type(
+  string
+)
+ident(
+  int_ref f "src/frontc/cabshelper.ml" 10 122 131 "src/frontc/cabshelper.ml" 10 122 132
+)
+"src/frontc/cabshelper.ml" 13 203 218 "src/frontc/cabshelper.ml" 13 203 219
+type(
+  int
+)
+ident(
+  int_ref c "src/frontc/cabshelper.ml" 10 122 134 "src/frontc/cabshelper.ml" 10 122 135
+)
+"src/frontc/cabshelper.ml" 14 221 236 "src/frontc/cabshelper.ml" 14 221 244
+type(
+  unit -> int
+)
+ident(
+  int_ref getident "src/frontc/cabshelper.ml" 5 34 38 "src/frontc/cabshelper.ml" 5 34 46
+)
+"src/frontc/cabshelper.ml" 14 221 245 "src/frontc/cabshelper.ml" 14 221 247
+type(
+  unit
+)
+"src/frontc/cabshelper.ml" 14 221 236 "src/frontc/cabshelper.ml" 14 221 247
+call(
+  stack
+)
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 11 165 167 "src/frontc/cabshelper.ml" 14 221 249
+type(
+  Cabs.cabsloc
+)
+"src/frontc/cabshelper.ml" 10 122 124 "src/frontc/cabshelper.ml" 14 221 249
+type(
+  Cabs.cabsloc
+)
+"src/frontc/cabshelper.ml" 16 251 255 "src/frontc/cabshelper.ml" 16 251 261
+type(
+  Cabs.cabsloc
+)
+ident(
+  def cabslu "src/frontc/cabshelper.ml" 22 398 398 "src/frontc/cabshelper.ml" 1 0 -1
+)
+"src/frontc/cabshelper.ml" 16 251 274 "src/frontc/cabshelper.ml" 16 251 277
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 17 280 298 "src/frontc/cabshelper.ml" 17 280 316
+type(
+  string
+)
+"src/frontc/cabshelper.ml" 18 319 335 "src/frontc/cabshelper.ml" 18 319 338
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 19 340 362 "src/frontc/cabshelper.ml" 19 340 363
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 16 251 264 "src/frontc/cabshelper.ml" 19 340 364
+type(
+  Cabs.cabsloc
+)
+"src/frontc/cabshelper.ml" 22 398 402 "src/frontc/cabshelper.ml" 22 398 412
+type(
+  (Cabs.cabsloc * string * bool) GrowArray.t
+)
+ident(
+  def commentsGA "src/frontc/cabshelper.ml" 27 513 513 "src/frontc/cabshelper.ml" 1 0 -1
+)
+"src/frontc/cabshelper.ml" 22 398 415 "src/frontc/cabshelper.ml" 22 398 429
+type(
+  int ->
+  (Cabs.cabsloc * string * bool) GrowArray.fill ->
+  (Cabs.cabsloc * string * bool) GrowArray.t
+)
+ident(
+  ext_ref GrowArray.make
+)
+"src/frontc/cabshelper.ml" 22 398 430 "src/frontc/cabshelper.ml" 22 398 433
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 22 398 450 "src/frontc/cabshelper.ml" 22 398 456
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref cabslu "src/frontc/cabshelper.ml" 16 251 255 "src/frontc/cabshelper.ml" 16 251 261
+)
+"src/frontc/cabshelper.ml" 22 398 457 "src/frontc/cabshelper.ml" 22 398 459
+type(
+  string
+)
+"src/frontc/cabshelper.ml" 22 398 460 "src/frontc/cabshelper.ml" 22 398 465
+type(
+  bool
+)
+"src/frontc/cabshelper.ml" 22 398 449 "src/frontc/cabshelper.ml" 22 398 466
+type(
+  Cabs.cabsloc * string * bool
+)
+"src/frontc/cabshelper.ml" 22 398 434 "src/frontc/cabshelper.ml" 22 398 467
+type(
+  (Cabs.cabsloc * string * bool) GrowArray.fill
+)
+"src/frontc/cabshelper.ml" 22 398 415 "src/frontc/cabshelper.ml" 22 398 467
+call(
+  stack
+)
+type(
+  (Cabs.cabsloc * string * bool) GrowArray.t
+)
+"src/frontc/cabshelper.ml" 27 513 517 "src/frontc/cabshelper.ml" 27 513 533
+type(
+  string * Cabs.decl_type * 'a list * Cabs.cabsloc
+)
+ident(
+  def missingFieldDecl "src/frontc/cabshelper.ml" 29 585 585 "src/frontc/cabshelper.ml" 1 0 -1
+)
+"src/frontc/cabshelper.ml" 27 513 537 "src/frontc/cabshelper.ml" 27 513 560
+type(
+  string
+)
+"src/frontc/cabshelper.ml" 27 513 562 "src/frontc/cabshelper.ml" 27 513 570
+type(
+  Cabs.decl_type
+)
+"src/frontc/cabshelper.ml" 27 513 572 "src/frontc/cabshelper.ml" 27 513 574
+type(
+  'a list
+)
+"src/frontc/cabshelper.ml" 27 513 576 "src/frontc/cabshelper.ml" 27 513 582
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref cabslu "src/frontc/cabshelper.ml" 16 251 255 "src/frontc/cabshelper.ml" 16 251 261
+)
+"src/frontc/cabshelper.ml" 27 513 536 "src/frontc/cabshelper.ml" 27 513 583
+type(
+  string * Cabs.decl_type * 'a list * Cabs.cabsloc
+)
+"src/frontc/cabshelper.ml" 29 585 593 "src/frontc/cabshelper.ml" 29 585 601
+type(
+  Cabs.spec_elem list -> bool
+)
+ident(
+  def isStatic "src/frontc/cabshelper.ml" 29 585 585 "src/frontc/cabshelper.ml" 1 0 -1
+)
+"src/frontc/cabshelper.ml" 30 613 617 "src/frontc/cabshelper.ml" 30 613 619
+type(
+  Cabs.spec_elem list
+)
+"src/frontc/cabshelper.ml" 30 613 623 "src/frontc/cabshelper.ml" 30 613 628
+type(
+  bool
+)
+"src/frontc/cabshelper.ml" 31 629 646 "src/frontc/cabshelper.ml" 31 629 652
+type(
+  Cabs.storage
+)
+"src/frontc/cabshelper.ml" 31 629 633 "src/frontc/cabshelper.ml" 31 629 653
+type(
+  Cabs.spec_elem
+)
+"src/frontc/cabshelper.ml" 31 629 657 "src/frontc/cabshelper.ml" 31 629 658
+type(
+  Cabs.spec_elem list
+)
+"src/frontc/cabshelper.ml" 31 629 633 "src/frontc/cabshelper.ml" 31 629 658
+type(
+  Cabs.spec_elem list
+)
+"src/frontc/cabshelper.ml" 31 629 662 "src/frontc/cabshelper.ml" 31 629 666
+type(
+  bool
+)
+"src/frontc/cabshelper.ml" 32 667 671 "src/frontc/cabshelper.ml" 32 667 672
+type(
+  Cabs.spec_elem
+)
+"src/frontc/cabshelper.ml" 32 667 676 "src/frontc/cabshelper.ml" 32 667 680
+type(
+  Cabs.spec_elem list
+)
+ident(
+  def rest "src/frontc/cabshelper.ml" 32 667 684 "src/frontc/cabshelper.ml" 32 667 697
+)
+"src/frontc/cabshelper.ml" 32 667 671 "src/frontc/cabshelper.ml" 32 667 680
+type(
+  Cabs.spec_elem list
+)
+"src/frontc/cabshelper.ml" 32 667 684 "src/frontc/cabshelper.ml" 32 667 692
+type(
+  Cabs.spec_elem list -> bool
+)
+ident(
+  int_ref isStatic "src/frontc/cabshelper.ml" 29 585 593 "src/frontc/cabshelper.ml" 29 585 601
+)
+"src/frontc/cabshelper.ml" 32 667 693 "src/frontc/cabshelper.ml" 32 667 697
+type(
+  Cabs.spec_elem list
+)
+ident(
+  int_ref rest "src/frontc/cabshelper.ml" 32 667 676 "src/frontc/cabshelper.ml" 32 667 680
+)
+"src/frontc/cabshelper.ml" 32 667 684 "src/frontc/cabshelper.ml" 32 667 697
+call(
+  tail
+)
+type(
+  bool
+)
+"src/frontc/cabshelper.ml" 29 585 604 "src/frontc/cabshelper.ml" 32 667 697
+type(
+  Cabs.spec_elem list -> bool
+)
+"src/frontc/cabshelper.ml" 34 699 707 "src/frontc/cabshelper.ml" 34 699 715
+type(
+  Cabs.spec_elem list -> bool
+)
+ident(
+  def isExtern "src/frontc/cabshelper.ml" 34 699 699 "src/frontc/cabshelper.ml" 1 0 -1
+)
+"src/frontc/cabshelper.ml" 35 727 731 "src/frontc/cabshelper.ml" 35 727 733
+type(
+  Cabs.spec_elem list
+)
+"src/frontc/cabshelper.ml" 35 727 737 "src/frontc/cabshelper.ml" 35 727 742
+type(
+  bool
+)
+"src/frontc/cabshelper.ml" 36 743 760 "src/frontc/cabshelper.ml" 36 743 766
+type(
+  Cabs.storage
+)
+"src/frontc/cabshelper.ml" 36 743 747 "src/frontc/cabshelper.ml" 36 743 767
+type(
+  Cabs.spec_elem
+)
+"src/frontc/cabshelper.ml" 36 743 771 "src/frontc/cabshelper.ml" 36 743 772
+type(
+  Cabs.spec_elem list
+)
+"src/frontc/cabshelper.ml" 36 743 747 "src/frontc/cabshelper.ml" 36 743 772
+type(
+  Cabs.spec_elem list
+)
+"src/frontc/cabshelper.ml" 36 743 776 "src/frontc/cabshelper.ml" 36 743 780
+type(
+  bool
+)
+"src/frontc/cabshelper.ml" 37 781 785 "src/frontc/cabshelper.ml" 37 781 786
+type(
+  Cabs.spec_elem
+)
+"src/frontc/cabshelper.ml" 37 781 790 "src/frontc/cabshelper.ml" 37 781 794
+type(
+  Cabs.spec_elem list
+)
+ident(
+  def rest "src/frontc/cabshelper.ml" 37 781 798 "src/frontc/cabshelper.ml" 37 781 811
+)
+"src/frontc/cabshelper.ml" 37 781 785 "src/frontc/cabshelper.ml" 37 781 794
+type(
+  Cabs.spec_elem list
+)
+"src/frontc/cabshelper.ml" 37 781 798 "src/frontc/cabshelper.ml" 37 781 806
+type(
+  Cabs.spec_elem list -> bool
+)
+ident(
+  int_ref isExtern "src/frontc/cabshelper.ml" 34 699 707 "src/frontc/cabshelper.ml" 34 699 715
+)
+"src/frontc/cabshelper.ml" 37 781 807 "src/frontc/cabshelper.ml" 37 781 811
+type(
+  Cabs.spec_elem list
+)
+ident(
+  int_ref rest "src/frontc/cabshelper.ml" 37 781 790 "src/frontc/cabshelper.ml" 37 781 794
+)
+"src/frontc/cabshelper.ml" 37 781 798 "src/frontc/cabshelper.ml" 37 781 811
+call(
+  tail
+)
+type(
+  bool
+)
+"src/frontc/cabshelper.ml" 34 699 718 "src/frontc/cabshelper.ml" 37 781 811
+type(
+  Cabs.spec_elem list -> bool
+)
+"src/frontc/cabshelper.ml" 39 813 821 "src/frontc/cabshelper.ml" 39 813 829
+type(
+  Cabs.spec_elem list -> bool
+)
+ident(
+  def isInline "src/frontc/cabshelper.ml" 39 813 813 "src/frontc/cabshelper.ml" 1 0 -1
+)
+"src/frontc/cabshelper.ml" 40 841 845 "src/frontc/cabshelper.ml" 40 841 847
+type(
+  Cabs.spec_elem list
+)
+"src/frontc/cabshelper.ml" 40 841 851 "src/frontc/cabshelper.ml" 40 841 856
+type(
+  bool
+)
+"src/frontc/cabshelper.ml" 41 857 861 "src/frontc/cabshelper.ml" 41 857 871
+type(
+  Cabs.spec_elem
+)
+"src/frontc/cabshelper.ml" 41 857 875 "src/frontc/cabshelper.ml" 41 857 876
+type(
+  Cabs.spec_elem list
+)
+"src/frontc/cabshelper.ml" 41 857 861 "src/frontc/cabshelper.ml" 41 857 876
+type(
+  Cabs.spec_elem list
+)
+"src/frontc/cabshelper.ml" 41 857 880 "src/frontc/cabshelper.ml" 41 857 884
+type(
+  bool
+)
+"src/frontc/cabshelper.ml" 42 885 889 "src/frontc/cabshelper.ml" 42 885 890
+type(
+  Cabs.spec_elem
+)
+"src/frontc/cabshelper.ml" 42 885 894 "src/frontc/cabshelper.ml" 42 885 898
+type(
+  Cabs.spec_elem list
+)
+ident(
+  def rest "src/frontc/cabshelper.ml" 42 885 902 "src/frontc/cabshelper.ml" 42 885 915
+)
+"src/frontc/cabshelper.ml" 42 885 889 "src/frontc/cabshelper.ml" 42 885 898
+type(
+  Cabs.spec_elem list
+)
+"src/frontc/cabshelper.ml" 42 885 902 "src/frontc/cabshelper.ml" 42 885 910
+type(
+  Cabs.spec_elem list -> bool
+)
+ident(
+  int_ref isInline "src/frontc/cabshelper.ml" 39 813 821 "src/frontc/cabshelper.ml" 39 813 829
+)
+"src/frontc/cabshelper.ml" 42 885 911 "src/frontc/cabshelper.ml" 42 885 915
+type(
+  Cabs.spec_elem list
+)
+ident(
+  int_ref rest "src/frontc/cabshelper.ml" 42 885 894 "src/frontc/cabshelper.ml" 42 885 898
+)
+"src/frontc/cabshelper.ml" 42 885 902 "src/frontc/cabshelper.ml" 42 885 915
+call(
+  tail
+)
+type(
+  bool
+)
+"src/frontc/cabshelper.ml" 39 813 832 "src/frontc/cabshelper.ml" 42 885 915
+type(
+  Cabs.spec_elem list -> bool
+)
+"src/frontc/cabshelper.ml" 44 917 925 "src/frontc/cabshelper.ml" 44 917 934
+type(
+  Cabs.spec_elem list -> bool
+)
+ident(
+  def isTypedef "src/frontc/cabshelper.ml" 44 917 917 "src/frontc/cabshelper.ml" 1 0 -1
+)
+"src/frontc/cabshelper.ml" 45 946 950 "src/frontc/cabshelper.ml" 45 946 952
+type(
+  Cabs.spec_elem list
+)
+"src/frontc/cabshelper.ml" 45 946 956 "src/frontc/cabshelper.ml" 45 946 961
+type(
+  bool
+)
+"src/frontc/cabshelper.ml" 46 962 966 "src/frontc/cabshelper.ml" 46 962 977
+type(
+  Cabs.spec_elem
+)
+"src/frontc/cabshelper.ml" 46 962 981 "src/frontc/cabshelper.ml" 46 962 982
+type(
+  Cabs.spec_elem list
+)
+"src/frontc/cabshelper.ml" 46 962 966 "src/frontc/cabshelper.ml" 46 962 982
+type(
+  Cabs.spec_elem list
+)
+"src/frontc/cabshelper.ml" 46 962 986 "src/frontc/cabshelper.ml" 46 962 990
+type(
+  bool
+)
+"src/frontc/cabshelper.ml" 47 991 995 "src/frontc/cabshelper.ml" 47 991 996
+type(
+  Cabs.spec_elem
+)
+"src/frontc/cabshelper.ml" 47 991 1000 "src/frontc/cabshelper.ml" 47 991 1004
+type(
+  Cabs.spec_elem list
+)
+ident(
+  def rest "src/frontc/cabshelper.ml" 47 991 1008 "src/frontc/cabshelper.ml" 47 991 1022
+)
+"src/frontc/cabshelper.ml" 47 991 995 "src/frontc/cabshelper.ml" 47 991 1004
+type(
+  Cabs.spec_elem list
+)
+"src/frontc/cabshelper.ml" 47 991 1008 "src/frontc/cabshelper.ml" 47 991 1017
+type(
+  Cabs.spec_elem list -> bool
+)
+ident(
+  int_ref isTypedef "src/frontc/cabshelper.ml" 44 917 925 "src/frontc/cabshelper.ml" 44 917 934
+)
+"src/frontc/cabshelper.ml" 47 991 1018 "src/frontc/cabshelper.ml" 47 991 1022
+type(
+  Cabs.spec_elem list
+)
+ident(
+  int_ref rest "src/frontc/cabshelper.ml" 47 991 1000 "src/frontc/cabshelper.ml" 47 991 1004
+)
+"src/frontc/cabshelper.ml" 47 991 1008 "src/frontc/cabshelper.ml" 47 991 1022
+call(
+  tail
+)
+type(
+  bool
+)
+"src/frontc/cabshelper.ml" 44 917 937 "src/frontc/cabshelper.ml" 47 991 1022
+type(
+  Cabs.spec_elem list -> bool
+)
+"src/frontc/cabshelper.ml" 50 1025 1029 "src/frontc/cabshelper.ml" 50 1025 1046
+type(
+  Cabs.definition -> Cabs.cabsloc
+)
+ident(
+  def get_definitionloc "src/frontc/cabshelper.ml" 62 1328 1328 "src/frontc/cabshelper.ml" 1 0 -1
+)
+"src/frontc/cabshelper.ml" 50 1025 1048 "src/frontc/cabshelper.ml" 50 1025 1049
+type(
+  Cabs.definition
+)
+ident(
+  def d "src/frontc/cabshelper.ml" 50 1025 1064 "src/frontc/cabshelper.ml" 60 1300 1326
+)
+"src/frontc/cabshelper.ml" 51 1076 1084 "src/frontc/cabshelper.ml" 51 1076 1085
+type(
+  Cabs.definition
+)
+ident(
+  int_ref d "src/frontc/cabshelper.ml" 50 1025 1048 "src/frontc/cabshelper.ml" 50 1025 1049
+)
+"src/frontc/cabshelper.ml" 52 1091 1102 "src/frontc/cabshelper.ml" 52 1091 1103
+type(
+  Cabs.single_name
+)
+"src/frontc/cabshelper.ml" 52 1091 1105 "src/frontc/cabshelper.ml" 52 1091 1106
+type(
+  Cabs.block
+)
+"src/frontc/cabshelper.ml" 52 1091 1108 "src/frontc/cabshelper.ml" 52 1091 1109
+type(
+  Cabs.cabsloc
+)
+ident(
+  def l "src/frontc/cabshelper.ml" 52 1091 1117 "src/frontc/cabshelper.ml" 52 1091 1118
+)
+"src/frontc/cabshelper.ml" 52 1091 1111 "src/frontc/cabshelper.ml" 52 1091 1112
+type(
+  Cabs.cabsloc
+)
+"src/frontc/cabshelper.ml" 52 1091 1095 "src/frontc/cabshelper.ml" 52 1091 1113
+type(
+  Cabs.definition
+)
+"src/frontc/cabshelper.ml" 52 1091 1117 "src/frontc/cabshelper.ml" 52 1091 1118
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref l "src/frontc/cabshelper.ml" 52 1091 1108 "src/frontc/cabshelper.ml" 52 1091 1109
+)
+"src/frontc/cabshelper.ml" 53 1119 1130 "src/frontc/cabshelper.ml" 53 1119 1131
+type(
+  Cabs.init_name_group
+)
+"src/frontc/cabshelper.ml" 53 1119 1133 "src/frontc/cabshelper.ml" 53 1119 1134
+type(
+  Cabs.cabsloc
+)
+ident(
+  def l "src/frontc/cabshelper.ml" 53 1119 1139 "src/frontc/cabshelper.ml" 53 1119 1140
+)
+"src/frontc/cabshelper.ml" 53 1119 1123 "src/frontc/cabshelper.ml" 53 1119 1135
+type(
+  Cabs.definition
+)
+"src/frontc/cabshelper.ml" 53 1119 1139 "src/frontc/cabshelper.ml" 53 1119 1140
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref l "src/frontc/cabshelper.ml" 53 1119 1133 "src/frontc/cabshelper.ml" 53 1119 1134
+)
+"src/frontc/cabshelper.ml" 54 1141 1153 "src/frontc/cabshelper.ml" 54 1141 1154
+type(
+  Cabs.name_group
+)
+"src/frontc/cabshelper.ml" 54 1141 1156 "src/frontc/cabshelper.ml" 54 1141 1157
+type(
+  Cabs.cabsloc
+)
+ident(
+  def l "src/frontc/cabshelper.ml" 54 1141 1162 "src/frontc/cabshelper.ml" 54 1141 1163
+)
+"src/frontc/cabshelper.ml" 54 1141 1145 "src/frontc/cabshelper.ml" 54 1141 1158
+type(
+  Cabs.definition
+)
+"src/frontc/cabshelper.ml" 54 1141 1162 "src/frontc/cabshelper.ml" 54 1141 1163
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref l "src/frontc/cabshelper.ml" 54 1141 1156 "src/frontc/cabshelper.ml" 54 1141 1157
+)
+"src/frontc/cabshelper.ml" 55 1164 1180 "src/frontc/cabshelper.ml" 55 1164 1181
+type(
+  Cabs.specifier
+)
+"src/frontc/cabshelper.ml" 55 1164 1183 "src/frontc/cabshelper.ml" 55 1164 1184
+type(
+  Cabs.cabsloc
+)
+ident(
+  def l "src/frontc/cabshelper.ml" 55 1164 1189 "src/frontc/cabshelper.ml" 55 1164 1190
+)
+"src/frontc/cabshelper.ml" 55 1164 1168 "src/frontc/cabshelper.ml" 55 1164 1185
+type(
+  Cabs.definition
+)
+"src/frontc/cabshelper.ml" 55 1164 1189 "src/frontc/cabshelper.ml" 55 1164 1190
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref l "src/frontc/cabshelper.ml" 55 1164 1183 "src/frontc/cabshelper.ml" 55 1164 1184
+)
+"src/frontc/cabshelper.ml" 56 1191 1203 "src/frontc/cabshelper.ml" 56 1191 1204
+type(
+  string
+)
+"src/frontc/cabshelper.ml" 56 1191 1206 "src/frontc/cabshelper.ml" 56 1191 1207
+type(
+  Cabs.cabsloc
+)
+ident(
+  def l "src/frontc/cabshelper.ml" 56 1191 1212 "src/frontc/cabshelper.ml" 56 1191 1213
+)
+"src/frontc/cabshelper.ml" 56 1191 1195 "src/frontc/cabshelper.ml" 56 1191 1208
+type(
+  Cabs.definition
+)
+"src/frontc/cabshelper.ml" 56 1191 1212 "src/frontc/cabshelper.ml" 56 1191 1213
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref l "src/frontc/cabshelper.ml" 56 1191 1206 "src/frontc/cabshelper.ml" 56 1191 1207
+)
+"src/frontc/cabshelper.ml" 57 1214 1225 "src/frontc/cabshelper.ml" 57 1214 1226
+type(
+  Cabs.expression
+)
+"src/frontc/cabshelper.ml" 57 1214 1228 "src/frontc/cabshelper.ml" 57 1214 1229
+type(
+  Cabs.cabsloc
+)
+ident(
+  def l "src/frontc/cabshelper.ml" 57 1214 1234 "src/frontc/cabshelper.ml" 57 1214 1235
+)
+"src/frontc/cabshelper.ml" 57 1214 1218 "src/frontc/cabshelper.ml" 57 1214 1230
+type(
+  Cabs.definition
+)
+"src/frontc/cabshelper.ml" 57 1214 1234 "src/frontc/cabshelper.ml" 57 1214 1235
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref l "src/frontc/cabshelper.ml" 57 1214 1228 "src/frontc/cabshelper.ml" 57 1214 1229
+)
+"src/frontc/cabshelper.ml" 58 1236 1252 "src/frontc/cabshelper.ml" 58 1236 1253
+type(
+  Cabs.definition
+)
+"src/frontc/cabshelper.ml" 58 1236 1255 "src/frontc/cabshelper.ml" 58 1236 1256
+type(
+  Cabs.definition list
+)
+"src/frontc/cabshelper.ml" 58 1236 1258 "src/frontc/cabshelper.ml" 58 1236 1259
+type(
+  Cabs.cabsloc
+)
+ident(
+  def l "src/frontc/cabshelper.ml" 58 1236 1264 "src/frontc/cabshelper.ml" 58 1236 1265
+)
+"src/frontc/cabshelper.ml" 58 1236 1240 "src/frontc/cabshelper.ml" 58 1236 1260
+type(
+  Cabs.definition
+)
+"src/frontc/cabshelper.ml" 58 1236 1264 "src/frontc/cabshelper.ml" 58 1236 1265
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref l "src/frontc/cabshelper.ml" 58 1236 1258 "src/frontc/cabshelper.ml" 58 1236 1259
+)
+"src/frontc/cabshelper.ml" 59 1266 1286 "src/frontc/cabshelper.ml" 59 1266 1287
+type(
+  Cabs.expression
+)
+"src/frontc/cabshelper.ml" 59 1266 1289 "src/frontc/cabshelper.ml" 59 1266 1290
+type(
+  Cabs.expression
+)
+"src/frontc/cabshelper.ml" 59 1266 1292 "src/frontc/cabshelper.ml" 59 1266 1293
+type(
+  Cabs.cabsloc
+)
+ident(
+  def l "src/frontc/cabshelper.ml" 59 1266 1298 "src/frontc/cabshelper.ml" 59 1266 1299
+)
+"src/frontc/cabshelper.ml" 59 1266 1270 "src/frontc/cabshelper.ml" 59 1266 1294
+type(
+  Cabs.definition
+)
+"src/frontc/cabshelper.ml" 59 1266 1298 "src/frontc/cabshelper.ml" 59 1266 1299
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref l "src/frontc/cabshelper.ml" 59 1266 1292 "src/frontc/cabshelper.ml" 59 1266 1293
+)
+"src/frontc/cabshelper.ml" 60 1300 1313 "src/frontc/cabshelper.ml" 60 1300 1314
+type(
+  string
+)
+"src/frontc/cabshelper.ml" 60 1300 1316 "src/frontc/cabshelper.ml" 60 1300 1317
+type(
+  Cabs.cabsloc
+)
+ident(
+  def l "src/frontc/cabshelper.ml" 60 1300 1325 "src/frontc/cabshelper.ml" 60 1300 1326
+)
+"src/frontc/cabshelper.ml" 60 1300 1319 "src/frontc/cabshelper.ml" 60 1300 1320
+type(
+  Cabs.definition list
+)
+"src/frontc/cabshelper.ml" 60 1300 1304 "src/frontc/cabshelper.ml" 60 1300 1321
+type(
+  Cabs.definition
+)
+"src/frontc/cabshelper.ml" 60 1300 1325 "src/frontc/cabshelper.ml" 60 1300 1326
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref l "src/frontc/cabshelper.ml" 60 1300 1316 "src/frontc/cabshelper.ml" 60 1300 1317
+)
+"src/frontc/cabshelper.ml" 51 1076 1078 "src/frontc/cabshelper.ml" 60 1300 1326
+type(
+  Cabs.cabsloc
+)
+type(
+  Cabs.cabsloc
+)
+"src/frontc/cabshelper.ml" 62 1328 1332 "src/frontc/cabshelper.ml" 62 1328 1348
+type(
+  Cabs.statement -> Cabs.cabsloc
+)
+ident(
+  def get_statementloc "src/frontc/cabshelper.ml" 90 2010 2010 "src/frontc/cabshelper.ml" 1 0 -1
+)
+"src/frontc/cabshelper.ml" 62 1328 1350 "src/frontc/cabshelper.ml" 62 1328 1351
+type(
+  Cabs.statement
+)
+ident(
+  def s "src/frontc/cabshelper.ml" 62 1328 1365 "src/frontc/cabshelper.ml" 87 2004 2007
+)
+"src/frontc/cabshelper.ml" 64 1383 1391 "src/frontc/cabshelper.ml" 64 1383 1392
+type(
+  Cabs.statement
+)
+ident(
+  int_ref s "src/frontc/cabshelper.ml" 62 1328 1350 "src/frontc/cabshelper.ml" 62 1328 1351
+)
+"src/frontc/cabshelper.ml" 65 1398 1406 "src/frontc/cabshelper.ml" 65 1398 1409
+ident(
+  def loc "src/frontc/cabshelper.ml" 65 1398 1414 "src/frontc/cabshelper.ml" 65 1398 1417
+)
+"src/frontc/cabshelper.ml" 65 1398 1405 "src/frontc/cabshelper.ml" 65 1398 1410
+type(
+  Cabs.cabsloc
+)
+"src/frontc/cabshelper.ml" 65 1398 1402 "src/frontc/cabshelper.ml" 65 1398 1410
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 65 1398 1414 "src/frontc/cabshelper.ml" 65 1398 1417
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 65 1398 1405 "src/frontc/cabshelper.ml" 65 1398 1410
+)
+"src/frontc/cabshelper.ml" 66 1418 1434 "src/frontc/cabshelper.ml" 66 1418 1435
+type(
+  Cabs.expression
+)
+"src/frontc/cabshelper.ml" 66 1418 1436 "src/frontc/cabshelper.ml" 66 1418 1439
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/cabshelper.ml" 66 1418 1444 "src/frontc/cabshelper.ml" 66 1418 1447
+)
+"src/frontc/cabshelper.ml" 66 1418 1422 "src/frontc/cabshelper.ml" 66 1418 1440
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 66 1418 1444 "src/frontc/cabshelper.ml" 66 1418 1447
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 66 1418 1436 "src/frontc/cabshelper.ml" 66 1418 1439
+)
+"src/frontc/cabshelper.ml" 67 1448 1458 "src/frontc/cabshelper.ml" 67 1448 1459
+type(
+  Cabs.block
+)
+"src/frontc/cabshelper.ml" 67 1448 1460 "src/frontc/cabshelper.ml" 67 1448 1463
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/cabshelper.ml" 67 1448 1468 "src/frontc/cabshelper.ml" 67 1448 1471
+)
+"src/frontc/cabshelper.ml" 67 1448 1452 "src/frontc/cabshelper.ml" 67 1448 1464
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 67 1448 1468 "src/frontc/cabshelper.ml" 67 1448 1471
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 67 1448 1460 "src/frontc/cabshelper.ml" 67 1448 1463
+)
+"src/frontc/cabshelper.ml" 68 1472 1485 "src/frontc/cabshelper.ml" 68 1472 1486
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 68 1472 1487 "src/frontc/cabshelper.ml" 68 1472 1488
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 68 1472 1489 "src/frontc/cabshelper.ml" 68 1472 1492
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/cabshelper.ml" 68 1472 1497 "src/frontc/cabshelper.ml" 68 1472 1500
+)
+"src/frontc/cabshelper.ml" 68 1472 1476 "src/frontc/cabshelper.ml" 68 1472 1493
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 68 1472 1497 "src/frontc/cabshelper.ml" 68 1472 1500
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 68 1472 1489 "src/frontc/cabshelper.ml" 68 1472 1492
+)
+"src/frontc/cabshelper.ml" 69 1501 1508 "src/frontc/cabshelper.ml" 69 1501 1509
+type(
+  Cabs.expression
+)
+"src/frontc/cabshelper.ml" 69 1501 1510 "src/frontc/cabshelper.ml" 69 1501 1511
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 69 1501 1512 "src/frontc/cabshelper.ml" 69 1501 1513
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 69 1501 1514 "src/frontc/cabshelper.ml" 69 1501 1517
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/cabshelper.ml" 69 1501 1522 "src/frontc/cabshelper.ml" 69 1501 1525
+)
+"src/frontc/cabshelper.ml" 69 1501 1505 "src/frontc/cabshelper.ml" 69 1501 1518
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 69 1501 1522 "src/frontc/cabshelper.ml" 69 1501 1525
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 69 1501 1514 "src/frontc/cabshelper.ml" 69 1501 1517
+)
+"src/frontc/cabshelper.ml" 70 1526 1536 "src/frontc/cabshelper.ml" 70 1526 1537
+type(
+  Cabs.expression
+)
+"src/frontc/cabshelper.ml" 70 1526 1538 "src/frontc/cabshelper.ml" 70 1526 1539
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 70 1526 1540 "src/frontc/cabshelper.ml" 70 1526 1543
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/cabshelper.ml" 70 1526 1548 "src/frontc/cabshelper.ml" 70 1526 1551
+)
+"src/frontc/cabshelper.ml" 70 1526 1530 "src/frontc/cabshelper.ml" 70 1526 1544
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 70 1526 1548 "src/frontc/cabshelper.ml" 70 1526 1551
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 70 1526 1540 "src/frontc/cabshelper.ml" 70 1526 1543
+)
+"src/frontc/cabshelper.ml" 71 1552 1564 "src/frontc/cabshelper.ml" 71 1552 1565
+type(
+  Cabs.expression
+)
+"src/frontc/cabshelper.ml" 71 1552 1566 "src/frontc/cabshelper.ml" 71 1552 1567
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 71 1552 1568 "src/frontc/cabshelper.ml" 71 1552 1571
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/cabshelper.ml" 71 1552 1576 "src/frontc/cabshelper.ml" 71 1552 1579
+)
+"src/frontc/cabshelper.ml" 71 1552 1556 "src/frontc/cabshelper.ml" 71 1552 1572
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 71 1552 1576 "src/frontc/cabshelper.ml" 71 1552 1579
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 71 1552 1568 "src/frontc/cabshelper.ml" 71 1552 1571
+)
+"src/frontc/cabshelper.ml" 72 1580 1588 "src/frontc/cabshelper.ml" 72 1580 1589
+type(
+  Cabs.for_clause
+)
+"src/frontc/cabshelper.ml" 72 1580 1590 "src/frontc/cabshelper.ml" 72 1580 1591
+type(
+  Cabs.expression
+)
+"src/frontc/cabshelper.ml" 72 1580 1592 "src/frontc/cabshelper.ml" 72 1580 1593
+type(
+  Cabs.expression
+)
+"src/frontc/cabshelper.ml" 72 1580 1594 "src/frontc/cabshelper.ml" 72 1580 1595
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 72 1580 1596 "src/frontc/cabshelper.ml" 72 1580 1599
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/cabshelper.ml" 72 1580 1604 "src/frontc/cabshelper.ml" 72 1580 1607
+)
+"src/frontc/cabshelper.ml" 72 1580 1584 "src/frontc/cabshelper.ml" 72 1580 1600
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 72 1580 1604 "src/frontc/cabshelper.ml" 72 1580 1607
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 72 1580 1596 "src/frontc/cabshelper.ml" 72 1580 1599
+)
+"src/frontc/cabshelper.ml" 73 1608 1618 "src/frontc/cabshelper.ml" 73 1608 1621
+ident(
+  def loc "src/frontc/cabshelper.ml" 73 1608 1626 "src/frontc/cabshelper.ml" 73 1608 1629
+)
+"src/frontc/cabshelper.ml" 73 1608 1617 "src/frontc/cabshelper.ml" 73 1608 1622
+type(
+  Cabs.cabsloc
+)
+"src/frontc/cabshelper.ml" 73 1608 1612 "src/frontc/cabshelper.ml" 73 1608 1622
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 73 1608 1626 "src/frontc/cabshelper.ml" 73 1608 1629
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 73 1608 1617 "src/frontc/cabshelper.ml" 73 1608 1622
+)
+"src/frontc/cabshelper.ml" 74 1630 1643 "src/frontc/cabshelper.ml" 74 1630 1646
+ident(
+  def loc "src/frontc/cabshelper.ml" 74 1630 1651 "src/frontc/cabshelper.ml" 74 1630 1654
+)
+"src/frontc/cabshelper.ml" 74 1630 1642 "src/frontc/cabshelper.ml" 74 1630 1647
+type(
+  Cabs.cabsloc
+)
+"src/frontc/cabshelper.ml" 74 1630 1634 "src/frontc/cabshelper.ml" 74 1630 1647
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 74 1630 1651 "src/frontc/cabshelper.ml" 74 1630 1654
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 74 1630 1642 "src/frontc/cabshelper.ml" 74 1630 1647
+)
+"src/frontc/cabshelper.ml" 75 1655 1666 "src/frontc/cabshelper.ml" 75 1655 1667
+type(
+  Cabs.expression
+)
+"src/frontc/cabshelper.ml" 75 1655 1668 "src/frontc/cabshelper.ml" 75 1655 1671
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/cabshelper.ml" 75 1655 1676 "src/frontc/cabshelper.ml" 75 1655 1679
+)
+"src/frontc/cabshelper.ml" 75 1655 1659 "src/frontc/cabshelper.ml" 75 1655 1672
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 75 1655 1676 "src/frontc/cabshelper.ml" 75 1655 1679
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 75 1655 1668 "src/frontc/cabshelper.ml" 75 1655 1671
+)
+"src/frontc/cabshelper.ml" 76 1680 1691 "src/frontc/cabshelper.ml" 76 1680 1692
+type(
+  Cabs.expression
+)
+"src/frontc/cabshelper.ml" 76 1680 1693 "src/frontc/cabshelper.ml" 76 1680 1694
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 76 1680 1695 "src/frontc/cabshelper.ml" 76 1680 1698
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/cabshelper.ml" 76 1680 1703 "src/frontc/cabshelper.ml" 76 1680 1706
+)
+"src/frontc/cabshelper.ml" 76 1680 1684 "src/frontc/cabshelper.ml" 76 1680 1699
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 76 1680 1703 "src/frontc/cabshelper.ml" 76 1680 1706
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 76 1680 1695 "src/frontc/cabshelper.ml" 76 1680 1698
+)
+"src/frontc/cabshelper.ml" 77 1707 1716 "src/frontc/cabshelper.ml" 77 1707 1717
+type(
+  Cabs.expression
+)
+"src/frontc/cabshelper.ml" 77 1707 1718 "src/frontc/cabshelper.ml" 77 1707 1719
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 77 1707 1720 "src/frontc/cabshelper.ml" 77 1707 1723
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/cabshelper.ml" 77 1707 1728 "src/frontc/cabshelper.ml" 77 1707 1731
+)
+"src/frontc/cabshelper.ml" 77 1707 1711 "src/frontc/cabshelper.ml" 77 1707 1724
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 77 1707 1728 "src/frontc/cabshelper.ml" 77 1707 1731
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 77 1707 1720 "src/frontc/cabshelper.ml" 77 1707 1723
+)
+"src/frontc/cabshelper.ml" 78 1732 1746 "src/frontc/cabshelper.ml" 78 1732 1747
+type(
+  Cabs.expression
+)
+"src/frontc/cabshelper.ml" 78 1732 1748 "src/frontc/cabshelper.ml" 78 1732 1749
+type(
+  Cabs.expression
+)
+"src/frontc/cabshelper.ml" 78 1732 1750 "src/frontc/cabshelper.ml" 78 1732 1751
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 78 1732 1752 "src/frontc/cabshelper.ml" 78 1732 1755
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/cabshelper.ml" 78 1732 1760 "src/frontc/cabshelper.ml" 78 1732 1763
+)
+"src/frontc/cabshelper.ml" 78 1732 1736 "src/frontc/cabshelper.ml" 78 1732 1756
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 78 1732 1760 "src/frontc/cabshelper.ml" 78 1732 1763
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 78 1732 1752 "src/frontc/cabshelper.ml" 78 1732 1755
+)
+"src/frontc/cabshelper.ml" 79 1764 1776 "src/frontc/cabshelper.ml" 79 1764 1777
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 79 1764 1778 "src/frontc/cabshelper.ml" 79 1764 1781
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/cabshelper.ml" 79 1764 1786 "src/frontc/cabshelper.ml" 79 1764 1789
+)
+"src/frontc/cabshelper.ml" 79 1764 1768 "src/frontc/cabshelper.ml" 79 1764 1782
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 79 1764 1786 "src/frontc/cabshelper.ml" 79 1764 1789
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 79 1764 1778 "src/frontc/cabshelper.ml" 79 1764 1781
+)
+"src/frontc/cabshelper.ml" 80 1790 1800 "src/frontc/cabshelper.ml" 80 1790 1801
+type(
+  string
+)
+"src/frontc/cabshelper.ml" 80 1790 1802 "src/frontc/cabshelper.ml" 80 1790 1803
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 80 1790 1804 "src/frontc/cabshelper.ml" 80 1790 1807
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/cabshelper.ml" 80 1790 1812 "src/frontc/cabshelper.ml" 80 1790 1815
+)
+"src/frontc/cabshelper.ml" 80 1790 1794 "src/frontc/cabshelper.ml" 80 1790 1808
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 80 1790 1812 "src/frontc/cabshelper.ml" 80 1790 1815
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 80 1790 1804 "src/frontc/cabshelper.ml" 80 1790 1807
+)
+"src/frontc/cabshelper.ml" 81 1816 1825 "src/frontc/cabshelper.ml" 81 1816 1826
+type(
+  string
+)
+"src/frontc/cabshelper.ml" 81 1816 1827 "src/frontc/cabshelper.ml" 81 1816 1830
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/cabshelper.ml" 81 1816 1835 "src/frontc/cabshelper.ml" 81 1816 1838
+)
+"src/frontc/cabshelper.ml" 81 1816 1820 "src/frontc/cabshelper.ml" 81 1816 1831
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 81 1816 1835 "src/frontc/cabshelper.ml" 81 1816 1838
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 81 1816 1827 "src/frontc/cabshelper.ml" 81 1816 1830
+)
+"src/frontc/cabshelper.ml" 82 1839 1853 "src/frontc/cabshelper.ml" 82 1839 1854
+type(
+  Cabs.expression
+)
+"src/frontc/cabshelper.ml" 82 1839 1856 "src/frontc/cabshelper.ml" 82 1839 1859
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/cabshelper.ml" 82 1839 1864 "src/frontc/cabshelper.ml" 82 1839 1867
+)
+"src/frontc/cabshelper.ml" 82 1839 1843 "src/frontc/cabshelper.ml" 82 1839 1860
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 82 1839 1864 "src/frontc/cabshelper.ml" 82 1839 1867
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 82 1839 1856 "src/frontc/cabshelper.ml" 82 1839 1859
+)
+"src/frontc/cabshelper.ml" 83 1868 1883 "src/frontc/cabshelper.ml" 83 1868 1884
+type(
+  Cabs.definition
+)
+ident(
+  def d "src/frontc/cabshelper.ml" 83 1868 1888 "src/frontc/cabshelper.ml" 83 1868 1907
+)
+"src/frontc/cabshelper.ml" 83 1868 1872 "src/frontc/cabshelper.ml" 83 1868 1884
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 83 1868 1888 "src/frontc/cabshelper.ml" 83 1868 1905
+type(
+  Cabs.definition -> Cabs.cabsloc
+)
+ident(
+  int_ref get_definitionloc "src/frontc/cabshelper.ml" 50 1025 1029 "src/frontc/cabshelper.ml" 50 1025 1046
+)
+"src/frontc/cabshelper.ml" 83 1868 1906 "src/frontc/cabshelper.ml" 83 1868 1907
+type(
+  Cabs.definition
+)
+ident(
+  int_ref d "src/frontc/cabshelper.ml" 83 1868 1883 "src/frontc/cabshelper.ml" 83 1868 1884
+)
+"src/frontc/cabshelper.ml" 83 1868 1888 "src/frontc/cabshelper.ml" 83 1868 1907
+call(
+  tail
+)
+type(
+  Cabs.cabsloc
+)
+"src/frontc/cabshelper.ml" 84 1908 1916 "src/frontc/cabshelper.ml" 84 1908 1917
+type(
+  Cabs.attribute list
+)
+"src/frontc/cabshelper.ml" 84 1908 1918 "src/frontc/cabshelper.ml" 84 1908 1919
+type(
+  string list
+)
+"src/frontc/cabshelper.ml" 84 1908 1920 "src/frontc/cabshelper.ml" 84 1908 1921
+type(
+  Cabs.asm_details option
+)
+"src/frontc/cabshelper.ml" 84 1908 1922 "src/frontc/cabshelper.ml" 84 1908 1925
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/cabshelper.ml" 84 1908 1930 "src/frontc/cabshelper.ml" 84 1908 1933
+)
+"src/frontc/cabshelper.ml" 84 1908 1912 "src/frontc/cabshelper.ml" 84 1908 1926
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 84 1908 1930 "src/frontc/cabshelper.ml" 84 1908 1933
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 84 1908 1922 "src/frontc/cabshelper.ml" 84 1908 1925
+)
+"src/frontc/cabshelper.ml" 85 1934 1949 "src/frontc/cabshelper.ml" 85 1934 1950
+type(
+  Cabs.block
+)
+"src/frontc/cabshelper.ml" 85 1934 1952 "src/frontc/cabshelper.ml" 85 1934 1953
+type(
+  Cabs.expression
+)
+"src/frontc/cabshelper.ml" 85 1934 1955 "src/frontc/cabshelper.ml" 85 1934 1956
+type(
+  Cabs.block
+)
+"src/frontc/cabshelper.ml" 85 1934 1958 "src/frontc/cabshelper.ml" 85 1934 1961
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/cabshelper.ml" 85 1934 1966 "src/frontc/cabshelper.ml" 85 1934 1969
+)
+"src/frontc/cabshelper.ml" 85 1934 1938 "src/frontc/cabshelper.ml" 85 1934 1962
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 85 1934 1966 "src/frontc/cabshelper.ml" 85 1934 1969
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 85 1934 1958 "src/frontc/cabshelper.ml" 85 1934 1961
+)
+"src/frontc/cabshelper.ml" 86 1970 1986 "src/frontc/cabshelper.ml" 86 1970 1987
+type(
+  Cabs.block
+)
+"src/frontc/cabshelper.ml" 86 1970 1989 "src/frontc/cabshelper.ml" 86 1970 1990
+type(
+  Cabs.block
+)
+"src/frontc/cabshelper.ml" 86 1970 1992 "src/frontc/cabshelper.ml" 86 1970 1995
+type(
+  Cabs.cabsloc
+)
+ident(
+  def loc "src/frontc/cabshelper.ml" 86 1970 2000 "src/frontc/cabshelper.ml" 86 1970 2003
+)
+"src/frontc/cabshelper.ml" 86 1970 1974 "src/frontc/cabshelper.ml" 86 1970 1996
+type(
+  Cabs.statement
+)
+"src/frontc/cabshelper.ml" 86 1970 2000 "src/frontc/cabshelper.ml" 86 1970 2003
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref loc "src/frontc/cabshelper.ml" 86 1970 1992 "src/frontc/cabshelper.ml" 86 1970 1995
+)
+"src/frontc/cabshelper.ml" 63 1377 1377 "src/frontc/cabshelper.ml" 87 2004 2007
+type(
+  Cabs.cabsloc
+)
+type(
+  Cabs.cabsloc
+)
+"src/frontc/cabshelper.ml" 90 2010 2014 "src/frontc/cabshelper.ml" 90 2010 2033
+type(
+  string -> int64 list
+)
+ident(
+  def explodeStringToInts "src/frontc/cabshelper.ml" 97 2233 2233 "src/frontc/cabshelper.ml" 1 0 -1
+)
+"src/frontc/cabshelper.ml" 90 2010 2035 "src/frontc/cabshelper.ml" 90 2010 2036
+type(
+  string
+)
+ident(
+  def s "src/frontc/cabshelper.ml" 90 2010 2046 "src/frontc/cabshelper.ml" 95 2195 2231
+)
+"src/frontc/cabshelper.ml" 91 2063 2073 "src/frontc/cabshelper.ml" 91 2063 2081
+type(
+  int -> int64 list -> int64 list
+)
+ident(
+  def allChars "src/frontc/cabshelper.ml" 91 2063 2065 "src/frontc/cabshelper.ml" 95 2195 2231
+)
+"src/frontc/cabshelper.ml" 91 2063 2082 "src/frontc/cabshelper.ml" 91 2063 2083
+type(
+  int
+)
+ident(
+  def i "src/frontc/cabshelper.ml" 91 2063 2084 "src/frontc/cabshelper.ml" 93 2113 2189
+)
+"src/frontc/cabshelper.ml" 91 2063 2084 "src/frontc/cabshelper.ml" 91 2063 2087
+type(
+  int64 list
+)
+ident(
+  def acc "src/frontc/cabshelper.ml" 92 2091 2095 "src/frontc/cabshelper.ml" 93 2113 2189
+)
+"src/frontc/cabshelper.ml" 92 2091 2098 "src/frontc/cabshelper.ml" 92 2091 2099
+type(
+  int
+)
+ident(
+  int_ref i "src/frontc/cabshelper.ml" 91 2063 2082 "src/frontc/cabshelper.ml" 91 2063 2083
+)
+"src/frontc/cabshelper.ml" 92 2091 2100 "src/frontc/cabshelper.ml" 92 2091 2101
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/frontc/cabshelper.ml" 92 2091 2102 "src/frontc/cabshelper.ml" 92 2091 2103
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 92 2091 2098 "src/frontc/cabshelper.ml" 92 2091 2103
+type(
+  bool
+)
+"src/frontc/cabshelper.ml" 92 2091 2109 "src/frontc/cabshelper.ml" 92 2091 2112
+type(
+  int64 list
+)
+ident(
+  int_ref acc "src/frontc/cabshelper.ml" 91 2063 2084 "src/frontc/cabshelper.ml" 91 2063 2087
+)
+"src/frontc/cabshelper.ml" 93 2113 2122 "src/frontc/cabshelper.ml" 93 2113 2130
+type(
+  int -> int64 list -> int64 list
+)
+ident(
+  int_ref allChars "src/frontc/cabshelper.ml" 91 2063 2073 "src/frontc/cabshelper.ml" 91 2063 2081
+)
+"src/frontc/cabshelper.ml" 93 2113 2132 "src/frontc/cabshelper.ml" 93 2113 2133
+type(
+  int
+)
+ident(
+  int_ref i "src/frontc/cabshelper.ml" 91 2063 2082 "src/frontc/cabshelper.ml" 91 2063 2083
+)
+"src/frontc/cabshelper.ml" 93 2113 2134 "src/frontc/cabshelper.ml" 93 2113 2135
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/frontc/cabshelper.ml" 93 2113 2136 "src/frontc/cabshelper.ml" 93 2113 2137
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 93 2113 2131 "src/frontc/cabshelper.ml" 93 2113 2138
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 93 2113 2140 "src/frontc/cabshelper.ml" 93 2113 2152
+type(
+  int -> int64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"src/frontc/cabshelper.ml" 93 2113 2154 "src/frontc/cabshelper.ml" 93 2113 2163
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"src/frontc/cabshelper.ml" 93 2113 2165 "src/frontc/cabshelper.ml" 93 2113 2175
+type(
+  string -> int -> char
+)
+ident(
+  ext_ref String.get
+)
+"src/frontc/cabshelper.ml" 93 2113 2176 "src/frontc/cabshelper.ml" 93 2113 2177
+type(
+  string
+)
+ident(
+  int_ref s "src/frontc/cabshelper.ml" 90 2010 2035 "src/frontc/cabshelper.ml" 90 2010 2036
+)
+"src/frontc/cabshelper.ml" 93 2113 2178 "src/frontc/cabshelper.ml" 93 2113 2179
+type(
+  int
+)
+ident(
+  int_ref i "src/frontc/cabshelper.ml" 91 2063 2082 "src/frontc/cabshelper.ml" 91 2063 2083
+)
+"src/frontc/cabshelper.ml" 93 2113 2164 "src/frontc/cabshelper.ml" 93 2113 2180
+type(
+  char
+)
+"src/frontc/cabshelper.ml" 93 2113 2153 "src/frontc/cabshelper.ml" 93 2113 2181
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 93 2113 2140 "src/frontc/cabshelper.ml" 93 2113 2181
+type(
+  int64
+)
+"src/frontc/cabshelper.ml" 93 2113 2185 "src/frontc/cabshelper.ml" 93 2113 2188
+type(
+  int64 list
+)
+ident(
+  int_ref acc "src/frontc/cabshelper.ml" 91 2063 2084 "src/frontc/cabshelper.ml" 91 2063 2087
+)
+"src/frontc/cabshelper.ml" 93 2113 2139 "src/frontc/cabshelper.ml" 93 2113 2189
+type(
+  int64 list
+)
+"src/frontc/cabshelper.ml" 93 2113 2122 "src/frontc/cabshelper.ml" 93 2113 2189
+call(
+  tail
+)
+type(
+  int64 list
+)
+"src/frontc/cabshelper.ml" 92 2091 2095 "src/frontc/cabshelper.ml" 93 2113 2189
+type(
+  int64 list
+)
+"src/frontc/cabshelper.ml" 95 2195 2197 "src/frontc/cabshelper.ml" 95 2195 2205
+type(
+  int -> int64 list -> int64 list
+)
+ident(
+  int_ref allChars "src/frontc/cabshelper.ml" 91 2063 2073 "src/frontc/cabshelper.ml" 91 2063 2081
+)
+"src/frontc/cabshelper.ml" 95 2195 2207 "src/frontc/cabshelper.ml" 95 2195 2209
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 95 2195 2210 "src/frontc/cabshelper.ml" 95 2195 2211
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/frontc/cabshelper.ml" 95 2195 2212 "src/frontc/cabshelper.ml" 95 2195 2225
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/frontc/cabshelper.ml" 95 2195 2226 "src/frontc/cabshelper.ml" 95 2195 2227
+type(
+  string
+)
+ident(
+  int_ref s "src/frontc/cabshelper.ml" 90 2010 2035 "src/frontc/cabshelper.ml" 90 2010 2036
+)
+"src/frontc/cabshelper.ml" 95 2195 2212 "src/frontc/cabshelper.ml" 95 2195 2227
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 95 2195 2206 "src/frontc/cabshelper.ml" 95 2195 2228
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 95 2195 2229 "src/frontc/cabshelper.ml" 95 2195 2231
+type(
+  int64 list
+)
+"src/frontc/cabshelper.ml" 95 2195 2197 "src/frontc/cabshelper.ml" 95 2195 2231
+call(
+  tail
+)
+type(
+  int64 list
+)
+"src/frontc/cabshelper.ml" 91 2063 2065 "src/frontc/cabshelper.ml" 95 2195 2231
+type(
+  int64 list
+)
+type(
+  int64 list
+)
+"src/frontc/cabshelper.ml" 97 2233 2237 "src/frontc/cabshelper.ml" 97 2233 2249
+type(
+  char -> int64
+)
+ident(
+  def valueOfDigit "src/frontc/cabshelper.ml" 107 2547 2547 "src/frontc/cabshelper.ml" 1 0 -1
+)
+"src/frontc/cabshelper.ml" 97 2233 2250 "src/frontc/cabshelper.ml" 97 2233 2253
+type(
+  char
+)
+ident(
+  def chr "src/frontc/cabshelper.ml" 98 2256 2258 "src/frontc/cabshelper.ml" 104 2514 2538
+)
+"src/frontc/cabshelper.ml" 98 2256 2262 "src/frontc/cabshelper.ml" 98 2256 2271
+type(
+  int
+)
+ident(
+  def int_value "src/frontc/cabshelper.ml" 104 2514 2516 "src/frontc/cabshelper.ml" 104 2514 2538
+)
+"src/frontc/cabshelper.ml" 99 2275 2285 "src/frontc/cabshelper.ml" 99 2275 2288
+type(
+  char
+)
+ident(
+  int_ref chr "src/frontc/cabshelper.ml" 97 2233 2250 "src/frontc/cabshelper.ml" 97 2233 2253
+)
+"src/frontc/cabshelper.ml" 100 2294 2300 "src/frontc/cabshelper.ml" 100 2294 2308
+type(
+  char
+)
+"src/frontc/cabshelper.ml" 100 2294 2313 "src/frontc/cabshelper.ml" 100 2294 2322
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"src/frontc/cabshelper.ml" 100 2294 2323 "src/frontc/cabshelper.ml" 100 2294 2326
+type(
+  char
+)
+ident(
+  int_ref chr "src/frontc/cabshelper.ml" 97 2233 2250 "src/frontc/cabshelper.ml" 97 2233 2253
+)
+"src/frontc/cabshelper.ml" 100 2294 2312 "src/frontc/cabshelper.ml" 100 2294 2327
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 100 2294 2328 "src/frontc/cabshelper.ml" 100 2294 2329
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/frontc/cabshelper.ml" 100 2294 2331 "src/frontc/cabshelper.ml" 100 2294 2340
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"src/frontc/cabshelper.ml" 100 2294 2341 "src/frontc/cabshelper.ml" 100 2294 2344
+type(
+  char
+)
+"src/frontc/cabshelper.ml" 100 2294 2330 "src/frontc/cabshelper.ml" 100 2294 2345
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 100 2294 2312 "src/frontc/cabshelper.ml" 100 2294 2345
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 101 2346 2352 "src/frontc/cabshelper.ml" 101 2346 2360
+type(
+  char
+)
+"src/frontc/cabshelper.ml" 101 2346 2365 "src/frontc/cabshelper.ml" 101 2346 2374
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"src/frontc/cabshelper.ml" 101 2346 2375 "src/frontc/cabshelper.ml" 101 2346 2378
+type(
+  char
+)
+ident(
+  int_ref chr "src/frontc/cabshelper.ml" 97 2233 2250 "src/frontc/cabshelper.ml" 97 2233 2253
+)
+"src/frontc/cabshelper.ml" 101 2346 2364 "src/frontc/cabshelper.ml" 101 2346 2379
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 101 2346 2380 "src/frontc/cabshelper.ml" 101 2346 2381
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/frontc/cabshelper.ml" 101 2346 2383 "src/frontc/cabshelper.ml" 101 2346 2392
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"src/frontc/cabshelper.ml" 101 2346 2393 "src/frontc/cabshelper.ml" 101 2346 2396
+type(
+  char
+)
+"src/frontc/cabshelper.ml" 101 2346 2382 "src/frontc/cabshelper.ml" 101 2346 2397
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 101 2346 2364 "src/frontc/cabshelper.ml" 101 2346 2397
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 101 2346 2398 "src/frontc/cabshelper.ml" 101 2346 2399
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/frontc/cabshelper.ml" 101 2346 2400 "src/frontc/cabshelper.ml" 101 2346 2402
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 101 2346 2364 "src/frontc/cabshelper.ml" 101 2346 2402
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 102 2403 2409 "src/frontc/cabshelper.ml" 102 2403 2417
+type(
+  char
+)
+"src/frontc/cabshelper.ml" 102 2403 2422 "src/frontc/cabshelper.ml" 102 2403 2431
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"src/frontc/cabshelper.ml" 102 2403 2432 "src/frontc/cabshelper.ml" 102 2403 2435
+type(
+  char
+)
+ident(
+  int_ref chr "src/frontc/cabshelper.ml" 97 2233 2250 "src/frontc/cabshelper.ml" 97 2233 2253
+)
+"src/frontc/cabshelper.ml" 102 2403 2421 "src/frontc/cabshelper.ml" 102 2403 2436
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 102 2403 2437 "src/frontc/cabshelper.ml" 102 2403 2438
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/frontc/cabshelper.ml" 102 2403 2440 "src/frontc/cabshelper.ml" 102 2403 2449
+type(
+  char -> int
+)
+ident(
+  ext_ref Char.code
+)
+"src/frontc/cabshelper.ml" 102 2403 2450 "src/frontc/cabshelper.ml" 102 2403 2453
+type(
+  char
+)
+"src/frontc/cabshelper.ml" 102 2403 2439 "src/frontc/cabshelper.ml" 102 2403 2454
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 102 2403 2421 "src/frontc/cabshelper.ml" 102 2403 2454
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 102 2403 2455 "src/frontc/cabshelper.ml" 102 2403 2456
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/frontc/cabshelper.ml" 102 2403 2457 "src/frontc/cabshelper.ml" 102 2403 2459
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 102 2403 2421 "src/frontc/cabshelper.ml" 102 2403 2459
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 103 2460 2466 "src/frontc/cabshelper.ml" 103 2460 2467
+type(
+  char
+)
+"src/frontc/cabshelper.ml" 103 2460 2471 "src/frontc/cabshelper.ml" 103 2460 2481
+type(
+  unit -> int
+)
+ident(
+  ext_ref Errormsg.s
+)
+"src/frontc/cabshelper.ml" 103 2460 2483 "src/frontc/cabshelper.ml" 103 2460 2495
+type(
+  (unit, unit, Pretty.doc, unit) format4 -> unit
+)
+ident(
+  ext_ref Errormsg.bug
+)
+"src/frontc/cabshelper.ml" 103 2460 2496 "src/frontc/cabshelper.ml" 103 2460 2509
+type(
+  (unit, unit, Pretty.doc, unit) format4
+)
+"src/frontc/cabshelper.ml" 103 2460 2482 "src/frontc/cabshelper.ml" 103 2460 2510
+call(
+  stack
+)
+type(
+  unit
+)
+"src/frontc/cabshelper.ml" 103 2460 2471 "src/frontc/cabshelper.ml" 103 2460 2510
+call(
+  stack
+)
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 99 2275 2279 "src/frontc/cabshelper.ml" 103 2460 2510
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 104 2514 2516 "src/frontc/cabshelper.ml" 104 2514 2528
+type(
+  int -> int64
+)
+ident(
+  ext_ref Int64.of_int
+)
+"src/frontc/cabshelper.ml" 104 2514 2529 "src/frontc/cabshelper.ml" 104 2514 2538
+type(
+  int
+)
+ident(
+  int_ref int_value "src/frontc/cabshelper.ml" 98 2256 2262 "src/frontc/cabshelper.ml" 98 2256 2271
+)
+"src/frontc/cabshelper.ml" 104 2514 2516 "src/frontc/cabshelper.ml" 104 2514 2538
+type(
+  int64
+)
+"src/frontc/cabshelper.ml" 98 2256 2258 "src/frontc/cabshelper.ml" 104 2514 2538
+type(
+  int64
+)
+"src/frontc/cabshelper.ml" 108 2559 2563 "src/frontc/cabshelper.ml" 108 2559 2572
+type(
+  unit -> Cabs.cabsloc -> Pretty.doc
+)
+ident(
+  def d_cabsloc "src/frontc/cabshelper.ml" 109 2582 2629 "src/frontc/cabshelper.ml" 1 0 -1
+)
+"src/frontc/cabshelper.ml" 108 2559 2573 "src/frontc/cabshelper.ml" 108 2559 2575
+type(
+  unit
+)
+"src/frontc/cabshelper.ml" 108 2559 2576 "src/frontc/cabshelper.ml" 108 2559 2578
+type(
+  Cabs.cabsloc
+)
+ident(
+  def cl "src/frontc/cabshelper.ml" 109 2582 2584 "src/frontc/cabshelper.ml" 109 2582 2629
+)
+"src/frontc/cabshelper.ml" 109 2582 2584 "src/frontc/cabshelper.ml" 109 2582 2588
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/frontc/cabshelper.ml" 109 2582 2589 "src/frontc/cabshelper.ml" 109 2582 2591
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref cl "src/frontc/cabshelper.ml" 108 2559 2576 "src/frontc/cabshelper.ml" 108 2559 2578
+)
+"src/frontc/cabshelper.ml" 109 2582 2589 "src/frontc/cabshelper.ml" 109 2582 2600
+type(
+  string
+)
+"src/frontc/cabshelper.ml" 109 2582 2584 "src/frontc/cabshelper.ml" 109 2582 2600
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/frontc/cabshelper.ml" 109 2582 2601 "src/frontc/cabshelper.ml" 109 2582 2603
+type(
+  Pretty.doc -> Pretty.doc -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.( ++ )
+)
+"src/frontc/cabshelper.ml" 109 2582 2604 "src/frontc/cabshelper.ml" 109 2582 2608
+type(
+  string -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.text
+)
+"src/frontc/cabshelper.ml" 109 2582 2609 "src/frontc/cabshelper.ml" 109 2582 2612
+type(
+  string
+)
+"src/frontc/cabshelper.ml" 109 2582 2604 "src/frontc/cabshelper.ml" 109 2582 2612
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/frontc/cabshelper.ml" 109 2582 2584 "src/frontc/cabshelper.ml" 109 2582 2612
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/frontc/cabshelper.ml" 109 2582 2613 "src/frontc/cabshelper.ml" 109 2582 2615
+type(
+  Pretty.doc -> Pretty.doc -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.( ++ )
+)
+"src/frontc/cabshelper.ml" 109 2582 2616 "src/frontc/cabshelper.ml" 109 2582 2619
+type(
+  int -> Pretty.doc
+)
+ident(
+  ext_ref Pretty.num
+)
+"src/frontc/cabshelper.ml" 109 2582 2620 "src/frontc/cabshelper.ml" 109 2582 2622
+type(
+  Cabs.cabsloc
+)
+ident(
+  int_ref cl "src/frontc/cabshelper.ml" 108 2559 2576 "src/frontc/cabshelper.ml" 108 2559 2578
+)
+"src/frontc/cabshelper.ml" 109 2582 2620 "src/frontc/cabshelper.ml" 109 2582 2629
+type(
+  int
+)
+"src/frontc/cabshelper.ml" 109 2582 2616 "src/frontc/cabshelper.ml" 109 2582 2629
+call(
+  stack
+)
+type(
+  Pretty.doc
+)
+"src/frontc/cabshelper.ml" 109 2582 2584 "src/frontc/cabshelper.ml" 109 2582 2629
+call(
+  tail
+)
+type(
+  Pretty.doc
+)

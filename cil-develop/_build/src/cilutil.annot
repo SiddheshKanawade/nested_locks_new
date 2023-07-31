@@ -1,0 +1,110 @@
+"src/cilutil.ml" 39 1722 1726 "src/cilutil.ml" 39 1722 1733
+type(
+  bool ref
+)
+ident(
+  def doCheck "src/cilutil.ml" 40 1774 1774 "src/cilutil.ml" 1 0 -1
+)
+"src/cilutil.ml" 39 1722 1735 "src/cilutil.ml" 39 1722 1738
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/cilutil.ml" 39 1722 1739 "src/cilutil.ml" 39 1722 1744
+type(
+  bool
+)
+"src/cilutil.ml" 39 1722 1735 "src/cilutil.ml" 39 1722 1744
+type(
+  bool ref
+)
+"src/cilutil.ml" 40 1774 1778 "src/cilutil.ml" 40 1774 1792
+type(
+  bool ref
+)
+ident(
+  def strictChecking "src/cilutil.ml" 43 1912 1912 "src/cilutil.ml" 1 0 -1
+)
+"src/cilutil.ml" 40 1774 1794 "src/cilutil.ml" 40 1774 1797
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/cilutil.ml" 40 1774 1798 "src/cilutil.ml" 40 1774 1803
+type(
+  bool
+)
+"src/cilutil.ml" 40 1774 1794 "src/cilutil.ml" 40 1774 1803
+type(
+  bool ref
+)
+"src/cilutil.ml" 43 1912 1916 "src/cilutil.ml" 43 1912 1926
+type(
+  bool ref
+)
+ident(
+  def printStats "src/cilutil.ml" 48 2161 2161 "src/cilutil.ml" 1 0 -1
+)
+"src/cilutil.ml" 43 1912 1929 "src/cilutil.ml" 43 1912 1932
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/cilutil.ml" 43 1912 1933 "src/cilutil.ml" 43 1912 1938
+type(
+  bool
+)
+"src/cilutil.ml" 43 1912 1929 "src/cilutil.ml" 43 1912 1938
+type(
+  bool ref
+)
+"src/cilutil.ml" 48 2161 2165 "src/cilutil.ml" 48 2161 2176
+type(
+  bool ref
+)
+ident(
+  def sliceGlobal "src/cilutil.ml" 51 2191 2191 "src/cilutil.ml" 1 0 -1
+)
+"src/cilutil.ml" 48 2161 2179 "src/cilutil.ml" 48 2161 2182
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/cilutil.ml" 48 2161 2183 "src/cilutil.ml" 48 2161 2188
+type(
+  bool
+)
+"src/cilutil.ml" 48 2161 2179 "src/cilutil.ml" 48 2161 2188
+type(
+  bool ref
+)
+"src/cilutil.ml" 51 2191 2195 "src/cilutil.ml" 51 2191 2206
+type(
+  bool ref
+)
+ident(
+  def printStages "src/cilutil.ml" 51 2191 2218 "src/cilutil.ml" 1 0 -1
+)
+"src/cilutil.ml" 51 2191 2209 "src/cilutil.ml" 51 2191 2212
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/cilutil.ml" 51 2191 2213 "src/cilutil.ml" 51 2191 2218
+type(
+  bool
+)
+"src/cilutil.ml" 51 2191 2209 "src/cilutil.ml" 51 2191 2218
+type(
+  bool ref
+)

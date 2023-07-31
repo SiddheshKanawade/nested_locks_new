@@ -1,0 +1,15 @@
+"src/ext/sharedVar/new.ml" 7 67 71 "src/ext/sharedVar/new.ml" 7 67 83
+type(
+  Cil.nopCilVisitor
+)
+ident(
+  def dummyVisitor "src/ext/sharedVar/new.ml" 7 67 103 "src/ext/sharedVar/new.ml" 1 0 -1
+)
+"src/ext/sharedVar/new.ml" 7 67 90 "src/ext/sharedVar/new.ml" 7 67 103
+call(
+  stack
+)
+"src/ext/sharedVar/new.ml" 7 67 86 "src/ext/sharedVar/new.ml" 7 67 103
+type(
+  Cil.nopCilVisitor
+)

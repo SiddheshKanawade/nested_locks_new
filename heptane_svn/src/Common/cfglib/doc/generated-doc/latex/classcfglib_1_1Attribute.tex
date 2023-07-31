@@ -1,0 +1,103 @@
+\hypertarget{classcfglib_1_1Attribute}{}\doxysection{cfglib\+::Attribute Class Reference}
+\label{classcfglib_1_1Attribute}\index{cfglib::Attribute@{cfglib::Attribute}}
+
+
+{\ttfamily \#include $<$Attributes.\+h$>$}
+
+Inheritance diagram for cfglib\+::Attribute\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.589744cm]{classcfglib_1_1Attribute}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcfglib_1_1Attribute_ac6c6631f3f1a7077a7f3cdd654f4d194}{Attribute}} ()
+\item 
+virtual \mbox{\hyperlink{classcfglib_1_1Attribute_af8f971cd97eda6e23c35f1afae0a8c66}{$\sim$\+Attribute}} ()
+\item 
+virtual \mbox{\hyperlink{classcfglib_1_1Attribute}{Attribute}} $\ast$ \mbox{\hyperlink{classcfglib_1_1Attribute_adde857e648ba37e9dc713610098dd18a}{clone}} ()=0
+\item 
+virtual \mbox{\hyperlink{classcfglib_1_1Attribute}{Attribute}} $\ast$ \mbox{\hyperlink{classcfglib_1_1Attribute_a3c719b2cd622f74f7e0a6f26289b2058}{clone}} (\mbox{\hyperlink{classcfglib_1_1CloneHandle}{Clone\+Handle}} \&)
+\item 
+virtual void \mbox{\hyperlink{classcfglib_1_1Attribute_af8d87ceddde146b92727e61823e0129b}{Print}} (std\+::ostream \&)=0
+\item 
+void \mbox{\hyperlink{classcfglib_1_1Attribute_ae6e91c4069d2d54d264e25511e81d962}{Set\+Name}} (std\+::string \mbox{\hyperlink{classcfglib_1_1Attribute_a9abcd440f01bbbc57fc64f274033cd22}{name}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{classcfglib_1_1Attribute_a9abcd440f01bbbc57fc64f274033cd22}{name}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Attributes can be attached to any object inheriting from class \mbox{\hyperlink{classcfglib_1_1Attributed}{Attributed}}. Built-\/in attributes are provided by cfglib, and new ones can be defined by its users. Every attribute has a name and a type. An attribute should implement a method clone (attributes are duplicated when attached) and method Print for debugging purposes. Attributes can be serialisable (subclass \mbox{\hyperlink{classcfglib_1_1SerialisableAttribute}{Serialisable\+Attribute}}) or not (subclass \mbox{\hyperlink{classcfglib_1_1NonSerialisableAttribute}{Non\+Serialisable\+Attribute}}). 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcfglib_1_1Attribute_ac6c6631f3f1a7077a7f3cdd654f4d194}\label{classcfglib_1_1Attribute_ac6c6631f3f1a7077a7f3cdd654f4d194}} 
+\index{cfglib::Attribute@{cfglib::Attribute}!Attribute@{Attribute}}
+\index{Attribute@{Attribute}!cfglib::Attribute@{cfglib::Attribute}}
+\doxysubsubsection{\texorpdfstring{Attribute()}{Attribute()}}
+{\footnotesize\ttfamily cfglib\+::\+Attribute\+::\+Attribute (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Default constructors and destructors \mbox{\Hypertarget{classcfglib_1_1Attribute_af8f971cd97eda6e23c35f1afae0a8c66}\label{classcfglib_1_1Attribute_af8f971cd97eda6e23c35f1afae0a8c66}} 
+\index{cfglib::Attribute@{cfglib::Attribute}!````~Attribute@{$\sim$Attribute}}
+\index{````~Attribute@{$\sim$Attribute}!cfglib::Attribute@{cfglib::Attribute}}
+\doxysubsubsection{\texorpdfstring{$\sim$Attribute()}{~Attribute()}}
+{\footnotesize\ttfamily virtual cfglib\+::\+Attribute\+::$\sim$\+Attribute (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcfglib_1_1Attribute_adde857e648ba37e9dc713610098dd18a}\label{classcfglib_1_1Attribute_adde857e648ba37e9dc713610098dd18a}} 
+\index{cfglib::Attribute@{cfglib::Attribute}!clone@{clone}}
+\index{clone@{clone}!cfglib::Attribute@{cfglib::Attribute}}
+\doxysubsubsection{\texorpdfstring{clone()}{clone()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{classcfglib_1_1Attribute}{Attribute}} $\ast$ cfglib\+::\+Attribute\+::clone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+\mbox{\hyperlink{classcfglib_1_1Attribute}{Attribute}} cloning function. Used by attribute attachment method Set\+Attribute of class \mbox{\hyperlink{classcfglib_1_1Attributed}{Attributed}} when attaching an attribute to an object deriving from class \mbox{\hyperlink{classcfglib_1_1Attributed}{Attributed}} 
+
+Implemented in \mbox{\hyperlink{classcfglib_1_1NonSerialisableStringAttribute_a4739267b6f967524a3defe319bd0f103}{cfglib\+::\+Non\+Serialisable\+String\+Attribute}}, \mbox{\hyperlink{classcfglib_1_1NonSerialisableIntegerAttribute_ae42a93cec36bea3940c62ecfb38b26ed}{cfglib\+::\+Non\+Serialisable\+Integer\+Attribute}}, \mbox{\hyperlink{classcfglib_1_1NonSerialisableFloatAttribute_ab564f326a30c0e59482693941f8aba60}{cfglib\+::\+Non\+Serialisable\+Float\+Attribute}}, \mbox{\hyperlink{classcfglib_1_1NonSerialisableUnsignedLongAttribute_a4d80c460a1a13ea49cd8b95ba67cbb2e}{cfglib\+::\+Non\+Serialisable\+Unsigned\+Long\+Attribute}}, \mbox{\hyperlink{classcfglib_1_1SerialisableStringAttribute_a0f4f65912b6afa90cbe1e3e20d1a7155}{cfglib\+::\+Serialisable\+String\+Attribute}}, \mbox{\hyperlink{classcfglib_1_1SerialisableIntegerAttribute_a56f68c3dd8f360efe6b999a6af00402b}{cfglib\+::\+Serialisable\+Integer\+Attribute}}, \mbox{\hyperlink{classcfglib_1_1SerialisableFloatAttribute_a96160f64c32c34f250104385ca08c3ba}{cfglib\+::\+Serialisable\+Float\+Attribute}}, \mbox{\hyperlink{classcfglib_1_1SerialisableUnsignedLongAttribute_aefaf137bb949067182d2a3d612ede832}{cfglib\+::\+Serialisable\+Unsigned\+Long\+Attribute}}, and \mbox{\hyperlink{classcfglib_1_1SerialisableListAttribute_a231aff5d682faf4d21c6462b6836b7bc}{cfglib\+::\+Serialisable\+List\+Attribute}}.
+
+\mbox{\Hypertarget{classcfglib_1_1Attribute_a3c719b2cd622f74f7e0a6f26289b2058}\label{classcfglib_1_1Attribute_a3c719b2cd622f74f7e0a6f26289b2058}} 
+\index{cfglib::Attribute@{cfglib::Attribute}!clone@{clone}}
+\index{clone@{clone}!cfglib::Attribute@{cfglib::Attribute}}
+\doxysubsubsection{\texorpdfstring{clone()}{clone()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{classcfglib_1_1Attribute}{Attribute}} $\ast$ cfglib\+::\+Attribute\+::clone (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcfglib_1_1CloneHandle}{Clone\+Handle}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{classcfglib_1_1SerialisableListAttribute_a8bf7de6ffa67b4e03ae58b180a222eaf}{cfglib\+::\+Serialisable\+List\+Attribute}}.
+
+\mbox{\Hypertarget{classcfglib_1_1Attribute_af8d87ceddde146b92727e61823e0129b}\label{classcfglib_1_1Attribute_af8d87ceddde146b92727e61823e0129b}} 
+\index{cfglib::Attribute@{cfglib::Attribute}!Print@{Print}}
+\index{Print@{Print}!cfglib::Attribute@{cfglib::Attribute}}
+\doxysubsubsection{\texorpdfstring{Print()}{Print()}}
+{\footnotesize\ttfamily virtual void cfglib\+::\+Attribute\+::\+Print (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+\mbox{\hyperlink{classcfglib_1_1Attribute}{Attribute}} printing function (used for debug only) 
+
+Implemented in \mbox{\hyperlink{classcfglib_1_1SerialisableStringAttribute_a7149bb6d92d50db794bde6867cef4550}{cfglib\+::\+Serialisable\+String\+Attribute}}, \mbox{\hyperlink{classcfglib_1_1SerialisableIntegerAttribute_ad2f90817bfc2f4aa2f5be3064e19e11a}{cfglib\+::\+Serialisable\+Integer\+Attribute}}, \mbox{\hyperlink{classcfglib_1_1SerialisableFloatAttribute_af36f296204e1a8547f3fbef7ec4c23da}{cfglib\+::\+Serialisable\+Float\+Attribute}}, \mbox{\hyperlink{classcfglib_1_1SerialisableUnsignedLongAttribute_a4d53682ce58f689045c6f55a04e1c6cd}{cfglib\+::\+Serialisable\+Unsigned\+Long\+Attribute}}, \mbox{\hyperlink{classcfglib_1_1SerialisableListAttribute_a3a76c800c9ebcd084b64c1c5f049caf5}{cfglib\+::\+Serialisable\+List\+Attribute}}, \mbox{\hyperlink{classcfglib_1_1NonSerialisableStringAttribute_aedeb7ccd57b84ed2e3bcfc464038682e}{cfglib\+::\+Non\+Serialisable\+String\+Attribute}}, \mbox{\hyperlink{classcfglib_1_1NonSerialisableIntegerAttribute_ade6c5738723b606295a2cf14fe568247}{cfglib\+::\+Non\+Serialisable\+Integer\+Attribute}}, \mbox{\hyperlink{classcfglib_1_1NonSerialisableFloatAttribute_a507fc8e93b9ff7c56d483f2e51634e67}{cfglib\+::\+Non\+Serialisable\+Float\+Attribute}}, and \mbox{\hyperlink{classcfglib_1_1NonSerialisableUnsignedLongAttribute_aef0e4a5bc60b6d4f278ab2daa553f598}{cfglib\+::\+Non\+Serialisable\+Unsigned\+Long\+Attribute}}.
+
+\mbox{\Hypertarget{classcfglib_1_1Attribute_ae6e91c4069d2d54d264e25511e81d962}\label{classcfglib_1_1Attribute_ae6e91c4069d2d54d264e25511e81d962}} 
+\index{cfglib::Attribute@{cfglib::Attribute}!SetName@{SetName}}
+\index{SetName@{SetName}!cfglib::Attribute@{cfglib::Attribute}}
+\doxysubsubsection{\texorpdfstring{SetName()}{SetName()}}
+{\footnotesize\ttfamily void cfglib\+::\+Attribute\+::\+Set\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Set the unique \char`\"{}name\char`\"{} field in a list of \mbox{\hyperlink{classcfglib_1_1Attribute}{Attribute}}. This methos is called during the unserialisation process and not used otherwise 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classcfglib_1_1Attribute_a9abcd440f01bbbc57fc64f274033cd22}\label{classcfglib_1_1Attribute_a9abcd440f01bbbc57fc64f274033cd22}} 
+\index{cfglib::Attribute@{cfglib::Attribute}!name@{name}}
+\index{name@{name}!cfglib::Attribute@{cfglib::Attribute}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily std\+::string cfglib\+::\+Attribute\+::name\hspace{0.3cm}{\ttfamily [protected]}}
+
+There is only one attribute with a given name attached to an \mbox{\hyperlink{classcfglib_1_1Attributed}{Attributed}} object. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{Attributes_8h}{Attributes.\+h}}\end{DoxyCompactItemize}

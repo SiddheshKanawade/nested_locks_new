@@ -1,0 +1,55 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<h1>/data/benchmarks/fse_obstacle/fse_obstacle.c</h1> <br>
+<table border=0 cellpadding=0 cellspacing=0>
+<tr><td><h2>Frequency</h2></td><th><h2>Source</h2></th></tr><tr><td> 0</td>
+<td><tt><pre>#include <annot.h></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void ProgB ();</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>int Obstacle = 0; int Forward = 50;</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre> void ProgA (int Sensor_input){</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre> Obstacle = 0;</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre> if (Sensor_input <= 10){</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre> Obstacle = 1;</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre> Forward = -100;</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre> }</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre> }</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre> void ProgB (){</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre> if (!Obstacle){</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre> Forward = 100;</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre> }</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre> }</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre> void main(){</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre> 	ProgA(1);</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>	//ProgB();</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre> }</pre></tt></td></tr>
+</table>
+</body> </html>

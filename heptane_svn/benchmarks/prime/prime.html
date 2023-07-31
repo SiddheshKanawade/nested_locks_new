@@ -1,0 +1,254 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<h1>/data/benchmarks/prime/../ARMlib.h</h1> <br>
+<table border=0 cellpadding=0 cellspacing=0>
+<tr><td><h2>Frequency</h2></td><th><h2>Source</h2></th></tr><tr><td> 0</td>
+<td><tt><pre>/* ---------------------------------------------------------------------</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>Copyright IRISA, 2003-2017</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>This file is part of Heptane, a tool for Worst-Case Execution Time (WCET)</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>estimation.</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>APP deposit IDDN.FR.001.510039.000.S.P.2003.000.10600</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>Heptane is free software: you can redistribute it and/or modify</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>it under the terms of the GNU General Public License as published by</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>the Free Software Foundation, either version 3 of the License, or</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>(at your option) any later version.</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>Heptane is distributed in the hope that it will be useful,</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>but WITHOUT ANY WARRANTY; without even the implied warranty of</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>GNU General Public License for more details (COPYING.txt).</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>See CREDITS.txt for credits of authorship</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>------------------------------------------------------------------------ */</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>#ifndef ARM_LIB</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>#define ARM_LIB</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre> /* Fonctions de libgcc redefinies ici (functions sans retour car branchement à une adresse d'une autre fonction).*/</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>// int</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_idiv() {}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_i2d() {}</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>718 </td>
+<td><tt><pre>void __aeabi_uidivmod() {}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_fcmpge() {}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_i2f() {}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>// double</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_ddiv() {}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_dsub() {}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_dmul() {}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_dcmpge() {}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_dcmpeq() {}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_dcmpgt() {}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_dcmple(){}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_d2f(){}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_dadd() {}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_d2iz() {}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>// float</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_fcmplt(){}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_fcmpgt(){}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_fdiv(){}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_fcmpeq(){}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_fmul(){}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_fsub(){}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_f2d(){}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_fadd(){}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_ui2(){}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_ui2d(){}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_dcmpun(){}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void __aeabi_dcmplt(){}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>#endif</pre></tt></td></tr>
+</table>
+<h1>/data/benchmarks/prime/prime.c</h1> <br>
+<table border=0 cellpadding=0 cellspacing=0>
+<tr><td><h2>Frequency</h2></td><th><h2>Source</h2></th></tr><tr><td> 0</td>
+<td><tt><pre>/* MDH WCET BENCHMARK SUITE. File version $Id: prime.c,v 1.2 2005/12/09 14:52:02 jgn Exp $ */</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>#include <annot.h></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>/* Changes:</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre> * JG 2005/12/08: Prototypes added, and changed exit to retun in main.</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre> */</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>typedef  unsigned char  bool;</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>typedef  unsigned int   uint;</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>bool divides (uint n, uint m);</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>bool even (uint n);</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>bool prime (uint n);</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>void swap (uint* a, uint* b);</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>718 </td>
+<td><tt><pre>bool divides (uint n, uint m) {</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>718 </td>
+<td><tt><pre>  return (m % n == 0);</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>718 </td>
+<td><tt><pre>}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>2 </td>
+<td><tt><pre>bool even (uint n) {</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>2 </td>
+<td><tt><pre>  return (divides (2, n));</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>2 </td>
+<td><tt><pre>}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>2 </td>
+<td><tt><pre>bool prime (uint n) {</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>  uint i;</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>2 </td>
+<td><tt><pre>  if (even (n))</pre></tt></td></tr>
+<tr> <td>0 </td>
+<td><tt><pre>      return (n == 2);</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>2 716 718 </td>
+<td><tt><pre>  for (i = 3; i * i <= n; i += 2) { </pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>    ANNOT_MAXITER(358);</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>716 </td>
+<td><tt><pre>    if (divides (i, n)) /* ai: loop here min 0 max 357 end; */</pre></tt></td></tr>
+<tr> <td>0 </td>
+<td><tt><pre>      return 0; </pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>  }</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>2 </td>
+<td><tt><pre>  return (n > 1);</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>2 </td>
+<td><tt><pre>}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre>void swap (uint* a, uint* b) {</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre>  uint tmp = *a;</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre>  *a = *b; </pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre>  *b = tmp;</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre>}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre>int main () {</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>  //char str6 ;</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre>  int i = 0;</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>  //str6 = "Sonar";</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 6 </td>
+<td><tt><pre>  while (i<5) {</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>    ANNOT_MAXITER(5);</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>5 </td>
+<td><tt><pre>   i++;</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre>  }</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre>  uint x =  21649;</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre>  uint y = 513239;</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre>  swap (&x, &y);</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 0 </td>
+<td><tt><pre>  return (!(prime(x) && prime(y)));</pre></tt></td></tr>
+<tr bgcolor="lightgreen"> <td>1 </td>
+<td><tt><pre>}</pre></tt></td></tr>
+<tr><td> 0</td>
+<td><tt><pre></pre></tt></td></tr>
+</table>
+</body> </html>

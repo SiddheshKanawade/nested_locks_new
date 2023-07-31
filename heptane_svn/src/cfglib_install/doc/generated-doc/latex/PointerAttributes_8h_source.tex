@@ -1,0 +1,130 @@
+\hypertarget{PointerAttributes_8h_source}{}\doxysection{Pointer\+Attributes.\+h}
+\label{PointerAttributes_8h_source}\index{include/PointerAttributes.h@{include/PointerAttributes.h}}
+\mbox{\hyperlink{PointerAttributes_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{/* -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{2 \textcolor{comment}{}}
+\DoxyCodeLine{3 \textcolor{comment}{   Copyright IRISA, 2003-\/2017}}
+\DoxyCodeLine{4 \textcolor{comment}{}}
+\DoxyCodeLine{5 \textcolor{comment}{   This file is part of Heptane, a tool for Worst-\/Case Execution Time (WCET)}}
+\DoxyCodeLine{6 \textcolor{comment}{   estimation.}}
+\DoxyCodeLine{7 \textcolor{comment}{   APP deposit IDDN.FR.001.510039.000.S.P.2003.000.10600}}
+\DoxyCodeLine{8 \textcolor{comment}{}}
+\DoxyCodeLine{9 \textcolor{comment}{   Heptane is free software: you can redistribute it and/or modify}}
+\DoxyCodeLine{10 \textcolor{comment}{   it under the terms of the GNU General Public License as published by}}
+\DoxyCodeLine{11 \textcolor{comment}{   the Free Software Foundation, either version 3 of the License, or}}
+\DoxyCodeLine{12 \textcolor{comment}{   (at your option) any later version.}}
+\DoxyCodeLine{13 \textcolor{comment}{}}
+\DoxyCodeLine{14 \textcolor{comment}{   Heptane is distributed in the hope that it will be useful,}}
+\DoxyCodeLine{15 \textcolor{comment}{   but WITHOUT ANY WARRANTY; without even the implied warranty of}}
+\DoxyCodeLine{16 \textcolor{comment}{   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the}}
+\DoxyCodeLine{17 \textcolor{comment}{   GNU General Public License for more details (COPYING.txt).}}
+\DoxyCodeLine{18 \textcolor{comment}{}}
+\DoxyCodeLine{19 \textcolor{comment}{   See CREDITS.txt for credits of authorship}}
+\DoxyCodeLine{20 \textcolor{comment}{}}
+\DoxyCodeLine{21 \textcolor{comment}{   -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/ */}}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#ifndef \_IRISA\_CFGLIB\_PTR\_ATTRIBUTES\_H}}
+\DoxyCodeLine{24 \textcolor{preprocessor}{\#define \_IRISA\_CFGLIB\_PTR\_ATTRIBUTES\_H}}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#include <cassert>}}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{Attributes_8h}{Attributes.h}}"{}}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{CloneHandle_8h}{CloneHandle.h}}"{}}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{Handle_8h}{Handle.h}}"{}}}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{SerialisableAttributes_8h}{SerialisableAttributes.h}}"{}}}
+\DoxyCodeLine{32 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{XmlExtra_8h}{XmlExtra.h}}"{}}}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#define REGISTER\_POINTER\_ATTRIBUTE(TYPE, ATTR\_NAME) SetAttributeType(\#TYPE, new ATTR\_NAME())}}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36 \textcolor{preprocessor}{\#define DECLARE\_POINTER\_ATTRIBUTE(TYPE, ATTR\_NAME)  \(\backslash\)}}
+\DoxyCodeLine{37 \textcolor{preprocessor}{  class TYPE;                       \(\backslash\)}}
+\DoxyCodeLine{38 \textcolor{preprocessor}{  class ATTR\_NAME : public SerialisableAttribute \{  \(\backslash\)}}
+\DoxyCodeLine{39 \textcolor{preprocessor}{  private:                      \(\backslash\)}}
+\DoxyCodeLine{40 \textcolor{preprocessor}{    TYPE** ptr;                     \(\backslash\)}}
+\DoxyCodeLine{41 \textcolor{preprocessor}{  public:                       \(\backslash\)}}
+\DoxyCodeLine{42 \textcolor{preprocessor}{    ATTR\_NAME();                    \(\backslash\)}}
+\DoxyCodeLine{43 \textcolor{preprocessor}{    ATTR\_NAME(TYPE* ptr);               \(\backslash\)}}
+\DoxyCodeLine{44 \textcolor{preprocessor}{    \string~ATTR\_NAME();                   \(\backslash\)}}
+\DoxyCodeLine{45 \textcolor{preprocessor}{                            \(\backslash\)}}
+\DoxyCodeLine{46 \textcolor{preprocessor}{    ATTR\_NAME* clone();                 \(\backslash\)}}
+\DoxyCodeLine{47 \textcolor{preprocessor}{    ATTR\_NAME* clone(CloneHandle\&);         \(\backslash\)}}
+\DoxyCodeLine{48 \textcolor{preprocessor}{                            \(\backslash\)}}
+\DoxyCodeLine{49 \textcolor{preprocessor}{    void Print(std::ostream\&);              \(\backslash\)}}
+\DoxyCodeLine{50 \textcolor{preprocessor}{                            \(\backslash\)}}
+\DoxyCodeLine{51 \textcolor{preprocessor}{    std::ostream\& WriteXml(std::ostream\&,Handle\&);  \(\backslash\)}}
+\DoxyCodeLine{52 \textcolor{preprocessor}{                            \(\backslash\)}}
+\DoxyCodeLine{53 \textcolor{preprocessor}{    void ReadXml(XmlTag const*, Handle\&);       \(\backslash\)}}
+\DoxyCodeLine{54 \textcolor{preprocessor}{                            \(\backslash\)}}
+\DoxyCodeLine{55 \textcolor{preprocessor}{    TYPE* GetValue() const;             \(\backslash\)}}
+\DoxyCodeLine{56 \textcolor{preprocessor}{                            \(\backslash\)}}
+\DoxyCodeLine{57 \textcolor{preprocessor}{    void SetValue(TYPE* ptr);               \(\backslash\)}}
+\DoxyCodeLine{58 \textcolor{preprocessor}{                            \(\backslash\)}}
+\DoxyCodeLine{59 \textcolor{preprocessor}{    ATTR\_NAME* create();                \(\backslash\)}}
+\DoxyCodeLine{60 \textcolor{preprocessor}{  \}}}
+\DoxyCodeLine{61 }
+\DoxyCodeLine{62 \textcolor{preprocessor}{\#define IMPLEMENT\_POINTER\_ATTRIBUTE(TYPE, ATTR\_NAME)            \(\backslash\)}}
+\DoxyCodeLine{63 \textcolor{preprocessor}{  namespace cfglib\{                         \(\backslash\)}}
+\DoxyCodeLine{64 \textcolor{preprocessor}{    ATTR\_NAME::ATTR\_NAME() : ptr (new TYPE*(0)) \{\}          \(\backslash\)}}
+\DoxyCodeLine{65 \textcolor{preprocessor}{    ATTR\_NAME::ATTR\_NAME(TYPE* ptr): ptr (new TYPE*(ptr)) \{\}        \(\backslash\)}}
+\DoxyCodeLine{66 \textcolor{preprocessor}{    ATTR\_NAME::\string~ATTR\_NAME() \{delete ptr;\}               \(\backslash\)}}
+\DoxyCodeLine{67 \textcolor{preprocessor}{    ATTR\_NAME* ATTR\_NAME::clone() \{                 \(\backslash\)}}
+\DoxyCodeLine{68 \textcolor{preprocessor}{      ATTR\_NAME* clone =                        \(\backslash\)}}
+\DoxyCodeLine{69 \textcolor{preprocessor}{    new ATTR\_NAME(*(this-\/>ptr));                    \(\backslash\)}}
+\DoxyCodeLine{70 \textcolor{preprocessor}{      swap (clone-\/>ptr, this-\/>ptr);                 \(\backslash\)}}
+\DoxyCodeLine{71 \textcolor{preprocessor}{      return clone;                         \(\backslash\)}}
+\DoxyCodeLine{72 \textcolor{preprocessor}{    \}                                   \(\backslash\)}}
+\DoxyCodeLine{73 \textcolor{preprocessor}{    ATTR\_NAME* ATTR\_NAME::clone(CloneHandle\& handle) \{          \(\backslash\)}}
+\DoxyCodeLine{74 \textcolor{preprocessor}{      ATTR\_NAME* clone =                        \(\backslash\)}}
+\DoxyCodeLine{75 \textcolor{preprocessor}{    new ATTR\_NAME();                        \(\backslash\)}}
+\DoxyCodeLine{76 \textcolor{preprocessor}{      handle.ResolveClone (this-\/>GetValue(), (void**) clone-\/>ptr);  \(\backslash\)}}
+\DoxyCodeLine{77 \textcolor{preprocessor}{      return clone;                         \(\backslash\)}}
+\DoxyCodeLine{78 \textcolor{preprocessor}{    \}                                   \(\backslash\)}}
+\DoxyCodeLine{79 \textcolor{preprocessor}{    void ATTR\_NAME::Print(std::ostream\& os) \{               \(\backslash\)}}
+\DoxyCodeLine{80 \textcolor{preprocessor}{      os << "{}("{}} << \#ATTR\_NAME << "{}, "{} << *ptr << "{})"{} << std::endl;  \(\backslash\)}
+\DoxyCodeLine{81     \}                                   \(\backslash\)}
+\DoxyCodeLine{82     std::ostream\& ATTR\_NAME::WriteXml(std::ostream\& os,         \(\backslash\)}
+\DoxyCodeLine{83                       Handle\& handle)   \(\backslash\)}
+\DoxyCodeLine{84       \{                                 \(\backslash\)}
+\DoxyCodeLine{85     assert (*ptr);                          \(\backslash\)}
+\DoxyCodeLine{86     os << "{}<ATTR type=\(\backslash\)"{}"{} << \#TYPE << "{}\(\backslash\)"{} name=\(\backslash\)"{}"{} << this-\/>name << "{}\(\backslash\)"{} "{}; \(\backslash\)}
+\DoxyCodeLine{87     os << "{}ptr\_id=\(\backslash\)"{}"{} << handle.identify ((Serialisable*)*(ptr)) << "{}\(\backslash\)"{} />"{} << std::endl; \(\backslash\)}
+\DoxyCodeLine{88     return os;                          \(\backslash\)}
+\DoxyCodeLine{89       \}                                 \(\backslash\)}
+\DoxyCodeLine{90     void ATTR\_NAME::ReadXml(XmlTag const* tag, Handle\& handle) \{    \(\backslash\)}
+\DoxyCodeLine{91       assert(ptr);                          \(\backslash\)}
+\DoxyCodeLine{92       string name = tag-\/>getAttributeString(std::string("{}name"{}));   \(\backslash\)}
+\DoxyCodeLine{93       this-\/>name = name;                        \(\backslash\)}
+\DoxyCodeLine{94                                     \(\backslash\)}
+\DoxyCodeLine{95       string nid = tag-\/>getAttributeString(std::string("{}ptr\_id"{}));  \(\backslash\)}
+\DoxyCodeLine{96       handle.addID\_handle (nid, (Serialisable**)ptr);           \(\backslash\)}
+\DoxyCodeLine{97     \}                                   \(\backslash\)}
+\DoxyCodeLine{98     TYPE* ATTR\_NAME::GetValue() const                   \(\backslash\)}
+\DoxyCodeLine{99       \{                                 \(\backslash\)}
+\DoxyCodeLine{100     assert (ptr);                           \(\backslash\)}
+\DoxyCodeLine{101     if (*ptr) return *ptr;                      \(\backslash\)}
+\DoxyCodeLine{102     else return NULL;                       \(\backslash\)}
+\DoxyCodeLine{103       \}                                 \(\backslash\)}
+\DoxyCodeLine{104     void ATTR\_NAME::SetValue(TYPE* ptr)                 \(\backslash\)}
+\DoxyCodeLine{105     \{                                   \(\backslash\)}
+\DoxyCodeLine{106       *(this-\/>ptr) = ptr;                       \(\backslash\)}
+\DoxyCodeLine{107     \}                                   \(\backslash\)}
+\DoxyCodeLine{108     ATTR\_NAME* ATTR\_NAME::create()                  \(\backslash\)}
+\DoxyCodeLine{109       \{                                 \(\backslash\)}
+\DoxyCodeLine{110     return new ATTR\_NAME();                     \(\backslash\)}
+\DoxyCodeLine{111       \}                                 \(\backslash\)}
+\DoxyCodeLine{112   \}}
+\DoxyCodeLine{113 }
+\DoxyCodeLine{114 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespacecfglib}{cfglib}}}
+\DoxyCodeLine{115 \{}
+\DoxyCodeLine{116 }
+\DoxyCodeLine{117   \mbox{\hyperlink{namespacecfglib_a674d879c9644754a4e9820440641977b}{DECLARE\_POINTER\_ATTRIBUTE}}(\mbox{\hyperlink{classcfglib_1_1Cfg}{Cfg}}, SerialisableCfgAttribute);}
+\DoxyCodeLine{118   \mbox{\hyperlink{namespacecfglib_a674d879c9644754a4e9820440641977b}{DECLARE\_POINTER\_ATTRIBUTE}}(\mbox{\hyperlink{classcfglib_1_1Node}{Node}}, SerialisableNodeAttribute);}
+\DoxyCodeLine{119   \mbox{\hyperlink{namespacecfglib_a674d879c9644754a4e9820440641977b}{DECLARE\_POINTER\_ATTRIBUTE}}(\mbox{\hyperlink{classcfglib_1_1Instruction}{Instruction}}, SerialisableInstructionAttribute);}
+\DoxyCodeLine{120   \mbox{\hyperlink{namespacecfglib_a674d879c9644754a4e9820440641977b}{DECLARE\_POINTER\_ATTRIBUTE}}(\mbox{\hyperlink{classcfglib_1_1Loop}{Loop}}, SerialisableLoopAttribute);}
+\DoxyCodeLine{121 }
+\DoxyCodeLine{122 \}}
+\DoxyCodeLine{123 }
+\DoxyCodeLine{124 \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

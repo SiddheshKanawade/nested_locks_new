@@ -1,0 +1,4784 @@
+"src/ocamlutil/inthash.ml" 10 258 262 "src/ocamlutil/inthash.ml" 10 258 266
+type(
+  int -> int
+)
+ident(
+  def hash "src/ocamlutil/inthash.ml" 12 294 294 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 10 258 267 "src/ocamlutil/inthash.ml" 10 258 270
+type(
+  int
+)
+ident(
+  def key "src/ocamlutil/inthash.ml" 10 258 273 "src/ocamlutil/inthash.ml" 10 258 292
+)
+"src/ocamlutil/inthash.ml" 10 258 273 "src/ocamlutil/inthash.ml" 10 258 276
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 10 258 267 "src/ocamlutil/inthash.ml" 10 258 270
+)
+"src/ocamlutil/inthash.ml" 10 258 277 "src/ocamlutil/inthash.ml" 10 258 281
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( land )
+)
+"src/ocamlutil/inthash.ml" 10 258 282 "src/ocamlutil/inthash.ml" 10 258 292
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 10 258 273 "src/ocamlutil/inthash.ml" 10 258 292
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 12 294 298 "src/ocamlutil/inthash.ml" 12 294 304
+type(
+  int -> 'a t
+)
+ident(
+  def create "src/ocamlutil/inthash.ml" 16 422 422 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 12 294 305 "src/ocamlutil/inthash.ml" 12 294 317
+type(
+  int
+)
+ident(
+  def initial_size "src/ocamlutil/inthash.ml" 13 320 322 "src/ocamlutil/inthash.ml" 14 379 420
+)
+"src/ocamlutil/inthash.ml" 13 320 326 "src/ocamlutil/inthash.ml" 13 320 327
+type(
+  int
+)
+ident(
+  def s "src/ocamlutil/inthash.ml" 14 379 381 "src/ocamlutil/inthash.ml" 14 379 420
+)
+"src/ocamlutil/inthash.ml" 13 320 330 "src/ocamlutil/inthash.ml" 13 320 333
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"src/ocamlutil/inthash.ml" 13 320 335 "src/ocamlutil/inthash.ml" 13 320 338
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"src/ocamlutil/inthash.ml" 13 320 339 "src/ocamlutil/inthash.ml" 13 320 340
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 13 320 341 "src/ocamlutil/inthash.ml" 13 320 353
+type(
+  int
+)
+ident(
+  int_ref initial_size "src/ocamlutil/inthash.ml" 12 294 305 "src/ocamlutil/inthash.ml" 12 294 317
+)
+"src/ocamlutil/inthash.ml" 13 320 334 "src/ocamlutil/inthash.ml" 13 320 354
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 13 320 355 "src/ocamlutil/inthash.ml" 13 320 375
+type(
+  int
+)
+ident(
+  ext_ref Sys.max_array_length
+)
+"src/ocamlutil/inthash.ml" 13 320 330 "src/ocamlutil/inthash.ml" 13 320 375
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 14 379 390 "src/ocamlutil/inthash.ml" 14 379 391
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 14 379 400 "src/ocamlutil/inthash.ml" 14 379 410
+type(
+  int -> 'a bucketlist -> 'a bucketlist array
+)
+ident(
+  ext_ref Array.make
+)
+"src/ocamlutil/inthash.ml" 14 379 411 "src/ocamlutil/inthash.ml" 14 379 412
+type(
+  int
+)
+ident(
+  int_ref s "src/ocamlutil/inthash.ml" 13 320 326 "src/ocamlutil/inthash.ml" 13 320 327
+)
+"src/ocamlutil/inthash.ml" 14 379 413 "src/ocamlutil/inthash.ml" 14 379 418
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 14 379 400 "src/ocamlutil/inthash.ml" 14 379 418
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 14 379 381 "src/ocamlutil/inthash.ml" 14 379 420
+type(
+  'a t
+)
+"src/ocamlutil/inthash.ml" 13 320 322 "src/ocamlutil/inthash.ml" 14 379 420
+type(
+  'a t
+)
+"src/ocamlutil/inthash.ml" 16 422 426 "src/ocamlutil/inthash.ml" 16 422 431
+type(
+  'a t -> unit
+)
+ident(
+  def clear "src/ocamlutil/inthash.ml" 22 525 525 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 16 422 432 "src/ocamlutil/inthash.ml" 16 422 433
+type(
+  'a t
+)
+ident(
+  def h "src/ocamlutil/inthash.ml" 17 436 438 "src/ocamlutil/inthash.ml" 20 510 523
+)
+"src/ocamlutil/inthash.ml" 17 436 446 "src/ocamlutil/inthash.ml" 17 436 447
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 17 436 451 "src/ocamlutil/inthash.ml" 17 436 463
+type(
+  'a bucketlist array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/ocamlutil/inthash.ml" 17 436 464 "src/ocamlutil/inthash.ml" 17 436 465
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 16 422 432 "src/ocamlutil/inthash.ml" 16 422 433
+)
+"src/ocamlutil/inthash.ml" 17 436 464 "src/ocamlutil/inthash.ml" 17 436 470
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 17 436 451 "src/ocamlutil/inthash.ml" 17 436 470
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 17 436 471 "src/ocamlutil/inthash.ml" 17 436 472
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/inthash.ml" 17 436 473 "src/ocamlutil/inthash.ml" 17 436 474
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 17 436 451 "src/ocamlutil/inthash.ml" 17 436 474
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 18 478 482 "src/ocamlutil/inthash.ml" 18 478 483
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 16 422 432 "src/ocamlutil/inthash.ml" 16 422 433
+)
+"src/ocamlutil/inthash.ml" 18 478 482 "src/ocamlutil/inthash.ml" 18 478 488
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 18 478 490 "src/ocamlutil/inthash.ml" 18 478 491
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 17 436 438 "src/ocamlutil/inthash.ml" 19 502 508
+)
+"src/ocamlutil/inthash.ml" 18 478 496 "src/ocamlutil/inthash.ml" 18 478 501
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 18 478 482 "src/ocamlutil/inthash.ml" 18 478 501
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 17 436 438 "src/ocamlutil/inthash.ml" 19 502 508
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 20 510 512 "src/ocamlutil/inthash.ml" 20 510 513
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 16 422 432 "src/ocamlutil/inthash.ml" 16 422 433
+)
+"src/ocamlutil/inthash.ml" 20 510 522 "src/ocamlutil/inthash.ml" 20 510 523
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 20 510 512 "src/ocamlutil/inthash.ml" 20 510 523
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 17 436 438 "src/ocamlutil/inthash.ml" 20 510 523
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 22 525 529 "src/ocamlutil/inthash.ml" 22 525 533
+type(
+  'a t -> 'a t
+)
+ident(
+  def copy "src/ocamlutil/inthash.ml" 26 589 589 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 22 525 534 "src/ocamlutil/inthash.ml" 22 525 535
+type(
+  'a t
+)
+ident(
+  def h "src/ocamlutil/inthash.ml" 23 538 540 "src/ocamlutil/inthash.ml" 24 557 587
+)
+"src/ocamlutil/inthash.ml" 23 538 549 "src/ocamlutil/inthash.ml" 23 538 550
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 22 525 534 "src/ocamlutil/inthash.ml" 22 525 535
+)
+"src/ocamlutil/inthash.ml" 23 538 549 "src/ocamlutil/inthash.ml" 23 538 555
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 24 557 568 "src/ocamlutil/inthash.ml" 24 557 578
+type(
+  'a bucketlist array -> 'a bucketlist array
+)
+ident(
+  ext_ref Array.copy
+)
+"src/ocamlutil/inthash.ml" 24 557 579 "src/ocamlutil/inthash.ml" 24 557 580
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 22 525 534 "src/ocamlutil/inthash.ml" 22 525 535
+)
+"src/ocamlutil/inthash.ml" 24 557 579 "src/ocamlutil/inthash.ml" 24 557 585
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 24 557 568 "src/ocamlutil/inthash.ml" 24 557 585
+call(
+  stack
+)
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 23 538 540 "src/ocamlutil/inthash.ml" 24 557 587
+type(
+  'a t
+)
+"src/ocamlutil/inthash.ml" 26 589 593 "src/ocamlutil/inthash.ml" 26 589 602
+type(
+  'a t -> 'a t -> unit
+)
+ident(
+  def copy_into "src/ocamlutil/inthash.ml" 30 676 676 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 26 589 603 "src/ocamlutil/inthash.ml" 26 589 606
+type(
+  'a t
+)
+ident(
+  def src "src/ocamlutil/inthash.ml" 26 589 607 "src/ocamlutil/inthash.ml" 28 640 674
+)
+"src/ocamlutil/inthash.ml" 26 589 607 "src/ocamlutil/inthash.ml" 26 589 611
+type(
+  'a t
+)
+ident(
+  def dest "src/ocamlutil/inthash.ml" 27 615 617 "src/ocamlutil/inthash.ml" 28 640 674
+)
+"src/ocamlutil/inthash.ml" 27 615 617 "src/ocamlutil/inthash.ml" 27 615 621
+type(
+  'a t
+)
+ident(
+  int_ref dest "src/ocamlutil/inthash.ml" 26 589 607 "src/ocamlutil/inthash.ml" 26 589 611
+)
+"src/ocamlutil/inthash.ml" 27 615 630 "src/ocamlutil/inthash.ml" 27 615 633
+type(
+  'a t
+)
+ident(
+  int_ref src "src/ocamlutil/inthash.ml" 26 589 603 "src/ocamlutil/inthash.ml" 26 589 606
+)
+"src/ocamlutil/inthash.ml" 27 615 630 "src/ocamlutil/inthash.ml" 27 615 638
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 27 615 617 "src/ocamlutil/inthash.ml" 27 615 638
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 28 640 642 "src/ocamlutil/inthash.ml" 28 640 646
+type(
+  'a t
+)
+ident(
+  int_ref dest "src/ocamlutil/inthash.ml" 26 589 607 "src/ocamlutil/inthash.ml" 26 589 611
+)
+"src/ocamlutil/inthash.ml" 28 640 655 "src/ocamlutil/inthash.ml" 28 640 665
+type(
+  'a bucketlist array -> 'a bucketlist array
+)
+ident(
+  ext_ref Array.copy
+)
+"src/ocamlutil/inthash.ml" 28 640 666 "src/ocamlutil/inthash.ml" 28 640 669
+type(
+  'a t
+)
+ident(
+  int_ref src "src/ocamlutil/inthash.ml" 26 589 603 "src/ocamlutil/inthash.ml" 26 589 606
+)
+"src/ocamlutil/inthash.ml" 28 640 666 "src/ocamlutil/inthash.ml" 28 640 674
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 28 640 655 "src/ocamlutil/inthash.ml" 28 640 674
+call(
+  stack
+)
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 28 640 642 "src/ocamlutil/inthash.ml" 28 640 674
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 27 615 617 "src/ocamlutil/inthash.ml" 28 640 674
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 30 676 680 "src/ocamlutil/inthash.ml" 30 676 686
+type(
+  'a t -> int
+)
+ident(
+  def length "src/ocamlutil/inthash.ml" 32 699 699 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 30 676 687 "src/ocamlutil/inthash.ml" 30 676 688
+type(
+  'a t
+)
+ident(
+  def h "src/ocamlutil/inthash.ml" 30 676 691 "src/ocamlutil/inthash.ml" 30 676 697
+)
+"src/ocamlutil/inthash.ml" 30 676 691 "src/ocamlutil/inthash.ml" 30 676 692
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 30 676 687 "src/ocamlutil/inthash.ml" 30 676 688
+)
+"src/ocamlutil/inthash.ml" 30 676 691 "src/ocamlutil/inthash.ml" 30 676 697
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 32 699 703 "src/ocamlutil/inthash.ml" 32 699 709
+type(
+  'a t -> unit
+)
+ident(
+  def resize "src/ocamlutil/inthash.ml" 50 1277 1277 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 32 699 710 "src/ocamlutil/inthash.ml" 32 699 713
+type(
+  'a t
+)
+ident(
+  def tbl "src/ocamlutil/inthash.ml" 33 716 718 "src/ocamlutil/inthash.ml" 48 1270 1275
+)
+"src/ocamlutil/inthash.ml" 33 716 722 "src/ocamlutil/inthash.ml" 33 716 727
+type(
+  'a bucketlist array
+)
+ident(
+  def odata "src/ocamlutil/inthash.ml" 34 742 744 "src/ocamlutil/inthash.ml" 48 1270 1275
+)
+"src/ocamlutil/inthash.ml" 33 716 730 "src/ocamlutil/inthash.ml" 33 716 733
+type(
+  'a t
+)
+ident(
+  int_ref tbl "src/ocamlutil/inthash.ml" 32 699 710 "src/ocamlutil/inthash.ml" 32 699 713
+)
+"src/ocamlutil/inthash.ml" 33 716 730 "src/ocamlutil/inthash.ml" 33 716 738
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 34 742 748 "src/ocamlutil/inthash.ml" 34 742 753
+type(
+  int
+)
+ident(
+  def osize "src/ocamlutil/inthash.ml" 35 778 780 "src/ocamlutil/inthash.ml" 48 1270 1275
+)
+"src/ocamlutil/inthash.ml" 34 742 756 "src/ocamlutil/inthash.ml" 34 742 768
+type(
+  'a bucketlist array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/ocamlutil/inthash.ml" 34 742 769 "src/ocamlutil/inthash.ml" 34 742 774
+type(
+  'a bucketlist array
+)
+ident(
+  int_ref odata "src/ocamlutil/inthash.ml" 33 716 722 "src/ocamlutil/inthash.ml" 33 716 727
+)
+"src/ocamlutil/inthash.ml" 34 742 756 "src/ocamlutil/inthash.ml" 34 742 774
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 35 778 784 "src/ocamlutil/inthash.ml" 35 778 789
+type(
+  int
+)
+ident(
+  def nsize "src/ocamlutil/inthash.ml" 36 836 838 "src/ocamlutil/inthash.ml" 48 1270 1275
+)
+"src/ocamlutil/inthash.ml" 35 778 792 "src/ocamlutil/inthash.ml" 35 778 795
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"src/ocamlutil/inthash.ml" 35 778 797 "src/ocamlutil/inthash.ml" 35 778 798
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 35 778 799 "src/ocamlutil/inthash.ml" 35 778 800
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"src/ocamlutil/inthash.ml" 35 778 801 "src/ocamlutil/inthash.ml" 35 778 806
+type(
+  int
+)
+ident(
+  int_ref osize "src/ocamlutil/inthash.ml" 34 742 748 "src/ocamlutil/inthash.ml" 34 742 753
+)
+"src/ocamlutil/inthash.ml" 35 778 797 "src/ocamlutil/inthash.ml" 35 778 806
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 35 778 807 "src/ocamlutil/inthash.ml" 35 778 808
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/ocamlutil/inthash.ml" 35 778 809 "src/ocamlutil/inthash.ml" 35 778 810
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 35 778 796 "src/ocamlutil/inthash.ml" 35 778 811
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 35 778 812 "src/ocamlutil/inthash.ml" 35 778 832
+type(
+  int
+)
+ident(
+  ext_ref Sys.max_array_length
+)
+"src/ocamlutil/inthash.ml" 35 778 792 "src/ocamlutil/inthash.ml" 35 778 832
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 36 836 841 "src/ocamlutil/inthash.ml" 36 836 846
+type(
+  int
+)
+ident(
+  int_ref nsize "src/ocamlutil/inthash.ml" 35 778 784 "src/ocamlutil/inthash.ml" 35 778 789
+)
+"src/ocamlutil/inthash.ml" 36 836 847 "src/ocamlutil/inthash.ml" 36 836 849
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"src/ocamlutil/inthash.ml" 36 836 850 "src/ocamlutil/inthash.ml" 36 836 855
+type(
+  int
+)
+ident(
+  int_ref osize "src/ocamlutil/inthash.ml" 34 742 748 "src/ocamlutil/inthash.ml" 34 742 753
+)
+"src/ocamlutil/inthash.ml" 36 836 841 "src/ocamlutil/inthash.ml" 36 836 855
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 37 867 875 "src/ocamlutil/inthash.ml" 37 867 880
+type(
+  'a bucketlist array
+)
+ident(
+  def ndata "src/ocamlutil/inthash.ml" 38 911 915 "src/ocamlutil/inthash.ml" 47 1247 1269
+)
+"src/ocamlutil/inthash.ml" 37 867 883 "src/ocamlutil/inthash.ml" 37 867 895
+type(
+  int -> 'a bucketlist -> 'a bucketlist array
+)
+ident(
+  ext_ref Array.create
+)
+"src/ocamlutil/inthash.ml" 37 867 896 "src/ocamlutil/inthash.ml" 37 867 901
+type(
+  int
+)
+ident(
+  int_ref nsize "src/ocamlutil/inthash.ml" 35 778 784 "src/ocamlutil/inthash.ml" 35 778 789
+)
+"src/ocamlutil/inthash.ml" 37 867 902 "src/ocamlutil/inthash.ml" 37 867 907
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 37 867 883 "src/ocamlutil/inthash.ml" 37 867 907
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 38 911 923 "src/ocamlutil/inthash.ml" 38 911 936
+type(
+  'a bucketlist -> unit
+)
+ident(
+  def insert_bucket "src/ocamlutil/inthash.ml" 38 911 915 "src/ocamlutil/inthash.ml" 47 1247 1269
+)
+"src/ocamlutil/inthash.ml" 39 948 956 "src/ocamlutil/inthash.ml" 39 948 961
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 39 948 965 "src/ocamlutil/inthash.ml" 39 948 967
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 40 968 981 "src/ocamlutil/inthash.ml" 40 968 984
+type(
+  int
+)
+ident(
+  def key "src/ocamlutil/inthash.ml" 41 1001 1011 "src/ocamlutil/inthash.ml" 43 1118 1173
+)
+"src/ocamlutil/inthash.ml" 40 968 986 "src/ocamlutil/inthash.ml" 40 968 990
+type(
+  'a
+)
+ident(
+  def data "src/ocamlutil/inthash.ml" 41 1001 1011 "src/ocamlutil/inthash.ml" 43 1118 1173
+)
+"src/ocamlutil/inthash.ml" 40 968 992 "src/ocamlutil/inthash.ml" 40 968 996
+type(
+  'a bucketlist
+)
+ident(
+  def rest "src/ocamlutil/inthash.ml" 41 1001 1011 "src/ocamlutil/inthash.ml" 43 1118 1173
+)
+"src/ocamlutil/inthash.ml" 40 968 976 "src/ocamlutil/inthash.ml" 40 968 997
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 41 1001 1011 "src/ocamlutil/inthash.ml" 41 1001 1024
+type(
+  'a bucketlist -> unit
+)
+ident(
+  int_ref insert_bucket "src/ocamlutil/inthash.ml" 38 911 923 "src/ocamlutil/inthash.ml" 38 911 936
+)
+"src/ocamlutil/inthash.ml" 41 1001 1025 "src/ocamlutil/inthash.ml" 41 1001 1029
+type(
+  'a bucketlist
+)
+ident(
+  int_ref rest "src/ocamlutil/inthash.ml" 40 968 992 "src/ocamlutil/inthash.ml" 40 968 996
+)
+"src/ocamlutil/inthash.ml" 41 1001 1011 "src/ocamlutil/inthash.ml" 41 1001 1029
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 42 1073 1087 "src/ocamlutil/inthash.ml" 42 1073 1091
+type(
+  int
+)
+ident(
+  def nidx "src/ocamlutil/inthash.ml" 43 1118 1128 "src/ocamlutil/inthash.ml" 43 1118 1173
+)
+"src/ocamlutil/inthash.ml" 42 1073 1095 "src/ocamlutil/inthash.ml" 42 1073 1099
+type(
+  int -> int
+)
+ident(
+  int_ref hash "src/ocamlutil/inthash.ml" 10 258 262 "src/ocamlutil/inthash.ml" 10 258 266
+)
+"src/ocamlutil/inthash.ml" 42 1073 1100 "src/ocamlutil/inthash.ml" 42 1073 1103
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 40 968 981 "src/ocamlutil/inthash.ml" 40 968 984
+)
+"src/ocamlutil/inthash.ml" 42 1073 1094 "src/ocamlutil/inthash.ml" 42 1073 1104
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 42 1073 1105 "src/ocamlutil/inthash.ml" 42 1073 1108
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/ocamlutil/inthash.ml" 42 1073 1109 "src/ocamlutil/inthash.ml" 42 1073 1114
+type(
+  int
+)
+ident(
+  int_ref nsize "src/ocamlutil/inthash.ml" 35 778 784 "src/ocamlutil/inthash.ml" 35 778 789
+)
+"src/ocamlutil/inthash.ml" 42 1073 1094 "src/ocamlutil/inthash.ml" 42 1073 1114
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 43 1118 1128 "src/ocamlutil/inthash.ml" 43 1118 1133
+type(
+  'a bucketlist array
+)
+ident(
+  int_ref ndata "src/ocamlutil/inthash.ml" 37 867 875 "src/ocamlutil/inthash.ml" 37 867 880
+)
+"src/ocamlutil/inthash.ml" 43 1118 1135 "src/ocamlutil/inthash.ml" 43 1118 1139
+type(
+  int
+)
+ident(
+  int_ref nidx "src/ocamlutil/inthash.ml" 42 1073 1087 "src/ocamlutil/inthash.ml" 42 1073 1091
+)
+"src/ocamlutil/inthash.ml" 43 1118 1149 "src/ocamlutil/inthash.ml" 43 1118 1152
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 40 968 981 "src/ocamlutil/inthash.ml" 40 968 984
+)
+"src/ocamlutil/inthash.ml" 43 1118 1154 "src/ocamlutil/inthash.ml" 43 1118 1158
+type(
+  'a
+)
+ident(
+  int_ref data "src/ocamlutil/inthash.ml" 40 968 986 "src/ocamlutil/inthash.ml" 40 968 990
+)
+"src/ocamlutil/inthash.ml" 43 1118 1160 "src/ocamlutil/inthash.ml" 43 1118 1165
+type(
+  'a bucketlist array
+)
+ident(
+  int_ref ndata "src/ocamlutil/inthash.ml" 37 867 875 "src/ocamlutil/inthash.ml" 37 867 880
+)
+"src/ocamlutil/inthash.ml" 43 1118 1167 "src/ocamlutil/inthash.ml" 43 1118 1171
+type(
+  int
+)
+ident(
+  int_ref nidx "src/ocamlutil/inthash.ml" 42 1073 1087 "src/ocamlutil/inthash.ml" 42 1073 1091
+)
+"src/ocamlutil/inthash.ml" 43 1118 1160 "src/ocamlutil/inthash.ml" 43 1118 1172
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 43 1118 1144 "src/ocamlutil/inthash.ml" 43 1118 1173
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 43 1118 1128 "src/ocamlutil/inthash.ml" 43 1118 1173
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 42 1073 1083 "src/ocamlutil/inthash.ml" 43 1118 1173
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 41 1001 1011 "src/ocamlutil/inthash.ml" 43 1118 1173
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 38 911 939 "src/ocamlutil/inthash.ml" 43 1118 1173
+type(
+  'a bucketlist -> unit
+)
+"src/ocamlutil/inthash.ml" 44 1177 1189 "src/ocamlutil/inthash.ml" 44 1177 1190
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 44 1177 1194 "src/ocamlutil/inthash.ml" 44 1177 1199
+type(
+  int
+)
+ident(
+  int_ref osize "src/ocamlutil/inthash.ml" 34 742 748 "src/ocamlutil/inthash.ml" 34 742 753
+)
+"src/ocamlutil/inthash.ml" 44 1177 1200 "src/ocamlutil/inthash.ml" 44 1177 1201
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/inthash.ml" 44 1177 1202 "src/ocamlutil/inthash.ml" 44 1177 1203
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 44 1177 1194 "src/ocamlutil/inthash.ml" 44 1177 1203
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 45 1207 1213 "src/ocamlutil/inthash.ml" 45 1207 1226
+type(
+  'a bucketlist -> unit
+)
+ident(
+  int_ref insert_bucket "src/ocamlutil/inthash.ml" 38 911 923 "src/ocamlutil/inthash.ml" 38 911 936
+)
+"src/ocamlutil/inthash.ml" 45 1207 1227 "src/ocamlutil/inthash.ml" 45 1207 1232
+type(
+  'a bucketlist array
+)
+ident(
+  int_ref odata "src/ocamlutil/inthash.ml" 33 716 722 "src/ocamlutil/inthash.ml" 33 716 727
+)
+"src/ocamlutil/inthash.ml" 45 1207 1234 "src/ocamlutil/inthash.ml" 45 1207 1235
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 44 1177 1181 "src/ocamlutil/inthash.ml" 46 1237 1245
+)
+"src/ocamlutil/inthash.ml" 45 1207 1227 "src/ocamlutil/inthash.ml" 45 1207 1236
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 45 1207 1213 "src/ocamlutil/inthash.ml" 45 1207 1236
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 44 1177 1181 "src/ocamlutil/inthash.ml" 46 1237 1245
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 47 1247 1251 "src/ocamlutil/inthash.ml" 47 1247 1254
+type(
+  'a t
+)
+ident(
+  int_ref tbl "src/ocamlutil/inthash.ml" 32 699 710 "src/ocamlutil/inthash.ml" 32 699 713
+)
+"src/ocamlutil/inthash.ml" 47 1247 1263 "src/ocamlutil/inthash.ml" 47 1247 1268
+type(
+  'a bucketlist array
+)
+ident(
+  int_ref ndata "src/ocamlutil/inthash.ml" 37 867 875 "src/ocamlutil/inthash.ml" 37 867 880
+)
+"src/ocamlutil/inthash.ml" 47 1247 1251 "src/ocamlutil/inthash.ml" 47 1247 1269
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 44 1177 1181 "src/ocamlutil/inthash.ml" 47 1247 1269
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 38 911 915 "src/ocamlutil/inthash.ml" 47 1247 1269
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 36 836 861 "src/ocamlutil/inthash.ml" 48 1270 1275
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 36 836 838 "src/ocamlutil/inthash.ml" 48 1270 1275
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 35 778 780 "src/ocamlutil/inthash.ml" 48 1270 1275
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 34 742 744 "src/ocamlutil/inthash.ml" 48 1270 1275
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 33 716 718 "src/ocamlutil/inthash.ml" 48 1270 1275
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 50 1277 1281 "src/ocamlutil/inthash.ml" 50 1277 1284
+type(
+  'a t -> int -> 'a -> unit
+)
+ident(
+  def add "src/ocamlutil/inthash.ml" 57 1498 1498 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 50 1277 1285 "src/ocamlutil/inthash.ml" 50 1277 1286
+type(
+  'a t
+)
+ident(
+  def h "src/ocamlutil/inthash.ml" 50 1277 1287 "src/ocamlutil/inthash.ml" 55 1443 1496
+)
+"src/ocamlutil/inthash.ml" 50 1277 1287 "src/ocamlutil/inthash.ml" 50 1277 1290
+type(
+  int
+)
+ident(
+  def key "src/ocamlutil/inthash.ml" 50 1277 1291 "src/ocamlutil/inthash.ml" 55 1443 1496
+)
+"src/ocamlutil/inthash.ml" 50 1277 1291 "src/ocamlutil/inthash.ml" 50 1277 1295
+type(
+  'a
+)
+ident(
+  def info "src/ocamlutil/inthash.ml" 51 1298 1300 "src/ocamlutil/inthash.ml" 55 1443 1496
+)
+"src/ocamlutil/inthash.ml" 51 1298 1304 "src/ocamlutil/inthash.ml" 51 1298 1305
+type(
+  int
+)
+ident(
+  def i "src/ocamlutil/inthash.ml" 52 1348 1350 "src/ocamlutil/inthash.ml" 55 1443 1496
+)
+"src/ocamlutil/inthash.ml" 51 1298 1309 "src/ocamlutil/inthash.ml" 51 1298 1313
+type(
+  int -> int
+)
+ident(
+  int_ref hash "src/ocamlutil/inthash.ml" 10 258 262 "src/ocamlutil/inthash.ml" 10 258 266
+)
+"src/ocamlutil/inthash.ml" 51 1298 1314 "src/ocamlutil/inthash.ml" 51 1298 1317
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 50 1277 1287 "src/ocamlutil/inthash.ml" 50 1277 1290
+)
+"src/ocamlutil/inthash.ml" 51 1298 1308 "src/ocamlutil/inthash.ml" 51 1298 1318
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 51 1298 1319 "src/ocamlutil/inthash.ml" 51 1298 1322
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/ocamlutil/inthash.ml" 51 1298 1324 "src/ocamlutil/inthash.ml" 51 1298 1336
+type(
+  'a bucketlist array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/ocamlutil/inthash.ml" 51 1298 1337 "src/ocamlutil/inthash.ml" 51 1298 1338
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 50 1277 1285 "src/ocamlutil/inthash.ml" 50 1277 1286
+)
+"src/ocamlutil/inthash.ml" 51 1298 1337 "src/ocamlutil/inthash.ml" 51 1298 1343
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 51 1298 1323 "src/ocamlutil/inthash.ml" 51 1298 1344
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 51 1298 1308 "src/ocamlutil/inthash.ml" 51 1298 1344
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 52 1348 1354 "src/ocamlutil/inthash.ml" 52 1348 1360
+type(
+  'a bucketlist
+)
+ident(
+  def bucket "src/ocamlutil/inthash.ml" 53 1394 1396 "src/ocamlutil/inthash.ml" 55 1443 1496
+)
+"src/ocamlutil/inthash.ml" 52 1348 1368 "src/ocamlutil/inthash.ml" 52 1348 1371
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 50 1277 1287 "src/ocamlutil/inthash.ml" 50 1277 1290
+)
+"src/ocamlutil/inthash.ml" 52 1348 1373 "src/ocamlutil/inthash.ml" 52 1348 1377
+type(
+  'a
+)
+ident(
+  int_ref info "src/ocamlutil/inthash.ml" 50 1277 1291 "src/ocamlutil/inthash.ml" 50 1277 1295
+)
+"src/ocamlutil/inthash.ml" 52 1348 1379 "src/ocamlutil/inthash.ml" 52 1348 1380
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 50 1277 1285 "src/ocamlutil/inthash.ml" 50 1277 1286
+)
+"src/ocamlutil/inthash.ml" 52 1348 1379 "src/ocamlutil/inthash.ml" 52 1348 1385
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 52 1348 1387 "src/ocamlutil/inthash.ml" 52 1348 1388
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 51 1298 1304 "src/ocamlutil/inthash.ml" 51 1298 1305
+)
+"src/ocamlutil/inthash.ml" 52 1348 1379 "src/ocamlutil/inthash.ml" 52 1348 1389
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 52 1348 1363 "src/ocamlutil/inthash.ml" 52 1348 1390
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 53 1394 1396 "src/ocamlutil/inthash.ml" 53 1394 1397
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 50 1277 1285 "src/ocamlutil/inthash.ml" 50 1277 1286
+)
+"src/ocamlutil/inthash.ml" 53 1394 1396 "src/ocamlutil/inthash.ml" 53 1394 1402
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 53 1394 1404 "src/ocamlutil/inthash.ml" 53 1394 1405
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 51 1298 1304 "src/ocamlutil/inthash.ml" 51 1298 1305
+)
+"src/ocamlutil/inthash.ml" 53 1394 1410 "src/ocamlutil/inthash.ml" 53 1394 1416
+type(
+  'a bucketlist
+)
+ident(
+  int_ref bucket "src/ocamlutil/inthash.ml" 52 1348 1354 "src/ocamlutil/inthash.ml" 52 1348 1360
+)
+"src/ocamlutil/inthash.ml" 53 1394 1396 "src/ocamlutil/inthash.ml" 53 1394 1416
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 54 1418 1420 "src/ocamlutil/inthash.ml" 54 1418 1421
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 50 1277 1285 "src/ocamlutil/inthash.ml" 50 1277 1286
+)
+"src/ocamlutil/inthash.ml" 54 1418 1430 "src/ocamlutil/inthash.ml" 54 1418 1434
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"src/ocamlutil/inthash.ml" 54 1418 1435 "src/ocamlutil/inthash.ml" 54 1418 1436
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 50 1277 1285 "src/ocamlutil/inthash.ml" 50 1277 1286
+)
+"src/ocamlutil/inthash.ml" 54 1418 1435 "src/ocamlutil/inthash.ml" 54 1418 1441
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 54 1418 1430 "src/ocamlutil/inthash.ml" 54 1418 1441
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 54 1418 1420 "src/ocamlutil/inthash.ml" 54 1418 1441
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 55 1443 1448 "src/ocamlutil/inthash.ml" 55 1443 1449
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 50 1277 1285 "src/ocamlutil/inthash.ml" 50 1277 1286
+)
+"src/ocamlutil/inthash.ml" 55 1443 1448 "src/ocamlutil/inthash.ml" 55 1443 1454
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 55 1443 1455 "src/ocamlutil/inthash.ml" 55 1443 1456
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/inthash.ml" 55 1443 1457 "src/ocamlutil/inthash.ml" 55 1443 1469
+type(
+  'a bucketlist array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/ocamlutil/inthash.ml" 55 1443 1470 "src/ocamlutil/inthash.ml" 55 1443 1471
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 50 1277 1285 "src/ocamlutil/inthash.ml" 50 1277 1286
+)
+"src/ocamlutil/inthash.ml" 55 1443 1470 "src/ocamlutil/inthash.ml" 55 1443 1476
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 55 1443 1457 "src/ocamlutil/inthash.ml" 55 1443 1476
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 55 1443 1477 "src/ocamlutil/inthash.ml" 55 1443 1480
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"src/ocamlutil/inthash.ml" 55 1443 1481 "src/ocamlutil/inthash.ml" 55 1443 1482
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 55 1443 1457 "src/ocamlutil/inthash.ml" 55 1443 1482
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 55 1443 1448 "src/ocamlutil/inthash.ml" 55 1443 1482
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 55 1443 1488 "src/ocamlutil/inthash.ml" 55 1443 1494
+type(
+  'a t -> unit
+)
+ident(
+  int_ref resize "src/ocamlutil/inthash.ml" 32 699 703 "src/ocamlutil/inthash.ml" 32 699 709
+)
+"src/ocamlutil/inthash.ml" 55 1443 1495 "src/ocamlutil/inthash.ml" 55 1443 1496
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 50 1277 1285 "src/ocamlutil/inthash.ml" 50 1277 1286
+)
+"src/ocamlutil/inthash.ml" 55 1443 1488 "src/ocamlutil/inthash.ml" 55 1443 1496
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 55 1443 1445 "src/ocamlutil/inthash.ml" 55 1443 1496
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 54 1418 1420 "src/ocamlutil/inthash.ml" 55 1443 1496
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 53 1394 1396 "src/ocamlutil/inthash.ml" 55 1443 1496
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 52 1348 1350 "src/ocamlutil/inthash.ml" 55 1443 1496
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 51 1298 1300 "src/ocamlutil/inthash.ml" 55 1443 1496
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 57 1498 1502 "src/ocamlutil/inthash.ml" 57 1498 1508
+type(
+  'a t -> int -> unit
+)
+ident(
+  def remove "src/ocamlutil/inthash.ml" 68 1816 1816 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 57 1498 1509 "src/ocamlutil/inthash.ml" 57 1498 1510
+type(
+  'a t
+)
+ident(
+  def h "src/ocamlutil/inthash.ml" 57 1498 1511 "src/ocamlutil/inthash.ml" 66 1774 1814
+)
+"src/ocamlutil/inthash.ml" 57 1498 1511 "src/ocamlutil/inthash.ml" 57 1498 1514
+type(
+  int
+)
+ident(
+  def key "src/ocamlutil/inthash.ml" 58 1517 1519 "src/ocamlutil/inthash.ml" 66 1774 1814
+)
+"src/ocamlutil/inthash.ml" 58 1517 1527 "src/ocamlutil/inthash.ml" 58 1517 1540
+type(
+  'b bucketlist -> 'b bucketlist
+)
+ident(
+  def remove_bucket "src/ocamlutil/inthash.ml" 58 1517 1519 "src/ocamlutil/inthash.ml" 66 1774 1814
+)
+"src/ocamlutil/inthash.ml" 59 1552 1558 "src/ocamlutil/inthash.ml" 59 1552 1563
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 60 1567 1575 "src/ocamlutil/inthash.ml" 60 1567 1580
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 61 1581 1592 "src/ocamlutil/inthash.ml" 61 1581 1593
+type(
+  int
+)
+ident(
+  def k "src/ocamlutil/inthash.ml" 62 1607 1615 "src/ocamlutil/inthash.ml" 64 1677 1720
+)
+"src/ocamlutil/inthash.ml" 61 1581 1595 "src/ocamlutil/inthash.ml" 61 1581 1596
+type(
+  'b
+)
+ident(
+  def i "src/ocamlutil/inthash.ml" 62 1607 1615 "src/ocamlutil/inthash.ml" 64 1677 1720
+)
+"src/ocamlutil/inthash.ml" 61 1581 1598 "src/ocamlutil/inthash.ml" 61 1581 1602
+type(
+  'b bucketlist
+)
+ident(
+  def next "src/ocamlutil/inthash.ml" 62 1607 1615 "src/ocamlutil/inthash.ml" 64 1677 1720
+)
+"src/ocamlutil/inthash.ml" 61 1581 1587 "src/ocamlutil/inthash.ml" 61 1581 1603
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 62 1607 1618 "src/ocamlutil/inthash.ml" 62 1607 1619
+type(
+  int
+)
+ident(
+  int_ref k "src/ocamlutil/inthash.ml" 61 1581 1592 "src/ocamlutil/inthash.ml" 61 1581 1593
+)
+"src/ocamlutil/inthash.ml" 62 1607 1620 "src/ocamlutil/inthash.ml" 62 1607 1621
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/inthash.ml" 62 1607 1622 "src/ocamlutil/inthash.ml" 62 1607 1625
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 57 1498 1511 "src/ocamlutil/inthash.ml" 57 1498 1514
+)
+"src/ocamlutil/inthash.ml" 62 1607 1618 "src/ocamlutil/inthash.ml" 62 1607 1625
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 63 1626 1645 "src/ocamlutil/inthash.ml" 63 1626 1646
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 57 1498 1509 "src/ocamlutil/inthash.ml" 57 1498 1510
+)
+"src/ocamlutil/inthash.ml" 63 1626 1655 "src/ocamlutil/inthash.ml" 63 1626 1659
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.pred
+)
+"src/ocamlutil/inthash.ml" 63 1626 1660 "src/ocamlutil/inthash.ml" 63 1626 1661
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 57 1498 1509 "src/ocamlutil/inthash.ml" 57 1498 1510
+)
+"src/ocamlutil/inthash.ml" 63 1626 1660 "src/ocamlutil/inthash.ml" 63 1626 1666
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 63 1626 1655 "src/ocamlutil/inthash.ml" 63 1626 1666
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 63 1626 1645 "src/ocamlutil/inthash.ml" 63 1626 1666
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 63 1626 1668 "src/ocamlutil/inthash.ml" 63 1626 1672
+type(
+  'b bucketlist
+)
+ident(
+  int_ref next "src/ocamlutil/inthash.ml" 61 1581 1598 "src/ocamlutil/inthash.ml" 61 1581 1602
+)
+"src/ocamlutil/inthash.ml" 63 1626 1639 "src/ocamlutil/inthash.ml" 63 1626 1676
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 64 1677 1695 "src/ocamlutil/inthash.ml" 64 1677 1696
+type(
+  int
+)
+ident(
+  int_ref k "src/ocamlutil/inthash.ml" 61 1581 1592 "src/ocamlutil/inthash.ml" 61 1581 1593
+)
+"src/ocamlutil/inthash.ml" 64 1677 1698 "src/ocamlutil/inthash.ml" 64 1677 1699
+type(
+  'b
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 61 1581 1595 "src/ocamlutil/inthash.ml" 61 1581 1596
+)
+"src/ocamlutil/inthash.ml" 64 1677 1701 "src/ocamlutil/inthash.ml" 64 1677 1714
+type(
+  'b bucketlist -> 'b bucketlist
+)
+ident(
+  int_ref remove_bucket "src/ocamlutil/inthash.ml" 58 1517 1527 "src/ocamlutil/inthash.ml" 58 1517 1540
+)
+"src/ocamlutil/inthash.ml" 64 1677 1715 "src/ocamlutil/inthash.ml" 64 1677 1719
+type(
+  'b bucketlist
+)
+ident(
+  int_ref next "src/ocamlutil/inthash.ml" 61 1581 1598 "src/ocamlutil/inthash.ml" 61 1581 1602
+)
+"src/ocamlutil/inthash.ml" 64 1677 1701 "src/ocamlutil/inthash.ml" 64 1677 1719
+call(
+  stack
+)
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 64 1677 1690 "src/ocamlutil/inthash.ml" 64 1677 1720
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 62 1607 1615 "src/ocamlutil/inthash.ml" 64 1677 1720
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 58 1517 1543 "src/ocamlutil/inthash.ml" 64 1677 1720
+type(
+  'b bucketlist -> 'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 65 1724 1730 "src/ocamlutil/inthash.ml" 65 1724 1731
+type(
+  int
+)
+ident(
+  def i "src/ocamlutil/inthash.ml" 66 1774 1776 "src/ocamlutil/inthash.ml" 66 1774 1814
+)
+"src/ocamlutil/inthash.ml" 65 1724 1735 "src/ocamlutil/inthash.ml" 65 1724 1739
+type(
+  int -> int
+)
+ident(
+  int_ref hash "src/ocamlutil/inthash.ml" 10 258 262 "src/ocamlutil/inthash.ml" 10 258 266
+)
+"src/ocamlutil/inthash.ml" 65 1724 1740 "src/ocamlutil/inthash.ml" 65 1724 1743
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 57 1498 1511 "src/ocamlutil/inthash.ml" 57 1498 1514
+)
+"src/ocamlutil/inthash.ml" 65 1724 1734 "src/ocamlutil/inthash.ml" 65 1724 1744
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 65 1724 1745 "src/ocamlutil/inthash.ml" 65 1724 1748
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/ocamlutil/inthash.ml" 65 1724 1750 "src/ocamlutil/inthash.ml" 65 1724 1762
+type(
+  'a bucketlist array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/ocamlutil/inthash.ml" 65 1724 1763 "src/ocamlutil/inthash.ml" 65 1724 1764
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 57 1498 1509 "src/ocamlutil/inthash.ml" 57 1498 1510
+)
+"src/ocamlutil/inthash.ml" 65 1724 1763 "src/ocamlutil/inthash.ml" 65 1724 1769
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 65 1724 1749 "src/ocamlutil/inthash.ml" 65 1724 1770
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 65 1724 1734 "src/ocamlutil/inthash.ml" 65 1724 1770
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 66 1774 1776 "src/ocamlutil/inthash.ml" 66 1774 1777
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 57 1498 1509 "src/ocamlutil/inthash.ml" 57 1498 1510
+)
+"src/ocamlutil/inthash.ml" 66 1774 1776 "src/ocamlutil/inthash.ml" 66 1774 1782
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 66 1774 1784 "src/ocamlutil/inthash.ml" 66 1774 1785
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 65 1724 1730 "src/ocamlutil/inthash.ml" 65 1724 1731
+)
+"src/ocamlutil/inthash.ml" 66 1774 1790 "src/ocamlutil/inthash.ml" 66 1774 1803
+type(
+  'a bucketlist -> 'a bucketlist
+)
+ident(
+  int_ref remove_bucket "src/ocamlutil/inthash.ml" 58 1517 1527 "src/ocamlutil/inthash.ml" 58 1517 1540
+)
+"src/ocamlutil/inthash.ml" 66 1774 1804 "src/ocamlutil/inthash.ml" 66 1774 1805
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 57 1498 1509 "src/ocamlutil/inthash.ml" 57 1498 1510
+)
+"src/ocamlutil/inthash.ml" 66 1774 1804 "src/ocamlutil/inthash.ml" 66 1774 1810
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 66 1774 1812 "src/ocamlutil/inthash.ml" 66 1774 1813
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 65 1724 1730 "src/ocamlutil/inthash.ml" 65 1724 1731
+)
+"src/ocamlutil/inthash.ml" 66 1774 1804 "src/ocamlutil/inthash.ml" 66 1774 1814
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 66 1774 1790 "src/ocamlutil/inthash.ml" 66 1774 1814
+call(
+  stack
+)
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 66 1774 1776 "src/ocamlutil/inthash.ml" 66 1774 1814
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 65 1724 1726 "src/ocamlutil/inthash.ml" 66 1774 1814
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 58 1517 1519 "src/ocamlutil/inthash.ml" 66 1774 1814
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 68 1816 1820 "src/ocamlutil/inthash.ml" 68 1816 1830
+type(
+  'a t -> int -> unit
+)
+ident(
+  def remove_all "src/ocamlutil/inthash.ml" 80 2156 2156 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 68 1816 1831 "src/ocamlutil/inthash.ml" 68 1816 1832
+type(
+  'a t
+)
+ident(
+  def h "src/ocamlutil/inthash.ml" 68 1816 1833 "src/ocamlutil/inthash.ml" 78 2114 2154
+)
+"src/ocamlutil/inthash.ml" 68 1816 1833 "src/ocamlutil/inthash.ml" 68 1816 1836
+type(
+  int
+)
+ident(
+  def key "src/ocamlutil/inthash.ml" 69 1839 1841 "src/ocamlutil/inthash.ml" 78 2114 2154
+)
+"src/ocamlutil/inthash.ml" 69 1839 1849 "src/ocamlutil/inthash.ml" 69 1839 1862
+type(
+  'b bucketlist -> 'b bucketlist
+)
+ident(
+  def remove_bucket "src/ocamlutil/inthash.ml" 69 1839 1841 "src/ocamlutil/inthash.ml" 78 2114 2154
+)
+"src/ocamlutil/inthash.ml" 70 1874 1880 "src/ocamlutil/inthash.ml" 70 1874 1885
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 71 1889 1897 "src/ocamlutil/inthash.ml" 71 1889 1902
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 72 1903 1914 "src/ocamlutil/inthash.ml" 72 1903 1915
+type(
+  int
+)
+ident(
+  def k "src/ocamlutil/inthash.ml" 73 1929 1937 "src/ocamlutil/inthash.ml" 76 2017 2060
+)
+"src/ocamlutil/inthash.ml" 72 1903 1917 "src/ocamlutil/inthash.ml" 72 1903 1918
+type(
+  'b
+)
+ident(
+  def i "src/ocamlutil/inthash.ml" 73 1929 1937 "src/ocamlutil/inthash.ml" 76 2017 2060
+)
+"src/ocamlutil/inthash.ml" 72 1903 1920 "src/ocamlutil/inthash.ml" 72 1903 1924
+type(
+  'b bucketlist
+)
+ident(
+  def next "src/ocamlutil/inthash.ml" 73 1929 1937 "src/ocamlutil/inthash.ml" 76 2017 2060
+)
+"src/ocamlutil/inthash.ml" 72 1903 1909 "src/ocamlutil/inthash.ml" 72 1903 1925
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 73 1929 1940 "src/ocamlutil/inthash.ml" 73 1929 1941
+type(
+  int
+)
+ident(
+  int_ref k "src/ocamlutil/inthash.ml" 72 1903 1914 "src/ocamlutil/inthash.ml" 72 1903 1915
+)
+"src/ocamlutil/inthash.ml" 73 1929 1942 "src/ocamlutil/inthash.ml" 73 1929 1943
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/inthash.ml" 73 1929 1944 "src/ocamlutil/inthash.ml" 73 1929 1947
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 68 1816 1833 "src/ocamlutil/inthash.ml" 68 1816 1836
+)
+"src/ocamlutil/inthash.ml" 73 1929 1940 "src/ocamlutil/inthash.ml" 73 1929 1947
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 74 1948 1967 "src/ocamlutil/inthash.ml" 74 1948 1968
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 68 1816 1831 "src/ocamlutil/inthash.ml" 68 1816 1832
+)
+"src/ocamlutil/inthash.ml" 74 1948 1977 "src/ocamlutil/inthash.ml" 74 1948 1981
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.pred
+)
+"src/ocamlutil/inthash.ml" 74 1948 1982 "src/ocamlutil/inthash.ml" 74 1948 1983
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 68 1816 1831 "src/ocamlutil/inthash.ml" 68 1816 1832
+)
+"src/ocamlutil/inthash.ml" 74 1948 1982 "src/ocamlutil/inthash.ml" 74 1948 1988
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 74 1948 1977 "src/ocamlutil/inthash.ml" 74 1948 1988
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 74 1948 1967 "src/ocamlutil/inthash.ml" 74 1948 1988
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 75 1991 1994 "src/ocamlutil/inthash.ml" 75 1991 2007
+type(
+  'b bucketlist -> 'b bucketlist
+)
+ident(
+  int_ref remove_bucket "src/ocamlutil/inthash.ml" 69 1839 1849 "src/ocamlutil/inthash.ml" 69 1839 1862
+)
+"src/ocamlutil/inthash.ml" 75 1991 2008 "src/ocamlutil/inthash.ml" 75 1991 2012
+type(
+  'b bucketlist
+)
+ident(
+  int_ref next "src/ocamlutil/inthash.ml" 72 1903 1920 "src/ocamlutil/inthash.ml" 72 1903 1924
+)
+"src/ocamlutil/inthash.ml" 75 1991 1994 "src/ocamlutil/inthash.ml" 75 1991 2012
+call(
+  tail
+)
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 74 1948 1961 "src/ocamlutil/inthash.ml" 75 1991 2016
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 76 2017 2035 "src/ocamlutil/inthash.ml" 76 2017 2036
+type(
+  int
+)
+ident(
+  int_ref k "src/ocamlutil/inthash.ml" 72 1903 1914 "src/ocamlutil/inthash.ml" 72 1903 1915
+)
+"src/ocamlutil/inthash.ml" 76 2017 2038 "src/ocamlutil/inthash.ml" 76 2017 2039
+type(
+  'b
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 72 1903 1917 "src/ocamlutil/inthash.ml" 72 1903 1918
+)
+"src/ocamlutil/inthash.ml" 76 2017 2041 "src/ocamlutil/inthash.ml" 76 2017 2054
+type(
+  'b bucketlist -> 'b bucketlist
+)
+ident(
+  int_ref remove_bucket "src/ocamlutil/inthash.ml" 69 1839 1849 "src/ocamlutil/inthash.ml" 69 1839 1862
+)
+"src/ocamlutil/inthash.ml" 76 2017 2055 "src/ocamlutil/inthash.ml" 76 2017 2059
+type(
+  'b bucketlist
+)
+ident(
+  int_ref next "src/ocamlutil/inthash.ml" 72 1903 1920 "src/ocamlutil/inthash.ml" 72 1903 1924
+)
+"src/ocamlutil/inthash.ml" 76 2017 2041 "src/ocamlutil/inthash.ml" 76 2017 2059
+call(
+  stack
+)
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 76 2017 2030 "src/ocamlutil/inthash.ml" 76 2017 2060
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 73 1929 1937 "src/ocamlutil/inthash.ml" 76 2017 2060
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 69 1839 1865 "src/ocamlutil/inthash.ml" 76 2017 2060
+type(
+  'b bucketlist -> 'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 77 2064 2070 "src/ocamlutil/inthash.ml" 77 2064 2071
+type(
+  int
+)
+ident(
+  def i "src/ocamlutil/inthash.ml" 78 2114 2116 "src/ocamlutil/inthash.ml" 78 2114 2154
+)
+"src/ocamlutil/inthash.ml" 77 2064 2075 "src/ocamlutil/inthash.ml" 77 2064 2079
+type(
+  int -> int
+)
+ident(
+  int_ref hash "src/ocamlutil/inthash.ml" 10 258 262 "src/ocamlutil/inthash.ml" 10 258 266
+)
+"src/ocamlutil/inthash.ml" 77 2064 2080 "src/ocamlutil/inthash.ml" 77 2064 2083
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 68 1816 1833 "src/ocamlutil/inthash.ml" 68 1816 1836
+)
+"src/ocamlutil/inthash.ml" 77 2064 2074 "src/ocamlutil/inthash.ml" 77 2064 2084
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 77 2064 2085 "src/ocamlutil/inthash.ml" 77 2064 2088
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/ocamlutil/inthash.ml" 77 2064 2090 "src/ocamlutil/inthash.ml" 77 2064 2102
+type(
+  'a bucketlist array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/ocamlutil/inthash.ml" 77 2064 2103 "src/ocamlutil/inthash.ml" 77 2064 2104
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 68 1816 1831 "src/ocamlutil/inthash.ml" 68 1816 1832
+)
+"src/ocamlutil/inthash.ml" 77 2064 2103 "src/ocamlutil/inthash.ml" 77 2064 2109
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 77 2064 2089 "src/ocamlutil/inthash.ml" 77 2064 2110
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 77 2064 2074 "src/ocamlutil/inthash.ml" 77 2064 2110
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 78 2114 2116 "src/ocamlutil/inthash.ml" 78 2114 2117
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 68 1816 1831 "src/ocamlutil/inthash.ml" 68 1816 1832
+)
+"src/ocamlutil/inthash.ml" 78 2114 2116 "src/ocamlutil/inthash.ml" 78 2114 2122
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 78 2114 2124 "src/ocamlutil/inthash.ml" 78 2114 2125
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 77 2064 2070 "src/ocamlutil/inthash.ml" 77 2064 2071
+)
+"src/ocamlutil/inthash.ml" 78 2114 2130 "src/ocamlutil/inthash.ml" 78 2114 2143
+type(
+  'a bucketlist -> 'a bucketlist
+)
+ident(
+  int_ref remove_bucket "src/ocamlutil/inthash.ml" 69 1839 1849 "src/ocamlutil/inthash.ml" 69 1839 1862
+)
+"src/ocamlutil/inthash.ml" 78 2114 2144 "src/ocamlutil/inthash.ml" 78 2114 2145
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 68 1816 1831 "src/ocamlutil/inthash.ml" 68 1816 1832
+)
+"src/ocamlutil/inthash.ml" 78 2114 2144 "src/ocamlutil/inthash.ml" 78 2114 2150
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 78 2114 2152 "src/ocamlutil/inthash.ml" 78 2114 2153
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 77 2064 2070 "src/ocamlutil/inthash.ml" 77 2064 2071
+)
+"src/ocamlutil/inthash.ml" 78 2114 2144 "src/ocamlutil/inthash.ml" 78 2114 2154
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 78 2114 2130 "src/ocamlutil/inthash.ml" 78 2114 2154
+call(
+  stack
+)
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 78 2114 2116 "src/ocamlutil/inthash.ml" 78 2114 2154
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 77 2064 2066 "src/ocamlutil/inthash.ml" 78 2114 2154
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 69 1839 1841 "src/ocamlutil/inthash.ml" 78 2114 2154
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 80 2156 2164 "src/ocamlutil/inthash.ml" 80 2156 2172
+type(
+  int -> 'a bucketlist -> 'a
+)
+ident(
+  def find_rec "src/ocamlutil/inthash.ml" 80 2156 2156 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 80 2156 2173 "src/ocamlutil/inthash.ml" 80 2156 2176
+type(
+  int
+)
+ident(
+  def key "src/ocamlutil/inthash.ml" 80 2156 2179 "src/ocamlutil/inthash.ml" 84 2247 2293
+)
+"src/ocamlutil/inthash.ml" 81 2188 2192 "src/ocamlutil/inthash.ml" 81 2188 2197
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 82 2201 2207 "src/ocamlutil/inthash.ml" 82 2201 2212
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ocamlutil/inthash.ml" 82 2201 2213 "src/ocamlutil/inthash.ml" 82 2201 2222
+type(
+  exn
+)
+"src/ocamlutil/inthash.ml" 82 2201 2207 "src/ocamlutil/inthash.ml" 82 2201 2222
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 83 2223 2232 "src/ocamlutil/inthash.ml" 83 2223 2233
+type(
+  int
+)
+ident(
+  def k "src/ocamlutil/inthash.ml" 84 2247 2253 "src/ocamlutil/inthash.ml" 84 2247 2293
+)
+"src/ocamlutil/inthash.ml" 83 2223 2235 "src/ocamlutil/inthash.ml" 83 2223 2236
+type(
+  'a
+)
+ident(
+  def d "src/ocamlutil/inthash.ml" 84 2247 2253 "src/ocamlutil/inthash.ml" 84 2247 2293
+)
+"src/ocamlutil/inthash.ml" 83 2223 2238 "src/ocamlutil/inthash.ml" 83 2223 2242
+type(
+  'a bucketlist
+)
+ident(
+  def rest "src/ocamlutil/inthash.ml" 84 2247 2253 "src/ocamlutil/inthash.ml" 84 2247 2293
+)
+"src/ocamlutil/inthash.ml" 83 2223 2227 "src/ocamlutil/inthash.ml" 83 2223 2243
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 84 2247 2256 "src/ocamlutil/inthash.ml" 84 2247 2259
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 80 2156 2173 "src/ocamlutil/inthash.ml" 80 2156 2176
+)
+"src/ocamlutil/inthash.ml" 84 2247 2260 "src/ocamlutil/inthash.ml" 84 2247 2261
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/inthash.ml" 84 2247 2262 "src/ocamlutil/inthash.ml" 84 2247 2263
+type(
+  int
+)
+ident(
+  int_ref k "src/ocamlutil/inthash.ml" 83 2223 2232 "src/ocamlutil/inthash.ml" 83 2223 2233
+)
+"src/ocamlutil/inthash.ml" 84 2247 2256 "src/ocamlutil/inthash.ml" 84 2247 2263
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 84 2247 2269 "src/ocamlutil/inthash.ml" 84 2247 2270
+type(
+  'a
+)
+ident(
+  int_ref d "src/ocamlutil/inthash.ml" 83 2223 2235 "src/ocamlutil/inthash.ml" 83 2223 2236
+)
+"src/ocamlutil/inthash.ml" 84 2247 2276 "src/ocamlutil/inthash.ml" 84 2247 2284
+type(
+  int -> 'a bucketlist -> 'a
+)
+ident(
+  int_ref find_rec "src/ocamlutil/inthash.ml" 80 2156 2164 "src/ocamlutil/inthash.ml" 80 2156 2172
+)
+"src/ocamlutil/inthash.ml" 84 2247 2285 "src/ocamlutil/inthash.ml" 84 2247 2288
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 80 2156 2173 "src/ocamlutil/inthash.ml" 80 2156 2176
+)
+"src/ocamlutil/inthash.ml" 84 2247 2289 "src/ocamlutil/inthash.ml" 84 2247 2293
+type(
+  'a bucketlist
+)
+ident(
+  int_ref rest "src/ocamlutil/inthash.ml" 83 2223 2238 "src/ocamlutil/inthash.ml" 83 2223 2242
+)
+"src/ocamlutil/inthash.ml" 84 2247 2276 "src/ocamlutil/inthash.ml" 84 2247 2293
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 84 2247 2253 "src/ocamlutil/inthash.ml" 84 2247 2293
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 80 2156 2179 "src/ocamlutil/inthash.ml" 84 2247 2293
+type(
+  'a bucketlist -> 'a
+)
+"src/ocamlutil/inthash.ml" 86 2295 2299 "src/ocamlutil/inthash.ml" 86 2295 2303
+type(
+  'a t -> int -> 'a
+)
+ident(
+  def find "src/ocamlutil/inthash.ml" 100 2738 2738 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 86 2295 2304 "src/ocamlutil/inthash.ml" 86 2295 2305
+type(
+  'a t
+)
+ident(
+  def h "src/ocamlutil/inthash.ml" 86 2295 2306 "src/ocamlutil/inthash.ml" 98 2679 2736
+)
+"src/ocamlutil/inthash.ml" 86 2295 2306 "src/ocamlutil/inthash.ml" 86 2295 2309
+type(
+  int
+)
+ident(
+  def key "src/ocamlutil/inthash.ml" 87 2312 2314 "src/ocamlutil/inthash.ml" 98 2679 2736
+)
+"src/ocamlutil/inthash.ml" 87 2312 2320 "src/ocamlutil/inthash.ml" 87 2312 2321
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 86 2295 2304 "src/ocamlutil/inthash.ml" 86 2295 2305
+)
+"src/ocamlutil/inthash.ml" 87 2312 2320 "src/ocamlutil/inthash.ml" 87 2312 2326
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 87 2312 2329 "src/ocamlutil/inthash.ml" 87 2312 2333
+type(
+  int -> int
+)
+ident(
+  int_ref hash "src/ocamlutil/inthash.ml" 10 258 262 "src/ocamlutil/inthash.ml" 10 258 266
+)
+"src/ocamlutil/inthash.ml" 87 2312 2334 "src/ocamlutil/inthash.ml" 87 2312 2337
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 86 2295 2306 "src/ocamlutil/inthash.ml" 86 2295 2309
+)
+"src/ocamlutil/inthash.ml" 87 2312 2328 "src/ocamlutil/inthash.ml" 87 2312 2338
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 87 2312 2339 "src/ocamlutil/inthash.ml" 87 2312 2342
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/ocamlutil/inthash.ml" 87 2312 2344 "src/ocamlutil/inthash.ml" 87 2312 2356
+type(
+  'a bucketlist array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/ocamlutil/inthash.ml" 87 2312 2357 "src/ocamlutil/inthash.ml" 87 2312 2358
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 86 2295 2304 "src/ocamlutil/inthash.ml" 86 2295 2305
+)
+"src/ocamlutil/inthash.ml" 87 2312 2357 "src/ocamlutil/inthash.ml" 87 2312 2363
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 87 2312 2343 "src/ocamlutil/inthash.ml" 87 2312 2364
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 87 2312 2328 "src/ocamlutil/inthash.ml" 87 2312 2364
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 87 2312 2320 "src/ocamlutil/inthash.ml" 87 2312 2365
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 88 2371 2375 "src/ocamlutil/inthash.ml" 88 2371 2380
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 88 2371 2384 "src/ocamlutil/inthash.ml" 88 2371 2389
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ocamlutil/inthash.ml" 88 2371 2390 "src/ocamlutil/inthash.ml" 88 2371 2399
+type(
+  exn
+)
+"src/ocamlutil/inthash.ml" 88 2371 2384 "src/ocamlutil/inthash.ml" 88 2371 2399
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 89 2400 2409 "src/ocamlutil/inthash.ml" 89 2400 2411
+type(
+  int
+)
+ident(
+  def k1 "src/ocamlutil/inthash.ml" 90 2427 2433 "src/ocamlutil/inthash.ml" 98 2679 2736
+)
+"src/ocamlutil/inthash.ml" 89 2400 2413 "src/ocamlutil/inthash.ml" 89 2400 2415
+type(
+  'a
+)
+ident(
+  def d1 "src/ocamlutil/inthash.ml" 90 2427 2433 "src/ocamlutil/inthash.ml" 98 2679 2736
+)
+"src/ocamlutil/inthash.ml" 89 2400 2417 "src/ocamlutil/inthash.ml" 89 2400 2422
+type(
+  'a bucketlist
+)
+ident(
+  def rest1 "src/ocamlutil/inthash.ml" 90 2427 2433 "src/ocamlutil/inthash.ml" 98 2679 2736
+)
+"src/ocamlutil/inthash.ml" 89 2400 2404 "src/ocamlutil/inthash.ml" 89 2400 2423
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 90 2427 2436 "src/ocamlutil/inthash.ml" 90 2427 2439
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 86 2295 2306 "src/ocamlutil/inthash.ml" 86 2295 2309
+)
+"src/ocamlutil/inthash.ml" 90 2427 2440 "src/ocamlutil/inthash.ml" 90 2427 2441
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/inthash.ml" 90 2427 2442 "src/ocamlutil/inthash.ml" 90 2427 2444
+type(
+  int
+)
+ident(
+  int_ref k1 "src/ocamlutil/inthash.ml" 89 2400 2409 "src/ocamlutil/inthash.ml" 89 2400 2411
+)
+"src/ocamlutil/inthash.ml" 90 2427 2436 "src/ocamlutil/inthash.ml" 90 2427 2444
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 90 2427 2450 "src/ocamlutil/inthash.ml" 90 2427 2452
+type(
+  'a
+)
+ident(
+  int_ref d1 "src/ocamlutil/inthash.ml" 89 2400 2413 "src/ocamlutil/inthash.ml" 89 2400 2415
+)
+"src/ocamlutil/inthash.ml" 91 2458 2470 "src/ocamlutil/inthash.ml" 91 2458 2475
+type(
+  'a bucketlist
+)
+ident(
+  int_ref rest1 "src/ocamlutil/inthash.ml" 89 2400 2417 "src/ocamlutil/inthash.ml" 89 2400 2422
+)
+"src/ocamlutil/inthash.ml" 92 2481 2489 "src/ocamlutil/inthash.ml" 92 2481 2494
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 92 2481 2498 "src/ocamlutil/inthash.ml" 92 2481 2503
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ocamlutil/inthash.ml" 92 2481 2504 "src/ocamlutil/inthash.ml" 92 2481 2513
+type(
+  exn
+)
+"src/ocamlutil/inthash.ml" 92 2481 2498 "src/ocamlutil/inthash.ml" 92 2481 2513
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 93 2514 2527 "src/ocamlutil/inthash.ml" 93 2514 2529
+type(
+  int
+)
+ident(
+  def k2 "src/ocamlutil/inthash.ml" 94 2545 2555 "src/ocamlutil/inthash.ml" 98 2679 2736
+)
+"src/ocamlutil/inthash.ml" 93 2514 2531 "src/ocamlutil/inthash.ml" 93 2514 2533
+type(
+  'a
+)
+ident(
+  def d2 "src/ocamlutil/inthash.ml" 94 2545 2555 "src/ocamlutil/inthash.ml" 98 2679 2736
+)
+"src/ocamlutil/inthash.ml" 93 2514 2535 "src/ocamlutil/inthash.ml" 93 2514 2540
+type(
+  'a bucketlist
+)
+ident(
+  def rest2 "src/ocamlutil/inthash.ml" 94 2545 2555 "src/ocamlutil/inthash.ml" 98 2679 2736
+)
+"src/ocamlutil/inthash.ml" 93 2514 2522 "src/ocamlutil/inthash.ml" 93 2514 2541
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 94 2545 2558 "src/ocamlutil/inthash.ml" 94 2545 2561
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 86 2295 2306 "src/ocamlutil/inthash.ml" 86 2295 2309
+)
+"src/ocamlutil/inthash.ml" 94 2545 2562 "src/ocamlutil/inthash.ml" 94 2545 2563
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/inthash.ml" 94 2545 2564 "src/ocamlutil/inthash.ml" 94 2545 2566
+type(
+  int
+)
+ident(
+  int_ref k2 "src/ocamlutil/inthash.ml" 93 2514 2527 "src/ocamlutil/inthash.ml" 93 2514 2529
+)
+"src/ocamlutil/inthash.ml" 94 2545 2558 "src/ocamlutil/inthash.ml" 94 2545 2566
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 94 2545 2572 "src/ocamlutil/inthash.ml" 94 2545 2574
+type(
+  'a
+)
+ident(
+  int_ref d2 "src/ocamlutil/inthash.ml" 93 2514 2531 "src/ocamlutil/inthash.ml" 93 2514 2533
+)
+"src/ocamlutil/inthash.ml" 95 2580 2596 "src/ocamlutil/inthash.ml" 95 2580 2601
+type(
+  'a bucketlist
+)
+ident(
+  int_ref rest2 "src/ocamlutil/inthash.ml" 93 2514 2535 "src/ocamlutil/inthash.ml" 93 2514 2540
+)
+"src/ocamlutil/inthash.ml" 96 2607 2619 "src/ocamlutil/inthash.ml" 96 2607 2624
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 96 2607 2628 "src/ocamlutil/inthash.ml" 96 2607 2633
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ocamlutil/inthash.ml" 96 2607 2634 "src/ocamlutil/inthash.ml" 96 2607 2643
+type(
+  exn
+)
+"src/ocamlutil/inthash.ml" 96 2607 2628 "src/ocamlutil/inthash.ml" 96 2607 2643
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 97 2644 2661 "src/ocamlutil/inthash.ml" 97 2644 2663
+type(
+  int
+)
+ident(
+  def k3 "src/ocamlutil/inthash.ml" 98 2679 2693 "src/ocamlutil/inthash.ml" 98 2679 2736
+)
+"src/ocamlutil/inthash.ml" 97 2644 2665 "src/ocamlutil/inthash.ml" 97 2644 2667
+type(
+  'a
+)
+ident(
+  def d3 "src/ocamlutil/inthash.ml" 98 2679 2693 "src/ocamlutil/inthash.ml" 98 2679 2736
+)
+"src/ocamlutil/inthash.ml" 97 2644 2669 "src/ocamlutil/inthash.ml" 97 2644 2674
+type(
+  'a bucketlist
+)
+ident(
+  def rest3 "src/ocamlutil/inthash.ml" 98 2679 2693 "src/ocamlutil/inthash.ml" 98 2679 2736
+)
+"src/ocamlutil/inthash.ml" 97 2644 2656 "src/ocamlutil/inthash.ml" 97 2644 2675
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 98 2679 2696 "src/ocamlutil/inthash.ml" 98 2679 2699
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 86 2295 2306 "src/ocamlutil/inthash.ml" 86 2295 2309
+)
+"src/ocamlutil/inthash.ml" 98 2679 2700 "src/ocamlutil/inthash.ml" 98 2679 2701
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/inthash.ml" 98 2679 2702 "src/ocamlutil/inthash.ml" 98 2679 2704
+type(
+  int
+)
+ident(
+  int_ref k3 "src/ocamlutil/inthash.ml" 97 2644 2661 "src/ocamlutil/inthash.ml" 97 2644 2663
+)
+"src/ocamlutil/inthash.ml" 98 2679 2696 "src/ocamlutil/inthash.ml" 98 2679 2704
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 98 2679 2710 "src/ocamlutil/inthash.ml" 98 2679 2712
+type(
+  'a
+)
+ident(
+  int_ref d3 "src/ocamlutil/inthash.ml" 97 2644 2665 "src/ocamlutil/inthash.ml" 97 2644 2667
+)
+"src/ocamlutil/inthash.ml" 98 2679 2718 "src/ocamlutil/inthash.ml" 98 2679 2726
+type(
+  int -> 'a bucketlist -> 'a
+)
+ident(
+  int_ref find_rec "src/ocamlutil/inthash.ml" 80 2156 2164 "src/ocamlutil/inthash.ml" 80 2156 2172
+)
+"src/ocamlutil/inthash.ml" 98 2679 2727 "src/ocamlutil/inthash.ml" 98 2679 2730
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 86 2295 2306 "src/ocamlutil/inthash.ml" 86 2295 2309
+)
+"src/ocamlutil/inthash.ml" 98 2679 2731 "src/ocamlutil/inthash.ml" 98 2679 2736
+type(
+  'a bucketlist
+)
+ident(
+  int_ref rest3 "src/ocamlutil/inthash.ml" 97 2644 2669 "src/ocamlutil/inthash.ml" 97 2644 2674
+)
+"src/ocamlutil/inthash.ml" 98 2679 2718 "src/ocamlutil/inthash.ml" 98 2679 2736
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 98 2679 2693 "src/ocamlutil/inthash.ml" 98 2679 2736
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 95 2580 2590 "src/ocamlutil/inthash.ml" 98 2679 2736
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 94 2545 2555 "src/ocamlutil/inthash.ml" 98 2679 2736
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 91 2458 2464 "src/ocamlutil/inthash.ml" 98 2679 2736
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 90 2427 2433 "src/ocamlutil/inthash.ml" 98 2679 2736
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 87 2312 2314 "src/ocamlutil/inthash.ml" 98 2679 2736
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 100 2738 2742 "src/ocamlutil/inthash.ml" 100 2738 2750
+type(
+  'a t -> int -> 'a list
+)
+ident(
+  def find_all "src/ocamlutil/inthash.ml" 108 2980 2980 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 100 2738 2751 "src/ocamlutil/inthash.ml" 100 2738 2752
+type(
+  'a t
+)
+ident(
+  def h "src/ocamlutil/inthash.ml" 100 2738 2753 "src/ocamlutil/inthash.ml" 106 2916 2978
+)
+"src/ocamlutil/inthash.ml" 100 2738 2753 "src/ocamlutil/inthash.ml" 100 2738 2756
+type(
+  int
+)
+ident(
+  def key "src/ocamlutil/inthash.ml" 101 2759 2761 "src/ocamlutil/inthash.ml" 106 2916 2978
+)
+"src/ocamlutil/inthash.ml" 101 2759 2769 "src/ocamlutil/inthash.ml" 101 2759 2783
+type(
+  'b bucketlist -> 'b list
+)
+ident(
+  def find_in_bucket "src/ocamlutil/inthash.ml" 101 2759 2761 "src/ocamlutil/inthash.ml" 106 2916 2978
+)
+"src/ocamlutil/inthash.ml" 102 2795 2799 "src/ocamlutil/inthash.ml" 102 2795 2804
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 103 2808 2814 "src/ocamlutil/inthash.ml" 103 2808 2816
+type(
+  'b list
+)
+"src/ocamlutil/inthash.ml" 104 2817 2826 "src/ocamlutil/inthash.ml" 104 2817 2827
+type(
+  int
+)
+ident(
+  def k "src/ocamlutil/inthash.ml" 105 2841 2847 "src/ocamlutil/inthash.ml" 105 2841 2912
+)
+"src/ocamlutil/inthash.ml" 104 2817 2829 "src/ocamlutil/inthash.ml" 104 2817 2830
+type(
+  'b
+)
+ident(
+  def d "src/ocamlutil/inthash.ml" 105 2841 2847 "src/ocamlutil/inthash.ml" 105 2841 2912
+)
+"src/ocamlutil/inthash.ml" 104 2817 2832 "src/ocamlutil/inthash.ml" 104 2817 2836
+type(
+  'b bucketlist
+)
+ident(
+  def rest "src/ocamlutil/inthash.ml" 105 2841 2847 "src/ocamlutil/inthash.ml" 105 2841 2912
+)
+"src/ocamlutil/inthash.ml" 104 2817 2821 "src/ocamlutil/inthash.ml" 104 2817 2837
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 105 2841 2850 "src/ocamlutil/inthash.ml" 105 2841 2851
+type(
+  int
+)
+ident(
+  int_ref k "src/ocamlutil/inthash.ml" 104 2817 2826 "src/ocamlutil/inthash.ml" 104 2817 2827
+)
+"src/ocamlutil/inthash.ml" 105 2841 2852 "src/ocamlutil/inthash.ml" 105 2841 2853
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/inthash.ml" 105 2841 2854 "src/ocamlutil/inthash.ml" 105 2841 2857
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 100 2738 2753 "src/ocamlutil/inthash.ml" 100 2738 2756
+)
+"src/ocamlutil/inthash.ml" 105 2841 2850 "src/ocamlutil/inthash.ml" 105 2841 2857
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 105 2841 2863 "src/ocamlutil/inthash.ml" 105 2841 2864
+type(
+  'b
+)
+ident(
+  int_ref d "src/ocamlutil/inthash.ml" 104 2817 2829 "src/ocamlutil/inthash.ml" 104 2817 2830
+)
+"src/ocamlutil/inthash.ml" 105 2841 2868 "src/ocamlutil/inthash.ml" 105 2841 2882
+type(
+  'b bucketlist -> 'b list
+)
+ident(
+  int_ref find_in_bucket "src/ocamlutil/inthash.ml" 101 2759 2769 "src/ocamlutil/inthash.ml" 101 2759 2783
+)
+"src/ocamlutil/inthash.ml" 105 2841 2883 "src/ocamlutil/inthash.ml" 105 2841 2887
+type(
+  'b bucketlist
+)
+ident(
+  int_ref rest "src/ocamlutil/inthash.ml" 104 2817 2832 "src/ocamlutil/inthash.ml" 104 2817 2836
+)
+"src/ocamlutil/inthash.ml" 105 2841 2868 "src/ocamlutil/inthash.ml" 105 2841 2887
+call(
+  stack
+)
+type(
+  'b list
+)
+"src/ocamlutil/inthash.ml" 105 2841 2863 "src/ocamlutil/inthash.ml" 105 2841 2887
+type(
+  'b list
+)
+"src/ocamlutil/inthash.ml" 105 2841 2893 "src/ocamlutil/inthash.ml" 105 2841 2907
+type(
+  'b bucketlist -> 'b list
+)
+ident(
+  int_ref find_in_bucket "src/ocamlutil/inthash.ml" 101 2759 2769 "src/ocamlutil/inthash.ml" 101 2759 2783
+)
+"src/ocamlutil/inthash.ml" 105 2841 2908 "src/ocamlutil/inthash.ml" 105 2841 2912
+type(
+  'b bucketlist
+)
+ident(
+  int_ref rest "src/ocamlutil/inthash.ml" 104 2817 2832 "src/ocamlutil/inthash.ml" 104 2817 2836
+)
+"src/ocamlutil/inthash.ml" 105 2841 2893 "src/ocamlutil/inthash.ml" 105 2841 2912
+call(
+  tail
+)
+type(
+  'b list
+)
+"src/ocamlutil/inthash.ml" 105 2841 2847 "src/ocamlutil/inthash.ml" 105 2841 2912
+type(
+  'b list
+)
+"src/ocamlutil/inthash.ml" 101 2759 2786 "src/ocamlutil/inthash.ml" 105 2841 2912
+type(
+  'b bucketlist -> 'b list
+)
+"src/ocamlutil/inthash.ml" 106 2916 2918 "src/ocamlutil/inthash.ml" 106 2916 2932
+type(
+  'a bucketlist -> 'a list
+)
+ident(
+  int_ref find_in_bucket "src/ocamlutil/inthash.ml" 101 2759 2769 "src/ocamlutil/inthash.ml" 101 2759 2783
+)
+"src/ocamlutil/inthash.ml" 106 2916 2933 "src/ocamlutil/inthash.ml" 106 2916 2934
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 100 2738 2751 "src/ocamlutil/inthash.ml" 100 2738 2752
+)
+"src/ocamlutil/inthash.ml" 106 2916 2933 "src/ocamlutil/inthash.ml" 106 2916 2939
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 106 2916 2942 "src/ocamlutil/inthash.ml" 106 2916 2946
+type(
+  int -> int
+)
+ident(
+  int_ref hash "src/ocamlutil/inthash.ml" 10 258 262 "src/ocamlutil/inthash.ml" 10 258 266
+)
+"src/ocamlutil/inthash.ml" 106 2916 2947 "src/ocamlutil/inthash.ml" 106 2916 2950
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 100 2738 2753 "src/ocamlutil/inthash.ml" 100 2738 2756
+)
+"src/ocamlutil/inthash.ml" 106 2916 2941 "src/ocamlutil/inthash.ml" 106 2916 2951
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 106 2916 2952 "src/ocamlutil/inthash.ml" 106 2916 2955
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/ocamlutil/inthash.ml" 106 2916 2957 "src/ocamlutil/inthash.ml" 106 2916 2969
+type(
+  'a bucketlist array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/ocamlutil/inthash.ml" 106 2916 2970 "src/ocamlutil/inthash.ml" 106 2916 2971
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 100 2738 2751 "src/ocamlutil/inthash.ml" 100 2738 2752
+)
+"src/ocamlutil/inthash.ml" 106 2916 2970 "src/ocamlutil/inthash.ml" 106 2916 2976
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 106 2916 2956 "src/ocamlutil/inthash.ml" 106 2916 2977
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 106 2916 2941 "src/ocamlutil/inthash.ml" 106 2916 2977
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 106 2916 2933 "src/ocamlutil/inthash.ml" 106 2916 2978
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 106 2916 2918 "src/ocamlutil/inthash.ml" 106 2916 2978
+call(
+  tail
+)
+type(
+  'a list
+)
+"src/ocamlutil/inthash.ml" 101 2759 2761 "src/ocamlutil/inthash.ml" 106 2916 2978
+type(
+  'a list
+)
+"src/ocamlutil/inthash.ml" 108 2980 2984 "src/ocamlutil/inthash.ml" 108 2980 2991
+type(
+  'a t -> int -> 'a option
+)
+ident(
+  def tryfind "src/ocamlutil/inthash.ml" 112 3049 3049 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 108 2980 2992 "src/ocamlutil/inthash.ml" 108 2980 2993
+type(
+  'a t
+)
+ident(
+  def h "src/ocamlutil/inthash.ml" 108 2980 2994 "src/ocamlutil/inthash.ml" 110 3023 3047
+)
+"src/ocamlutil/inthash.ml" 108 2980 2994 "src/ocamlutil/inthash.ml" 108 2980 2997
+type(
+  int
+)
+ident(
+  def key "src/ocamlutil/inthash.ml" 109 3000 3002 "src/ocamlutil/inthash.ml" 110 3023 3047
+)
+"src/ocamlutil/inthash.ml" 109 3000 3011 "src/ocamlutil/inthash.ml" 109 3000 3015
+type(
+  'a t -> int -> 'a
+)
+ident(
+  int_ref find "src/ocamlutil/inthash.ml" 86 2295 2299 "src/ocamlutil/inthash.ml" 86 2295 2303
+)
+"src/ocamlutil/inthash.ml" 109 3000 3016 "src/ocamlutil/inthash.ml" 109 3000 3017
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 108 2980 2992 "src/ocamlutil/inthash.ml" 108 2980 2993
+)
+"src/ocamlutil/inthash.ml" 109 3000 3018 "src/ocamlutil/inthash.ml" 109 3000 3021
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 108 2980 2994 "src/ocamlutil/inthash.ml" 108 2980 2997
+)
+"src/ocamlutil/inthash.ml" 109 3000 3010 "src/ocamlutil/inthash.ml" 109 3000 3022
+call(
+  stack
+)
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 109 3000 3006 "src/ocamlutil/inthash.ml" 109 3000 3022
+type(
+  'a option
+)
+"src/ocamlutil/inthash.ml" 110 3023 3030 "src/ocamlutil/inthash.ml" 110 3023 3039
+type(
+  exn
+)
+"src/ocamlutil/inthash.ml" 110 3023 3043 "src/ocamlutil/inthash.ml" 110 3023 3047
+type(
+  'a option
+)
+"src/ocamlutil/inthash.ml" 109 3000 3002 "src/ocamlutil/inthash.ml" 110 3023 3047
+type(
+  'a option
+)
+"src/ocamlutil/inthash.ml" 112 3049 3053 "src/ocamlutil/inthash.ml" 112 3049 3060
+type(
+  'a t -> int -> 'a -> unit
+)
+ident(
+  def replace "src/ocamlutil/inthash.ml" 129 3532 3532 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 112 3049 3061 "src/ocamlutil/inthash.ml" 112 3049 3062
+type(
+  'a t
+)
+ident(
+  def h "src/ocamlutil/inthash.ml" 112 3049 3063 "src/ocamlutil/inthash.ml" 127 3475 3530
+)
+"src/ocamlutil/inthash.ml" 112 3049 3063 "src/ocamlutil/inthash.ml" 112 3049 3066
+type(
+  int
+)
+ident(
+  def key "src/ocamlutil/inthash.ml" 112 3049 3067 "src/ocamlutil/inthash.ml" 127 3475 3530
+)
+"src/ocamlutil/inthash.ml" 112 3049 3067 "src/ocamlutil/inthash.ml" 112 3049 3071
+type(
+  'a
+)
+ident(
+  def info "src/ocamlutil/inthash.ml" 113 3074 3076 "src/ocamlutil/inthash.ml" 127 3475 3530
+)
+"src/ocamlutil/inthash.ml" 113 3074 3084 "src/ocamlutil/inthash.ml" 113 3074 3098
+type(
+  'a bucketlist -> 'a bucketlist
+)
+ident(
+  def replace_bucket "src/ocamlutil/inthash.ml" 113 3074 3076 "src/ocamlutil/inthash.ml" 127 3475 3530
+)
+"src/ocamlutil/inthash.ml" 114 3110 3116 "src/ocamlutil/inthash.ml" 114 3110 3121
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 115 3125 3133 "src/ocamlutil/inthash.ml" 115 3125 3138
+type(
+  exn -> 'a bucketlist
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/ocamlutil/inthash.ml" 115 3125 3139 "src/ocamlutil/inthash.ml" 115 3125 3148
+type(
+  exn
+)
+"src/ocamlutil/inthash.ml" 115 3125 3133 "src/ocamlutil/inthash.ml" 115 3125 3148
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 116 3149 3160 "src/ocamlutil/inthash.ml" 116 3149 3161
+type(
+  int
+)
+ident(
+  def k "src/ocamlutil/inthash.ml" 117 3175 3183 "src/ocamlutil/inthash.ml" 119 3227 3271
+)
+"src/ocamlutil/inthash.ml" 116 3149 3163 "src/ocamlutil/inthash.ml" 116 3149 3164
+type(
+  'a
+)
+ident(
+  def i "src/ocamlutil/inthash.ml" 117 3175 3183 "src/ocamlutil/inthash.ml" 119 3227 3271
+)
+"src/ocamlutil/inthash.ml" 116 3149 3166 "src/ocamlutil/inthash.ml" 116 3149 3170
+type(
+  'a bucketlist
+)
+ident(
+  def next "src/ocamlutil/inthash.ml" 117 3175 3183 "src/ocamlutil/inthash.ml" 119 3227 3271
+)
+"src/ocamlutil/inthash.ml" 116 3149 3155 "src/ocamlutil/inthash.ml" 116 3149 3171
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 117 3175 3186 "src/ocamlutil/inthash.ml" 117 3175 3187
+type(
+  int
+)
+ident(
+  int_ref k "src/ocamlutil/inthash.ml" 116 3149 3160 "src/ocamlutil/inthash.ml" 116 3149 3161
+)
+"src/ocamlutil/inthash.ml" 117 3175 3188 "src/ocamlutil/inthash.ml" 117 3175 3189
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/inthash.ml" 117 3175 3190 "src/ocamlutil/inthash.ml" 117 3175 3193
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 112 3049 3063 "src/ocamlutil/inthash.ml" 112 3049 3066
+)
+"src/ocamlutil/inthash.ml" 117 3175 3186 "src/ocamlutil/inthash.ml" 117 3175 3193
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 118 3194 3212 "src/ocamlutil/inthash.ml" 118 3194 3213
+type(
+  int
+)
+ident(
+  int_ref k "src/ocamlutil/inthash.ml" 116 3149 3160 "src/ocamlutil/inthash.ml" 116 3149 3161
+)
+"src/ocamlutil/inthash.ml" 118 3194 3215 "src/ocamlutil/inthash.ml" 118 3194 3219
+type(
+  'a
+)
+ident(
+  int_ref info "src/ocamlutil/inthash.ml" 112 3049 3067 "src/ocamlutil/inthash.ml" 112 3049 3071
+)
+"src/ocamlutil/inthash.ml" 118 3194 3221 "src/ocamlutil/inthash.ml" 118 3194 3225
+type(
+  'a bucketlist
+)
+ident(
+  int_ref next "src/ocamlutil/inthash.ml" 116 3149 3166 "src/ocamlutil/inthash.ml" 116 3149 3170
+)
+"src/ocamlutil/inthash.ml" 118 3194 3207 "src/ocamlutil/inthash.ml" 118 3194 3226
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 119 3227 3245 "src/ocamlutil/inthash.ml" 119 3227 3246
+type(
+  int
+)
+ident(
+  int_ref k "src/ocamlutil/inthash.ml" 116 3149 3160 "src/ocamlutil/inthash.ml" 116 3149 3161
+)
+"src/ocamlutil/inthash.ml" 119 3227 3248 "src/ocamlutil/inthash.ml" 119 3227 3249
+type(
+  'a
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 116 3149 3163 "src/ocamlutil/inthash.ml" 116 3149 3164
+)
+"src/ocamlutil/inthash.ml" 119 3227 3251 "src/ocamlutil/inthash.ml" 119 3227 3265
+type(
+  'a bucketlist -> 'a bucketlist
+)
+ident(
+  int_ref replace_bucket "src/ocamlutil/inthash.ml" 113 3074 3084 "src/ocamlutil/inthash.ml" 113 3074 3098
+)
+"src/ocamlutil/inthash.ml" 119 3227 3266 "src/ocamlutil/inthash.ml" 119 3227 3270
+type(
+  'a bucketlist
+)
+ident(
+  int_ref next "src/ocamlutil/inthash.ml" 116 3149 3166 "src/ocamlutil/inthash.ml" 116 3149 3170
+)
+"src/ocamlutil/inthash.ml" 119 3227 3251 "src/ocamlutil/inthash.ml" 119 3227 3270
+call(
+  stack
+)
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 119 3227 3240 "src/ocamlutil/inthash.ml" 119 3227 3271
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 117 3175 3183 "src/ocamlutil/inthash.ml" 119 3227 3271
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 113 3074 3101 "src/ocamlutil/inthash.ml" 119 3227 3271
+type(
+  'a bucketlist -> 'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 120 3275 3281 "src/ocamlutil/inthash.ml" 120 3275 3282
+type(
+  int
+)
+ident(
+  def i "src/ocamlutil/inthash.ml" 121 3325 3327 "src/ocamlutil/inthash.ml" 127 3475 3530
+)
+"src/ocamlutil/inthash.ml" 120 3275 3286 "src/ocamlutil/inthash.ml" 120 3275 3290
+type(
+  int -> int
+)
+ident(
+  int_ref hash "src/ocamlutil/inthash.ml" 10 258 262 "src/ocamlutil/inthash.ml" 10 258 266
+)
+"src/ocamlutil/inthash.ml" 120 3275 3291 "src/ocamlutil/inthash.ml" 120 3275 3294
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 112 3049 3063 "src/ocamlutil/inthash.ml" 112 3049 3066
+)
+"src/ocamlutil/inthash.ml" 120 3275 3285 "src/ocamlutil/inthash.ml" 120 3275 3295
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 120 3275 3296 "src/ocamlutil/inthash.ml" 120 3275 3299
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/ocamlutil/inthash.ml" 120 3275 3301 "src/ocamlutil/inthash.ml" 120 3275 3313
+type(
+  'a bucketlist array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/ocamlutil/inthash.ml" 120 3275 3314 "src/ocamlutil/inthash.ml" 120 3275 3315
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 112 3049 3061 "src/ocamlutil/inthash.ml" 112 3049 3062
+)
+"src/ocamlutil/inthash.ml" 120 3275 3314 "src/ocamlutil/inthash.ml" 120 3275 3320
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 120 3275 3300 "src/ocamlutil/inthash.ml" 120 3275 3321
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 120 3275 3285 "src/ocamlutil/inthash.ml" 120 3275 3321
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 121 3325 3331 "src/ocamlutil/inthash.ml" 121 3325 3332
+type(
+  'a bucketlist
+)
+ident(
+  def l "src/ocamlutil/inthash.ml" 122 3349 3351 "src/ocamlutil/inthash.ml" 127 3475 3530
+)
+"src/ocamlutil/inthash.ml" 121 3325 3335 "src/ocamlutil/inthash.ml" 121 3325 3336
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 112 3049 3061 "src/ocamlutil/inthash.ml" 112 3049 3062
+)
+"src/ocamlutil/inthash.ml" 121 3325 3335 "src/ocamlutil/inthash.ml" 121 3325 3341
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 121 3325 3343 "src/ocamlutil/inthash.ml" 121 3325 3344
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 120 3275 3281 "src/ocamlutil/inthash.ml" 120 3275 3282
+)
+"src/ocamlutil/inthash.ml" 121 3325 3335 "src/ocamlutil/inthash.ml" 121 3325 3345
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 123 3355 3359 "src/ocamlutil/inthash.ml" 123 3355 3360
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 112 3049 3061 "src/ocamlutil/inthash.ml" 112 3049 3062
+)
+"src/ocamlutil/inthash.ml" 123 3355 3359 "src/ocamlutil/inthash.ml" 123 3355 3365
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 123 3355 3367 "src/ocamlutil/inthash.ml" 123 3355 3368
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 120 3275 3281 "src/ocamlutil/inthash.ml" 120 3275 3282
+)
+"src/ocamlutil/inthash.ml" 123 3355 3373 "src/ocamlutil/inthash.ml" 123 3355 3387
+type(
+  'a bucketlist -> 'a bucketlist
+)
+ident(
+  int_ref replace_bucket "src/ocamlutil/inthash.ml" 113 3074 3084 "src/ocamlutil/inthash.ml" 113 3074 3098
+)
+"src/ocamlutil/inthash.ml" 123 3355 3388 "src/ocamlutil/inthash.ml" 123 3355 3389
+type(
+  'a bucketlist
+)
+ident(
+  int_ref l "src/ocamlutil/inthash.ml" 121 3325 3331 "src/ocamlutil/inthash.ml" 121 3325 3332
+)
+"src/ocamlutil/inthash.ml" 123 3355 3373 "src/ocamlutil/inthash.ml" 123 3355 3389
+call(
+  stack
+)
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 123 3355 3359 "src/ocamlutil/inthash.ml" 123 3355 3389
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 124 3390 3397 "src/ocamlutil/inthash.ml" 124 3390 3406
+type(
+  exn
+)
+"src/ocamlutil/inthash.ml" 125 3410 3414 "src/ocamlutil/inthash.ml" 125 3410 3415
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 112 3049 3061 "src/ocamlutil/inthash.ml" 112 3049 3062
+)
+"src/ocamlutil/inthash.ml" 125 3410 3414 "src/ocamlutil/inthash.ml" 125 3410 3420
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 125 3410 3422 "src/ocamlutil/inthash.ml" 125 3410 3423
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 120 3275 3281 "src/ocamlutil/inthash.ml" 120 3275 3282
+)
+"src/ocamlutil/inthash.ml" 125 3410 3433 "src/ocamlutil/inthash.ml" 125 3410 3436
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 112 3049 3063 "src/ocamlutil/inthash.ml" 112 3049 3066
+)
+"src/ocamlutil/inthash.ml" 125 3410 3438 "src/ocamlutil/inthash.ml" 125 3410 3442
+type(
+  'a
+)
+ident(
+  int_ref info "src/ocamlutil/inthash.ml" 112 3049 3067 "src/ocamlutil/inthash.ml" 112 3049 3071
+)
+"src/ocamlutil/inthash.ml" 125 3410 3444 "src/ocamlutil/inthash.ml" 125 3410 3445
+type(
+  'a bucketlist
+)
+ident(
+  int_ref l "src/ocamlutil/inthash.ml" 121 3325 3331 "src/ocamlutil/inthash.ml" 121 3325 3332
+)
+"src/ocamlutil/inthash.ml" 125 3410 3428 "src/ocamlutil/inthash.ml" 125 3410 3446
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 125 3410 3414 "src/ocamlutil/inthash.ml" 125 3410 3446
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 126 3448 3452 "src/ocamlutil/inthash.ml" 126 3448 3453
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 112 3049 3061 "src/ocamlutil/inthash.ml" 112 3049 3062
+)
+"src/ocamlutil/inthash.ml" 126 3448 3462 "src/ocamlutil/inthash.ml" 126 3448 3466
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"src/ocamlutil/inthash.ml" 126 3448 3467 "src/ocamlutil/inthash.ml" 126 3448 3468
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 112 3049 3061 "src/ocamlutil/inthash.ml" 112 3049 3062
+)
+"src/ocamlutil/inthash.ml" 126 3448 3467 "src/ocamlutil/inthash.ml" 126 3448 3473
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 126 3448 3462 "src/ocamlutil/inthash.ml" 126 3448 3473
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 126 3448 3452 "src/ocamlutil/inthash.ml" 126 3448 3473
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 127 3475 3482 "src/ocamlutil/inthash.ml" 127 3475 3483
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 112 3049 3061 "src/ocamlutil/inthash.ml" 112 3049 3062
+)
+"src/ocamlutil/inthash.ml" 127 3475 3482 "src/ocamlutil/inthash.ml" 127 3475 3488
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 127 3475 3489 "src/ocamlutil/inthash.ml" 127 3475 3490
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/inthash.ml" 127 3475 3491 "src/ocamlutil/inthash.ml" 127 3475 3503
+type(
+  'a bucketlist array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/ocamlutil/inthash.ml" 127 3475 3504 "src/ocamlutil/inthash.ml" 127 3475 3505
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 112 3049 3061 "src/ocamlutil/inthash.ml" 112 3049 3062
+)
+"src/ocamlutil/inthash.ml" 127 3475 3504 "src/ocamlutil/inthash.ml" 127 3475 3510
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 127 3475 3491 "src/ocamlutil/inthash.ml" 127 3475 3510
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 127 3475 3511 "src/ocamlutil/inthash.ml" 127 3475 3514
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"src/ocamlutil/inthash.ml" 127 3475 3515 "src/ocamlutil/inthash.ml" 127 3475 3516
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 127 3475 3491 "src/ocamlutil/inthash.ml" 127 3475 3516
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 127 3475 3482 "src/ocamlutil/inthash.ml" 127 3475 3516
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 127 3475 3522 "src/ocamlutil/inthash.ml" 127 3475 3528
+type(
+  'a t -> unit
+)
+ident(
+  int_ref resize "src/ocamlutil/inthash.ml" 32 699 703 "src/ocamlutil/inthash.ml" 32 699 709
+)
+"src/ocamlutil/inthash.ml" 127 3475 3529 "src/ocamlutil/inthash.ml" 127 3475 3530
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 112 3049 3061 "src/ocamlutil/inthash.ml" 112 3049 3062
+)
+"src/ocamlutil/inthash.ml" 127 3475 3522 "src/ocamlutil/inthash.ml" 127 3475 3530
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 127 3475 3479 "src/ocamlutil/inthash.ml" 127 3475 3530
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 126 3448 3452 "src/ocamlutil/inthash.ml" 127 3475 3530
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 125 3410 3414 "src/ocamlutil/inthash.ml" 127 3475 3530
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 122 3349 3351 "src/ocamlutil/inthash.ml" 127 3475 3530
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 121 3325 3327 "src/ocamlutil/inthash.ml" 127 3475 3530
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 120 3275 3277 "src/ocamlutil/inthash.ml" 127 3475 3530
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 113 3074 3076 "src/ocamlutil/inthash.ml" 127 3475 3530
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 129 3532 3536 "src/ocamlutil/inthash.ml" 129 3532 3539
+type(
+  'a t -> int -> bool
+)
+ident(
+  def mem "src/ocamlutil/inthash.ml" 137 3734 3734 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 129 3532 3540 "src/ocamlutil/inthash.ml" 129 3532 3541
+type(
+  'a t
+)
+ident(
+  def h "src/ocamlutil/inthash.ml" 129 3532 3542 "src/ocamlutil/inthash.ml" 135 3671 3732
+)
+"src/ocamlutil/inthash.ml" 129 3532 3542 "src/ocamlutil/inthash.ml" 129 3532 3545
+type(
+  int
+)
+ident(
+  def key "src/ocamlutil/inthash.ml" 130 3548 3550 "src/ocamlutil/inthash.ml" 135 3671 3732
+)
+"src/ocamlutil/inthash.ml" 130 3548 3558 "src/ocamlutil/inthash.ml" 130 3548 3571
+type(
+  'b bucketlist -> bool
+)
+ident(
+  def mem_in_bucket "src/ocamlutil/inthash.ml" 130 3548 3550 "src/ocamlutil/inthash.ml" 135 3671 3732
+)
+"src/ocamlutil/inthash.ml" 131 3583 3587 "src/ocamlutil/inthash.ml" 131 3583 3592
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 132 3596 3602 "src/ocamlutil/inthash.ml" 132 3596 3607
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 133 3608 3617 "src/ocamlutil/inthash.ml" 133 3608 3618
+type(
+  int
+)
+ident(
+  def k "src/ocamlutil/inthash.ml" 134 3632 3638 "src/ocamlutil/inthash.ml" 134 3632 3667
+)
+"src/ocamlutil/inthash.ml" 133 3608 3620 "src/ocamlutil/inthash.ml" 133 3608 3621
+type(
+  'b
+)
+ident(
+  def d "src/ocamlutil/inthash.ml" 134 3632 3638 "src/ocamlutil/inthash.ml" 134 3632 3667
+)
+"src/ocamlutil/inthash.ml" 133 3608 3623 "src/ocamlutil/inthash.ml" 133 3608 3627
+type(
+  'b bucketlist
+)
+ident(
+  def rest "src/ocamlutil/inthash.ml" 134 3632 3638 "src/ocamlutil/inthash.ml" 134 3632 3667
+)
+"src/ocamlutil/inthash.ml" 133 3608 3612 "src/ocamlutil/inthash.ml" 133 3608 3628
+type(
+  'b bucketlist
+)
+"src/ocamlutil/inthash.ml" 134 3632 3638 "src/ocamlutil/inthash.ml" 134 3632 3639
+type(
+  int
+)
+ident(
+  int_ref k "src/ocamlutil/inthash.ml" 133 3608 3617 "src/ocamlutil/inthash.ml" 133 3608 3618
+)
+"src/ocamlutil/inthash.ml" 134 3632 3640 "src/ocamlutil/inthash.ml" 134 3632 3641
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/inthash.ml" 134 3632 3642 "src/ocamlutil/inthash.ml" 134 3632 3645
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 129 3532 3542 "src/ocamlutil/inthash.ml" 129 3532 3545
+)
+"src/ocamlutil/inthash.ml" 134 3632 3638 "src/ocamlutil/inthash.ml" 134 3632 3645
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 134 3632 3646 "src/ocamlutil/inthash.ml" 134 3632 3648
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"src/ocamlutil/inthash.ml" 134 3632 3649 "src/ocamlutil/inthash.ml" 134 3632 3662
+type(
+  'b bucketlist -> bool
+)
+ident(
+  int_ref mem_in_bucket "src/ocamlutil/inthash.ml" 130 3548 3558 "src/ocamlutil/inthash.ml" 130 3548 3571
+)
+"src/ocamlutil/inthash.ml" 134 3632 3663 "src/ocamlutil/inthash.ml" 134 3632 3667
+type(
+  'b bucketlist
+)
+ident(
+  int_ref rest "src/ocamlutil/inthash.ml" 133 3608 3623 "src/ocamlutil/inthash.ml" 133 3608 3627
+)
+"src/ocamlutil/inthash.ml" 134 3632 3649 "src/ocamlutil/inthash.ml" 134 3632 3667
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 134 3632 3638 "src/ocamlutil/inthash.ml" 134 3632 3667
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 130 3548 3574 "src/ocamlutil/inthash.ml" 134 3632 3667
+type(
+  'b bucketlist -> bool
+)
+"src/ocamlutil/inthash.ml" 135 3671 3673 "src/ocamlutil/inthash.ml" 135 3671 3686
+type(
+  'a bucketlist -> bool
+)
+ident(
+  int_ref mem_in_bucket "src/ocamlutil/inthash.ml" 130 3548 3558 "src/ocamlutil/inthash.ml" 130 3548 3571
+)
+"src/ocamlutil/inthash.ml" 135 3671 3687 "src/ocamlutil/inthash.ml" 135 3671 3688
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 129 3532 3540 "src/ocamlutil/inthash.ml" 129 3532 3541
+)
+"src/ocamlutil/inthash.ml" 135 3671 3687 "src/ocamlutil/inthash.ml" 135 3671 3693
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 135 3671 3696 "src/ocamlutil/inthash.ml" 135 3671 3700
+type(
+  int -> int
+)
+ident(
+  int_ref hash "src/ocamlutil/inthash.ml" 10 258 262 "src/ocamlutil/inthash.ml" 10 258 266
+)
+"src/ocamlutil/inthash.ml" 135 3671 3701 "src/ocamlutil/inthash.ml" 135 3671 3704
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 129 3532 3542 "src/ocamlutil/inthash.ml" 129 3532 3545
+)
+"src/ocamlutil/inthash.ml" 135 3671 3695 "src/ocamlutil/inthash.ml" 135 3671 3705
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 135 3671 3706 "src/ocamlutil/inthash.ml" 135 3671 3709
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/ocamlutil/inthash.ml" 135 3671 3711 "src/ocamlutil/inthash.ml" 135 3671 3723
+type(
+  'a bucketlist array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/ocamlutil/inthash.ml" 135 3671 3724 "src/ocamlutil/inthash.ml" 135 3671 3725
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 129 3532 3540 "src/ocamlutil/inthash.ml" 129 3532 3541
+)
+"src/ocamlutil/inthash.ml" 135 3671 3724 "src/ocamlutil/inthash.ml" 135 3671 3730
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 135 3671 3710 "src/ocamlutil/inthash.ml" 135 3671 3731
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 135 3671 3695 "src/ocamlutil/inthash.ml" 135 3671 3731
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 135 3671 3687 "src/ocamlutil/inthash.ml" 135 3671 3732
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 135 3671 3673 "src/ocamlutil/inthash.ml" 135 3671 3732
+call(
+  tail
+)
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 130 3548 3550 "src/ocamlutil/inthash.ml" 135 3671 3732
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 137 3734 3738 "src/ocamlutil/inthash.ml" 137 3734 3742
+type(
+  (int -> 'a -> unit) -> 'a t -> unit
+)
+ident(
+  def iter "src/ocamlutil/inthash.ml" 148 3986 3986 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 137 3734 3744 "src/ocamlutil/inthash.ml" 137 3734 3745
+type(
+  int -> 'a -> unit
+)
+ident(
+  def f "src/ocamlutil/inthash.ml" 137 3734 3766 "src/ocamlutil/inthash.ml" 146 3978 3984
+)
+"src/ocamlutil/inthash.ml" 137 3734 3767 "src/ocamlutil/inthash.ml" 137 3734 3768
+type(
+  'a t
+)
+ident(
+  def h "src/ocamlutil/inthash.ml" 137 3734 3776 "src/ocamlutil/inthash.ml" 146 3978 3984
+)
+"src/ocamlutil/inthash.ml" 138 3785 3795 "src/ocamlutil/inthash.ml" 138 3785 3804
+type(
+  'a bucketlist -> unit
+)
+ident(
+  def do_bucket "src/ocamlutil/inthash.ml" 138 3785 3787 "src/ocamlutil/inthash.ml" 146 3978 3984
+)
+"src/ocamlutil/inthash.ml" 139 3816 3822 "src/ocamlutil/inthash.ml" 139 3816 3827
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 140 3831 3839 "src/ocamlutil/inthash.ml" 140 3831 3841
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 141 3842 3853 "src/ocamlutil/inthash.ml" 141 3842 3854
+type(
+  int
+)
+ident(
+  def k "src/ocamlutil/inthash.ml" 142 3868 3876 "src/ocamlutil/inthash.ml" 142 3868 3897
+)
+"src/ocamlutil/inthash.ml" 141 3842 3856 "src/ocamlutil/inthash.ml" 141 3842 3857
+type(
+  'a
+)
+ident(
+  def d "src/ocamlutil/inthash.ml" 142 3868 3876 "src/ocamlutil/inthash.ml" 142 3868 3897
+)
+"src/ocamlutil/inthash.ml" 141 3842 3859 "src/ocamlutil/inthash.ml" 141 3842 3863
+type(
+  'a bucketlist
+)
+ident(
+  def rest "src/ocamlutil/inthash.ml" 142 3868 3876 "src/ocamlutil/inthash.ml" 142 3868 3897
+)
+"src/ocamlutil/inthash.ml" 141 3842 3848 "src/ocamlutil/inthash.ml" 141 3842 3864
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 142 3868 3876 "src/ocamlutil/inthash.ml" 142 3868 3877
+type(
+  int -> 'a -> unit
+)
+ident(
+  int_ref f "src/ocamlutil/inthash.ml" 137 3734 3744 "src/ocamlutil/inthash.ml" 137 3734 3745
+)
+"src/ocamlutil/inthash.ml" 142 3868 3878 "src/ocamlutil/inthash.ml" 142 3868 3879
+type(
+  int
+)
+ident(
+  int_ref k "src/ocamlutil/inthash.ml" 141 3842 3853 "src/ocamlutil/inthash.ml" 141 3842 3854
+)
+"src/ocamlutil/inthash.ml" 142 3868 3880 "src/ocamlutil/inthash.ml" 142 3868 3881
+type(
+  'a
+)
+ident(
+  int_ref d "src/ocamlutil/inthash.ml" 141 3842 3856 "src/ocamlutil/inthash.ml" 141 3842 3857
+)
+"src/ocamlutil/inthash.ml" 142 3868 3876 "src/ocamlutil/inthash.ml" 142 3868 3881
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 142 3868 3883 "src/ocamlutil/inthash.ml" 142 3868 3892
+type(
+  'a bucketlist -> unit
+)
+ident(
+  int_ref do_bucket "src/ocamlutil/inthash.ml" 138 3785 3795 "src/ocamlutil/inthash.ml" 138 3785 3804
+)
+"src/ocamlutil/inthash.ml" 142 3868 3893 "src/ocamlutil/inthash.ml" 142 3868 3897
+type(
+  'a bucketlist
+)
+ident(
+  int_ref rest "src/ocamlutil/inthash.ml" 141 3842 3859 "src/ocamlutil/inthash.ml" 141 3842 3863
+)
+"src/ocamlutil/inthash.ml" 142 3868 3883 "src/ocamlutil/inthash.ml" 142 3868 3897
+call(
+  tail
+)
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 142 3868 3876 "src/ocamlutil/inthash.ml" 142 3868 3897
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 138 3785 3807 "src/ocamlutil/inthash.ml" 142 3868 3897
+type(
+  'a bucketlist -> unit
+)
+"src/ocamlutil/inthash.ml" 143 3901 3907 "src/ocamlutil/inthash.ml" 143 3901 3908
+type(
+  'a bucketlist array
+)
+ident(
+  def d "src/ocamlutil/inthash.ml" 144 3921 3923 "src/ocamlutil/inthash.ml" 146 3978 3984
+)
+"src/ocamlutil/inthash.ml" 143 3901 3911 "src/ocamlutil/inthash.ml" 143 3901 3912
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 137 3734 3767 "src/ocamlutil/inthash.ml" 137 3734 3768
+)
+"src/ocamlutil/inthash.ml" 143 3901 3911 "src/ocamlutil/inthash.ml" 143 3901 3917
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 144 3921 3931 "src/ocamlutil/inthash.ml" 144 3921 3932
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 144 3921 3936 "src/ocamlutil/inthash.ml" 144 3921 3948
+type(
+  'a bucketlist array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/ocamlutil/inthash.ml" 144 3921 3949 "src/ocamlutil/inthash.ml" 144 3921 3950
+type(
+  'a bucketlist array
+)
+ident(
+  int_ref d "src/ocamlutil/inthash.ml" 143 3901 3907 "src/ocamlutil/inthash.ml" 143 3901 3908
+)
+"src/ocamlutil/inthash.ml" 144 3921 3936 "src/ocamlutil/inthash.ml" 144 3921 3950
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 144 3921 3951 "src/ocamlutil/inthash.ml" 144 3921 3952
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/inthash.ml" 144 3921 3953 "src/ocamlutil/inthash.ml" 144 3921 3954
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 144 3921 3936 "src/ocamlutil/inthash.ml" 144 3921 3954
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 145 3958 3962 "src/ocamlutil/inthash.ml" 145 3958 3971
+type(
+  'a bucketlist -> unit
+)
+ident(
+  int_ref do_bucket "src/ocamlutil/inthash.ml" 138 3785 3795 "src/ocamlutil/inthash.ml" 138 3785 3804
+)
+"src/ocamlutil/inthash.ml" 145 3958 3972 "src/ocamlutil/inthash.ml" 145 3958 3973
+type(
+  'a bucketlist array
+)
+ident(
+  int_ref d "src/ocamlutil/inthash.ml" 143 3901 3907 "src/ocamlutil/inthash.ml" 143 3901 3908
+)
+"src/ocamlutil/inthash.ml" 145 3958 3975 "src/ocamlutil/inthash.ml" 145 3958 3976
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 144 3921 3923 "src/ocamlutil/inthash.ml" 146 3978 3984
+)
+"src/ocamlutil/inthash.ml" 145 3958 3972 "src/ocamlutil/inthash.ml" 145 3958 3977
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 145 3958 3962 "src/ocamlutil/inthash.ml" 145 3958 3977
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 144 3921 3923 "src/ocamlutil/inthash.ml" 146 3978 3984
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 143 3901 3903 "src/ocamlutil/inthash.ml" 146 3978 3984
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 138 3785 3787 "src/ocamlutil/inthash.ml" 146 3978 3984
+type(
+  unit
+)
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 148 3986 3990 "src/ocamlutil/inthash.ml" 148 3986 3994
+type(
+  (int -> 'a -> 'b -> 'b) -> 'a t -> 'b -> 'b
+)
+ident(
+  def fold "src/ocamlutil/inthash.ml" 163 4318 4318 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 148 3986 3996 "src/ocamlutil/inthash.ml" 148 3986 3997
+type(
+  int -> 'a -> 'b -> 'b
+)
+ident(
+  def f "src/ocamlutil/inthash.ml" 148 3986 4022 "src/ocamlutil/inthash.ml" 160 4308 4315
+)
+"src/ocamlutil/inthash.ml" 148 3986 4023 "src/ocamlutil/inthash.ml" 148 3986 4024
+type(
+  'a t
+)
+ident(
+  def h "src/ocamlutil/inthash.ml" 148 3986 4032 "src/ocamlutil/inthash.ml" 160 4308 4315
+)
+"src/ocamlutil/inthash.ml" 148 3986 4033 "src/ocamlutil/inthash.ml" 148 3986 4037
+type(
+  'b
+)
+ident(
+  def init "src/ocamlutil/inthash.ml" 149 4045 4047 "src/ocamlutil/inthash.ml" 160 4308 4315
+)
+"src/ocamlutil/inthash.ml" 149 4045 4055 "src/ocamlutil/inthash.ml" 149 4045 4064
+type(
+  'a bucketlist -> 'b -> 'b
+)
+ident(
+  def do_bucket "src/ocamlutil/inthash.ml" 149 4045 4047 "src/ocamlutil/inthash.ml" 160 4308 4315
+)
+"src/ocamlutil/inthash.ml" 149 4045 4065 "src/ocamlutil/inthash.ml" 149 4045 4066
+type(
+  'a bucketlist
+)
+ident(
+  def b "src/ocamlutil/inthash.ml" 149 4045 4067 "src/ocamlutil/inthash.ml" 154 4145 4180
+)
+"src/ocamlutil/inthash.ml" 149 4045 4067 "src/ocamlutil/inthash.ml" 149 4045 4071
+type(
+  'b
+)
+ident(
+  def accu "src/ocamlutil/inthash.ml" 150 4074 4078 "src/ocamlutil/inthash.ml" 154 4145 4180
+)
+"src/ocamlutil/inthash.ml" 150 4074 4084 "src/ocamlutil/inthash.ml" 150 4074 4085
+type(
+  'a bucketlist
+)
+ident(
+  int_ref b "src/ocamlutil/inthash.ml" 149 4045 4065 "src/ocamlutil/inthash.ml" 149 4045 4066
+)
+"src/ocamlutil/inthash.ml" 151 4091 4097 "src/ocamlutil/inthash.ml" 151 4091 4102
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 152 4106 4114 "src/ocamlutil/inthash.ml" 152 4106 4118
+type(
+  'b
+)
+ident(
+  int_ref accu "src/ocamlutil/inthash.ml" 149 4045 4067 "src/ocamlutil/inthash.ml" 149 4045 4071
+)
+"src/ocamlutil/inthash.ml" 153 4119 4130 "src/ocamlutil/inthash.ml" 153 4119 4131
+type(
+  int
+)
+ident(
+  def k "src/ocamlutil/inthash.ml" 154 4145 4153 "src/ocamlutil/inthash.ml" 154 4145 4180
+)
+"src/ocamlutil/inthash.ml" 153 4119 4133 "src/ocamlutil/inthash.ml" 153 4119 4134
+type(
+  'a
+)
+ident(
+  def d "src/ocamlutil/inthash.ml" 154 4145 4153 "src/ocamlutil/inthash.ml" 154 4145 4180
+)
+"src/ocamlutil/inthash.ml" 153 4119 4136 "src/ocamlutil/inthash.ml" 153 4119 4140
+type(
+  'a bucketlist
+)
+ident(
+  def rest "src/ocamlutil/inthash.ml" 154 4145 4153 "src/ocamlutil/inthash.ml" 154 4145 4180
+)
+"src/ocamlutil/inthash.ml" 153 4119 4125 "src/ocamlutil/inthash.ml" 153 4119 4141
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 154 4145 4153 "src/ocamlutil/inthash.ml" 154 4145 4162
+type(
+  'a bucketlist -> 'b -> 'b
+)
+ident(
+  int_ref do_bucket "src/ocamlutil/inthash.ml" 149 4045 4055 "src/ocamlutil/inthash.ml" 149 4045 4064
+)
+"src/ocamlutil/inthash.ml" 154 4145 4163 "src/ocamlutil/inthash.ml" 154 4145 4167
+type(
+  'a bucketlist
+)
+ident(
+  int_ref rest "src/ocamlutil/inthash.ml" 153 4119 4136 "src/ocamlutil/inthash.ml" 153 4119 4140
+)
+"src/ocamlutil/inthash.ml" 154 4145 4169 "src/ocamlutil/inthash.ml" 154 4145 4170
+type(
+  int -> 'a -> 'b -> 'b
+)
+ident(
+  int_ref f "src/ocamlutil/inthash.ml" 148 3986 3996 "src/ocamlutil/inthash.ml" 148 3986 3997
+)
+"src/ocamlutil/inthash.ml" 154 4145 4171 "src/ocamlutil/inthash.ml" 154 4145 4172
+type(
+  int
+)
+ident(
+  int_ref k "src/ocamlutil/inthash.ml" 153 4119 4130 "src/ocamlutil/inthash.ml" 153 4119 4131
+)
+"src/ocamlutil/inthash.ml" 154 4145 4173 "src/ocamlutil/inthash.ml" 154 4145 4174
+type(
+  'a
+)
+ident(
+  int_ref d "src/ocamlutil/inthash.ml" 153 4119 4133 "src/ocamlutil/inthash.ml" 153 4119 4134
+)
+"src/ocamlutil/inthash.ml" 154 4145 4175 "src/ocamlutil/inthash.ml" 154 4145 4179
+type(
+  'b
+)
+ident(
+  int_ref accu "src/ocamlutil/inthash.ml" 149 4045 4067 "src/ocamlutil/inthash.ml" 149 4045 4071
+)
+"src/ocamlutil/inthash.ml" 154 4145 4168 "src/ocamlutil/inthash.ml" 154 4145 4180
+call(
+  stack
+)
+type(
+  'b
+)
+"src/ocamlutil/inthash.ml" 154 4145 4153 "src/ocamlutil/inthash.ml" 154 4145 4180
+call(
+  tail
+)
+type(
+  'b
+)
+"src/ocamlutil/inthash.ml" 150 4074 4078 "src/ocamlutil/inthash.ml" 154 4145 4180
+type(
+  'b
+)
+"src/ocamlutil/inthash.ml" 155 4184 4190 "src/ocamlutil/inthash.ml" 155 4184 4191
+type(
+  'a bucketlist array
+)
+ident(
+  def d "src/ocamlutil/inthash.ml" 156 4204 4206 "src/ocamlutil/inthash.ml" 160 4308 4315
+)
+"src/ocamlutil/inthash.ml" 155 4184 4194 "src/ocamlutil/inthash.ml" 155 4184 4195
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 148 3986 4023 "src/ocamlutil/inthash.ml" 148 3986 4024
+)
+"src/ocamlutil/inthash.ml" 155 4184 4194 "src/ocamlutil/inthash.ml" 155 4184 4200
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 156 4204 4210 "src/ocamlutil/inthash.ml" 156 4204 4214
+type(
+  'b ref
+)
+ident(
+  def accu "src/ocamlutil/inthash.ml" 157 4229 4231 "src/ocamlutil/inthash.ml" 160 4308 4315
+)
+"src/ocamlutil/inthash.ml" 156 4204 4217 "src/ocamlutil/inthash.ml" 156 4204 4220
+type(
+  'b -> 'b ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/ocamlutil/inthash.ml" 156 4204 4221 "src/ocamlutil/inthash.ml" 156 4204 4225
+type(
+  'b
+)
+ident(
+  int_ref init "src/ocamlutil/inthash.ml" 148 3986 4033 "src/ocamlutil/inthash.ml" 148 3986 4037
+)
+"src/ocamlutil/inthash.ml" 156 4204 4217 "src/ocamlutil/inthash.ml" 156 4204 4225
+type(
+  'b ref
+)
+"src/ocamlutil/inthash.ml" 157 4229 4239 "src/ocamlutil/inthash.ml" 157 4229 4240
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 157 4229 4244 "src/ocamlutil/inthash.ml" 157 4229 4256
+type(
+  'a bucketlist array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/ocamlutil/inthash.ml" 157 4229 4257 "src/ocamlutil/inthash.ml" 157 4229 4258
+type(
+  'a bucketlist array
+)
+ident(
+  int_ref d "src/ocamlutil/inthash.ml" 155 4184 4190 "src/ocamlutil/inthash.ml" 155 4184 4191
+)
+"src/ocamlutil/inthash.ml" 157 4229 4244 "src/ocamlutil/inthash.ml" 157 4229 4258
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 157 4229 4259 "src/ocamlutil/inthash.ml" 157 4229 4260
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/ocamlutil/inthash.ml" 157 4229 4261 "src/ocamlutil/inthash.ml" 157 4229 4262
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 157 4229 4244 "src/ocamlutil/inthash.ml" 157 4229 4262
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 158 4266 4270 "src/ocamlutil/inthash.ml" 158 4266 4274
+type(
+  'b ref
+)
+ident(
+  int_ref accu "src/ocamlutil/inthash.ml" 156 4204 4210 "src/ocamlutil/inthash.ml" 156 4204 4214
+)
+"src/ocamlutil/inthash.ml" 158 4266 4275 "src/ocamlutil/inthash.ml" 158 4266 4277
+type(
+  'b ref -> 'b -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/ocamlutil/inthash.ml" 158 4266 4278 "src/ocamlutil/inthash.ml" 158 4266 4287
+type(
+  'a bucketlist -> 'b -> 'b
+)
+ident(
+  int_ref do_bucket "src/ocamlutil/inthash.ml" 149 4045 4055 "src/ocamlutil/inthash.ml" 149 4045 4064
+)
+"src/ocamlutil/inthash.ml" 158 4266 4288 "src/ocamlutil/inthash.ml" 158 4266 4289
+type(
+  'a bucketlist array
+)
+ident(
+  int_ref d "src/ocamlutil/inthash.ml" 155 4184 4190 "src/ocamlutil/inthash.ml" 155 4184 4191
+)
+"src/ocamlutil/inthash.ml" 158 4266 4291 "src/ocamlutil/inthash.ml" 158 4266 4292
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 157 4229 4231 "src/ocamlutil/inthash.ml" 159 4300 4306
+)
+"src/ocamlutil/inthash.ml" 158 4266 4288 "src/ocamlutil/inthash.ml" 158 4266 4293
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 158 4266 4294 "src/ocamlutil/inthash.ml" 158 4266 4295
+type(
+  'b ref -> 'b
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/inthash.ml" 158 4266 4295 "src/ocamlutil/inthash.ml" 158 4266 4299
+type(
+  'b ref
+)
+ident(
+  int_ref accu "src/ocamlutil/inthash.ml" 156 4204 4210 "src/ocamlutil/inthash.ml" 156 4204 4214
+)
+"src/ocamlutil/inthash.ml" 158 4266 4294 "src/ocamlutil/inthash.ml" 158 4266 4299
+type(
+  'b
+)
+"src/ocamlutil/inthash.ml" 158 4266 4278 "src/ocamlutil/inthash.ml" 158 4266 4299
+call(
+  stack
+)
+type(
+  'b
+)
+"src/ocamlutil/inthash.ml" 158 4266 4270 "src/ocamlutil/inthash.ml" 158 4266 4299
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 157 4229 4231 "src/ocamlutil/inthash.ml" 159 4300 4306
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 160 4308 4310 "src/ocamlutil/inthash.ml" 160 4308 4311
+type(
+  'b ref -> 'b
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/ocamlutil/inthash.ml" 160 4308 4311 "src/ocamlutil/inthash.ml" 160 4308 4315
+type(
+  'b ref
+)
+ident(
+  int_ref accu "src/ocamlutil/inthash.ml" 156 4204 4210 "src/ocamlutil/inthash.ml" 156 4204 4214
+)
+"src/ocamlutil/inthash.ml" 160 4308 4310 "src/ocamlutil/inthash.ml" 160 4308 4315
+type(
+  'b
+)
+"src/ocamlutil/inthash.ml" 157 4229 4231 "src/ocamlutil/inthash.ml" 160 4308 4315
+type(
+  'b
+)
+"src/ocamlutil/inthash.ml" 156 4204 4206 "src/ocamlutil/inthash.ml" 160 4308 4315
+type(
+  'b
+)
+"src/ocamlutil/inthash.ml" 155 4184 4186 "src/ocamlutil/inthash.ml" 160 4308 4315
+type(
+  'b
+)
+"src/ocamlutil/inthash.ml" 149 4045 4047 "src/ocamlutil/inthash.ml" 160 4308 4315
+type(
+  'b
+)
+"src/ocamlutil/inthash.ml" 163 4318 4322 "src/ocamlutil/inthash.ml" 163 4318 4329
+type(
+  'a t -> int -> (int -> 'a) -> 'a
+)
+ident(
+  def memoize "src/ocamlutil/inthash.ml" 191 5196 5196 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 163 4318 4331 "src/ocamlutil/inthash.ml" 163 4318 4332
+type(
+  'a t
+)
+ident(
+  def h "src/ocamlutil/inthash.ml" 163 4318 4340 "src/ocamlutil/inthash.ml" 188 5142 5173
+)
+"src/ocamlutil/inthash.ml" 163 4318 4341 "src/ocamlutil/inthash.ml" 163 4318 4344
+type(
+  int
+)
+ident(
+  def key "src/ocamlutil/inthash.ml" 163 4318 4351 "src/ocamlutil/inthash.ml" 188 5142 5173
+)
+"src/ocamlutil/inthash.ml" 163 4318 4352 "src/ocamlutil/inthash.ml" 163 4318 4353
+type(
+  int -> 'a
+)
+ident(
+  def f "src/ocamlutil/inthash.ml" 163 4318 4366 "src/ocamlutil/inthash.ml" 188 5142 5173
+)
+"src/ocamlutil/inthash.ml" 164 4374 4380 "src/ocamlutil/inthash.ml" 164 4374 4381
+type(
+  int
+)
+ident(
+  def i "src/ocamlutil/inthash.ml" 165 4424 4426 "src/ocamlutil/inthash.ml" 188 5142 5173
+)
+"src/ocamlutil/inthash.ml" 164 4374 4385 "src/ocamlutil/inthash.ml" 164 4374 4389
+type(
+  int -> int
+)
+ident(
+  int_ref hash "src/ocamlutil/inthash.ml" 10 258 262 "src/ocamlutil/inthash.ml" 10 258 266
+)
+"src/ocamlutil/inthash.ml" 164 4374 4390 "src/ocamlutil/inthash.ml" 164 4374 4393
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 163 4318 4341 "src/ocamlutil/inthash.ml" 163 4318 4344
+)
+"src/ocamlutil/inthash.ml" 164 4374 4384 "src/ocamlutil/inthash.ml" 164 4374 4394
+call(
+  stack
+)
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 164 4374 4395 "src/ocamlutil/inthash.ml" 164 4374 4398
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( mod )
+)
+"src/ocamlutil/inthash.ml" 164 4374 4400 "src/ocamlutil/inthash.ml" 164 4374 4412
+type(
+  'a bucketlist array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/ocamlutil/inthash.ml" 164 4374 4413 "src/ocamlutil/inthash.ml" 164 4374 4414
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 163 4318 4331 "src/ocamlutil/inthash.ml" 163 4318 4332
+)
+"src/ocamlutil/inthash.ml" 164 4374 4413 "src/ocamlutil/inthash.ml" 164 4374 4419
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 164 4374 4399 "src/ocamlutil/inthash.ml" 164 4374 4420
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 164 4374 4384 "src/ocamlutil/inthash.ml" 164 4374 4420
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 165 4424 4434 "src/ocamlutil/inthash.ml" 165 4424 4442
+type(
+  int -> 'a bucketlist -> 'a
+)
+ident(
+  def find_rec "src/ocamlutil/inthash.ml" 165 4424 4426 "src/ocamlutil/inthash.ml" 188 5142 5173
+)
+"src/ocamlutil/inthash.ml" 165 4424 4443 "src/ocamlutil/inthash.ml" 165 4424 4446
+type(
+  int
+)
+ident(
+  def key "src/ocamlutil/inthash.ml" 165 4424 4449 "src/ocamlutil/inthash.ml" 168 4508 4556
+)
+"src/ocamlutil/inthash.ml" 166 4458 4464 "src/ocamlutil/inthash.ml" 166 4458 4469
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 166 4458 4473 "src/ocamlutil/inthash.ml" 166 4458 4478
+type(
+  unit -> 'a
+)
+ident(
+  int_ref addit "src/ocamlutil/inthash.ml" 181 4961 4967 "src/ocamlutil/inthash.ml" 181 4961 4972
+)
+"src/ocamlutil/inthash.ml" 166 4458 4479 "src/ocamlutil/inthash.ml" 166 4458 4481
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 166 4458 4473 "src/ocamlutil/inthash.ml" 166 4458 4481
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 167 4482 4493 "src/ocamlutil/inthash.ml" 167 4482 4494
+type(
+  int
+)
+ident(
+  def k "src/ocamlutil/inthash.ml" 168 4508 4516 "src/ocamlutil/inthash.ml" 168 4508 4556
+)
+"src/ocamlutil/inthash.ml" 167 4482 4496 "src/ocamlutil/inthash.ml" 167 4482 4497
+type(
+  'a
+)
+ident(
+  def d "src/ocamlutil/inthash.ml" 168 4508 4516 "src/ocamlutil/inthash.ml" 168 4508 4556
+)
+"src/ocamlutil/inthash.ml" 167 4482 4499 "src/ocamlutil/inthash.ml" 167 4482 4503
+type(
+  'a bucketlist
+)
+ident(
+  def rest "src/ocamlutil/inthash.ml" 168 4508 4516 "src/ocamlutil/inthash.ml" 168 4508 4556
+)
+"src/ocamlutil/inthash.ml" 167 4482 4488 "src/ocamlutil/inthash.ml" 167 4482 4504
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 168 4508 4519 "src/ocamlutil/inthash.ml" 168 4508 4522
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 165 4424 4443 "src/ocamlutil/inthash.ml" 165 4424 4446
+)
+"src/ocamlutil/inthash.ml" 168 4508 4523 "src/ocamlutil/inthash.ml" 168 4508 4524
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/inthash.ml" 168 4508 4525 "src/ocamlutil/inthash.ml" 168 4508 4526
+type(
+  int
+)
+ident(
+  int_ref k "src/ocamlutil/inthash.ml" 167 4482 4493 "src/ocamlutil/inthash.ml" 167 4482 4494
+)
+"src/ocamlutil/inthash.ml" 168 4508 4519 "src/ocamlutil/inthash.ml" 168 4508 4526
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 168 4508 4532 "src/ocamlutil/inthash.ml" 168 4508 4533
+type(
+  'a
+)
+ident(
+  int_ref d "src/ocamlutil/inthash.ml" 167 4482 4496 "src/ocamlutil/inthash.ml" 167 4482 4497
+)
+"src/ocamlutil/inthash.ml" 168 4508 4539 "src/ocamlutil/inthash.ml" 168 4508 4547
+type(
+  int -> 'a bucketlist -> 'a
+)
+ident(
+  int_ref find_rec "src/ocamlutil/inthash.ml" 165 4424 4434 "src/ocamlutil/inthash.ml" 165 4424 4442
+)
+"src/ocamlutil/inthash.ml" 168 4508 4548 "src/ocamlutil/inthash.ml" 168 4508 4551
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 165 4424 4443 "src/ocamlutil/inthash.ml" 165 4424 4446
+)
+"src/ocamlutil/inthash.ml" 168 4508 4552 "src/ocamlutil/inthash.ml" 168 4508 4556
+type(
+  'a bucketlist
+)
+ident(
+  int_ref rest "src/ocamlutil/inthash.ml" 167 4482 4499 "src/ocamlutil/inthash.ml" 167 4482 4503
+)
+"src/ocamlutil/inthash.ml" 168 4508 4539 "src/ocamlutil/inthash.ml" 168 4508 4556
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 168 4508 4516 "src/ocamlutil/inthash.ml" 168 4508 4556
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 165 4424 4449 "src/ocamlutil/inthash.ml" 168 4508 4556
+type(
+  'a bucketlist -> 'a
+)
+"src/ocamlutil/inthash.ml" 169 4557 4563 "src/ocamlutil/inthash.ml" 169 4557 4577
+type(
+  int -> 'a bucketlist -> 'a
+)
+ident(
+  def find_in_bucket "src/ocamlutil/inthash.ml" 165 4424 4426 "src/ocamlutil/inthash.ml" 188 5142 5173
+)
+"src/ocamlutil/inthash.ml" 169 4557 4578 "src/ocamlutil/inthash.ml" 169 4557 4581
+type(
+  int
+)
+ident(
+  def key "src/ocamlutil/inthash.ml" 169 4557 4584 "src/ocamlutil/inthash.ml" 180 4901 4960
+)
+"src/ocamlutil/inthash.ml" 170 4593 4599 "src/ocamlutil/inthash.ml" 170 4593 4604
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 170 4593 4608 "src/ocamlutil/inthash.ml" 170 4593 4613
+type(
+  unit -> 'a
+)
+ident(
+  int_ref addit "src/ocamlutil/inthash.ml" 181 4961 4967 "src/ocamlutil/inthash.ml" 181 4961 4972
+)
+"src/ocamlutil/inthash.ml" 170 4593 4614 "src/ocamlutil/inthash.ml" 170 4593 4616
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 170 4593 4608 "src/ocamlutil/inthash.ml" 170 4593 4616
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 171 4617 4628 "src/ocamlutil/inthash.ml" 171 4617 4630
+type(
+  int
+)
+ident(
+  def k1 "src/ocamlutil/inthash.ml" 172 4646 4654 "src/ocamlutil/inthash.ml" 180 4901 4960
+)
+"src/ocamlutil/inthash.ml" 171 4617 4632 "src/ocamlutil/inthash.ml" 171 4617 4634
+type(
+  'a
+)
+ident(
+  def d1 "src/ocamlutil/inthash.ml" 172 4646 4654 "src/ocamlutil/inthash.ml" 180 4901 4960
+)
+"src/ocamlutil/inthash.ml" 171 4617 4636 "src/ocamlutil/inthash.ml" 171 4617 4641
+type(
+  'a bucketlist
+)
+ident(
+  def rest1 "src/ocamlutil/inthash.ml" 172 4646 4654 "src/ocamlutil/inthash.ml" 180 4901 4960
+)
+"src/ocamlutil/inthash.ml" 171 4617 4623 "src/ocamlutil/inthash.ml" 171 4617 4642
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 172 4646 4657 "src/ocamlutil/inthash.ml" 172 4646 4660
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 169 4557 4578 "src/ocamlutil/inthash.ml" 169 4557 4581
+)
+"src/ocamlutil/inthash.ml" 172 4646 4661 "src/ocamlutil/inthash.ml" 172 4646 4662
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/inthash.ml" 172 4646 4663 "src/ocamlutil/inthash.ml" 172 4646 4665
+type(
+  int
+)
+ident(
+  int_ref k1 "src/ocamlutil/inthash.ml" 171 4617 4628 "src/ocamlutil/inthash.ml" 171 4617 4630
+)
+"src/ocamlutil/inthash.ml" 172 4646 4657 "src/ocamlutil/inthash.ml" 172 4646 4665
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 172 4646 4671 "src/ocamlutil/inthash.ml" 172 4646 4673
+type(
+  'a
+)
+ident(
+  int_ref d1 "src/ocamlutil/inthash.ml" 171 4617 4632 "src/ocamlutil/inthash.ml" 171 4617 4634
+)
+"src/ocamlutil/inthash.ml" 173 4679 4693 "src/ocamlutil/inthash.ml" 173 4679 4698
+type(
+  'a bucketlist
+)
+ident(
+  int_ref rest1 "src/ocamlutil/inthash.ml" 171 4617 4636 "src/ocamlutil/inthash.ml" 171 4617 4641
+)
+"src/ocamlutil/inthash.ml" 174 4704 4714 "src/ocamlutil/inthash.ml" 174 4704 4719
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 174 4704 4723 "src/ocamlutil/inthash.ml" 174 4704 4728
+type(
+  unit -> 'a
+)
+ident(
+  int_ref addit "src/ocamlutil/inthash.ml" 181 4961 4967 "src/ocamlutil/inthash.ml" 181 4961 4972
+)
+"src/ocamlutil/inthash.ml" 174 4704 4729 "src/ocamlutil/inthash.ml" 174 4704 4731
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 174 4704 4723 "src/ocamlutil/inthash.ml" 174 4704 4731
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 175 4732 4747 "src/ocamlutil/inthash.ml" 175 4732 4749
+type(
+  int
+)
+ident(
+  def k2 "src/ocamlutil/inthash.ml" 176 4765 4777 "src/ocamlutil/inthash.ml" 180 4901 4960
+)
+"src/ocamlutil/inthash.ml" 175 4732 4751 "src/ocamlutil/inthash.ml" 175 4732 4753
+type(
+  'a
+)
+ident(
+  def d2 "src/ocamlutil/inthash.ml" 176 4765 4777 "src/ocamlutil/inthash.ml" 180 4901 4960
+)
+"src/ocamlutil/inthash.ml" 175 4732 4755 "src/ocamlutil/inthash.ml" 175 4732 4760
+type(
+  'a bucketlist
+)
+ident(
+  def rest2 "src/ocamlutil/inthash.ml" 176 4765 4777 "src/ocamlutil/inthash.ml" 180 4901 4960
+)
+"src/ocamlutil/inthash.ml" 175 4732 4742 "src/ocamlutil/inthash.ml" 175 4732 4761
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 176 4765 4780 "src/ocamlutil/inthash.ml" 176 4765 4783
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 169 4557 4578 "src/ocamlutil/inthash.ml" 169 4557 4581
+)
+"src/ocamlutil/inthash.ml" 176 4765 4784 "src/ocamlutil/inthash.ml" 176 4765 4785
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/inthash.ml" 176 4765 4786 "src/ocamlutil/inthash.ml" 176 4765 4788
+type(
+  int
+)
+ident(
+  int_ref k2 "src/ocamlutil/inthash.ml" 175 4732 4747 "src/ocamlutil/inthash.ml" 175 4732 4749
+)
+"src/ocamlutil/inthash.ml" 176 4765 4780 "src/ocamlutil/inthash.ml" 176 4765 4788
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 176 4765 4794 "src/ocamlutil/inthash.ml" 176 4765 4796
+type(
+  'a
+)
+ident(
+  int_ref d2 "src/ocamlutil/inthash.ml" 175 4732 4751 "src/ocamlutil/inthash.ml" 175 4732 4753
+)
+"src/ocamlutil/inthash.ml" 177 4802 4820 "src/ocamlutil/inthash.ml" 177 4802 4825
+type(
+  'a bucketlist
+)
+ident(
+  int_ref rest2 "src/ocamlutil/inthash.ml" 175 4732 4755 "src/ocamlutil/inthash.ml" 175 4732 4760
+)
+"src/ocamlutil/inthash.ml" 178 4831 4845 "src/ocamlutil/inthash.ml" 178 4831 4850
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 178 4831 4854 "src/ocamlutil/inthash.ml" 178 4831 4859
+type(
+  unit -> 'a
+)
+ident(
+  int_ref addit "src/ocamlutil/inthash.ml" 181 4961 4967 "src/ocamlutil/inthash.ml" 181 4961 4972
+)
+"src/ocamlutil/inthash.ml" 178 4831 4860 "src/ocamlutil/inthash.ml" 178 4831 4862
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 178 4831 4854 "src/ocamlutil/inthash.ml" 178 4831 4862
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 179 4864 4883 "src/ocamlutil/inthash.ml" 179 4864 4885
+type(
+  int
+)
+ident(
+  def k3 "src/ocamlutil/inthash.ml" 180 4901 4917 "src/ocamlutil/inthash.ml" 180 4901 4960
+)
+"src/ocamlutil/inthash.ml" 179 4864 4887 "src/ocamlutil/inthash.ml" 179 4864 4889
+type(
+  'a
+)
+ident(
+  def d3 "src/ocamlutil/inthash.ml" 180 4901 4917 "src/ocamlutil/inthash.ml" 180 4901 4960
+)
+"src/ocamlutil/inthash.ml" 179 4864 4891 "src/ocamlutil/inthash.ml" 179 4864 4896
+type(
+  'a bucketlist
+)
+ident(
+  def rest3 "src/ocamlutil/inthash.ml" 180 4901 4917 "src/ocamlutil/inthash.ml" 180 4901 4960
+)
+"src/ocamlutil/inthash.ml" 179 4864 4878 "src/ocamlutil/inthash.ml" 179 4864 4897
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 180 4901 4920 "src/ocamlutil/inthash.ml" 180 4901 4923
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 169 4557 4578 "src/ocamlutil/inthash.ml" 169 4557 4581
+)
+"src/ocamlutil/inthash.ml" 180 4901 4924 "src/ocamlutil/inthash.ml" 180 4901 4925
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/ocamlutil/inthash.ml" 180 4901 4926 "src/ocamlutil/inthash.ml" 180 4901 4928
+type(
+  int
+)
+ident(
+  int_ref k3 "src/ocamlutil/inthash.ml" 179 4864 4883 "src/ocamlutil/inthash.ml" 179 4864 4885
+)
+"src/ocamlutil/inthash.ml" 180 4901 4920 "src/ocamlutil/inthash.ml" 180 4901 4928
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 180 4901 4934 "src/ocamlutil/inthash.ml" 180 4901 4936
+type(
+  'a
+)
+ident(
+  int_ref d3 "src/ocamlutil/inthash.ml" 179 4864 4887 "src/ocamlutil/inthash.ml" 179 4864 4889
+)
+"src/ocamlutil/inthash.ml" 180 4901 4942 "src/ocamlutil/inthash.ml" 180 4901 4950
+type(
+  int -> 'a bucketlist -> 'a
+)
+ident(
+  int_ref find_rec "src/ocamlutil/inthash.ml" 165 4424 4434 "src/ocamlutil/inthash.ml" 165 4424 4442
+)
+"src/ocamlutil/inthash.ml" 180 4901 4951 "src/ocamlutil/inthash.ml" 180 4901 4954
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 169 4557 4578 "src/ocamlutil/inthash.ml" 169 4557 4581
+)
+"src/ocamlutil/inthash.ml" 180 4901 4955 "src/ocamlutil/inthash.ml" 180 4901 4960
+type(
+  'a bucketlist
+)
+ident(
+  int_ref rest3 "src/ocamlutil/inthash.ml" 179 4864 4891 "src/ocamlutil/inthash.ml" 179 4864 4896
+)
+"src/ocamlutil/inthash.ml" 180 4901 4942 "src/ocamlutil/inthash.ml" 180 4901 4960
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 180 4901 4917 "src/ocamlutil/inthash.ml" 180 4901 4960
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 177 4802 4814 "src/ocamlutil/inthash.ml" 180 4901 4960
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 176 4765 4777 "src/ocamlutil/inthash.ml" 180 4901 4960
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 173 4679 4687 "src/ocamlutil/inthash.ml" 180 4901 4960
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 172 4646 4654 "src/ocamlutil/inthash.ml" 180 4901 4960
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 169 4557 4584 "src/ocamlutil/inthash.ml" 180 4901 4960
+type(
+  'a bucketlist -> 'a
+)
+"src/ocamlutil/inthash.ml" 181 4961 4967 "src/ocamlutil/inthash.ml" 181 4961 4972
+type(
+  unit -> 'a
+)
+ident(
+  def addit "src/ocamlutil/inthash.ml" 165 4424 4426 "src/ocamlutil/inthash.ml" 188 5142 5173
+)
+"src/ocamlutil/inthash.ml" 181 4961 4973 "src/ocamlutil/inthash.ml" 181 4961 4975
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 182 4979 4987 "src/ocamlutil/inthash.ml" 182 4979 4989
+type(
+  'a
+)
+ident(
+  def it "src/ocamlutil/inthash.ml" 183 5001 5005 "src/ocamlutil/inthash.ml" 186 5130 5136
+)
+"src/ocamlutil/inthash.ml" 182 4979 4992 "src/ocamlutil/inthash.ml" 182 4979 4993
+type(
+  int -> 'a
+)
+ident(
+  int_ref f "src/ocamlutil/inthash.ml" 163 4318 4352 "src/ocamlutil/inthash.ml" 163 4318 4353
+)
+"src/ocamlutil/inthash.ml" 182 4979 4994 "src/ocamlutil/inthash.ml" 182 4979 4997
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 163 4318 4341 "src/ocamlutil/inthash.ml" 163 4318 4344
+)
+"src/ocamlutil/inthash.ml" 182 4979 4992 "src/ocamlutil/inthash.ml" 182 4979 4997
+call(
+  stack
+)
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 183 5001 5005 "src/ocamlutil/inthash.ml" 183 5001 5006
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 163 4318 4331 "src/ocamlutil/inthash.ml" 163 4318 4332
+)
+"src/ocamlutil/inthash.ml" 183 5001 5005 "src/ocamlutil/inthash.ml" 183 5001 5011
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 183 5001 5013 "src/ocamlutil/inthash.ml" 183 5001 5014
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 164 4374 4380 "src/ocamlutil/inthash.ml" 164 4374 4381
+)
+"src/ocamlutil/inthash.ml" 183 5001 5024 "src/ocamlutil/inthash.ml" 183 5001 5027
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 163 4318 4341 "src/ocamlutil/inthash.ml" 163 4318 4344
+)
+"src/ocamlutil/inthash.ml" 183 5001 5029 "src/ocamlutil/inthash.ml" 183 5001 5031
+type(
+  'a
+)
+ident(
+  int_ref it "src/ocamlutil/inthash.ml" 182 4979 4987 "src/ocamlutil/inthash.ml" 182 4979 4989
+)
+"src/ocamlutil/inthash.ml" 183 5001 5033 "src/ocamlutil/inthash.ml" 183 5001 5034
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 163 4318 4331 "src/ocamlutil/inthash.ml" 163 4318 4332
+)
+"src/ocamlutil/inthash.ml" 183 5001 5033 "src/ocamlutil/inthash.ml" 183 5001 5039
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 183 5001 5041 "src/ocamlutil/inthash.ml" 183 5001 5042
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 164 4374 4380 "src/ocamlutil/inthash.ml" 164 4374 4381
+)
+"src/ocamlutil/inthash.ml" 183 5001 5033 "src/ocamlutil/inthash.ml" 183 5001 5043
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 183 5001 5019 "src/ocamlutil/inthash.ml" 183 5001 5044
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 183 5001 5005 "src/ocamlutil/inthash.ml" 183 5001 5044
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 184 5046 5050 "src/ocamlutil/inthash.ml" 184 5046 5051
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 163 4318 4331 "src/ocamlutil/inthash.ml" 163 4318 4332
+)
+"src/ocamlutil/inthash.ml" 184 5046 5060 "src/ocamlutil/inthash.ml" 184 5046 5064
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.succ
+)
+"src/ocamlutil/inthash.ml" 184 5046 5065 "src/ocamlutil/inthash.ml" 184 5046 5066
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 163 4318 4331 "src/ocamlutil/inthash.ml" 163 4318 4332
+)
+"src/ocamlutil/inthash.ml" 184 5046 5065 "src/ocamlutil/inthash.ml" 184 5046 5071
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 184 5046 5060 "src/ocamlutil/inthash.ml" 184 5046 5071
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 184 5046 5050 "src/ocamlutil/inthash.ml" 184 5046 5071
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 185 5073 5080 "src/ocamlutil/inthash.ml" 185 5073 5081
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 163 4318 4331 "src/ocamlutil/inthash.ml" 163 4318 4332
+)
+"src/ocamlutil/inthash.ml" 185 5073 5080 "src/ocamlutil/inthash.ml" 185 5073 5086
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 185 5073 5087 "src/ocamlutil/inthash.ml" 185 5073 5088
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/ocamlutil/inthash.ml" 185 5073 5089 "src/ocamlutil/inthash.ml" 185 5073 5101
+type(
+  'a bucketlist array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/ocamlutil/inthash.ml" 185 5073 5102 "src/ocamlutil/inthash.ml" 185 5073 5103
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 163 4318 4331 "src/ocamlutil/inthash.ml" 163 4318 4332
+)
+"src/ocamlutil/inthash.ml" 185 5073 5102 "src/ocamlutil/inthash.ml" 185 5073 5108
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 185 5073 5089 "src/ocamlutil/inthash.ml" 185 5073 5108
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 185 5073 5109 "src/ocamlutil/inthash.ml" 185 5073 5112
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"src/ocamlutil/inthash.ml" 185 5073 5113 "src/ocamlutil/inthash.ml" 185 5073 5114
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 185 5073 5089 "src/ocamlutil/inthash.ml" 185 5073 5114
+type(
+  int
+)
+"src/ocamlutil/inthash.ml" 185 5073 5080 "src/ocamlutil/inthash.ml" 185 5073 5114
+type(
+  bool
+)
+"src/ocamlutil/inthash.ml" 185 5073 5120 "src/ocamlutil/inthash.ml" 185 5073 5126
+type(
+  'a t -> unit
+)
+ident(
+  int_ref resize "src/ocamlutil/inthash.ml" 32 699 703 "src/ocamlutil/inthash.ml" 32 699 709
+)
+"src/ocamlutil/inthash.ml" 185 5073 5127 "src/ocamlutil/inthash.ml" 185 5073 5128
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 163 4318 4331 "src/ocamlutil/inthash.ml" 163 4318 4332
+)
+"src/ocamlutil/inthash.ml" 185 5073 5120 "src/ocamlutil/inthash.ml" 185 5073 5128
+call(
+  stack
+)
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 185 5073 5077 "src/ocamlutil/inthash.ml" 185 5073 5128
+type(
+  unit
+)
+"src/ocamlutil/inthash.ml" 186 5130 5134 "src/ocamlutil/inthash.ml" 186 5130 5136
+type(
+  'a
+)
+ident(
+  int_ref it "src/ocamlutil/inthash.ml" 182 4979 4987 "src/ocamlutil/inthash.ml" 182 4979 4989
+)
+"src/ocamlutil/inthash.ml" 185 5073 5077 "src/ocamlutil/inthash.ml" 186 5130 5136
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 184 5046 5050 "src/ocamlutil/inthash.ml" 186 5130 5136
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 183 5001 5005 "src/ocamlutil/inthash.ml" 186 5130 5136
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 182 4979 4983 "src/ocamlutil/inthash.ml" 186 5130 5136
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 188 5142 5144 "src/ocamlutil/inthash.ml" 188 5142 5158
+type(
+  int -> 'a bucketlist -> 'a
+)
+ident(
+  int_ref find_in_bucket "src/ocamlutil/inthash.ml" 169 4557 4563 "src/ocamlutil/inthash.ml" 169 4557 4577
+)
+"src/ocamlutil/inthash.ml" 188 5142 5159 "src/ocamlutil/inthash.ml" 188 5142 5162
+type(
+  int
+)
+ident(
+  int_ref key "src/ocamlutil/inthash.ml" 163 4318 4341 "src/ocamlutil/inthash.ml" 163 4318 4344
+)
+"src/ocamlutil/inthash.ml" 188 5142 5163 "src/ocamlutil/inthash.ml" 188 5142 5164
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 163 4318 4331 "src/ocamlutil/inthash.ml" 163 4318 4332
+)
+"src/ocamlutil/inthash.ml" 188 5142 5163 "src/ocamlutil/inthash.ml" 188 5142 5169
+type(
+  'a bucketlist array
+)
+"src/ocamlutil/inthash.ml" 188 5142 5171 "src/ocamlutil/inthash.ml" 188 5142 5172
+type(
+  int
+)
+ident(
+  int_ref i "src/ocamlutil/inthash.ml" 164 4374 4380 "src/ocamlutil/inthash.ml" 164 4374 4381
+)
+"src/ocamlutil/inthash.ml" 188 5142 5163 "src/ocamlutil/inthash.ml" 188 5142 5173
+type(
+  'a bucketlist
+)
+"src/ocamlutil/inthash.ml" 188 5142 5144 "src/ocamlutil/inthash.ml" 188 5142 5173
+call(
+  tail
+)
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 165 4424 4426 "src/ocamlutil/inthash.ml" 188 5142 5173
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 164 4374 4376 "src/ocamlutil/inthash.ml" 188 5142 5173
+type(
+  'a
+)
+type(
+  'a
+)
+"src/ocamlutil/inthash.ml" 191 5196 5200 "src/ocamlutil/inthash.ml" 191 5196 5206
+type(
+  'a t -> (int * 'a) list
+)
+ident(
+  def tolist "src/ocamlutil/inthash.ml" 192 5238 5280 "src/ocamlutil/inthash.ml" 1 0 -1
+)
+"src/ocamlutil/inthash.ml" 191 5196 5208 "src/ocamlutil/inthash.ml" 191 5196 5209
+type(
+  'a t
+)
+ident(
+  def h "src/ocamlutil/inthash.ml" 191 5196 5217 "src/ocamlutil/inthash.ml" 192 5238 5280
+)
+"src/ocamlutil/inthash.ml" 192 5238 5240 "src/ocamlutil/inthash.ml" 192 5238 5244
+type(
+  (int -> 'a -> (int * 'a) list -> (int * 'a) list) ->
+  'a t -> (int * 'a) list -> (int * 'a) list
+)
+ident(
+  int_ref fold "src/ocamlutil/inthash.ml" 148 3986 3990 "src/ocamlutil/inthash.ml" 148 3986 3994
+)
+"src/ocamlutil/inthash.ml" 192 5238 5250 "src/ocamlutil/inthash.ml" 192 5238 5251
+type(
+  int
+)
+ident(
+  def k "src/ocamlutil/inthash.ml" 192 5238 5252 "src/ocamlutil/inthash.ml" 192 5238 5274
+)
+"src/ocamlutil/inthash.ml" 192 5238 5252 "src/ocamlutil/inthash.ml" 192 5238 5253
+type(
+  'a
+)
+ident(
+  def d "src/ocamlutil/inthash.ml" 192 5238 5254 "src/ocamlutil/inthash.ml" 192 5238 5274
+)
+"src/ocamlutil/inthash.ml" 192 5238 5254 "src/ocamlutil/inthash.ml" 192 5238 5257
+type(
+  (int * 'a) list
+)
+ident(
+  def acc "src/ocamlutil/inthash.ml" 192 5238 5261 "src/ocamlutil/inthash.ml" 192 5238 5274
+)
+"src/ocamlutil/inthash.ml" 192 5238 5262 "src/ocamlutil/inthash.ml" 192 5238 5263
+type(
+  int
+)
+ident(
+  int_ref k "src/ocamlutil/inthash.ml" 192 5238 5250 "src/ocamlutil/inthash.ml" 192 5238 5251
+)
+"src/ocamlutil/inthash.ml" 192 5238 5265 "src/ocamlutil/inthash.ml" 192 5238 5266
+type(
+  'a
+)
+ident(
+  int_ref d "src/ocamlutil/inthash.ml" 192 5238 5252 "src/ocamlutil/inthash.ml" 192 5238 5253
+)
+"src/ocamlutil/inthash.ml" 192 5238 5261 "src/ocamlutil/inthash.ml" 192 5238 5267
+type(
+  int * 'a
+)
+"src/ocamlutil/inthash.ml" 192 5238 5271 "src/ocamlutil/inthash.ml" 192 5238 5274
+type(
+  (int * 'a) list
+)
+ident(
+  int_ref acc "src/ocamlutil/inthash.ml" 192 5238 5254 "src/ocamlutil/inthash.ml" 192 5238 5257
+)
+"src/ocamlutil/inthash.ml" 192 5238 5261 "src/ocamlutil/inthash.ml" 192 5238 5274
+type(
+  (int * 'a) list
+)
+"src/ocamlutil/inthash.ml" 192 5238 5245 "src/ocamlutil/inthash.ml" 192 5238 5275
+type(
+  int -> 'a -> (int * 'a) list -> (int * 'a) list
+)
+"src/ocamlutil/inthash.ml" 192 5238 5276 "src/ocamlutil/inthash.ml" 192 5238 5277
+type(
+  'a t
+)
+ident(
+  int_ref h "src/ocamlutil/inthash.ml" 191 5196 5208 "src/ocamlutil/inthash.ml" 191 5196 5209
+)
+"src/ocamlutil/inthash.ml" 192 5238 5278 "src/ocamlutil/inthash.ml" 192 5238 5280
+type(
+  (int * 'a) list
+)
+"src/ocamlutil/inthash.ml" 192 5238 5240 "src/ocamlutil/inthash.ml" 192 5238 5280
+call(
+  tail
+)
+type(
+  (int * 'a) list
+)
+type(
+  (int * 'a) list
+)

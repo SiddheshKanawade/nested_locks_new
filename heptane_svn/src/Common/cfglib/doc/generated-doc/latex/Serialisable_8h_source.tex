@@ -1,0 +1,50 @@
+\hypertarget{Serialisable_8h_source}{}\doxysection{Serialisable.\+h}
+\label{Serialisable_8h_source}\index{include/Serialisable.h@{include/Serialisable.h}}
+\mbox{\hyperlink{Serialisable_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{/* -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{2 \textcolor{comment}{}}
+\DoxyCodeLine{3 \textcolor{comment}{   Copyright IRISA, 2003-\/2017}}
+\DoxyCodeLine{4 \textcolor{comment}{}}
+\DoxyCodeLine{5 \textcolor{comment}{   This file is part of Heptane, a tool for Worst-\/Case Execution Time (WCET)}}
+\DoxyCodeLine{6 \textcolor{comment}{   estimation.}}
+\DoxyCodeLine{7 \textcolor{comment}{   APP deposit IDDN.FR.001.510039.000.S.P.2003.000.10600}}
+\DoxyCodeLine{8 \textcolor{comment}{}}
+\DoxyCodeLine{9 \textcolor{comment}{   Heptane is free software: you can redistribute it and/or modify}}
+\DoxyCodeLine{10 \textcolor{comment}{   it under the terms of the GNU General Public License as published by}}
+\DoxyCodeLine{11 \textcolor{comment}{   the Free Software Foundation, either version 3 of the License, or}}
+\DoxyCodeLine{12 \textcolor{comment}{   (at your option) any later version.}}
+\DoxyCodeLine{13 \textcolor{comment}{}}
+\DoxyCodeLine{14 \textcolor{comment}{   Heptane is distributed in the hope that it will be useful,}}
+\DoxyCodeLine{15 \textcolor{comment}{   but WITHOUT ANY WARRANTY; without even the implied warranty of}}
+\DoxyCodeLine{16 \textcolor{comment}{   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the}}
+\DoxyCodeLine{17 \textcolor{comment}{   GNU General Public License for more details (COPYING.txt).}}
+\DoxyCodeLine{18 \textcolor{comment}{}}
+\DoxyCodeLine{19 \textcolor{comment}{   See CREDITS.txt for credits of authorship}}
+\DoxyCodeLine{20 \textcolor{comment}{}}
+\DoxyCodeLine{21 \textcolor{comment}{   -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/ */}}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#ifndef \_IRISA\_CFGLIB\_SERIALISABLE\_H}}
+\DoxyCodeLine{24 \textcolor{preprocessor}{\#define \_IRISA\_CFGLIB\_SERIALISABLE\_H}}
+\DoxyCodeLine{25 \textcolor{comment}{/* \#includes and forward declarations */}}
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{XmlExtra_8h}{XmlExtra.h}}"{}}}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{30 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespacecfglib}{cfglib}} }
+\DoxyCodeLine{31 \{}
+\DoxyCodeLine{32   \textcolor{comment}{/* \#includes and forward declarations */}}
+\DoxyCodeLine{33   \textcolor{keyword}{class }Handle; }
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35   \textcolor{keyword}{class }\mbox{\hyperlink{classcfglib_1_1Serialisable}{Serialisable}} \{}
+\DoxyCodeLine{36   \textcolor{keyword}{private}:}
+\DoxyCodeLine{37   \textcolor{keyword}{public}:}
+\DoxyCodeLine{39     \textcolor{keyword}{virtual} std::ostream\& \mbox{\hyperlink{classcfglib_1_1Serialisable_aa46c0daf93c3416320973ec4d3157421}{WriteXml}}(std::ostream\& os, \mbox{\hyperlink{classcfglib_1_1Handle}{Handle}}\& hand) = 0;}
+\DoxyCodeLine{40 }
+\DoxyCodeLine{47     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} \mbox{\hyperlink{classcfglib_1_1Serialisable_a876d530446317872259356af9b016e13}{ReadXml}}( \mbox{\hyperlink{classXmlTag}{XmlTag}} \textcolor{keyword}{const}* tag, \mbox{\hyperlink{classcfglib_1_1Handle}{Handle}}\& hand)       = 0;}
+\DoxyCodeLine{49     \textcolor{keyword}{virtual} \mbox{\hyperlink{classcfglib_1_1Serialisable_a778fac708aa3f3c1063fcadef60590ee}{\string~Serialisable}}()\{\};}
+\DoxyCodeLine{50   \} ;}
+\DoxyCodeLine{51 }
+\DoxyCodeLine{52 \} \textcolor{comment}{// cfglib::}}
+\DoxyCodeLine{53 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_IRISA\_CFGLIB\_SERIALISABLE\_H}}
+
+\end{DoxyCode}
