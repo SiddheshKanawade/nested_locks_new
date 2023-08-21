@@ -1,14 +1,2 @@
 Program,LoC, Tasks,  CAs , PRs , %Elim
-fse_obstacle/fse_obstacle.c, 24, 2, 3, 0, 100
-avionics/avionics.c, 588, 15, 51, 42, 17
-biped_robot/biped_robot.c, 340, 3, 1, 0, 100
-sumo/sumo.c, 5287, 4, 146, 0, 100
-nxtgt/nxtgt.c, 526, 4, 3, 0, 100
-lego_osek/lego_osek.c, 2036, 2, 1320, 0, 100
-objectfollower/objectfollower.c, 1878, 3, 14, 0, 100
-nxtway_gs/nxtway_gs.c, 2263, 3, 4, 0, 100
-car/car.c, 1331, 4, 670, 0, 100
-ardupilot/ardupilot.c, 1392, 4, 17, 0, 100
-follower/follower.c, 2425, 7, 1179, 0, 100
-sumo/sumoR.c, 5287, 4, 146, 77, 47
-car/carR.c, 1330, 4, 670, 125, 81
+sumo/sumo.c, 5288

@@ -48,6 +48,7 @@ type task = {
 }
 type lock_block = {
   line_no : int;
+  line_out : int;
   task_name : string;
   lock_name : string;
   number_occur : int;

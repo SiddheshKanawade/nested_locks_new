@@ -764,7 +764,6 @@ type(
   ?env_ocamlfind_metadir:string ->
   ?env_ocamlfind_commands:string ->
   ?env_ocamlfind_ignore_dups_in:string ->
-  ?env_ocamlfind_ignore_dups_in_list:string list ->
   ?env_camllib:string ->
   ?env_ldconf:string -> ?config:string -> ?toolchain:string -> unit -> unit
 )

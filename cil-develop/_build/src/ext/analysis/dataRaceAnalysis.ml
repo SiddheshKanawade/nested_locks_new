@@ -59,6 +59,8 @@ let pa_result : (varinfo * (varinfo list)) list ref = ref []
 
 let uniquelocks = ref []
 
+(* let release_uniquelocks = ref [] *)
+
 let task_response_time = ref []
 
 let blk_response_time = ref []
@@ -83,6 +85,7 @@ type task = {
 
 type lock_block = {
   line_no : int;
+  line_out : int;
   task_name : string;
   lock_name : string;
   number_occur : int;
@@ -90,6 +93,17 @@ type lock_block = {
   wcet : float;
   
 }
+
+(* type release_lock_block = {
+  block_type: string;  
+  release_line_no : int;
+  line_no : int;
+  task_name : string;
+  lock_name : string;
+  number_occur : int;
+  prior : int;
+  wcet : float;
+} *)
 
 (*******************************************Display*****************************************)
 let total_pointed_to = ref 0 
@@ -128,10 +142,10 @@ let add_uniquelock lock =
   then
   uniquelocks := !uniquelocks @ [lock]
 
-let add_uniquelock lock =
-  if (not (isin_locklist lock !uniquelocks) )
+(* let add_release_uniquelock lock =
+  if (not (isin_locklist lock !release_uniquelocks) )
   then
-  uniquelocks := !uniquelocks @ [lock]
+    release_uniquelocks := !release_uniquelocks @ [lock] *)
 
 
 let rec check tlist tk =
@@ -840,16 +854,18 @@ let rec findArgVars l =
        periodicity = getintconst p ; wcet = getfloatconst et}
 
 let rec findblockvars l =
-  match l with
-  lin::tsk::lock::numb::pr::etime ->
+match l with
+| lin :: lout :: tsk :: lock :: numb :: pr :: etime->
   add_uniquelock (getstrconst lock);
   { line_no = getintconst lin;
-       task_name = getstrconst tsk;
-       lock_name = getstrconst lock;
-       number_occur = getintconst numb;
-       prior = getintconst pr;
-	wcet = getfloatconst etime;
-   }
+    line_out = getintconst lout;
+    task_name = getstrconst tsk;
+    lock_name = getstrconst lock;
+    number_occur = getintconst numb;
+    prior = getintconst pr;
+    wcet = getfloatconst etime;
+  }
+      
 (*Get block details*) 
 let getBlocks fd =
   let getPars st =

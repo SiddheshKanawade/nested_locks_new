@@ -5,21 +5,22 @@
 #for user interface mode run ./interface.sh instead ./run.sh
 
 scripts=(
-  fse_obstacle/fse_obstacle.c
-  avionics/avionics.c
-  biped_robot/biped_robot.c
   sumo/sumo.c
-  nxtgt/nxtgt.c
-  lego_osek/lego_osek.c
-  objectfollower/objectfollower.c
-  nxtway_gs/nxtway_gs.c
-  car/car.c
-  ardupilot/ardupilot.c
-  follower/follower.c
-  sumo/sumoR.c
-  car/carR.c
   
 )
+  # fse_obstacle/fse_obstacle.c
+  # avionics/avionics.c
+  # biped_robot/biped_robot.c
+  # sumo/sumo.c
+  # nxtgt/nxtgt.c
+  # lego_osek/lego_osek.c
+  # objectfollower/objectfollower.c
+  # nxtway_gs/nxtway_gs.c
+  # car/car.c
+  # ardupilot/ardupilot.c
+  # follower/follower.c
+  # sumo/sumoR.c
+  # car/carR.c
 
 all_results=all_results.csv
 all_ruleCoverage=all_ruleCoverage.csv

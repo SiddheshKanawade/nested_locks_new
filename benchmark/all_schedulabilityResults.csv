@@ -1,27 +1,3 @@
 Program, Task, Schedulability, WCRT, Period
-fse_obstacle/fse_obstacle.c
-, ProgB, Schedulable, 0.025, 200
-avionics/avionics.c
-, Periodic_BIT, Schedulable, 5., 1000
-biped_robot/biped_robot.c
-, TaskMainTask_MotionControl, Schedulable, 0.087, 999
 sumo/sumo.c
 , TaskMainMotorControlTask, Schedulable, 0.667, 50
-nxtgt/nxtgt.c
-, TaskMainTaskLCD, Schedulable, 0.12, 500
-lego_osek/lego_osek.c
-, TaskMainLowTask, Schedulable, 2.229, 30
-objectfollower/objectfollower.c
-, TaskMainDisplayTask, Schedulable, 2.32, 100
-nxtway_gs/nxtway_gs.c
-, TaskMainOSEK_Task_Background, Schedulable, 56.522, 100
-car/car.c
-, TaskMainGetCurrentSonarSensor, Schedulable, 0.592, 25
-ardupilot/ardupilot.c
-, prs_yaw_job, Schedulable, 20., 1000
-follower/follower.c
-, TaskMainIdleTask, Schedulable, 0.386, 200
-sumo/sumoR.c
-, TaskMainMotorControlTask, Schedulable, 21.136, 50
-car/carR.c
-, TaskMainGetCurrentSonarSensor, Schedulable, 2.43, 26
