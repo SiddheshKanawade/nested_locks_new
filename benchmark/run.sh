@@ -5,8 +5,7 @@
 #for user interface mode run ./interface.sh instead ./run.sh
 
 scripts=(
-  sumo/sumo.c
-  
+  sumo/sumo.c  
 )
   # fse_obstacle/fse_obstacle.c
   # avionics/avionics.c
@@ -34,11 +33,11 @@ for script in ${scripts[@]}; do
   #Uncomment below to collect results for schedulability analysis of all benchmarks if running from terminal  
   sudo cilly -c -w --save-temps --dodisjoint --schedulabilityCheck $script 
   #Uncomment below to collect results for analysis of all benchmarks running from terminal
-  #sudo cilly -c -w --save-temps --dodisjoint $script
+  sudo cilly -c -w --save-temps --dodisjoint $script
   #Uncomment below to collect results for schedulability analysis of all benchmarks if running using docker image pepracer 
-  #sudo docker run --rm -i -v "$PWD":/data pepracer cilly -c -w --save-temps --dodisjoint --schedulabilityCheck $script 
+  # sudo docker run --rm -i -v "$PWD":/data pepracer cilly -c -w --save-temps --dodisjoint --schedulabilityCheck $script 
   
-  sudo docker run --rm -i -v "$PWD":/data pepracer cilly -c -w --save-temps --dodisjoint $script
+  # sudo docker run --rm -i -v "$PWD":/data pepracer cilly -c -w --save-temps --dodisjoint $script
   
   (wc -l $script) 2>&1 | awk '{ print $1 }' >> results.dat
   echo ", " >> results.dat
