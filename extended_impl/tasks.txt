@@ -1,0 +1,28 @@
+################################################################
+No. of tasks: 4
+Task Name: TaskMainDisplayTask
+File Name: TaskMainDisplayTask
+Priority: 10
+periodicity: 250
+WCET: 0.411000
+
+Task Name: TaskMainColorSensorTask
+File Name: TaskMainColorSensorTask
+Priority: 2
+periodicity: 100
+WCET: 0.068000
+
+Task Name: TaskMainSonarSensorTask
+File Name: TaskMainSonarSensorTask
+Priority: 5
+periodicity: 100
+WCET: 0.114000
+
+Task Name: TaskMainMotorControlTask
+File Name: TaskMainMotorControlTask
+Priority: 1
+periodicity: 50
+WCET: 0.074000
+
+
+################################################################

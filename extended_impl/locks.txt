@@ -1,0 +1,85 @@
+################################################################
+No. of blocks: 12
+Line No: 4280
+Task Name: TaskMainMotorControlTask
+Lock Name: DrivingControlResource
+Number of Occurrences: 1
+Prior: 1
+WCET: 0.071000
+
+Line No: 4411
+Task Name: TaskMainColorSensorTask
+Lock Name: DrivingControlResource
+Number of Occurrences: 2
+Prior: 2
+WCET: 0.028000
+
+Line No: 4416
+Task Name: TaskMainColorSensorTask
+Lock Name: DrivingControlResource
+Number of Occurrences: 2
+Prior: 2
+WCET: 0.020000
+
+Line No: 4830
+Task Name: TaskMainDisplayTask
+Lock Name: DrivingControlResource
+Number of Occurrences: 1
+Prior: 10
+WCET: 0.220000
+
+Line No: 4589
+Task Name: TaskMainSonarSensorTask
+Lock Name: DrivingControlResource
+Number of Occurrences: 8
+Prior: 5
+WCET: 0.019000
+
+Line No: 4624
+Task Name: TaskMainSonarSensorTask
+Lock Name: DrivingControlResource
+Number of Occurrences: 8
+Prior: 5
+WCET: 0.018000
+
+Line No: 4643
+Task Name: TaskMainSonarSensorTask
+Lock Name: DrivingControlResource
+Number of Occurrences: 8
+Prior: 5
+WCET: 0.010000
+
+Line No: 4651
+Task Name: TaskMainSonarSensorTask
+Lock Name: DrivingControlResource
+Number of Occurrences: 8
+Prior: 5
+WCET: 0.018000
+
+Line No: 4671
+Task Name: TaskMainSonarSensorTask
+Lock Name: DrivingControlResource
+Number of Occurrences: 8
+Prior: 5
+WCET: 0.012000
+
+Line No: 4679
+Task Name: TaskMainSonarSensorTask
+Lock Name: DrivingControlResource
+Number of Occurrences: 8
+Prior: 5
+WCET: 0.019000
+
+Line No: 4705
+Task Name: TaskMainSonarSensorTask
+Lock Name: DrivingControlResource
+Number of Occurrences: 8
+Prior: 5
+WCET: 0.022000
+
+Line No: 4732
+Task Name: TaskMainSonarSensorTask
+Lock Name: DrivingControlResource
+Number of Occurrences: 8
+Prior: 5
+WCET: 0.019000
