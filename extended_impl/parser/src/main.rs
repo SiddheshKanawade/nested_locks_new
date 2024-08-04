@@ -1,15 +1,14 @@
 use regex::Regex;
-use std::any::type_name;
 use std::fs;
+use std::io;
+use std::path::Path;
 
-fn print_type_of<T>(_: &T) {
-    println!("{}", type_name::<T>());
-}
+fn process_file(file_path: &Path) -> io::Result<()> {
+    println!("File: {:?}", file_path);
+    // Read the contents of the file
+    let code = fs::read_to_string(file_path)?;
 
-fn main() {
-    let file_path = "/home/siddhesh/Desktop/Siddhesh/Nested Lock WCRT/nested_locks_new/extended_impl/program_files/fse_obstacle.c";
-    let code = fs::read_to_string(file_path).expect("Error reading file"); // code -> String
-
+    // Updated regex pattern to match both single and double quotes
     let re =
         Regex::new(r"create_task\((\'.*?\'),\s*(\'.*?\'),\s*(\d+),\s*(\d+),\s*([\d.]+)\)").unwrap();
 
@@ -27,4 +26,28 @@ fn main() {
         println!("  Param 4: {}", param4);
         println!("  Param 5: {}", param5);
     }
+    Ok(())
+}
+
+fn visit_dirs(dir: &Path) -> io::Result<()> {
+    if dir.is_dir() {
+        for entry in fs::read_dir(dir)? {
+            let entry = entry?;
+            let path = entry.path();
+            if path.is_dir() {
+                visit_dirs(&path)?;
+            } else {
+                process_file(&path)?;
+            }
+        }
+    }
+    Ok(())
+}
+
+fn main() -> io::Result<()> {
+    let dir_path = Path::new("/home/siddhesh/Desktop/Siddhesh/Nested Lock WCRT/nested_locks_new/extended_impl/program_files");
+
+    visit_dirs(dir_path)?;
+
+    Ok(())
 }
