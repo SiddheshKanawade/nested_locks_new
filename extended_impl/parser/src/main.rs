@@ -1,53 +1,38 @@
-use regex::Regex;
-use std::fs;
-use std::io;
-use std::path::Path;
+// src/main.rs
 
-fn process_file(file_path: &Path) -> io::Result<()> {
-    println!("File: {:?}", file_path);
-    // Read the contents of the file
-    let code = fs::read_to_string(file_path)?;
+mod hardcode;
+mod wcrt;
 
-    // Updated regex pattern to match both single and double quotes
-    let re =
-        Regex::new(r"create_task\((\'.*?\'),\s*(\'.*?\'),\s*(\d+),\s*(\d+),\s*([\d.]+)\)").unwrap();
+use hardcode::{get_blocks, Block};
+use std::collections::HashMap;
+use wcrt::calculate_wcrt;
 
-    for cap in re.captures_iter(&code) {
-        let param1 = &cap[1];
-        let param2 = &cap[2];
-        let param3 = &cap[3];
-        let param4 = &cap[4];
-        let param5 = &cap[5];
+fn main() {
+    let blocks: Vec<HashMap<u32, Block>> = get_blocks();
 
-        println!("create_task parameters:");
-        println!("  Param 1: {}", param1);
-        println!("  Param 2: {}", param2);
-        println!("  Param 3: {}", param3);
-        println!("  Param 4: {}", param4);
-        println!("  Param 5: {}", param5);
-    }
-    Ok(())
-}
-
-fn visit_dirs(dir: &Path) -> io::Result<()> {
-    if dir.is_dir() {
-        for entry in fs::read_dir(dir)? {
-            let entry = entry?;
-            let path = entry.path();
-            if path.is_dir() {
-                visit_dirs(&path)?;
-            } else {
-                process_file(&path)?;
-            }
+    for (i, block_map) in blocks.iter().enumerate() {
+        println!("Block {}: ", i);
+        for (key, block) in block_map.iter() {
+            println!("  Key: {}", key);
+            println!("  Type: {}", block.block_type);
+            println!("  WCET: {}", block.wcet);
+            println!("  Time Period: {}", block.time_period);
+            println!("  Priority: {}", block.priority);
+            println!("  Nested: {:?}", block.nested);
         }
     }
-    Ok(())
-}
 
-fn main() -> io::Result<()> {
-    let dir_path = Path::new("/home/siddhesh/Desktop/Siddhesh/Nested Lock WCRT/nested_locks_new/extended_impl/program_files");
+    // Generate block list
+    let mut all_block_list: Vec<Vec<&Block>> = Vec::new();
 
-    visit_dirs(dir_path)?;
+    for block_map in blocks.iter() {
+        let mut block_list: Vec<&Block> = Vec::new();
+        for (_, block) in block_map.iter() {
+            block_list.push(block);
+        }
+        all_block_list.push(block_list);
+    }
 
-    Ok(())
+    // Calculate WCRT
+    calculate_wcrt(all_block_list);
 }
