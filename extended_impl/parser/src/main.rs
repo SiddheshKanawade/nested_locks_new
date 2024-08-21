@@ -1,26 +1,21 @@
 // src/main.rs
+use std::path::Path;
 
 mod hardcode;
+mod parse;
 mod wcrt;
 
 use hardcode::{get_blocks, Block};
 use indexmap::IndexMap; // Import IndexMap
+use parse::visit_dirs;
 use wcrt::calculate_wcrt;
 
 fn main() {
-    let blocks: Vec<IndexMap<u32, Block>> = get_blocks();
+    let dir_path = Path::new("/home/siddhesh/Desktop/Siddhesh/Nested Lock WCRT/nested_locks_new/extended_impl/program_files");
 
-    // for (i, block_map) in blocks.iter().enumerate() {
-    //     println!("Block {}: ", i);
-    //     for (key, block) in block_map.iter() {
-    //         println!("  Key: {}", key);
-    //         println!("  Type: {}", block.block_type);
-    //         println!("  WCET: {}", block.wcet);
-    //         println!("  Time Period: {}", block.time_period);
-    //         println!("  Priority: {}", block.priority);
-    //         println!("  Nested: {:?}", block.nested);
-    //     }
-    // }
+    visit_dirs(dir_path);
+
+    let blocks: Vec<IndexMap<u32, Block>> = get_blocks();
 
     // Generate block list
     let mut all_block_list: Vec<Vec<&Block>> = Vec::new();

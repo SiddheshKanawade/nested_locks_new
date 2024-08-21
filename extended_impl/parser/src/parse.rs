@@ -3,7 +3,7 @@ use std::fs;
 use std::io;
 use std::path::Path;
 
-fn process_file(file_path: &Path) -> io::Result<()> {
+pub fn process_file(file_path: &Path) -> io::Result<()> {
     println!("File: {:?}", file_path);
     // Read the contents of the file
     let code = fs::read_to_string(file_path)?;
@@ -29,7 +29,7 @@ fn process_file(file_path: &Path) -> io::Result<()> {
     Ok(())
 }
 
-fn visit_dirs(dir: &Path) -> io::Result<()> {
+pub fn visit_dirs(dir: &Path) -> io::Result<()> {
     if dir.is_dir() {
         for entry in fs::read_dir(dir)? {
             let entry = entry?;
