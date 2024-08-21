@@ -1,3 +1,2 @@
 *.lock
 target/
-Regex::new(r"create_task\((\'.*?\'),\s*(\'.*?\'),\s*(\d+),\s*(\d+),\s*([\d.]+)\)").unwrap();

@@ -4,23 +4,23 @@ mod hardcode;
 mod wcrt;
 
 use hardcode::{get_blocks, Block};
-use std::collections::HashMap;
+use indexmap::IndexMap; // Import IndexMap
 use wcrt::calculate_wcrt;
 
 fn main() {
-    let blocks: Vec<HashMap<u32, Block>> = get_blocks();
+    let blocks: Vec<IndexMap<u32, Block>> = get_blocks();
 
-    for (i, block_map) in blocks.iter().enumerate() {
-        println!("Block {}: ", i);
-        for (key, block) in block_map.iter() {
-            println!("  Key: {}", key);
-            println!("  Type: {}", block.block_type);
-            println!("  WCET: {}", block.wcet);
-            println!("  Time Period: {}", block.time_period);
-            println!("  Priority: {}", block.priority);
-            println!("  Nested: {:?}", block.nested);
-        }
-    }
+    // for (i, block_map) in blocks.iter().enumerate() {
+    //     println!("Block {}: ", i);
+    //     for (key, block) in block_map.iter() {
+    //         println!("  Key: {}", key);
+    //         println!("  Type: {}", block.block_type);
+    //         println!("  WCET: {}", block.wcet);
+    //         println!("  Time Period: {}", block.time_period);
+    //         println!("  Priority: {}", block.priority);
+    //         println!("  Nested: {:?}", block.nested);
+    //     }
+    // }
 
     // Generate block list
     let mut all_block_list: Vec<Vec<&Block>> = Vec::new();
