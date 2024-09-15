@@ -1,53 +1,78 @@
+use indexmap::IndexMap;
 use regex::Regex;
-use std::fs;
-use std::io;
-use std::path::Path;
 
-pub fn process_file(file_path: &Path) -> io::Result<()> {
-    println!("File: {:?}", file_path);
-    // Read the contents of the file
-    let code = fs::read_to_string(file_path)?;
+use crate::schema::Block;
 
-    // Updated regex pattern to match both single and double quotes
-    let re =
-        Regex::new(r"create_task\((\'.*?\'),\s*(\'.*?\'),\s*(\d+),\s*(\d+),\s*([\d.]+)\)").unwrap();
+pub fn get_blocks(c_code: &str) -> Vec<IndexMap<u32, Block>> {
+    let mut blocks: Vec<IndexMap<u32, Block>> = Vec::new();
 
-    for cap in re.captures_iter(&code) {
-        let param1 = &cap[1];
-        let param2 = &cap[2];
-        let param3 = &cap[3];
-        let param4 = &cap[4];
-        let param5 = &cap[5];
+    // Regex for parsing tasks: create_task('TaskName', 'ResourceName', param1, param2, wcet);
+    let task_re = Regex::new(
+        r"create_task\(\s*'([^']+)'\s*,\s*'([^']+)'\s*,\s*(\d+)\s*,\s*(\d+)\s*,\s*([\d.]+)\s*\)",
+    )
+    .unwrap();
 
-        println!("create_task parameters:");
-        println!("  Param 1: {}", param1);
-        println!("  Param 2: {}", param2);
-        println!("  Param 3: {}", param3);
-        println!("  Param 4: {}", param4);
-        println!("  Param 5: {}", param5);
-    }
-    Ok(())
-}
+    // Regex for parsing blocks: create_block(block_id, 'TaskName', 'ResourceName', param1, param2, wcet);
+    let block_re = Regex::new(r"create_block\(\s*(\d+)\s*,\s*'([^']+)'\s*,\s*'([^']+)'\s*,\s*(\d+)\s*,\s*(\d+)\s*,\s*([\d.]+)\s*\)").unwrap();
 
-pub fn visit_dirs(dir: &Path) -> io::Result<()> {
-    if dir.is_dir() {
-        for entry in fs::read_dir(dir)? {
-            let entry = entry?;
-            let path = entry.path();
-            if path.is_dir() {
-                visit_dirs(&path)?;
-            } else {
-                process_file(&path)?;
+    for cap in task_re.captures_iter(&c_code) {
+        let task_name = &cap[1];
+        let priority: u32 = cap[3].parse().unwrap();
+        let time_period: u32 = cap[4].parse().unwrap();
+        let wcet: f64 = cap[5].parse().unwrap();
+
+        let mut block_map = IndexMap::new();
+
+        // Insert task into block map
+        block_map.insert(
+            0,
+            Block {
+                block_type: task_name.to_string(),
+                wcet: wcet,
+                wcrt: 0.0,
+                time_period: time_period,
+                priority: priority,
+                nested: vec![],
+            },
+        );
+
+        let mut key_count = 1;
+        for cap in block_re.captures_iter(&c_code) {
+            // Suggests the line number at which the resource was allocated
+            // We don't update the nested list when resource is released as there examples are of non-nested block
+            // To use this approach with nested blocks, we need to update the nested list when resource is released
+
+            let block_line_number: usize = cap[1].parse().unwrap();
+            let block_task_name = &cap[2];
+            let block_resource_name = &cap[3];
+            let block_priority: u32 = cap[5].parse().unwrap(); // block priority and task priority are same
+            let block_wcet: f64 = cap[6].parse().unwrap();
+
+            //  We use task time period instead of block time period
+
+            if block_task_name == task_name {
+                assert!(block_priority == priority, "Priority mismatch");
+                block_map.insert(
+                    key_count,
+                    Block {
+                        block_type: block_resource_name.to_string(),
+                        wcet: block_wcet,
+                        wcrt: 0.0,
+                        time_period: time_period,
+                        priority: block_priority,
+                        nested: vec![],
+                    },
+                );
+
+                // Update the nested list of the task here. Insert key_count
+                if let Some(block) = block_map.get_mut(&0) {
+                    block.nested.push(key_count);
+                }
+                key_count += 1;
             }
         }
+        // Push the collected blocks for this task
+        blocks.push(block_map);
     }
-    Ok(())
-}
-
-fn main() -> io::Result<()> {
-    let dir_path = Path::new("/home/siddhesh/Desktop/Siddhesh/Nested Lock WCRT/nested_locks_new/extended_impl/program_files");
-
-    visit_dirs(dir_path)?;
-
-    Ok(())
+    blocks
 }

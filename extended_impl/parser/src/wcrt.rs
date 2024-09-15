@@ -1,8 +1,8 @@
- // Import the `cmp` module for comparison functions
+// Import the `cmp` module for comparison functions
 
 // Calcuate the WCRT of the block
 // Input is all block list
-use crate::hardcode::Block;
+use crate::schema::Block;
 
 static THRESHOLD: f64 = 0.001;
 
