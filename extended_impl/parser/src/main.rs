@@ -3,17 +3,20 @@ use std::path::Path;
 
 mod hardcode;
 mod parse;
+mod test;
 mod wcrt;
 
 use hardcode::{get_blocks, Block};
 use indexmap::IndexMap; // Import IndexMap
 use parse::visit_dirs;
+use test::test_parse;
 use wcrt::calculate_wcrt;
 
 fn main() {
     let dir_path = Path::new("/home/siddhesh/Desktop/Siddhesh/Nested Lock WCRT/nested_locks_new/extended_impl/program_files");
 
-    visit_dirs(dir_path);
+    // visit_dirs(dir_path);
+    test_parse();
 
     let blocks: Vec<IndexMap<u32, Block>> = get_blocks();
 

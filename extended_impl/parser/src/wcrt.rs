@@ -1,5 +1,4 @@
-use core::task;
-use std::{cmp, f32}; // Import the `cmp` module for comparison functions
+ // Import the `cmp` module for comparison functions
 
 // Calcuate the WCRT of the block
 // Input is all block list
@@ -89,7 +88,7 @@ pub fn loop_block(
 
 pub fn calculate_wcrt_block(
     input_block: &Block,
-    mut all_block_list: Vec<Vec<&Block>>,
+    all_block_list: Vec<Vec<&Block>>,
     task_number: usize,
     block_number: usize,
 ) -> f64 {
@@ -101,8 +100,8 @@ pub fn calculate_wcrt_block(
     if input_block.wcrt != 0.0 {
         return input_block.wcrt;
     } else {
-        let mut cij = input_block.wcet;
-        let mut prio = input_block.priority;
+        let cij = input_block.wcet;
+        let prio = input_block.priority;
         let mut locks: Vec<String> = Vec::new();
 
         for task in all_block_list.iter() {
@@ -147,7 +146,7 @@ pub fn calculate_wcrt_block(
         }
 
         // Implement loop. IF got issue, check this.
-        let mut wcrt = loop_block(
+        let wcrt = loop_block(
             cij + waiting_time,
             cij + waiting_time,
             0.0,
