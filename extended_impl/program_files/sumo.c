@@ -5177,32 +5177,30 @@ void main(void) {
                 0.114);
     create_task('TaskMainMotorControlTask', 'TaskMainMotorControlTask', 1, 50,
                 0.074);
-    create_block(4280, 'TaskMainMotorControlTask', 'DrivingControlResource', 1,
-                 1, 0.071);
-    create_block(4280, 'TaskMainMotorControlTask', 'DrivingControlResource', 1,
-                 1, 0.071);
-    create_block(4411, 'TaskMainColorSensorTask', 'DrivingControlResource', 2,
-                 2, 0.028);
-    create_block(4416, 'TaskMainColorSensorTask', 'DrivingControlResource', 2,
-                 2, 0.02);
-    create_block(4830, 'TaskMainDisplayTask', 'DrivingControlResource', 1, 10,
-                 0.22);
-    create_block(4589, 'TaskMainSonarSensorTask', 'DrivingControlResource', 8,
-                 5, 0.019);
-    create_block(4624, 'TaskMainSonarSensorTask', 'DrivingControlResource', 8,
-                 5, 0.018);
-    create_block(4643, 'TaskMainSonarSensorTask', 'DrivingControlResource', 8,
-                 5, 0.01);
-    create_block(4651, 'TaskMainSonarSensorTask', 'DrivingControlResource', 8,
-                 5, 0.018);
-    create_block(4671, 'TaskMainSonarSensorTask', 'DrivingControlResource', 8,
-                 5, 0.012);
-    create_block(4679, 'TaskMainSonarSensorTask', 'DrivingControlResource', 8,
-                 5, 0.019);
-    create_block(4705, 'TaskMainSonarSensorTask', 'DrivingControlResource', 8,
-                 5, 0.022);
-    create_block(4732, 'TaskMainSonarSensorTask', 'DrivingControlResource', 8,
-                 5, 0.019);
+    create_block(4280, 4343, 'TaskMainMotorControlTask',
+                 'DrivingControlResource', 1, 1, 0.071);
+    create_block(4411, 4413, 'TaskMainColorSensorTask',
+                 'DrivingControlResource', 2, 2, 0.028);
+    create_block(4416, 4426, 'TaskMainColorSensorTask',
+                 'DrivingControlResource', 2, 2, 0.02);
+    create_block(4830, 5039, 'TaskMainDisplayTask', 'DrivingControlResource', 1,
+                 10, 0.22);
+    create_block(4589, 4599, 'TaskMainSonarSensorTask',
+                 'DrivingControlResource', 8, 5, 0.019);
+    create_block(4624, 4634, 'TaskMainSonarSensorTask',
+                 'DrivingControlResource', 8, 5, 0.018);
+    create_block(4643, 4646, 'TaskMainSonarSensorTask',
+                 'DrivingControlResource', 8, 5, 0.01);
+    create_block(4651, 4661, 'TaskMainSonarSensorTask',
+                 'DrivingControlResource', 8, 5, 0.018);
+    create_block(4671, 4674, 'TaskMainSonarSensorTask',
+                 'DrivingControlResource', 8, 5, 0.012);
+    create_block(4679, 4689, 'TaskMainSonarSensorTask',
+                 'DrivingControlResource', 8, 5, 0.019);
+    create_block(4705, 4715, 'TaskMainSonarSensorTask',
+                 'DrivingControlResource', 8, 5, 0.022);
+    create_block(4732, 4742, 'TaskMainSonarSensorTask',
+                 'DrivingControlResource', 8, 5, 0.019);
     return;
   }
 }

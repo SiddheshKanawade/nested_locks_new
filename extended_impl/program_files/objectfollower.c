@@ -1870,9 +1870,9 @@ void main(void) {
               0.026);
   create_task('TaskMainControlTask', 'TaskMainControlTask', 2, 50, 0.13);
   create_task('TaskMainDisplayTask', 'TaskMainDisplayTask', 1, 100, 2.164);
-  create_block(494, 'TaskMainAcquisitionTask', 'dataMutex', 1, 3, 0.01);
+  create_block(494, 497, 'TaskMainAcquisitionTask', 'dataMutex', 1, 3, 0.01);
 
-  create_block(551, 'TaskMainControlTask', 'dataMutex', 1, 2, 0.009);
+  create_block(551, 553, 'TaskMainControlTask', 'dataMutex', 1, 2, 0.009);
 
   return;
 }

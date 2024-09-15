@@ -13,6 +13,7 @@ use schema::Block;
 use wcrt::calculate_wcrt;
 
 fn wcrt_calculation(path: &Path) -> io::Result<()> {
+    println!("Calculating WCRT for {:?}", path);
     let c_code = fs::read_to_string(&path)?;
     let blocks: Vec<IndexMap<u32, Block>> = get_blocks(c_code.as_str());
 

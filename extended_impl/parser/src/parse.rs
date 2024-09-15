@@ -13,7 +13,7 @@ pub fn get_blocks(c_code: &str) -> Vec<IndexMap<u32, Block>> {
     .unwrap();
 
     // Regex for parsing blocks: create_block(block_id, 'TaskName', 'ResourceName', param1, param2, wcet);
-    let block_re = Regex::new(r"create_block\(\s*(\d+)\s*,\s*'([^']+)'\s*,\s*'([^']+)'\s*,\s*(\d+)\s*,\s*(\d+)\s*,\s*([\d.]+)\s*\)").unwrap();
+    let block_re = Regex::new(r"create_block\(\s*(\d+)\s*,\s*(\d+)\s*,\s*'([^']+)'\s*,\s*'([^']+)'\s*,\s*(\d+)\s*,\s*(\d+)\s*,\s*([\d.]+)\s*\)").unwrap();
 
     for cap in task_re.captures_iter(&c_code) {
         let task_name = &cap[1];
@@ -28,6 +28,8 @@ pub fn get_blocks(c_code: &str) -> Vec<IndexMap<u32, Block>> {
             0,
             Block {
                 block_type: task_name.to_string(),
+                get_resource_line_number: 0, // Get resource Line Number is not used for task block
+                release_resource_line_number: 0, // Release resource Line Number is not used for task block
                 wcet: wcet,
                 wcrt: 0.0,
                 time_period: time_period,
@@ -42,11 +44,12 @@ pub fn get_blocks(c_code: &str) -> Vec<IndexMap<u32, Block>> {
             // We don't update the nested list when resource is released as there examples are of non-nested block
             // To use this approach with nested blocks, we need to update the nested list when resource is released
 
-            let block_line_number: usize = cap[1].parse().unwrap();
-            let block_task_name = &cap[2];
-            let block_resource_name = &cap[3];
-            let block_priority: u32 = cap[5].parse().unwrap(); // block priority and task priority are same
-            let block_wcet: f64 = cap[6].parse().unwrap();
+            let get_resource_line_number: u32 = cap[1].parse().unwrap();
+            let release_resource_line_number: u32 = cap[2].parse().unwrap();
+            let block_task_name = &cap[3];
+            let block_resource_name = &cap[4];
+            let block_priority: u32 = cap[6].parse().unwrap(); // block priority and task priority are same
+            let block_wcet: f64 = cap[7].parse().unwrap();
 
             //  We use task time period instead of block time period
 
@@ -56,6 +59,8 @@ pub fn get_blocks(c_code: &str) -> Vec<IndexMap<u32, Block>> {
                     key_count,
                     Block {
                         block_type: block_resource_name.to_string(),
+                        get_resource_line_number: get_resource_line_number,
+                        release_resource_line_number: release_resource_line_number,
                         wcet: block_wcet,
                         wcrt: 0.0,
                         time_period: time_period,
@@ -69,6 +74,26 @@ pub fn get_blocks(c_code: &str) -> Vec<IndexMap<u32, Block>> {
                     block.nested.push(key_count);
                 }
                 key_count += 1;
+            }
+        }
+
+        let cloned_block_map = block_map.clone();
+
+        for (parent_ind, parent_block) in block_map.iter_mut() {
+            if parent_ind == &0 {
+                continue;
+            }
+
+            for (ind, block) in cloned_block_map.iter() {
+                if ind == &0 {
+                    continue;
+                }
+                let block_get_resource_line_number = block.get_resource_line_number;
+                if (block_get_resource_line_number < parent_block.release_resource_line_number)
+                    & (block_get_resource_line_number > parent_block.get_resource_line_number)
+                {
+                    parent_block.nested.push(*ind);
+                }
             }
         }
         // Push the collected blocks for this task

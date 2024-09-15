@@ -155,8 +155,16 @@ pub fn calculate_wcrt_block(
             task_number,
         );
 
-        println!("{:?}", all_block_list[task_number][block_number].block_type);
-        println!("{:?}", wcrt);
+        if all_block_list[task_number][block_number]
+            .block_type
+            .contains("Task")
+        {
+            println!(
+                "Task Name: {:?}",
+                all_block_list[task_number][block_number].block_type
+            );
+            println!("WCRT: {:?}", wcrt);
+        }
 
         return wcrt;
     }
